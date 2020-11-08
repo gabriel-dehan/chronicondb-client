@@ -1,8 +1,15 @@
+
+import { configure } from 'mobx';
+import App from 'pages/App';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+
 import reportWebVitals from './reportWebVitals';
+
+// import 'src/assets/styles/global.css';
+
+// Mobx : all state that is observed somewhere needs to be changed through actions
+configure({ enforceActions: 'observed' });
 
 ReactDOM.render(
   <React.StrictMode>

@@ -1,5 +1,4 @@
 {
-  "extends": "./paths.json",
   "compilerOptions": {
     "target": "es2018",
     "module": "esnext",
@@ -9,7 +8,8 @@
       "esnext.asynciterable",
       "dom"
     ],
-    "sourceRoot": "/",
+    "baseUrl": "./src",
+    "sourceRoot": "./src",
     "outDir": "./dist",
     "allowJs": true,
     "noFallthroughCasesInSwitch": true,
@@ -39,6 +39,7 @@
     "dist"
   ],
   "include": [
-    "src"
+    "src",
+    "cli"
   ]
 }

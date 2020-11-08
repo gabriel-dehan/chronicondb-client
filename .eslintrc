@@ -1,25 +1,25 @@
-module.exports = {
-  parser: '@typescript-eslint/parser',
-  parserOptions: {
-    project: 'tsconfig.json',
-    sourceType: 'module',
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "tsconfig.json",
+    "sourceType": "module",
   },
-  plugins: [
+  "plugins": [
     "import",
-    '@typescript-eslint/eslint-plugin'
+    "@typescript-eslint/eslint-plugin"
   ],
-  extends: [
-    'plugin:@typescript-eslint/eslint-recommended',
-    'plugin:@typescript-eslint/recommended',
-    'prettier',
-    'prettier/@typescript-eslint',
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:@typescript-eslint/recommended"
   ],
-  root: true,
-  env: {
-    node: true,
-    jest: true,
+  "root": true,
+  "env": {
+    "node": true,
+    "jest": true,
   },
-  rules: {
+  "rules": {
     "indent": ["error", 2, {
       "SwitchCase": 1
     }],
@@ -88,6 +88,32 @@ module.exports = {
     "no-fallthrough": "off",
     "camelcase": "off",
 
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+    "react/prefer-stateless-function": "warn",
+    "react/no-this-in-sfc": "error",
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off",
+    "react/display-name": "warn",
+    "react/sort-comp": ["warn", {
+      "order": [
+        "static-methods",
+        "constructor",
+        "getter",
+        "setter",
+        "lifecyle",
+        "everything-else",
+        "/^on.+$/",
+        "rendering"
+      ],
+      "groups": {
+        "rendering": [
+          "/^render.+$/",
+          "render"
+        ]
+      }
+    }],
+
     "import/order": ["error",
       {
         "groups": [
@@ -103,10 +129,10 @@ module.exports = {
       }
     ],
     "no-mixed-operators": "error",
-    "no-shadow": "error",
+    "no-shadow": "off",
 
-    '@typescript-eslint/interface-name-prefix': 'off',
-    '@typescript-eslint/explicit-module-boundary-types': 'off',
+    "@typescript-eslint/interface-name-prefix": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/ban-ts-comment": ["warn"],
     "@typescript-eslint/no-unused-vars": ["error", {
@@ -114,5 +140,5 @@ module.exports = {
     }],
     "@typescript-eslint/camelcase": "off",
     "@typescript-eslint/no-use-before-define": "off"
-  },
-};
+  }
+}
