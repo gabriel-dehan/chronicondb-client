@@ -1,46 +1,51 @@
-# Getting Started with Create React App
+# Chronicon DB
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Starting up
 
-## Available Scripts
+Install all dependencies
+```
+  yarn
+```
 
-In the project directory, you can run:
+## How to get up to date item and skills data
 
-### `yarn start`
+Follow the Chronicon discord's instructions:
+```
+  Note: Tinka builds are usually Windows-only
+  1) Right-click Chronicon in your Steam library and select Properties
+  2) Click the BETAS tab, and enter the following code: tinkaistheking
+  3) Click CHECK CODE, select "tinkabuilds" from the drop down list, and click CLOSE
+  4) Wait for update to finish
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```
+Tinka commands:
+  >    ctrl+i   = drop some random items
+  >    shift+i  = dialogue to drop specific item id's
+  >    ctrl+u   = drop a ton of scrolls
+  >    shift+u  = drop a ton of gems
+  >    ctrl+m   = spawn a pack of elites with the affix id specified
+  >    shift+m  = dialogue to spawn specific enemies
+  >    ctrl+p   = print an item list to file (in appdata location)
+  >    ctrl+c   = obtain 10M crystals
+  >    shift+k  = kill all enemies on screen
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Use `CTRL + P` in the main menu to generate the item and enchants data files for the current version.
+- Use `CTRL + S + J` in the main menu to generate skill data file for the current version.
 
-### `yarn test`
+Those files will be located in your `%LOCALAPPDATA%\Chronicon` folder.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- You will also need the `locale` folder that can be found in your `Program Files\Steam\steamapps\common\Chronicon` folder.
+- Copy all those inside this project's `src/engine/data/VERSION_NUMBER/sources` folder, where `VERSION_NUMBER` is the current version, e.g: `1.10.2`. You'll have to create this folder.
 
-### `yarn build`
+You can then use the command `yarn parse:all VERSION_NUMBER`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Example:
+```
+  yarn parse:all 1.10.2
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This generates JSON files for items, skills and enchants in the `engine/data/VERSION_NUMBER/extracts` folder if you need those for your own projects.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+There you go, chronicondb is now up to date.
