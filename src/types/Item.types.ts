@@ -3,6 +3,7 @@ import { CharacterClass } from 'types/Character.types';
 export interface Item {
   uuid: number,
   name: string,
+  icon: string | null,
   flavor?: string,
   description?: string,
   category: ItemCategory,
@@ -11,7 +12,7 @@ export interface Item {
   classRestriction: CharacterClass | null;
   minLevel: number;
   set: SetId | null;
-  baseEnchants: string[];
+  baseEnchants: number[];
 }
 
 export interface ItemSet {

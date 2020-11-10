@@ -3,7 +3,7 @@ import { compact, findKey, reduce, isEmpty } from 'lodash';
 import { CharacterClass } from '../../types/Character.types';
 import { Item, ItemCategory, ItemRarity, ItemType, SetId } from '../../types/Item.types';
 import { ITEM_TYPES_BY_CATEGORIES, ITEM_ID_BY_SETS } from '../data/dataMappings';
-import { readFile } from '../utils/fileUtils';
+import { readFile, assetExists } from '../utils/fileUtils';
 import { getLocaleSection } from './parseLocale';
 
 interface ItemMetaData {
@@ -20,6 +20,8 @@ export function parseItems(version: number, debug = false): Item[] {
     const [itemData, enchantsData] = rawItem.split(' -- ');
     const [id, name, typeAndRarity, rawClassRestriction, rawMinLevel] = itemData.split(' - ').map(data => data.trim());
 
+    const hasIcon = assetExists(`items/all/spr_itemicons_${id}.png`);
+    const icon = hasIcon ? `spr_itemicons_${id}.png` : null;
     const uuid = parseInt(id);
     const classRestriction = parseClassRestriction(rawClassRestriction);
     const baseEnchants = parseBaseEnchants(enchantsData);
@@ -30,6 +32,7 @@ export function parseItems(version: number, debug = false): Item[] {
     const item = {
       uuid,
       name,
+      icon,
       flavor: localeData[uuid].flavor,
       description: localeData[uuid].txt,
       category,
@@ -57,9 +60,9 @@ function parseClassRestriction(classData: string): CharacterClass | null {
     : classData.toLowerCase() as CharacterClass;
 }
 
-function parseBaseEnchants(enchantsData: string): string[] {
+function parseBaseEnchants(enchantsData: string): number[] {
   return enchantsData
-    ? compact(enchantsData.split(/\s/).map(enchant => enchant.replace(/e/g, '')))
+    ? compact(enchantsData.split(/\s/).map(enchant => enchant.replace(/e/g, ''))).map(id => parseInt(id))
     : [];
 }
 
