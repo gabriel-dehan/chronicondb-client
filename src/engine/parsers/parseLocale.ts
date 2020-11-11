@@ -1,9 +1,36 @@
-import { compact } from 'lodash';
+import { compact, reduce, isEmpty } from 'lodash';
 
-import { readFile } from '../utils/fileUtils';
+import { readSourceFile } from '../utils/fileUtils';
+
+
+export interface LocaleData {
+  [key: number]: Record<string, string>;
+}
+
+export function parseLocaleData(data: Record<string, string>, parser: RegExp): LocaleData {
+
+  return reduce(data, (itemData: LocaleData, value, key) => {
+    const matches = key.match(parser);
+
+    if (matches) {
+      const itemId = parseInt(matches[1]);
+      const keyName = matches[2];
+
+      if (!itemData[itemId]) {
+        itemData[itemId] = {};
+      }
+
+      if (!isEmpty(value)) {
+        itemData[itemId][keyName] = value;
+      }
+    }
+
+    return itemData;
+  }, {});
+}
 
 export function getLocaleSection(version: number, fileName: string, section: string): Record<string, string> {
-  const localizationData = compact(readFile(version, fileName).split(/\n|\r/));
+  const localizationData = compact(readSourceFile(version, fileName).split(/\n|\r/));
   const rawSectionData = [];
   const genericSeparator = /\[[A-Z]+\]/;
   const sectionSeparator = new RegExp(`\\[${section.toUpperCase()}\\]`);

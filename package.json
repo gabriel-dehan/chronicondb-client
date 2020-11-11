@@ -32,7 +32,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint src/**/*.{ts,tsx}",
-    "parse:all": "ts-node -O '{ \"module\":\"commonjs\" }' src/engine/parsers/parseAll.ts --silent --version"
+    "parse:all": "ts-node -O '{ \"module\":\"commonjs\" }' src/engine/parsers/parseAll.ts --verbose --version"
   },
   "eslintConfig": {
     "extends": [

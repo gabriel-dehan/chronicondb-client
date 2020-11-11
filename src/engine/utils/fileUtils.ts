@@ -1,9 +1,19 @@
 import * as fs from 'fs';
 import * as path from 'path';
 
-export function readFile(version: number, fileName: string): string {
+export function readSourceFile(version: number, fileName: string): string {
   const absolutePath = path.resolve(__dirname, `../data/${version}/sources/${fileName}`);
   return fs.readFileSync(absolutePath).toString();
+}
+
+export function readExtractFile(version: number, fileName: string): string {
+  const absolutePath = path.resolve(__dirname, `../data/${version}/extracts/${fileName}.json`);
+  return fs.readFileSync(absolutePath).toString();
+}
+
+export function writeFile(data: unknown, version: number, fileName: string): void {
+  const absolutePath = path.resolve(__dirname, `../data/${version}/extracts/${fileName}.json`);
+  fs.writeFileSync(absolutePath, JSON.stringify(data, null, 2));
 }
 
 

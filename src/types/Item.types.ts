@@ -33,18 +33,18 @@ export enum ItemRarity {
 }
 
 export enum ItemCategory {
-  Helmet = 'helmet',
-  Armor = 'armor',
-  Boots = 'boots',
-  Weapon = 'weapon',
-  Offhand = 'offhand',
-  Ring = 'ring',
-  Amulet = 'amulet',
-  Accessory = 'accessory',
-  Gem = 'gem',
-  Consumables = 'consumables',
-  Misc = 'misc',
-  Craft = 'craft'
+  Helmet = 'Welmet',
+  Armor = 'Armor',
+  Boots = 'Boots',
+  Weapon = 'Weapon',
+  Offhand = 'Offhand',
+  Ring = 'Ring',
+  Amulet = 'Amulet',
+  Accessory = 'Accessory',
+  Gem = 'Gem',
+  Consumables = 'Consumables',
+  Misc = 'Misc',
+  Craft = 'Craft'
 }
 
 export enum ItemType {

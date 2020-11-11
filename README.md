@@ -49,3 +49,49 @@ Example:
 This generates JSON files for items, skills and enchants in the `engine/data/VERSION_NUMBER/extracts` folder if you need those for your own projects.
 
 There you go, chronicondb is now up to date.
+
+## TODO:
+
+- Enchants
+  - Power & Enchant
+  - Gems (Enchants)
+  - Runes (Enchants)
+
+- Implement logic
+
+Enchanted:
+1 Minor OR 1 Major
+
+Rare:
+1 Minor
+1 Major
+If Ring or Amulet:
+1 Epic
+if Weapon, Armor, or Boots:
+25% chance to replace 1 Major with 1 Epic
+
+Unique:
+1 Minor
+2 Major
+If Ring or Amulet:
+1 Epic
+if Weapon, Armor, or Boots:
+25% chance to replace 1 Major with 1 Epic
+
+
+Legendary:
+2 Minor
+2 Major
+If Ring or Amulet:
+1 Epic
+if Weapon, Armor, or Boots:
+25% chance to replace 1 Major with 1 Epic
+
+
+True Legendary:
+2 Minor
+2 Major
+If Ring or Amulet:
+1 Epic
+if Weapon, Armor, or Boots:
+25% chance to replace 1 Major with 1 Epic

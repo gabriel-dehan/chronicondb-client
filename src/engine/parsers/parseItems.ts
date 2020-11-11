@@ -1,10 +1,10 @@
-import { compact, findKey, reduce, isEmpty } from 'lodash';
+import { compact, findKey } from 'lodash';
 
 import { CharacterClass } from '../../types/Character.types';
 import { Item, ItemCategory, ItemRarity, ItemType, SetId } from '../../types/Item.types';
 import { ITEM_TYPES_BY_CATEGORIES, ITEM_ID_BY_SETS } from '../data/dataMappings';
-import { readFile, assetExists } from '../utils/fileUtils';
-import { getLocaleSection } from './parseLocale';
+import { readSourceFile, writeFile, assetExists } from '../utils/fileUtils';
+import { getLocaleSection, parseLocaleData, LocaleData } from './parseLocale';
 
 interface ItemMetaData {
   rarity: ItemRarity,
@@ -12,9 +12,9 @@ interface ItemMetaData {
   category: ItemCategory,
 }
 
-export function parseItems(version: number, debug = false): Item[] {
-  const rawItems = compact(readFile(version, 'itemlist.txt').split(/\n|\r/));
-  const localeData = parseLocaleData(version);
+export function parseItems(version: number, verbose = false): Item[] {
+  const rawItems = compact(readSourceFile(version, 'itemlist.txt').split(/\n|\r/));
+  const itemLocales = parseLocale(version);
 
   const items: Item[] = rawItems.map((rawItem): Item => {
     const [itemData, enchantsData] = rawItem.split(' -- ');
@@ -33,8 +33,8 @@ export function parseItems(version: number, debug = false): Item[] {
       uuid,
       name,
       icon,
-      flavor: localeData[uuid].flavor,
-      description: localeData[uuid].txt,
+      flavor: itemLocales[uuid].flavor,
+      description: itemLocales[uuid].txt,
       category,
       type,
       rarity,
@@ -44,12 +44,14 @@ export function parseItems(version: number, debug = false): Item[] {
       set,
     };
 
-    if (debug) {
+    if (verbose) {
       console.log(item);
     }
 
     return item;
   });
+
+  writeFile(items, version, 'items');
 
   return items;
 }
@@ -57,7 +59,7 @@ export function parseItems(version: number, debug = false): Item[] {
 function parseClassRestriction(classData: string): CharacterClass | null {
   return classData === 'Any Class'
     ? null
-    : classData.toLowerCase() as CharacterClass;
+    : classData as CharacterClass;
 }
 
 function parseBaseEnchants(enchantsData: string): number[] {
@@ -102,29 +104,7 @@ function findSet(uuid: number): SetId | null {
   return set;
 }
 
-interface ItemLocaleData {
-  [key: number]: Record<string, string>;
-}
-
-function parseLocaleData(version: number) {
+function parseLocale(version: number): LocaleData  {
   const localeData = getLocaleSection(version, 'locale/EN/items', 'items');
-
-  return reduce(localeData, (itemData: ItemLocaleData, value, key) => {
-    const matches = key.match(/^item_(\d+)_(\w+)$/);
-
-    if (matches) {
-      const itemId = parseInt(matches[1]);
-      const keyName = matches[2];
-
-      if (!itemData[itemId]) {
-        itemData[itemId] = {};
-      }
-
-      if (!isEmpty(value)) {
-        itemData[itemId][keyName] = value;
-      }
-    }
-
-    return itemData;
-  }, {});
+  return parseLocaleData(localeData, /^item_(\d+)_(\w+)$/);
 }
