@@ -17,6 +17,8 @@ function parseAll(opts: CommandLineOptions) {
   const items = parseItems(version, verbose);
   const enchants = parseEnchants(version, verbose);
   const { skills, skillsByClass } = parseSkills(version, verbose);
+
+  return null;
 }
 
 parseAll(cliOptions);
