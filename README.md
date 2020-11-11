@@ -102,6 +102,9 @@ if Weapon, Armor, or Boots:
 
 ## License
 
+**Important**: this license only applies to the logic and application in itself and does not pertain to any data or assets coming from the game **Chronicon** which is the intellectual property of [Subworld Games](https://www.subworldgames.com/chronicon/).
+
+
 > DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
 > Version 2, December 2004
 >
