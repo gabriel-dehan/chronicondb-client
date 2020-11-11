@@ -1,5 +1,9 @@
 # Chronicon DB
 
+## Acknowledgement
+
+This is a fan project. All data and game assets are the intellectual property of [Subworld Games](https://www.subworldgames.com/chronicon/).
+
 ## Starting up
 
 Install all dependencies
@@ -95,3 +99,19 @@ If Ring or Amulet:
 1 Epic
 if Weapon, Armor, or Boots:
 25% chance to replace 1 Major with 1 Epic
+
+## License
+
+           DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                   Version 2, December 2004
+
+Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
+
+Everyone is permitted to copy and distribute verbatim or modified
+copies of this license document, and changing it is allowed as long
+as the name is changed.
+
+           DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+  TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+ 0. You just DO WHAT THE FUCK YOU WANT TO.
