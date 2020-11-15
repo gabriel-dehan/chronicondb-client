@@ -1,0 +1,38 @@
+:root {
+  /* = FONT SIZES = */
+  --font-small: 12px;
+  --font-normal: 14px;
+  --font-big: 16px;
+  --font-title: 28px;
+
+  /* = COLORS = */
+  /* == BACKGROUND == */
+  --colorbackground-light-brown: #4f4235;
+  --color-background-brown: #50452e;
+  --color-background-dark-brown: #171614;
+  --color-background-light-black: #141311;
+  --color-background-black: #11100f;
+
+  /* == ELEMENTS == */
+  --color-element-white: #DEDEDE;
+  --color-element-light-beige: #FFEEDE;
+  --color-element-beige: #DECFB0;
+  --color-element-dark-beige: ##8e847b;
+  --color-element-brown: #50452e;
+  --color-element-yellow: #f7c200;
+  --color-element-light-orange: #dc9d63;
+  --color-element-orange: #cd7f3c;
+  --color-element-red: #aa2d2d;
+  --color-element-light-blue: #00b9f8;
+  --color-element-dark-blue: #637793;
+  --color-element-purple: #8833d0;
+
+  /* == ITEMS == */
+  /* -- Rarity -- */
+  --color-item-ordinary: #FFEEDE;
+  --color-item-enchanted: #345A8C;
+  --color-item-rare: #8833D0;
+  --color-item-unique: #DA119E;
+  --color-item-legendary: #AA2D2D;
+  --color-item-trueLegendary: #AA2D2D;
+}
