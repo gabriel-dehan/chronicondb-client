@@ -12,7 +12,7 @@ interface ItemMetaData {
   category: ItemCategory,
 }
 
-export function parseItems(version: number, verbose = false): Item[] {
+export function parseItems(version: string, verbose = false): Item[] {
   const rawItems = compact(readSourceFile(version, 'itemlist.txt').split(/\n|\r/));
   const itemLocales = parseLocale(version);
 
@@ -24,10 +24,11 @@ export function parseItems(version: number, verbose = false): Item[] {
     const icon = hasIcon ? `spr_itemicons_${id}.png` : null;
     const uuid = parseInt(id);
     const classRestriction = parseClassRestriction(rawClassRestriction);
-    const baseEnchants = parseBaseEnchants(enchantsData);
     const set = findSet(uuid);
     const minLevel = parseInt(rawMinLevel.replace(/Lv\s/, ''));
     const { rarity, type, category } = parseMetaData(typeAndRarity);
+    const baseEnchants = findBaseEnchants(category);
+    const fixedEnchants = parseFixedEnchants(enchantsData);
 
     const item = {
       uuid,
@@ -41,6 +42,7 @@ export function parseItems(version: number, verbose = false): Item[] {
       classRestriction,
       minLevel,
       baseEnchants,
+      fixedEnchants,
       set,
     };
 
@@ -62,10 +64,36 @@ function parseClassRestriction(classData: string): CharacterClass | null {
     : classData as CharacterClass;
 }
 
-function parseBaseEnchants(enchantsData: string): number[] {
+function parseFixedEnchants(enchantsData: string): number[] {
   return enchantsData
     ? compact(enchantsData.split(/\s/).map(enchant => enchant.replace(/e/g, ''))).map(id => parseInt(id))
     : [];
+}
+
+function findBaseEnchants(category: ItemCategory): number[] {
+  const coreEnchants = [1, 2, 3];
+  const weaponEnchants = [5, 19];
+
+  switch (category) {
+    case ItemCategory.Helmet:
+      return coreEnchants;
+    case ItemCategory.Armor:
+      return coreEnchants;
+    case ItemCategory.Boots:
+      return coreEnchants;
+    case ItemCategory.Weapon:
+      return [...coreEnchants, ...weaponEnchants];
+    case ItemCategory.Offhand:
+      return coreEnchants;
+    case ItemCategory.Ring:
+      return coreEnchants;
+    case ItemCategory.Amulet:
+      return coreEnchants;
+    case ItemCategory.Accessory:
+      return coreEnchants;
+    default:
+      return [];
+  }
 }
 
 function parseMetaData(typeAndRarity: string): ItemMetaData {
@@ -104,7 +132,7 @@ function findSet(uuid: number): SetId | null {
   return set;
 }
 
-function parseLocale(version: number): LocaleData  {
+function parseLocale(version: string): LocaleData  {
   const localeData = getLocaleSection(version, 'locale/EN/items', 'items');
   return parseLocaleData(localeData, /^item_(\d+)_(\w+)$/);
 }

@@ -29,7 +29,7 @@ export function parseLocaleData(data: Record<string, string>, parser: RegExp): L
   }, {});
 }
 
-export function getLocaleSection(version: number, fileName: string, section: string): Record<string, string> {
+export function getLocaleSection(version: string, fileName: string, section: string): Record<string, string> {
   const localizationData = compact(readSourceFile(version, fileName).split(/\n|\r/));
   const rawSectionData = [];
   const genericSeparator = /\[[A-Z]+\]/;

@@ -13,17 +13,18 @@ export interface Item {
   minLevel: number;
   set: SetId | null;
   baseEnchants: number[];
+  fixedEnchants: number[];
 }
 
 export interface ItemSet {
   id: SetId;
   name: string;
-  bonuses: string[];
+  items: number[];
+  bonuses: Record<number, string>;
 }
 
 export enum ItemRarity {
   Ordinary = 'Ordinary',
-  Common = 'Common',
   Enchanted = 'Enchanted',
   Rare = 'Rare',
   Unique = 'Unique',
@@ -33,7 +34,7 @@ export enum ItemRarity {
 }
 
 export enum ItemCategory {
-  Helmet = 'Welmet',
+  Helmet = 'Helmet',
   Armor = 'Armor',
   Boots = 'Boots',
   Weapon = 'Weapon',

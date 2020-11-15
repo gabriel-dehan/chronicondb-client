@@ -15,6 +15,8 @@ export const ITEM_TYPES_BY_CATEGORIES: Record<ItemCategory, ItemType[]> = {
     ItemType.Spellbook,
     ItemType.Shield,
     ItemType.Tome,
+    ItemType.Claw,
+    ItemType.Arrow,
   ],
   [ItemCategory.Ring]: [ItemType.Ring],
   [ItemCategory.Amulet]: [ItemType.Amulet],

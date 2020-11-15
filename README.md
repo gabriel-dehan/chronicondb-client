@@ -56,13 +56,6 @@ There you go, chronicondb is now up to date.
 
 ## TODO:
 
-- Enchants
-  - Power & Enchant
-  - Gems (Enchants)
-  - Runes (Enchants)
-
-- Implement logic
-
 Enchanted:
 1 Minor OR 1 Major
 

@@ -3,12 +3,17 @@
     "uuid": 1,
     "name": "Leather Hood",
     "icon": "spr_itemicons_1.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 2,
@@ -19,18 +24,28 @@
     "rarity": "Ordinary",
     "classRestriction": "Warden",
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 3,
     "name": "Druid Hood",
     "icon": "spr_itemicons_3.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 7,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 4,
@@ -41,18 +56,28 @@
     "rarity": "Ordinary",
     "classRestriction": "Warden",
     "minLevel": 7,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 5,
     "name": "Ranger Hood",
     "icon": "spr_itemicons_5.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Ordinary",
     "classRestriction": "Warden",
     "minLevel": 15,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 6,
@@ -63,18 +88,28 @@
     "rarity": "Ordinary",
     "classRestriction": "Warden",
     "minLevel": 15,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 7,
     "name": "Plate Helmet",
     "icon": "spr_itemicons_7.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Ordinary",
     "classRestriction": "Templar",
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 8,
@@ -85,18 +120,28 @@
     "rarity": "Ordinary",
     "classRestriction": "Templar",
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 9,
     "name": "Silver Helmet",
     "icon": "spr_itemicons_9.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Ordinary",
     "classRestriction": "Templar",
     "minLevel": 7,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 10,
@@ -107,18 +152,28 @@
     "rarity": "Ordinary",
     "classRestriction": "Templar",
     "minLevel": 7,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 11,
     "name": "Gold Plate Helmet",
     "icon": "spr_itemicons_11.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Ordinary",
     "classRestriction": "Templar",
     "minLevel": 15,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 12,
@@ -129,18 +184,28 @@
     "rarity": "Ordinary",
     "classRestriction": "Templar",
     "minLevel": 15,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 13,
     "name": "Dark Hood",
     "icon": "spr_itemicons_13.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Ordinary",
     "classRestriction": "Warlock",
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 14,
@@ -151,18 +216,28 @@
     "rarity": "Ordinary",
     "classRestriction": "Warlock",
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 15,
     "name": "Arcane Hood",
     "icon": "spr_itemicons_15.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Ordinary",
     "classRestriction": "Warlock",
     "minLevel": 7,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 16,
@@ -173,18 +248,28 @@
     "rarity": "Ordinary",
     "classRestriction": "Warlock",
     "minLevel": 7,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 17,
     "name": "Mage Hood",
     "icon": "spr_itemicons_17.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Ordinary",
     "classRestriction": "Warlock",
     "minLevel": 15,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 18,
@@ -195,18 +280,28 @@
     "rarity": "Ordinary",
     "classRestriction": "Warlock",
     "minLevel": 15,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 19,
     "name": "Leather Cap",
     "icon": "spr_itemicons_19.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 20,
@@ -217,18 +312,28 @@
     "rarity": "Ordinary",
     "classRestriction": "Berserker",
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 21,
     "name": "Bruiser Cap",
     "icon": "spr_itemicons_21.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Ordinary",
     "classRestriction": "Berserker",
     "minLevel": 7,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 22,
@@ -239,18 +344,28 @@
     "rarity": "Ordinary",
     "classRestriction": "Berserker",
     "minLevel": 7,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 23,
     "name": "Brawler Cap",
     "icon": "spr_itemicons_23.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Ordinary",
     "classRestriction": "Berserker",
     "minLevel": 15,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 24,
@@ -261,7 +376,12 @@
     "rarity": "Ordinary",
     "classRestriction": "Berserker",
     "minLevel": 15,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 25,
@@ -272,7 +392,14 @@
     "rarity": "Ordinary",
     "classRestriction": "Warden",
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 26,
@@ -283,7 +410,14 @@
     "rarity": "Ordinary",
     "classRestriction": "Warden",
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 27,
@@ -294,7 +428,14 @@
     "rarity": "Ordinary",
     "classRestriction": "Warden",
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 28,
@@ -305,7 +446,14 @@
     "rarity": "Ordinary",
     "classRestriction": "Templar",
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 29,
@@ -316,7 +464,14 @@
     "rarity": "Ordinary",
     "classRestriction": "Templar",
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 30,
@@ -327,7 +482,14 @@
     "rarity": "Ordinary",
     "classRestriction": "Templar",
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 31,
@@ -338,7 +500,14 @@
     "rarity": "Ordinary",
     "classRestriction": "Warlock",
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 32,
@@ -349,7 +518,14 @@
     "rarity": "Ordinary",
     "classRestriction": "Warlock",
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 33,
@@ -360,7 +536,14 @@
     "rarity": "Ordinary",
     "classRestriction": "Warlock",
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 34,
@@ -371,7 +554,14 @@
     "rarity": "Ordinary",
     "classRestriction": "Berserker",
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 35,
@@ -382,7 +572,14 @@
     "rarity": "Ordinary",
     "classRestriction": "Berserker",
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 36,
@@ -393,7 +590,14 @@
     "rarity": "Ordinary",
     "classRestriction": "Berserker",
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 37,
@@ -405,6 +609,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       4
     ]
   },
@@ -418,6 +627,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1
     ]
   },
@@ -431,6 +645,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       2
     ]
   },
@@ -445,6 +664,11 @@
     "classRestriction": null,
     "minLevel": 10,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       4
     ]
   },
@@ -458,6 +682,11 @@
     "classRestriction": null,
     "minLevel": 10,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1147
     ]
   },
@@ -471,6 +700,11 @@
     "classRestriction": null,
     "minLevel": 10,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       79
     ]
   },
@@ -484,6 +718,11 @@
     "classRestriction": null,
     "minLevel": 10,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       6,
       7
     ]
@@ -498,6 +737,11 @@
     "classRestriction": "Berserker",
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       5
     ]
   },
@@ -511,6 +755,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       33,
       37
     ]
@@ -525,6 +774,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       63,
       34
     ]
@@ -539,6 +793,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       77,
       36
     ]
@@ -553,6 +812,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1068,
       4
     ]
@@ -567,6 +831,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1074
     ]
   },
@@ -580,6 +849,11 @@
     "classRestriction": null,
     "minLevel": 10,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       39
     ]
   },
@@ -593,6 +867,11 @@
     "classRestriction": null,
     "minLevel": 10,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1093
     ]
   },
@@ -606,6 +885,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       13
     ]
   },
@@ -619,6 +903,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       84,
       72
     ]
@@ -634,6 +923,11 @@
     "classRestriction": null,
     "minLevel": 15,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1136
     ]
   },
@@ -647,6 +941,11 @@
     "classRestriction": null,
     "minLevel": 15,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       36,
       6
     ]
@@ -661,6 +960,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1067,
       4
     ]
@@ -675,6 +979,11 @@
     "classRestriction": "Berserker",
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       19,
       116
     ]
@@ -689,6 +998,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1139
     ]
   },
@@ -701,7 +1015,12 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 10,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 62,
@@ -712,7 +1031,12 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 10,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 63,
@@ -723,7 +1047,12 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 10,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 64,
@@ -734,7 +1063,12 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 10,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 66,
@@ -746,6 +1080,11 @@
     "classRestriction": null,
     "minLevel": 10,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       81
     ]
   },
@@ -759,6 +1098,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       20
     ]
   },
@@ -772,6 +1116,11 @@
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1046,
       44
     ]
@@ -786,6 +1135,11 @@
     "classRestriction": "Warlock",
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       7
     ]
   },
@@ -799,6 +1153,11 @@
     "classRestriction": "Templar",
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       96,
       97
     ]
@@ -812,7 +1171,8 @@
     "rarity": "Ordinary",
     "classRestriction": "Berserker",
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       3
     ]
   },
@@ -826,6 +1186,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       19,
       107,
       109
@@ -841,6 +1206,13 @@
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       1042,
       44
     ]
@@ -856,6 +1228,13 @@
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       42,
       5
     ],
@@ -871,6 +1250,13 @@
     "classRestriction": "Warden",
     "minLevel": 5,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       44
     ]
   },
@@ -884,6 +1270,13 @@
     "classRestriction": "Warden",
     "minLevel": 5,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       41
     ]
   },
@@ -898,6 +1291,13 @@
     "classRestriction": "Warden",
     "minLevel": 10,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       1086
     ]
   },
@@ -911,6 +1311,13 @@
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       1018,
       39
     ]
@@ -925,6 +1332,13 @@
     "classRestriction": "Templar",
     "minLevel": 5,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       109,
       42
     ]
@@ -939,6 +1353,13 @@
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       1019,
       44
     ]
@@ -953,6 +1374,13 @@
     "classRestriction": "Templar",
     "minLevel": 5,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       43,
       9
     ]
@@ -967,6 +1395,13 @@
     "classRestriction": "Templar",
     "minLevel": 5,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       1138,
       42
     ]
@@ -982,6 +1417,13 @@
     "classRestriction": "Warlock",
     "minLevel": 5,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       1190
     ]
   },
@@ -996,6 +1438,13 @@
     "classRestriction": "Warlock",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       1054,
       40
     ]
@@ -1010,6 +1459,13 @@
     "classRestriction": "Warlock",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       1084
     ]
   },
@@ -1023,6 +1479,13 @@
     "classRestriction": "Warlock",
     "minLevel": 15,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       1126,
       21
     ]
@@ -1037,6 +1500,13 @@
     "classRestriction": "Warlock",
     "minLevel": 5,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       41,
       53
     ]
@@ -1052,6 +1522,13 @@
     "classRestriction": "Berserker",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       1030,
       44
     ]
@@ -1066,6 +1543,13 @@
     "classRestriction": "Berserker",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       1031,
       39
     ]
@@ -1080,6 +1564,13 @@
     "classRestriction": "Berserker",
     "minLevel": 5,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       42
     ]
   },
@@ -1093,6 +1584,13 @@
     "classRestriction": "Berserker",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       44,
       102
     ],
@@ -1108,6 +1606,13 @@
     "classRestriction": "Berserker",
     "minLevel": 5,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       110
     ]
   },
@@ -1121,7 +1626,8 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 100,
@@ -1133,6 +1639,11 @@
     "classRestriction": "Berserker",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       44,
       21
     ],
@@ -1149,6 +1660,11 @@
     "classRestriction": "Berserker",
     "minLevel": 5,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1148,
       21
     ]
@@ -1164,6 +1680,11 @@
     "classRestriction": "Berserker",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       39,
       6
     ],
@@ -1179,6 +1700,11 @@
     "classRestriction": "Berserker",
     "minLevel": 5,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1081,
       39
     ]
@@ -1188,12 +1714,17 @@
     "name": "Wrathborn Helmet",
     "icon": "spr_itemicons_104.png",
     "flavor": "The Wrathborn, members of the Dragonkin Tribe cursed at birth with unending Rage, would only find release in the cold mountains of the Frostborn",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": "Berserker",
     "minLevel": 10,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1034,
       19
     ]
@@ -1203,12 +1734,17 @@
     "name": "Helm of Might",
     "icon": "spr_itemicons_105.png",
     "flavor": "True might comes from inner strength, and control of our inherited Dragon Rage - Borekar The Mighty",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": "Berserker",
     "minLevel": 20,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1035
     ]
   },
@@ -1216,12 +1752,17 @@
     "uuid": 106,
     "name": "Firebreather",
     "icon": "spr_itemicons_106.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": "Berserker",
     "minLevel": 15,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1062,
       39
     ]
@@ -1236,6 +1777,11 @@
     "classRestriction": "Berserker",
     "minLevel": 50,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1149,
       8
     ]
@@ -1250,6 +1796,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       4
     ]
   },
@@ -1263,6 +1814,11 @@
     "classRestriction": null,
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1036,
       20
     ]
@@ -1272,12 +1828,17 @@
     "name": "Helm o' War",
     "icon": "spr_itemicons_110.png",
     "flavor": "Train well, and your voice will be both spear and shield. - Taldrem The Wise",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Unique",
     "classRestriction": "Berserker",
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1080,
       44
     ]
@@ -1292,6 +1853,11 @@
     "classRestriction": null,
     "minLevel": 5,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1095,
       10
     ]
@@ -1307,6 +1873,11 @@
     "classRestriction": "Warlock",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       39,
       46
     ],
@@ -1322,6 +1893,11 @@
     "classRestriction": "Warlock",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       40,
       100
     ],
@@ -1338,6 +1914,11 @@
     "classRestriction": "Warlock",
     "minLevel": 15,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1128,
       116
     ]
@@ -1346,12 +1927,17 @@
     "uuid": 115,
     "name": "Icecrown",
     "icon": "spr_itemicons_115.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": "Warlock",
     "minLevel": 20,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1098,
       29
     ]
@@ -1360,12 +1946,17 @@
     "uuid": 116,
     "name": "Infernal Horns",
     "icon": "spr_itemicons_116.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": "Warlock",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1061,
       39
     ]
@@ -1375,12 +1966,17 @@
     "name": "Hood of the Master",
     "icon": "spr_itemicons_117.png",
     "flavor": "The sound of drums",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Unique",
     "classRestriction": "Warlock",
     "minLevel": 20,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       27
     ]
   },
@@ -1389,12 +1985,17 @@
     "name": "Demon Lord's Horns",
     "icon": "spr_itemicons_118.png",
     "flavor": "Long did we assume Demons to be elusive creatures of darkness from the pits of the earth...",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": "Warlock",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       39
     ],
     "set": "demonlord"
@@ -1409,6 +2010,11 @@
     "classRestriction": null,
     "minLevel": 10,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1144,
       48
     ]
@@ -1423,6 +2029,11 @@
     "classRestriction": "Warlock",
     "minLevel": 40,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1078,
       34
     ]
@@ -1437,6 +2048,11 @@
     "classRestriction": "Warlock",
     "minLevel": 20,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1076,
       40
     ]
@@ -1451,6 +2067,11 @@
     "classRestriction": "Warlock",
     "minLevel": 15,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1132
     ]
   },
@@ -1464,6 +2085,11 @@
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       42,
       28
     ],
@@ -1480,6 +2106,11 @@
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       43,
       7
     ],
@@ -1495,6 +2126,11 @@
     "classRestriction": "Templar",
     "minLevel": 10,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1013
     ]
   },
@@ -1508,6 +2144,11 @@
     "classRestriction": "Templar",
     "minLevel": 15,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1110,
       54
     ]
@@ -1522,6 +2163,11 @@
     "classRestriction": "Templar",
     "minLevel": 15,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1012
     ]
   },
@@ -1529,12 +2175,17 @@
     "uuid": 128,
     "name": "Crown of Justice",
     "icon": "spr_itemicons_128.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1088,
       98
     ]
@@ -1543,12 +2194,17 @@
     "uuid": 129,
     "name": "Crown of Solitude",
     "icon": "spr_itemicons_129.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": null,
     "minLevel": 20,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1705
     ]
   },
@@ -1556,12 +2212,17 @@
     "uuid": 130,
     "name": "Protectorae",
     "icon": "spr_itemicons_130.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 5,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1,
       27
     ]
@@ -1576,6 +2237,11 @@
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1014,
       96,
       97
@@ -1591,6 +2257,11 @@
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1015,
       96,
       97
@@ -1606,6 +2277,11 @@
     "classRestriction": "Templar",
     "minLevel": 20,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1016
     ]
   },
@@ -1619,6 +2295,11 @@
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       42,
       8
     ],
@@ -1634,6 +2315,11 @@
     "classRestriction": "Templar",
     "minLevel": 15,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1017
     ]
   },
@@ -1647,6 +2333,11 @@
     "classRestriction": "Warden",
     "minLevel": 15,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1065,
       41
     ]
@@ -1661,6 +2352,11 @@
     "classRestriction": "Warden",
     "minLevel": 15,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1064,
       45
     ]
@@ -1675,6 +2371,11 @@
     "classRestriction": "Warden",
     "minLevel": 25,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1116
     ]
   },
@@ -1689,6 +2390,11 @@
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       42,
       19
     ],
@@ -1699,12 +2405,17 @@
     "name": "Stormcaller's Visage",
     "icon": "spr_itemicons_140.png",
     "flavor": "For a while, they had silently watched from a distance. They did not understand why, nor did they want to act in retaliation...",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       42
     ],
     "set": "stormcaller"
@@ -1713,12 +2424,17 @@
     "uuid": 141,
     "name": "Crown of Storms",
     "icon": "spr_itemicons_141.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": null,
     "minLevel": 5,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       19,
       108,
       109
@@ -1728,12 +2444,17 @@
     "uuid": 142,
     "name": "High Ranger's Vision",
     "icon": "spr_itemicons_142.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       44
     ],
     "set": "highranger"
@@ -1742,12 +2463,17 @@
     "uuid": 143,
     "name": "Stormdweller Hood",
     "icon": "spr_itemicons_143.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1083,
       48
     ]
@@ -1756,12 +2482,17 @@
     "uuid": 144,
     "name": "Saboteur's Hood",
     "icon": "spr_itemicons_144.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 5,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1102
     ]
   },
@@ -1775,6 +2506,11 @@
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1079,
       7
     ]
@@ -1789,6 +2525,11 @@
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1121,
       100
     ]
@@ -1803,6 +2544,11 @@
     "classRestriction": "Warden",
     "minLevel": 15,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1066,
       7
     ]
@@ -1817,6 +2563,11 @@
     "classRestriction": "Warden",
     "minLevel": 5,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1119,
       4
     ]
@@ -1831,6 +2582,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       8,
       19
     ],
@@ -1846,6 +2602,11 @@
     "classRestriction": "Warlock",
     "minLevel": 25,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1131
     ]
   },
@@ -1859,6 +2620,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       4,
       19
     ],
@@ -1869,12 +2635,17 @@
     "name": "Jotunhelm",
     "icon": "spr_itemicons_152.png",
     "flavor": "$And this helm,$ he asked the Trickster, $It will stop their healing?$",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": null,
     "minLevel": 25,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1124
     ]
   },
@@ -1882,12 +2653,17 @@
     "uuid": 153,
     "name": "Dragonleech",
     "icon": "spr_itemicons_153.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       10,
       41
     ]
@@ -1896,12 +2672,17 @@
     "uuid": 154,
     "name": "Mindcage",
     "icon": "spr_itemicons_154.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       2,
       7
     ]
@@ -1910,12 +2691,17 @@
     "uuid": 155,
     "name": "Helm of the Fallen King",
     "icon": "spr_itemicons_155.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       19,
       1
     ]
@@ -1925,12 +2711,17 @@
     "name": "Golden Guard",
     "icon": "spr_itemicons_156.png",
     "flavor": "A shiny Golden Guard",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1058,
       8
     ]
@@ -1945,6 +2736,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1072
     ]
   },
@@ -1958,6 +2754,11 @@
     "classRestriction": null,
     "minLevel": 10,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       78,
       35,
       36
@@ -1973,6 +2774,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1071
     ]
   },
@@ -1986,7 +2792,8 @@
     "rarity": "Rare",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 181,
@@ -1998,7 +2805,8 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 182,
@@ -2010,7 +2818,8 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 183,
@@ -2022,7 +2831,8 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 184,
@@ -2034,7 +2844,8 @@
     "rarity": "Rare",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 185,
@@ -2046,7 +2857,8 @@
     "rarity": "Rare",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 193,
@@ -2058,6 +2870,13 @@
     "classRestriction": "Warden",
     "minLevel": 5,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       40
     ]
   },
@@ -2071,6 +2890,13 @@
     "classRestriction": "Warden",
     "minLevel": 5,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       42
     ]
   },
@@ -2084,6 +2910,13 @@
     "classRestriction": "Warden",
     "minLevel": 5,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       44
     ]
   },
@@ -2097,6 +2930,13 @@
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       1045,
       40
     ]
@@ -2111,6 +2951,13 @@
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       1044,
       42
     ]
@@ -2125,6 +2972,13 @@
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       1043,
       41
     ]
@@ -2139,7 +2993,8 @@
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 200,
@@ -2151,7 +3006,8 @@
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 201,
@@ -2163,7 +3019,8 @@
     "rarity": "Rare",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 203,
@@ -2175,6 +3032,13 @@
     "classRestriction": "Berserker",
     "minLevel": 5,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       39
     ]
   },
@@ -2188,6 +3052,13 @@
     "classRestriction": "Warlock",
     "minLevel": 5,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       40
     ]
   },
@@ -2201,6 +3072,13 @@
     "classRestriction": "Warlock",
     "minLevel": 5,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       39
     ]
   },
@@ -2214,6 +3092,13 @@
     "classRestriction": "Warlock",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       1055,
       39
     ]
@@ -2228,6 +3113,13 @@
     "classRestriction": "Warlock",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       1056,
       53
     ]
@@ -2242,6 +3134,13 @@
     "classRestriction": "Warlock",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       1057,
       41
     ]
@@ -2251,12 +3150,17 @@
     "name": "Moore's Helmet",
     "icon": "spr_itemicons_210.png",
     "flavor": "Tueri Et Servite",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Rare",
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       47,
       5
     ]
@@ -2271,6 +3175,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       7,
       24,
       4
@@ -2286,6 +3195,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       21,
       6
     ]
@@ -2300,6 +3214,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       106,
       39
     ]
@@ -2314,6 +3233,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       47,
       3,
       8
@@ -2329,6 +3253,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       48,
       7
     ]
@@ -2337,12 +3266,17 @@
     "uuid": 216,
     "name": "Bramblecrown",
     "icon": "spr_itemicons_216.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       8,
       2,
       48
@@ -2358,6 +3292,13 @@
     "classRestriction": "Berserker",
     "minLevel": 5,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       40
     ]
   },
@@ -2371,6 +3312,13 @@
     "classRestriction": "Berserker",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       1032,
       42
     ]
@@ -2385,6 +3333,13 @@
     "classRestriction": "Berserker",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       1033,
       40
     ]
@@ -2399,7 +3354,8 @@
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 221,
@@ -2411,7 +3367,8 @@
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 222,
@@ -2423,7 +3380,8 @@
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 223,
@@ -2435,7 +3393,8 @@
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 224,
@@ -2447,7 +3406,8 @@
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 225,
@@ -2459,6 +3419,13 @@
     "classRestriction": "Templar",
     "minLevel": 5,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       44,
       102
     ]
@@ -2473,6 +3440,13 @@
     "classRestriction": "Templar",
     "minLevel": 5,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       39,
       7
     ]
@@ -2487,6 +3461,13 @@
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       1020,
       42
     ]
@@ -2501,6 +3482,13 @@
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       1021,
       43
     ]
@@ -2517,6 +3505,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       24,
       4
     ]
@@ -2531,7 +3524,8 @@
     "rarity": "Rare",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 231,
@@ -2543,7 +3537,8 @@
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 232,
@@ -2555,7 +3550,8 @@
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 241,
@@ -2567,7 +3563,8 @@
     "rarity": "Mythical",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 242,
@@ -2580,7 +3577,8 @@
     "rarity": "Mythical",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 243,
@@ -2592,7 +3590,8 @@
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 244,
@@ -2604,7 +3603,8 @@
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 245,
@@ -2616,7 +3616,8 @@
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 247,
@@ -2628,7 +3629,8 @@
     "rarity": "Rare",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 249,
@@ -2640,7 +3642,8 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 250,
@@ -2652,7 +3655,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 251,
@@ -2664,7 +3668,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 252,
@@ -2676,7 +3681,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 10,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 253,
@@ -2688,7 +3694,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 10,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 254,
@@ -2700,7 +3707,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 20,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 255,
@@ -2712,7 +3720,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 20,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 256,
@@ -2724,7 +3733,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 30,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 257,
@@ -2736,7 +3746,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 30,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 258,
@@ -2748,7 +3759,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 40,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 259,
@@ -2760,7 +3772,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 40,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 260,
@@ -2772,7 +3785,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 50,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 261,
@@ -2784,7 +3798,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 50,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 262,
@@ -2796,7 +3811,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 60,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 263,
@@ -2808,7 +3824,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 60,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 264,
@@ -2820,7 +3837,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 70,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 265,
@@ -2832,7 +3850,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 70,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 266,
@@ -2844,7 +3863,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 80,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 267,
@@ -2856,7 +3876,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 80,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 268,
@@ -2868,7 +3889,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 90,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 269,
@@ -2880,7 +3902,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 90,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 270,
@@ -2893,7 +3916,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 271,
@@ -2906,7 +3930,8 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 272,
@@ -2919,7 +3944,8 @@
     "rarity": "Rare",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 273,
@@ -2932,7 +3958,8 @@
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 274,
@@ -2945,7 +3972,8 @@
     "rarity": "Legendary",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 275,
@@ -2957,7 +3985,8 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 276,
@@ -2969,7 +3998,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 100,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 277,
@@ -2981,7 +4011,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 100,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 278,
@@ -2993,7 +4024,8 @@
     "rarity": "Rare",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 280,
@@ -3004,7 +4036,12 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 10,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 281,
@@ -3015,7 +4052,12 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 10,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 282,
@@ -3026,7 +4068,12 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 10,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 283,
@@ -3038,6 +4085,11 @@
     "classRestriction": null,
     "minLevel": 10,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       41
     ]
   },
@@ -3051,6 +4103,11 @@
     "classRestriction": null,
     "minLevel": 10,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       40
     ]
   },
@@ -3064,6 +4121,11 @@
     "classRestriction": "Warlock",
     "minLevel": 10,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       53
     ]
   },
@@ -3077,6 +4139,11 @@
     "classRestriction": null,
     "minLevel": 10,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       44
     ]
   },
@@ -3090,6 +4157,11 @@
     "classRestriction": "Templar",
     "minLevel": 10,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       43
     ]
   },
@@ -3103,6 +4175,11 @@
     "classRestriction": null,
     "minLevel": 10,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       42
     ]
   },
@@ -3116,6 +4193,11 @@
     "classRestriction": null,
     "minLevel": 10,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1707
     ]
   },
@@ -3129,6 +4211,11 @@
     "classRestriction": null,
     "minLevel": 10,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       40
     ]
   },
@@ -3142,6 +4229,11 @@
     "classRestriction": "Warlock",
     "minLevel": 50,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1187
     ]
   },
@@ -3155,6 +4247,11 @@
     "classRestriction": null,
     "minLevel": 10,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1092
     ]
   },
@@ -3168,6 +4265,11 @@
     "classRestriction": "Templar",
     "minLevel": 10,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1719,
       43
     ]
@@ -3182,6 +4284,11 @@
     "classRestriction": null,
     "minLevel": 10,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       42
     ]
   },
@@ -3194,7 +4301,8 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 296,
@@ -3205,7 +4313,8 @@
     "rarity": "Rare",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 297,
@@ -3216,7 +4325,8 @@
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 298,
@@ -3227,7 +4337,8 @@
     "rarity": "Legendary",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 300,
@@ -3239,6 +4350,11 @@
     "classRestriction": null,
     "minLevel": 10,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       28
     ]
   },
@@ -3252,6 +4368,11 @@
     "classRestriction": null,
     "minLevel": 10,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       29
     ]
   },
@@ -3265,6 +4386,11 @@
     "classRestriction": null,
     "minLevel": 10,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       30
     ]
   },
@@ -3278,6 +4404,11 @@
     "classRestriction": null,
     "minLevel": 10,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       31
     ]
   },
@@ -3291,6 +4422,11 @@
     "classRestriction": null,
     "minLevel": 10,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       32
     ]
   },
@@ -3304,6 +4440,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       41,
       85
     ]
@@ -3319,6 +4460,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1137,
       34
     ]
@@ -3334,6 +4480,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       110,
       102
     ]
@@ -3348,6 +4499,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       23,
       26
     ]
@@ -3356,12 +4512,17 @@
     "uuid": 309,
     "name": "Eye of The Watcher",
     "icon": "spr_itemicons_309.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       9,
       10
     ]
@@ -3377,6 +4538,13 @@
     "classRestriction": "Warlock",
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       39,
       30
     ]
@@ -3392,6 +4560,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       40,
       80
     ]
@@ -3406,6 +4579,11 @@
     "classRestriction": "Templar",
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       96,
       97,
       8
@@ -3421,6 +4599,13 @@
     "classRestriction": "Berserker",
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       110,
       9
     ]
@@ -3429,12 +4614,17 @@
     "uuid": 314,
     "name": "Deadeye Hood",
     "icon": "spr_itemicons_314.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       19
     ]
   },
@@ -3448,6 +4638,13 @@
     "classRestriction": "Templar",
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       39,
       63
     ]
@@ -3462,6 +4659,13 @@
     "classRestriction": "Warden",
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       5,
       4
     ]
@@ -3476,6 +4680,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       24,
       6
     ]
@@ -3490,6 +4699,13 @@
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       42,
       8
     ],
@@ -3506,6 +4722,13 @@
     "classRestriction": "Warlock",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       39,
       45
     ],
@@ -3521,6 +4744,11 @@
     "classRestriction": "Warlock",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1152
     ]
   },
@@ -3528,12 +4756,17 @@
     "uuid": 321,
     "name": "Lich's Crown",
     "icon": "spr_itemicons_321.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": "Warlock",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       40
     ],
     "set": "coldhearted"
@@ -3548,6 +4781,13 @@
     "classRestriction": "Warlock",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       40,
       21
     ],
@@ -3564,6 +4804,11 @@
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       43,
       9
     ],
@@ -3580,6 +4825,13 @@
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       43,
       9
     ],
@@ -3590,12 +4842,17 @@
     "name": "Ayeela's Sight",
     "icon": "spr_itemicons_325.png",
     "flavor": "As they pressed on deeper into the corrupted halls, focusing all their will on the young priestess...",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       43
     ],
     "set": "ayeela"
@@ -3604,12 +4861,17 @@
     "uuid": 326,
     "name": "Thundercharged Crown",
     "icon": "spr_itemicons_326.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       42
     ],
     "set": "thundercharge"
@@ -3618,12 +4880,17 @@
     "uuid": 327,
     "name": "Master Scout's Hood",
     "icon": "spr_itemicons_327.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       19
     ],
     "set": "scout"
@@ -3638,6 +4905,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       4
     ],
     "set": "scout"
@@ -3646,12 +4918,17 @@
     "uuid": 329,
     "name": "Hate Crown",
     "icon": "spr_itemicons_329.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       8
     ],
     "set": "thorns"
@@ -3666,6 +4943,11 @@
     "classRestriction": "Templar",
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       96,
       97,
       8
@@ -3676,12 +4958,17 @@
     "uuid": 331,
     "name": "Seeker's Fortune",
     "icon": "spr_itemicons_331.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       23,
       13
     ],
@@ -3697,6 +4984,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       26,
       23,
       13
@@ -3713,6 +5005,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       13,
       23
     ],
@@ -3722,12 +5019,17 @@
     "uuid": 334,
     "name": "Challenger's Helm",
     "icon": "spr_itemicons_334.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       19
     ],
     "set": "challenger"
@@ -3743,6 +5045,11 @@
     "minLevel": 1,
     "baseEnchants": [
       1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
+      1,
       6
     ],
     "set": "challenger"
@@ -3757,6 +5064,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       4,
       5
     ],
@@ -3766,12 +5078,17 @@
     "uuid": 337,
     "name": "Bloodsoaked Helmet",
     "icon": "spr_itemicons_337.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": "Berserker",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       44
     ],
     "set": "bloodsoak"
@@ -3786,6 +5103,11 @@
     "classRestriction": "Berserker",
     "minLevel": 20,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1063,
       4
     ]
@@ -3795,12 +5117,17 @@
     "name": "Dragonfire Visage",
     "icon": "spr_itemicons_339.png",
     "flavor": "You have driven us to near extinction, and for what purpose?..",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": "Berserker",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       39
     ],
     "set": "dragonfire"
@@ -3816,6 +5143,13 @@
     "classRestriction": "Berserker",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       39,
       101
     ],
@@ -3831,6 +5165,11 @@
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       44,
       19
     ],
@@ -3846,6 +5185,13 @@
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       44,
       102
     ],
@@ -3861,6 +5207,11 @@
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       5,
       102
     ],
@@ -3876,6 +5227,13 @@
     "classRestriction": "Warlock",
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       7,
       6,
       10
@@ -3892,7 +5250,8 @@
     "rarity": "Enchanted",
     "classRestriction": "Warden",
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 346,
@@ -3905,7 +5264,8 @@
     "rarity": "Enchanted",
     "classRestriction": "Templar",
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 347,
@@ -3918,7 +5278,8 @@
     "rarity": "Enchanted",
     "classRestriction": "Warlock",
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 348,
@@ -3931,7 +5292,8 @@
     "rarity": "Enchanted",
     "classRestriction": "Berserker",
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 350,
@@ -3944,7 +5306,8 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 351,
@@ -3957,7 +5320,8 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 352,
@@ -3970,7 +5334,8 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 353,
@@ -3983,7 +5348,8 @@
     "rarity": "Enchanted",
     "classRestriction": "Templar",
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 354,
@@ -3996,7 +5362,8 @@
     "rarity": "Enchanted",
     "classRestriction": "Berserker",
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 355,
@@ -4009,7 +5376,8 @@
     "rarity": "Enchanted",
     "classRestriction": "Warden",
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 356,
@@ -4022,7 +5390,8 @@
     "rarity": "Enchanted",
     "classRestriction": "Warlock",
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 357,
@@ -4035,7 +5404,8 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 10,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 358,
@@ -4048,7 +5418,8 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 10,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 359,
@@ -4061,19 +5432,25 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 364,
     "name": "Desecrator's Face",
     "icon": "spr_itemicons_364.png",
     "flavor": "What is Death, but not the goal of Life? Too long we have worshipped Life...",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": "Warlock",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       53
     ],
     "set": "desecrators"
@@ -4089,6 +5466,11 @@
     "classRestriction": "Warlock",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       53,
       100
     ],
@@ -4105,6 +5487,13 @@
     "classRestriction": "Warlock",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       53,
       5
     ],
@@ -4121,6 +5510,11 @@
     "classRestriction": "Warlock",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1075,
       53
     ]
@@ -4129,12 +5523,17 @@
     "uuid": 368,
     "name": "Bloodbinder's Helm",
     "icon": "spr_itemicons_368.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": "Warlock",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       41
     ],
     "set": "bloodbinder"
@@ -4149,6 +5548,11 @@
     "classRestriction": "Warlock",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       41,
       21
     ],
@@ -4164,6 +5568,13 @@
     "classRestriction": "Warlock",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       41,
       46
     ],
@@ -4179,6 +5590,11 @@
     "classRestriction": "Warlock",
     "minLevel": 20,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1077,
       41
     ]
@@ -4188,12 +5604,17 @@
     "name": "Caine's Vision",
     "icon": "spr_itemicons_372.png",
     "flavor": "Suddenly, a flash of fire and light appeared, cutting through the battlefield, laying waste to all around it...",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       39
     ],
     "set": "caines"
@@ -4209,6 +5630,11 @@
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       39,
       4
     ],
@@ -4225,6 +5651,13 @@
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       39,
       100
     ],
@@ -4241,6 +5674,11 @@
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       96,
       97,
       4
@@ -4251,12 +5689,17 @@
     "uuid": 376,
     "name": "Reckoning's Sight",
     "icon": "spr_itemicons_376.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       8
     ],
     "set": "reckoning"
@@ -4271,6 +5714,11 @@
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       44,
       8
     ],
@@ -4286,6 +5734,13 @@
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       44,
       8
     ],
@@ -4301,6 +5756,11 @@
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       96,
       97,
       8
@@ -4311,12 +5771,17 @@
     "uuid": 380,
     "name": "Spirit Visage",
     "icon": "spr_itemicons_380.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": "Berserker",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       42
     ],
     "set": "spiritgarb"
@@ -4331,6 +5796,11 @@
     "classRestriction": "Berserker",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       42,
       21
     ],
@@ -4346,6 +5816,13 @@
     "classRestriction": "Berserker",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       42,
       19
     ],
@@ -4361,6 +5838,11 @@
     "classRestriction": "Berserker",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       5,
       100
     ],
@@ -4370,12 +5852,17 @@
     "uuid": 384,
     "name": "Northern Rage Helm",
     "icon": "spr_itemicons_384.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": "Berserker",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       40
     ],
     "set": "northernrage"
@@ -4390,6 +5877,11 @@
     "classRestriction": "Berserker",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       40,
       103
     ],
@@ -4405,6 +5897,13 @@
     "classRestriction": "Berserker",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       40,
       100
     ],
@@ -4421,6 +5920,11 @@
     "classRestriction": "Berserker",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1134
     ]
   },
@@ -4428,12 +5932,17 @@
     "uuid": 388,
     "name": "Everspring's Crown",
     "icon": "spr_itemicons_388.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       41
     ],
     "set": "everspring"
@@ -4448,6 +5957,11 @@
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       41,
       100
     ],
@@ -4463,6 +5977,13 @@
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       41,
       6
     ],
@@ -4478,6 +5999,11 @@
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       3,
       21
     ],
@@ -4487,12 +6013,17 @@
     "uuid": 392,
     "name": "Snowstorm Eye",
     "icon": "spr_itemicons_392.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       40
     ],
     "set": "snowstorm"
@@ -4507,6 +6038,11 @@
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       40,
       51
     ],
@@ -4522,6 +6058,13 @@
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       40,
       4
     ],
@@ -4537,6 +6080,11 @@
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1120,
       7
     ]
@@ -4551,7 +6099,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       56
     ]
   },
@@ -4565,7 +6114,8 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       56
     ]
   },
@@ -4579,7 +6129,8 @@
     "rarity": "Rare",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       56
     ]
   },
@@ -4593,7 +6144,8 @@
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       56
     ]
   },
@@ -4608,7 +6160,8 @@
     "rarity": "Legendary",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       56
     ]
   },
@@ -4623,6 +6176,13 @@
     "classRestriction": "Berserker",
     "minLevel": 5,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       1189
     ]
   },
@@ -4636,6 +6196,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       77
     ]
   },
@@ -4649,6 +6214,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       84
     ]
   },
@@ -4662,6 +6232,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       20
     ]
   },
@@ -4676,6 +6251,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       92,
       41
     ]
@@ -4685,12 +6265,17 @@
     "name": "Nightcap",
     "icon": "spr_itemicons_407.png",
     "flavor": "One of the four mysterious masks...",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       82
     ]
   },
@@ -4699,12 +6284,17 @@
     "name": "Lightcap",
     "icon": "spr_itemicons_408.png",
     "flavor": "One of the four mysterious masks...",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       81,
       54
     ]
@@ -4714,12 +6304,17 @@
     "name": "Blightcap",
     "icon": "spr_itemicons_409.png",
     "flavor": "One of the four mysterious masks...",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       85
     ]
   },
@@ -4728,12 +6323,17 @@
     "name": "Frightcap",
     "icon": "spr_itemicons_410.png",
     "flavor": "One of the four mysterious masks...",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       78
     ]
   },
@@ -4741,12 +6341,17 @@
     "uuid": 411,
     "name": "Mightcap",
     "icon": "spr_itemicons_411.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1103
     ]
   },
@@ -4760,6 +6365,11 @@
     "classRestriction": null,
     "minLevel": 10,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       63
     ]
   },
@@ -4773,6 +6383,11 @@
     "classRestriction": null,
     "minLevel": 10,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       80
     ]
   },
@@ -4786,6 +6401,11 @@
     "classRestriction": null,
     "minLevel": 10,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       73,
       74
     ]
@@ -4800,6 +6420,11 @@
     "classRestriction": null,
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1069
     ]
   },
@@ -4813,6 +6438,11 @@
     "classRestriction": null,
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1070
     ]
   },
@@ -4827,6 +6457,11 @@
     "classRestriction": "Berserker",
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       63,
       66
     ]
@@ -4841,6 +6476,11 @@
     "classRestriction": "Berserker",
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       3
     ]
   },
@@ -4853,7 +6493,12 @@
     "rarity": "Ordinary",
     "classRestriction": "Warden",
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 420,
@@ -4865,6 +6510,11 @@
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1049,
       40
     ]
@@ -4879,6 +6529,11 @@
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1047,
       8
     ]
@@ -4893,6 +6548,11 @@
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1048,
       42
     ]
@@ -4907,6 +6567,11 @@
     "classRestriction": "Warlock",
     "minLevel": 15,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1052,
       39
     ]
@@ -4921,6 +6586,11 @@
     "classRestriction": "Warlock",
     "minLevel": 15,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1053,
       53
     ]
@@ -4936,6 +6606,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       30,
       35
     ]
@@ -4951,6 +6626,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       29,
       34
     ]
@@ -4966,6 +6646,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       28,
       36
     ]
@@ -4981,6 +6666,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       31,
       37
     ]
@@ -4996,6 +6686,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       123,
       38
     ]
@@ -5011,6 +6706,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       32,
       52
     ]
@@ -5025,6 +6725,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1073,
       48
     ]
@@ -5038,7 +6743,12 @@
     "rarity": "Legendary",
     "classRestriction": "Berserker",
     "minLevel": 5,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 433,
@@ -5050,6 +6760,11 @@
     "classRestriction": "Warlock",
     "minLevel": 15,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1127
     ]
   },
@@ -5063,6 +6778,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       54
     ]
   },
@@ -5075,7 +6795,12 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 440,
@@ -5087,6 +6812,11 @@
     "classRestriction": null,
     "minLevel": 5,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       23
     ]
   },
@@ -5100,6 +6830,11 @@
     "classRestriction": null,
     "minLevel": 10,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       27
     ]
   },
@@ -5113,6 +6848,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       6
     ]
   },
@@ -5126,6 +6866,11 @@
     "classRestriction": null,
     "minLevel": 10,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       7
     ]
   },
@@ -5138,7 +6883,12 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 445,
@@ -5149,7 +6899,12 @@
     "rarity": "Ordinary",
     "classRestriction": "Warden",
     "minLevel": 7,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 446,
@@ -5160,7 +6915,12 @@
     "rarity": "Ordinary",
     "classRestriction": "Warden",
     "minLevel": 15,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 447,
@@ -5171,7 +6931,12 @@
     "rarity": "Ordinary",
     "classRestriction": "Templar",
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 448,
@@ -5182,7 +6947,12 @@
     "rarity": "Ordinary",
     "classRestriction": "Templar",
     "minLevel": 7,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 449,
@@ -5193,7 +6963,12 @@
     "rarity": "Ordinary",
     "classRestriction": "Templar",
     "minLevel": 15,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 450,
@@ -5204,7 +6979,12 @@
     "rarity": "Ordinary",
     "classRestriction": "Warlock",
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 451,
@@ -5215,7 +6995,12 @@
     "rarity": "Ordinary",
     "classRestriction": "Warlock",
     "minLevel": 7,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 452,
@@ -5226,7 +7011,12 @@
     "rarity": "Ordinary",
     "classRestriction": "Warlock",
     "minLevel": 15,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 453,
@@ -5237,7 +7027,12 @@
     "rarity": "Ordinary",
     "classRestriction": "Berserker",
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 454,
@@ -5248,7 +7043,12 @@
     "rarity": "Ordinary",
     "classRestriction": "Berserker",
     "minLevel": 7,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 455,
@@ -5259,7 +7059,12 @@
     "rarity": "Ordinary",
     "classRestriction": "Berserker",
     "minLevel": 15,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 456,
@@ -5271,6 +7076,11 @@
     "classRestriction": "Templar",
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       96,
       97
     ]
@@ -5285,6 +7095,11 @@
     "classRestriction": "Templar",
     "minLevel": 7,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       96,
       97
     ]
@@ -5299,6 +7114,11 @@
     "classRestriction": "Templar",
     "minLevel": 15,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       96,
       97
     ]
@@ -5313,6 +7133,11 @@
     "classRestriction": "Templar",
     "minLevel": 25,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       96,
       97
     ]
@@ -5327,6 +7152,11 @@
     "classRestriction": "Templar",
     "minLevel": 35,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       96,
       97
     ]
@@ -5341,6 +7171,11 @@
     "classRestriction": "Warlock",
     "minLevel": 20,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1050,
       41
     ]
@@ -5355,6 +7190,11 @@
     "classRestriction": "Warlock",
     "minLevel": 20,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1051,
       40
     ]
@@ -5368,7 +7208,12 @@
     "rarity": "Ordinary",
     "classRestriction": "Templar",
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 464,
@@ -5380,6 +7225,11 @@
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1022,
       42
     ]
@@ -5394,6 +7244,11 @@
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1023,
       46
     ]
@@ -5408,6 +7263,11 @@
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1024,
       39
     ]
@@ -5422,6 +7282,11 @@
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1025,
       43
     ]
@@ -5436,6 +7301,11 @@
     "classRestriction": "Berserker",
     "minLevel": 11,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1026,
       44
     ]
@@ -5450,6 +7320,11 @@
     "classRestriction": "Berserker",
     "minLevel": 15,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1027,
       42
     ]
@@ -5464,6 +7339,11 @@
     "classRestriction": "Berserker",
     "minLevel": 15,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1028,
       39
     ]
@@ -5478,6 +7358,11 @@
     "classRestriction": "Berserker",
     "minLevel": 20,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1029,
       40
     ]
@@ -5492,6 +7377,11 @@
     "classRestriction": "Templar",
     "minLevel": 5,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       96,
       97,
       1
@@ -5507,6 +7397,11 @@
     "classRestriction": "Templar",
     "minLevel": 5,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       96,
       97,
       8,
@@ -5523,6 +7418,11 @@
     "classRestriction": "Templar",
     "minLevel": 40,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1085,
       96,
       97
@@ -5538,6 +7438,11 @@
     "classRestriction": "Warden",
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       5
     ]
   },
@@ -5551,6 +7456,11 @@
     "classRestriction": "Warden",
     "minLevel": 10,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1082,
       51
     ]
@@ -5565,6 +7475,11 @@
     "classRestriction": "Warlock",
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       66
     ]
   },
@@ -5578,6 +7493,11 @@
     "classRestriction": "Warlock",
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       9
     ]
   },
@@ -5591,6 +7511,11 @@
     "classRestriction": "Templar",
     "minLevel": 5,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       71,
       6
     ]
@@ -5605,6 +7530,11 @@
     "classRestriction": "Templar",
     "minLevel": 5,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       47,
       3
     ]
@@ -5619,6 +7549,11 @@
     "classRestriction": "Templar",
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       96,
       97,
       47
@@ -5634,6 +7569,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       107,
       41
     ]
@@ -5648,6 +7588,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       9,
       10
     ]
@@ -5663,6 +7608,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       52,
       82
     ]
@@ -5677,6 +7627,13 @@
     "classRestriction": "Warden",
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       51,
       5
     ]
@@ -5690,7 +7647,8 @@
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       56
     ]
   },
@@ -5704,6 +7662,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       76,
       84
     ]
@@ -5718,6 +7681,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       21,
       50,
       26
@@ -5733,6 +7701,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       115,
       39
     ]
@@ -5747,6 +7720,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       21,
       50
     ]
@@ -5761,6 +7739,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       43,
       111
     ]
@@ -5775,6 +7758,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       42,
       84
     ]
@@ -5789,6 +7777,13 @@
     "classRestriction": "Warlock",
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       53,
       66
     ]
@@ -5803,6 +7798,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       26
     ],
     "set": "thiefs"
@@ -5817,6 +7817,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       4
     ],
     "set": "thiefs"
@@ -5831,6 +7836,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       46
     ],
     "set": "bond"
@@ -5845,6 +7855,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       45
     ],
     "set": "bond"
@@ -5859,6 +7874,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       9
     ],
     "set": "harvest"
@@ -5873,6 +7893,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       10
     ],
     "set": "harvest"
@@ -5887,6 +7912,11 @@
     "classRestriction": null,
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       48
     ],
     "set": "element2"
@@ -5901,6 +7931,11 @@
     "classRestriction": null,
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       48
     ],
     "set": "element2"
@@ -5915,6 +7950,11 @@
     "classRestriction": null,
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       51
     ],
     "set": "element1"
@@ -5929,6 +7969,11 @@
     "classRestriction": null,
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       9
     ],
     "set": "element1"
@@ -5943,6 +7988,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       40
     ],
     "set": "sunandmoon"
@@ -5957,6 +8007,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       39
     ],
     "set": "sunandmoon"
@@ -5971,6 +8026,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1
     ],
     "set": "thorns2"
@@ -5985,6 +8045,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       4
     ],
     "set": "thorns2"
@@ -5999,6 +8064,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       6
     ],
     "set": "thorns2"
@@ -6013,6 +8083,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       8
     ],
     "set": "thorns2"
@@ -6021,12 +8096,17 @@
     "uuid": 510,
     "name": "Summoner's Hood",
     "icon": "spr_itemicons_510.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       46
     ],
     "set": "summoner"
@@ -6041,6 +8121,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       45
     ],
     "set": "summoner"
@@ -6055,6 +8140,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       46
     ],
     "set": "summoner"
@@ -6069,6 +8159,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       45
     ],
     "set": "summoner"
@@ -6083,6 +8178,11 @@
     "classRestriction": null,
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1003,
       6
     ]
@@ -6097,6 +8197,11 @@
     "classRestriction": null,
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1000,
       100
     ]
@@ -6111,6 +8216,11 @@
     "classRestriction": null,
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1002,
       22
     ]
@@ -6125,6 +8235,11 @@
     "classRestriction": null,
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1004,
       4
     ]
@@ -6134,12 +8249,17 @@
     "name": "Extra-Ordinary Cap",
     "icon": "spr_itemicons_518.png",
     "flavor": "Not that ordinary, after all.",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "True Legendary",
     "classRestriction": null,
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1005,
       48
     ]
@@ -6154,6 +8274,11 @@
     "classRestriction": null,
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1001,
       63
     ]
@@ -6169,6 +8294,11 @@
     "classRestriction": null,
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1006
     ]
   },
@@ -6182,6 +8312,13 @@
     "classRestriction": "Templar",
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       1105,
       3
     ]
@@ -6196,6 +8333,13 @@
     "classRestriction": "Berserker",
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       1107,
       19
     ]
@@ -6210,6 +8354,13 @@
     "classRestriction": "Warlock",
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       1106,
       48
     ]
@@ -6224,6 +8375,13 @@
     "classRestriction": "Warden",
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       1104,
       100
     ]
@@ -6238,6 +8396,11 @@
     "classRestriction": "Templar",
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       97,
       96,
       1007,
@@ -6254,6 +8417,11 @@
     "classRestriction": "Berserker",
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1008,
       121
     ]
@@ -6269,6 +8437,11 @@
     "classRestriction": "Warlock",
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1009,
       5
     ]
@@ -6283,6 +8456,11 @@
     "classRestriction": "Warden",
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1010,
       4
     ]
@@ -6298,6 +8476,11 @@
     "classRestriction": null,
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1011,
       121
     ]
@@ -6313,7 +8496,8 @@
     "rarity": "Rare",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 531,
@@ -6326,7 +8510,8 @@
     "rarity": "Rare",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 532,
@@ -6339,19 +8524,25 @@
     "rarity": "Rare",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 535,
     "name": "Soulpurger's Crown",
     "icon": "spr_itemicons_535.png",
     "flavor": "Nearly overwhelmed by the corrupted, they fell into formation around the priests, deep in prayer...",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       43
     ],
     "set": "soulpurger"
@@ -6367,6 +8558,11 @@
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       43,
       101
     ],
@@ -6383,6 +8579,13 @@
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       43,
       100
     ],
@@ -6399,6 +8602,11 @@
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       96,
       97,
       8
@@ -6410,12 +8618,17 @@
     "name": "Thundering Will",
     "icon": "spr_itemicons_539.png",
     "flavor": "Alone, she stood among the bodies of her fallen sisters, surrounded by unholy demons...",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       42
     ],
     "set": "thunderingarmy"
@@ -6431,6 +8644,11 @@
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       42,
       45
     ],
@@ -6447,6 +8665,13 @@
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       42,
       46
     ],
@@ -6463,6 +8688,11 @@
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       96,
       97,
       45
@@ -6473,12 +8703,17 @@
     "uuid": 543,
     "name": "War God's Crown",
     "icon": "spr_itemicons_543.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       39
     ],
     "set": "wargod"
@@ -6493,6 +8728,11 @@
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       39,
       7
     ],
@@ -6508,6 +8748,13 @@
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       39,
       101
     ],
@@ -6523,6 +8770,11 @@
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       39,
       5
     ],
@@ -6532,12 +8784,17 @@
     "uuid": 547,
     "name": "Valkyrie Winged Helmet",
     "icon": "spr_itemicons_547.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       44
     ],
     "set": "valkyrie"
@@ -6552,6 +8809,11 @@
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       44,
       5
     ],
@@ -6567,6 +8829,13 @@
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       44,
       102
     ],
@@ -6582,6 +8851,11 @@
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       96,
       97,
       102
@@ -6592,12 +8866,17 @@
     "uuid": 552,
     "name": "Cataclysmic Helm",
     "icon": "spr_itemicons_552.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": "Berserker",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       44
     ],
     "set": "cataclysm"
@@ -6612,6 +8891,11 @@
     "classRestriction": "Berserker",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       44,
       100
     ],
@@ -6627,6 +8911,13 @@
     "classRestriction": "Berserker",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       44,
       101
     ],
@@ -6642,6 +8933,11 @@
     "classRestriction": "Berserker",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       5,
       19
     ],
@@ -6657,6 +8953,11 @@
     "classRestriction": "Berserker",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       5,
       102
     ],
@@ -6667,12 +8968,17 @@
     "name": "Skysoul Helmet",
     "icon": "spr_itemicons_557.png",
     "flavor": "Suddenly, the Sky Lords, who had sailed on the clouds for generations, were cast to the ground...",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": "Berserker",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       42
     ],
     "set": "soulsky"
@@ -6688,6 +8994,11 @@
     "classRestriction": "Berserker",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       42,
       101
     ],
@@ -6704,6 +9015,13 @@
     "classRestriction": "Berserker",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       42,
       100
     ],
@@ -6720,6 +9038,11 @@
     "classRestriction": "Berserker",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       5,
       4
     ],
@@ -6736,6 +9059,11 @@
     "classRestriction": "Berserker",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       5,
       100
     ],
@@ -6745,12 +9073,17 @@
     "uuid": 562,
     "name": "Volcanic Visage",
     "icon": "spr_itemicons_562.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": "Berserker",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       39
     ],
     "set": "volcano"
@@ -6765,6 +9098,11 @@
     "classRestriction": "Berserker",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       39,
       105
     ],
@@ -6780,6 +9118,13 @@
     "classRestriction": "Berserker",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       39,
       8
     ],
@@ -6795,6 +9140,11 @@
     "classRestriction": "Berserker",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       5,
       103
     ],
@@ -6810,6 +9160,11 @@
     "classRestriction": "Berserker",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       5,
       105
     ],
@@ -6819,12 +9174,17 @@
     "uuid": 567,
     "name": "Frostwyrm Visage",
     "icon": "spr_itemicons_567.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": "Berserker",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       40
     ],
     "set": "frostwyrm"
@@ -6839,6 +9199,11 @@
     "classRestriction": "Berserker",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       40,
       21
     ],
@@ -6854,6 +9219,13 @@
     "classRestriction": "Berserker",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       40,
       5
     ],
@@ -6869,6 +9241,11 @@
     "classRestriction": "Berserker",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       5,
       103
     ],
@@ -6884,6 +9261,11 @@
     "classRestriction": null,
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1037,
       76
     ]
@@ -6898,6 +9280,11 @@
     "classRestriction": null,
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1038,
       48
     ]
@@ -6906,12 +9293,17 @@
     "uuid": 573,
     "name": "Skull Mask",
     "icon": "spr_itemicons_573.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "True Legendary",
     "classRestriction": null,
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1039,
       3
     ]
@@ -6920,12 +9312,17 @@
     "uuid": 574,
     "name": "Weyrick's Crown",
     "icon": "spr_itemicons_574.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "True Legendary",
     "classRestriction": null,
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1040,
       124
     ]
@@ -6940,6 +9337,11 @@
     "classRestriction": null,
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1041,
       9
     ]
@@ -6948,12 +9350,17 @@
     "uuid": 576,
     "name": "Windcaller's Guise",
     "icon": "spr_itemicons_576.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       44
     ],
     "set": "windcaller"
@@ -6968,6 +9375,11 @@
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       44,
       100
     ],
@@ -6983,6 +9395,13 @@
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       44,
       5
     ],
@@ -6998,6 +9417,11 @@
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       5,
       101
     ],
@@ -7014,6 +9438,11 @@
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       5,
       4
     ],
@@ -7023,12 +9452,17 @@
     "uuid": 581,
     "name": "Wispmother's Crown",
     "icon": "spr_itemicons_581.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       42
     ],
     "set": "wispmother"
@@ -7043,6 +9477,11 @@
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       42,
       46
     ],
@@ -7058,6 +9497,13 @@
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       42,
       21
     ],
@@ -7073,6 +9519,11 @@
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       5,
       45
     ],
@@ -7082,12 +9533,17 @@
     "uuid": 585,
     "name": "Shroom Tender's Hood",
     "icon": "spr_itemicons_585.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       41
     ],
     "set": "shroomtender"
@@ -7102,6 +9558,11 @@
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       41,
       7
     ],
@@ -7117,6 +9578,13 @@
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       41,
       5
     ],
@@ -7132,6 +9600,11 @@
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       3,
       100
     ],
@@ -7147,6 +9620,11 @@
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       3,
       100
     ],
@@ -7156,12 +9634,17 @@
     "uuid": 590,
     "name": "Torrential Cowl",
     "icon": "spr_itemicons_590.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       40
     ],
     "set": "torrent"
@@ -7176,6 +9659,11 @@
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       40,
       100
     ],
@@ -7191,6 +9679,13 @@
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       40,
       5
     ],
@@ -7206,6 +9701,11 @@
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       3,
       5
     ],
@@ -7221,6 +9721,11 @@
     "classRestriction": "Warlock",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       7,
       45
     ],
@@ -7237,6 +9742,11 @@
     "classRestriction": "Warlock",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       39,
       4
     ],
@@ -7252,6 +9762,11 @@
     "classRestriction": "Warlock",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       40,
       1
     ],
@@ -7268,6 +9783,11 @@
     "classRestriction": "Warlock",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       53,
       9
     ],
@@ -7277,12 +9797,17 @@
     "uuid": 598,
     "name": "Plague Mage's Helm",
     "icon": "spr_itemicons_598.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": "Warlock",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       41
     ],
     "set": "plaguemage"
@@ -7297,6 +9822,11 @@
     "classRestriction": "Warlock",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       41,
       100
     ],
@@ -7312,6 +9842,13 @@
     "classRestriction": "Warlock",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       41,
       21
     ],
@@ -7327,6 +9864,11 @@
     "classRestriction": "Warlock",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       10,
       5
     ],
@@ -7337,12 +9879,17 @@
     "name": "Burning Hell Crown",
     "icon": "spr_itemicons_602.png",
     "flavor": "Hell? What is it but a fictional representation of all things evil?..",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": "Warlock",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       39
     ],
     "set": "burninghell"
@@ -7358,6 +9905,11 @@
     "classRestriction": "Warlock",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       39,
       21
     ],
@@ -7374,6 +9926,13 @@
     "classRestriction": "Warlock",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       39,
       51
     ],
@@ -7390,6 +9949,11 @@
     "classRestriction": "Warlock",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       39,
       45
     ],
@@ -7399,12 +9963,17 @@
     "uuid": 606,
     "name": "Deathbringer's Helm",
     "icon": "spr_itemicons_606.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": "Warlock",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       40
     ],
     "set": "deathbringers"
@@ -7419,6 +9988,11 @@
     "classRestriction": "Warlock",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       40,
       51
     ],
@@ -7434,6 +10008,13 @@
     "classRestriction": "Warlock",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       40,
       101
     ],
@@ -7449,6 +10030,11 @@
     "classRestriction": "Warlock",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       40,
       5
     ],
@@ -7459,12 +10045,17 @@
     "name": "Masochist's Helm",
     "icon": "spr_itemicons_610.png",
     "flavor": "The Council recognizes your importance in recent and past events, and with that in mind, you will live...",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": "Warlock",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       53
     ],
     "set": "masochists"
@@ -7480,6 +10071,11 @@
     "classRestriction": "Warlock",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       53,
       47
     ],
@@ -7496,6 +10092,13 @@
     "classRestriction": "Warlock",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       53,
       8
     ],
@@ -7512,6 +10115,11 @@
     "classRestriction": "Warlock",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       53,
       8
     ],
@@ -7527,7 +10135,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       56
     ]
   },
@@ -7541,7 +10150,8 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       56
     ]
   },
@@ -7555,6 +10165,11 @@
     "classRestriction": null,
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1059,
       46
     ],
@@ -7564,12 +10179,17 @@
     "uuid": 617,
     "name": "Life Guard",
     "icon": "spr_itemicons_617.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "True Legendary",
     "classRestriction": null,
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1060,
       87
     ]
@@ -7584,7 +10204,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       500,
       501,
       502
@@ -7600,7 +10221,8 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       500,
       501,
       502
@@ -7616,7 +10238,8 @@
     "rarity": "Rare",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       500,
       501,
       502
@@ -7632,7 +10255,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       503,
       504,
       505
@@ -7648,7 +10272,8 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       503,
       504,
       505
@@ -7664,7 +10289,8 @@
     "rarity": "Rare",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       503,
       504,
       505
@@ -7680,7 +10306,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       506,
       507,
       508
@@ -7696,7 +10323,8 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       506,
       507,
       508
@@ -7712,7 +10340,8 @@
     "rarity": "Rare",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       506,
       507,
       508
@@ -7728,7 +10357,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       509,
       510,
       511
@@ -7744,7 +10374,8 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       509,
       510,
       511
@@ -7760,7 +10391,8 @@
     "rarity": "Rare",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       509,
       510,
       511
@@ -7776,7 +10408,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       512,
       513,
       514
@@ -7792,7 +10425,8 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       512,
       513,
       514
@@ -7808,7 +10442,8 @@
     "rarity": "Rare",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       512,
       513,
       514
@@ -7824,7 +10459,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       515,
       516,
       517
@@ -7840,7 +10476,8 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       515,
       516,
       517
@@ -7856,7 +10493,8 @@
     "rarity": "Rare",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       515,
       516,
       517
@@ -7872,7 +10510,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       518,
       519,
       520
@@ -7888,7 +10527,8 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       518,
       519,
       520
@@ -7904,7 +10544,8 @@
     "rarity": "Rare",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       518,
       519,
       520
@@ -7920,7 +10561,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       521,
       522,
       523
@@ -7936,7 +10578,8 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       521,
       522,
       523
@@ -7952,7 +10595,8 @@
     "rarity": "Rare",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       521,
       522,
       523
@@ -7968,7 +10612,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       524,
       525,
       526
@@ -7984,7 +10629,8 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       524,
       525,
       526
@@ -8000,7 +10646,8 @@
     "rarity": "Rare",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       524,
       525,
       526
@@ -8016,7 +10663,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       527,
       528,
       529
@@ -8032,7 +10680,8 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       527,
       528,
       529
@@ -8048,7 +10697,8 @@
     "rarity": "Rare",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       527,
       528,
       529
@@ -8064,7 +10714,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       530,
       531,
       532
@@ -8080,7 +10731,8 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       530,
       531,
       532
@@ -8096,7 +10748,8 @@
     "rarity": "Rare",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       530,
       531,
       532
@@ -8112,7 +10765,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       533,
       534,
       535
@@ -8128,7 +10782,8 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       533,
       534,
       535
@@ -8144,7 +10799,8 @@
     "rarity": "Rare",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       533,
       534,
       535
@@ -8160,7 +10816,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       536,
       537,
       538
@@ -8176,7 +10833,8 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       536,
       537,
       538
@@ -8192,7 +10850,8 @@
     "rarity": "Rare",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       536,
       537,
       538
@@ -8208,7 +10867,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       539,
       540,
       541
@@ -8224,7 +10884,8 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       539,
       540,
       541
@@ -8240,7 +10901,8 @@
     "rarity": "Rare",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       539,
       540,
       541
@@ -8256,7 +10918,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       542,
       543,
       544
@@ -8272,7 +10935,8 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       542,
       543,
       544
@@ -8288,7 +10952,8 @@
     "rarity": "Rare",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       542,
       543,
       544
@@ -8304,7 +10969,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       545,
       546,
       547
@@ -8320,7 +10986,8 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       545,
       546,
       547
@@ -8336,7 +11003,8 @@
     "rarity": "Rare",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       545,
       546,
       547
@@ -8352,7 +11020,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       548,
       549,
       550
@@ -8368,7 +11037,8 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       548,
       549,
       550
@@ -8384,7 +11054,8 @@
     "rarity": "Rare",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       548,
       549,
       550
@@ -8400,7 +11071,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       551,
       552,
       553
@@ -8416,7 +11088,8 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       551,
       552,
       553
@@ -8432,7 +11105,8 @@
     "rarity": "Rare",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       551,
       552,
       553
@@ -8448,7 +11122,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       554,
       555,
       556
@@ -8464,7 +11139,8 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       554,
       555,
       556
@@ -8480,7 +11156,8 @@
     "rarity": "Rare",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       554,
       555,
       556
@@ -8496,7 +11173,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       557,
       558,
       559
@@ -8512,7 +11190,8 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       557,
       558,
       559
@@ -8528,7 +11207,8 @@
     "rarity": "Rare",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       557,
       558,
       559
@@ -8544,7 +11224,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       560,
       561,
       562
@@ -8560,7 +11241,8 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       560,
       561,
       562
@@ -8576,7 +11258,8 @@
     "rarity": "Rare",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       560,
       561,
       562
@@ -8592,7 +11275,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 693,
@@ -8604,7 +11288,8 @@
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 694,
@@ -8615,7 +11300,8 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 695,
@@ -8626,7 +11312,8 @@
     "rarity": "Rare",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 696,
@@ -8637,7 +11324,8 @@
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 697,
@@ -8648,7 +11336,8 @@
     "rarity": "Legendary",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 698,
@@ -8661,7 +11350,8 @@
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 699,
@@ -8673,7 +11363,8 @@
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 700,
@@ -8685,6 +11376,11 @@
     "classRestriction": "Berserker",
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       102,
       110
     ]
@@ -8699,6 +11395,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       42,
       4
     ]
@@ -8713,6 +11414,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       120
     ]
   },
@@ -8720,12 +11426,17 @@
     "uuid": 703,
     "name": "Skull of Grotesk",
     "icon": "spr_itemicons_703.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       41,
       85
     ]
@@ -8740,6 +11451,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       39,
       34,
       86
@@ -8749,12 +11465,17 @@
     "uuid": 705,
     "name": "Ghostly Veil",
     "icon": "spr_itemicons_705.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       114,
       121
     ]
@@ -8769,6 +11490,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       40,
       29
     ]
@@ -8783,6 +11509,11 @@
     "classRestriction": null,
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1087,
       47
     ]
@@ -8791,12 +11522,17 @@
     "uuid": 708,
     "name": "Crown of Aerefthas",
     "icon": "spr_itemicons_708.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       43,
       81
     ]
@@ -8811,6 +11547,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       102,
       110
     ]
@@ -8825,7 +11566,8 @@
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 711,
@@ -8837,7 +11579,8 @@
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 712,
@@ -8850,7 +11593,12 @@
     "rarity": "Legendary",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 713,
@@ -8863,7 +11611,12 @@
     "rarity": "Legendary",
     "classRestriction": null,
     "minLevel": 15,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 714,
@@ -8875,7 +11628,8 @@
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 715,
@@ -8886,7 +11640,8 @@
     "rarity": "Legendary",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": [
+    "baseEnchants": [],
+    "fixedEnchants": [
       56
     ]
   },
@@ -8895,12 +11650,17 @@
     "name": "Red Holiday Hat",
     "icon": "spr_itemicons_716.png",
     "flavor": "Highly impractical for combat situations",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       24,
       23,
       13
@@ -8917,7 +11677,14 @@
     "rarity": "Legendary",
     "classRestriction": "Berserker",
     "minLevel": 1,
-    "baseEnchants": [],
+    "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [],
     "set": "xmas"
   },
   {
@@ -8930,7 +11697,14 @@
     "rarity": "Legendary",
     "classRestriction": "Templar",
     "minLevel": 1,
-    "baseEnchants": [],
+    "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [],
     "set": "xmas"
   },
   {
@@ -8943,7 +11717,14 @@
     "rarity": "Legendary",
     "classRestriction": "Warden",
     "minLevel": 1,
-    "baseEnchants": [],
+    "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [],
     "set": "xmas"
   },
   {
@@ -8956,7 +11737,14 @@
     "rarity": "Legendary",
     "classRestriction": "Warlock",
     "minLevel": 1,
-    "baseEnchants": [],
+    "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [],
     "set": "xmas"
   },
   {
@@ -8969,6 +11757,11 @@
     "classRestriction": null,
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1089
     ]
   },
@@ -8982,6 +11775,11 @@
     "classRestriction": null,
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1090,
       1
     ]
@@ -8996,6 +11794,11 @@
     "classRestriction": null,
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1091,
       120
     ]
@@ -9010,6 +11813,11 @@
     "classRestriction": null,
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1094
     ]
   },
@@ -9023,6 +11831,11 @@
     "classRestriction": null,
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1097,
       125
     ]
@@ -9037,7 +11850,8 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 100,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 727,
@@ -9049,7 +11863,8 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 100,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 728,
@@ -9061,6 +11876,11 @@
     "classRestriction": null,
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1099,
       1
     ]
@@ -9075,6 +11895,11 @@
     "classRestriction": null,
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1100,
       2
     ]
@@ -9089,6 +11914,11 @@
     "classRestriction": null,
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1101,
       21
     ]
@@ -9102,7 +11932,8 @@
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 732,
@@ -9115,7 +11946,8 @@
     "rarity": "Legendary",
     "classRestriction": null,
     "minLevel": 50,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 733,
@@ -9128,7 +11960,8 @@
     "rarity": "Legendary",
     "classRestriction": null,
     "minLevel": 50,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 734,
@@ -9141,7 +11974,8 @@
     "rarity": "Legendary",
     "classRestriction": null,
     "minLevel": 50,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 735,
@@ -9154,7 +11988,8 @@
     "rarity": "Legendary",
     "classRestriction": null,
     "minLevel": 50,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 736,
@@ -9166,6 +12001,11 @@
     "classRestriction": null,
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1108,
       49
     ]
@@ -9181,7 +12021,8 @@
     "rarity": "Enchanted",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 738,
@@ -9194,7 +12035,8 @@
     "rarity": "Legendary",
     "classRestriction": null,
     "minLevel": 50,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 739,
@@ -9207,6 +12049,11 @@
     "classRestriction": null,
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1109,
       125
     ]
@@ -9221,7 +12068,8 @@
     "rarity": "Legendary",
     "classRestriction": null,
     "minLevel": 100,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 741,
@@ -9234,7 +12082,8 @@
     "rarity": "Legendary",
     "classRestriction": null,
     "minLevel": 100,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 742,
@@ -9246,7 +12095,8 @@
     "rarity": "Legendary",
     "classRestriction": null,
     "minLevel": 100,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 743,
@@ -9258,6 +12108,11 @@
     "classRestriction": null,
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1111,
       4
     ]
@@ -9273,6 +12128,11 @@
     "classRestriction": "Templar",
     "minLevel": 40,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1114,
       52
     ]
@@ -9287,6 +12147,11 @@
     "classRestriction": "Templar",
     "minLevel": 20,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1115
     ]
   },
@@ -9301,6 +12166,11 @@
     "classRestriction": "Warden",
     "minLevel": 15,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1117,
       4
     ]
@@ -9315,6 +12185,11 @@
     "classRestriction": "Warden",
     "minLevel": 35,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1118,
       4
     ]
@@ -9329,6 +12204,11 @@
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1122
     ]
   },
@@ -9336,12 +12216,17 @@
     "uuid": 749,
     "name": "Murmur",
     "icon": "spr_itemicons_749.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": "Warlock",
     "minLevel": 35,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1123
     ]
   },
@@ -9355,6 +12240,13 @@
     "classRestriction": "Warlock",
     "minLevel": 25,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       1125,
       8
     ]
@@ -9369,6 +12261,11 @@
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1129
     ]
   },
@@ -9382,6 +12279,11 @@
     "classRestriction": "Warlock",
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1130
     ]
   },
@@ -9396,6 +12298,11 @@
     "classRestriction": "Templar",
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1133,
       5
     ]
@@ -9410,6 +12317,11 @@
     "classRestriction": null,
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1135,
       4
     ]
@@ -9424,6 +12336,11 @@
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1140,
       44
     ]
@@ -9438,6 +12355,11 @@
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1141,
       42
     ]
@@ -9452,6 +12374,11 @@
     "classRestriction": null,
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1142,
       4
     ]
@@ -9467,6 +12394,11 @@
     "classRestriction": null,
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1145,
       48
     ]
@@ -9481,6 +12413,11 @@
     "classRestriction": null,
     "minLevel": 60,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1146
     ]
   },
@@ -9495,6 +12432,11 @@
     "classRestriction": null,
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1150,
       2
     ]
@@ -9510,6 +12452,11 @@
     "classRestriction": "Warden",
     "minLevel": 25,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1151
     ]
   },
@@ -9523,6 +12470,11 @@
     "classRestriction": "Warden",
     "minLevel": 50,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1153,
       5
     ]
@@ -9537,6 +12489,11 @@
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1154,
       46
     ]
@@ -9551,6 +12508,13 @@
     "classRestriction": "Warden",
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       1155,
       46
     ]
@@ -9566,6 +12530,11 @@
     "classRestriction": null,
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1156,
       7
     ]
@@ -9580,6 +12549,11 @@
     "classRestriction": "Warden",
     "minLevel": 25,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1157,
       5
     ]
@@ -9588,12 +12562,17 @@
     "uuid": 767,
     "name": "Lucilla's Vision",
     "icon": "spr_itemicons_767.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "True Legendary",
     "classRestriction": null,
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1158,
       1
     ]
@@ -9609,6 +12588,13 @@
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       1159,
       96,
       97
@@ -9625,6 +12611,11 @@
     "classRestriction": "Templar",
     "minLevel": 40,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1160,
       96,
       97
@@ -9641,6 +12632,11 @@
     "classRestriction": "Templar",
     "minLevel": 50,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1161,
       96,
       97
@@ -9657,6 +12653,11 @@
     "classRestriction": null,
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1165,
       126
     ]
@@ -9672,6 +12673,11 @@
     "classRestriction": "Warden",
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1173,
       100
     ]
@@ -9687,6 +12693,11 @@
     "classRestriction": "Templar",
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1166,
       127
     ]
@@ -9702,6 +12713,11 @@
     "classRestriction": "Warlock",
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1162,
       10
     ]
@@ -9716,6 +12732,11 @@
     "classRestriction": null,
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1112
     ],
     "set": "masters"
@@ -9730,6 +12751,11 @@
     "classRestriction": "Warlock",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1163,
       102
     ]
@@ -9744,6 +12770,11 @@
     "classRestriction": "Berserker",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1164,
       44
     ]
@@ -9753,12 +12784,17 @@
     "name": "Hallowed Helm",
     "icon": "spr_itemicons_779.png",
     "flavor": "A gift from the pumpkin man.",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1167,
       47,
       48
@@ -9774,7 +12810,8 @@
     "rarity": "Ordinary",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 781,
@@ -9786,7 +12823,8 @@
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 782,
@@ -9798,7 +12836,8 @@
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 783,
@@ -9811,6 +12850,11 @@
     "classRestriction": "Berserker",
     "minLevel": 40,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1168,
       39
     ]
@@ -9826,6 +12870,11 @@
     "classRestriction": null,
     "minLevel": 20,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1169
     ]
   },
@@ -9840,6 +12889,11 @@
     "classRestriction": "Templar",
     "minLevel": 40,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1170
     ]
   },
@@ -9854,6 +12908,13 @@
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       1171,
       5
     ]
@@ -9869,6 +12930,11 @@
     "classRestriction": null,
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1172,
       22
     ]
@@ -9884,6 +12950,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1175
     ]
   },
@@ -9898,7 +12969,12 @@
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": []
   },
   {
     "uuid": 790,
@@ -9910,6 +12986,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1176,
       9
     ]
@@ -9925,6 +13006,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1177
     ]
   },
@@ -9939,6 +13025,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1179,
       114
     ]
@@ -9953,6 +13044,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1182
     ]
   },
@@ -9967,6 +13063,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1181
     ]
   },
@@ -9974,12 +13075,17 @@
     "uuid": 795,
     "name": "Skull of Harlon",
     "icon": "spr_itemicons_795.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1178
     ]
   },
@@ -9993,7 +13099,8 @@
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 797,
@@ -10005,7 +13112,8 @@
     "rarity": "Unique",
     "classRestriction": null,
     "minLevel": 1,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 798,
@@ -10018,6 +13126,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1180
     ]
   },
@@ -10031,6 +13144,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       100,
       26,
       54
@@ -10046,6 +13164,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1183
     ]
   },
@@ -10059,6 +13182,11 @@
     "classRestriction": null,
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1174,
       9
     ]
@@ -10073,6 +13201,11 @@
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1184,
       41
     ]
@@ -10088,6 +13221,13 @@
     "classRestriction": "Warlock",
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       1185,
       100
     ]
@@ -10102,6 +13242,13 @@
     "classRestriction": "Warlock",
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       1186,
       19
     ]
@@ -10116,6 +13263,13 @@
     "classRestriction": "Berserker",
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       1188,
       5
     ]
@@ -10130,6 +13284,13 @@
     "classRestriction": "Berserker",
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       1191,
       100
     ]
@@ -10144,6 +13305,11 @@
     "classRestriction": null,
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1192,
       60,
       59
@@ -10160,6 +13326,11 @@
     "classRestriction": "Templar",
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       97,
       96,
       1193,
@@ -10177,6 +13348,13 @@
     "classRestriction": "Templar",
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
+    "fixedEnchants": [
       1194,
       49
     ]
@@ -10192,6 +13370,11 @@
     "classRestriction": "Berserker",
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1195,
       5
     ]
@@ -10206,6 +13389,11 @@
     "classRestriction": "Templar",
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1196,
       4
     ]
@@ -10221,6 +13409,11 @@
     "classRestriction": null,
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1197,
       8
     ]
@@ -10230,12 +13423,17 @@
     "name": "Crown of Innate Probability",
     "icon": "spr_itemicons_813.png",
     "flavor": "New possibilities arise.",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "True Legendary",
     "classRestriction": null,
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1198,
       120
     ]
@@ -10250,6 +13448,11 @@
     "classRestriction": "Berserker",
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1199,
       72
     ]
@@ -10264,6 +13467,11 @@
     "classRestriction": null,
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1718,
       2
     ]
@@ -10278,6 +13486,11 @@
     "classRestriction": null,
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1706,
       47
     ]
@@ -10292,6 +13505,11 @@
     "classRestriction": "Berserker",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1708,
       40
     ]
@@ -10306,6 +13524,11 @@
     "classRestriction": "Berserker",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1709,
       105
     ]
@@ -10320,6 +13543,11 @@
     "classRestriction": "Berserker",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1710,
       8
     ]
@@ -10334,6 +13562,11 @@
     "classRestriction": "Berserker",
     "minLevel": 20,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1711,
       4
     ]
@@ -10342,12 +13575,17 @@
     "uuid": 823,
     "name": "Gemstone Tiara",
     "icon": "spr_itemicons_823.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": null,
     "minLevel": 40,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1712,
       124
     ]
@@ -10362,6 +13600,11 @@
     "classRestriction": null,
     "minLevel": 100,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1713,
       121
     ]
@@ -10376,6 +13619,11 @@
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1714
     ]
   },
@@ -10383,12 +13631,17 @@
     "uuid": 826,
     "name": "Contender",
     "icon": "spr_itemicons_826.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": "Templar",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1715
     ]
   },
@@ -10396,12 +13649,17 @@
     "uuid": 827,
     "name": "Sniper's Eye",
     "icon": "spr_itemicons_827.png",
-    "category": "Welmet",
+    "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
     "classRestriction": "Warden",
     "minLevel": 30,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1716,
       19
     ]
@@ -10417,7 +13675,8 @@
     "rarity": "Legendary",
     "classRestriction": null,
     "minLevel": 100,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 829,
@@ -10430,7 +13689,8 @@
     "rarity": "Legendary",
     "classRestriction": null,
     "minLevel": 100,
-    "baseEnchants": []
+    "baseEnchants": [],
+    "fixedEnchants": []
   },
   {
     "uuid": 830,
@@ -10443,6 +13703,11 @@
     "classRestriction": null,
     "minLevel": 1,
     "baseEnchants": [
+      1,
+      2,
+      3
+    ],
+    "fixedEnchants": [
       1717
     ]
   }

@@ -4,7 +4,7 @@ import { CharacterClass } from '../../types/Character.types';
 import { Skill, SkillTree, SkillFamily, SkillType, DamageElement } from '../../types/Skill.types';
 import { readSourceFile, writeFile } from '../utils/fileUtils';
 
-export function parseSkills(version: number, verbose = false) {
+export function parseSkills(version: string, verbose = false) {
   // We remove the first line as it contains the version number
   const rawSkills = compact(readSourceFile(version, `skilldata_${version}.json`).split(/\n|\r/)).slice(1).join('\n');
   const skillsData = JSON.parse(rawSkills);

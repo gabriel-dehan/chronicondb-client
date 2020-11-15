@@ -12,7 +12,7 @@ interface EnchantsLocaleData {
   gemsLocales: LocaleData;
 }
 
-export function parseEnchants(version: number, verbose = false): Enchant[] {
+export function parseEnchants(version: string, verbose = false): Enchant[] {
   let itemsData: Item[] = [];
   try {
     itemsData = JSON.parse(readExtractFile(version, 'items')) as Item[];
@@ -125,7 +125,7 @@ function findItems(uuid: number, items: Item[]): number[] {
     .map(item => item.uuid);
 }
 
-function parseLocale(version: number): EnchantsLocaleData {
+function parseLocale(version: string): EnchantsLocaleData {
   const parser = /^enchant_(\d+)_(\w+)$/;
   const localePowerData = getLocaleSection(version, 'locale/EN/enchants', 'power');
   const localeEnchantData = getLocaleSection(version, 'locale/EN/enchants', 'enchant');
