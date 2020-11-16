@@ -6,9 +6,9 @@ import ReactDOM from 'react-dom';
 
 import reportWebVitals from './reportWebVitals';
 
-import 'src/assets/styles/fonts.css';
-import 'src/assets/styles/variables.css';
-import 'src/assets/styles/global.css';
+import 'assets/styles/fonts.css';
+import 'assets/styles/variables.css';
+import 'assets/styles/global.css';
 
 // Mobx : all state that is observed somewhere needs to be changed through actions
 configure({ enforceActions: 'observed' });

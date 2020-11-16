@@ -3,4 +3,16 @@ body {
   font-family: 'Nunito Sans', 'Helvetica', 'Ubuntu', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-image: url('../images/textures/body.png');
+  background-color: var(--colorbackground-light-brown);
+  background-repeat: repeat;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0;
 }

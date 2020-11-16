@@ -1,0 +1,13 @@
+.o-header {
+  width: 100%;
+  height: 60px;
+  background-color: var(--color-background-black);
+  border-bottom: 1px solid var(--color-element-dark-brown);
+  padding: 14px 40px;
+
+  &__logo {
+    color: var(--color-element-beige);
+    font-family: Philosopher;
+    font-size: 28px;
+  }
+}
