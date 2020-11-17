@@ -65,7 +65,7 @@
       height: 100%;
       display: inline-block;
       padding: 20px 30px 14px 30px;
-      transform: skew(30deg, 0deg);
+      transform: skew(25deg, 0deg);
 
       background: var(--color-background-light-black);
       border-left: 1px solid #2e2624;
@@ -90,7 +90,7 @@
 
       a {
         display: inline-block;
-        transform: skew(-30deg, 0deg);
+        transform: skew(-25deg, 0deg);
         border-bottom: 3px solid transparent;
 
         color: var(--color-element-beige);
@@ -105,7 +105,7 @@
 
     &-patches {
       color: var(--color-element-beige);
-      transform: skew(-30deg, 0deg);
+      transform: skew(-25deg, 0deg);
 
       select {
         background: transparent;
