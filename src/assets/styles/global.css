@@ -4,12 +4,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
+  color: var(--color-element-light-beige);
   background-image: url('../images/textures/body.png');
   background-color: var(--colorbackground-light-brown);
   background-repeat: repeat;
 }
 
-div {
+header, div, ul, li {
+  margin: 0;
   box-sizing: border-box;
 }
 

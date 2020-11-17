@@ -1,13 +1,123 @@
 .o-header {
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
   width: 100%;
   height: 60px;
+
   background-color: var(--color-background-black);
   border-bottom: 1px solid var(--color-element-dark-brown);
-  padding: 14px 40px;
 
   &__logo {
+    display: inline-block;
     color: var(--color-element-beige);
     font-family: Philosopher;
     font-size: 28px;
+  }
+
+  &__main-menu {
+    height: 100%;
+    display: inline-block;
+    padding: 16px 45px 14px 0;
+    padding-left: 45px;
+
+    &-item {
+      height: 100%;
+      display: inline-block;
+      margin: 0 15px;
+
+      font-family: "Kufam";
+      font-size: var(--font-normal);
+      text-transform: capitalize;
+
+      &:first-child {
+        margin-left: 0;
+      }
+
+      &.current {
+        font-weight: 500;
+
+        a {
+          border-bottom: 3px solid var(--color-element-light-orange);
+        }
+      }
+
+      a {
+        color: var(--color-element-light-beige);
+        text-decoration: none;
+        border-bottom: 3px solid transparent;
+
+        &:hover {
+          color: #fff7f0;
+          border-bottom: 3px solid var(--color-element-light-orange);
+        }
+      }
+    }
+  }
+
+  &__sub-menu {
+    height: 100%;
+    display: inline-block;
+    margin-left: auto;
+    padding-left: 45px;
+
+    &-item {
+      height: 100%;
+      display: inline-block;
+      padding: 20px 30px 14px 30px;
+      transform: skew(30deg, 0deg);
+
+      background: var(--color-background-light-black);
+      border-left: 1px solid #2e2624;
+      border-right: 1px solid #2e2624;
+
+      font-family: "Kufam";
+      font-size: var(--font-normal);
+      text-transform: capitalize;
+
+      &:last-child {
+        border-right: none;
+      }
+
+      &.current {
+        font-weight: 500;
+
+        a {
+          color: var(--color-light-beige);
+          border-bottom: 3px solid var(--color-element-light-orange);
+        }
+      }
+
+      a {
+        display: inline-block;
+        transform: skew(-30deg, 0deg);
+        border-bottom: 3px solid transparent;
+
+        color: var(--color-element-beige);
+        text-decoration: none;
+
+        &:hover {
+          color: #fff7f0;
+          border-bottom: 3px solid var(--color-element-light-orange);
+        }
+      }
+    }
+
+    &-patches {
+      color: var(--color-element-beige);
+      transform: skew(-30deg, 0deg);
+
+      select {
+        background: transparent;
+        border: none;
+        outline: none;
+        margin-left: 3px;
+        padding-right: 5px;
+
+        color: var(--color-element-beige);
+        font-family: 'Kufam';
+        font-size: var(--font-normal);
+      }
+    }
   }
 }

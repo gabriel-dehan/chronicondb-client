@@ -1,12 +1,13 @@
+import patches from 'engine/data/patchs.json';
 import { observable, action } from 'mobx';
 
 export class UIStore {
 
   @observable
-  public prop = true;
+  public currentPatch: string = patches[patches.length - 1];
 
   @action
-  setProp(value: boolean): void {
-    this.prop = value;
+  setCurrentPatch(value: string): void {
+    this.currentPatch = value;
   }
 }
