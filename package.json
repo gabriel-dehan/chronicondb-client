@@ -13,6 +13,7 @@
     "@types/react-dom": "^16.9.8",
     "@types/react-router-dom": "^5.1.6",
     "dotenv": "^8.2.0",
+    "eslint-import-resolver-typescript": "^2.3.0",
     "lodash": "^4.17.20",
     "mobx": "5.15.6",
     "mobx-react": "6.3.1",
@@ -33,6 +34,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint src/**/*.{ts,tsx}",
+    "lint:fix": "eslint --fix src/**/*.{ts,tsx}",
     "parse:all": "ts-node -O '{ \"module\":\"commonjs\" }' src/engine/parsers/parseAll.ts --version",
     "parse:all:debug": "ts-node -O '{ \"module\":\"commonjs\" }' src/engine/parsers/parseAll.ts --verbose --version"
   },

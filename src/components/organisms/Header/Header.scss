@@ -1,5 +1,6 @@
 .o-header {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   padding: 0 40px;
   width: 100%;
@@ -15,10 +16,16 @@
     font-size: 28px;
   }
 
+  &__left {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
   &__main-menu {
     height: 100%;
     display: inline-block;
-    padding: 16px 45px 14px 0;
+    padding: 18px 45px 14px 0;
     padding-left: 45px;
 
     &-item {
@@ -58,10 +65,10 @@
   &__sub-menu {
     height: 100%;
     display: inline-block;
-    margin-left: auto;
-    padding-left: 45px;
 
     &-item {
+      position: relative;
+      z-index: 1;
       height: 100%;
       display: inline-block;
       padding: 20px 30px 14px 30px;
@@ -77,6 +84,18 @@
 
       &:last-child {
         border-right: none;
+        z-index: 0;
+
+        &:before {
+          content: "";
+          position: absolute;
+          top: 0;
+          right: -40px;
+          width: 55px;
+          height: 100%;
+          background-color: var(--color-background-light-black);
+          transform: skewX(-25deg);
+        }
       }
 
       &.current {

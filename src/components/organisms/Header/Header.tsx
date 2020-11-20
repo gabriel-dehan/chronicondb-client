@@ -1,11 +1,16 @@
-import patches from 'engine/data/patchs.json';
-import { useStores } from 'hooks/useStores';
+
+
 import React, { FunctionComponent } from 'react';
 import { useLocation } from 'react-router';
 import { Link } from 'react-router-dom';
+
+import Dropdown from 'components/atoms/Dropdown/Dropdown';
+import patches from 'engine/data/patchs.json';
+import { useStores } from 'hooks/useStores';
 import { RouteId, RoutePath, ROUTES_ID_MAPPING } from 'routes';
 import { UIStore } from 'stores/UIStore';
 import { DataStore } from 'types/DataStore.types';
+
 
 import './Header.scss';
 interface Stores {
@@ -25,29 +30,37 @@ const Header: FunctionComponent = () => {
 
   return (
     <header className="o-header">
-      <h1 className="o-header__logo">ChroniconDB</h1>
-      <ul className="o-header__main-menu">
-        {MAIN_MENU_ITEMS.map((menuItem) => {
-          const menuRouteId: RouteId = ROUTES_ID_MAPPING[menuItem.path];
-          const { path } = menuItem;
-          const isCurrent = pathname === path;
+      <div className="o-header__left">
+        <h1 className="o-header__logo">ChroniconDB</h1>
+        <ul className="o-header__main-menu">
+          {MAIN_MENU_ITEMS.map((menuItem) => {
+            const menuRouteId: RouteId = ROUTES_ID_MAPPING[menuItem.path];
+            const { path } = menuItem;
+            const isCurrent = pathname === path;
 
-          return (
-            <li
-              className={`o-header__main-menu-item ${isCurrent ? 'current' : ''}`}
-              key={menuRouteId}
-            >
-              <Link to={path}>{menuRouteId}</Link>
-            </li>
-          );
-        })}
-      </ul>
+            return (
+              <li
+                className={`o-header__main-menu-item ${isCurrent ? 'current' : ''}`}
+                key={menuRouteId}
+              >
+                <Link to={path}>{menuRouteId}</Link>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
       <ul className="o-header__sub-menu">
         <li className="o-header__sub-menu-item">
           <div className="o-header__sub-menu-patches">
-            <label>Patch: </label>
+            <Dropdown
+              label="Patch:"
+              defaultValue={uiStore.currentPatch}
+              options={patches.map(patch => ({ label: patch, value: patch }))}
+              onChange={onPatchChange}
+            />
+            {/* <label>Patch: </label> */}
             {/* TODO: Atom */}
-            <select>
+            {/* <select>
               {patches.map(patch => (
                 <option
                   key={patch}
@@ -57,7 +70,7 @@ const Header: FunctionComponent = () => {
                   {patch}
                 </option>
               ))}
-            </select>
+            </select> */}
           </div>
         </li>
         <li className={`o-header__sub-menu-item ${pathname === RoutePath.Developers ? 'current' : ''}`}>
@@ -66,6 +79,10 @@ const Header: FunctionComponent = () => {
       </ul>
     </header>
   );
+
+  function onPatchChange(value: string) {
+    uiStore.setCurrentPatch(value);
+  }
 };
 
 export default Header;

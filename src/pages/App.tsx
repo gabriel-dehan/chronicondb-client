@@ -1,7 +1,9 @@
-import { Provider } from 'mobx-react';
-import Main from 'pages/Main';
 import React, { FunctionComponent, useState } from 'react';
 import { useAsync } from 'react-async-hook';
+
+import { Provider } from 'mobx-react';
+
+import Main from 'pages/Main';
 import { UIStore } from 'stores/UIStore';
 import { DataStore, Stores } from 'types/DataStore.types';
 

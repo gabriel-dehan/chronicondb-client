@@ -1,3 +1,7 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: 'Nunito Sans', 'Helvetica', 'Ubuntu', sans-serif;
@@ -10,11 +14,6 @@ body {
   background-repeat: repeat;
 }
 
-header, div, ul, li {
-  margin: 0;
-  box-sizing: border-box;
-}
-
-h1 {
+h1, ul, li {
   margin: 0;
 }
