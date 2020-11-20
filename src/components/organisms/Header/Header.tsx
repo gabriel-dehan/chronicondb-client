@@ -58,19 +58,6 @@ const Header: FunctionComponent = () => {
               options={patches.map(patch => ({ label: patch, value: patch }))}
               onChange={onPatchChange}
             />
-            {/* <label>Patch: </label> */}
-            {/* TODO: Atom */}
-            {/* <select>
-              {patches.map(patch => (
-                <option
-                  key={patch}
-                  value={patch}
-                  selected={uiStore.currentPatch === patch}
-                >
-                  {patch}
-                </option>
-              ))}
-            </select> */}
           </div>
         </li>
         <li className={`o-header__sub-menu-item ${pathname === RoutePath.Developers ? 'current' : ''}`}>

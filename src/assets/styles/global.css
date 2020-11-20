@@ -17,3 +17,13 @@ body {
 h1, ul, li {
   margin: 0;
 }
+
+a {
+  text-decoration: none;
+  color: var(--color-element-light-orange);
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--color-element-orange);
+}

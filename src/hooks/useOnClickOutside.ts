@@ -5,14 +5,12 @@ export default function useOnClickOutside(
   callback: (event: MouseEvent) => void
 ) {
   useEffect(() => {
-    /**
-     * Alert if clicked on outside of element
-     */
     function handleClickOutside(event: MouseEvent) {
       if (element.current && !element.current.contains(event.target as Node)) {
         callback(event);
       }
     }
+
     // Bind the event listener
     document.addEventListener('mousedown', handleClickOutside);
     return () => {

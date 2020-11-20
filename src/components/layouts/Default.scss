@@ -1,7 +1,18 @@
-.o-layout {
+.p-layout {
   background-image: url('../../assets/images/textures/body_background.png');
   background-repeat: no-repeat;
   background-size: 100%;
 
   min-height: 100vh;
+}
+
+.p-wrapper {
+  min-height: calc(100vh - 40px - 60px);
+}
+
+.p-content {
+  background-image: url('../../assets/images/textures/content_background.png');
+  background-repeat: repeat;
+  margin: 15px 35px;
+  min-height: 30vh;
 }

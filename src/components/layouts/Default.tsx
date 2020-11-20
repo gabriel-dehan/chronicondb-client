@@ -1,5 +1,7 @@
-import Header from 'components/organisms/Header/Header';
 import React, { FunctionComponent } from 'react';
+
+import Footer from 'components/organisms/Footer/Footer';
+import Header from 'components/organisms/Header/Header';
 
 import './Default.scss';
 
@@ -9,10 +11,14 @@ interface Props {
 
 const DefaultLayout: FunctionComponent<Props> = ({ children }) => {
   return (
-    <div className="o-layout">
+    <div className="p-layout">
       <Header />
-      <div>{children}</div>
-      {/* Footer */}
+      <div className="p-wrapper">
+        <div className="p-content">
+          {children}
+        </div>
+      </div>
+      <Footer />
     </div>
   );
 };
