@@ -1,28 +1,89 @@
 .o-categories {
+  background-image: url('../../../../assets/images/textures/sidebar.png');
+  width: 240px;
   color: var(--color-element-brown);
+  border-right: 1px solid var(--color-element-transparent-blue);
 
   &__category {
-    list-style: none;
     cursor: pointer;
+    list-style: none;
 
-    .o-categories__categoryName:hover {
+    .o-categories__categoryName {
+      display: flex;
+      align-items: center;
+      height: 50px;
+      padding-left: 18px;
+
+      background-color: var(--color-background-dark-brown);
       color: var(--color-element-light-beige);
+      border-bottom: 1px solid var(--color-element-mid-brown);
+
+      font-family: Philosopher;
+      font-size: var(--font-big);
+      font-weight: 700;
+      text-transform: uppercase;
+
+      &-icon {
+        margin-right: 10px;
+        opacity: 0.6;
+      }
+
+      &:hover {
+        color: var(--color-element-light-beige);
+        text-shadow: 0 0 6px rgba(172, 140, 87, 0.54), 0 0 10px rgba(172, 140, 87, 0.57);
+      }
     }
 
     &.selected {
       .o-categories__categoryName {
+        padding-left: 12px;
         color: var(--color-element-light-beige);
+        text-shadow: 0 0 6px rgba(172, 140, 87, 0.54), 0 0 10px rgba(172, 140, 87, 0.57);
+
+        &-icon {
+          margin-right: 8px;
+        }
+      }
+
+      .o-categories__itemTypeName {
+        padding-left: 42px;
+      }
+
+      .o-categories__itemTypes {
+        max-height: 1000px;
+        transition: max-height 0.5s ease-in-out;
       }
     }
+  }
+
+  &__itemTypes {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.35s cubic-bezier(0, 1, 0, 1);
   }
 
   &__itemType {
     list-style: none;
     cursor: pointer;
 
-    .o-categories__itemTypeName:hover {
-      color: var(--color-element-light-beige);
+    font-family: "Nunito Sans";
+    font-size: var(--font-normal);
+
+
+    .o-categories__itemTypeName {
+      display: flex;
+      align-items: center;
+      height: 34px;
+      padding-left: 34px;
+      background-color: var(--color-element-darkest-brown);
+      border-bottom: 1px solid var(--color-element-dark-brown);
+      transition: all 0.2s;
+
+      &:hover {
+        color: var(--color-element-light-beige);
+      }
     }
+
 
     &.selected {
       .o-categories__itemTypeName {

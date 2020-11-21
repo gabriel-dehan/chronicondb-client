@@ -10,6 +10,7 @@
   --colorbackground-light-brown: #4f4235;
   --color-background-brown: #50452e;
   --color-background-dark-brown: #171614;
+  --color-background-darker-brown: #1E1918;
   --color-background-light-black: #191715;
   --color-background-black: #11100f;
 
@@ -18,12 +19,16 @@
   --color-element-light-beige: #FFEEDE;
   --color-element-beige: #DECFB0;
   --color-element-dark-beige: ##8e847b;
+  --color-element-mid-brown: #332c1d;
   --color-element-brown: #50452e;
-  --color-element-dark-brown: #1E1918;
+  --color-element-dark-brown: #211c15;
+  --color-element-darker-brown: #1E1918;
+  --color-element-darkest-brown: #121110;
   --color-element-yellow: #f7c200;
   --color-element-light-orange: #dc9d63;
   --color-element-orange: #cd7f3c;
   --color-element-red: #aa2d2d;
+  --color-element-transparent-blue: #1c1d1d;
   --color-element-light-blue: #00b9f8;
   --color-element-dark-blue: #637793;
   --color-element-purple: #8833d0;

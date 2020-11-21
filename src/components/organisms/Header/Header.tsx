@@ -1,6 +1,6 @@
 
 
-import React, { FunctionComponent } from 'react';
+import React, { FunctionComponent, useEffect } from 'react';
 import { useLocation } from 'react-router';
 import { Link } from 'react-router-dom';
 
@@ -8,16 +8,22 @@ import { observer } from 'mobx-react';
 
 import Dropdown from 'components/atoms/Dropdown/Dropdown';
 import patches from 'engine/data/patchs.json';
+import useQueryParams from 'hooks/useQueryParams';
 import { useStores } from 'hooks/useStores';
 import { RouteId, RoutePath, ROUTES_ID_MAPPING } from 'routes';
 import { UIStore } from 'stores/UIStore';
 import { DataStore } from 'types/DataStore.types';
 
-
 import './Header.scss';
+
+type QueryParams = {
+  patch?: string;
+};
+
 interface Stores {
   uiStore: UIStore;
 }
+
 type MenuItem = Record<string, RoutePath>;
 
 const MAIN_MENU_ITEMS: MenuItem[] = [
@@ -29,6 +35,14 @@ const MAIN_MENU_ITEMS: MenuItem[] = [
 const Header: FunctionComponent = () => {
   const { uiStore } = useStores<Stores>(DataStore.UI);
   const { pathname } = useLocation();
+  const [params, setQueryParams] = useQueryParams<QueryParams>();
+  const currentPatch = params.patch || uiStore.currentPatch;
+
+  useEffect(() => {
+    if (params.patch) {
+      uiStore.setCurrentPatch(params.patch);
+    }
+  });
 
   return (
     <header className="o-header">
@@ -56,7 +70,7 @@ const Header: FunctionComponent = () => {
           <div className="o-header__sub-menu-patches">
             <Dropdown
               label="Patch:"
-              defaultValue={uiStore.currentPatch}
+              defaultValue={currentPatch}
               options={patches.map(patch => ({ label: patch, value: patch }))}
               onChange={onPatchChange}
             />
@@ -69,8 +83,9 @@ const Header: FunctionComponent = () => {
     </header>
   );
 
-  function onPatchChange(value: string) {
-    uiStore.setCurrentPatch(value);
+  function onPatchChange(patch: string) {
+    uiStore.setCurrentPatch(patch);
+    setQueryParams({ patch });
   }
 };
 

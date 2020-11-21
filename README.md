@@ -56,6 +56,8 @@ There you go, chronicondb is now up to date.
 
 ## Roadmap
 
+- [ ] Fix header overflow
+- [ ] Auto add version to versions file
 - [x] Layout
 - [ ] Items
 - [~] Items image generator

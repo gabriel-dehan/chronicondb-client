@@ -2,44 +2,71 @@ import React, { FunctionComponent, useState } from 'react';
 
 import { map } from 'lodash';
 
+import Icon, { IconName } from 'components/atoms/Icon/Icon';
 import useEngine from 'hooks/useEngine';
+import useQueryParams from 'hooks/useQueryParams';
 import { ItemCategory, ItemType } from 'types/Item.types';
 
 import './Categories.scss';
 
+type QueryParams = {
+  category?: string;
+  type?: string;
+};
+
 const Categories: FunctionComponent = () => {
   const Engine = useEngine();
+  const [params, setQueryParams] = useQueryParams<QueryParams>();
+
   const { items: { categories, typesByCategories } } = Engine;
-  const defaultCategory = categories[0];
-  const defaultType = typesByCategories[defaultCategory][0];
+  const defaultCategory = (params.category ?? categories[0]) as ItemCategory;
+  const defaultType = (params.type ?? typesByCategories[defaultCategory][0]) as ItemType;
+
   const [selectedCategory, setSelectedCategory] = useState<ItemCategory>(defaultCategory);
   const [selectedType, setSelectedType] = useState<ItemType>(defaultType);
 
   return (
     <ul className="o-categories">
-      {map(typesByCategories, ((itemTypes, category: ItemCategory) => (
-        <li
-          key={`item-category-${category}`}
-          className={`o-categories__category ${selectedCategory === category ? 'selected' : ''}`}
-          onClick={() => onCategorySelect(category)}
-        >
-          <span className="o-categories__categoryName">{category}</span>
-          {renderItemTypes(itemTypes)}
-        </li>
-      )))}
+      {map(typesByCategories, ((itemTypes, category: ItemCategory) => {
+        const isSelected = selectedCategory === category;
+        return (
+          <li
+            key={`item-category-${category}`}
+            className={`o-categories__category ${isSelected ? 'selected' : ''}`}
+          >
+            <span
+              className="o-categories__categoryName"
+              onClick={() => onCategorySelect(category)}
+            >
+              <Icon
+                className="o-categories__categoryName-icon"
+                width={isSelected ? 14 : 6}
+                height={isSelected ? 7 : 12}
+                name={isSelected ? IconName.ArrowDownBlue : IconName.ArrowRightBlue}
+              />
+              {category}
+            </span>
+            {renderItemTypes(category, itemTypes)}
+          </li>
+        );
+      }))}
     </ul>
   );
 
-  function renderItemTypes(itemTypes: ItemType[]) {
+  function renderItemTypes(category: ItemCategory, itemTypes: ItemType[]) {
     return (
       <ul className="o-categories__itemTypes">
         {itemTypes.map(itemType => (
           <li
             key={`item-type-${itemType}`}
             className={`o-categories__itemType ${selectedType === itemType ? 'selected' : ''}`}
-            onClick={() => setSelectedType(itemType)}
           >
-            <span className="o-categories__itemTypeName">{itemType}</span>
+            <span
+              className="o-categories__itemTypeName"
+              onClick={() => onItemTypeSelect(category, itemType)}
+            >
+              {itemType}
+            </span>
           </li>
         ))}
       </ul>
@@ -47,8 +74,16 @@ const Categories: FunctionComponent = () => {
   }
 
   function onCategorySelect(category: ItemCategory) {
+    const defaultItemType = typesByCategories[category][0];
+
     setSelectedCategory(category);
-    setSelectedType(typesByCategories[category][0]);
+    setSelectedType(defaultItemType);
+    setQueryParams({ category, type: defaultItemType });
+  }
+
+  function onItemTypeSelect(category: ItemCategory, itemType: ItemType) {
+    setSelectedType(itemType);
+    setQueryParams({ category, type: itemType });
   }
 };
 

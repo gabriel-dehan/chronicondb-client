@@ -59,7 +59,7 @@ const Dropdown: FunctionComponent<DropdownProps> = ({
   function onSelect(value: string) {
     setCurrentValue(value);
     setShowDropdown(false);
-    onChange(currentValue);
+    onChange(value);
   }
 
   function toggleDropdown() {
