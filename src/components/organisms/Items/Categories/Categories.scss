@@ -1,0 +1,33 @@
+.o-categories {
+  color: var(--color-element-brown);
+
+  &__category {
+    list-style: none;
+    cursor: pointer;
+
+    .o-categories__categoryName:hover {
+      color: var(--color-element-light-beige);
+    }
+
+    &.selected {
+      .o-categories__categoryName {
+        color: var(--color-element-light-beige);
+      }
+    }
+  }
+
+  &__itemType {
+    list-style: none;
+    cursor: pointer;
+
+    .o-categories__itemTypeName:hover {
+      color: var(--color-element-light-beige);
+    }
+
+    &.selected {
+      .o-categories__itemTypeName {
+        color: var(--color-element-light-beige);
+      }
+    }
+  }
+}

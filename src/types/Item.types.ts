@@ -42,8 +42,8 @@ export enum ItemCategory {
   Ring = 'Ring',
   Amulet = 'Amulet',
   Accessory = 'Accessory',
-  Gem = 'Gem',
   Consumables = 'Consumables',
+  Gem = 'Gem',
   Misc = 'Misc',
   Craft = 'Craft'
 }

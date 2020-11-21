@@ -1,9 +1,11 @@
 import React, { FunctionComponent } from 'react';
 
-export const Items: FunctionComponent = () => {
+import Items from 'components/templates/Items/Items';
+
+export const ItemsPage: FunctionComponent = () => {
   return (
-    <div>Items</div>
+    <Items />
   );
 };
 
-export default Items;
+export default ItemsPage;

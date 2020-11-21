@@ -7,7 +7,7 @@ import Main from 'pages/Main';
 import { UIStore } from 'stores/UIStore';
 import { DataStore, Stores } from 'types/DataStore.types';
 
-export const App: FunctionComponent =  () => {
+const App: FunctionComponent =  () => {
   // const { t } = useTranslation();
   const [stores, setAllStores] = useState<Stores | null>(null);
 

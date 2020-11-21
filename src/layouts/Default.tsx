@@ -1,5 +1,6 @@
 import React, { FunctionComponent } from 'react';
 
+
 import Footer from 'components/organisms/Footer/Footer';
 import Header from 'components/organisms/Header/Header';
 
@@ -10,6 +11,7 @@ interface Props {
 }
 
 const DefaultLayout: FunctionComponent<Props> = ({ children }) => {
+
   return (
     <div className="p-layout">
       <Header />

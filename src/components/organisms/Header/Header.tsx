@@ -4,6 +4,8 @@ import React, { FunctionComponent } from 'react';
 import { useLocation } from 'react-router';
 import { Link } from 'react-router-dom';
 
+import { observer } from 'mobx-react';
+
 import Dropdown from 'components/atoms/Dropdown/Dropdown';
 import patches from 'engine/data/patchs.json';
 import { useStores } from 'hooks/useStores';
@@ -72,4 +74,4 @@ const Header: FunctionComponent = () => {
   }
 };
 
-export default Header;
+export default observer(Header);

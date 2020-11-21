@@ -54,8 +54,17 @@ This generates JSON files for items, skills and enchants in the `engine/data/VER
 
 There you go, chronicondb is now up to date.
 
-## TODO:
+## Roadmap
 
+- [x] Layout
+- [ ] Items
+- [~] Items image generator
+- [ ] Enchants
+- [ ] Skills
+- [ ] SEO
+
+## Notes
+```
 Enchanted:
 1 Minor OR 1 Major
 
@@ -92,6 +101,7 @@ If Ring or Amulet:
 1 Epic
 if Weapon, Armor, or Boots:
 25% chance to replace 1 Major with 1 Epic
+```
 
 ## License
 

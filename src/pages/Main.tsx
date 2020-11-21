@@ -6,12 +6,12 @@ import { createBrowserHistory } from 'history';
 import { observer } from 'mobx-react';
 
 import ScrollToTop from 'components/atoms/ScrollToTop/ScrollToTop';
-import Layout from 'components/layouts/Default';
-import Enchants from 'pages/enchants/Enchants';
-import Items from 'pages/items/Items';
+import Layout from 'layouts/Default';
+import EnchantsPage from 'pages/enchants/Enchants';
+import ItemsPage from 'pages/items/Items';
 import { RoutePath } from 'routes';
 
-export const Main: FunctionComponent =  () => {
+const Main: FunctionComponent =  () => {
 
   return (
     <Router history={createBrowserHistory()}>
@@ -20,8 +20,8 @@ export const Main: FunctionComponent =  () => {
         <Switch>
           <Route path="/">
             <Switch>
-              <Route exact path={RoutePath.Items} component={Items} />
-              <Route exact path={RoutePath.Enchants} component={Enchants} />
+              <Route exact path={RoutePath.Items} component={ItemsPage} />
+              <Route exact path={RoutePath.Enchants} component={EnchantsPage} />
 
               <Route>
                 <Redirect to={RoutePath.Items} />
