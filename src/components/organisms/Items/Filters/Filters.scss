@@ -8,4 +8,10 @@
   background-color: var(--color-background-dark-brown);
   box-shadow: 0 2px 5px 1px rgba(1, 1, 1, 0.5);
   border-bottom: 1px solid #0b0b0b;
+
+  &__classDropdown {
+    margin-left: auto;
+    max-width: 136px;
+    color: var(--color-element-beige);
+  }
 }

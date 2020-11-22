@@ -1,0 +1,25 @@
+.m-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  &__items {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 18px;
+
+    width: 70%;
+  }
+
+  &__enchants {
+    width: 30%;
+  }
+
+  &__thead {
+    color: var(--color-element-beige);
+    font-family: Philosopher;
+    font-size: var(--font-normal);
+    text-align: center;
+    text-transform: uppercase;
+  }
+}

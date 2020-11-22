@@ -11,6 +11,8 @@ export interface DropdownOption {
 }
 
 export interface DropdownProps {
+  id?: string;
+  className?: string;
   label: string;
   defaultValue?: string;
   options: DropdownOption[];
@@ -18,6 +20,8 @@ export interface DropdownProps {
 }
 
 const Dropdown: FunctionComponent<DropdownProps> = ({
+  id,
+  className,
   label,
   defaultValue,
   options,
@@ -25,19 +29,24 @@ const Dropdown: FunctionComponent<DropdownProps> = ({
 }) => {
   const [showDropdown, setShowDropdown] = useState(false);
   const [currentValue, setCurrentValue] = useState(defaultValue || options[0].value);
+  const currentValueLabel = options.find(opt => opt.value === currentValue)?.label || defaultValue;
   const dropdownRef = createRef<HTMLDivElement>();
 
   useOnClickOutside(dropdownRef, onClickOutside);
 
   return (
-    <div className="a-dropdown" ref={dropdownRef}>
+    <div
+      id={id}
+      className={`a-dropdown ${className ? className : ''}`}
+      ref={dropdownRef}
+    >
       <div className="a-dropdown__container">
         <div
           className="a-dropdown__trigger"
           onClick={toggleDropdown}
         >
           <span className="a-dropdown__trigger-label">{label}</span>
-          <span className="a-dropdown__trigger-value">{currentValue}</span>
+          <span className="a-dropdown__trigger-value">{currentValueLabel}</span>
           <div className="a-dropdown__icon"><Icon name={IconName.ArrowDownBlue} width={16} height={8} /></div>
         </div>
         <div className={`a-dropdown__options ${showDropdown ? 'open' : ''}`}>
