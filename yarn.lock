@@ -5011,6 +5011,14 @@ fill-range@^7.0.1:
   dependencies:
     to-regex-range "^5.0.1"
 
+filter-anything@^2.1.7:
+  version "2.1.7"
+  resolved "https://registry.yarnpkg.com/filter-anything/-/filter-anything-2.1.7.tgz#681f99576c5552a226d95b64d1b00c774dab59d6"
+  integrity sha512-DzV8vIsfqDE5WpB4+KKnLamYq4jSQcazOFDKgd63mRyxhwGucErPmQj6fNwQxfDwyNrhVo6NglWoVVUewayQbA==
+  dependencies:
+    is-what "^3.11.3"
+    ts-toolbelt "8.0.7"
+
 finalhandler@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/finalhandler/-/finalhandler-1.1.2.tgz#b7e7d000ffd11938d0fdb053506f6ebabe9f587d"
@@ -5101,6 +5109,14 @@ flatted@^2.0.0:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-2.0.2.tgz#4575b21e2bcee7434aa9be662f4b7b5f9c2b5138"
   integrity sha512-r5wGx7YeOwNWNlCA0wQ86zKyDLMQr+/RB8xy74M4hTphfmjlijTSSXGuH8rnvKZnfT9i+75zmd8jcKdMR4O6jA==
+
+flatten-anything@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/flatten-anything/-/flatten-anything-2.0.4.tgz#f414b18ba768a428998e0cb8c31fd7fbfbcdb737"
+  integrity sha512-ScR7YsW3GsFZ5JspJmhV+mWp9jHFQYwJzYnWzNmu1D++XVrD02ttmn1eF76ZzrdoP+8T2vdlw9Ep+68JpoOM2w==
+  dependencies:
+    filter-anything "^2.1.7"
+    is-what "^3.11.3"
 
 flatten@^1.0.2:
   version "1.0.3"
@@ -6307,6 +6323,11 @@ is-utf8@^0.2.0:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/is-utf8/-/is-utf8-0.2.1.tgz#4b0da1442104d1b336340e80797e865cf39f7d72"
   integrity sha1-Sw2hRCEE0bM2NA6AeX6GXPOffXI=
+
+is-what@^3.11.3:
+  version "3.12.0"
+  resolved "https://registry.yarnpkg.com/is-what/-/is-what-3.12.0.tgz#f4405ce4bd6dd420d3ced51a026fb90e03705e55"
+  integrity sha512-2ilQz5/f/o9V7WRWJQmpFYNmQFZ9iM+OXRonZKcYgTkCzjb949Vi4h282PD1UfmgHk666rcWonbRJ++KI41VGw==
 
 is-windows@^1.0.2:
   version "1.0.2"
@@ -11139,6 +11160,11 @@ ts-pnp@^1.1.6:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/ts-pnp/-/ts-pnp-1.2.0.tgz#a500ad084b0798f1c3071af391e65912c86bca92"
   integrity sha512-csd+vJOb/gkzvcCHgTGSChYpy5f1/XKNsmvBGO4JXS+z1v2HobugDz4s1IeFXM3wZB44uczs+eazB5Q/ccdhQw==
+
+ts-toolbelt@8.0.7:
+  version "8.0.7"
+  resolved "https://registry.yarnpkg.com/ts-toolbelt/-/ts-toolbelt-8.0.7.tgz#4dad2928831a811ee17dbdab6eb1919fc0a295bf"
+  integrity sha512-KICHyKxc5Nu34kyoODrEe2+zvuQQaubTJz7pnC5RQ19TH/Jged1xv+h8LBrouaSD310m75oAljYs59LNHkLDkQ==
 
 tsconfig-paths@^3.9.0:
   version "3.9.0"
