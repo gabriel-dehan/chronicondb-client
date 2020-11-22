@@ -1,0 +1,29 @@
+.a-search {
+  position: relative;
+  margin-right: 1.2em;
+
+  &__input {
+    outline: none;
+    width: 320px;
+    height: 34px;
+    padding: 8px 12px;
+    border-radius: 3px;
+    border: none;
+
+    background-color: var(--color-background-black);
+    color: var(--color-element-light-beige);
+
+    font-family: "Nunito Sans";
+    font-size: var(--font-normal);
+
+    &::placeholder {
+      color: var(--color-element-brown);
+    }
+  }
+
+  &__icon {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+  }
+}

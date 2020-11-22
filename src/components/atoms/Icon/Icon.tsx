@@ -19,8 +19,8 @@ export interface Props {
   id?: string;
   className?: string;
   name: IconName;
-  width: number;
-  height: number;
+  width?: number;
+  height?: number;
 }
 
 const Icon: FunctionComponent<Props> = ({

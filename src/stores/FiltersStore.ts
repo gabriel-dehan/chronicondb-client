@@ -1,6 +1,6 @@
 import camelCaseKeys from 'camelcase-keys';
 import { flatten } from 'flatten-anything';
-import { merge, pick } from 'lodash';
+import { isEmpty, merge, pick } from 'lodash';
 import { observable, action, computed } from 'mobx';
 import qs from 'query-string';
 
@@ -79,16 +79,31 @@ export class FiltersStore {
     if (filters.rarities) {
       this.items.rarities = filters.rarities;
     }
+
+    // Allow undefined value for search
+    if (isEmpty(filters.search)) {
+      this.items.search = undefined;
+    }
   }
 
   @action
   public setEnchantsFilters(filters: Partial<EnchantsFilters>) {
     this.enchants = merge(this.enchants, filters);
+
+    // Allow undefined value for search
+    if (isEmpty(filters.search)) {
+      this.items.search = undefined;
+    }
   }
 
   @action
   public setSkillsFilters(filters: Partial<SkillsFilters>) {
     this.skills = merge(this.skills, filters);
+
+    // Allow undefined value for search
+    if (isEmpty(filters.search)) {
+      this.items.search = undefined;
+    }
   }
 
   @computed
