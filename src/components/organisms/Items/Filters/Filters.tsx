@@ -6,6 +6,7 @@ import { camelCase } from 'lodash';
 import Multiselect, { MultiselectOption } from 'components/atoms/Multiselect/Multiselect';
 import { allEnumValues } from 'helpers/typeUtils';
 import useFilters from 'hooks/useFilters';
+import { ItemsFilters, FiltersType } from 'types/Filters.types';
 import { ItemRarity } from 'types/Item.types';
 
 import './Filters.scss';
@@ -19,7 +20,7 @@ type Filters = {
 };
 
 const Filters: FunctionComponent = () => {
-  const [filters, setFilters] = useFilters<Filters>();
+  const [filters, setFilters] = useFilters<ItemsFilters>(FiltersType.Items);
 
   const raritiesOptions: MultiselectOption[] = allEnumValues(ItemRarity).map(rarity => ({
     label: rarity,
@@ -31,7 +32,7 @@ const Filters: FunctionComponent = () => {
     <div className="o-filters">
       Filters
       <Multiselect
-        defaultValues={filters.items?.rarities ? filters.items.rarities : [ItemRarity.Unique, ItemRarity.Legendary, ItemRarity.TrueLegendary, ItemRarity.Set]}
+        defaultValues={filters.rarities ? filters.rarities : [ItemRarity.Unique, ItemRarity.Legendary, ItemRarity.TrueLegendary, ItemRarity.Set]}
         options={raritiesOptions}
         onChange={onRaritiesSelect}
       />
@@ -39,7 +40,7 @@ const Filters: FunctionComponent = () => {
   );
 
   function onRaritiesSelect(rarities: string[]) {
-    setFilters({ items: { rarities } });
+    setFilters({ rarities });
   }
 };
 

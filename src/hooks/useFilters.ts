@@ -1,91 +1,58 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import { useHistory, useLocation } from 'react-router-dom';
 
-import camelCaseKeys from 'camelcase-keys';
-import { flatten } from 'flatten-anything';
-import { isEqual, merge, cloneDeep } from 'lodash';
-import compactObject from 'omit-empty';
-import qs from 'query-string';
+import { capitalize } from 'lodash';
+import { autorun } from 'mobx';
 
-import { DeepPartial } from 'helpers/typeUtils';
 import { useStores } from 'hooks/useStores';
-import { UIStore, Filters, QueryFiltersInterface } from 'stores/UIStore';
+import { RoutePath } from 'routes';
+import { FiltersStore } from 'stores/FiltersStore';
 import { DataStore } from 'types/DataStore.types';
+import {
+  GeneralFilters,
+  ItemsFilters,
+  EnchantsFilters,
+  SkillsFilters,
+  FiltersType,
+} from 'types/Filters.types';
 
 interface Stores {
-  [DataStore.UI]: UIStore;
+  [DataStore.Filters]: FiltersStore;
 }
 
-/* This shit is overly complex and should be simplified. The typing is a mess too.
- * It basicaly stores the query params in the UIStore and return the UIStore params.
- */
+type useFiltersInterface<T> = [T, (params: T) => void];
 
-export default function useFilters<T extends DeepPartial<Filters>>(): [Filters, (params: T) => void] {
-  const { uiStore } = useStores<Stores>(DataStore.UI);
+const AVAILABLE_FILTERS_FOR_ROUTES: Record<RoutePath, FiltersType[]> = {
+  [RoutePath.Items]: [FiltersType.General, FiltersType.Items],
+  [RoutePath.Enchants]: [FiltersType.General, FiltersType.Enchants],
+  [RoutePath.Skills]: [FiltersType.General, FiltersType.Skills],
+  [RoutePath.Developers]: [],
+};
+
+export default function useFilters
+  <T extends GeneralFilters | ItemsFilters | EnchantsFilters | SkillsFilters>(filtersType: FiltersType)
+  : useFiltersInterface<T>  {
+  const { filtersStore } = useStores<Stores>(DataStore.Filters);
   const history = useHistory();
   const location = useLocation();
-  const parsedQuery = parseQuery(location.search);
-  const [queryParams, setQueryParams] = useState<T>(parsedQuery);
 
-  // After query params changed, update query string
+  // When the change location change and on first render, observe the filters store
   useEffect(() => {
-    history.replace({
-      search: qs.stringify(filtersToQuery(queryParams)),
+    const path = location.pathname as RoutePath;
+
+    autorun(() => {
+      history.replace({
+        search: filtersStore.toQueryString(AVAILABLE_FILTERS_FOR_ROUTES[path]),
+      });
     });
-  }, [queryParams, history]);
+  }, [location.pathname]);
 
-  // After query string change, update uistore
-  useEffect(() => {
-    const parsedQuery = parseQuery(location.search);
-    if (!isEqual(parsedQuery, queryParams)) {
-      console.log(parsedQuery, queryParams);
-      uiStore.setParams(parsedQuery);
-      // setQueryParams(parsedQuery);
-    }
+  return [filtersStore.filters[filtersType] as T, setFilters];
 
-  }, [location.search]);
-
-  return [uiStore.params, _setQueryParams];
-
-  function _setQueryParams(params: Partial<T>) {
-    //@ts-ignore
-    setQueryParams(withUIStore(params));
-  }
-
-  function withUIStore(params: Partial<T>) {
-    const currentParams = cloneDeep(uiStore.params);
-    return merge(currentParams, params);
-  }
-
-  function parseQuery(search: string): T {
+  /* A bit too metaprogramming for typescript */
+  function setFilters(filters: T) {
     // @ts-ignore
-    return queryToFilters(qs.parse(search));
-  }
-
-  function filtersToQuery(filters: T): QueryFiltersInterface {
-    return camelCaseKeys(flatten(filters, 1)) as unknown as QueryFiltersInterface;
-  }
-
-  function queryToFilters(query: QueryFiltersInterface): DeepPartial<Filters> {
-    return compactObject({
-      patch: query.patch,
-      items: {
-        search: query.itemsSearch,
-        category: query.itemsCategory,
-        type: query.itemsType,
-        characterClass: query.itemsCharacterClass,
-        rarities: query.itemsRarities,
-      },
-      enchants: {
-        search: query.enchantsSearch,
-        type: query.enchantsType,
-      },
-      skills: {
-        search: query.skillsSearch,
-        characterClass: query.skillsCharacterClass,
-      },
-    });
+    filtersStore[`set${capitalize(filtersType)}Filters`](filters);
   }
 }

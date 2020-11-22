@@ -4,7 +4,7 @@ import { useAsync } from 'react-async-hook';
 import { Provider } from 'mobx-react';
 
 import Main from 'pages/Main';
-import { UIStore } from 'stores/UIStore';
+import { FiltersStore } from 'stores/FiltersStore';
 import { DataStore, Stores } from 'types/DataStore.types';
 
 const App: FunctionComponent =  () => {
@@ -41,7 +41,7 @@ const App: FunctionComponent =  () => {
 async function loadStores(): Promise<Stores> {
   // Init rest of stores, (MobX requires all stores are instantiated immediately)
   return {
-    [DataStore.UI]: new UIStore(),
+    [DataStore.Filters]: new FiltersStore(),
   };
 }
 

@@ -10,12 +10,9 @@ import Dropdown from 'components/atoms/Dropdown/Dropdown';
 import patches from 'engine/data/patchs.json';
 import useFilters from 'hooks/useFilters';
 import { RouteId, RoutePath, ROUTES_ID_MAPPING } from 'routes';
+import { GeneralFilters, FiltersType } from 'types/Filters.types';
 
 import './Header.scss';
-
-type Filters = {
-  patch?: string;
-};
 
 type MenuItem = Record<string, RoutePath>;
 
@@ -27,7 +24,7 @@ const MAIN_MENU_ITEMS: MenuItem[] = [
 
 const Header: FunctionComponent = () => {
   const { pathname } = useLocation();
-  const [filters, setFilters] = useFilters<Filters>();
+  const [filters, setFilters] = useFilters<GeneralFilters>(FiltersType.General);
 
   return (
     <header className="o-header">

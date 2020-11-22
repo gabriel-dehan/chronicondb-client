@@ -22,6 +22,8 @@ const Main: FunctionComponent =  () => {
             <Switch>
               <Route exact path={RoutePath.Items} component={ItemsPage} />
               <Route exact path={RoutePath.Enchants} component={EnchantsPage} />
+              <Route exact path={RoutePath.Skills} component={EnchantsPage} />
+              <Route exact path={RoutePath.Developers} component={EnchantsPage} />
 
               <Route>
                 <Redirect to={RoutePath.Items} />

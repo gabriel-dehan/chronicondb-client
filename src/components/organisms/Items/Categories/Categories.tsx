@@ -6,24 +6,18 @@ import GameIcon, { GameIconType } from 'components/atoms/GameIcon/GameIcon';
 import Icon, { IconName } from 'components/atoms/Icon/Icon';
 import useEngine from 'hooks/useEngine';
 import useFilters from 'hooks/useFilters';
+import { ItemsFilters, FiltersType } from 'types/Filters.types';
 import { ItemCategory, ItemType } from 'types/Item.types';
 
 import './Categories.scss';
 
-type Filters = {
-  items: {
-    category?: string;
-    type?: string;
-  };
-};
-
 const Categories: FunctionComponent = () => {
   const Engine = useEngine();
-  const [filters, setFilters] = useFilters<Filters>();
+  const [filters, setFilters] = useFilters<ItemsFilters>(FiltersType.Items);
 
   const { items: { categories, typesByCategories } } = Engine;
-  const defaultCategory = (filters.items?.category ?? categories[0]) as ItemCategory;
-  const defaultType = (filters.items?.type ?? typesByCategories[defaultCategory][0]) as ItemType;
+  const defaultCategory = (filters.category ?? categories[0]) as ItemCategory;
+  const defaultType = (filters.type ?? typesByCategories[defaultCategory][0]) as ItemType;
 
   const [selectedCategory, setSelectedCategory] = useState<ItemCategory>(defaultCategory);
   const [selectedType, setSelectedType] = useState<ItemType>(defaultType);
@@ -88,12 +82,12 @@ const Categories: FunctionComponent = () => {
 
     setSelectedCategory(category);
     setSelectedType(defaultItemType);
-    setFilters({ items: { category, type: defaultItemType } });
+    setFilters({ category, type: defaultItemType });
   }
 
   function onItemTypeSelect(category: ItemCategory, itemType: ItemType) {
     setSelectedType(itemType);
-    setFilters({ items: { category, type: itemType } });
+    setFilters({ category, type: itemType });
   }
 };
 

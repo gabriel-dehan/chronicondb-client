@@ -1,9 +1,9 @@
-import { UIStore } from 'stores/UIStore';
+import { FiltersStore } from 'stores/FiltersStore';
 
 export enum DataStore {
-  UI = 'uiStore'
+  Filters = 'filtersStore'
 }
 
 export interface Stores {
-  [DataStore.UI]: UIStore;
+  [DataStore.Filters]: FiltersStore;
 }

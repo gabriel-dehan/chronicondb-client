@@ -7,19 +7,19 @@ import Categories from 'components/organisms/Items/Categories/Categories';
 import Filters from 'components/organisms/Items/Filters/Filters';
 import List from 'components/organisms/Items/List/List';
 import { useStores } from 'hooks/useStores';
-import { UIStore } from 'stores/UIStore';
+import { FiltersStore } from 'stores/FiltersStore';
 import { DataStore } from 'types/DataStore.types';
 
 import './Items.scss';
 
 interface Stores {
-  uiStore: UIStore;
+  filtersStore: FiltersStore;
 }
 
 const Items: FunctionComponent = () => {
-  const { uiStore: { currentPatch, itemCategory, itemType } } = useStores<Stores>(DataStore.UI);
+  const { filtersStore: { currentPatch } } = useStores<Stores>(DataStore.Filters);
 
-  console.log(currentPatch, itemCategory, itemType);
+  console.log(currentPatch);
 
   return (
     <>

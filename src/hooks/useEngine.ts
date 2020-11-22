@@ -1,14 +1,14 @@
 import Engine from 'engine/Engine';
 import { useStores } from 'hooks/useStores';
-import { UIStore } from 'stores/UIStore';
+import { FiltersStore } from 'stores/FiltersStore';
 import { DataStore } from 'types/DataStore.types';
 
 interface Stores {
-  [DataStore.UI]: UIStore;
+  [DataStore.Filters]: FiltersStore;
 }
 
 export default function useEngine() {
-  const { uiStore } = useStores<Stores>(DataStore.UI);
+  const { filtersStore } = useStores<Stores>(DataStore.Filters);
 
-  return new Engine(uiStore.currentPatch);
+  return new Engine(filtersStore.currentPatch);
 }
