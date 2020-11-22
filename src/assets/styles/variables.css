@@ -10,7 +10,6 @@
   --colorbackground-light-brown: #4f4235;
   --color-background-brown: #50452e;
   --color-background-dark-brown: #171614;
-  --color-background-darker-brown: #1E1918;
   --color-background-light-black: #191715;
   --color-background-black: #11100f;
 
@@ -19,8 +18,8 @@
   --color-element-light-beige: #FFEEDE;
   --color-element-beige: #DECFB0;
   --color-element-dark-beige: ##8e847b;
-  --color-element-mid-brown: #332c1d;
   --color-element-brown: #50452e;
+  --color-element-mid-brown: #332c1d;
   --color-element-dark-brown: #211c15;
   --color-element-darker-brown: #1E1918;
   --color-element-darkest-brown: #121110;
@@ -41,4 +40,7 @@
   --color-item-unique: #DA119E;
   --color-item-legendary: #AA2D2D;
   --color-item-trueLegendary: #AA2D2D;
+  --color-item-set: #f7c200;
+  --color-item-mythical: #FFEEDE;
+
 }

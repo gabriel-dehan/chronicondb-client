@@ -36,7 +36,6 @@ export default function useFilters<T extends DeepPartial<Filters>>(): [Filters, 
 
   useEffect(() => {
     const parsedQuery = parseQuery(location.search);
-
     if (!isEqual(parsedQuery, queryParams)) {
       uiStore.setParams(parsedQuery);
       setQueryParams(parsedQuery);

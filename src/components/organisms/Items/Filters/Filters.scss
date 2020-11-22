@@ -1,6 +1,8 @@
 .o-filters {
+  display: flex;
+  align-items: center;
   position: relative;
-  height: 60px;
+  height: 65px;
   border-radius: 4px 4px 0 0;
   background-color: var(--color-background-dark-brown);
   box-shadow: 0 2px 5px 1px rgba(1, 1, 1, 0.5);
