@@ -17,3 +17,7 @@ export function allEnumValues<T>(enumObject: Record<string, T>): T[] {
 export function isInEnum<T>(enumObject: Record<string, T>, value: T): boolean {
   return Object.values(enumObject).includes(value);
 }
+
+export type DeepPartial<T> = {
+  [P in keyof T]?: DeepPartial<T[P]>;
+};

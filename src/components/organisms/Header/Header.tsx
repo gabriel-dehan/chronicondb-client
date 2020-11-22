@@ -1,6 +1,6 @@
 
 
-import React, { FunctionComponent, useEffect } from 'react';
+import React, { FunctionComponent } from 'react';
 import { useLocation } from 'react-router';
 import { Link } from 'react-router-dom';
 
@@ -35,14 +35,8 @@ const MAIN_MENU_ITEMS: MenuItem[] = [
 const Header: FunctionComponent = () => {
   const { uiStore } = useStores<Stores>(DataStore.UI);
   const { pathname } = useLocation();
-  const [params, setQueryParams] = useQueryParams<QueryParams>();
-  const currentPatch = params.patch || uiStore.currentPatch;
-
-  useEffect(() => {
-    if (params.patch) {
-      uiStore.setCurrentPatch(params.patch);
-    }
-  });
+  const [_, setQueryParams] = useQueryParams<QueryParams>();
+  const currentPatch = uiStore.currentPatch;
 
   return (
     <header className="o-header">
@@ -84,7 +78,6 @@ const Header: FunctionComponent = () => {
   );
 
   function onPatchChange(patch: string) {
-    uiStore.setCurrentPatch(patch);
     setQueryParams({ patch });
   }
 };

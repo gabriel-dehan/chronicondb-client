@@ -1,5 +1,5 @@
 import { ITEM_TYPES_BY_CATEGORIES } from 'engine/data/dataMappings';
-import { allEnumValues } from 'helpers/enumUtils';
+import { allEnumValues } from 'helpers/typeUtils';
 import { ItemCategory, ItemType } from 'types/Item.types';
 
 import Engine from './Engine';

@@ -17,7 +17,9 @@ interface Stores {
 }
 
 const Items: FunctionComponent = () => {
-  const { uiStore } = useStores<Stores>(DataStore.UI);
+  const { uiStore: { currentPatch, itemCategory, itemType } } = useStores<Stores>(DataStore.UI);
+
+  console.log(currentPatch, itemCategory, itemType);
 
   return (
     <>

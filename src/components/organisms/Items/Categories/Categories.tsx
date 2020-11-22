@@ -10,17 +10,19 @@ import { ItemCategory, ItemType } from 'types/Item.types';
 import './Categories.scss';
 
 type QueryParams = {
-  category?: string;
-  type?: string;
+  items: {
+    category?: string;
+    type?: string;
+  };
 };
 
 const Categories: FunctionComponent = () => {
   const Engine = useEngine();
-  const [params, setQueryParams] = useQueryParams<QueryParams>();
-
   const { items: { categories, typesByCategories } } = Engine;
-  const defaultCategory = (params.category ?? categories[0]) as ItemCategory;
-  const defaultType = (params.type ?? typesByCategories[defaultCategory][0]) as ItemType;
+
+  const [params, setQueryParams] = useQueryParams<QueryParams>();
+  const defaultCategory = (params.items?.category ?? categories[0]) as ItemCategory;
+  const defaultType = (params.items?.type ?? typesByCategories[defaultCategory][0]) as ItemType;
 
   const [selectedCategory, setSelectedCategory] = useState<ItemCategory>(defaultCategory);
   const [selectedType, setSelectedType] = useState<ItemType>(defaultType);
@@ -78,12 +80,12 @@ const Categories: FunctionComponent = () => {
 
     setSelectedCategory(category);
     setSelectedType(defaultItemType);
-    setQueryParams({ category, type: defaultItemType });
+    setQueryParams({ items: { category, type: defaultItemType } });
   }
 
   function onItemTypeSelect(category: ItemCategory, itemType: ItemType) {
     setSelectedType(itemType);
-    setQueryParams({ category, type: itemType });
+    setQueryParams({ items: { category, type: itemType } });
   }
 };
 
