@@ -13,7 +13,7 @@ export enum IconName {
   Search = 'search'
 }
 
-const SVG_PATH = 'assets/images/icons/';
+const SVG_PATH = 'assets/images/icons';
 
 export interface Props {
   id?: string;
@@ -32,7 +32,7 @@ const Icon: FunctionComponent<Props> = ({
 }) =>  (
   <img
     aria-label={name}
-    src={`${SVG_PATH}${name}.svg`}
+    src={`${SVG_PATH}/${name}.svg`}
     width={width}
     height={height}
     alt={name}

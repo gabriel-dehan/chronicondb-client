@@ -23,9 +23,14 @@
       font-weight: 700;
       text-transform: uppercase;
 
-      &-icon {
+      &-arrow {
         margin-right: 10px;
         opacity: 0.6;
+      }
+
+      &-icon {
+        margin-left: auto;
+        margin-right: 12px;
       }
 
       &:hover {
@@ -40,7 +45,7 @@
         color: var(--color-element-light-beige);
         text-shadow: 0 0 6px rgba(172, 140, 87, 0.54), 0 0 10px rgba(172, 140, 87, 0.57);
 
-        &-icon {
+        &-arrow {
           margin-right: 8px;
         }
       }

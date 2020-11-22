@@ -2,6 +2,7 @@ import React, { FunctionComponent, useState } from 'react';
 
 import { map } from 'lodash';
 
+import GameIcon, { GameIconType } from 'components/atoms/GameIcon/GameIcon';
 import Icon, { IconName } from 'components/atoms/Icon/Icon';
 import useEngine from 'hooks/useEngine';
 import useQueryParams from 'hooks/useQueryParams';
@@ -18,9 +19,9 @@ type QueryParams = {
 
 const Categories: FunctionComponent = () => {
   const Engine = useEngine();
-  const { items: { categories, typesByCategories } } = Engine;
-
   const [params, setQueryParams] = useQueryParams<QueryParams>();
+
+  const { items: { categories, typesByCategories } } = Engine;
   const defaultCategory = (params.items?.category ?? categories[0]) as ItemCategory;
   const defaultType = (params.items?.type ?? typesByCategories[defaultCategory][0]) as ItemType;
 
@@ -41,12 +42,18 @@ const Categories: FunctionComponent = () => {
               onClick={() => onCategorySelect(category)}
             >
               <Icon
-                className="o-categories__categoryName-icon"
+                className="o-categories__categoryName-arrow"
                 width={isSelected ? 14 : 6}
                 height={isSelected ? 7 : 12}
                 name={isSelected ? IconName.ArrowDownBlue : IconName.ArrowRightBlue}
               />
               {category}
+              <GameIcon
+                className="o-categories__categoryName-icon"
+                type={GameIconType.Category}
+                name={category}
+                height={28}
+              />
             </span>
             {renderItemTypes(category, itemTypes)}
           </li>
