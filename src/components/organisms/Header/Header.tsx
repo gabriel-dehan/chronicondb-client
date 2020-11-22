@@ -8,21 +8,14 @@ import { observer } from 'mobx-react';
 
 import Dropdown from 'components/atoms/Dropdown/Dropdown';
 import patches from 'engine/data/patchs.json';
-import useQueryParams from 'hooks/useQueryParams';
-import { useStores } from 'hooks/useStores';
+import useFilters from 'hooks/useFilters';
 import { RouteId, RoutePath, ROUTES_ID_MAPPING } from 'routes';
-import { UIStore } from 'stores/UIStore';
-import { DataStore } from 'types/DataStore.types';
 
 import './Header.scss';
 
-type QueryParams = {
+type Filters = {
   patch?: string;
 };
-
-interface Stores {
-  uiStore: UIStore;
-}
 
 type MenuItem = Record<string, RoutePath>;
 
@@ -33,10 +26,8 @@ const MAIN_MENU_ITEMS: MenuItem[] = [
 ];
 
 const Header: FunctionComponent = () => {
-  const { uiStore } = useStores<Stores>(DataStore.UI);
   const { pathname } = useLocation();
-  const [_, setQueryParams] = useQueryParams<QueryParams>();
-  const currentPatch = uiStore.currentPatch;
+  const [filters, setFilters] = useFilters<Filters>();
 
   return (
     <header className="o-header">
@@ -64,7 +55,7 @@ const Header: FunctionComponent = () => {
           <div className="o-header__sub-menu-patches">
             <Dropdown
               label="Patch:"
-              defaultValue={currentPatch}
+              defaultValue={filters.patch}
               options={patches.map(patch => ({ label: patch, value: patch }))}
               onChange={onPatchChange}
             />
@@ -78,7 +69,7 @@ const Header: FunctionComponent = () => {
   );
 
   function onPatchChange(patch: string) {
-    setQueryParams({ patch });
+    setFilters({ patch });
   }
 };
 

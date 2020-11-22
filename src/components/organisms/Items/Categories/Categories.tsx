@@ -5,12 +5,12 @@ import { map } from 'lodash';
 import GameIcon, { GameIconType } from 'components/atoms/GameIcon/GameIcon';
 import Icon, { IconName } from 'components/atoms/Icon/Icon';
 import useEngine from 'hooks/useEngine';
-import useQueryParams from 'hooks/useQueryParams';
+import useFilters from 'hooks/useFilters';
 import { ItemCategory, ItemType } from 'types/Item.types';
 
 import './Categories.scss';
 
-type QueryParams = {
+type Filters = {
   items: {
     category?: string;
     type?: string;
@@ -19,11 +19,11 @@ type QueryParams = {
 
 const Categories: FunctionComponent = () => {
   const Engine = useEngine();
-  const [params, setQueryParams] = useQueryParams<QueryParams>();
+  const [filters, setFilters] = useFilters<Filters>();
 
   const { items: { categories, typesByCategories } } = Engine;
-  const defaultCategory = (params.items?.category ?? categories[0]) as ItemCategory;
-  const defaultType = (params.items?.type ?? typesByCategories[defaultCategory][0]) as ItemType;
+  const defaultCategory = (filters.items?.category ?? categories[0]) as ItemCategory;
+  const defaultType = (filters.items?.type ?? typesByCategories[defaultCategory][0]) as ItemType;
 
   const [selectedCategory, setSelectedCategory] = useState<ItemCategory>(defaultCategory);
   const [selectedType, setSelectedType] = useState<ItemType>(defaultType);
@@ -87,12 +87,12 @@ const Categories: FunctionComponent = () => {
 
     setSelectedCategory(category);
     setSelectedType(defaultItemType);
-    setQueryParams({ items: { category, type: defaultItemType } });
+    setFilters({ items: { category, type: defaultItemType } });
   }
 
   function onItemTypeSelect(category: ItemCategory, itemType: ItemType) {
     setSelectedType(itemType);
-    setQueryParams({ items: { category, type: itemType } });
+    setFilters({ items: { category, type: itemType } });
   }
 };
 

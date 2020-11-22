@@ -18,10 +18,10 @@ interface Stores {
 }
 
 /* This shit is overly complex and should be simplified. The typing is a mess too.
- * It basicaly stores the query params in the UIStore.
+ * It basicaly stores the query params in the UIStore and return the UIStore params.
  */
 
-export default function useQueryparams<T extends DeepPartial<Filters>>(): [T, (params: T) => void] {
+export default function useFilters<T extends DeepPartial<Filters>>(): [Filters, (params: T) => void] {
   const { uiStore } = useStores<Stores>(DataStore.UI);
   const history = useHistory();
   const location = useLocation();
@@ -44,7 +44,7 @@ export default function useQueryparams<T extends DeepPartial<Filters>>(): [T, (p
 
   }, [location.search]);
 
-  return [queryParams, _setQueryParams];
+  return [uiStore.params, _setQueryParams];
 
   function _setQueryParams(params: Partial<T>) {
     const _params = { ...queryParams, ...params };
