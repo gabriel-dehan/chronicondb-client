@@ -1,7 +1,7 @@
 import camelCaseKeys from 'camelcase-keys';
 import { flatten } from 'flatten-anything';
-import { merge, pick, xor } from 'lodash';
-import { observable, action, computed, toJS } from 'mobx';
+import { merge, pick } from 'lodash';
+import { observable, action, computed } from 'mobx';
 import qs from 'query-string';
 
 import patches from 'engine/data/patchs.json';
