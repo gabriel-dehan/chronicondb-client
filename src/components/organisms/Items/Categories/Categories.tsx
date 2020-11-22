@@ -52,7 +52,8 @@ const Categories: FunctionComponent = () => {
                 className="o-categories__categoryName-icon"
                 type={GameIconType.Category}
                 name={category}
-                height={28}
+                // height={28}
+                width={28}
               />
             </span>
             {renderItemTypes(category, itemTypes)}
