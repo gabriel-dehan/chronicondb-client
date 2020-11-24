@@ -64,6 +64,7 @@ There you go, chronicondb is now up to date.
 - [ ] Enchants
 - [ ] Skills
 - [ ] SEO
+- [ ] Check the loading times when we have 100 patches availables
 
 ## Notes
 ```
