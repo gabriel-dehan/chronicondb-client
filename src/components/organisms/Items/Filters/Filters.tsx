@@ -27,8 +27,6 @@ const Filters: FunctionComponent = () => {
     value: charClass,
   }));
 
-  console.log(classOptions);
-
   return (
     <div className="o-filters">
       <Search

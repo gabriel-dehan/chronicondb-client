@@ -7,8 +7,10 @@ interface Stores {
   [DataStore.Filters]: FiltersStore;
 }
 
-export default function useEngine() {
+export default function useEngine(from: string) {
   const { filtersStore } = useStores<Stores>(DataStore.Filters);
+
+  console.log('HELLO', from, filtersStore.currentPatch);
 
   return new Engine(filtersStore.currentPatch);
 }

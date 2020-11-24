@@ -66,9 +66,11 @@
   },
   "devDependencies": {
     "@types/command-line-args": "^5.0.0",
+    "@types/ejs": "^3.0.5",
     "@typescript-eslint/eslint-plugin": "^4.6.1",
     "@typescript-eslint/parser": "^4.6.1",
     "command-line-args": "^5.1.1",
+    "ejs": "^3.1.5",
     "eslint-plugin-react-hooks": "^4.2.0",
     "ts-node": "^9.0.0"
   }

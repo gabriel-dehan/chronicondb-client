@@ -1,5 +1,7 @@
 import commandLineArgs, { CommandLineOptions } from 'command-line-args';
 
+import { createExtractsFolder } from '../utils/fileUtils';
+import { generateMetaFiles } from './generateMetaFiles';
 import { parseEnchants } from './parseEnchants';
 import { parseEnchantsPool } from './parseEnchantsPool';
 import { parseItems } from './parseItems';
@@ -28,14 +30,16 @@ function parseAll(opts: CommandLineOptions) {
     parseEnchantsPool();
   }
 
-  const items = parseItems(version, verbose);
-  const sets = parseSets(version, verbose);
-  const enchants = parseEnchants(version, verbose);
-  const { skills, skillsByClass } = parseSkills(version, verbose);
+  createExtractsFolder(version);
+
+  parseItems(version, verbose);
+  parseSets(version, verbose);
+  parseEnchants(version, verbose);
+  parseSkills(version, verbose);
+
+  generateMetaFiles(version);
 
   return null;
 }
-
-
 
 parseAll(cliOptions);

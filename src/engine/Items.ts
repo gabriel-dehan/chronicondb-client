@@ -1,6 +1,7 @@
 import { ITEM_TYPES_BY_CATEGORIES } from 'engine/data/dataMappings';
 import { allEnumValues } from 'helpers/typeUtils';
-import { ItemCategory, ItemType } from 'types/Item.types';
+import { ItemsFilters } from 'types/Filters.types';
+import { ItemCategory, ItemType, Item } from 'types/Item.types';
 
 import Engine from './Engine';
 
@@ -14,4 +15,9 @@ export default class EngineItems {
     this.categories = allEnumValues(ItemCategory);
     this.typesByCategories = ITEM_TYPES_BY_CATEGORIES;
   }
+
+  // public all(filters: ItemsFilters): Item[] {
+
+  //   return [];
+  // }
 }

@@ -12,10 +12,10 @@ import { ItemCategory, ItemType } from 'types/Item.types';
 import './Categories.scss';
 
 const Categories: FunctionComponent = () => {
-  const Engine = useEngine();
+  const Engine = useEngine('Categories');
   const [filters, setFilters] = useFilters<ItemsFilters>(FiltersType.Items);
 
-  const { items: { categories, typesByCategories } } = Engine;
+  const { Items: { categories, typesByCategories } } = Engine;
   const defaultCategory = (filters.category ?? categories[0]) as ItemCategory;
   const defaultType = (filters.type ?? typesByCategories[defaultCategory][0]) as ItemType;
 
