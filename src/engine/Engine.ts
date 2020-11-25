@@ -3,7 +3,6 @@ import { Enchant } from 'types/Enchant.types';
 import { Item, ItemSet } from 'types/Item.types';
 import { Skill, SkillTree } from 'types/Skill.types';
 
-import Data from './data';
 import EngineItems from './Items';
 
 type Version = string;
@@ -18,32 +17,31 @@ interface DataInterface {
 
 /* Singleton */
 export default class Engine {
-  private static instance: Engine;
-  private version!: Version;
-  private data!: DataInterface;
+  public version!: Version;
+  private data?: DataInterface;
 
   public Items!: EngineItems;
   // public readonly Enchants!: EngineEnchants;
   // public readonly Skills!: EngineSkills;
 
   constructor(version: Version) {
-    if (Engine.instance) {
-      /* If version has changed reload data */
-      if (Engine.instance.version !== version) {
-        Engine.instance.version = version;
-        Engine.instance.loadData();
-      }
-      return Engine.instance;
-    }
-
     this.version = version;
-    this.loadData();
     this.Items = new EngineItems(this);
-    Engine.instance = this;
   }
 
-  private loadData() {
-    // @ts-ignore
-    this.data = Data[this.version];
+  public get loaded(): boolean {
+    return !!this.data;
+  }
+
+  public async loadVersion(version: Version) {
+    if (version !== this.version) {
+      this.data = undefined;
+      this.version = version;
+      await this.loadData();
+    }
+  }
+
+  public async loadData() {
+    this.data = await import(`./data/${this.version}/extracts`);
   }
 }

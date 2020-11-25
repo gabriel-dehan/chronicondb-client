@@ -14,7 +14,7 @@
   background-image: url('../assets/images/textures/content_background.png');
   background-repeat: repeat;
   margin: 15px 35px;
-  min-height: 30vh;
+  min-height: calc(100vh - 115px);
   border-radius: 4px;
-
+  position: relative;
 }

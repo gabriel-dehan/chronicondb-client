@@ -3,23 +3,28 @@ import { useAsync } from 'react-async-hook';
 
 import { Provider } from 'mobx-react';
 
+import Loader from 'components/atoms/Loader/Loader';
+import EngineContext from 'engine/context';
+import Engine from 'engine/Engine';
 import Main from 'pages/Main';
 import { FiltersStore } from 'stores/FiltersStore';
 import { DataStore, Stores } from 'types/DataStore.types';
 
-const App: FunctionComponent =  () => {
-  // const { t } = useTranslation();
+const App: FunctionComponent = () => {
   const [stores, setAllStores] = useState<Stores | null>(null);
+  const [engine, setEngine] = useState<Engine | null>(null);
 
-  useAsync(() => loadStoresAndLocales(), []);
+  useAsync(() => loadStoresAndData(), []);
 
-  if (!stores) {
-    return <div>Loading</div>;
+  if (!stores || !engine) {
+    return <Loader width={100} height={100} color="white" />;
   }
 
   return (
     <Provider {...stores}>
-      <Main />
+      <EngineContext.Provider value={engine}>
+        <Main />
+      </EngineContext.Provider>
     </Provider>
   );
 
@@ -31,9 +36,10 @@ const App: FunctionComponent =  () => {
   //   </I18nextProvider>
   // );
 
-  async function loadStoresAndLocales() {
+  async function loadStoresAndData() {
     const loadedStores = await loadStores();
     setAllStores(loadedStores);
+    setEngine(new Engine(loadedStores[DataStore.Filters].currentPatch));
   }
 
 };

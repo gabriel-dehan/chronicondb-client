@@ -1,10 +1,10 @@
 import camelCaseKeys from 'camelcase-keys';
-import patches from 'engine/data/patches.json';
 import { flatten } from 'flatten-anything';
 import { isEmpty, merge, pick } from 'lodash';
 import { observable, action, computed } from 'mobx';
 import qs from 'query-string';
 
+import patches from 'engine/data/patches.json';
 import {
   GeneralFilters,
   ItemsFilters,

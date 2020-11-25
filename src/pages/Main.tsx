@@ -1,17 +1,44 @@
-import React, { FunctionComponent } from 'react';
+import React, { FunctionComponent, useEffect, useState } from 'react';
 import { Router } from 'react-router';
 import { Redirect, Route, Switch } from 'react-router-dom';
 
 import { createBrowserHistory } from 'history';
+import { autorun } from 'mobx';
 import { observer } from 'mobx-react';
 
+import Loader from 'components/atoms/Loader/Loader';
 import ScrollToTop from 'components/atoms/ScrollToTop/ScrollToTop';
+import useEngine from 'hooks/useEngine';
+import { useStores } from 'hooks/useStores';
 import Layout from 'layouts/Default';
 import EnchantsPage from 'pages/enchants/Enchants';
 import ItemsPage from 'pages/items/Items';
 import { RoutePath } from 'routes';
+import { FiltersStore } from 'stores/FiltersStore';
+import { DataStore } from 'types/DataStore.types';
+
+interface Stores {
+  [DataStore.Filters]: FiltersStore;
+}
 
 const Main: FunctionComponent =  () => {
+  const engine = useEngine('main');
+  const { filtersStore } = useStores<Stores>(DataStore.Filters);
+  const [engineLoaded, setEngineLoaded] = useState(engine.loaded);
+
+  useEffect(() => {
+    // Load engine data
+    autorun(() => {
+      setEngineLoaded(false);
+      if (!engine.loaded && filtersStore.currentPatch) {
+        // First load
+        engine.loadData().then(() => setEngineLoaded(true));
+      } else {
+        // Subsequent version changes
+        engine.loadVersion(filtersStore.currentPatch).then(() => setTimeout(() => setEngineLoaded(true), 500));
+      }
+    });
+  }, []);
 
   return (
     <Router history={createBrowserHistory()}>
@@ -19,16 +46,21 @@ const Main: FunctionComponent =  () => {
       <Layout>
         <Switch>
           <Route path="/">
-            <Switch>
-              <Route exact path={RoutePath.Items} component={ItemsPage} />
-              <Route exact path={RoutePath.Enchants} component={EnchantsPage} />
-              <Route exact path={RoutePath.Skills} component={EnchantsPage} />
-              <Route exact path={RoutePath.Developers} component={EnchantsPage} />
+            {!engineLoaded ? (
+              <Loader width={100} height={100} color="var(--color-element-yellow)" />
+            ) : (
+              <Switch>
+                <Route exact path={RoutePath.Items} component={ItemsPage} />
+                <Route exact path={RoutePath.Enchants} component={EnchantsPage} />
+                <Route exact path={RoutePath.Skills} component={EnchantsPage} />
+                <Route exact path={RoutePath.Developers} component={EnchantsPage} />
 
-              <Route>
-                <Redirect to={RoutePath.Items} />
-              </Route>
-            </Switch>
+                <Route>
+                  <Redirect to={RoutePath.Items} />
+                </Route>
+              </Switch>
+            )}
+
           </Route>
         </Switch>
       </Layout>
