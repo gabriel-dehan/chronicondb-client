@@ -5,6 +5,7 @@
 body {
   margin: 0;
   font-family: 'Nunito Sans', 'Helvetica', 'Ubuntu', sans-serif;
+  font-size: var(--font-normal);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 

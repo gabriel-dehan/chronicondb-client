@@ -1,5 +1,52 @@
 import { CharacterClass } from '../../types/Character.types';
-import { ItemCategory, SetId, ItemType } from '../../types/Item.types';
+import { EnchantType, ItemRawEnchantCategory } from '../../types/Enchant.types';
+import { ItemCategory, SetId, ItemType, ItemRarity } from '../../types/Item.types';
+
+
+export const ENCHANT_SLOTS_BY_RARITY: Record<ItemRarity, ItemRawEnchantCategory[]> = {
+  [ItemRarity.Ordinary]: [],
+  [ItemRarity.Enchanted]: [
+    { count: 1, types: [EnchantType.Minor, EnchantType.Major] },
+  ],
+  [ItemRarity.Rare]: [
+    { count: 1, types: [EnchantType.Minor] },
+    { count: 1, types: [EnchantType.Major] },
+    {
+      count: 1,
+      types: [EnchantType.Epic],
+      categoriesRestriction: [ItemCategory.Ring, ItemCategory.Amulet],
+    },
+  ],
+  [ItemRarity.Unique]: [
+    { count: 1, types: [EnchantType.Minor] },
+    { count: 2, types: [EnchantType.Major] },
+    {
+      count: 1,
+      types: [EnchantType.Epic],
+      categoriesRestriction: [ItemCategory.Ring, ItemCategory.Amulet],
+    },
+  ],
+  [ItemRarity.Legendary]: [
+    { count: 2, types: [EnchantType.Minor] },
+    { count: 2, types: [EnchantType.Major] },
+    {
+      count: 1,
+      types: [EnchantType.Epic],
+      categoriesRestriction: [ItemCategory.Ring, ItemCategory.Amulet],
+    },
+  ],
+  [ItemRarity.TrueLegendary]: [
+    { count: 2, types: [EnchantType.Minor] },
+    { count: 2, types: [EnchantType.Major] },
+    {
+      count: 1,
+      types: [EnchantType.Epic],
+      categoriesRestriction: [ItemCategory.Ring, ItemCategory.Amulet],
+    },
+  ],
+  [ItemRarity.Set]: [],
+  [ItemRarity.Mythical]: [],
+};
 
 export const ITEM_TYPES_BY_CATEGORIES: Record<ItemCategory, ItemType[]> = {
   [ItemCategory.Helmet]: [ItemType.Helm],
@@ -21,7 +68,11 @@ export const ITEM_TYPES_BY_CATEGORIES: Record<ItemCategory, ItemType[]> = {
   [ItemCategory.Ring]: [ItemType.Ring],
   [ItemCategory.Amulet]: [ItemType.Amulet],
   [ItemCategory.Accessory]: [ItemType.Accessory],
-  [ItemCategory.Gem]: [],
+  [ItemCategory.Gem]: [
+    ItemType.CubeGem,
+    ItemType.StarGem,
+    ItemType.SphereGem,
+  ],
   [ItemCategory.Consumables]: [
     ItemType.Elixir,
     ItemType.Potion,

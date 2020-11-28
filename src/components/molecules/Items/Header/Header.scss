@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
+  border-bottom: 1px solid var(--color-element-darkest-blue);
 
   &__items {
     display: flex;
@@ -21,5 +22,10 @@
     font-size: var(--font-normal);
     text-align: center;
     text-transform: uppercase;
+
+    &.req {
+      width: 90px;
+      text-align: left;
+    }
   }
 }

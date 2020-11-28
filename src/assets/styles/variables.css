@@ -9,7 +9,10 @@
   /* == BACKGROUND == */
   --colorbackground-light-brown: #4f4235;
   --color-background-brown: #50452e;
+  --color-background-mid-brown: #1b1917;
   --color-background-dark-brown: #171614;
+  --color-background-darker-brown: #151412;
+  --color-background-darkest-brown: #121110;
   --color-background-light-black: #191715;
   --color-background-black: #11100f;
 
@@ -30,6 +33,7 @@
   --color-element-transparent-blue: #1c1d1d;
   --color-element-light-blue: #00b9f8;
   --color-element-dark-blue: #637793;
+  --color-element-darkest-blue: #1b1f25;
   --color-element-purple: #8833d0;
 
   /* == ITEMS == */

@@ -25,7 +25,7 @@ export function writeFile(data: unknown, version: string, fileName: string): voi
 }
 
 export function getAssetPath(fileName: string): string {
-  return path.resolve(__dirname, `../../assets/game/${fileName}`);
+  return path.resolve(__dirname, `../../../public/assets/images/game/${fileName}`);
 }
 
 export function assetExists(fileName: string): boolean {

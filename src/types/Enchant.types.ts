@@ -1,4 +1,4 @@
-import { ItemRarity } from './Item.types';
+import { ItemRarity, ItemCategory } from './Item.types';
 
 export interface Enchant {
   uuid: number;
@@ -39,4 +39,22 @@ export enum EnchantCategory {
   Enchant = 'Enchant',
   Gem = 'Gem',
   Rune = 'Rune'
+}
+
+export interface RawEnchant {
+  name: string;
+  min: number;
+  max: number;
+}
+
+export interface ItemRawEnchantCategory {
+  count: number;
+  types: EnchantType[]; // If multiple element it's an OR
+  categoriesRestriction?: ItemCategory[];
+}
+
+export interface ItemEnchantSlots {
+  baseEnchants: RawEnchant[];
+  fixedEnchants: RawEnchant[];
+  enchantSlots?: ItemRawEnchantCategory[];
 }

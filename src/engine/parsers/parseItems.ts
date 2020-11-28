@@ -21,7 +21,7 @@ export function parseItems(version: string, verbose = false): Item[] {
     const [id, name, typeAndRarity, rawClassRestriction, rawMinLevel] = itemData.split(' - ').map(data => data.trim());
 
     const hasIcon = assetExists(`items/all/spr_itemicons_${id}.png`);
-    const icon = hasIcon ? `spr_itemicons_${id}.png` : null;
+    const icon = hasIcon ? `spr_itemicons_${id}` : null;
     const uuid = parseInt(id);
     const classRestriction = parseClassRestriction(rawClassRestriction);
     const set = findSet(uuid);
@@ -104,8 +104,8 @@ function parseMetaData(typeAndRarity: string): ItemMetaData {
     throw (`Couldn't parse ${typeAndRarity}`);
   }
 
-  const rarity = match[1] as ItemRarity;
-  const type = match[2] as ItemType;
+  const rarity = match[1].trim() as ItemRarity;
+  const type = match[2].trim() as ItemType;
   const isOffhand = !!match[3];
   const category = isOffhand ? ItemCategory.Offhand : getCategoryFromType(type);
 
@@ -121,7 +121,13 @@ function getCategoryFromType(type: ItemType): ItemCategory {
     return itemTypes.includes(type);
   }) as ItemCategory;
 
-  return category || ItemCategory.Misc;
+  if (category) {
+    return category;
+  } else if (type.match(/Gem/)) {
+    return ItemCategory.Gem;
+  } else {
+    return ItemCategory.Misc;
+  }
 }
 
 function findSet(uuid: number): SetId | null {

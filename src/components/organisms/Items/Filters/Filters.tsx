@@ -42,7 +42,7 @@ const Filters: FunctionComponent = () => {
       <Dropdown
         className="o-filters__classDropdown"
         label=""
-        defaultValue={CharacterClass.All}
+        defaultValue={filters.characterClass || CharacterClass.All}
         options={classOptions}
         onChange={onClassSelect}
       />

@@ -2,7 +2,7 @@
   {
     "uuid": 1,
     "name": "Leather Hood",
-    "icon": "spr_itemicons_1.png",
+    "icon": "spr_itemicons_1",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Ordinary",
@@ -18,7 +18,7 @@
   {
     "uuid": 2,
     "name": "Leather Armor",
-    "icon": "spr_itemicons_2.png",
+    "icon": "spr_itemicons_2",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Ordinary",
@@ -34,7 +34,7 @@
   {
     "uuid": 3,
     "name": "Druid Hood",
-    "icon": "spr_itemicons_3.png",
+    "icon": "spr_itemicons_3",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Ordinary",
@@ -50,7 +50,7 @@
   {
     "uuid": 4,
     "name": "Druid Armor",
-    "icon": "spr_itemicons_4.png",
+    "icon": "spr_itemicons_4",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Ordinary",
@@ -66,7 +66,7 @@
   {
     "uuid": 5,
     "name": "Ranger Hood",
-    "icon": "spr_itemicons_5.png",
+    "icon": "spr_itemicons_5",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Ordinary",
@@ -82,7 +82,7 @@
   {
     "uuid": 6,
     "name": "Ranger Armor",
-    "icon": "spr_itemicons_6.png",
+    "icon": "spr_itemicons_6",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Ordinary",
@@ -98,7 +98,7 @@
   {
     "uuid": 7,
     "name": "Plate Helmet",
-    "icon": "spr_itemicons_7.png",
+    "icon": "spr_itemicons_7",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Ordinary",
@@ -114,7 +114,7 @@
   {
     "uuid": 8,
     "name": "Plate Armor",
-    "icon": "spr_itemicons_8.png",
+    "icon": "spr_itemicons_8",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Ordinary",
@@ -130,7 +130,7 @@
   {
     "uuid": 9,
     "name": "Silver Helmet",
-    "icon": "spr_itemicons_9.png",
+    "icon": "spr_itemicons_9",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Ordinary",
@@ -146,7 +146,7 @@
   {
     "uuid": 10,
     "name": "Silver Armor",
-    "icon": "spr_itemicons_10.png",
+    "icon": "spr_itemicons_10",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Ordinary",
@@ -162,7 +162,7 @@
   {
     "uuid": 11,
     "name": "Gold Plate Helmet",
-    "icon": "spr_itemicons_11.png",
+    "icon": "spr_itemicons_11",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Ordinary",
@@ -178,7 +178,7 @@
   {
     "uuid": 12,
     "name": "Gold Plate Armor",
-    "icon": "spr_itemicons_12.png",
+    "icon": "spr_itemicons_12",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Ordinary",
@@ -194,7 +194,7 @@
   {
     "uuid": 13,
     "name": "Dark Hood",
-    "icon": "spr_itemicons_13.png",
+    "icon": "spr_itemicons_13",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Ordinary",
@@ -210,7 +210,7 @@
   {
     "uuid": 14,
     "name": "Dark Robes",
-    "icon": "spr_itemicons_14.png",
+    "icon": "spr_itemicons_14",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Ordinary",
@@ -226,7 +226,7 @@
   {
     "uuid": 15,
     "name": "Arcane Hood",
-    "icon": "spr_itemicons_15.png",
+    "icon": "spr_itemicons_15",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Ordinary",
@@ -242,7 +242,7 @@
   {
     "uuid": 16,
     "name": "Arcane Robes",
-    "icon": "spr_itemicons_16.png",
+    "icon": "spr_itemicons_16",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Ordinary",
@@ -258,7 +258,7 @@
   {
     "uuid": 17,
     "name": "Mage Hood",
-    "icon": "spr_itemicons_17.png",
+    "icon": "spr_itemicons_17",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Ordinary",
@@ -274,7 +274,7 @@
   {
     "uuid": 18,
     "name": "Mage Robes",
-    "icon": "spr_itemicons_18.png",
+    "icon": "spr_itemicons_18",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Ordinary",
@@ -290,7 +290,7 @@
   {
     "uuid": 19,
     "name": "Leather Cap",
-    "icon": "spr_itemicons_19.png",
+    "icon": "spr_itemicons_19",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Ordinary",
@@ -306,7 +306,7 @@
   {
     "uuid": 20,
     "name": "Fighter Harness",
-    "icon": "spr_itemicons_20.png",
+    "icon": "spr_itemicons_20",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Ordinary",
@@ -322,7 +322,7 @@
   {
     "uuid": 21,
     "name": "Bruiser Cap",
-    "icon": "spr_itemicons_21.png",
+    "icon": "spr_itemicons_21",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Ordinary",
@@ -338,7 +338,7 @@
   {
     "uuid": 22,
     "name": "Bruiser Armor",
-    "icon": "spr_itemicons_22.png",
+    "icon": "spr_itemicons_22",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Ordinary",
@@ -354,7 +354,7 @@
   {
     "uuid": 23,
     "name": "Brawler Cap",
-    "icon": "spr_itemicons_23.png",
+    "icon": "spr_itemicons_23",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Ordinary",
@@ -370,7 +370,7 @@
   {
     "uuid": 24,
     "name": "Brawler Harness",
-    "icon": "spr_itemicons_24.png",
+    "icon": "spr_itemicons_24",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Ordinary",
@@ -386,7 +386,7 @@
   {
     "uuid": 25,
     "name": "Bow",
-    "icon": "spr_itemicons_25.png",
+    "icon": "spr_itemicons_25",
     "category": "Weapon",
     "type": "Bow",
     "rarity": "Ordinary",
@@ -404,7 +404,7 @@
   {
     "uuid": 26,
     "name": "Longbow",
-    "icon": "spr_itemicons_26.png",
+    "icon": "spr_itemicons_26",
     "category": "Weapon",
     "type": "Bow",
     "rarity": "Ordinary",
@@ -422,7 +422,7 @@
   {
     "uuid": 27,
     "name": "Recurve Bow",
-    "icon": "spr_itemicons_27.png",
+    "icon": "spr_itemicons_27",
     "category": "Weapon",
     "type": "Bow",
     "rarity": "Ordinary",
@@ -440,7 +440,7 @@
   {
     "uuid": 28,
     "name": "Sword",
-    "icon": "spr_itemicons_28.png",
+    "icon": "spr_itemicons_28",
     "category": "Weapon",
     "type": "Sword",
     "rarity": "Ordinary",
@@ -458,7 +458,7 @@
   {
     "uuid": 29,
     "name": "Longsword",
-    "icon": "spr_itemicons_29.png",
+    "icon": "spr_itemicons_29",
     "category": "Weapon",
     "type": "Sword",
     "rarity": "Ordinary",
@@ -476,7 +476,7 @@
   {
     "uuid": 30,
     "name": "Short Sword",
-    "icon": "spr_itemicons_30.png",
+    "icon": "spr_itemicons_30",
     "category": "Weapon",
     "type": "Sword",
     "rarity": "Ordinary",
@@ -494,7 +494,7 @@
   {
     "uuid": 31,
     "name": "Staff",
-    "icon": "spr_itemicons_31.png",
+    "icon": "spr_itemicons_31",
     "category": "Weapon",
     "type": "Staff",
     "rarity": "Ordinary",
@@ -512,7 +512,7 @@
   {
     "uuid": 32,
     "name": "Crescent Staff",
-    "icon": "spr_itemicons_32.png",
+    "icon": "spr_itemicons_32",
     "category": "Weapon",
     "type": "Staff",
     "rarity": "Ordinary",
@@ -530,7 +530,7 @@
   {
     "uuid": 33,
     "name": "Orbed Staff",
-    "icon": "spr_itemicons_33.png",
+    "icon": "spr_itemicons_33",
     "category": "Weapon",
     "type": "Staff",
     "rarity": "Ordinary",
@@ -548,7 +548,7 @@
   {
     "uuid": 34,
     "name": "Fists",
-    "icon": "spr_itemicons_34.png",
+    "icon": "spr_itemicons_34",
     "category": "Weapon",
     "type": "Fists",
     "rarity": "Ordinary",
@@ -566,7 +566,7 @@
   {
     "uuid": 35,
     "name": "Pounders",
-    "icon": "spr_itemicons_35.png",
+    "icon": "spr_itemicons_35",
     "category": "Weapon",
     "type": "Fists",
     "rarity": "Ordinary",
@@ -584,7 +584,7 @@
   {
     "uuid": 36,
     "name": "Jabs",
-    "icon": "spr_itemicons_36.png",
+    "icon": "spr_itemicons_36",
     "category": "Weapon",
     "type": "Fists",
     "rarity": "Ordinary",
@@ -602,7 +602,7 @@
   {
     "uuid": 37,
     "name": "Leather Boots",
-    "icon": "spr_itemicons_37.png",
+    "icon": "spr_itemicons_37",
     "category": "Boots",
     "type": "Boots",
     "rarity": "Ordinary",
@@ -620,7 +620,7 @@
   {
     "uuid": 38,
     "name": "Crystal Heart",
-    "icon": "spr_itemicons_38.png",
+    "icon": "spr_itemicons_38",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Ordinary",
@@ -638,7 +638,7 @@
   {
     "uuid": 39,
     "name": "Mana Orb",
-    "icon": "spr_itemicons_39.png",
+    "icon": "spr_itemicons_39",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Ordinary",
@@ -656,7 +656,7 @@
   {
     "uuid": 40,
     "name": "Power Ring",
-    "icon": "spr_itemicons_40.png",
+    "icon": "spr_itemicons_40",
     "flavor": "Gotta go fast!",
     "category": "Ring",
     "type": "Ring",
@@ -675,7 +675,7 @@
   {
     "uuid": 41,
     "name": "Thorn Ring",
-    "icon": "spr_itemicons_41.png",
+    "icon": "spr_itemicons_41",
     "category": "Ring",
     "type": "Ring",
     "rarity": "Unique",
@@ -693,7 +693,7 @@
   {
     "uuid": 42,
     "name": "Amulet of Repulsion",
-    "icon": "spr_itemicons_42.png",
+    "icon": "spr_itemicons_42",
     "category": "Amulet",
     "type": "Amulet",
     "rarity": "Unique",
@@ -711,7 +711,7 @@
   {
     "uuid": 43,
     "name": "Chimaera Band",
-    "icon": "spr_itemicons_43.png",
+    "icon": "spr_itemicons_43",
     "category": "Ring",
     "type": "Ring",
     "rarity": "Unique",
@@ -730,9 +730,9 @@
   {
     "uuid": 44,
     "name": "Imp Claw",
-    "icon": "spr_itemicons_44.png",
+    "icon": "spr_itemicons_44",
     "category": "Offhand",
-    "type": "Claw ",
+    "type": "Claw",
     "rarity": "Rare",
     "classRestriction": "Berserker",
     "minLevel": 1,
@@ -748,7 +748,7 @@
   {
     "uuid": 45,
     "name": "The Anchor",
-    "icon": "spr_itemicons_45.png",
+    "icon": "spr_itemicons_45",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Unique",
@@ -767,7 +767,7 @@
   {
     "uuid": 46,
     "name": "Golem Heart",
-    "icon": "spr_itemicons_46.png",
+    "icon": "spr_itemicons_46",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Unique",
@@ -786,7 +786,7 @@
   {
     "uuid": 47,
     "name": "Treant Beads",
-    "icon": "spr_itemicons_47.png",
+    "icon": "spr_itemicons_47",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Unique",
@@ -805,7 +805,7 @@
   {
     "uuid": 48,
     "name": "Nimble Boots",
-    "icon": "spr_itemicons_48.png",
+    "icon": "spr_itemicons_48",
     "category": "Boots",
     "type": "Boots",
     "rarity": "Unique",
@@ -824,7 +824,7 @@
   {
     "uuid": 49,
     "name": "Hydra Scales",
-    "icon": "spr_itemicons_49.png",
+    "icon": "spr_itemicons_49",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Unique",
@@ -842,7 +842,7 @@
   {
     "uuid": 50,
     "name": "Demonband",
-    "icon": "spr_itemicons_50.png",
+    "icon": "spr_itemicons_50",
     "category": "Ring",
     "type": "Ring",
     "rarity": "Unique",
@@ -860,7 +860,7 @@
   {
     "uuid": 51,
     "name": "Meteorite Ring",
-    "icon": "spr_itemicons_51.png",
+    "icon": "spr_itemicons_51",
     "category": "Ring",
     "type": "Ring",
     "rarity": "Legendary",
@@ -878,7 +878,7 @@
   {
     "uuid": 52,
     "name": "Sticky Fingers",
-    "icon": "spr_itemicons_52.png",
+    "icon": "spr_itemicons_52",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Unique",
@@ -896,7 +896,7 @@
   {
     "uuid": 53,
     "name": "Cloudrunners",
-    "icon": "spr_itemicons_53.png",
+    "icon": "spr_itemicons_53",
     "category": "Boots",
     "type": "Boots",
     "rarity": "Legendary",
@@ -915,7 +915,7 @@
   {
     "uuid": 54,
     "name": "Hound Whistle",
-    "icon": "spr_itemicons_54.png",
+    "icon": "spr_itemicons_54",
     "flavor": "Here boy!",
     "category": "Accessory",
     "type": "Accessory",
@@ -934,7 +934,7 @@
   {
     "uuid": 56,
     "name": "Elixir of Life",
-    "icon": "spr_itemicons_56.png",
+    "icon": "spr_itemicons_56",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Unique",
@@ -953,7 +953,7 @@
   {
     "uuid": 57,
     "name": "Boots of Hermes",
-    "icon": "spr_itemicons_57.png",
+    "icon": "spr_itemicons_57",
     "category": "Boots",
     "type": "Boots",
     "rarity": "Legendary",
@@ -972,9 +972,9 @@
   {
     "uuid": 58,
     "name": "Demon Claw",
-    "icon": "spr_itemicons_58.png",
+    "icon": "spr_itemicons_58",
     "category": "Offhand",
-    "type": "Claw ",
+    "type": "Claw",
     "rarity": "Unique",
     "classRestriction": "Berserker",
     "minLevel": 1,
@@ -991,7 +991,7 @@
   {
     "uuid": 59,
     "name": "Chronicle of Knowledge",
-    "icon": "spr_itemicons_59.png",
+    "icon": "spr_itemicons_59",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Legendary",
@@ -1009,7 +1009,7 @@
   {
     "uuid": 61,
     "name": "Ring",
-    "icon": "spr_itemicons_61.png",
+    "icon": "spr_itemicons_61",
     "category": "Ring",
     "type": "Ring",
     "rarity": "Enchanted",
@@ -1025,7 +1025,7 @@
   {
     "uuid": 62,
     "name": "Loop",
-    "icon": "spr_itemicons_62.png",
+    "icon": "spr_itemicons_62",
     "category": "Ring",
     "type": "Ring",
     "rarity": "Enchanted",
@@ -1041,7 +1041,7 @@
   {
     "uuid": 63,
     "name": "Iron Band",
-    "icon": "spr_itemicons_63.png",
+    "icon": "spr_itemicons_63",
     "category": "Ring",
     "type": "Ring",
     "rarity": "Enchanted",
@@ -1057,7 +1057,7 @@
   {
     "uuid": 64,
     "name": "Circlet",
-    "icon": "spr_itemicons_64.png",
+    "icon": "spr_itemicons_64",
     "category": "Ring",
     "type": "Ring",
     "rarity": "Enchanted",
@@ -1073,7 +1073,7 @@
   {
     "uuid": 66,
     "name": "Light's Blessing",
-    "icon": "spr_itemicons_66.png",
+    "icon": "spr_itemicons_66",
     "category": "Amulet",
     "type": "Amulet",
     "rarity": "Unique",
@@ -1091,7 +1091,7 @@
   {
     "uuid": 67,
     "name": "Powergem",
-    "icon": "spr_itemicons_67.png",
+    "icon": "spr_itemicons_67",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Unique",
@@ -1109,9 +1109,9 @@
   {
     "uuid": 68,
     "name": "Wind Razor",
-    "icon": "spr_itemicons_68.png",
+    "icon": "spr_itemicons_68",
     "category": "Offhand",
-    "type": "Arrow ",
+    "type": "Arrow",
     "rarity": "Legendary",
     "classRestriction": "Warden",
     "minLevel": 30,
@@ -1128,9 +1128,9 @@
   {
     "uuid": 69,
     "name": "Spellbook",
-    "icon": "spr_itemicons_69.png",
+    "icon": "spr_itemicons_69",
     "category": "Offhand",
-    "type": "Spellbook ",
+    "type": "Spellbook",
     "rarity": "Ordinary",
     "classRestriction": "Warlock",
     "minLevel": 1,
@@ -1146,9 +1146,9 @@
   {
     "uuid": 70,
     "name": "Spiked Shield",
-    "icon": "spr_itemicons_70.png",
+    "icon": "spr_itemicons_70",
     "category": "Offhand",
-    "type": "Shield ",
+    "type": "Shield",
     "rarity": "Enchanted",
     "classRestriction": "Templar",
     "minLevel": 1,
@@ -1165,7 +1165,7 @@
   {
     "uuid": 71,
     "name": "Barbed Wire",
-    "icon": "spr_itemicons_71.png",
+    "icon": "spr_itemicons_71",
     "category": "Misc",
     "type": "Offhand",
     "rarity": "Ordinary",
@@ -1179,7 +1179,7 @@
   {
     "uuid": 72,
     "name": "Maddoc's Cure",
-    "icon": "spr_itemicons_72.png",
+    "icon": "spr_itemicons_72",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Legendary",
@@ -1199,7 +1199,7 @@
   {
     "uuid": 73,
     "name": "Terra Nova",
-    "icon": "spr_itemicons_73.png",
+    "icon": "spr_itemicons_73",
     "category": "Weapon",
     "type": "Bow",
     "rarity": "Legendary",
@@ -1220,7 +1220,7 @@
   {
     "uuid": 74,
     "name": "Stormcaller's Aim",
-    "icon": "spr_itemicons_74.png",
+    "icon": "spr_itemicons_74",
     "flavor": "...I am calling the rain.",
     "category": "Weapon",
     "type": "Bow",
@@ -1243,7 +1243,7 @@
   {
     "uuid": 75,
     "name": "Heartpiercer",
-    "icon": "spr_itemicons_75.png",
+    "icon": "spr_itemicons_75",
     "category": "Weapon",
     "type": "Bow",
     "rarity": "Unique",
@@ -1263,7 +1263,7 @@
   {
     "uuid": 76,
     "name": "Spiderbite",
-    "icon": "spr_itemicons_76.png",
+    "icon": "spr_itemicons_76",
     "category": "Weapon",
     "type": "Bow",
     "rarity": "Unique",
@@ -1283,7 +1283,7 @@
   {
     "uuid": 77,
     "name": "Serenity",
-    "icon": "spr_itemicons_77.png",
+    "icon": "spr_itemicons_77",
     "flavor": "Can't take the sky from me",
     "category": "Weapon",
     "type": "Bow",
@@ -1304,7 +1304,7 @@
   {
     "uuid": 78,
     "name": "Starfell",
-    "icon": "spr_itemicons_78.png",
+    "icon": "spr_itemicons_78",
     "category": "Weapon",
     "type": "Sword",
     "rarity": "Legendary",
@@ -1325,7 +1325,7 @@
   {
     "uuid": 79,
     "name": "Rolling Thunder",
-    "icon": "spr_itemicons_79.png",
+    "icon": "spr_itemicons_79",
     "category": "Weapon",
     "type": "Sword",
     "rarity": "Legendary",
@@ -1346,7 +1346,7 @@
   {
     "uuid": 80,
     "name": "Iapetus",
-    "icon": "spr_itemicons_80.png",
+    "icon": "spr_itemicons_80",
     "category": "Weapon",
     "type": "Sword",
     "rarity": "Legendary",
@@ -1367,7 +1367,7 @@
   {
     "uuid": 81,
     "name": "Hallowed Blade",
-    "icon": "spr_itemicons_81.png",
+    "icon": "spr_itemicons_81",
     "category": "Weapon",
     "type": "Sword",
     "rarity": "Unique",
@@ -1388,7 +1388,7 @@
   {
     "uuid": 82,
     "name": "Soulblade",
-    "icon": "spr_itemicons_82.png",
+    "icon": "spr_itemicons_82",
     "category": "Weapon",
     "type": "Sword",
     "rarity": "Unique",
@@ -1409,7 +1409,7 @@
   {
     "uuid": 83,
     "name": "Staff of Screaming Skulls",
-    "icon": "spr_itemicons_83.png",
+    "icon": "spr_itemicons_83",
     "flavor": "AAAAAAAAaaaaaaaa!",
     "category": "Weapon",
     "type": "Staff",
@@ -1430,7 +1430,7 @@
   {
     "uuid": 84,
     "name": "Frostborne",
-    "icon": "spr_itemicons_84.png",
+    "icon": "spr_itemicons_84",
     "flavor": "Born in the cold north...",
     "category": "Weapon",
     "type": "Staff",
@@ -1452,7 +1452,7 @@
   {
     "uuid": 85,
     "name": "Brimstone Staff",
-    "icon": "spr_itemicons_85.png",
+    "icon": "spr_itemicons_85",
     "category": "Weapon",
     "type": "Staff",
     "rarity": "Legendary",
@@ -1472,7 +1472,7 @@
   {
     "uuid": 86,
     "name": "Boomstick",
-    "icon": "spr_itemicons_86.png",
+    "icon": "spr_itemicons_86",
     "category": "Weapon",
     "type": "Staff",
     "rarity": "Unique",
@@ -1493,7 +1493,7 @@
   {
     "uuid": 87,
     "name": "Root of Evil",
-    "icon": "spr_itemicons_87.png",
+    "icon": "spr_itemicons_87",
     "category": "Weapon",
     "type": "Staff",
     "rarity": "Unique",
@@ -1514,7 +1514,7 @@
   {
     "uuid": 88,
     "name": "Bad Boys",
-    "icon": "spr_itemicons_88.png",
+    "icon": "spr_itemicons_88",
     "flavor": "Whatcha gonna do?",
     "category": "Weapon",
     "type": "Fists",
@@ -1536,7 +1536,7 @@
   {
     "uuid": 89,
     "name": "Arsonists",
-    "icon": "spr_itemicons_89.png",
+    "icon": "spr_itemicons_89",
     "category": "Weapon",
     "type": "Fists",
     "rarity": "Legendary",
@@ -1557,7 +1557,7 @@
   {
     "uuid": 90,
     "name": "Lightning Jabs",
-    "icon": "spr_itemicons_90.png",
+    "icon": "spr_itemicons_90",
     "category": "Weapon",
     "type": "Fists",
     "rarity": "Unique",
@@ -1577,7 +1577,7 @@
   {
     "uuid": 91,
     "name": "Bloodsoaked Fists",
-    "icon": "spr_itemicons_91.png",
+    "icon": "spr_itemicons_91",
     "category": "Weapon",
     "type": "Fists",
     "rarity": "Legendary",
@@ -1599,7 +1599,7 @@
   {
     "uuid": 92,
     "name": "Nailers",
-    "icon": "spr_itemicons_92.png",
+    "icon": "spr_itemicons_92",
     "category": "Weapon",
     "type": "Fists",
     "rarity": "Unique",
@@ -1619,7 +1619,7 @@
   {
     "uuid": 93,
     "name": "Key",
-    "icon": "spr_itemicons_93.png",
+    "icon": "spr_itemicons_93",
     "description": "Used to open locked treasure chests",
     "category": "Misc",
     "type": "Key",
@@ -1632,7 +1632,7 @@
   {
     "uuid": 100,
     "name": "Bloodsoaked Armor",
-    "icon": "spr_itemicons_100.png",
+    "icon": "spr_itemicons_100",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Legendary",
@@ -1652,7 +1652,7 @@
   {
     "uuid": 101,
     "name": "Ragnarok Guard",
-    "icon": "spr_itemicons_101.png",
+    "icon": "spr_itemicons_101",
     "flavor": "To withstand the End Times, one must embrace the heritage",
     "category": "Armor",
     "type": "Armor",
@@ -1672,7 +1672,7 @@
   {
     "uuid": 102,
     "name": "Dragonfire Armor",
-    "icon": "spr_itemicons_102.png",
+    "icon": "spr_itemicons_102",
     "flavor": "...Your hatred, your fear, and your appetite for vengeance have all mislead you...",
     "category": "Armor",
     "type": "Armor",
@@ -1693,7 +1693,7 @@
   {
     "uuid": 103,
     "name": "Flamebound Armor",
-    "icon": "spr_itemicons_103.png",
+    "icon": "spr_itemicons_103",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Legendary",
@@ -1712,7 +1712,7 @@
   {
     "uuid": 104,
     "name": "Wrathborn Helmet",
-    "icon": "spr_itemicons_104.png",
+    "icon": "spr_itemicons_104",
     "flavor": "The Wrathborn, members of the Dragonkin Tribe cursed at birth with unending Rage, would only find release in the cold mountains of the Frostborn",
     "category": "Helmet",
     "type": "Helm",
@@ -1732,7 +1732,7 @@
   {
     "uuid": 105,
     "name": "Helm of Might",
-    "icon": "spr_itemicons_105.png",
+    "icon": "spr_itemicons_105",
     "flavor": "True might comes from inner strength, and control of our inherited Dragon Rage - Borekar The Mighty",
     "category": "Helmet",
     "type": "Helm",
@@ -1751,7 +1751,7 @@
   {
     "uuid": 106,
     "name": "Firebreather",
-    "icon": "spr_itemicons_106.png",
+    "icon": "spr_itemicons_106",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
@@ -1770,7 +1770,7 @@
   {
     "uuid": 107,
     "name": "Molten Medallion",
-    "icon": "spr_itemicons_107.png",
+    "icon": "spr_itemicons_107",
     "category": "Amulet",
     "type": "Amulet",
     "rarity": "Legendary",
@@ -1789,7 +1789,7 @@
   {
     "uuid": 108,
     "name": "Winged Striders",
-    "icon": "spr_itemicons_108.png",
+    "icon": "spr_itemicons_108",
     "category": "Boots",
     "type": "Boots",
     "rarity": "Unique",
@@ -1807,7 +1807,7 @@
   {
     "uuid": 109,
     "name": "Ring of Titans",
-    "icon": "spr_itemicons_109.png",
+    "icon": "spr_itemicons_109",
     "category": "Ring",
     "type": "Ring",
     "rarity": "True Legendary",
@@ -1826,7 +1826,7 @@
   {
     "uuid": 110,
     "name": "Helm o' War",
-    "icon": "spr_itemicons_110.png",
+    "icon": "spr_itemicons_110",
     "flavor": "Train well, and your voice will be both spear and shield. - Taldrem The Wise",
     "category": "Helmet",
     "type": "Helm",
@@ -1846,7 +1846,7 @@
   {
     "uuid": 111,
     "name": "Vampire Lord's Cape",
-    "icon": "spr_itemicons_111.png",
+    "icon": "spr_itemicons_111",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Legendary",
@@ -1865,7 +1865,7 @@
   {
     "uuid": 112,
     "name": "Demon Lord's Robes",
-    "icon": "spr_itemicons_112.png",
+    "icon": "spr_itemicons_112",
     "flavor": "...That they were evil, born of sin - the opposite of all things good. Oh, how wrong we were...",
     "category": "Armor",
     "type": "Armor",
@@ -1886,7 +1886,7 @@
   {
     "uuid": 113,
     "name": "Lich's Armor",
-    "icon": "spr_itemicons_113.png",
+    "icon": "spr_itemicons_113",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Legendary",
@@ -1906,7 +1906,7 @@
   {
     "uuid": 114,
     "name": "Demonologist's Robes",
-    "icon": "spr_itemicons_114.png",
+    "icon": "spr_itemicons_114",
     "flavor": "Nothing hates a Demon like another Demon",
     "category": "Armor",
     "type": "Armor",
@@ -1926,7 +1926,7 @@
   {
     "uuid": 115,
     "name": "Icecrown",
-    "icon": "spr_itemicons_115.png",
+    "icon": "spr_itemicons_115",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
@@ -1945,7 +1945,7 @@
   {
     "uuid": 116,
     "name": "Infernal Horns",
-    "icon": "spr_itemicons_116.png",
+    "icon": "spr_itemicons_116",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
@@ -1964,7 +1964,7 @@
   {
     "uuid": 117,
     "name": "Hood of the Master",
-    "icon": "spr_itemicons_117.png",
+    "icon": "spr_itemicons_117",
     "flavor": "The sound of drums",
     "category": "Helmet",
     "type": "Helm",
@@ -1983,7 +1983,7 @@
   {
     "uuid": 118,
     "name": "Demon Lord's Horns",
-    "icon": "spr_itemicons_118.png",
+    "icon": "spr_itemicons_118",
     "flavor": "Long did we assume Demons to be elusive creatures of darkness from the pits of the earth...",
     "category": "Helmet",
     "type": "Helm",
@@ -2003,7 +2003,7 @@
   {
     "uuid": 119,
     "name": "Supernova",
-    "icon": "spr_itemicons_119.png",
+    "icon": "spr_itemicons_119",
     "category": "Ring",
     "type": "Ring",
     "rarity": "Legendary",
@@ -2022,7 +2022,7 @@
   {
     "uuid": 120,
     "name": "Hellstone Amulet",
-    "icon": "spr_itemicons_120.png",
+    "icon": "spr_itemicons_120",
     "category": "Amulet",
     "type": "Amulet",
     "rarity": "Legendary",
@@ -2041,7 +2041,7 @@
   {
     "uuid": 121,
     "name": "Lich's Touch",
-    "icon": "spr_itemicons_121.png",
+    "icon": "spr_itemicons_121",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Legendary",
@@ -2060,7 +2060,7 @@
   {
     "uuid": 122,
     "name": "Iceheart",
-    "icon": "spr_itemicons_122.png",
+    "icon": "spr_itemicons_122",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Legendary",
@@ -2078,7 +2078,7 @@
   {
     "uuid": 123,
     "name": "Thundercharged Raiment",
-    "icon": "spr_itemicons_123.png",
+    "icon": "spr_itemicons_123",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Legendary",
@@ -2098,7 +2098,7 @@
   {
     "uuid": 124,
     "name": "Ayeela's Embrace",
-    "icon": "spr_itemicons_124.png",
+    "icon": "spr_itemicons_124",
     "flavor": "...Channeling all their power, their faith, into her as she walked, untouched, through the darkness...",
     "category": "Armor",
     "type": "Armor",
@@ -2119,7 +2119,7 @@
   {
     "uuid": 125,
     "name": "Blessed Raiment",
-    "icon": "spr_itemicons_125.png",
+    "icon": "spr_itemicons_125",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Legendary",
@@ -2137,7 +2137,7 @@
   {
     "uuid": 126,
     "name": "Armor of Retribution",
-    "icon": "spr_itemicons_126.png",
+    "icon": "spr_itemicons_126",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Legendary",
@@ -2156,7 +2156,7 @@
   {
     "uuid": 127,
     "name": "Armor of the Shield Maiden",
-    "icon": "spr_itemicons_127.png",
+    "icon": "spr_itemicons_127",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Legendary",
@@ -2174,7 +2174,7 @@
   {
     "uuid": 128,
     "name": "Crown of Justice",
-    "icon": "spr_itemicons_128.png",
+    "icon": "spr_itemicons_128",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
@@ -2193,7 +2193,7 @@
   {
     "uuid": 129,
     "name": "Crown of Solitude",
-    "icon": "spr_itemicons_129.png",
+    "icon": "spr_itemicons_129",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
@@ -2211,7 +2211,7 @@
   {
     "uuid": 130,
     "name": "Protectorae",
-    "icon": "spr_itemicons_130.png",
+    "icon": "spr_itemicons_130",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Unique",
@@ -2230,9 +2230,9 @@
   {
     "uuid": 131,
     "name": "Iactus",
-    "icon": "spr_itemicons_131.png",
+    "icon": "spr_itemicons_131",
     "category": "Offhand",
-    "type": "Shield ",
+    "type": "Shield",
     "rarity": "Legendary",
     "classRestriction": "Templar",
     "minLevel": 30,
@@ -2250,9 +2250,9 @@
   {
     "uuid": 132,
     "name": "Aegis",
-    "icon": "spr_itemicons_132.png",
+    "icon": "spr_itemicons_132",
     "category": "Offhand",
-    "type": "Shield ",
+    "type": "Shield",
     "rarity": "Legendary",
     "classRestriction": "Templar",
     "minLevel": 30,
@@ -2270,9 +2270,9 @@
   {
     "uuid": 133,
     "name": "Book of Purity",
-    "icon": "spr_itemicons_133.png",
+    "icon": "spr_itemicons_133",
     "category": "Offhand",
-    "type": "Tome ",
+    "type": "Tome",
     "rarity": "Unique",
     "classRestriction": "Templar",
     "minLevel": 20,
@@ -2288,9 +2288,9 @@
   {
     "uuid": 134,
     "name": "Thundercharged Tome",
-    "icon": "spr_itemicons_134.png",
+    "icon": "spr_itemicons_134",
     "category": "Offhand",
-    "type": "Tome ",
+    "type": "Tome",
     "rarity": "Legendary",
     "classRestriction": "Templar",
     "minLevel": 30,
@@ -2308,7 +2308,7 @@
   {
     "uuid": 135,
     "name": "Heart of Grace",
-    "icon": "spr_itemicons_135.png",
+    "icon": "spr_itemicons_135",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Legendary",
@@ -2326,7 +2326,7 @@
   {
     "uuid": 136,
     "name": "Forest Embrace",
-    "icon": "spr_itemicons_136.png",
+    "icon": "spr_itemicons_136",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Legendary",
@@ -2345,7 +2345,7 @@
   {
     "uuid": 137,
     "name": "Packleader's Vest",
-    "icon": "spr_itemicons_137.png",
+    "icon": "spr_itemicons_137",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Legendary",
@@ -2364,7 +2364,7 @@
   {
     "uuid": 138,
     "name": "Armor of the Elven Ranger",
-    "icon": "spr_itemicons_138.png",
+    "icon": "spr_itemicons_138",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Legendary",
@@ -2382,7 +2382,7 @@
   {
     "uuid": 139,
     "name": "Stormcaller's Regalia",
-    "icon": "spr_itemicons_139.png",
+    "icon": "spr_itemicons_139",
     "flavor": "...Alas, the Humans kept assaulting their forest, violently tearing and cutting the vegetation as if possessed, with seemingly no intent to stop...",
     "category": "Armor",
     "type": "Armor",
@@ -2403,7 +2403,7 @@
   {
     "uuid": 140,
     "name": "Stormcaller's Visage",
-    "icon": "spr_itemicons_140.png",
+    "icon": "spr_itemicons_140",
     "flavor": "For a while, they had silently watched from a distance. They did not understand why, nor did they want to act in retaliation...",
     "category": "Helmet",
     "type": "Helm",
@@ -2423,7 +2423,7 @@
   {
     "uuid": 141,
     "name": "Crown of Storms",
-    "icon": "spr_itemicons_141.png",
+    "icon": "spr_itemicons_141",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
@@ -2443,7 +2443,7 @@
   {
     "uuid": 142,
     "name": "High Ranger's Vision",
-    "icon": "spr_itemicons_142.png",
+    "icon": "spr_itemicons_142",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
@@ -2462,7 +2462,7 @@
   {
     "uuid": 143,
     "name": "Stormdweller Hood",
-    "icon": "spr_itemicons_143.png",
+    "icon": "spr_itemicons_143",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
@@ -2481,7 +2481,7 @@
   {
     "uuid": 144,
     "name": "Saboteur's Hood",
-    "icon": "spr_itemicons_144.png",
+    "icon": "spr_itemicons_144",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Unique",
@@ -2499,7 +2499,7 @@
   {
     "uuid": 145,
     "name": "Band of Nature",
-    "icon": "spr_itemicons_145.png",
+    "icon": "spr_itemicons_145",
     "category": "Ring",
     "type": "Ring",
     "rarity": "Unique",
@@ -2518,7 +2518,7 @@
   {
     "uuid": 146,
     "name": "Druid's Scroll of Storms",
-    "icon": "spr_itemicons_146.png",
+    "icon": "spr_itemicons_146",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Legendary",
@@ -2537,7 +2537,7 @@
   {
     "uuid": 147,
     "name": "Storm Pendant",
-    "icon": "spr_itemicons_147.png",
+    "icon": "spr_itemicons_147",
     "category": "Amulet",
     "type": "Amulet",
     "rarity": "Legendary",
@@ -2556,7 +2556,7 @@
   {
     "uuid": 148,
     "name": "Trapper's Boots",
-    "icon": "spr_itemicons_148.png",
+    "icon": "spr_itemicons_148",
     "category": "Boots",
     "type": "Boots",
     "rarity": "Unique",
@@ -2575,7 +2575,7 @@
   {
     "uuid": 149,
     "name": "Wrath Cage",
-    "icon": "spr_itemicons_149.png",
+    "icon": "spr_itemicons_149",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Unique",
@@ -2595,7 +2595,7 @@
   {
     "uuid": 150,
     "name": "Robe of Corruption",
-    "icon": "spr_itemicons_150.png",
+    "icon": "spr_itemicons_150",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Legendary",
@@ -2613,7 +2613,7 @@
   {
     "uuid": 151,
     "name": "Master Scout's Armor",
-    "icon": "spr_itemicons_151.png",
+    "icon": "spr_itemicons_151",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Unique",
@@ -2633,7 +2633,7 @@
   {
     "uuid": 152,
     "name": "Jotunhelm",
-    "icon": "spr_itemicons_152.png",
+    "icon": "spr_itemicons_152",
     "flavor": "$And this helm,$ he asked the Trickster, $It will stop their healing?$",
     "category": "Helmet",
     "type": "Helm",
@@ -2652,7 +2652,7 @@
   {
     "uuid": 153,
     "name": "Dragonleech",
-    "icon": "spr_itemicons_153.png",
+    "icon": "spr_itemicons_153",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Unique",
@@ -2671,7 +2671,7 @@
   {
     "uuid": 154,
     "name": "Mindcage",
-    "icon": "spr_itemicons_154.png",
+    "icon": "spr_itemicons_154",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Unique",
@@ -2690,7 +2690,7 @@
   {
     "uuid": 155,
     "name": "Helm of the Fallen King",
-    "icon": "spr_itemicons_155.png",
+    "icon": "spr_itemicons_155",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Unique",
@@ -2709,7 +2709,7 @@
   {
     "uuid": 156,
     "name": "Golden Guard",
-    "icon": "spr_itemicons_156.png",
+    "icon": "spr_itemicons_156",
     "flavor": "A shiny Golden Guard",
     "category": "Helmet",
     "type": "Helm",
@@ -2729,7 +2729,7 @@
   {
     "uuid": 157,
     "name": "Smoldering Gemstone",
-    "icon": "spr_itemicons_157.png",
+    "icon": "spr_itemicons_157",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Legendary",
@@ -2747,7 +2747,7 @@
   {
     "uuid": 158,
     "name": "Ring of Horror",
-    "icon": "spr_itemicons_158.png",
+    "icon": "spr_itemicons_158",
     "category": "Ring",
     "type": "Ring",
     "rarity": "Legendary",
@@ -2767,7 +2767,7 @@
   {
     "uuid": 159,
     "name": "The Skyshard",
-    "icon": "spr_itemicons_159.png",
+    "icon": "spr_itemicons_159",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Legendary",
@@ -2785,7 +2785,7 @@
   {
     "uuid": 180,
     "name": "Elixir of Invisibility",
-    "icon": "spr_itemicons_180.png",
+    "icon": "spr_itemicons_180",
     "description": "Turns you invisible for 15 seconds.",
     "category": "Consumables",
     "type": "Elixir",
@@ -2798,7 +2798,7 @@
   {
     "uuid": 181,
     "name": "Elixir of The Steadfast",
-    "icon": "spr_itemicons_181.png",
+    "icon": "spr_itemicons_181",
     "description": "Makes you immune to knockback and pull effects for 90 seconds.",
     "category": "Consumables",
     "type": "Elixir",
@@ -2811,7 +2811,7 @@
   {
     "uuid": 182,
     "name": "Elixir of Fumes",
-    "icon": "spr_itemicons_182.png",
+    "icon": "spr_itemicons_182",
     "description": "Makes you drop poisonous clouds periodically for 60 seconds.",
     "category": "Consumables",
     "type": "Elixir",
@@ -2824,7 +2824,7 @@
   {
     "uuid": 183,
     "name": "Elixir of Shock",
-    "icon": "spr_itemicons_183.png",
+    "icon": "spr_itemicons_183",
     "description": "Makes you sometimes shock nearby enemies for 60 seconds.",
     "category": "Consumables",
     "type": "Elixir",
@@ -2837,7 +2837,7 @@
   {
     "uuid": 184,
     "name": "Elixir of Haste",
-    "icon": "spr_itemicons_184.png",
+    "icon": "spr_itemicons_184",
     "description": "Increases your movement speed by 15% for 15 seconds.",
     "category": "Consumables",
     "type": "Elixir",
@@ -2850,7 +2850,7 @@
   {
     "uuid": 185,
     "name": "Elixir of Fortitude",
-    "icon": "spr_itemicons_185.png",
+    "icon": "spr_itemicons_185",
     "description": "Increases your maximum health by 15% for 90 seconds.",
     "category": "Consumables",
     "type": "Elixir",
@@ -2863,7 +2863,7 @@
   {
     "uuid": 193,
     "name": "Icewind",
-    "icon": "spr_itemicons_193.png",
+    "icon": "spr_itemicons_193",
     "category": "Weapon",
     "type": "Bow",
     "rarity": "Unique",
@@ -2883,7 +2883,7 @@
   {
     "uuid": 194,
     "name": "Bolt",
-    "icon": "spr_itemicons_194.png",
+    "icon": "spr_itemicons_194",
     "category": "Weapon",
     "type": "Bow",
     "rarity": "Unique",
@@ -2903,7 +2903,7 @@
   {
     "uuid": 195,
     "name": "Cael'is' Aim",
-    "icon": "spr_itemicons_195.png",
+    "icon": "spr_itemicons_195",
     "category": "Weapon",
     "type": "Bow",
     "rarity": "Unique",
@@ -2923,7 +2923,7 @@
   {
     "uuid": 196,
     "name": "Stormdraw",
-    "icon": "spr_itemicons_196.png",
+    "icon": "spr_itemicons_196",
     "category": "Weapon",
     "type": "Bow",
     "rarity": "Legendary",
@@ -2944,7 +2944,7 @@
   {
     "uuid": 197,
     "name": "Thunderstring",
-    "icon": "spr_itemicons_197.png",
+    "icon": "spr_itemicons_197",
     "category": "Weapon",
     "type": "Bow",
     "rarity": "Legendary",
@@ -2965,7 +2965,7 @@
   {
     "uuid": 198,
     "name": "Marruu's Rose",
-    "icon": "spr_itemicons_198.png",
+    "icon": "spr_itemicons_198",
     "category": "Weapon",
     "type": "Bow",
     "rarity": "Legendary",
@@ -2986,7 +2986,7 @@
   {
     "uuid": 199,
     "name": "Vault Key",
-    "icon": "spr_itemicons_199.png",
+    "icon": "spr_itemicons_199",
     "description": "Opens the Vault in the Offering Chamber",
     "category": "Misc",
     "type": "Quest Item",
@@ -2999,7 +2999,7 @@
   {
     "uuid": 200,
     "name": "Treasury Key",
-    "icon": "spr_itemicons_200.png",
+    "icon": "spr_itemicons_200",
     "description": "This ornate key surely opens something of great value.",
     "category": "Misc",
     "type": "Special Item",
@@ -3012,7 +3012,7 @@
   {
     "uuid": 201,
     "name": "Ancient Coin",
-    "icon": "spr_itemicons_201.png",
+    "icon": "spr_itemicons_201",
     "description": "An old coin. Could be offered at an altar in Upper Temple Halls.",
     "category": "Misc",
     "type": "Special Item",
@@ -3025,7 +3025,7 @@
   {
     "uuid": 203,
     "name": "Flamers",
-    "icon": "spr_itemicons_203.png",
+    "icon": "spr_itemicons_203",
     "category": "Weapon",
     "type": "Fists",
     "rarity": "Unique",
@@ -3045,7 +3045,7 @@
   {
     "uuid": 204,
     "name": "Shatterfrost",
-    "icon": "spr_itemicons_204.png",
+    "icon": "spr_itemicons_204",
     "category": "Weapon",
     "type": "Staff",
     "rarity": "Unique",
@@ -3065,7 +3065,7 @@
   {
     "uuid": 205,
     "name": "Firebug's Rod",
-    "icon": "spr_itemicons_205.png",
+    "icon": "spr_itemicons_205",
     "category": "Weapon",
     "type": "Staff",
     "rarity": "Unique",
@@ -3085,7 +3085,7 @@
   {
     "uuid": 206,
     "name": "Hellstaff",
-    "icon": "spr_itemicons_206.png",
+    "icon": "spr_itemicons_206",
     "category": "Weapon",
     "type": "Staff",
     "rarity": "Legendary",
@@ -3106,7 +3106,7 @@
   {
     "uuid": 207,
     "name": "The Kennerth",
-    "icon": "spr_itemicons_207.png",
+    "icon": "spr_itemicons_207",
     "category": "Weapon",
     "type": "Staff",
     "rarity": "Legendary",
@@ -3127,7 +3127,7 @@
   {
     "uuid": 208,
     "name": "Bile Rod",
-    "icon": "spr_itemicons_208.png",
+    "icon": "spr_itemicons_208",
     "category": "Weapon",
     "type": "Staff",
     "rarity": "Legendary",
@@ -3148,7 +3148,7 @@
   {
     "uuid": 210,
     "name": "Moore's Helmet",
-    "icon": "spr_itemicons_210.png",
+    "icon": "spr_itemicons_210",
     "flavor": "Tueri Et Servite",
     "category": "Helmet",
     "type": "Helm",
@@ -3168,7 +3168,7 @@
   {
     "uuid": 211,
     "name": "Refugee's Tattered Vest",
-    "icon": "spr_itemicons_211.png",
+    "icon": "spr_itemicons_211",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Rare",
@@ -3188,7 +3188,7 @@
   {
     "uuid": 212,
     "name": "Amulet of the Apprentice",
-    "icon": "spr_itemicons_212.png",
+    "icon": "spr_itemicons_212",
     "category": "Amulet",
     "type": "Amulet",
     "rarity": "Rare",
@@ -3207,7 +3207,7 @@
   {
     "uuid": 213,
     "name": "Ring of Cleansing Fire",
-    "icon": "spr_itemicons_213.png",
+    "icon": "spr_itemicons_213",
     "category": "Ring",
     "type": "Ring",
     "rarity": "Legendary",
@@ -3226,7 +3226,7 @@
   {
     "uuid": 214,
     "name": "Carapace of Mos'ag",
-    "icon": "spr_itemicons_214.png",
+    "icon": "spr_itemicons_214",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Unique",
@@ -3246,7 +3246,7 @@
   {
     "uuid": 215,
     "name": "Druid's Gold",
-    "icon": "spr_itemicons_215.png",
+    "icon": "spr_itemicons_215",
     "category": "Ring",
     "type": "Ring",
     "rarity": "Unique",
@@ -3265,7 +3265,7 @@
   {
     "uuid": 216,
     "name": "Bramblecrown",
-    "icon": "spr_itemicons_216.png",
+    "icon": "spr_itemicons_216",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
@@ -3285,7 +3285,7 @@
   {
     "uuid": 217,
     "name": "Floe Fist",
-    "icon": "spr_itemicons_217.png",
+    "icon": "spr_itemicons_217",
     "category": "Weapon",
     "type": "Fists",
     "rarity": "Unique",
@@ -3305,7 +3305,7 @@
   {
     "uuid": 218,
     "name": "Thunder Claps",
-    "icon": "spr_itemicons_218.png",
+    "icon": "spr_itemicons_218",
     "category": "Weapon",
     "type": "Fists",
     "rarity": "Legendary",
@@ -3326,7 +3326,7 @@
   {
     "uuid": 219,
     "name": "Icebergs",
-    "icon": "spr_itemicons_219.png",
+    "icon": "spr_itemicons_219",
     "category": "Weapon",
     "type": "Fists",
     "rarity": "Legendary",
@@ -3347,7 +3347,7 @@
   {
     "uuid": 220,
     "name": "Family Heirloom",
-    "icon": "spr_itemicons_220.png",
+    "icon": "spr_itemicons_220",
     "description": "A family heirloom belonging to the Apprentice of Life in the Hall of Prayers.",
     "category": "Misc",
     "type": "Quest Item",
@@ -3360,7 +3360,7 @@
   {
     "uuid": 221,
     "name": "The Headmistress' Spectacles",
-    "icon": "spr_itemicons_221.png",
+    "icon": "spr_itemicons_221",
     "description": "These belong to Headmistress Camille in the Temple Hallways",
     "category": "Misc",
     "type": "Quest Item",
@@ -3373,7 +3373,7 @@
   {
     "uuid": 222,
     "name": "Treant Key",
-    "icon": "spr_itemicons_222.png",
+    "icon": "spr_itemicons_222",
     "description": "Connected to the Deepwood Shrine",
     "category": "Misc",
     "type": "Quest Item",
@@ -3386,7 +3386,7 @@
   {
     "uuid": 223,
     "name": "Stag Key",
-    "icon": "spr_itemicons_223.png",
+    "icon": "spr_itemicons_223",
     "description": "Connected to the Deepwood Shrine",
     "category": "Misc",
     "type": "Quest Item",
@@ -3399,7 +3399,7 @@
   {
     "uuid": 224,
     "name": "Pixie Key",
-    "icon": "spr_itemicons_224.png",
+    "icon": "spr_itemicons_224",
     "description": "Connected to the Deepwood Shrine",
     "category": "Misc",
     "type": "Quest Item",
@@ -3412,7 +3412,7 @@
   {
     "uuid": 225,
     "name": "Atlas",
-    "icon": "spr_itemicons_225.png",
+    "icon": "spr_itemicons_225",
     "category": "Weapon",
     "type": "Sword",
     "rarity": "Unique",
@@ -3433,7 +3433,7 @@
   {
     "uuid": 226,
     "name": "Helios",
-    "icon": "spr_itemicons_226.png",
+    "icon": "spr_itemicons_226",
     "category": "Weapon",
     "type": "Sword",
     "rarity": "Unique",
@@ -3454,7 +3454,7 @@
   {
     "uuid": 227,
     "name": "Jupiter",
-    "icon": "spr_itemicons_227.png",
+    "icon": "spr_itemicons_227",
     "category": "Weapon",
     "type": "Sword",
     "rarity": "Legendary",
@@ -3475,7 +3475,7 @@
   {
     "uuid": 228,
     "name": "Illumine",
-    "icon": "spr_itemicons_228.png",
+    "icon": "spr_itemicons_228",
     "category": "Weapon",
     "type": "Sword",
     "rarity": "Legendary",
@@ -3496,7 +3496,7 @@
   {
     "uuid": 229,
     "name": "Student's Textbook",
-    "icon": "spr_itemicons_229.png",
+    "icon": "spr_itemicons_229",
     "flavor": "Shouldn't you be studying?",
     "description": "-50% Sleep#+200% Caffeine consumption",
     "category": "Accessory",
@@ -3517,7 +3517,7 @@
   {
     "uuid": 230,
     "name": "Elixir of Flames",
-    "icon": "spr_itemicons_230.png",
+    "icon": "spr_itemicons_230",
     "description": "Grants all your attacks a chance to burn foes for Fire damage over 3 seconds. Lasts 60 seconds. Damage scales with your level.",
     "category": "Consumables",
     "type": "Elixir",
@@ -3530,7 +3530,7 @@
   {
     "uuid": 231,
     "name": "Eastern Wing Key",
-    "icon": "spr_itemicons_231.png",
+    "icon": "spr_itemicons_231",
     "description": "The Key to the Eastern Wing, in The Courtyard.",
     "category": "Misc",
     "type": "Quest Item",
@@ -3543,7 +3543,7 @@
   {
     "uuid": 232,
     "name": "Enchanter's Codex",
-    "icon": "spr_itemicons_232.png",
+    "icon": "spr_itemicons_232",
     "description": "I should bring this to Chantie, in The Chronicon.",
     "category": "Misc",
     "type": "Quest Item",
@@ -3556,7 +3556,7 @@
   {
     "uuid": 241,
     "name": "Scroll of Testing 100M",
-    "icon": "spr_itemicons_241.png",
+    "icon": "spr_itemicons_241",
     "description": "Levels you up to level 100, Mastery 100, unlocks Anomalies all the way to 100, and grants you bags, potions, and a large amount of crystals",
     "category": "Consumables",
     "type": "Scroll",
@@ -3569,7 +3569,7 @@
   {
     "uuid": 242,
     "name": "Scroll of Testing 1,000M",
-    "icon": "spr_itemicons_242.png",
+    "icon": "spr_itemicons_242",
     "flavor": "Pretty neat huh?",
     "description": "Levels you up to level 100, Mastery 1000, unlocks Anomalies all the way to 1000, and grants you bags, potions, and a large amount of crystals",
     "category": "Consumables",
@@ -3583,7 +3583,7 @@
   {
     "uuid": 243,
     "name": "Scroll of Dimensions",
-    "icon": "spr_itemicons_243.png",
+    "icon": "spr_itemicons_243",
     "description": "Use to summon a two-way portal to an unstable dimension",
     "category": "Consumables",
     "type": "Scroll",
@@ -3596,7 +3596,7 @@
   {
     "uuid": 244,
     "name": "Scroll of Challenge",
-    "icon": "spr_itemicons_244.png",
+    "icon": "spr_itemicons_244",
     "description": "Use to summon a one-way portal to a random challenge area",
     "category": "Consumables",
     "type": "Scroll",
@@ -3609,7 +3609,7 @@
   {
     "uuid": 245,
     "name": "Scroll of Champions",
-    "icon": "spr_itemicons_245.png",
+    "icon": "spr_itemicons_245",
     "description": "Use to summon a random champion monster",
     "category": "Consumables",
     "type": "Scroll",
@@ -3622,7 +3622,7 @@
   {
     "uuid": 247,
     "name": "Elixir of the Mind",
-    "icon": "spr_itemicons_247.png",
+    "icon": "spr_itemicons_247",
     "description": "Drink to reset your Skill Point allocations",
     "category": "Consumables",
     "type": "Elixir",
@@ -3635,7 +3635,7 @@
   {
     "uuid": 249,
     "name": "Scroll of Return",
-    "icon": "spr_itemicons_249.png",
+    "icon": "spr_itemicons_249",
     "description": "Use to summon a two-way portal to the Chronicon",
     "category": "Consumables",
     "type": "Scroll",
@@ -3648,7 +3648,7 @@
   {
     "uuid": 250,
     "name": "Minor Health Potion",
-    "icon": "spr_itemicons_250.png",
+    "icon": "spr_itemicons_250",
     "description": "Restores 75 health instantly and over 5 seconds.",
     "category": "Consumables",
     "type": "Potion",
@@ -3661,7 +3661,7 @@
   {
     "uuid": 251,
     "name": "Minor Mana Potion",
-    "icon": "spr_itemicons_251.png",
+    "icon": "spr_itemicons_251",
     "description": "Restores 40 mana instantly.",
     "category": "Consumables",
     "type": "Potion",
@@ -3674,7 +3674,7 @@
   {
     "uuid": 252,
     "name": "Small Health Potion",
-    "icon": "spr_itemicons_252.png",
+    "icon": "spr_itemicons_252",
     "description": "Restores 100 health instantly and over 5 seconds.",
     "category": "Consumables",
     "type": "Potion",
@@ -3687,7 +3687,7 @@
   {
     "uuid": 253,
     "name": "Small Mana Potion",
-    "icon": "spr_itemicons_253.png",
+    "icon": "spr_itemicons_253",
     "description": "Restores 75 mana instantly.",
     "category": "Consumables",
     "type": "Potion",
@@ -3700,7 +3700,7 @@
   {
     "uuid": 254,
     "name": "Health Potion",
-    "icon": "spr_itemicons_254.png",
+    "icon": "spr_itemicons_254",
     "description": "Restores 250 health instantly and over 5 seconds.",
     "category": "Consumables",
     "type": "Potion",
@@ -3713,7 +3713,7 @@
   {
     "uuid": 255,
     "name": "Mana Potion",
-    "icon": "spr_itemicons_255.png",
+    "icon": "spr_itemicons_255",
     "description": "Restores 130 mana instantly.",
     "category": "Consumables",
     "type": "Potion",
@@ -3726,7 +3726,7 @@
   {
     "uuid": 256,
     "name": "Medium Health Potion",
-    "icon": "spr_itemicons_256.png",
+    "icon": "spr_itemicons_256",
     "description": "Restores 425 health instantly and over 5 seconds.",
     "category": "Consumables",
     "type": "Potion",
@@ -3739,7 +3739,7 @@
   {
     "uuid": 257,
     "name": "Medium Mana Potion",
-    "icon": "spr_itemicons_257.png",
+    "icon": "spr_itemicons_257",
     "description": "Restores 200 mana instantly.",
     "category": "Consumables",
     "type": "Potion",
@@ -3752,7 +3752,7 @@
   {
     "uuid": 258,
     "name": "Great Health Potion",
-    "icon": "spr_itemicons_258.png",
+    "icon": "spr_itemicons_258",
     "description": "Restores 600 health instantly and over 5 seconds.",
     "category": "Consumables",
     "type": "Potion",
@@ -3765,7 +3765,7 @@
   {
     "uuid": 259,
     "name": "Great Mana Potion",
-    "icon": "spr_itemicons_259.png",
+    "icon": "spr_itemicons_259",
     "description": "Restores 300 mana instantly.",
     "category": "Consumables",
     "type": "Potion",
@@ -3778,7 +3778,7 @@
   {
     "uuid": 260,
     "name": "Greater Health Potion",
-    "icon": "spr_itemicons_260.png",
+    "icon": "spr_itemicons_260",
     "description": "Restores 800 health instantly and over 5 seconds.",
     "category": "Consumables",
     "type": "Potion",
@@ -3791,7 +3791,7 @@
   {
     "uuid": 261,
     "name": "Greater Mana Potion",
-    "icon": "spr_itemicons_261.png",
+    "icon": "spr_itemicons_261",
     "description": "Restores 400 mana instantly.",
     "category": "Consumables",
     "type": "Potion",
@@ -3804,7 +3804,7 @@
   {
     "uuid": 262,
     "name": "Grand Health Potion",
-    "icon": "spr_itemicons_262.png",
+    "icon": "spr_itemicons_262",
     "description": "Restores 1,000 health instantly and over 5 seconds.",
     "category": "Consumables",
     "type": "Potion",
@@ -3817,7 +3817,7 @@
   {
     "uuid": 263,
     "name": "Grand Mana Potion",
-    "icon": "spr_itemicons_263.png",
+    "icon": "spr_itemicons_263",
     "description": "Restores 520 mana instantly.",
     "category": "Consumables",
     "type": "Potion",
@@ -3830,7 +3830,7 @@
   {
     "uuid": 264,
     "name": "Superior Health Potion",
-    "icon": "spr_itemicons_264.png",
+    "icon": "spr_itemicons_264",
     "description": "Restores 1,300 health instantly and over 5 seconds.",
     "category": "Consumables",
     "type": "Potion",
@@ -3843,7 +3843,7 @@
   {
     "uuid": 265,
     "name": "Superior Mana Potion",
-    "icon": "spr_itemicons_265.png",
+    "icon": "spr_itemicons_265",
     "description": "Restores 650 mana instantly.",
     "category": "Consumables",
     "type": "Potion",
@@ -3856,7 +3856,7 @@
   {
     "uuid": 266,
     "name": "Supreme Health Potion",
-    "icon": "spr_itemicons_266.png",
+    "icon": "spr_itemicons_266",
     "description": "Restores 1,650 health instantly and over 5 seconds.",
     "category": "Consumables",
     "type": "Potion",
@@ -3869,7 +3869,7 @@
   {
     "uuid": 267,
     "name": "Supreme Mana Potion",
-    "icon": "spr_itemicons_267.png",
+    "icon": "spr_itemicons_267",
     "description": "Restores 800 mana instantly.",
     "category": "Consumables",
     "type": "Potion",
@@ -3882,7 +3882,7 @@
   {
     "uuid": 268,
     "name": "Extreme Health Potion",
-    "icon": "spr_itemicons_268.png",
+    "icon": "spr_itemicons_268",
     "description": "Restores 2,200 health instantly and over 5 seconds.",
     "category": "Consumables",
     "type": "Potion",
@@ -3895,7 +3895,7 @@
   {
     "uuid": 269,
     "name": "Extreme Mana Potion",
-    "icon": "spr_itemicons_269.png",
+    "icon": "spr_itemicons_269",
     "description": "Restores 900 mana instantly.",
     "category": "Consumables",
     "type": "Potion",
@@ -3908,7 +3908,7 @@
   {
     "uuid": 270,
     "name": "Soft Holiday Gift",
-    "icon": "spr_itemicons_270.png",
+    "icon": "spr_itemicons_270",
     "flavor": "It might be socks",
     "description": "Use to open!",
     "category": "Misc",
@@ -3922,7 +3922,7 @@
   {
     "uuid": 271,
     "name": "Badly Wrapped Holiday Gift",
-    "icon": "spr_itemicons_271.png",
+    "icon": "spr_itemicons_271",
     "flavor": "It has a matching bad rhyme on it",
     "description": "Use to open!",
     "category": "Misc",
@@ -3936,7 +3936,7 @@
   {
     "uuid": 272,
     "name": "Promising Holiday Gift",
-    "icon": "spr_itemicons_272.png",
+    "icon": "spr_itemicons_272",
     "flavor": "Hopefully a video game",
     "description": "Use to open!",
     "category": "Misc",
@@ -3950,7 +3950,7 @@
   {
     "uuid": 273,
     "name": "Pretty Holiday Gift",
-    "icon": "spr_itemicons_273.png",
+    "icon": "spr_itemicons_273",
     "flavor": "From: Mom",
     "description": "Use to open!",
     "category": "Misc",
@@ -3964,7 +3964,7 @@
   {
     "uuid": 274,
     "name": "Exceptional Holiday Gift",
-    "icon": "spr_itemicons_274.png",
+    "icon": "spr_itemicons_274",
     "flavor": "IS THAT FOR ME?",
     "description": "Use to open!",
     "category": "Misc",
@@ -3978,7 +3978,7 @@
   {
     "uuid": 275,
     "name": "Loot Container",
-    "icon": "spr_itemicons_275.png",
+    "icon": "spr_itemicons_275",
     "description": "Use to reveal the contents",
     "category": "Misc",
     "type": "Container",
@@ -3991,7 +3991,7 @@
   {
     "uuid": 276,
     "name": "Ultimate Health Potion",
-    "icon": "spr_itemicons_276.png",
+    "icon": "spr_itemicons_276",
     "description": "Restores 3,000 health instantly and over 5 seconds.",
     "category": "Consumables",
     "type": "Potion",
@@ -4004,7 +4004,7 @@
   {
     "uuid": 277,
     "name": "Ultimate Mana Potion",
-    "icon": "spr_itemicons_277.png",
+    "icon": "spr_itemicons_277",
     "description": "Restores 1,000 mana instantly.",
     "category": "Consumables",
     "type": "Potion",
@@ -4017,7 +4017,7 @@
   {
     "uuid": 278,
     "name": "Elixir of Mastery",
-    "icon": "spr_itemicons_278.png",
+    "icon": "spr_itemicons_278",
     "description": "Drink to reset your Mastery Point allocations",
     "category": "Consumables",
     "type": "Elixir",
@@ -4030,7 +4030,7 @@
   {
     "uuid": 280,
     "name": "Amulet",
-    "icon": "spr_itemicons_280.png",
+    "icon": "spr_itemicons_280",
     "category": "Amulet",
     "type": "Amulet",
     "rarity": "Enchanted",
@@ -4046,7 +4046,7 @@
   {
     "uuid": 281,
     "name": "Necklace",
-    "icon": "spr_itemicons_281.png",
+    "icon": "spr_itemicons_281",
     "category": "Amulet",
     "type": "Amulet",
     "rarity": "Enchanted",
@@ -4062,7 +4062,7 @@
   {
     "uuid": 282,
     "name": "Medallion",
-    "icon": "spr_itemicons_282.png",
+    "icon": "spr_itemicons_282",
     "category": "Amulet",
     "type": "Amulet",
     "rarity": "Enchanted",
@@ -4078,7 +4078,7 @@
   {
     "uuid": 283,
     "name": "Miasmic Band",
-    "icon": "spr_itemicons_283.png",
+    "icon": "spr_itemicons_283",
     "category": "Ring",
     "type": "Ring",
     "rarity": "Unique",
@@ -4096,7 +4096,7 @@
   {
     "uuid": 284,
     "name": "Frostband",
-    "icon": "spr_itemicons_284.png",
+    "icon": "spr_itemicons_284",
     "category": "Ring",
     "type": "Ring",
     "rarity": "Unique",
@@ -4114,7 +4114,7 @@
   {
     "uuid": 285,
     "name": "Blasphemy",
-    "icon": "spr_itemicons_285.png",
+    "icon": "spr_itemicons_285",
     "category": "Ring",
     "type": "Ring",
     "rarity": "Unique",
@@ -4132,7 +4132,7 @@
   {
     "uuid": 286,
     "name": "Enforcer's Ring",
-    "icon": "spr_itemicons_286.png",
+    "icon": "spr_itemicons_286",
     "category": "Ring",
     "type": "Ring",
     "rarity": "Unique",
@@ -4150,7 +4150,7 @@
   {
     "uuid": 287,
     "name": "Righteous Circlet",
-    "icon": "spr_itemicons_287.png",
+    "icon": "spr_itemicons_287",
     "category": "Ring",
     "type": "Ring",
     "rarity": "Unique",
@@ -4168,7 +4168,7 @@
   {
     "uuid": 288,
     "name": "Static Loop",
-    "icon": "spr_itemicons_288.png",
+    "icon": "spr_itemicons_288",
     "category": "Ring",
     "type": "Ring",
     "rarity": "Unique",
@@ -4186,7 +4186,7 @@
   {
     "uuid": 289,
     "name": "Terra's Binding",
-    "icon": "spr_itemicons_289.png",
+    "icon": "spr_itemicons_289",
     "category": "Ring",
     "type": "Ring",
     "rarity": "Legendary",
@@ -4204,7 +4204,7 @@
   {
     "uuid": 290,
     "name": "Hoarfrost",
-    "icon": "spr_itemicons_290.png",
+    "icon": "spr_itemicons_290",
     "category": "Ring",
     "type": "Ring",
     "rarity": "Legendary",
@@ -4222,7 +4222,7 @@
   {
     "uuid": 291,
     "name": "Death's Bond",
-    "icon": "spr_itemicons_291.png",
+    "icon": "spr_itemicons_291",
     "category": "Ring",
     "type": "Ring",
     "rarity": "Legendary",
@@ -4240,7 +4240,7 @@
   {
     "uuid": 292,
     "name": "Kingsrock",
-    "icon": "spr_itemicons_292.png",
+    "icon": "spr_itemicons_292",
     "category": "Ring",
     "type": "Ring",
     "rarity": "Legendary",
@@ -4258,7 +4258,7 @@
   {
     "uuid": 293,
     "name": "Divine Link",
-    "icon": "spr_itemicons_293.png",
+    "icon": "spr_itemicons_293",
     "category": "Ring",
     "type": "Ring",
     "rarity": "Legendary",
@@ -4277,7 +4277,7 @@
   {
     "uuid": 294,
     "name": "Ring of Thunder",
-    "icon": "spr_itemicons_294.png",
+    "icon": "spr_itemicons_294",
     "category": "Ring",
     "type": "Ring",
     "rarity": "Legendary",
@@ -4295,7 +4295,7 @@
   {
     "uuid": 295,
     "name": "Magic Essence",
-    "icon": "spr_itemicons_295.png",
+    "icon": "spr_itemicons_295",
     "category": "Craft",
     "type": "Crafting Material",
     "rarity": "Enchanted",
@@ -4307,7 +4307,7 @@
   {
     "uuid": 296,
     "name": "Crystal Essence",
-    "icon": "spr_itemicons_296.png",
+    "icon": "spr_itemicons_296",
     "category": "Craft",
     "type": "Crafting Material",
     "rarity": "Rare",
@@ -4319,7 +4319,7 @@
   {
     "uuid": 297,
     "name": "Soul Essence",
-    "icon": "spr_itemicons_297.png",
+    "icon": "spr_itemicons_297",
     "category": "Craft",
     "type": "Crafting Material",
     "rarity": "Unique",
@@ -4331,7 +4331,7 @@
   {
     "uuid": 298,
     "name": "Memory Essence",
-    "icon": "spr_itemicons_298.png",
+    "icon": "spr_itemicons_298",
     "category": "Craft",
     "type": "Crafting Material",
     "rarity": "Legendary",
@@ -4343,7 +4343,7 @@
   {
     "uuid": 300,
     "name": "Stormforce",
-    "icon": "spr_itemicons_300.png",
+    "icon": "spr_itemicons_300",
     "category": "Ring",
     "type": "Ring",
     "rarity": "Unique",
@@ -4361,7 +4361,7 @@
   {
     "uuid": 301,
     "name": "Wintertale",
-    "icon": "spr_itemicons_301.png",
+    "icon": "spr_itemicons_301",
     "category": "Amulet",
     "type": "Amulet",
     "rarity": "Unique",
@@ -4379,7 +4379,7 @@
   {
     "uuid": 302,
     "name": "Demon's Guile",
-    "icon": "spr_itemicons_302.png",
+    "icon": "spr_itemicons_302",
     "category": "Ring",
     "type": "Ring",
     "rarity": "Unique",
@@ -4397,7 +4397,7 @@
   {
     "uuid": 303,
     "name": "Bad Voodoo",
-    "icon": "spr_itemicons_303.png",
+    "icon": "spr_itemicons_303",
     "category": "Amulet",
     "type": "Amulet",
     "rarity": "Unique",
@@ -4415,7 +4415,7 @@
   {
     "uuid": 304,
     "name": "Ring of Hope",
-    "icon": "spr_itemicons_304.png",
+    "icon": "spr_itemicons_304",
     "category": "Ring",
     "type": "Ring",
     "rarity": "Unique",
@@ -4433,7 +4433,7 @@
   {
     "uuid": 305,
     "name": "Darkskitter's Hide",
-    "icon": "spr_itemicons_305.png",
+    "icon": "spr_itemicons_305",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Unique",
@@ -4452,7 +4452,7 @@
   {
     "uuid": 306,
     "name": "Mollug's One Ring",
-    "icon": "spr_itemicons_306.png",
+    "icon": "spr_itemicons_306",
     "flavor": "It beckons",
     "category": "Ring",
     "type": "Ring",
@@ -4472,7 +4472,7 @@
   {
     "uuid": 307,
     "name": "Mary's Mirror",
-    "icon": "spr_itemicons_307.png",
+    "icon": "spr_itemicons_307",
     "flavor": "There's a girl in the reflection",
     "category": "Accessory",
     "type": "Accessory",
@@ -4492,7 +4492,7 @@
   {
     "uuid": 308,
     "name": "Glod's Coins",
-    "icon": "spr_itemicons_308.png",
+    "icon": "spr_itemicons_308",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Unique",
@@ -4511,7 +4511,7 @@
   {
     "uuid": 309,
     "name": "Eye of The Watcher",
-    "icon": "spr_itemicons_309.png",
+    "icon": "spr_itemicons_309",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Unique",
@@ -4530,7 +4530,7 @@
   {
     "uuid": 310,
     "name": "Bat Bat",
-    "icon": "spr_itemicons_310.png",
+    "icon": "spr_itemicons_310",
     "flavor": "Straight outta there",
     "category": "Weapon",
     "type": "Staff",
@@ -4552,7 +4552,7 @@
   {
     "uuid": 311,
     "name": "Sleepwalker's Robe",
-    "icon": "spr_itemicons_311.png",
+    "icon": "spr_itemicons_311",
     "flavor": "Zzz",
     "category": "Armor",
     "type": "Armor",
@@ -4572,9 +4572,9 @@
   {
     "uuid": 312,
     "name": "The Woodwall",
-    "icon": "spr_itemicons_312.png",
+    "icon": "spr_itemicons_312",
     "category": "Offhand",
-    "type": "Shield ",
+    "type": "Shield",
     "rarity": "Unique",
     "classRestriction": "Templar",
     "minLevel": 1,
@@ -4592,7 +4592,7 @@
   {
     "uuid": 313,
     "name": "Bramblefists",
-    "icon": "spr_itemicons_313.png",
+    "icon": "spr_itemicons_313",
     "category": "Weapon",
     "type": "Fists",
     "rarity": "Unique",
@@ -4613,7 +4613,7 @@
   {
     "uuid": 314,
     "name": "Deadeye Hood",
-    "icon": "spr_itemicons_314.png",
+    "icon": "spr_itemicons_314",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Unique",
@@ -4631,7 +4631,7 @@
   {
     "uuid": 315,
     "name": "Flamehorn",
-    "icon": "spr_itemicons_315.png",
+    "icon": "spr_itemicons_315",
     "category": "Weapon",
     "type": "Sword",
     "rarity": "Unique",
@@ -4652,7 +4652,7 @@
   {
     "uuid": 316,
     "name": "So'eira's Needler",
-    "icon": "spr_itemicons_316.png",
+    "icon": "spr_itemicons_316",
     "category": "Weapon",
     "type": "Bow",
     "rarity": "Unique",
@@ -4673,7 +4673,7 @@
   {
     "uuid": 317,
     "name": "Pixie Gem",
-    "icon": "spr_itemicons_317.png",
+    "icon": "spr_itemicons_317",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Unique",
@@ -4692,7 +4692,7 @@
   {
     "uuid": 318,
     "name": "Thundercharged Blade",
-    "icon": "spr_itemicons_318.png",
+    "icon": "spr_itemicons_318",
     "category": "Weapon",
     "type": "Sword",
     "rarity": "Legendary",
@@ -4714,7 +4714,7 @@
   {
     "uuid": 319,
     "name": "Demon Lord's Scepter",
-    "icon": "spr_itemicons_319.png",
+    "icon": "spr_itemicons_319",
     "flavor": "...But they are prone to be controlled, to be puppets. And I will show the world just how useful they can be.",
     "category": "Weapon",
     "type": "Staff",
@@ -4737,7 +4737,7 @@
   {
     "uuid": 320,
     "name": "Firelord's Amulet",
-    "icon": "spr_itemicons_320.png",
+    "icon": "spr_itemicons_320",
     "category": "Amulet",
     "type": "Amulet",
     "rarity": "Legendary",
@@ -4755,7 +4755,7 @@
   {
     "uuid": 321,
     "name": "Lich's Crown",
-    "icon": "spr_itemicons_321.png",
+    "icon": "spr_itemicons_321",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
@@ -4774,7 +4774,7 @@
   {
     "uuid": 322,
     "name": "Lich's Wand",
-    "icon": "spr_itemicons_322.png",
+    "icon": "spr_itemicons_322",
     "category": "Weapon",
     "type": "Staff",
     "rarity": "Legendary",
@@ -4796,10 +4796,10 @@
   {
     "uuid": 323,
     "name": "Ayeela's Wisdom",
-    "icon": "spr_itemicons_323.png",
+    "icon": "spr_itemicons_323",
     "flavor": "...Her spirit brimming with light, a shining beacon of faith in this once holy place...",
     "category": "Offhand",
-    "type": "Tome ",
+    "type": "Tome",
     "rarity": "Legendary",
     "classRestriction": "Templar",
     "minLevel": 30,
@@ -4817,7 +4817,7 @@
   {
     "uuid": 324,
     "name": "Ayeela's Will",
-    "icon": "spr_itemicons_324.png",
+    "icon": "spr_itemicons_324",
     "flavor": "...The bodies of the tainted, charred around them, evidence of her devotion. She was their Avatar.",
     "category": "Weapon",
     "type": "Sword",
@@ -4840,7 +4840,7 @@
   {
     "uuid": 325,
     "name": "Ayeela's Sight",
-    "icon": "spr_itemicons_325.png",
+    "icon": "spr_itemicons_325",
     "flavor": "As they pressed on deeper into the corrupted halls, focusing all their will on the young priestess...",
     "category": "Helmet",
     "type": "Helm",
@@ -4860,7 +4860,7 @@
   {
     "uuid": 326,
     "name": "Thundercharged Crown",
-    "icon": "spr_itemicons_326.png",
+    "icon": "spr_itemicons_326",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
@@ -4879,7 +4879,7 @@
   {
     "uuid": 327,
     "name": "Master Scout's Hood",
-    "icon": "spr_itemicons_327.png",
+    "icon": "spr_itemicons_327",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Unique",
@@ -4898,7 +4898,7 @@
   {
     "uuid": 328,
     "name": "Master Scout's Boots",
-    "icon": "spr_itemicons_328.png",
+    "icon": "spr_itemicons_328",
     "category": "Boots",
     "type": "Boots",
     "rarity": "Unique",
@@ -4917,7 +4917,7 @@
   {
     "uuid": 329,
     "name": "Hate Crown",
-    "icon": "spr_itemicons_329.png",
+    "icon": "spr_itemicons_329",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Unique",
@@ -4936,9 +4936,9 @@
   {
     "uuid": 330,
     "name": "Pain Lid",
-    "icon": "spr_itemicons_330.png",
+    "icon": "spr_itemicons_330",
     "category": "Offhand",
-    "type": "Shield ",
+    "type": "Shield",
     "rarity": "Unique",
     "classRestriction": "Templar",
     "minLevel": 1,
@@ -4957,7 +4957,7 @@
   {
     "uuid": 331,
     "name": "Seeker's Fortune",
-    "icon": "spr_itemicons_331.png",
+    "icon": "spr_itemicons_331",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Unique",
@@ -4977,7 +4977,7 @@
   {
     "uuid": 332,
     "name": "Seeker's Reach",
-    "icon": "spr_itemicons_332.png",
+    "icon": "spr_itemicons_332",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Unique",
@@ -4998,7 +4998,7 @@
   {
     "uuid": 333,
     "name": "Seeker's Luck",
-    "icon": "spr_itemicons_333.png",
+    "icon": "spr_itemicons_333",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Unique",
@@ -5018,7 +5018,7 @@
   {
     "uuid": 334,
     "name": "Challenger's Helm",
-    "icon": "spr_itemicons_334.png",
+    "icon": "spr_itemicons_334",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Unique",
@@ -5037,7 +5037,7 @@
   {
     "uuid": 335,
     "name": "Challenger's Armor",
-    "icon": "spr_itemicons_335.png",
+    "icon": "spr_itemicons_335",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Unique",
@@ -5057,7 +5057,7 @@
   {
     "uuid": 336,
     "name": "Challenger's Boots",
-    "icon": "spr_itemicons_336.png",
+    "icon": "spr_itemicons_336",
     "category": "Boots",
     "type": "Boots",
     "rarity": "Unique",
@@ -5077,7 +5077,7 @@
   {
     "uuid": 337,
     "name": "Bloodsoaked Helmet",
-    "icon": "spr_itemicons_337.png",
+    "icon": "spr_itemicons_337",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
@@ -5096,7 +5096,7 @@
   {
     "uuid": 338,
     "name": "Brutal Stompers",
-    "icon": "spr_itemicons_338.png",
+    "icon": "spr_itemicons_338",
     "category": "Boots",
     "type": "Boots",
     "rarity": "Legendary",
@@ -5115,7 +5115,7 @@
   {
     "uuid": 339,
     "name": "Dragonfire Visage",
-    "icon": "spr_itemicons_339.png",
+    "icon": "spr_itemicons_339",
     "flavor": "You have driven us to near extinction, and for what purpose?..",
     "category": "Helmet",
     "type": "Helm",
@@ -5135,7 +5135,7 @@
   {
     "uuid": 340,
     "name": "Dragonfire Fists",
-    "icon": "spr_itemicons_340.png",
+    "icon": "spr_itemicons_340",
     "flavor": "...For we are the Dragonkin, and now you will know our wrath.",
     "category": "Weapon",
     "type": "Fists",
@@ -5158,7 +5158,7 @@
   {
     "uuid": 341,
     "name": "High Ranger's Guard",
-    "icon": "spr_itemicons_341.png",
+    "icon": "spr_itemicons_341",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Legendary",
@@ -5178,7 +5178,7 @@
   {
     "uuid": 342,
     "name": "High Ranger's Deadeye",
-    "icon": "spr_itemicons_342.png",
+    "icon": "spr_itemicons_342",
     "category": "Weapon",
     "type": "Bow",
     "rarity": "Legendary",
@@ -5200,9 +5200,9 @@
   {
     "uuid": 343,
     "name": "High Ranger's Gift",
-    "icon": "spr_itemicons_343.png",
+    "icon": "spr_itemicons_343",
     "category": "Offhand",
-    "type": "Arrow ",
+    "type": "Arrow",
     "rarity": "Legendary",
     "classRestriction": "Warden",
     "minLevel": 30,
@@ -5220,7 +5220,7 @@
   {
     "uuid": 344,
     "name": "Elven Wisdom",
-    "icon": "spr_itemicons_344.png",
+    "icon": "spr_itemicons_344",
     "category": "Weapon",
     "type": "Staff",
     "rarity": "Unique",
@@ -5242,7 +5242,7 @@
   {
     "uuid": 345,
     "name": "Unknown Warden Arrow",
-    "icon": "spr_itemicons_345.png",
+    "icon": "spr_itemicons_345",
     "flavor": "Are you feeling lucky?",
     "description": "When purchased, provides you with a random offhand for the Warden (arrow) of any quality up to Legendary...",
     "category": "Misc",
@@ -5256,7 +5256,7 @@
   {
     "uuid": 346,
     "name": "Unknown Templar Offhand",
-    "icon": "spr_itemicons_346.png",
+    "icon": "spr_itemicons_346",
     "flavor": "Are you feeling lucky?",
     "description": "When purchased, provides you with a random offhand for the Templar (Shield or Tome) of any quality up to Legendary...",
     "category": "Misc",
@@ -5270,7 +5270,7 @@
   {
     "uuid": 347,
     "name": "Unknown Warlock Spellbook",
-    "icon": "spr_itemicons_347.png",
+    "icon": "spr_itemicons_347",
     "flavor": "Are you feeling lucky?",
     "description": "When purchased, provides you with a random offhand for the Warlock (Spellbook) of any quality up to Legendary...",
     "category": "Misc",
@@ -5284,7 +5284,7 @@
   {
     "uuid": 348,
     "name": "Unknown Berserker Claw",
-    "icon": "spr_itemicons_348.png",
+    "icon": "spr_itemicons_348",
     "flavor": "Are you feeling lucky?",
     "description": "When purchased, provides you with a random offhand for the Berserker (Claw) of any quality up to Legendary...",
     "category": "Misc",
@@ -5298,7 +5298,7 @@
   {
     "uuid": 350,
     "name": "Unknown Helmet",
-    "icon": "spr_itemicons_350.png",
+    "icon": "spr_itemicons_350",
     "flavor": "Are you feeling lucky?",
     "description": "When purchased, provides you with a random helmet of any quality up to Legendary...",
     "category": "Misc",
@@ -5312,7 +5312,7 @@
   {
     "uuid": 351,
     "name": "Unknown Armor",
-    "icon": "spr_itemicons_351.png",
+    "icon": "spr_itemicons_351",
     "flavor": "Are you feeling lucky?",
     "description": "When purchased, provides you with a random armor of any quality up to Legendary...",
     "category": "Misc",
@@ -5326,7 +5326,7 @@
   {
     "uuid": 352,
     "name": "Unknown Accessory",
-    "icon": "spr_itemicons_352.png",
+    "icon": "spr_itemicons_352",
     "flavor": "Are you feeling lucky?",
     "description": "When purchased, provides you with a random accessory of any quality up to Legendary...",
     "category": "Misc",
@@ -5340,7 +5340,7 @@
   {
     "uuid": 353,
     "name": "Unknown Templar Weapon",
-    "icon": "spr_itemicons_353.png",
+    "icon": "spr_itemicons_353",
     "flavor": "Are you feeling lucky?",
     "description": "When purchased, provides you with a random Templar weapon of any quality up to Legendary...",
     "category": "Misc",
@@ -5354,7 +5354,7 @@
   {
     "uuid": 354,
     "name": "Unknown Berserker Weapon",
-    "icon": "spr_itemicons_354.png",
+    "icon": "spr_itemicons_354",
     "flavor": "Are you feeling lucky?",
     "description": "When purchased, provides you with a random Berserker weapon of any quality up to Legendary...",
     "category": "Misc",
@@ -5368,7 +5368,7 @@
   {
     "uuid": 355,
     "name": "Unknown Warden Weapon",
-    "icon": "spr_itemicons_355.png",
+    "icon": "spr_itemicons_355",
     "flavor": "Are you feeling lucky?",
     "description": "When purchased, provides you with a random Warden weapon of any quality up to Legendary...",
     "category": "Misc",
@@ -5382,7 +5382,7 @@
   {
     "uuid": 356,
     "name": "Unknown Warlock Weapon",
-    "icon": "spr_itemicons_356.png",
+    "icon": "spr_itemicons_356",
     "flavor": "Are you feeling lucky?",
     "description": "When purchased, provides you with a random Warlock weapon of any quality up to Legendary...",
     "category": "Misc",
@@ -5396,7 +5396,7 @@
   {
     "uuid": 357,
     "name": "Unknown Ring (level 10+)",
-    "icon": "spr_itemicons_357.png",
+    "icon": "spr_itemicons_357",
     "flavor": "Are you feeling lucky?",
     "description": "When purchased, provides you with a random ring of any quality up to Legendary...",
     "category": "Misc",
@@ -5410,7 +5410,7 @@
   {
     "uuid": 358,
     "name": "Unknown Amulet (level 10+)",
-    "icon": "spr_itemicons_358.png",
+    "icon": "spr_itemicons_358",
     "flavor": "Are you feeling lucky?",
     "description": "When purchased, provides you with a random amulet of any quality up to Legendary...",
     "category": "Misc",
@@ -5424,7 +5424,7 @@
   {
     "uuid": 359,
     "name": "Unknown Boots",
-    "icon": "spr_itemicons_359.png",
+    "icon": "spr_itemicons_359",
     "flavor": "Are you feeling lucky?",
     "description": "When purchased, provides you with random boots of any quality up to Legendary...",
     "category": "Misc",
@@ -5438,7 +5438,7 @@
   {
     "uuid": 364,
     "name": "Desecrator's Face",
-    "icon": "spr_itemicons_364.png",
+    "icon": "spr_itemicons_364",
     "flavor": "What is Death, but not the goal of Life? Too long we have worshipped Life...",
     "category": "Helmet",
     "type": "Helm",
@@ -5458,7 +5458,7 @@
   {
     "uuid": 365,
     "name": "Desecrator's Cage",
-    "icon": "spr_itemicons_365.png",
+    "icon": "spr_itemicons_365",
     "flavor": "...Only to be betrayed in the very end. No, we must strive to not only worship Death...",
     "category": "Armor",
     "type": "Armor",
@@ -5479,7 +5479,7 @@
   {
     "uuid": 366,
     "name": "Desecrator's Touch",
-    "icon": "spr_itemicons_366.png",
+    "icon": "spr_itemicons_366",
     "flavor": "...and Death reigns supreme.",
     "category": "Weapon",
     "type": "Staff",
@@ -5502,7 +5502,7 @@
   {
     "uuid": 367,
     "name": "Death's List",
-    "icon": "spr_itemicons_367.png",
+    "icon": "spr_itemicons_367",
     "flavor": "...He's making a list, he's checking it twice...",
     "category": "Accessory",
     "type": "Accessory",
@@ -5522,7 +5522,7 @@
   {
     "uuid": 368,
     "name": "Bloodbinder's Helm",
-    "icon": "spr_itemicons_368.png",
+    "icon": "spr_itemicons_368",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
@@ -5541,7 +5541,7 @@
   {
     "uuid": 369,
     "name": "Bloodbinder's Robes",
-    "icon": "spr_itemicons_369.png",
+    "icon": "spr_itemicons_369",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Legendary",
@@ -5561,7 +5561,7 @@
   {
     "uuid": 370,
     "name": "Bloodbinder's Staff",
-    "icon": "spr_itemicons_370.png",
+    "icon": "spr_itemicons_370",
     "category": "Weapon",
     "type": "Staff",
     "rarity": "Legendary",
@@ -5583,7 +5583,7 @@
   {
     "uuid": 371,
     "name": "Pestilence",
-    "icon": "spr_itemicons_371.png",
+    "icon": "spr_itemicons_371",
     "category": "Ring",
     "type": "Ring",
     "rarity": "Legendary",
@@ -5602,7 +5602,7 @@
   {
     "uuid": 372,
     "name": "Caine's Vision",
-    "icon": "spr_itemicons_372.png",
+    "icon": "spr_itemicons_372",
     "flavor": "Suddenly, a flash of fire and light appeared, cutting through the battlefield, laying waste to all around it...",
     "category": "Helmet",
     "type": "Helm",
@@ -5622,7 +5622,7 @@
   {
     "uuid": 373,
     "name": "Caine's Armor",
-    "icon": "spr_itemicons_373.png",
+    "icon": "spr_itemicons_373",
     "flavor": "...Moving unpredictably and with great speed, it suddenly came to a full stop on a ridge, with the world around it turned to ash...",
     "category": "Armor",
     "type": "Armor",
@@ -5643,7 +5643,7 @@
   {
     "uuid": 374,
     "name": "Caine's Fire",
-    "icon": "spr_itemicons_374.png",
+    "icon": "spr_itemicons_374",
     "flavor": "...He spoke, and let his words echo across the charred battlefield: I am Caine; Avatar of War.",
     "category": "Weapon",
     "type": "Sword",
@@ -5666,10 +5666,10 @@
   {
     "uuid": 375,
     "name": "Caine's Deflector",
-    "icon": "spr_itemicons_375.png",
+    "icon": "spr_itemicons_375",
     "flavor": "...The flames then receded, and a man stood in their place, clad in powerful armor humming with immense heat and power...",
     "category": "Offhand",
-    "type": "Shield ",
+    "type": "Shield",
     "rarity": "Legendary",
     "classRestriction": "Templar",
     "minLevel": 30,
@@ -5688,7 +5688,7 @@
   {
     "uuid": 376,
     "name": "Reckoning's Sight",
-    "icon": "spr_itemicons_376.png",
+    "icon": "spr_itemicons_376",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
@@ -5707,7 +5707,7 @@
   {
     "uuid": 377,
     "name": "Reckoning's Cage",
-    "icon": "spr_itemicons_377.png",
+    "icon": "spr_itemicons_377",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Legendary",
@@ -5727,7 +5727,7 @@
   {
     "uuid": 378,
     "name": "Reckoning's Instrument",
-    "icon": "spr_itemicons_378.png",
+    "icon": "spr_itemicons_378",
     "category": "Weapon",
     "type": "Sword",
     "rarity": "Legendary",
@@ -5749,9 +5749,9 @@
   {
     "uuid": 379,
     "name": "Reckoning's Safeguard",
-    "icon": "spr_itemicons_379.png",
+    "icon": "spr_itemicons_379",
     "category": "Offhand",
-    "type": "Shield ",
+    "type": "Shield",
     "rarity": "Legendary",
     "classRestriction": "Templar",
     "minLevel": 30,
@@ -5770,7 +5770,7 @@
   {
     "uuid": 380,
     "name": "Spirit Visage",
-    "icon": "spr_itemicons_380.png",
+    "icon": "spr_itemicons_380",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
@@ -5789,7 +5789,7 @@
   {
     "uuid": 381,
     "name": "Spirit Vest",
-    "icon": "spr_itemicons_381.png",
+    "icon": "spr_itemicons_381",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Legendary",
@@ -5809,7 +5809,7 @@
   {
     "uuid": 382,
     "name": "Spirit Fist",
-    "icon": "spr_itemicons_382.png",
+    "icon": "spr_itemicons_382",
     "category": "Weapon",
     "type": "Fists",
     "rarity": "Legendary",
@@ -5831,9 +5831,9 @@
   {
     "uuid": 383,
     "name": "Spirit Carver",
-    "icon": "spr_itemicons_383.png",
+    "icon": "spr_itemicons_383",
     "category": "Offhand",
-    "type": "Claw ",
+    "type": "Claw",
     "rarity": "Legendary",
     "classRestriction": "Berserker",
     "minLevel": 30,
@@ -5851,7 +5851,7 @@
   {
     "uuid": 384,
     "name": "Northern Rage Helm",
-    "icon": "spr_itemicons_384.png",
+    "icon": "spr_itemicons_384",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
@@ -5870,7 +5870,7 @@
   {
     "uuid": 385,
     "name": "Northern Rage Hide",
-    "icon": "spr_itemicons_385.png",
+    "icon": "spr_itemicons_385",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Legendary",
@@ -5890,7 +5890,7 @@
   {
     "uuid": 386,
     "name": "Northern Rage Fists",
-    "icon": "spr_itemicons_386.png",
+    "icon": "spr_itemicons_386",
     "category": "Weapon",
     "type": "Fists",
     "rarity": "Legendary",
@@ -5912,7 +5912,7 @@
   {
     "uuid": 387,
     "name": "Frostborn Heirloom",
-    "icon": "spr_itemicons_387.png",
+    "icon": "spr_itemicons_387",
     "flavor": "An ancient relic from the Frostborn Dragon Tribe",
     "category": "Amulet",
     "type": "Amulet",
@@ -5931,7 +5931,7 @@
   {
     "uuid": 388,
     "name": "Everspring's Crown",
-    "icon": "spr_itemicons_388.png",
+    "icon": "spr_itemicons_388",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
@@ -5950,7 +5950,7 @@
   {
     "uuid": 389,
     "name": "Everspring's Embrace",
-    "icon": "spr_itemicons_389.png",
+    "icon": "spr_itemicons_389",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Legendary",
@@ -5970,7 +5970,7 @@
   {
     "uuid": 390,
     "name": "Everspring's Breeze",
-    "icon": "spr_itemicons_390.png",
+    "icon": "spr_itemicons_390",
     "category": "Weapon",
     "type": "Bow",
     "rarity": "Legendary",
@@ -5992,9 +5992,9 @@
   {
     "uuid": 391,
     "name": "Everspring's Thorn",
-    "icon": "spr_itemicons_391.png",
+    "icon": "spr_itemicons_391",
     "category": "Offhand",
-    "type": "Arrow ",
+    "type": "Arrow",
     "rarity": "Legendary",
     "classRestriction": "Warden",
     "minLevel": 30,
@@ -6012,7 +6012,7 @@
   {
     "uuid": 392,
     "name": "Snowstorm Eye",
-    "icon": "spr_itemicons_392.png",
+    "icon": "spr_itemicons_392",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
@@ -6031,7 +6031,7 @@
   {
     "uuid": 393,
     "name": "Snowstorm Grasp",
-    "icon": "spr_itemicons_393.png",
+    "icon": "spr_itemicons_393",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Legendary",
@@ -6051,7 +6051,7 @@
   {
     "uuid": 394,
     "name": "Snowstorm Bite",
-    "icon": "spr_itemicons_394.png",
+    "icon": "spr_itemicons_394",
     "category": "Weapon",
     "type": "Bow",
     "rarity": "Legendary",
@@ -6073,7 +6073,7 @@
   {
     "uuid": 395,
     "name": "Winter's Coming",
-    "icon": "spr_itemicons_395.png",
+    "icon": "spr_itemicons_395",
     "category": "Ring",
     "type": "Ring",
     "rarity": "Legendary",
@@ -6092,7 +6092,7 @@
   {
     "uuid": 396,
     "name": "Pouch",
-    "icon": "spr_itemicons_396.png",
+    "icon": "spr_itemicons_396",
     "description": "Expands your inventory space!",
     "category": "Misc",
     "type": "Bag",
@@ -6107,7 +6107,7 @@
   {
     "uuid": 397,
     "name": "Satchel",
-    "icon": "spr_itemicons_397.png",
+    "icon": "spr_itemicons_397",
     "description": "Expands your inventory space!",
     "category": "Misc",
     "type": "Bag",
@@ -6122,7 +6122,7 @@
   {
     "uuid": 398,
     "name": "Gear Bag",
-    "icon": "spr_itemicons_398.png",
+    "icon": "spr_itemicons_398",
     "description": "Expands your inventory space!",
     "category": "Misc",
     "type": "Bag",
@@ -6137,7 +6137,7 @@
   {
     "uuid": 399,
     "name": "Backpack",
-    "icon": "spr_itemicons_399.png",
+    "icon": "spr_itemicons_399",
     "description": "Expands your inventory space!",
     "category": "Misc",
     "type": "Bag",
@@ -6152,7 +6152,7 @@
   {
     "uuid": 400,
     "name": "Bottomless Bag",
-    "icon": "spr_itemicons_400.png",
+    "icon": "spr_itemicons_400",
     "flavor": "Actually has a bottom to keep things from falling out",
     "description": "Expands your inventory space!",
     "category": "Misc",
@@ -6168,7 +6168,7 @@
   {
     "uuid": 402,
     "name": "Moe's Fury",
-    "icon": "spr_itemicons_402.png",
+    "icon": "spr_itemicons_402",
     "flavor": "Pohx's curse",
     "category": "Weapon",
     "type": "Fists",
@@ -6189,7 +6189,7 @@
   {
     "uuid": 403,
     "name": "Grasswalkers",
-    "icon": "spr_itemicons_403.png",
+    "icon": "spr_itemicons_403",
     "category": "Boots",
     "type": "Boots",
     "rarity": "Unique",
@@ -6207,7 +6207,7 @@
   {
     "uuid": 404,
     "name": "Escapists",
-    "icon": "spr_itemicons_404.png",
+    "icon": "spr_itemicons_404",
     "category": "Boots",
     "type": "Boots",
     "rarity": "Unique",
@@ -6225,7 +6225,7 @@
   {
     "uuid": 405,
     "name": "Kickers",
-    "icon": "spr_itemicons_405.png",
+    "icon": "spr_itemicons_405",
     "category": "Boots",
     "type": "Boots",
     "rarity": "Unique",
@@ -6243,7 +6243,7 @@
   {
     "uuid": 406,
     "name": "Sludge Treaders",
-    "icon": "spr_itemicons_406.png",
+    "icon": "spr_itemicons_406",
     "flavor": "Yuck!",
     "category": "Boots",
     "type": "Boots",
@@ -6263,7 +6263,7 @@
   {
     "uuid": 407,
     "name": "Nightcap",
-    "icon": "spr_itemicons_407.png",
+    "icon": "spr_itemicons_407",
     "flavor": "One of the four mysterious masks...",
     "category": "Helmet",
     "type": "Helm",
@@ -6282,7 +6282,7 @@
   {
     "uuid": 408,
     "name": "Lightcap",
-    "icon": "spr_itemicons_408.png",
+    "icon": "spr_itemicons_408",
     "flavor": "One of the four mysterious masks...",
     "category": "Helmet",
     "type": "Helm",
@@ -6302,7 +6302,7 @@
   {
     "uuid": 409,
     "name": "Blightcap",
-    "icon": "spr_itemicons_409.png",
+    "icon": "spr_itemicons_409",
     "flavor": "One of the four mysterious masks...",
     "category": "Helmet",
     "type": "Helm",
@@ -6321,7 +6321,7 @@
   {
     "uuid": 410,
     "name": "Frightcap",
-    "icon": "spr_itemicons_410.png",
+    "icon": "spr_itemicons_410",
     "flavor": "One of the four mysterious masks...",
     "category": "Helmet",
     "type": "Helm",
@@ -6340,7 +6340,7 @@
   {
     "uuid": 411,
     "name": "Mightcap",
-    "icon": "spr_itemicons_411.png",
+    "icon": "spr_itemicons_411",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
@@ -6358,7 +6358,7 @@
   {
     "uuid": 412,
     "name": "Heart of Fire",
-    "icon": "spr_itemicons_412.png",
+    "icon": "spr_itemicons_412",
     "category": "Amulet",
     "type": "Amulet",
     "rarity": "Unique",
@@ -6376,7 +6376,7 @@
   {
     "uuid": 413,
     "name": "Nova",
-    "icon": "spr_itemicons_413.png",
+    "icon": "spr_itemicons_413",
     "category": "Amulet",
     "type": "Amulet",
     "rarity": "Unique",
@@ -6394,7 +6394,7 @@
   {
     "uuid": 414,
     "name": "Goreneck",
-    "icon": "spr_itemicons_414.png",
+    "icon": "spr_itemicons_414",
     "category": "Amulet",
     "type": "Amulet",
     "rarity": "Legendary",
@@ -6413,7 +6413,7 @@
   {
     "uuid": 415,
     "name": "Health Injector",
-    "icon": "spr_itemicons_415.png",
+    "icon": "spr_itemicons_415",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "True Legendary",
@@ -6431,7 +6431,7 @@
   {
     "uuid": 416,
     "name": "Mana Injector",
-    "icon": "spr_itemicons_416.png",
+    "icon": "spr_itemicons_416",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "True Legendary",
@@ -6449,10 +6449,10 @@
   {
     "uuid": 417,
     "name": "Dragon Claw",
-    "icon": "spr_itemicons_417.png",
+    "icon": "spr_itemicons_417",
     "flavor": "A small proof of a great heritage",
     "category": "Offhand",
-    "type": "Claw ",
+    "type": "Claw",
     "rarity": "Unique",
     "classRestriction": "Berserker",
     "minLevel": 1,
@@ -6469,9 +6469,9 @@
   {
     "uuid": 418,
     "name": "Claw",
-    "icon": "spr_itemicons_418.png",
+    "icon": "spr_itemicons_418",
     "category": "Offhand",
-    "type": "Claw ",
+    "type": "Claw",
     "rarity": "Ordinary",
     "classRestriction": "Berserker",
     "minLevel": 1,
@@ -6487,9 +6487,9 @@
   {
     "uuid": 419,
     "name": "Arrows",
-    "icon": "spr_itemicons_419.png",
+    "icon": "spr_itemicons_419",
     "category": "Offhand",
-    "type": "Arrow ",
+    "type": "Arrow",
     "rarity": "Ordinary",
     "classRestriction": "Warden",
     "minLevel": 1,
@@ -6503,9 +6503,9 @@
   {
     "uuid": 420,
     "name": "Snowpiercer",
-    "icon": "spr_itemicons_420.png",
+    "icon": "spr_itemicons_420",
     "category": "Offhand",
-    "type": "Arrow ",
+    "type": "Arrow",
     "rarity": "Legendary",
     "classRestriction": "Warden",
     "minLevel": 30,
@@ -6522,9 +6522,9 @@
   {
     "uuid": 421,
     "name": "Nature's Barbs",
-    "icon": "spr_itemicons_421.png",
+    "icon": "spr_itemicons_421",
     "category": "Offhand",
-    "type": "Arrow ",
+    "type": "Arrow",
     "rarity": "Legendary",
     "classRestriction": "Warden",
     "minLevel": 30,
@@ -6541,9 +6541,9 @@
   {
     "uuid": 422,
     "name": "Thunderpoint",
-    "icon": "spr_itemicons_422.png",
+    "icon": "spr_itemicons_422",
     "category": "Offhand",
-    "type": "Arrow ",
+    "type": "Arrow",
     "rarity": "Legendary",
     "classRestriction": "Warden",
     "minLevel": 30,
@@ -6560,9 +6560,9 @@
   {
     "uuid": 423,
     "name": "Book of Destruction",
-    "icon": "spr_itemicons_423.png",
+    "icon": "spr_itemicons_423",
     "category": "Offhand",
-    "type": "Spellbook ",
+    "type": "Spellbook",
     "rarity": "Legendary",
     "classRestriction": "Warlock",
     "minLevel": 15,
@@ -6579,9 +6579,9 @@
   {
     "uuid": 424,
     "name": "Book of Desecration",
-    "icon": "spr_itemicons_424.png",
+    "icon": "spr_itemicons_424",
     "category": "Offhand",
-    "type": "Spellbook ",
+    "type": "Spellbook",
     "rarity": "Legendary",
     "classRestriction": "Warlock",
     "minLevel": 15,
@@ -6598,7 +6598,7 @@
   {
     "uuid": 425,
     "name": "Firestone",
-    "icon": "spr_itemicons_425.png",
+    "icon": "spr_itemicons_425",
     "flavor": "One of the six mysterious elemental stones...",
     "category": "Accessory",
     "type": "Accessory",
@@ -6618,7 +6618,7 @@
   {
     "uuid": 426,
     "name": "Froststone",
-    "icon": "spr_itemicons_426.png",
+    "icon": "spr_itemicons_426",
     "flavor": "One of the six mysterious elemental stones...",
     "category": "Accessory",
     "type": "Accessory",
@@ -6638,7 +6638,7 @@
   {
     "uuid": 427,
     "name": "Thunderstone",
-    "icon": "spr_itemicons_427.png",
+    "icon": "spr_itemicons_427",
     "flavor": "One of the six mysterious elemental stones...",
     "category": "Accessory",
     "type": "Accessory",
@@ -6658,7 +6658,7 @@
   {
     "uuid": 428,
     "name": "Poisonstone",
-    "icon": "spr_itemicons_428.png",
+    "icon": "spr_itemicons_428",
     "flavor": "One of the six mysterious elemental stones...",
     "category": "Accessory",
     "type": "Accessory",
@@ -6678,7 +6678,7 @@
   {
     "uuid": 429,
     "name": "Shadowstone",
-    "icon": "spr_itemicons_429.png",
+    "icon": "spr_itemicons_429",
     "flavor": "One of the six mysterious elemental stones...",
     "category": "Accessory",
     "type": "Accessory",
@@ -6698,7 +6698,7 @@
   {
     "uuid": 430,
     "name": "Lightstone",
-    "icon": "spr_itemicons_430.png",
+    "icon": "spr_itemicons_430",
     "flavor": "One of the six mysterious elemental stones...",
     "category": "Accessory",
     "type": "Accessory",
@@ -6718,7 +6718,7 @@
   {
     "uuid": 431,
     "name": "Elementium Stone",
-    "icon": "spr_itemicons_431.png",
+    "icon": "spr_itemicons_431",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Legendary",
@@ -6737,7 +6737,7 @@
   {
     "uuid": 432,
     "name": "Houndmaster's Vest",
-    "icon": "spr_itemicons_432.png",
+    "icon": "spr_itemicons_432",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Legendary",
@@ -6753,7 +6753,7 @@
   {
     "uuid": 433,
     "name": "Darkwalkers",
-    "icon": "spr_itemicons_433.png",
+    "icon": "spr_itemicons_433",
     "category": "Boots",
     "type": "Boots",
     "rarity": "Legendary",
@@ -6771,7 +6771,7 @@
   {
     "uuid": 438,
     "name": "Lantern",
-    "icon": "spr_itemicons_438.png",
+    "icon": "spr_itemicons_438",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Ordinary",
@@ -6789,7 +6789,7 @@
   {
     "uuid": 439,
     "name": "Small Charm",
-    "icon": "spr_itemicons_439.png",
+    "icon": "spr_itemicons_439",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Ordinary",
@@ -6805,7 +6805,7 @@
   {
     "uuid": 440,
     "name": "Charm",
-    "icon": "spr_itemicons_440.png",
+    "icon": "spr_itemicons_440",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Ordinary",
@@ -6823,7 +6823,7 @@
   {
     "uuid": 441,
     "name": "Ancient Charm",
-    "icon": "spr_itemicons_441.png",
+    "icon": "spr_itemicons_441",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Ordinary",
@@ -6841,7 +6841,7 @@
   {
     "uuid": 442,
     "name": "Cloak",
-    "icon": "spr_itemicons_442.png",
+    "icon": "spr_itemicons_442",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Ordinary",
@@ -6859,7 +6859,7 @@
   {
     "uuid": 443,
     "name": "Cape",
-    "icon": "spr_itemicons_443.png",
+    "icon": "spr_itemicons_443",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Ordinary",
@@ -6877,7 +6877,7 @@
   {
     "uuid": 444,
     "name": "Leather Boots",
-    "icon": "spr_itemicons_444.png",
+    "icon": "spr_itemicons_444",
     "category": "Boots",
     "type": "Boots",
     "rarity": "Ordinary",
@@ -6893,7 +6893,7 @@
   {
     "uuid": 445,
     "name": "Druid Boots",
-    "icon": "spr_itemicons_445.png",
+    "icon": "spr_itemicons_445",
     "category": "Boots",
     "type": "Boots",
     "rarity": "Ordinary",
@@ -6909,7 +6909,7 @@
   {
     "uuid": 446,
     "name": "Ranger Boots",
-    "icon": "spr_itemicons_446.png",
+    "icon": "spr_itemicons_446",
     "category": "Boots",
     "type": "Boots",
     "rarity": "Ordinary",
@@ -6925,7 +6925,7 @@
   {
     "uuid": 447,
     "name": "Plate Greaves",
-    "icon": "spr_itemicons_447.png",
+    "icon": "spr_itemicons_447",
     "category": "Boots",
     "type": "Boots",
     "rarity": "Ordinary",
@@ -6941,7 +6941,7 @@
   {
     "uuid": 448,
     "name": "Silver Greaves",
-    "icon": "spr_itemicons_448.png",
+    "icon": "spr_itemicons_448",
     "category": "Boots",
     "type": "Boots",
     "rarity": "Ordinary",
@@ -6957,7 +6957,7 @@
   {
     "uuid": 449,
     "name": "Gold Plate Greaves",
-    "icon": "spr_itemicons_449.png",
+    "icon": "spr_itemicons_449",
     "category": "Boots",
     "type": "Boots",
     "rarity": "Ordinary",
@@ -6973,7 +6973,7 @@
   {
     "uuid": 450,
     "name": "Dark Slippers",
-    "icon": "spr_itemicons_450.png",
+    "icon": "spr_itemicons_450",
     "category": "Boots",
     "type": "Boots",
     "rarity": "Ordinary",
@@ -6989,7 +6989,7 @@
   {
     "uuid": 451,
     "name": "Arcane Slippers",
-    "icon": "spr_itemicons_451.png",
+    "icon": "spr_itemicons_451",
     "category": "Boots",
     "type": "Boots",
     "rarity": "Ordinary",
@@ -7005,7 +7005,7 @@
   {
     "uuid": 452,
     "name": "Mage Slippers",
-    "icon": "spr_itemicons_452.png",
+    "icon": "spr_itemicons_452",
     "category": "Boots",
     "type": "Boots",
     "rarity": "Ordinary",
@@ -7021,7 +7021,7 @@
   {
     "uuid": 453,
     "name": "Fighter Boots",
-    "icon": "spr_itemicons_453.png",
+    "icon": "spr_itemicons_453",
     "category": "Boots",
     "type": "Boots",
     "rarity": "Ordinary",
@@ -7037,7 +7037,7 @@
   {
     "uuid": 454,
     "name": "Bruiser Boots",
-    "icon": "spr_itemicons_454.png",
+    "icon": "spr_itemicons_454",
     "category": "Boots",
     "type": "Boots",
     "rarity": "Ordinary",
@@ -7053,7 +7053,7 @@
   {
     "uuid": 455,
     "name": "Brawler Boots",
-    "icon": "spr_itemicons_455.png",
+    "icon": "spr_itemicons_455",
     "category": "Boots",
     "type": "Boots",
     "rarity": "Ordinary",
@@ -7069,9 +7069,9 @@
   {
     "uuid": 456,
     "name": "Wooden Shield",
-    "icon": "spr_itemicons_456.png",
+    "icon": "spr_itemicons_456",
     "category": "Offhand",
-    "type": "Shield ",
+    "type": "Shield",
     "rarity": "Ordinary",
     "classRestriction": "Templar",
     "minLevel": 1,
@@ -7088,9 +7088,9 @@
   {
     "uuid": 457,
     "name": "Round Shield",
-    "icon": "spr_itemicons_457.png",
+    "icon": "spr_itemicons_457",
     "category": "Offhand",
-    "type": "Shield ",
+    "type": "Shield",
     "rarity": "Ordinary",
     "classRestriction": "Templar",
     "minLevel": 7,
@@ -7107,9 +7107,9 @@
   {
     "uuid": 458,
     "name": "Heater Shield",
-    "icon": "spr_itemicons_458.png",
+    "icon": "spr_itemicons_458",
     "category": "Offhand",
-    "type": "Shield ",
+    "type": "Shield",
     "rarity": "Ordinary",
     "classRestriction": "Templar",
     "minLevel": 15,
@@ -7126,9 +7126,9 @@
   {
     "uuid": 459,
     "name": "Knight Shield",
-    "icon": "spr_itemicons_459.png",
+    "icon": "spr_itemicons_459",
     "category": "Offhand",
-    "type": "Shield ",
+    "type": "Shield",
     "rarity": "Ordinary",
     "classRestriction": "Templar",
     "minLevel": 25,
@@ -7145,9 +7145,9 @@
   {
     "uuid": 460,
     "name": "Tower Shield",
-    "icon": "spr_itemicons_460.png",
+    "icon": "spr_itemicons_460",
     "category": "Offhand",
-    "type": "Shield ",
+    "type": "Shield",
     "rarity": "Ordinary",
     "classRestriction": "Templar",
     "minLevel": 35,
@@ -7164,9 +7164,9 @@
   {
     "uuid": 461,
     "name": "Book of Boils",
-    "icon": "spr_itemicons_461.png",
+    "icon": "spr_itemicons_461",
     "category": "Offhand",
-    "type": "Spellbook ",
+    "type": "Spellbook",
     "rarity": "Legendary",
     "classRestriction": "Warlock",
     "minLevel": 20,
@@ -7183,9 +7183,9 @@
   {
     "uuid": 462,
     "name": "Book of Duplus",
-    "icon": "spr_itemicons_462.png",
+    "icon": "spr_itemicons_462",
     "category": "Offhand",
-    "type": "Spellbook ",
+    "type": "Spellbook",
     "rarity": "Legendary",
     "classRestriction": "Warlock",
     "minLevel": 20,
@@ -7202,9 +7202,9 @@
   {
     "uuid": 463,
     "name": "Tome",
-    "icon": "spr_itemicons_463.png",
+    "icon": "spr_itemicons_463",
     "category": "Offhand",
-    "type": "Tome ",
+    "type": "Tome",
     "rarity": "Ordinary",
     "classRestriction": "Templar",
     "minLevel": 1,
@@ -7218,9 +7218,9 @@
   {
     "uuid": 464,
     "name": "Tome of Wrath",
-    "icon": "spr_itemicons_464.png",
+    "icon": "spr_itemicons_464",
     "category": "Offhand",
-    "type": "Tome ",
+    "type": "Tome",
     "rarity": "Legendary",
     "classRestriction": "Templar",
     "minLevel": 30,
@@ -7237,9 +7237,9 @@
   {
     "uuid": 465,
     "name": "Tome of Vengeance",
-    "icon": "spr_itemicons_465.png",
+    "icon": "spr_itemicons_465",
     "category": "Offhand",
-    "type": "Tome ",
+    "type": "Tome",
     "rarity": "Legendary",
     "classRestriction": "Templar",
     "minLevel": 30,
@@ -7256,9 +7256,9 @@
   {
     "uuid": 466,
     "name": "Tome of Condemnation",
-    "icon": "spr_itemicons_466.png",
+    "icon": "spr_itemicons_466",
     "category": "Offhand",
-    "type": "Tome ",
+    "type": "Tome",
     "rarity": "Legendary",
     "classRestriction": "Templar",
     "minLevel": 30,
@@ -7275,9 +7275,9 @@
   {
     "uuid": 467,
     "name": "Tome of Redemption",
-    "icon": "spr_itemicons_467.png",
+    "icon": "spr_itemicons_467",
     "category": "Offhand",
-    "type": "Tome ",
+    "type": "Tome",
     "rarity": "Legendary",
     "classRestriction": "Templar",
     "minLevel": 30,
@@ -7294,9 +7294,9 @@
   {
     "uuid": 468,
     "name": "Claws of Gluttony",
-    "icon": "spr_itemicons_468.png",
+    "icon": "spr_itemicons_468",
     "category": "Offhand",
-    "type": "Claw ",
+    "type": "Claw",
     "rarity": "Legendary",
     "classRestriction": "Berserker",
     "minLevel": 11,
@@ -7313,9 +7313,9 @@
   {
     "uuid": 469,
     "name": "Amp Claw",
-    "icon": "spr_itemicons_469.png",
+    "icon": "spr_itemicons_469",
     "category": "Offhand",
-    "type": "Claw ",
+    "type": "Claw",
     "rarity": "Legendary",
     "classRestriction": "Berserker",
     "minLevel": 15,
@@ -7332,9 +7332,9 @@
   {
     "uuid": 470,
     "name": "Wrath Claw",
-    "icon": "spr_itemicons_470.png",
+    "icon": "spr_itemicons_470",
     "category": "Offhand",
-    "type": "Claw ",
+    "type": "Claw",
     "rarity": "Legendary",
     "classRestriction": "Berserker",
     "minLevel": 15,
@@ -7351,9 +7351,9 @@
   {
     "uuid": 471,
     "name": "Wyrmtooth",
-    "icon": "spr_itemicons_471.png",
+    "icon": "spr_itemicons_471",
     "category": "Offhand",
-    "type": "Claw ",
+    "type": "Claw",
     "rarity": "Legendary",
     "classRestriction": "Berserker",
     "minLevel": 20,
@@ -7370,9 +7370,9 @@
   {
     "uuid": 472,
     "name": "Bastion",
-    "icon": "spr_itemicons_472.png",
+    "icon": "spr_itemicons_472",
     "category": "Offhand",
-    "type": "Shield ",
+    "type": "Shield",
     "rarity": "Unique",
     "classRestriction": "Templar",
     "minLevel": 5,
@@ -7390,9 +7390,9 @@
   {
     "uuid": 473,
     "name": "Reflector",
-    "icon": "spr_itemicons_473.png",
+    "icon": "spr_itemicons_473",
     "category": "Offhand",
-    "type": "Shield ",
+    "type": "Shield",
     "rarity": "Unique",
     "classRestriction": "Templar",
     "minLevel": 5,
@@ -7411,9 +7411,9 @@
   {
     "uuid": 474,
     "name": "Vindicator",
-    "icon": "spr_itemicons_474.png",
+    "icon": "spr_itemicons_474",
     "category": "Offhand",
-    "type": "Shield ",
+    "type": "Shield",
     "rarity": "Legendary",
     "classRestriction": "Templar",
     "minLevel": 40,
@@ -7431,9 +7431,9 @@
   {
     "uuid": 475,
     "name": "Brisk Darts",
-    "icon": "spr_itemicons_475.png",
+    "icon": "spr_itemicons_475",
     "category": "Offhand",
-    "type": "Arrow ",
+    "type": "Arrow",
     "rarity": "Unique",
     "classRestriction": "Warden",
     "minLevel": 1,
@@ -7449,9 +7449,9 @@
   {
     "uuid": 476,
     "name": "Pain Bolts",
-    "icon": "spr_itemicons_476.png",
+    "icon": "spr_itemicons_476",
     "category": "Offhand",
-    "type": "Arrow ",
+    "type": "Arrow",
     "rarity": "Unique",
     "classRestriction": "Warden",
     "minLevel": 10,
@@ -7468,9 +7468,9 @@
   {
     "uuid": 477,
     "name": "Book of Gore",
-    "icon": "spr_itemicons_477.png",
+    "icon": "spr_itemicons_477",
     "category": "Offhand",
-    "type": "Spellbook ",
+    "type": "Spellbook",
     "rarity": "Unique",
     "classRestriction": "Warlock",
     "minLevel": 1,
@@ -7486,9 +7486,9 @@
   {
     "uuid": 478,
     "name": "Book of Vampiris",
-    "icon": "spr_itemicons_478.png",
+    "icon": "spr_itemicons_478",
     "category": "Offhand",
-    "type": "Spellbook ",
+    "type": "Spellbook",
     "rarity": "Unique",
     "classRestriction": "Warlock",
     "minLevel": 1,
@@ -7504,9 +7504,9 @@
   {
     "uuid": 479,
     "name": "Tome of Healing",
-    "icon": "spr_itemicons_479.png",
+    "icon": "spr_itemicons_479",
     "category": "Offhand",
-    "type": "Tome ",
+    "type": "Tome",
     "rarity": "Unique",
     "classRestriction": "Templar",
     "minLevel": 5,
@@ -7523,9 +7523,9 @@
   {
     "uuid": 480,
     "name": "Tome of Defiance",
-    "icon": "spr_itemicons_480.png",
+    "icon": "spr_itemicons_480",
     "category": "Offhand",
-    "type": "Tome ",
+    "type": "Tome",
     "rarity": "Unique",
     "classRestriction": "Templar",
     "minLevel": 5,
@@ -7542,9 +7542,9 @@
   {
     "uuid": 481,
     "name": "Obsidian Shield",
-    "icon": "spr_itemicons_481.png",
+    "icon": "spr_itemicons_481",
     "category": "Offhand",
-    "type": "Shield ",
+    "type": "Shield",
     "rarity": "Unique",
     "classRestriction": "Templar",
     "minLevel": 1,
@@ -7562,7 +7562,7 @@
   {
     "uuid": 482,
     "name": "Flickerfang",
-    "icon": "spr_itemicons_482.png",
+    "icon": "spr_itemicons_482",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Unique",
@@ -7581,7 +7581,7 @@
   {
     "uuid": 483,
     "name": "Anxiety",
-    "icon": "spr_itemicons_483.png",
+    "icon": "spr_itemicons_483",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Unique",
@@ -7600,7 +7600,7 @@
   {
     "uuid": 484,
     "name": "Moreq's Cape",
-    "icon": "spr_itemicons_484.png",
+    "icon": "spr_itemicons_484",
     "flavor": "It's torn",
     "category": "Accessory",
     "type": "Accessory",
@@ -7620,7 +7620,7 @@
   {
     "uuid": 485,
     "name": "Brackenbow",
-    "icon": "spr_itemicons_485.png",
+    "icon": "spr_itemicons_485",
     "category": "Weapon",
     "type": "Bow",
     "rarity": "Unique",
@@ -7641,7 +7641,7 @@
   {
     "uuid": 486,
     "name": "Rosepack",
-    "icon": "spr_itemicons_486.png",
+    "icon": "spr_itemicons_486",
     "category": "Misc",
     "type": "Bag",
     "rarity": "Unique",
@@ -7655,7 +7655,7 @@
   {
     "uuid": 487,
     "name": "Bewts",
-    "icon": "spr_itemicons_487.png",
+    "icon": "spr_itemicons_487",
     "category": "Boots",
     "type": "Boots",
     "rarity": "Unique",
@@ -7674,7 +7674,7 @@
   {
     "uuid": 488,
     "name": "Foul Schematics",
-    "icon": "spr_itemicons_488.png",
+    "icon": "spr_itemicons_488",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Unique",
@@ -7694,7 +7694,7 @@
   {
     "uuid": 489,
     "name": "The Bugfix",
-    "icon": "spr_itemicons_489.png",
+    "icon": "spr_itemicons_489",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Unique",
@@ -7713,7 +7713,7 @@
   {
     "uuid": 490,
     "name": "Gilrad's Insight",
-    "icon": "spr_itemicons_490.png",
+    "icon": "spr_itemicons_490",
     "category": "Amulet",
     "type": "Amulet",
     "rarity": "Unique",
@@ -7732,7 +7732,7 @@
   {
     "uuid": 491,
     "name": "Blessed Mantle",
-    "icon": "spr_itemicons_491.png",
+    "icon": "spr_itemicons_491",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Unique",
@@ -7751,7 +7751,7 @@
   {
     "uuid": 492,
     "name": "Thunderstompers",
-    "icon": "spr_itemicons_492.png",
+    "icon": "spr_itemicons_492",
     "category": "Boots",
     "type": "Boots",
     "rarity": "Unique",
@@ -7770,7 +7770,7 @@
   {
     "uuid": 493,
     "name": "The Darkstaff",
-    "icon": "spr_itemicons_493.png",
+    "icon": "spr_itemicons_493",
     "category": "Weapon",
     "type": "Staff",
     "rarity": "Unique",
@@ -7791,7 +7791,7 @@
   {
     "uuid": 494,
     "name": "Thief's Hideaway",
-    "icon": "spr_itemicons_494.png",
+    "icon": "spr_itemicons_494",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Unique",
@@ -7810,7 +7810,7 @@
   {
     "uuid": 495,
     "name": "Thief's Getaway",
-    "icon": "spr_itemicons_495.png",
+    "icon": "spr_itemicons_495",
     "category": "Boots",
     "type": "Boots",
     "rarity": "Unique",
@@ -7829,7 +7829,7 @@
   {
     "uuid": 496,
     "name": "Obligation",
-    "icon": "spr_itemicons_496.png",
+    "icon": "spr_itemicons_496",
     "category": "Amulet",
     "type": "Amulet",
     "rarity": "Unique",
@@ -7848,7 +7848,7 @@
   {
     "uuid": 497,
     "name": "Union",
-    "icon": "spr_itemicons_497.png",
+    "icon": "spr_itemicons_497",
     "category": "Ring",
     "type": "Ring",
     "rarity": "Unique",
@@ -7867,7 +7867,7 @@
   {
     "uuid": 498,
     "name": "Hoard",
-    "icon": "spr_itemicons_498.png",
+    "icon": "spr_itemicons_498",
     "category": "Amulet",
     "type": "Amulet",
     "rarity": "Unique",
@@ -7886,7 +7886,7 @@
   {
     "uuid": 499,
     "name": "Reap",
-    "icon": "spr_itemicons_499.png",
+    "icon": "spr_itemicons_499",
     "category": "Ring",
     "type": "Ring",
     "rarity": "Unique",
@@ -7905,7 +7905,7 @@
   {
     "uuid": 500,
     "name": "Porthos",
-    "icon": "spr_itemicons_500.png",
+    "icon": "spr_itemicons_500",
     "category": "Amulet",
     "type": "Amulet",
     "rarity": "True Legendary",
@@ -7924,7 +7924,7 @@
   {
     "uuid": 501,
     "name": "Aramis",
-    "icon": "spr_itemicons_501.png",
+    "icon": "spr_itemicons_501",
     "category": "Ring",
     "type": "Ring",
     "rarity": "True Legendary",
@@ -7943,7 +7943,7 @@
   {
     "uuid": 502,
     "name": "Athos",
-    "icon": "spr_itemicons_502.png",
+    "icon": "spr_itemicons_502",
     "category": "Amulet",
     "type": "Amulet",
     "rarity": "True Legendary",
@@ -7962,7 +7962,7 @@
   {
     "uuid": 503,
     "name": "D'Artagnan",
-    "icon": "spr_itemicons_503.png",
+    "icon": "spr_itemicons_503",
     "category": "Ring",
     "type": "Ring",
     "rarity": "True Legendary",
@@ -7981,7 +7981,7 @@
   {
     "uuid": 504,
     "name": "Moon",
-    "icon": "spr_itemicons_504.png",
+    "icon": "spr_itemicons_504",
     "category": "Amulet",
     "type": "Amulet",
     "rarity": "Legendary",
@@ -8000,7 +8000,7 @@
   {
     "uuid": 505,
     "name": "Sun",
-    "icon": "spr_itemicons_505.png",
+    "icon": "spr_itemicons_505",
     "category": "Ring",
     "type": "Ring",
     "rarity": "Legendary",
@@ -8019,7 +8019,7 @@
   {
     "uuid": 506,
     "name": "Retaliator's Choker",
-    "icon": "spr_itemicons_506.png",
+    "icon": "spr_itemicons_506",
     "category": "Amulet",
     "type": "Amulet",
     "rarity": "Legendary",
@@ -8038,7 +8038,7 @@
   {
     "uuid": 507,
     "name": "Retaliator's Bond",
-    "icon": "spr_itemicons_507.png",
+    "icon": "spr_itemicons_507",
     "category": "Ring",
     "type": "Ring",
     "rarity": "Legendary",
@@ -8057,7 +8057,7 @@
   {
     "uuid": 508,
     "name": "Retaliator's Cloak",
-    "icon": "spr_itemicons_508.png",
+    "icon": "spr_itemicons_508",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Legendary",
@@ -8076,7 +8076,7 @@
   {
     "uuid": 509,
     "name": "Retaliator's Striders",
-    "icon": "spr_itemicons_509.png",
+    "icon": "spr_itemicons_509",
     "category": "Boots",
     "type": "Boots",
     "rarity": "Legendary",
@@ -8095,7 +8095,7 @@
   {
     "uuid": 510,
     "name": "Summoner's Hood",
-    "icon": "spr_itemicons_510.png",
+    "icon": "spr_itemicons_510",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
@@ -8114,7 +8114,7 @@
   {
     "uuid": 511,
     "name": "Summoner's Robe",
-    "icon": "spr_itemicons_511.png",
+    "icon": "spr_itemicons_511",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Legendary",
@@ -8133,7 +8133,7 @@
   {
     "uuid": 512,
     "name": "Summoner's Charm",
-    "icon": "spr_itemicons_512.png",
+    "icon": "spr_itemicons_512",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Legendary",
@@ -8152,7 +8152,7 @@
   {
     "uuid": 513,
     "name": "Summoner's Footwear",
-    "icon": "spr_itemicons_513.png",
+    "icon": "spr_itemicons_513",
     "category": "Boots",
     "type": "Boots",
     "rarity": "Legendary",
@@ -8171,7 +8171,7 @@
   {
     "uuid": 514,
     "name": "Heartstone",
-    "icon": "spr_itemicons_514.png",
+    "icon": "spr_itemicons_514",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "True Legendary",
@@ -8190,7 +8190,7 @@
   {
     "uuid": 515,
     "name": "Boomring",
-    "icon": "spr_itemicons_515.png",
+    "icon": "spr_itemicons_515",
     "category": "Ring",
     "type": "Ring",
     "rarity": "True Legendary",
@@ -8209,7 +8209,7 @@
   {
     "uuid": 516,
     "name": "Death Choker",
-    "icon": "spr_itemicons_516.png",
+    "icon": "spr_itemicons_516",
     "category": "Amulet",
     "type": "Amulet",
     "rarity": "True Legendary",
@@ -8228,7 +8228,7 @@
   {
     "uuid": 517,
     "name": "Pathmakers",
-    "icon": "spr_itemicons_517.png",
+    "icon": "spr_itemicons_517",
     "category": "Boots",
     "type": "Boots",
     "rarity": "True Legendary",
@@ -8247,7 +8247,7 @@
   {
     "uuid": 518,
     "name": "Extra-Ordinary Cap",
-    "icon": "spr_itemicons_518.png",
+    "icon": "spr_itemicons_518",
     "flavor": "Not that ordinary, after all.",
     "category": "Helmet",
     "type": "Helm",
@@ -8267,7 +8267,7 @@
   {
     "uuid": 519,
     "name": "Jeopardy",
-    "icon": "spr_itemicons_519.png",
+    "icon": "spr_itemicons_519",
     "category": "Ring",
     "type": "Ring",
     "rarity": "True Legendary",
@@ -8286,7 +8286,7 @@
   {
     "uuid": 520,
     "name": "Elementium Armor",
-    "icon": "spr_itemicons_520.png",
+    "icon": "spr_itemicons_520",
     "flavor": "Forged in ancient times with forgotten knowledge",
     "category": "Armor",
     "type": "Armor",
@@ -8305,7 +8305,7 @@
   {
     "uuid": 521,
     "name": "Phantoma",
-    "icon": "spr_itemicons_521.png",
+    "icon": "spr_itemicons_521",
     "category": "Weapon",
     "type": "Sword",
     "rarity": "True Legendary",
@@ -8326,7 +8326,7 @@
   {
     "uuid": 522,
     "name": "Face Breakers",
-    "icon": "spr_itemicons_522.png",
+    "icon": "spr_itemicons_522",
     "category": "Weapon",
     "type": "Fists",
     "rarity": "True Legendary",
@@ -8347,7 +8347,7 @@
   {
     "uuid": 523,
     "name": "Death Speaker",
-    "icon": "spr_itemicons_523.png",
+    "icon": "spr_itemicons_523",
     "category": "Weapon",
     "type": "Staff",
     "rarity": "True Legendary",
@@ -8368,7 +8368,7 @@
   {
     "uuid": 524,
     "name": "Harp",
-    "icon": "spr_itemicons_524.png",
+    "icon": "spr_itemicons_524",
     "category": "Weapon",
     "type": "Bow",
     "rarity": "True Legendary",
@@ -8389,9 +8389,9 @@
   {
     "uuid": 525,
     "name": "Hurtblocker",
-    "icon": "spr_itemicons_525.png",
+    "icon": "spr_itemicons_525",
     "category": "Offhand",
-    "type": "Shield ",
+    "type": "Shield",
     "rarity": "True Legendary",
     "classRestriction": "Templar",
     "minLevel": 100,
@@ -8410,9 +8410,9 @@
   {
     "uuid": 526,
     "name": "Dodgeclaw",
-    "icon": "spr_itemicons_526.png",
+    "icon": "spr_itemicons_526",
     "category": "Offhand",
-    "type": "Claw ",
+    "type": "Claw",
     "rarity": "True Legendary",
     "classRestriction": "Berserker",
     "minLevel": 100,
@@ -8429,10 +8429,10 @@
   {
     "uuid": 527,
     "name": "Book of Meteora",
-    "icon": "spr_itemicons_527.png",
+    "icon": "spr_itemicons_527",
     "flavor": "Easier to run",
     "category": "Offhand",
-    "type": "Spellbook ",
+    "type": "Spellbook",
     "rarity": "True Legendary",
     "classRestriction": "Warlock",
     "minLevel": 100,
@@ -8449,9 +8449,9 @@
   {
     "uuid": 528,
     "name": "Tumblespike",
-    "icon": "spr_itemicons_528.png",
+    "icon": "spr_itemicons_528",
     "category": "Offhand",
-    "type": "Arrow ",
+    "type": "Arrow",
     "rarity": "True Legendary",
     "classRestriction": "Warden",
     "minLevel": 100,
@@ -8468,7 +8468,7 @@
   {
     "uuid": 529,
     "name": "Fleetstriders",
-    "icon": "spr_itemicons_529.png",
+    "icon": "spr_itemicons_529",
     "flavor": "These boots were made for walkin'",
     "category": "Boots",
     "type": "Boots",
@@ -8488,7 +8488,7 @@
   {
     "uuid": 530,
     "name": "Elixir of Advanced Anomaly",
-    "icon": "spr_itemicons_530.png",
+    "icon": "spr_itemicons_530",
     "flavor": "A relic of the past",
     "description": "Increases your Anomaly Level by up to 5 levels, but will not exceed your current record. Must be used in Tinkas Domain.",
     "category": "Consumables",
@@ -8502,7 +8502,7 @@
   {
     "uuid": 531,
     "name": "Elixir of Reversed Anomaly",
-    "icon": "spr_itemicons_531.png",
+    "icon": "spr_itemicons_531",
     "flavor": "A relic of the past",
     "description": "Reduces your Anomaly Level by 5 levels. Must be used in Tinkas Domain.",
     "category": "Consumables",
@@ -8516,7 +8516,7 @@
   {
     "uuid": 532,
     "name": "Elixir of Scrambled Anomaly",
-    "icon": "spr_itemicons_532.png",
+    "icon": "spr_itemicons_532",
     "flavor": "A relic of the past",
     "description": "Scrambles your Anomaly layouts, generating a fresh set of levels. Does not affect your progress. Must be used in Tinkas Domain.",
     "category": "Consumables",
@@ -8530,7 +8530,7 @@
   {
     "uuid": 535,
     "name": "Soulpurger's Crown",
-    "icon": "spr_itemicons_535.png",
+    "icon": "spr_itemicons_535",
     "flavor": "Nearly overwhelmed by the corrupted, they fell into formation around the priests, deep in prayer...",
     "category": "Helmet",
     "type": "Helm",
@@ -8550,7 +8550,7 @@
   {
     "uuid": 536,
     "name": "Soulpurger's Garment",
-    "icon": "spr_itemicons_536.png",
+    "icon": "spr_itemicons_536",
     "flavor": "...Zealously, they chanted, as light began to pierce the blackened sky, clearing the unnatural darkness around them...",
     "category": "Armor",
     "type": "Armor",
@@ -8571,7 +8571,7 @@
   {
     "uuid": 537,
     "name": "Soulpurger's Blade",
-    "icon": "spr_itemicons_537.png",
+    "icon": "spr_itemicons_537",
     "flavor": "...Night turned into day as hundreds of screams echoed in the light; their souls torn from corrupted husks. They had been purged.",
     "category": "Weapon",
     "type": "Sword",
@@ -8594,10 +8594,10 @@
   {
     "uuid": 538,
     "name": "Soulpurger's Aegis",
-    "icon": "spr_itemicons_538.png",
+    "icon": "spr_itemicons_538",
     "flavor": "...The Templars' weapons now brimmed with light and holy energy, and upon striking their foes, enormous blasts of pure light erupted...",
     "category": "Offhand",
-    "type": "Shield ",
+    "type": "Shield",
     "rarity": "Legendary",
     "classRestriction": "Templar",
     "minLevel": 30,
@@ -8616,7 +8616,7 @@
   {
     "uuid": 539,
     "name": "Thundering Will",
-    "icon": "spr_itemicons_539.png",
+    "icon": "spr_itemicons_539",
     "flavor": "Alone, she stood among the bodies of her fallen sisters, surrounded by unholy demons...",
     "category": "Helmet",
     "type": "Helm",
@@ -8636,7 +8636,7 @@
   {
     "uuid": 540,
     "name": "Thundering Bastion",
-    "icon": "spr_itemicons_540.png",
+    "icon": "spr_itemicons_540",
     "flavor": "...Facing a certain defeat, she was left with only one option, and raised her blade towards the sky...",
     "category": "Armor",
     "type": "Armor",
@@ -8657,7 +8657,7 @@
   {
     "uuid": 541,
     "name": "Thundering Charge",
-    "icon": "spr_itemicons_541.png",
+    "icon": "spr_itemicons_541",
     "flavor": "...Empowered, she shouted: Rise, sisters, and purge this land with righteous thunder!",
     "category": "Weapon",
     "type": "Sword",
@@ -8680,10 +8680,10 @@
   {
     "uuid": 542,
     "name": "Thundering Guard",
-    "icon": "spr_itemicons_542.png",
+    "icon": "spr_itemicons_542",
     "flavor": "...Thunder rumbled in the skies above, and cracked with a deafening boom as it struck her raised blade...",
     "category": "Offhand",
-    "type": "Shield ",
+    "type": "Shield",
     "rarity": "Legendary",
     "classRestriction": "Templar",
     "minLevel": 30,
@@ -8702,7 +8702,7 @@
   {
     "uuid": 543,
     "name": "War God's Crown",
-    "icon": "spr_itemicons_543.png",
+    "icon": "spr_itemicons_543",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
@@ -8721,7 +8721,7 @@
   {
     "uuid": 544,
     "name": "War God's Plate",
-    "icon": "spr_itemicons_544.png",
+    "icon": "spr_itemicons_544",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Legendary",
@@ -8741,7 +8741,7 @@
   {
     "uuid": 545,
     "name": "War God's Blade",
-    "icon": "spr_itemicons_545.png",
+    "icon": "spr_itemicons_545",
     "category": "Weapon",
     "type": "Sword",
     "rarity": "Legendary",
@@ -8763,9 +8763,9 @@
   {
     "uuid": 546,
     "name": "War God's Opus",
-    "icon": "spr_itemicons_546.png",
+    "icon": "spr_itemicons_546",
     "category": "Offhand",
-    "type": "Tome ",
+    "type": "Tome",
     "rarity": "Legendary",
     "classRestriction": "Templar",
     "minLevel": 30,
@@ -8783,7 +8783,7 @@
   {
     "uuid": 547,
     "name": "Valkyrie Winged Helmet",
-    "icon": "spr_itemicons_547.png",
+    "icon": "spr_itemicons_547",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
@@ -8802,7 +8802,7 @@
   {
     "uuid": 548,
     "name": "Valkyrie Battleplate",
-    "icon": "spr_itemicons_548.png",
+    "icon": "spr_itemicons_548",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Legendary",
@@ -8822,7 +8822,7 @@
   {
     "uuid": 549,
     "name": "Valkyrie Blade",
-    "icon": "spr_itemicons_549.png",
+    "icon": "spr_itemicons_549",
     "category": "Weapon",
     "type": "Sword",
     "rarity": "Legendary",
@@ -8844,9 +8844,9 @@
   {
     "uuid": 550,
     "name": "Valkyrie Safeguard",
-    "icon": "spr_itemicons_550.png",
+    "icon": "spr_itemicons_550",
     "category": "Offhand",
-    "type": "Shield ",
+    "type": "Shield",
     "rarity": "Legendary",
     "classRestriction": "Templar",
     "minLevel": 30,
@@ -8865,7 +8865,7 @@
   {
     "uuid": 552,
     "name": "Cataclysmic Helm",
-    "icon": "spr_itemicons_552.png",
+    "icon": "spr_itemicons_552",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
@@ -8884,7 +8884,7 @@
   {
     "uuid": 553,
     "name": "Cataclysmic Armor",
-    "icon": "spr_itemicons_553.png",
+    "icon": "spr_itemicons_553",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Legendary",
@@ -8904,7 +8904,7 @@
   {
     "uuid": 554,
     "name": "Cataclysmic Fists",
-    "icon": "spr_itemicons_554.png",
+    "icon": "spr_itemicons_554",
     "category": "Weapon",
     "type": "Fists",
     "rarity": "Legendary",
@@ -8926,9 +8926,9 @@
   {
     "uuid": 555,
     "name": "Cataclysmic Claws",
-    "icon": "spr_itemicons_555.png",
+    "icon": "spr_itemicons_555",
     "category": "Offhand",
-    "type": "Claw ",
+    "type": "Claw",
     "rarity": "Legendary",
     "classRestriction": "Berserker",
     "minLevel": 30,
@@ -8946,9 +8946,9 @@
   {
     "uuid": 556,
     "name": "Bloodsoaked Ripper",
-    "icon": "spr_itemicons_556.png",
+    "icon": "spr_itemicons_556",
     "category": "Offhand",
-    "type": "Claw ",
+    "type": "Claw",
     "rarity": "Legendary",
     "classRestriction": "Berserker",
     "minLevel": 30,
@@ -8966,7 +8966,7 @@
   {
     "uuid": 557,
     "name": "Skysoul Helmet",
-    "icon": "spr_itemicons_557.png",
+    "icon": "spr_itemicons_557",
     "flavor": "Suddenly, the Sky Lords, who had sailed on the clouds for generations, were cast to the ground...",
     "category": "Helmet",
     "type": "Helm",
@@ -8986,7 +8986,7 @@
   {
     "uuid": 558,
     "name": "Skysoul Armor",
-    "icon": "spr_itemicons_558.png",
+    "icon": "spr_itemicons_558",
     "flavor": "...The great Dragons of the sky all rose together, soaring far above the highest clouds...",
     "category": "Armor",
     "type": "Armor",
@@ -9007,7 +9007,7 @@
   {
     "uuid": 559,
     "name": "Skysoul Pounders",
-    "icon": "spr_itemicons_559.png",
+    "icon": "spr_itemicons_559",
     "flavor": "...And one day, they shall return.",
     "category": "Weapon",
     "type": "Fists",
@@ -9030,10 +9030,10 @@
   {
     "uuid": 560,
     "name": "Skysoul Claws",
-    "icon": "spr_itemicons_560.png",
+    "icon": "spr_itemicons_560",
     "flavor": "..Away into oblivion. Quickly, quietly, and without warning, they all disappeared...",
     "category": "Offhand",
-    "type": "Claw ",
+    "type": "Claw",
     "rarity": "Legendary",
     "classRestriction": "Berserker",
     "minLevel": 30,
@@ -9051,10 +9051,10 @@
   {
     "uuid": 561,
     "name": "Dragonfire Claws",
-    "icon": "spr_itemicons_561.png",
+    "icon": "spr_itemicons_561",
     "flavor": "...We are not Demons. We are what Demons fear...",
     "category": "Offhand",
-    "type": "Claw ",
+    "type": "Claw",
     "rarity": "Legendary",
     "classRestriction": "Berserker",
     "minLevel": 30,
@@ -9072,7 +9072,7 @@
   {
     "uuid": 562,
     "name": "Volcanic Visage",
-    "icon": "spr_itemicons_562.png",
+    "icon": "spr_itemicons_562",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
@@ -9091,7 +9091,7 @@
   {
     "uuid": 563,
     "name": "Volcanic Armor",
-    "icon": "spr_itemicons_563.png",
+    "icon": "spr_itemicons_563",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Legendary",
@@ -9111,7 +9111,7 @@
   {
     "uuid": 564,
     "name": "Volcanic Fists",
-    "icon": "spr_itemicons_564.png",
+    "icon": "spr_itemicons_564",
     "category": "Weapon",
     "type": "Fists",
     "rarity": "Legendary",
@@ -9133,9 +9133,9 @@
   {
     "uuid": 565,
     "name": "Volcanic Claws",
-    "icon": "spr_itemicons_565.png",
+    "icon": "spr_itemicons_565",
     "category": "Offhand",
-    "type": "Claw ",
+    "type": "Claw",
     "rarity": "Legendary",
     "classRestriction": "Berserker",
     "minLevel": 30,
@@ -9153,9 +9153,9 @@
   {
     "uuid": 566,
     "name": "Northern Rage Claws",
-    "icon": "spr_itemicons_566.png",
+    "icon": "spr_itemicons_566",
     "category": "Offhand",
-    "type": "Claw ",
+    "type": "Claw",
     "rarity": "Legendary",
     "classRestriction": "Berserker",
     "minLevel": 30,
@@ -9173,7 +9173,7 @@
   {
     "uuid": 567,
     "name": "Frostwyrm Visage",
-    "icon": "spr_itemicons_567.png",
+    "icon": "spr_itemicons_567",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
@@ -9192,7 +9192,7 @@
   {
     "uuid": 568,
     "name": "Frostwyrm Armor",
-    "icon": "spr_itemicons_568.png",
+    "icon": "spr_itemicons_568",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Legendary",
@@ -9212,7 +9212,7 @@
   {
     "uuid": 569,
     "name": "Frostwyrm Fists",
-    "icon": "spr_itemicons_569.png",
+    "icon": "spr_itemicons_569",
     "category": "Weapon",
     "type": "Fists",
     "rarity": "Legendary",
@@ -9234,9 +9234,9 @@
   {
     "uuid": 570,
     "name": "Frostwyrm Claw",
-    "icon": "spr_itemicons_570.png",
+    "icon": "spr_itemicons_570",
     "category": "Offhand",
-    "type": "Claw ",
+    "type": "Claw",
     "rarity": "Legendary",
     "classRestriction": "Berserker",
     "minLevel": 30,
@@ -9254,7 +9254,7 @@
   {
     "uuid": 571,
     "name": "Amulet of Despair",
-    "icon": "spr_itemicons_571.png",
+    "icon": "spr_itemicons_571",
     "category": "Amulet",
     "type": "Amulet",
     "rarity": "True Legendary",
@@ -9273,7 +9273,7 @@
   {
     "uuid": 572,
     "name": "Quadruplets",
-    "icon": "spr_itemicons_572.png",
+    "icon": "spr_itemicons_572",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "True Legendary",
@@ -9292,7 +9292,7 @@
   {
     "uuid": 573,
     "name": "Skull Mask",
-    "icon": "spr_itemicons_573.png",
+    "icon": "spr_itemicons_573",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "True Legendary",
@@ -9311,7 +9311,7 @@
   {
     "uuid": 574,
     "name": "Weyrick's Crown",
-    "icon": "spr_itemicons_574.png",
+    "icon": "spr_itemicons_574",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "True Legendary",
@@ -9330,7 +9330,7 @@
   {
     "uuid": 575,
     "name": "Royal Armor",
-    "icon": "spr_itemicons_575.png",
+    "icon": "spr_itemicons_575",
     "category": "Armor",
     "type": "Armor",
     "rarity": "True Legendary",
@@ -9349,7 +9349,7 @@
   {
     "uuid": 576,
     "name": "Windcaller's Guise",
-    "icon": "spr_itemicons_576.png",
+    "icon": "spr_itemicons_576",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
@@ -9368,7 +9368,7 @@
   {
     "uuid": 577,
     "name": "Windcaller's Armor",
-    "icon": "spr_itemicons_577.png",
+    "icon": "spr_itemicons_577",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Legendary",
@@ -9388,7 +9388,7 @@
   {
     "uuid": 578,
     "name": "Windcaller's Gust",
-    "icon": "spr_itemicons_578.png",
+    "icon": "spr_itemicons_578",
     "category": "Weapon",
     "type": "Bow",
     "rarity": "Legendary",
@@ -9410,9 +9410,9 @@
   {
     "uuid": 579,
     "name": "Windcaller's Needle",
-    "icon": "spr_itemicons_579.png",
+    "icon": "spr_itemicons_579",
     "category": "Offhand",
-    "type": "Arrow ",
+    "type": "Arrow",
     "rarity": "Legendary",
     "classRestriction": "Warden",
     "minLevel": 30,
@@ -9430,10 +9430,10 @@
   {
     "uuid": 580,
     "name": "Stormcaller's Shock",
-    "icon": "spr_itemicons_580.png",
+    "icon": "spr_itemicons_580",
     "flavor": "...And so the Druid rose, let out a sad sigh and looked to his fellows. He spoke:...",
     "category": "Offhand",
-    "type": "Arrow ",
+    "type": "Arrow",
     "rarity": "Legendary",
     "classRestriction": "Warden",
     "minLevel": 30,
@@ -9451,7 +9451,7 @@
   {
     "uuid": 581,
     "name": "Wispmother's Crown",
-    "icon": "spr_itemicons_581.png",
+    "icon": "spr_itemicons_581",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
@@ -9470,7 +9470,7 @@
   {
     "uuid": 582,
     "name": "Wispmother's Gown",
-    "icon": "spr_itemicons_582.png",
+    "icon": "spr_itemicons_582",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Legendary",
@@ -9490,7 +9490,7 @@
   {
     "uuid": 583,
     "name": "Wispmother's Bow",
-    "icon": "spr_itemicons_583.png",
+    "icon": "spr_itemicons_583",
     "category": "Weapon",
     "type": "Bow",
     "rarity": "Legendary",
@@ -9512,9 +9512,9 @@
   {
     "uuid": 584,
     "name": "Wispmother's Arrow",
-    "icon": "spr_itemicons_584.png",
+    "icon": "spr_itemicons_584",
     "category": "Offhand",
-    "type": "Arrow ",
+    "type": "Arrow",
     "rarity": "Legendary",
     "classRestriction": "Warden",
     "minLevel": 30,
@@ -9532,7 +9532,7 @@
   {
     "uuid": 585,
     "name": "Shroom Tender's Hood",
-    "icon": "spr_itemicons_585.png",
+    "icon": "spr_itemicons_585",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
@@ -9551,7 +9551,7 @@
   {
     "uuid": 586,
     "name": "Shroom Tender's Armor",
-    "icon": "spr_itemicons_586.png",
+    "icon": "spr_itemicons_586",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Legendary",
@@ -9571,7 +9571,7 @@
   {
     "uuid": 587,
     "name": "Shroom Tender's Bow",
-    "icon": "spr_itemicons_587.png",
+    "icon": "spr_itemicons_587",
     "category": "Weapon",
     "type": "Bow",
     "rarity": "Legendary",
@@ -9593,9 +9593,9 @@
   {
     "uuid": 588,
     "name": "Shroom Tender's Arrow",
-    "icon": "spr_itemicons_588.png",
+    "icon": "spr_itemicons_588",
     "category": "Offhand",
-    "type": "Arrow ",
+    "type": "Arrow",
     "rarity": "Legendary",
     "classRestriction": "Warden",
     "minLevel": 30,
@@ -9613,9 +9613,9 @@
   {
     "uuid": 589,
     "name": "Snowstorm Cut",
-    "icon": "spr_itemicons_589.png",
+    "icon": "spr_itemicons_589",
     "category": "Offhand",
-    "type": "Arrow ",
+    "type": "Arrow",
     "rarity": "Legendary",
     "classRestriction": "Warden",
     "minLevel": 30,
@@ -9633,7 +9633,7 @@
   {
     "uuid": 590,
     "name": "Torrential Cowl",
-    "icon": "spr_itemicons_590.png",
+    "icon": "spr_itemicons_590",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
@@ -9652,7 +9652,7 @@
   {
     "uuid": 591,
     "name": "Torrential Garb",
-    "icon": "spr_itemicons_591.png",
+    "icon": "spr_itemicons_591",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Legendary",
@@ -9672,7 +9672,7 @@
   {
     "uuid": 592,
     "name": "Torrential Bow",
-    "icon": "spr_itemicons_592.png",
+    "icon": "spr_itemicons_592",
     "category": "Weapon",
     "type": "Bow",
     "rarity": "Legendary",
@@ -9694,9 +9694,9 @@
   {
     "uuid": 593,
     "name": "Torrential Arrow",
-    "icon": "spr_itemicons_593.png",
+    "icon": "spr_itemicons_593",
     "category": "Offhand",
-    "type": "Arrow ",
+    "type": "Arrow",
     "rarity": "Legendary",
     "classRestriction": "Warden",
     "minLevel": 30,
@@ -9714,9 +9714,9 @@
   {
     "uuid": 594,
     "name": "Bloodbinder's Tome",
-    "icon": "spr_itemicons_594.png",
+    "icon": "spr_itemicons_594",
     "category": "Offhand",
-    "type": "Spellbook ",
+    "type": "Spellbook",
     "rarity": "Legendary",
     "classRestriction": "Warlock",
     "minLevel": 30,
@@ -9734,10 +9734,10 @@
   {
     "uuid": 595,
     "name": "Demon Lord's Tome",
-    "icon": "spr_itemicons_595.png",
+    "icon": "spr_itemicons_595",
     "flavor": "...If anything, my research shows that they are a race just like Human, Elf, and Orc...",
     "category": "Offhand",
-    "type": "Spellbook ",
+    "type": "Spellbook",
     "rarity": "Legendary",
     "classRestriction": "Warlock",
     "minLevel": 30,
@@ -9755,9 +9755,9 @@
   {
     "uuid": 596,
     "name": "Lich's Manifesto",
-    "icon": "spr_itemicons_596.png",
+    "icon": "spr_itemicons_596",
     "category": "Offhand",
-    "type": "Spellbook ",
+    "type": "Spellbook",
     "rarity": "Legendary",
     "classRestriction": "Warlock",
     "minLevel": 30,
@@ -9775,10 +9775,10 @@
   {
     "uuid": 597,
     "name": "Desecrator's Work",
-    "icon": "spr_itemicons_597.png",
+    "icon": "spr_itemicons_597",
     "flavor": "...But to control it, to manipulate it, to eliminate the weakness that is Life, so that we become Death...",
     "category": "Offhand",
-    "type": "Spellbook ",
+    "type": "Spellbook",
     "rarity": "Legendary",
     "classRestriction": "Warlock",
     "minLevel": 30,
@@ -9796,7 +9796,7 @@
   {
     "uuid": 598,
     "name": "Plague Mage's Helm",
-    "icon": "spr_itemicons_598.png",
+    "icon": "spr_itemicons_598",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
@@ -9815,7 +9815,7 @@
   {
     "uuid": 599,
     "name": "Plague Mage's Robes",
-    "icon": "spr_itemicons_599.png",
+    "icon": "spr_itemicons_599",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Legendary",
@@ -9835,7 +9835,7 @@
   {
     "uuid": 600,
     "name": "Plague Mage's Staff",
-    "icon": "spr_itemicons_600.png",
+    "icon": "spr_itemicons_600",
     "category": "Weapon",
     "type": "Staff",
     "rarity": "Legendary",
@@ -9857,9 +9857,9 @@
   {
     "uuid": 601,
     "name": "Plague Mage's Spellbook",
-    "icon": "spr_itemicons_601.png",
+    "icon": "spr_itemicons_601",
     "category": "Offhand",
-    "type": "Spellbook ",
+    "type": "Spellbook",
     "rarity": "Legendary",
     "classRestriction": "Warlock",
     "minLevel": 30,
@@ -9877,7 +9877,7 @@
   {
     "uuid": 602,
     "name": "Burning Hell Crown",
-    "icon": "spr_itemicons_602.png",
+    "icon": "spr_itemicons_602",
     "flavor": "Hell? What is it but a fictional representation of all things evil?..",
     "category": "Helmet",
     "type": "Helm",
@@ -9897,7 +9897,7 @@
   {
     "uuid": 603,
     "name": "Burning Hell Robes",
-    "icon": "spr_itemicons_603.png",
+    "icon": "spr_itemicons_603",
     "flavor": "...I must ask you, Council of Templars, what separates our flames from those of the great and holy Caine?..",
     "category": "Armor",
     "type": "Armor",
@@ -9918,7 +9918,7 @@
   {
     "uuid": 604,
     "name": "Burning Hell Scepter",
-    "icon": "spr_itemicons_604.png",
+    "icon": "spr_itemicons_604",
     "flavor": "...Your beliefs are misguided, dear Council. Frankly, I think they are Heresy. And you will all burn for it.",
     "category": "Weapon",
     "type": "Staff",
@@ -9941,10 +9941,10 @@
   {
     "uuid": 605,
     "name": "Burning Hell Opus",
-    "icon": "spr_itemicons_605.png",
+    "icon": "spr_itemicons_605",
     "flavor": "...Are ours not the same bright light of purity? The same cleansing warmth of Life?..",
     "category": "Offhand",
-    "type": "Spellbook ",
+    "type": "Spellbook",
     "rarity": "Legendary",
     "classRestriction": "Warlock",
     "minLevel": 30,
@@ -9962,7 +9962,7 @@
   {
     "uuid": 606,
     "name": "Deathbringer's Helm",
-    "icon": "spr_itemicons_606.png",
+    "icon": "spr_itemicons_606",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
@@ -9981,7 +9981,7 @@
   {
     "uuid": 607,
     "name": "Deathbringer's Robes",
-    "icon": "spr_itemicons_607.png",
+    "icon": "spr_itemicons_607",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Legendary",
@@ -10001,7 +10001,7 @@
   {
     "uuid": 608,
     "name": "Deathbringer's Staff",
-    "icon": "spr_itemicons_608.png",
+    "icon": "spr_itemicons_608",
     "category": "Weapon",
     "type": "Staff",
     "rarity": "Legendary",
@@ -10023,9 +10023,9 @@
   {
     "uuid": 609,
     "name": "Deathbringer's Chronicle",
-    "icon": "spr_itemicons_609.png",
+    "icon": "spr_itemicons_609",
     "category": "Offhand",
-    "type": "Spellbook ",
+    "type": "Spellbook",
     "rarity": "Legendary",
     "classRestriction": "Warlock",
     "minLevel": 30,
@@ -10043,7 +10043,7 @@
   {
     "uuid": 610,
     "name": "Masochist's Helm",
-    "icon": "spr_itemicons_610.png",
+    "icon": "spr_itemicons_610",
     "flavor": "The Council recognizes your importance in recent and past events, and with that in mind, you will live...",
     "category": "Helmet",
     "type": "Helm",
@@ -10063,7 +10063,7 @@
   {
     "uuid": 611,
     "name": "Masochist's Robes",
-    "icon": "spr_itemicons_611.png",
+    "icon": "spr_itemicons_611",
     "flavor": "...However we cannot turn a blind eye towards the atrocities you and your disciples have committed...",
     "category": "Armor",
     "type": "Armor",
@@ -10084,7 +10084,7 @@
   {
     "uuid": 612,
     "name": "Masochist's Staff",
-    "icon": "spr_itemicons_612.png",
+    "icon": "spr_itemicons_612",
     "flavor": "...Henceforth you and your disciples are exiled from the Templar Order. The Death Knights are no more.",
     "category": "Weapon",
     "type": "Staff",
@@ -10107,10 +10107,10 @@
   {
     "uuid": 613,
     "name": "Masochist's Journal",
-    "icon": "spr_itemicons_613.png",
+    "icon": "spr_itemicons_613",
     "flavor": "...Nor can we ignore the heresy of your actions and beliefs...",
     "category": "Offhand",
-    "type": "Spellbook ",
+    "type": "Spellbook",
     "rarity": "Legendary",
     "classRestriction": "Warlock",
     "minLevel": 30,
@@ -10128,7 +10128,7 @@
   {
     "uuid": 614,
     "name": "Putrid Pouch",
-    "icon": "spr_itemicons_614.png",
+    "icon": "spr_itemicons_614",
     "description": "Expands your inventory space!",
     "category": "Misc",
     "type": "Bag",
@@ -10143,7 +10143,7 @@
   {
     "uuid": 615,
     "name": "Moore's Satchel",
-    "icon": "spr_itemicons_615.png",
+    "icon": "spr_itemicons_615",
     "description": "Expands your inventory space!",
     "category": "Misc",
     "type": "Bag",
@@ -10158,7 +10158,7 @@
   {
     "uuid": 616,
     "name": "Unbreakable Bond",
-    "icon": "spr_itemicons_616.png",
+    "icon": "spr_itemicons_616",
     "category": "Ring",
     "type": "Ring",
     "rarity": "True Legendary",
@@ -10178,7 +10178,7 @@
   {
     "uuid": 617,
     "name": "Life Guard",
-    "icon": "spr_itemicons_617.png",
+    "icon": "spr_itemicons_617",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "True Legendary",
@@ -10197,9 +10197,9 @@
   {
     "uuid": 620,
     "name": "Rough Cube Charoite",
-    "icon": "spr_itemicons_620.png",
+    "icon": "spr_itemicons_620",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Cube Gem",
     "rarity": "Ordinary",
     "classRestriction": null,
@@ -10214,9 +10214,9 @@
   {
     "uuid": 621,
     "name": "Cut Cube Charoite",
-    "icon": "spr_itemicons_621.png",
+    "icon": "spr_itemicons_621",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Cube Gem",
     "rarity": "Enchanted",
     "classRestriction": null,
@@ -10231,9 +10231,9 @@
   {
     "uuid": 622,
     "name": "Polished Cube Charoite",
-    "icon": "spr_itemicons_622.png",
+    "icon": "spr_itemicons_622",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Cube Gem",
     "rarity": "Rare",
     "classRestriction": null,
@@ -10248,9 +10248,9 @@
   {
     "uuid": 623,
     "name": "Rough Sphere Charoite",
-    "icon": "spr_itemicons_623.png",
+    "icon": "spr_itemicons_623",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Sphere Gem",
     "rarity": "Ordinary",
     "classRestriction": null,
@@ -10265,9 +10265,9 @@
   {
     "uuid": 624,
     "name": "Cut Sphere Charoite",
-    "icon": "spr_itemicons_624.png",
+    "icon": "spr_itemicons_624",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Sphere Gem",
     "rarity": "Enchanted",
     "classRestriction": null,
@@ -10282,9 +10282,9 @@
   {
     "uuid": 625,
     "name": "Polished Sphere Charoite",
-    "icon": "spr_itemicons_625.png",
+    "icon": "spr_itemicons_625",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Sphere Gem",
     "rarity": "Rare",
     "classRestriction": null,
@@ -10299,9 +10299,9 @@
   {
     "uuid": 626,
     "name": "Rough Star Charoite",
-    "icon": "spr_itemicons_626.png",
+    "icon": "spr_itemicons_626",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Star Gem",
     "rarity": "Ordinary",
     "classRestriction": null,
@@ -10316,9 +10316,9 @@
   {
     "uuid": 627,
     "name": "Cut Star Charoite",
-    "icon": "spr_itemicons_627.png",
+    "icon": "spr_itemicons_627",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Star Gem",
     "rarity": "Enchanted",
     "classRestriction": null,
@@ -10333,9 +10333,9 @@
   {
     "uuid": 628,
     "name": "Polished Star Charoite",
-    "icon": "spr_itemicons_628.png",
+    "icon": "spr_itemicons_628",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Star Gem",
     "rarity": "Rare",
     "classRestriction": null,
@@ -10350,9 +10350,9 @@
   {
     "uuid": 629,
     "name": "Rough Cube Chrysoberyl",
-    "icon": "spr_itemicons_629.png",
+    "icon": "spr_itemicons_629",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Cube Gem",
     "rarity": "Ordinary",
     "classRestriction": null,
@@ -10367,9 +10367,9 @@
   {
     "uuid": 630,
     "name": "Cut Cube Chrysoberyl",
-    "icon": "spr_itemicons_630.png",
+    "icon": "spr_itemicons_630",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Cube Gem",
     "rarity": "Enchanted",
     "classRestriction": null,
@@ -10384,9 +10384,9 @@
   {
     "uuid": 631,
     "name": "Polished Cube Chrysoberyl",
-    "icon": "spr_itemicons_631.png",
+    "icon": "spr_itemicons_631",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Cube Gem",
     "rarity": "Rare",
     "classRestriction": null,
@@ -10401,9 +10401,9 @@
   {
     "uuid": 632,
     "name": "Rough Sphere Chrysoberyl",
-    "icon": "spr_itemicons_632.png",
+    "icon": "spr_itemicons_632",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Sphere Gem",
     "rarity": "Ordinary",
     "classRestriction": null,
@@ -10418,9 +10418,9 @@
   {
     "uuid": 633,
     "name": "Cut Sphere Chrysoberyl",
-    "icon": "spr_itemicons_633.png",
+    "icon": "spr_itemicons_633",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Sphere Gem",
     "rarity": "Enchanted",
     "classRestriction": null,
@@ -10435,9 +10435,9 @@
   {
     "uuid": 634,
     "name": "Polished Sphere Chrysoberyl",
-    "icon": "spr_itemicons_634.png",
+    "icon": "spr_itemicons_634",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Sphere Gem",
     "rarity": "Rare",
     "classRestriction": null,
@@ -10452,9 +10452,9 @@
   {
     "uuid": 635,
     "name": "Rough Star Chrysoberyl",
-    "icon": "spr_itemicons_635.png",
+    "icon": "spr_itemicons_635",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Star Gem",
     "rarity": "Ordinary",
     "classRestriction": null,
@@ -10469,9 +10469,9 @@
   {
     "uuid": 636,
     "name": "Cut Star Chrysoberyl",
-    "icon": "spr_itemicons_636.png",
+    "icon": "spr_itemicons_636",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Star Gem",
     "rarity": "Enchanted",
     "classRestriction": null,
@@ -10486,9 +10486,9 @@
   {
     "uuid": 637,
     "name": "Polished Star Chrysoberyl",
-    "icon": "spr_itemicons_637.png",
+    "icon": "spr_itemicons_637",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Star Gem",
     "rarity": "Rare",
     "classRestriction": null,
@@ -10503,9 +10503,9 @@
   {
     "uuid": 638,
     "name": "Rough Cube Hematite",
-    "icon": "spr_itemicons_638.png",
+    "icon": "spr_itemicons_638",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Cube Gem",
     "rarity": "Ordinary",
     "classRestriction": null,
@@ -10520,9 +10520,9 @@
   {
     "uuid": 639,
     "name": "Cut Cube Hematite",
-    "icon": "spr_itemicons_639.png",
+    "icon": "spr_itemicons_639",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Cube Gem",
     "rarity": "Enchanted",
     "classRestriction": null,
@@ -10537,9 +10537,9 @@
   {
     "uuid": 640,
     "name": "Polished Cube Hematite",
-    "icon": "spr_itemicons_640.png",
+    "icon": "spr_itemicons_640",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Cube Gem",
     "rarity": "Rare",
     "classRestriction": null,
@@ -10554,9 +10554,9 @@
   {
     "uuid": 641,
     "name": "Rough Sphere Hematite",
-    "icon": "spr_itemicons_641.png",
+    "icon": "spr_itemicons_641",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Sphere Gem",
     "rarity": "Ordinary",
     "classRestriction": null,
@@ -10571,9 +10571,9 @@
   {
     "uuid": 642,
     "name": "Cut Sphere Hematite",
-    "icon": "spr_itemicons_642.png",
+    "icon": "spr_itemicons_642",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Sphere Gem",
     "rarity": "Enchanted",
     "classRestriction": null,
@@ -10588,9 +10588,9 @@
   {
     "uuid": 643,
     "name": "Polished Sphere Hematite",
-    "icon": "spr_itemicons_643.png",
+    "icon": "spr_itemicons_643",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Sphere Gem",
     "rarity": "Rare",
     "classRestriction": null,
@@ -10605,9 +10605,9 @@
   {
     "uuid": 644,
     "name": "Rough Star Hematite",
-    "icon": "spr_itemicons_644.png",
+    "icon": "spr_itemicons_644",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Star Gem",
     "rarity": "Ordinary",
     "classRestriction": null,
@@ -10622,9 +10622,9 @@
   {
     "uuid": 645,
     "name": "Cut Star Hematite",
-    "icon": "spr_itemicons_645.png",
+    "icon": "spr_itemicons_645",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Star Gem",
     "rarity": "Enchanted",
     "classRestriction": null,
@@ -10639,9 +10639,9 @@
   {
     "uuid": 646,
     "name": "Polished Star Hematite",
-    "icon": "spr_itemicons_646.png",
+    "icon": "spr_itemicons_646",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Star Gem",
     "rarity": "Rare",
     "classRestriction": null,
@@ -10656,9 +10656,9 @@
   {
     "uuid": 647,
     "name": "Rough Cube Orthoclase",
-    "icon": "spr_itemicons_647.png",
+    "icon": "spr_itemicons_647",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Cube Gem",
     "rarity": "Ordinary",
     "classRestriction": null,
@@ -10673,9 +10673,9 @@
   {
     "uuid": 648,
     "name": "Cut Cube Orthoclase",
-    "icon": "spr_itemicons_648.png",
+    "icon": "spr_itemicons_648",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Cube Gem",
     "rarity": "Enchanted",
     "classRestriction": null,
@@ -10690,9 +10690,9 @@
   {
     "uuid": 649,
     "name": "Polished Cube Orthoclase",
-    "icon": "spr_itemicons_649.png",
+    "icon": "spr_itemicons_649",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Cube Gem",
     "rarity": "Rare",
     "classRestriction": null,
@@ -10707,9 +10707,9 @@
   {
     "uuid": 650,
     "name": "Rough Sphere Orthoclase",
-    "icon": "spr_itemicons_650.png",
+    "icon": "spr_itemicons_650",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Sphere Gem",
     "rarity": "Ordinary",
     "classRestriction": null,
@@ -10724,9 +10724,9 @@
   {
     "uuid": 651,
     "name": "Cut Sphere Orthoclase",
-    "icon": "spr_itemicons_651.png",
+    "icon": "spr_itemicons_651",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Sphere Gem",
     "rarity": "Enchanted",
     "classRestriction": null,
@@ -10741,9 +10741,9 @@
   {
     "uuid": 652,
     "name": "Polished Sphere Orthoclase",
-    "icon": "spr_itemicons_652.png",
+    "icon": "spr_itemicons_652",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Sphere Gem",
     "rarity": "Rare",
     "classRestriction": null,
@@ -10758,9 +10758,9 @@
   {
     "uuid": 653,
     "name": "Rough Star Orthoclase",
-    "icon": "spr_itemicons_653.png",
+    "icon": "spr_itemicons_653",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Star Gem",
     "rarity": "Ordinary",
     "classRestriction": null,
@@ -10775,9 +10775,9 @@
   {
     "uuid": 654,
     "name": "Cut Star Orthoclase",
-    "icon": "spr_itemicons_654.png",
+    "icon": "spr_itemicons_654",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Star Gem",
     "rarity": "Enchanted",
     "classRestriction": null,
@@ -10792,9 +10792,9 @@
   {
     "uuid": 655,
     "name": "Polished Star Orthoclase",
-    "icon": "spr_itemicons_655.png",
+    "icon": "spr_itemicons_655",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Star Gem",
     "rarity": "Rare",
     "classRestriction": null,
@@ -10809,9 +10809,9 @@
   {
     "uuid": 656,
     "name": "Rough Cube Citrine",
-    "icon": "spr_itemicons_656.png",
+    "icon": "spr_itemicons_656",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Cube Gem",
     "rarity": "Ordinary",
     "classRestriction": null,
@@ -10826,9 +10826,9 @@
   {
     "uuid": 657,
     "name": "Cut Cube Citrine",
-    "icon": "spr_itemicons_657.png",
+    "icon": "spr_itemicons_657",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Cube Gem",
     "rarity": "Enchanted",
     "classRestriction": null,
@@ -10843,9 +10843,9 @@
   {
     "uuid": 658,
     "name": "Polished Cube Citrine",
-    "icon": "spr_itemicons_658.png",
+    "icon": "spr_itemicons_658",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Cube Gem",
     "rarity": "Rare",
     "classRestriction": null,
@@ -10860,9 +10860,9 @@
   {
     "uuid": 659,
     "name": "Rough Sphere Citrine",
-    "icon": "spr_itemicons_659.png",
+    "icon": "spr_itemicons_659",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Sphere Gem",
     "rarity": "Ordinary",
     "classRestriction": null,
@@ -10877,9 +10877,9 @@
   {
     "uuid": 660,
     "name": "Cut Sphere Citrine",
-    "icon": "spr_itemicons_660.png",
+    "icon": "spr_itemicons_660",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Sphere Gem",
     "rarity": "Enchanted",
     "classRestriction": null,
@@ -10894,9 +10894,9 @@
   {
     "uuid": 661,
     "name": "Polished Sphere Citrine",
-    "icon": "spr_itemicons_661.png",
+    "icon": "spr_itemicons_661",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Sphere Gem",
     "rarity": "Rare",
     "classRestriction": null,
@@ -10911,9 +10911,9 @@
   {
     "uuid": 662,
     "name": "Rough Star Citrine",
-    "icon": "spr_itemicons_662.png",
+    "icon": "spr_itemicons_662",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Star Gem",
     "rarity": "Ordinary",
     "classRestriction": null,
@@ -10928,9 +10928,9 @@
   {
     "uuid": 663,
     "name": "Cut Star Citrine",
-    "icon": "spr_itemicons_663.png",
+    "icon": "spr_itemicons_663",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Star Gem",
     "rarity": "Enchanted",
     "classRestriction": null,
@@ -10945,9 +10945,9 @@
   {
     "uuid": 664,
     "name": "Polished Star Citrine",
-    "icon": "spr_itemicons_664.png",
+    "icon": "spr_itemicons_664",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Star Gem",
     "rarity": "Rare",
     "classRestriction": null,
@@ -10962,9 +10962,9 @@
   {
     "uuid": 665,
     "name": "Rough Cube Kyanite",
-    "icon": "spr_itemicons_665.png",
+    "icon": "spr_itemicons_665",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Cube Gem",
     "rarity": "Ordinary",
     "classRestriction": null,
@@ -10979,9 +10979,9 @@
   {
     "uuid": 666,
     "name": "Cut Cube Kyanite",
-    "icon": "spr_itemicons_666.png",
+    "icon": "spr_itemicons_666",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Cube Gem",
     "rarity": "Enchanted",
     "classRestriction": null,
@@ -10996,9 +10996,9 @@
   {
     "uuid": 667,
     "name": "Polished Cube Kyanite",
-    "icon": "spr_itemicons_667.png",
+    "icon": "spr_itemicons_667",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Cube Gem",
     "rarity": "Rare",
     "classRestriction": null,
@@ -11013,9 +11013,9 @@
   {
     "uuid": 668,
     "name": "Rough Sphere Kyanite",
-    "icon": "spr_itemicons_668.png",
+    "icon": "spr_itemicons_668",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Sphere Gem",
     "rarity": "Ordinary",
     "classRestriction": null,
@@ -11030,9 +11030,9 @@
   {
     "uuid": 669,
     "name": "Cut Sphere Kyanite",
-    "icon": "spr_itemicons_669.png",
+    "icon": "spr_itemicons_669",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Sphere Gem",
     "rarity": "Enchanted",
     "classRestriction": null,
@@ -11047,9 +11047,9 @@
   {
     "uuid": 670,
     "name": "Polished Sphere Kyanite",
-    "icon": "spr_itemicons_670.png",
+    "icon": "spr_itemicons_670",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Sphere Gem",
     "rarity": "Rare",
     "classRestriction": null,
@@ -11064,9 +11064,9 @@
   {
     "uuid": 671,
     "name": "Rough Star Kyanite",
-    "icon": "spr_itemicons_671.png",
+    "icon": "spr_itemicons_671",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Star Gem",
     "rarity": "Ordinary",
     "classRestriction": null,
@@ -11081,9 +11081,9 @@
   {
     "uuid": 672,
     "name": "Cut Star Kyanite",
-    "icon": "spr_itemicons_672.png",
+    "icon": "spr_itemicons_672",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Star Gem",
     "rarity": "Enchanted",
     "classRestriction": null,
@@ -11098,9 +11098,9 @@
   {
     "uuid": 673,
     "name": "Polished Star Kyanite",
-    "icon": "spr_itemicons_673.png",
+    "icon": "spr_itemicons_673",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Star Gem",
     "rarity": "Rare",
     "classRestriction": null,
@@ -11115,9 +11115,9 @@
   {
     "uuid": 674,
     "name": "Rough Cube Larimar",
-    "icon": "spr_itemicons_674.png",
+    "icon": "spr_itemicons_674",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Cube Gem",
     "rarity": "Ordinary",
     "classRestriction": null,
@@ -11132,9 +11132,9 @@
   {
     "uuid": 675,
     "name": "Cut Cube Larimar",
-    "icon": "spr_itemicons_675.png",
+    "icon": "spr_itemicons_675",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Cube Gem",
     "rarity": "Enchanted",
     "classRestriction": null,
@@ -11149,9 +11149,9 @@
   {
     "uuid": 676,
     "name": "Polished Cube Larimar",
-    "icon": "spr_itemicons_676.png",
+    "icon": "spr_itemicons_676",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Cube Gem",
     "rarity": "Rare",
     "classRestriction": null,
@@ -11166,9 +11166,9 @@
   {
     "uuid": 677,
     "name": "Rough Sphere Larimar",
-    "icon": "spr_itemicons_677.png",
+    "icon": "spr_itemicons_677",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Sphere Gem",
     "rarity": "Ordinary",
     "classRestriction": null,
@@ -11183,9 +11183,9 @@
   {
     "uuid": 678,
     "name": "Cut Sphere Larimar",
-    "icon": "spr_itemicons_678.png",
+    "icon": "spr_itemicons_678",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Sphere Gem",
     "rarity": "Enchanted",
     "classRestriction": null,
@@ -11200,9 +11200,9 @@
   {
     "uuid": 679,
     "name": "Polished Sphere Larimar",
-    "icon": "spr_itemicons_679.png",
+    "icon": "spr_itemicons_679",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Sphere Gem",
     "rarity": "Rare",
     "classRestriction": null,
@@ -11217,9 +11217,9 @@
   {
     "uuid": 680,
     "name": "Rough Star Larimar",
-    "icon": "spr_itemicons_680.png",
+    "icon": "spr_itemicons_680",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Star Gem",
     "rarity": "Ordinary",
     "classRestriction": null,
@@ -11234,9 +11234,9 @@
   {
     "uuid": 681,
     "name": "Cut Star Larimar",
-    "icon": "spr_itemicons_681.png",
+    "icon": "spr_itemicons_681",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Star Gem",
     "rarity": "Enchanted",
     "classRestriction": null,
@@ -11251,9 +11251,9 @@
   {
     "uuid": 682,
     "name": "Polished Star Larimar",
-    "icon": "spr_itemicons_682.png",
+    "icon": "spr_itemicons_682",
     "description": "Can be socketed into equipment",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Star Gem",
     "rarity": "Rare",
     "classRestriction": null,
@@ -11268,9 +11268,9 @@
   {
     "uuid": 692,
     "name": "Unknown Star Gem",
-    "icon": "spr_itemicons_692.png",
+    "icon": "spr_itemicons_692",
     "description": "You haven't found this gem yet",
-    "category": "Misc",
+    "category": "Gem",
     "type": "Star Gem",
     "rarity": "Ordinary",
     "classRestriction": null,
@@ -11281,7 +11281,7 @@
   {
     "uuid": 693,
     "name": "Ancient Tablet",
-    "icon": "spr_itemicons_693.png",
+    "icon": "spr_itemicons_693",
     "description": "Diana Jones will be highly interested in this.",
     "category": "Misc",
     "type": "Quest Item",
@@ -11294,7 +11294,7 @@
   {
     "uuid": 694,
     "name": "Scroll",
-    "icon": "spr_itemicons_694.png",
+    "icon": "spr_itemicons_694",
     "category": "Consumables",
     "type": "Scroll",
     "rarity": "Enchanted",
@@ -11306,7 +11306,7 @@
   {
     "uuid": 695,
     "name": "Scroll",
-    "icon": "spr_itemicons_695.png",
+    "icon": "spr_itemicons_695",
     "category": "Consumables",
     "type": "Scroll",
     "rarity": "Rare",
@@ -11318,7 +11318,7 @@
   {
     "uuid": 696,
     "name": "Scroll",
-    "icon": "spr_itemicons_696.png",
+    "icon": "spr_itemicons_696",
     "category": "Consumables",
     "type": "Scroll",
     "rarity": "Unique",
@@ -11330,7 +11330,7 @@
   {
     "uuid": 697,
     "name": "Scroll",
-    "icon": "spr_itemicons_697.png",
+    "icon": "spr_itemicons_697",
     "category": "Consumables",
     "type": "Scroll",
     "rarity": "Legendary",
@@ -11342,7 +11342,7 @@
   {
     "uuid": 698,
     "name": "Cackling bone",
-    "icon": "spr_itemicons_698.png",
+    "icon": "spr_itemicons_698",
     "flavor": "Hehahehahehhoo",
     "description": "Use: The bone cackles madly, causing nearby foes to run away in fear for 3 seconds",
     "category": "Consumables",
@@ -11356,7 +11356,7 @@
   {
     "uuid": 699,
     "name": "Fin'ley's magical map",
-    "icon": "spr_itemicons_699.png",
+    "icon": "spr_itemicons_699",
     "description": "Use: Fully reveal the map",
     "category": "Consumables",
     "type": "Relic",
@@ -11369,9 +11369,9 @@
   {
     "uuid": 700,
     "name": "The Ripper",
-    "icon": "spr_itemicons_700.png",
+    "icon": "spr_itemicons_700",
     "category": "Offhand",
-    "type": "Claw ",
+    "type": "Claw",
     "rarity": "Unique",
     "classRestriction": "Berserker",
     "minLevel": 1,
@@ -11388,7 +11388,7 @@
   {
     "uuid": 701,
     "name": "Windtalon's Charm",
-    "icon": "spr_itemicons_701.png",
+    "icon": "spr_itemicons_701",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Unique",
@@ -11407,7 +11407,7 @@
   {
     "uuid": 702,
     "name": "Skin of the Rock Worm",
-    "icon": "spr_itemicons_702.png",
+    "icon": "spr_itemicons_702",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Unique",
@@ -11425,7 +11425,7 @@
   {
     "uuid": 703,
     "name": "Skull of Grotesk",
-    "icon": "spr_itemicons_703.png",
+    "icon": "spr_itemicons_703",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Unique",
@@ -11444,7 +11444,7 @@
   {
     "uuid": 704,
     "name": "Eye of Volkanum",
-    "icon": "spr_itemicons_704.png",
+    "icon": "spr_itemicons_704",
     "category": "Amulet",
     "type": "Amulet",
     "rarity": "Unique",
@@ -11464,7 +11464,7 @@
   {
     "uuid": 705,
     "name": "Ghostly Veil",
-    "icon": "spr_itemicons_705.png",
+    "icon": "spr_itemicons_705",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Unique",
@@ -11483,7 +11483,7 @@
   {
     "uuid": 706,
     "name": "Howling Horn",
-    "icon": "spr_itemicons_706.png",
+    "icon": "spr_itemicons_706",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Unique",
@@ -11502,7 +11502,7 @@
   {
     "uuid": 707,
     "name": "Spectral Armor",
-    "icon": "spr_itemicons_707.png",
+    "icon": "spr_itemicons_707",
     "category": "Armor",
     "type": "Armor",
     "rarity": "True Legendary",
@@ -11521,7 +11521,7 @@
   {
     "uuid": 708,
     "name": "Crown of Aerefthas",
-    "icon": "spr_itemicons_708.png",
+    "icon": "spr_itemicons_708",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Unique",
@@ -11540,7 +11540,7 @@
   {
     "uuid": 709,
     "name": "Ravash's Bloodied Bone",
-    "icon": "spr_itemicons_709.png",
+    "icon": "spr_itemicons_709",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Unique",
@@ -11559,7 +11559,7 @@
   {
     "uuid": 710,
     "name": "Key to Pools of Eternity",
-    "icon": "spr_itemicons_710.png",
+    "icon": "spr_itemicons_710",
     "description": "Diana Jones will be highly interested in this.",
     "category": "Misc",
     "type": "Quest Item",
@@ -11572,7 +11572,7 @@
   {
     "uuid": 711,
     "name": "Brother's Ring",
-    "icon": "spr_itemicons_711.png",
+    "icon": "spr_itemicons_711",
     "description": "This likely belonged to the Lost Girl's brother.",
     "category": "Misc",
     "type": "Quest Item",
@@ -11585,7 +11585,7 @@
   {
     "uuid": 712,
     "name": "Ring of Marvellous Gems",
-    "icon": "spr_itemicons_712.png",
+    "icon": "spr_itemicons_712",
     "flavor": "Worn by Nobles with too much money",
     "description": "Rolls random permanent sockets",
     "category": "Ring",
@@ -11603,7 +11603,7 @@
   {
     "uuid": 713,
     "name": "Weyrick's Finery",
-    "icon": "spr_itemicons_713.png",
+    "icon": "spr_itemicons_713",
     "flavor": "The old King's finest garments",
     "description": "+1 one of each socket type",
     "category": "Armor",
@@ -11621,7 +11621,7 @@
   {
     "uuid": 714,
     "name": "Jorgen's Key",
-    "icon": "spr_itemicons_714.png",
+    "icon": "spr_itemicons_714",
     "description": "Opens Jorgen's Chest in The Southern Advance.",
     "category": "Misc",
     "type": "Quest Item",
@@ -11634,7 +11634,7 @@
   {
     "uuid": 715,
     "name": "Holiday Sack",
-    "icon": "spr_itemicons_715.png",
+    "icon": "spr_itemicons_715",
     "category": "Misc",
     "type": "Bag",
     "rarity": "Legendary",
@@ -11648,7 +11648,7 @@
   {
     "uuid": 716,
     "name": "Red Holiday Hat",
-    "icon": "spr_itemicons_716.png",
+    "icon": "spr_itemicons_716",
     "flavor": "Highly impractical for combat situations",
     "category": "Helmet",
     "type": "Helm",
@@ -11670,7 +11670,7 @@
   {
     "uuid": 717,
     "name": "Soft Happy Holiday Mittens",
-    "icon": "spr_itemicons_717.png",
+    "icon": "spr_itemicons_717",
     "flavor": "Surprisingly, it only makes the wearer happy",
     "category": "Weapon",
     "type": "Fists",
@@ -11690,7 +11690,7 @@
   {
     "uuid": 718,
     "name": "Jolly Blade of Holiday Spirits",
-    "icon": "spr_itemicons_718.png",
+    "icon": "spr_itemicons_718",
     "flavor": "'tis the Season!",
     "category": "Weapon",
     "type": "Sword",
@@ -11710,7 +11710,7 @@
   {
     "uuid": 719,
     "name": "Seasonal Bow of Shared Joy",
-    "icon": "spr_itemicons_719.png",
+    "icon": "spr_itemicons_719",
     "flavor": "Sharing the joy, one arrow at a time",
     "category": "Weapon",
     "type": "Bow",
@@ -11730,7 +11730,7 @@
   {
     "uuid": 720,
     "name": "Not-So-Evil Candy Cane",
-    "icon": "spr_itemicons_720.png",
+    "icon": "spr_itemicons_720",
     "flavor": "Even us evil folk are nice sometimes",
     "category": "Weapon",
     "type": "Staff",
@@ -11750,7 +11750,7 @@
   {
     "uuid": 721,
     "name": "The Hardcore",
-    "icon": "spr_itemicons_721.png",
+    "icon": "spr_itemicons_721",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Legendary",
@@ -11768,7 +11768,7 @@
   {
     "uuid": 722,
     "name": "Ferocity",
-    "icon": "spr_itemicons_722.png",
+    "icon": "spr_itemicons_722",
     "category": "Amulet",
     "type": "Amulet",
     "rarity": "True Legendary",
@@ -11787,7 +11787,7 @@
   {
     "uuid": 723,
     "name": "Hydrascale Boots",
-    "icon": "spr_itemicons_723.png",
+    "icon": "spr_itemicons_723",
     "category": "Boots",
     "type": "Boots",
     "rarity": "True Legendary",
@@ -11806,7 +11806,7 @@
   {
     "uuid": 724,
     "name": "Challenger's Charm",
-    "icon": "spr_itemicons_724.png",
+    "icon": "spr_itemicons_724",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Legendary",
@@ -11824,7 +11824,7 @@
   {
     "uuid": 725,
     "name": "Gravity",
-    "icon": "spr_itemicons_725.png",
+    "icon": "spr_itemicons_725",
     "category": "Amulet",
     "type": "Amulet",
     "rarity": "True Legendary",
@@ -11843,7 +11843,7 @@
   {
     "uuid": 726,
     "name": "Sublime Health Potion",
-    "icon": "spr_itemicons_726.png",
+    "icon": "spr_itemicons_726",
     "description": "Restores 5,000 health instantly and over 5 seconds.",
     "category": "Consumables",
     "type": "Potion",
@@ -11856,7 +11856,7 @@
   {
     "uuid": 727,
     "name": "Sublime Mana Potion",
-    "icon": "spr_itemicons_727.png",
+    "icon": "spr_itemicons_727",
     "description": "Restores 1,500 mana instantly.",
     "category": "Consumables",
     "type": "Potion",
@@ -11869,7 +11869,7 @@
   {
     "uuid": 728,
     "name": "Health Injector Mk2",
-    "icon": "spr_itemicons_728.png",
+    "icon": "spr_itemicons_728",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "True Legendary",
@@ -11888,7 +11888,7 @@
   {
     "uuid": 729,
     "name": "Mana Injector Mk2",
-    "icon": "spr_itemicons_729.png",
+    "icon": "spr_itemicons_729",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "True Legendary",
@@ -11907,7 +11907,7 @@
   {
     "uuid": 730,
     "name": "Rahlence's Resolution",
-    "icon": "spr_itemicons_730.png",
+    "icon": "spr_itemicons_730",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "True Legendary",
@@ -11926,7 +11926,7 @@
   {
     "uuid": 731,
     "name": "Codex",
-    "icon": "spr_itemicons_731.png",
+    "icon": "spr_itemicons_731",
     "category": "Consumables",
     "type": "Relic",
     "rarity": "Unique",
@@ -11938,7 +11938,7 @@
   {
     "uuid": 732,
     "name": "Champion's Crown",
-    "icon": "spr_itemicons_732.png",
+    "icon": "spr_itemicons_732",
     "flavor": "Drops on Heroic difficulty or higher, from level 50 and up",
     "description": "Commonly used in Transmutation",
     "category": "Craft",
@@ -11952,7 +11952,7 @@
   {
     "uuid": 733,
     "name": "Prismatic Sphere",
-    "icon": "spr_itemicons_733.png",
+    "icon": "spr_itemicons_733",
     "flavor": "Drops on Heroic difficulty or higher, from level 50 and up",
     "description": "Can be Transmuted to add a permanent Sphere socket",
     "category": "Craft",
@@ -11966,7 +11966,7 @@
   {
     "uuid": 734,
     "name": "Prismatic Cube",
-    "icon": "spr_itemicons_734.png",
+    "icon": "spr_itemicons_734",
     "flavor": "Drops on Heroic difficulty or higher, from level 50 and up",
     "description": "Can be Transmuted to add a permanent Cube socket",
     "category": "Craft",
@@ -11980,7 +11980,7 @@
   {
     "uuid": 735,
     "name": "Prismatic Star",
-    "icon": "spr_itemicons_735.png",
+    "icon": "spr_itemicons_735",
     "flavor": "Drops on Heroic difficulty or higher, from level 50 and up",
     "description": "Can be Transmuted to add a permanent Star socket",
     "category": "Craft",
@@ -11994,7 +11994,7 @@
   {
     "uuid": 736,
     "name": "Ring of Pure Energies",
-    "icon": "spr_itemicons_736.png",
+    "icon": "spr_itemicons_736",
     "category": "Ring",
     "type": "Ring",
     "rarity": "True Legendary",
@@ -12013,7 +12013,7 @@
   {
     "uuid": 737,
     "name": "Unknown Scroll",
-    "icon": "spr_itemicons_737.png",
+    "icon": "spr_itemicons_737",
     "flavor": "Are you feeling lucky?",
     "description": "When purchased, provides you with a random spellscroll...",
     "category": "Misc",
@@ -12027,7 +12027,7 @@
   {
     "uuid": 738,
     "name": "Spell Codex",
-    "icon": "spr_itemicons_738.png",
+    "icon": "spr_itemicons_738",
     "flavor": "Drops on Heroic difficulty or higher, from level 50 and up",
     "description": "Can be transmuted with Spell Scrolls",
     "category": "Craft",
@@ -12041,7 +12041,7 @@
   {
     "uuid": 739,
     "name": "Entity's Eccentricity",
-    "icon": "spr_itemicons_739.png",
+    "icon": "spr_itemicons_739",
     "flavor": "Bring Down the Sky.",
     "category": "Accessory",
     "type": "Accessory",
@@ -12061,7 +12061,7 @@
   {
     "uuid": 740,
     "name": "Lesser Rune",
-    "icon": "spr_itemicons_740.png",
+    "icon": "spr_itemicons_740",
     "description": "Can be transmuted onto items without an existing Rune",
     "category": "Craft",
     "type": "Item",
@@ -12074,7 +12074,7 @@
   {
     "uuid": 741,
     "name": "Runestone",
-    "icon": "spr_itemicons_741.png",
+    "icon": "spr_itemicons_741",
     "flavor": "Awarded for completing Elite Dungeon Anomalies",
     "description": "Can be transmuted with an item to absorb its power",
     "category": "Craft",
@@ -12088,7 +12088,7 @@
   {
     "uuid": 742,
     "name": "Greater Rune",
-    "icon": "spr_itemicons_742.png",
+    "icon": "spr_itemicons_742",
     "description": "Can be transmuted onto items without an existing Rune",
     "category": "Craft",
     "type": "Item",
@@ -12101,7 +12101,7 @@
   {
     "uuid": 743,
     "name": "Battle Boots",
-    "icon": "spr_itemicons_743.png",
+    "icon": "spr_itemicons_743",
     "category": "Boots",
     "type": "Boots",
     "rarity": "True Legendary",
@@ -12120,7 +12120,7 @@
   {
     "uuid": 744,
     "name": "Lusombra's Path",
-    "icon": "spr_itemicons_744.png",
+    "icon": "spr_itemicons_744",
     "flavor": "She who walk in darkness need shine the brightest.",
     "category": "Boots",
     "type": "Boots",
@@ -12140,7 +12140,7 @@
   {
     "uuid": 745,
     "name": "Boots of The Dancing Maiden",
-    "icon": "spr_itemicons_745.png",
+    "icon": "spr_itemicons_745",
     "category": "Boots",
     "type": "Boots",
     "rarity": "Legendary",
@@ -12158,7 +12158,7 @@
   {
     "uuid": 746,
     "name": "Acrobat's Slippers",
-    "icon": "spr_itemicons_746.png",
+    "icon": "spr_itemicons_746",
     "flavor": "Not very slippy",
     "category": "Boots",
     "type": "Boots",
@@ -12178,7 +12178,7 @@
   {
     "uuid": 747,
     "name": "Boots of The Snow Elf",
-    "icon": "spr_itemicons_747.png",
+    "icon": "spr_itemicons_747",
     "category": "Boots",
     "type": "Boots",
     "rarity": "Legendary",
@@ -12197,7 +12197,7 @@
   {
     "uuid": 748,
     "name": "Blazing Striders",
-    "icon": "spr_itemicons_748.png",
+    "icon": "spr_itemicons_748",
     "category": "Boots",
     "type": "Boots",
     "rarity": "Legendary",
@@ -12215,7 +12215,7 @@
   {
     "uuid": 749,
     "name": "Murmur",
-    "icon": "spr_itemicons_749.png",
+    "icon": "spr_itemicons_749",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
@@ -12233,7 +12233,7 @@
   {
     "uuid": 750,
     "name": "The Bone Spear",
-    "icon": "spr_itemicons_750.png",
+    "icon": "spr_itemicons_750",
     "category": "Weapon",
     "type": "Staff",
     "rarity": "Legendary",
@@ -12254,7 +12254,7 @@
   {
     "uuid": 751,
     "name": "Static Echoes",
-    "icon": "spr_itemicons_751.png",
+    "icon": "spr_itemicons_751",
     "category": "Amulet",
     "type": "Amulet",
     "rarity": "Legendary",
@@ -12272,9 +12272,9 @@
   {
     "uuid": 752,
     "name": "Jon's Book of Souls",
-    "icon": "spr_itemicons_752.png",
+    "icon": "spr_itemicons_752",
     "category": "Offhand",
-    "type": "Spellbook ",
+    "type": "Spellbook",
     "rarity": "True Legendary",
     "classRestriction": "Warlock",
     "minLevel": 100,
@@ -12290,10 +12290,10 @@
   {
     "uuid": 753,
     "name": "Art of Combat",
-    "icon": "spr_itemicons_753.png",
+    "icon": "spr_itemicons_753",
     "flavor": "Contains a myriad of advanced combat techniques used by the most skilled Templars.",
     "category": "Offhand",
-    "type": "Tome ",
+    "type": "Tome",
     "rarity": "True Legendary",
     "classRestriction": "Templar",
     "minLevel": 100,
@@ -12310,7 +12310,7 @@
   {
     "uuid": 754,
     "name": "Staggering Boots",
-    "icon": "spr_itemicons_754.png",
+    "icon": "spr_itemicons_754",
     "category": "Boots",
     "type": "Boots",
     "rarity": "Legendary",
@@ -12329,9 +12329,9 @@
   {
     "uuid": 755,
     "name": "Windflurry",
-    "icon": "spr_itemicons_755.png",
+    "icon": "spr_itemicons_755",
     "category": "Offhand",
-    "type": "Arrow ",
+    "type": "Arrow",
     "rarity": "Legendary",
     "classRestriction": "Warden",
     "minLevel": 30,
@@ -12348,9 +12348,9 @@
   {
     "uuid": 756,
     "name": "Finned Arrow",
-    "icon": "spr_itemicons_756.png",
+    "icon": "spr_itemicons_756",
     "category": "Offhand",
-    "type": "Arrow ",
+    "type": "Arrow",
     "rarity": "Legendary",
     "classRestriction": "Warden",
     "minLevel": 30,
@@ -12367,7 +12367,7 @@
   {
     "uuid": 757,
     "name": "Advancing Army",
-    "icon": "spr_itemicons_757.png",
+    "icon": "spr_itemicons_757",
     "category": "Boots",
     "type": "Boots",
     "rarity": "Legendary",
@@ -12386,7 +12386,7 @@
   {
     "uuid": 758,
     "name": "Tear of The Arch Druid",
-    "icon": "spr_itemicons_758.png",
+    "icon": "spr_itemicons_758",
     "flavor": ".. and as his life faded, so did the corruption. A tear, shimmering and crystallized, fell from his eye.",
     "category": "Amulet",
     "type": "Amulet",
@@ -12406,7 +12406,7 @@
   {
     "uuid": 759,
     "name": "Star of The Pure",
-    "icon": "spr_itemicons_759.png",
+    "icon": "spr_itemicons_759",
     "category": "Amulet",
     "type": "Amulet",
     "rarity": "Legendary",
@@ -12424,7 +12424,7 @@
   {
     "uuid": 760,
     "name": "Vestige of Lost Souls",
-    "icon": "spr_itemicons_760.png",
+    "icon": "spr_itemicons_760",
     "flavor": "By our sacrifice be guarded.",
     "category": "Armor",
     "type": "Armor",
@@ -12444,7 +12444,7 @@
   {
     "uuid": 761,
     "name": "Wolf Tooth Necklace",
-    "icon": "spr_itemicons_761.png",
+    "icon": "spr_itemicons_761",
     "flavor": "Awoo!",
     "category": "Amulet",
     "type": "Amulet",
@@ -12463,9 +12463,9 @@
   {
     "uuid": 762,
     "name": "Loaded Bolts",
-    "icon": "spr_itemicons_762.png",
+    "icon": "spr_itemicons_762",
     "category": "Offhand",
-    "type": "Arrow ",
+    "type": "Arrow",
     "rarity": "Legendary",
     "classRestriction": "Warden",
     "minLevel": 50,
@@ -12482,7 +12482,7 @@
   {
     "uuid": 763,
     "name": "Call of the Wild",
-    "icon": "spr_itemicons_763.png",
+    "icon": "spr_itemicons_763",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Legendary",
@@ -12501,7 +12501,7 @@
   {
     "uuid": 764,
     "name": "Gaia",
-    "icon": "spr_itemicons_764.png",
+    "icon": "spr_itemicons_764",
     "category": "Weapon",
     "type": "Bow",
     "rarity": "True Legendary",
@@ -12522,7 +12522,7 @@
   {
     "uuid": 765,
     "name": "Heart of the Forest",
-    "icon": "spr_itemicons_765.png",
+    "icon": "spr_itemicons_765",
     "flavor": "A gem most precious, grown inside the most sacred tree in all of Rosewood.",
     "category": "Accessory",
     "type": "Accessory",
@@ -12542,9 +12542,9 @@
   {
     "uuid": 766,
     "name": "Thistle Thorn",
-    "icon": "spr_itemicons_766.png",
+    "icon": "spr_itemicons_766",
     "category": "Offhand",
-    "type": "Arrow ",
+    "type": "Arrow",
     "rarity": "Legendary",
     "classRestriction": "Warden",
     "minLevel": 25,
@@ -12561,7 +12561,7 @@
   {
     "uuid": 767,
     "name": "Lucilla's Vision",
-    "icon": "spr_itemicons_767.png",
+    "icon": "spr_itemicons_767",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "True Legendary",
@@ -12580,7 +12580,7 @@
   {
     "uuid": 769,
     "name": "Tenacious Defender",
-    "icon": "spr_itemicons_769.png",
+    "icon": "spr_itemicons_769",
     "flavor": "Tribute.",
     "category": "Weapon",
     "type": "Sword",
@@ -12603,10 +12603,10 @@
   {
     "uuid": 770,
     "name": "Captain's Shield",
-    "icon": "spr_itemicons_770.png",
+    "icon": "spr_itemicons_770",
     "flavor": "Incredibly hard, yet bouncy.",
     "category": "Offhand",
-    "type": "Shield ",
+    "type": "Shield",
     "rarity": "Legendary",
     "classRestriction": "Templar",
     "minLevel": 40,
@@ -12624,10 +12624,10 @@
   {
     "uuid": 771,
     "name": "Nemesis",
-    "icon": "spr_itemicons_771.png",
+    "icon": "spr_itemicons_771",
     "flavor": "Stop hitting yourself.",
     "category": "Offhand",
-    "type": "Shield ",
+    "type": "Shield",
     "rarity": "Legendary",
     "classRestriction": "Templar",
     "minLevel": 50,
@@ -12645,7 +12645,7 @@
   {
     "uuid": 772,
     "name": "Balgar's Binding",
-    "icon": "spr_itemicons_772.png",
+    "icon": "spr_itemicons_772",
     "flavor": "Throw your strongest punch, and mine will always be stronger. - Balgar The Cunning",
     "category": "Accessory",
     "type": "Accessory",
@@ -12665,7 +12665,7 @@
   {
     "uuid": 773,
     "name": "Wraps of the Lone Ranger",
-    "icon": "spr_itemicons_773.png",
+    "icon": "spr_itemicons_773",
     "flavor": "In solitude, the Ranger finds strength.",
     "category": "Accessory",
     "type": "Accessory",
@@ -12685,7 +12685,7 @@
   {
     "uuid": 774,
     "name": "Council's Gavel",
-    "icon": "spr_itemicons_774.png",
+    "icon": "spr_itemicons_774",
     "flavor": "Sealed the fate of a million souls.",
     "category": "Accessory",
     "type": "Accessory",
@@ -12705,7 +12705,7 @@
   {
     "uuid": 775,
     "name": "Tongue of the Deceiver",
-    "icon": "spr_itemicons_775.png",
+    "icon": "spr_itemicons_775",
     "flavor": "A Curse upon you, dear brothers.",
     "category": "Accessory",
     "type": "Accessory",
@@ -12725,7 +12725,7 @@
   {
     "uuid": 776,
     "name": "Unwavering Loyalty",
-    "icon": "spr_itemicons_776.png",
+    "icon": "spr_itemicons_776",
     "category": "Amulet",
     "type": "Amulet",
     "rarity": "True Legendary",
@@ -12744,7 +12744,7 @@
   {
     "uuid": 777,
     "name": "Splinter Skull Amulet",
-    "icon": "spr_itemicons_777.png",
+    "icon": "spr_itemicons_777",
     "category": "Amulet",
     "type": "Amulet",
     "rarity": "Legendary",
@@ -12763,7 +12763,7 @@
   {
     "uuid": 778,
     "name": "Gritstone Amulet",
-    "icon": "spr_itemicons_778.png",
+    "icon": "spr_itemicons_778",
     "category": "Amulet",
     "type": "Amulet",
     "rarity": "Legendary",
@@ -12782,7 +12782,7 @@
   {
     "uuid": 779,
     "name": "Hallowed Helm",
-    "icon": "spr_itemicons_779.png",
+    "icon": "spr_itemicons_779",
     "flavor": "A gift from the pumpkin man.",
     "category": "Helmet",
     "type": "Helm",
@@ -12803,7 +12803,7 @@
   {
     "uuid": 780,
     "name": "Pumpkin",
-    "icon": "spr_itemicons_780.png",
+    "icon": "spr_itemicons_780",
     "flavor": "Freshly harvested!",
     "category": "Misc",
     "type": "Quest Item",
@@ -12816,7 +12816,7 @@
   {
     "uuid": 781,
     "name": "Ancient Sickle",
-    "icon": "spr_itemicons_781.png",
+    "icon": "spr_itemicons_781",
     "flavor": "This thing is very old...",
     "category": "Misc",
     "type": "Quest Item",
@@ -12829,7 +12829,7 @@
   {
     "uuid": 782,
     "name": "Unusual Pumpkin",
-    "icon": "spr_itemicons_782.png",
+    "icon": "spr_itemicons_782",
     "flavor": "Shimmers in the moonlight.",
     "category": "Consumables",
     "type": "Relic",
@@ -12842,7 +12842,7 @@
   {
     "uuid": 783,
     "name": "Dragonring",
-    "icon": "spr_itemicons_783.png",
+    "icon": "spr_itemicons_783",
     "flavor": "Forged in the burning blood of the fallen.",
     "category": "Ring",
     "type": "Ring",
@@ -12862,7 +12862,7 @@
   {
     "uuid": 784,
     "name": "Hydraloop",
-    "icon": "spr_itemicons_784.png",
+    "icon": "spr_itemicons_784",
     "flavor": "It appears to be hissing...",
     "category": "Ring",
     "type": "Ring",
@@ -12881,7 +12881,7 @@
   {
     "uuid": 785,
     "name": "Ring of Blades",
-    "icon": "spr_itemicons_785.png",
+    "icon": "spr_itemicons_785",
     "flavor": "Once worn by an ancient blademaster.",
     "category": "Ring",
     "type": "Ring",
@@ -12900,7 +12900,7 @@
   {
     "uuid": 786,
     "name": "Hammerblade",
-    "icon": "spr_itemicons_786.png",
+    "icon": "spr_itemicons_786",
     "flavor": "Surprisingly practical.",
     "category": "Weapon",
     "type": "Sword",
@@ -12922,7 +12922,7 @@
   {
     "uuid": 787,
     "name": "Wind Dancer's Elegance",
-    "icon": "spr_itemicons_787.png",
+    "icon": "spr_itemicons_787",
     "flavor": "Swish-swosh.",
     "category": "Armor",
     "type": "Armor",
@@ -12942,7 +12942,7 @@
   {
     "uuid": 788,
     "name": "The Thumper",
-    "icon": "spr_itemicons_788.png",
+    "icon": "spr_itemicons_788",
     "flavor": "Thump, thump, thump.",
     "category": "Accessory",
     "type": "Accessory",
@@ -12961,7 +12961,7 @@
   {
     "uuid": 789,
     "name": "Skin of Terror",
-    "icon": "spr_itemicons_789.png",
+    "icon": "spr_itemicons_789",
     "flavor": "Boo.",
     "description": "Has 3 Star Sockets and Gems inserted.",
     "category": "Armor",
@@ -12979,7 +12979,7 @@
   {
     "uuid": 790,
     "name": "Fang of Alucard",
-    "icon": "spr_itemicons_790.png",
+    "icon": "spr_itemicons_790",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Unique",
@@ -12998,7 +12998,7 @@
   {
     "uuid": 791,
     "name": "Ancient Bone",
-    "icon": "spr_itemicons_791.png",
+    "icon": "spr_itemicons_791",
     "flavor": "Oddly Small.",
     "category": "Accessory",
     "type": "Accessory",
@@ -13017,7 +13017,7 @@
   {
     "uuid": 792,
     "name": "Eye of Hazioxth",
-    "icon": "spr_itemicons_792.png",
+    "icon": "spr_itemicons_792",
     "flavor": "Sees All.",
     "category": "Amulet",
     "type": "Amulet",
@@ -13037,7 +13037,7 @@
   {
     "uuid": 793,
     "name": "Shizbuk's Tail",
-    "icon": "spr_itemicons_793.png",
+    "icon": "spr_itemicons_793",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Unique",
@@ -13055,7 +13055,7 @@
   {
     "uuid": 794,
     "name": "Ring of Hunger",
-    "icon": "spr_itemicons_794.png",
+    "icon": "spr_itemicons_794",
     "flavor": "Don't eat it.",
     "category": "Ring",
     "type": "Ring",
@@ -13074,7 +13074,7 @@
   {
     "uuid": 795,
     "name": "Skull of Harlon",
-    "icon": "spr_itemicons_795.png",
+    "icon": "spr_itemicons_795",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Unique",
@@ -13092,7 +13092,7 @@
   {
     "uuid": 796,
     "name": "Skull of Grimm",
-    "icon": "spr_itemicons_796.png",
+    "icon": "spr_itemicons_796",
     "description": "Use: Cast Bone Curse V.",
     "category": "Consumables",
     "type": "Relic",
@@ -13105,7 +13105,7 @@
   {
     "uuid": 797,
     "name": "Wing of Sziirk",
-    "icon": "spr_itemicons_797.png",
+    "icon": "spr_itemicons_797",
     "description": "Use: Teleport up to 10 meters forwards, dealing 300% fire damage to all foes teleported through.",
     "category": "Consumables",
     "type": "Relic",
@@ -13118,7 +13118,7 @@
   {
     "uuid": 798,
     "name": "Molten Skin Boots",
-    "icon": "spr_itemicons_798.png",
+    "icon": "spr_itemicons_798",
     "flavor": "Makes you look cool.",
     "category": "Boots",
     "type": "Boots",
@@ -13137,7 +13137,7 @@
   {
     "uuid": 799,
     "name": "Sight Beyond",
-    "icon": "spr_itemicons_799.png",
+    "icon": "spr_itemicons_799",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Unique",
@@ -13157,7 +13157,7 @@
   {
     "uuid": 800,
     "name": "Stone of Tephra",
-    "icon": "spr_itemicons_800.png",
+    "icon": "spr_itemicons_800",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Unique",
@@ -13175,7 +13175,7 @@
   {
     "uuid": 801,
     "name": "Boots of Hazard",
-    "icon": "spr_itemicons_801.png",
+    "icon": "spr_itemicons_801",
     "category": "Boots",
     "type": "Boots",
     "rarity": "Legendary",
@@ -13194,7 +13194,7 @@
   {
     "uuid": 802,
     "name": "Fungimancer's Loop",
-    "icon": "spr_itemicons_802.png",
+    "icon": "spr_itemicons_802",
     "category": "Ring",
     "type": "Ring",
     "rarity": "Legendary",
@@ -13213,7 +13213,7 @@
   {
     "uuid": 803,
     "name": "Grimm",
-    "icon": "spr_itemicons_803.png",
+    "icon": "spr_itemicons_803",
     "flavor": "Fear the reaper.",
     "category": "Weapon",
     "type": "Staff",
@@ -13235,7 +13235,7 @@
   {
     "uuid": 804,
     "name": "Simulacra",
-    "icon": "spr_itemicons_804.png",
+    "icon": "spr_itemicons_804",
     "category": "Weapon",
     "type": "Staff",
     "rarity": "True Legendary",
@@ -13256,7 +13256,7 @@
   {
     "uuid": 805,
     "name": "Haymaker",
-    "icon": "spr_itemicons_805.png",
+    "icon": "spr_itemicons_805",
     "category": "Weapon",
     "type": "Fists",
     "rarity": "True Legendary",
@@ -13277,7 +13277,7 @@
   {
     "uuid": 806,
     "name": "The Last Word",
-    "icon": "spr_itemicons_806.png",
+    "icon": "spr_itemicons_806",
     "category": "Weapon",
     "type": "Fists",
     "rarity": "True Legendary",
@@ -13298,7 +13298,7 @@
   {
     "uuid": 807,
     "name": "Aspect of the Ethereal",
-    "icon": "spr_itemicons_807.png",
+    "icon": "spr_itemicons_807",
     "category": "Ring",
     "type": "Ring",
     "rarity": "True Legendary",
@@ -13318,10 +13318,10 @@
   {
     "uuid": 808,
     "name": "Contra",
-    "icon": "spr_itemicons_808.png",
+    "icon": "spr_itemicons_808",
     "flavor": "The best defense is a good offense.",
     "category": "Offhand",
-    "type": "Shield ",
+    "type": "Shield",
     "rarity": "True Legendary",
     "classRestriction": "Templar",
     "minLevel": 100,
@@ -13340,7 +13340,7 @@
   {
     "uuid": 809,
     "name": "Venerata",
-    "icon": "spr_itemicons_809.png",
+    "icon": "spr_itemicons_809",
     "flavor": "The honored blade.",
     "category": "Weapon",
     "type": "Sword",
@@ -13362,10 +13362,10 @@
   {
     "uuid": 810,
     "name": "Ancient Claw of The Firstborn",
-    "icon": "spr_itemicons_810.png",
+    "icon": "spr_itemicons_810",
     "flavor": "The bloodline remains strong.",
     "category": "Offhand",
-    "type": "Claw ",
+    "type": "Claw",
     "rarity": "True Legendary",
     "classRestriction": "Berserker",
     "minLevel": 100,
@@ -13382,7 +13382,7 @@
   {
     "uuid": 811,
     "name": "Prayer Beads",
-    "icon": "spr_itemicons_811.png",
+    "icon": "spr_itemicons_811",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "True Legendary",
@@ -13401,7 +13401,7 @@
   {
     "uuid": 812,
     "name": "Talisman of Spines",
-    "icon": "spr_itemicons_812.png",
+    "icon": "spr_itemicons_812",
     "flavor": "Pointy.",
     "category": "Amulet",
     "type": "Amulet",
@@ -13421,7 +13421,7 @@
   {
     "uuid": 813,
     "name": "Crown of Innate Probability",
-    "icon": "spr_itemicons_813.png",
+    "icon": "spr_itemicons_813",
     "flavor": "New possibilities arise.",
     "category": "Helmet",
     "type": "Helm",
@@ -13441,7 +13441,7 @@
   {
     "uuid": 814,
     "name": "Mantle of the Dragonkin",
-    "icon": "spr_itemicons_814.png",
+    "icon": "spr_itemicons_814",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "True Legendary",
@@ -13460,7 +13460,7 @@
   {
     "uuid": 817,
     "name": "Cosmic Cape",
-    "icon": "spr_itemicons_817.png",
+    "icon": "spr_itemicons_817",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "True Legendary",
@@ -13479,7 +13479,7 @@
   {
     "uuid": 818,
     "name": "Primordial Rose",
-    "icon": "spr_itemicons_818.png",
+    "icon": "spr_itemicons_818",
     "category": "Ring",
     "type": "Ring",
     "rarity": "True Legendary",
@@ -13498,7 +13498,7 @@
   {
     "uuid": 819,
     "name": "Rimeheart",
-    "icon": "spr_itemicons_819.png",
+    "icon": "spr_itemicons_819",
     "category": "Ring",
     "type": "Ring",
     "rarity": "Legendary",
@@ -13517,7 +13517,7 @@
   {
     "uuid": 820,
     "name": "Frozen Anger",
-    "icon": "spr_itemicons_820.png",
+    "icon": "spr_itemicons_820",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Legendary",
@@ -13536,7 +13536,7 @@
   {
     "uuid": 821,
     "name": "Paingrinder",
-    "icon": "spr_itemicons_821.png",
+    "icon": "spr_itemicons_821",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Legendary",
@@ -13555,7 +13555,7 @@
   {
     "uuid": 822,
     "name": "Drakehoof",
-    "icon": "spr_itemicons_822.png",
+    "icon": "spr_itemicons_822",
     "category": "Boots",
     "type": "Boots",
     "rarity": "Legendary",
@@ -13574,7 +13574,7 @@
   {
     "uuid": 823,
     "name": "Gemstone Tiara",
-    "icon": "spr_itemicons_823.png",
+    "icon": "spr_itemicons_823",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
@@ -13593,7 +13593,7 @@
   {
     "uuid": 824,
     "name": "Stormchasers",
-    "icon": "spr_itemicons_824.png",
+    "icon": "spr_itemicons_824",
     "category": "Boots",
     "type": "Boots",
     "rarity": "True Legendary",
@@ -13612,7 +13612,7 @@
   {
     "uuid": 825,
     "name": "Faith",
-    "icon": "spr_itemicons_825.png",
+    "icon": "spr_itemicons_825",
     "category": "Amulet",
     "type": "Amulet",
     "rarity": "Legendary",
@@ -13630,7 +13630,7 @@
   {
     "uuid": 826,
     "name": "Contender",
-    "icon": "spr_itemicons_826.png",
+    "icon": "spr_itemicons_826",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
@@ -13648,7 +13648,7 @@
   {
     "uuid": 827,
     "name": "Sniper's Eye",
-    "icon": "spr_itemicons_827.png",
+    "icon": "spr_itemicons_827",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
@@ -13667,7 +13667,7 @@
   {
     "uuid": 828,
     "name": "Runelord's Remorse",
-    "icon": "spr_itemicons_828.png",
+    "icon": "spr_itemicons_828",
     "flavor": "Drops on Heroic difficulty or higher, on level 100",
     "description": "Can be transmuted with Runed items to destroy the Rune",
     "category": "Craft",
@@ -13681,7 +13681,7 @@
   {
     "uuid": 829,
     "name": "Prismatic Liquid",
-    "icon": "spr_itemicons_829.png",
+    "icon": "spr_itemicons_829",
     "flavor": "Drops on Heroic difficulty or higher, on level 100",
     "description": "Can be transmuted with items containing a Prismatic Socket to remove the socket",
     "category": "Craft",
@@ -13695,7 +13695,7 @@
   {
     "uuid": 830,
     "name": "Heart of The Community",
-    "icon": "spr_itemicons_830.png",
+    "icon": "spr_itemicons_830",
     "flavor": "A special gift to a great community",
     "category": "Accessory",
     "type": "Accessory",

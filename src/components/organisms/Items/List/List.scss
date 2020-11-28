@@ -1,3 +1,20 @@
 .o-itemsList {
   width: 100%;
+
+  .o-item__container {
+    background: var(--color-background-darkest-brown);
+    min-height: 50px;
+    border-bottom: 1px solid var(--color-element-darkest-blue);
+
+    &:nth-child(2n) {
+      background: var(--color-background-darker-brown);
+    }
+
+  }
+
+  &__noItem {
+    font-size: var(--font-big);
+    padding: 34px;
+    text-align: center;
+  }
 }

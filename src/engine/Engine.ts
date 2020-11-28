@@ -7,7 +7,7 @@ import EngineItems from './Items';
 
 type Version = string;
 
-interface DataInterface {
+export interface DataInterface {
   items: Item[];
   enchants: Enchant[];
   sets: ItemSet[];
@@ -18,7 +18,7 @@ interface DataInterface {
 /* Singleton */
 export default class Engine {
   public version!: Version;
-  private data?: DataInterface;
+  public data?: DataInterface;
 
   public Items!: EngineItems;
   // public readonly Enchants!: EngineEnchants;
@@ -42,6 +42,6 @@ export default class Engine {
   }
 
   public async loadData() {
-    this.data = await import(`./data/${this.version}/extracts`);
+    this.data = (await import(`./data/${this.version}/extracts`)).default;
   }
 }

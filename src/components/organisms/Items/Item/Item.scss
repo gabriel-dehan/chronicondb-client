@@ -1,0 +1,58 @@
+.o-item__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.o-item {
+  width: 70%;
+  padding: 18px 18px 0 18px;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+
+    &-content {
+      display: flex;
+    }
+
+    &-title {
+      margin-left: 18px;
+    }
+
+    &-req {
+      display: flex;
+      flex-direction: column;
+      width: 80px;
+    }
+  }
+
+  &__name {
+    font-size: var(--font-big);
+    font-family: 'Philosopher';
+    margin: 0 0 4px 0;
+  }
+
+  &__rarity {
+    font-size: var(--font-normal);
+    font-weight: normal;
+    margin: 0;
+  }
+
+  &__content {
+    border-top: 1px solid rgba(51, 44, 29, 0.5);
+    margin: 18px 10px 18px 50px;
+    padding: 18px 0;
+  }
+
+  &__set {
+    color: var(--color-element-beige);
+    background-color: var(--color-background-mid-brown);
+    margin: 0 -18px;
+    padding: 14px 68px;
+  }
+}
+
+.o-item__enchants {
+  width: 30%;
+  background-color: var(--color-background-dark-brown);
+}

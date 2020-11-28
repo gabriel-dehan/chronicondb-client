@@ -22,7 +22,7 @@ interface Stores {
 }
 
 const Main: FunctionComponent =  () => {
-  const engine = useEngine('main');
+  const engine = useEngine();
   const { filtersStore } = useStores<Stores>(DataStore.Filters);
   const [engineLoaded, setEngineLoaded] = useState(engine.loaded);
 

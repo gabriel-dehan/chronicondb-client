@@ -12,15 +12,15 @@ import { ItemCategory, ItemType } from 'types/Item.types';
 import './Categories.scss';
 
 const Categories: FunctionComponent = () => {
-  const Engine = useEngine('Categories');
+  const Engine = useEngine();
   const [filters, setFilters] = useFilters<ItemsFilters>(FiltersType.Items);
 
-  const { Items: { categories, typesByCategories } } = Engine;
-  const defaultCategory = (filters.category ?? categories[0]) as ItemCategory;
-  const defaultType = (filters.type ?? typesByCategories[defaultCategory][0]) as ItemType;
+  const { Items: { typesByCategories, defaultCategory, defaultType } } = Engine;
+  const baseCategory = (filters.category ?? defaultCategory) as ItemCategory;
+  const baseType = (filters.type ?? defaultType) as ItemType;
 
-  const [selectedCategory, setSelectedCategory] = useState<ItemCategory>(defaultCategory);
-  const [selectedType, setSelectedType] = useState<ItemType>(defaultType);
+  const [selectedCategory, setSelectedCategory] = useState<ItemCategory>(baseCategory);
+  const [selectedType, setSelectedType] = useState<ItemType>(baseType);
 
   return (
     <ul className="o-categories">
