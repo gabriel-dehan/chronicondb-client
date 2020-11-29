@@ -1,4 +1,4 @@
-import { compact, capitalize } from 'lodash';
+import { compact, capitalize, uniq } from 'lodash';
 
 import { Enchant, EnchantRanges, EnchantRangeBoundary, EnchantType, EnchantCategory } from '../../types/Enchant.types';
 import { Item, ItemRarity } from '../../types/Item.types';
@@ -40,7 +40,9 @@ export function parseEnchants(version: string, verbose = false): Enchant[] {
     const ranges = parseRanges(rawRanges, category);
     const type = capitalize(rawType.replace(/\(|\)/g, '')) as EnchantType;
     const affixes = getAffixes(uuid, locale);
+    const description = locale[uuid].txt;
     const items = findItems(uuid, itemsData);
+    const skills = findSkills(description);
 
     const enchant = {
       uuid,
@@ -48,9 +50,10 @@ export function parseEnchants(version: string, verbose = false): Enchant[] {
       category,
       type,
       affixes,
-      description: locale[uuid].txt,
+      description,
       ranges,
       items,
+      skills,
     };
 
     if (verbose) {
@@ -143,6 +146,11 @@ function findItems(uuid: number, items: Item[]): number[] {
   return items
     .filter(item => item.baseEnchants.includes(uuid))
     .map(item => item.uuid);
+}
+
+function findSkills(description: string): number[] | undefined {
+  const skillsMatches = [...description.matchAll(/<SKILL_(\d+)>/g)].map(m => parseInt(m[1]));
+  return skillsMatches.length > 0 ? uniq(skillsMatches) : undefined;
 }
 
 function parseLocale(version: string): EnchantsLocaleData {

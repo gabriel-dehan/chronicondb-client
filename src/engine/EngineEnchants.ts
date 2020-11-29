@@ -56,17 +56,23 @@ export default class EngineEnchants {
 
   /* Private utils */
   private enchantsToRawEnchants(rarity: ItemRarity, enchantsIds: number[]): SimpleEnchant[] {
-    const { enchants } = this.data;
+    const { enchants, skills } = this.data;
 
     return compact(
       enchantsIds.map(enchantId => enchants.find(e => e.uuid === enchantId))
     ).map((enchant) => {
       const ranges = enchant.ranges[rarity];
+
       return {
         name: enchant.name,
         description: enchant.description,
         min: ranges.minimum,
         max: ranges.cap,
+        skills: enchant.skills?.reduce((memo: Record<number, string>, skillId) => {
+          const skill = skills.find(s => s.uuid === skillId);
+          memo[skillId] = skill?.name || 'Unknown Skill';
+          return memo;
+        }, {}),
       };
     });
   }

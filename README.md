@@ -57,6 +57,9 @@ There you go, chronicondb is now up to date.
 ## Roadmap
 
 - [ ] Responsive minimum
+- [ ] Do not display the divider for item content if there is no content at all
+- [ ] Order by REQ LVL
+- [ ] Skill links react-router
 - [ ] Handle Sets in rarity filter
 - [ ] Fix header overflow
 - [ ] Runes possible enchants

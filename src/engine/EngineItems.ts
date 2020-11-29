@@ -2,7 +2,7 @@ import { ITEM_TYPES_BY_CATEGORIES } from 'engine/data/dataMappings';
 import { allEnumValues } from 'helpers/typeUtils';
 import { CharacterClass } from 'types/Character.types';
 import { ItemsFilters } from 'types/Filters.types';
-import { ItemCategory, ItemType, Item } from 'types/Item.types';
+import { ItemCategory, ItemType, Item, ItemRarity } from 'types/Item.types';
 
 import Engine, { DataInterface } from './Engine';
 
@@ -85,8 +85,13 @@ export default class EngineItems {
 
   private filterByRarities(items: Item[], filters: ItemsFilters) {
     // If we have a category and it's a category that should not be affected by rarity
-    if (filters.category && FILTER_UNAFFECTED_CATEGORIES.includes(filters.category)) {
-      return items;
+    if ((filters.category && FILTER_UNAFFECTED_CATEGORIES.includes(filters.category))) {
+      // Don't return mythical items anyway if it is unselected
+      if (!filters.rarities?.includes(ItemRarity.Mythical)) {
+        return items.filter(item => item.rarity !== ItemRarity.Mythical);
+      } else {
+        return items;
+      }
     }
 
     // For all others categories, filter by rarity

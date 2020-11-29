@@ -20,7 +20,7 @@ const Item: FunctionComponent<Props> = ({
   const Engine = useEngine();
   const itemEnchants = useMemo(() => Engine.Enchants.getItemEnchantsSlots(item), [item]);
 
-  console.log(itemEnchants);
+  // console.log(itemEnchants);
 
   return (
     <div className="o-item__container">
@@ -66,6 +66,11 @@ const Item: FunctionComponent<Props> = ({
               </div>
             </div>
           }
+          {item.flavor && (
+            <div className="o-item__flavor">
+              {item.flavor}
+            </div>
+          )}
         </div>
         {item.set && (
           <div className="o-item__set">

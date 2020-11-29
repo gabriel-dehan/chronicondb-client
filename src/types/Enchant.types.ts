@@ -9,8 +9,8 @@ export interface Enchant {
   description: string;
   ranges: EnchantRanges;
   items: number[];
+  skills?: number[];
 }
-
 
 export interface EnchantRanges {
   [ItemRarity.Ordinary]: EnchantRangeBoundary;
@@ -48,6 +48,7 @@ export interface SimpleEnchant {
   description: string;
   min: number;
   max: number;
+  skills?: Record<number, string>;
 }
 
 export interface ItemEnchantSlot{
