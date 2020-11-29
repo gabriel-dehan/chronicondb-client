@@ -1,4 +1,4 @@
-import React, { FunctionComponent, useEffect, useState } from 'react';
+import React, { FunctionComponent, useEffect, useState, useRef } from 'react';
 import { Router } from 'react-router';
 import { Redirect, Route, Switch } from 'react-router-dom';
 
@@ -24,6 +24,7 @@ interface Stores {
 const Main: FunctionComponent =  () => {
   const engine = useEngine();
   const { filtersStore } = useStores<Stores>(DataStore.Filters);
+  const history = useRef(createBrowserHistory());
   const [engineLoaded, setEngineLoaded] = useState(engine.loaded);
 
   useEffect(() => {
@@ -41,7 +42,7 @@ const Main: FunctionComponent =  () => {
   }, []);
 
   return (
-    <Router history={createBrowserHistory()}>
+    <Router history={history.current}>
       <ScrollToTop />
       <Layout>
         <Switch>
