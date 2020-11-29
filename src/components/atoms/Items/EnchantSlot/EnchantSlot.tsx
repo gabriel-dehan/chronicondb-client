@@ -1,7 +1,5 @@
 import React, { FunctionComponent } from 'react';
 
-import { types } from 'util';
-
 import { ItemEnchantSlot, EnchantType } from 'types/Enchant.types';
 import { Item } from 'types/Item.types';
 

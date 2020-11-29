@@ -3,6 +3,7 @@ import React, { FunctionComponent, useMemo } from 'react';
 import { camelCase } from 'lodash';
 
 import GameIcon, { GameIconType } from 'components/atoms/GameIcon/GameIcon';
+import AppliedEnchant from 'components/atoms/Items/AppliedEnchant/AppliedEnchant';
 import EnchantSlot from 'components/atoms/Items/EnchantSlot/EnchantSlot';
 import useEngine from 'hooks/useEngine';
 import { Item as ItemInterface, ItemType } from 'types/Item.types';
@@ -50,29 +51,21 @@ const Item: FunctionComponent<Props> = ({
             </span>
           </div>
         </div>
-        <div className="o-item__enchantSlots__container">
-          {itemEnchants && (
-            <ul className="o-item__enchantSlots">
-              {itemEnchants.enchantSlots?.map((slot, index) => {
-                return !slot.categoriesRestriction || slot.categoriesRestriction.includes(item.category) ?
-                  (
-                    <EnchantSlot
-                      key={`${item.uuid}-eslot-${index}`}
-                      item={item}
-                      enchantSlot={slot}
-                    />
-                  ) : (
-                    null
-                  );
-              })}
-              {[ItemType.Helm, ItemType.Armor, ItemType.Boots].includes(item.type) &&
-                <li className="o-item__enchantSlots-replace">
-                  <em className="o-item__enchantSlots-replace-chance">25%</em> chance to replace 1 <em style={{ color: 'var(--color-enchant-major)' }}>Major</em> with 1 <em style={{ color: 'var(--color-enchant-epic)' }}>Epic</em>
-                </li>
-              }
-
-            </ul>
+        <div className="o-item__content">
+          {item.description && (
+            <div className="o-item__description">
+              {item.description}
+            </div>
           )}
+          {itemEnchants &&
+            <div className="o-item__enchants">
+              {renderBaseEnchants()}
+              <div className="o-item__enchants__slotsContainer">
+                {renderFixedEnchants()}
+                {renderEnchantsSlots()}
+              </div>
+            </div>
+          }
         </div>
         {item.set && (
           <div className="o-item__set">
@@ -80,11 +73,58 @@ const Item: FunctionComponent<Props> = ({
           </div>
         )}
       </div>
-      <div className="o-item__enchants">
+      <div className="o-item__possibleEnchants">
         Enchants
       </div>
     </div>
   );
+
+  function renderBaseEnchants() {
+    return itemEnchants && itemEnchants.baseEnchants?.length > 0 && (
+      <ul className="o-item__enchants__base">
+        {itemEnchants.baseEnchants?.map((enchant, index) => (
+          <AppliedEnchant
+            key={`${item.uuid}-ebase-${index}`}
+            enchant={enchant}
+          />
+        ))}
+      </ul>
+    );
+  }
+
+  function renderFixedEnchants() {
+    return itemEnchants && (
+      <ul className="o-item__enchants__fixed">
+        {itemEnchants.fixedEnchants?.map((enchant, index) => (
+          <AppliedEnchant
+            key={`${item.uuid}-fbase-${index}`}
+            enchant={enchant}
+          />
+        ))}
+      </ul>
+    );
+  }
+
+  function renderEnchantsSlots() {
+    return itemEnchants && (
+      <ul className="o-item__enchants__slots">
+        {itemEnchants.enchantSlots?.map((slot, index) => {
+          return (!slot.categoriesRestriction || slot.categoriesRestriction.includes(item.category)) && (
+            <EnchantSlot
+              key={`${item.uuid}-eslot-${index}`}
+              item={item}
+              enchantSlot={slot}
+            />
+          );
+        })}
+        {[ItemType.Helm, ItemType.Armor, ItemType.Boots].includes(item.type) &&
+          <li className="o-item__enchants__slots-replace">
+            <em className="o-item__enchants__slots-replace-chance">25%</em> chance to replace 1 <em style={{ color: 'var(--color-enchant-major)' }}>Major</em> with 1 <em style={{ color: 'var(--color-enchant-epic)' }}>Epic</em>
+          </li>
+        }
+      </ul>
+    );
+  }
 };
 
 export default Item;

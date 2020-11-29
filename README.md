@@ -59,6 +59,7 @@ There you go, chronicondb is now up to date.
 - [ ] Responsive minimum
 - [ ] Handle Sets in rarity filter
 - [ ] Fix header overflow
+- [ ] Runes possible enchants
 - [x] Auto add version to versions file
 - [x] Layout
 - [ ] Items

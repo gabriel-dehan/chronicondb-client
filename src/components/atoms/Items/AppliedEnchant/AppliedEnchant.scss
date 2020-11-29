@@ -1,0 +1,8 @@
+.a-appliedEnchant {
+  list-style: none;
+
+  &__min, &__max {
+    font-style: normal;
+    color: var(--color-element-light-blue);
+  }
+}

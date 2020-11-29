@@ -1,6 +1,7 @@
 .o-item__container {
   display: flex;
   justify-content: space-between;
+  color: var(--color-element-beige);
 }
 
 .o-item {
@@ -17,6 +18,7 @@
 
     &-title {
       margin-left: 18px;
+      color: var(--color-element-light-beige);
     }
 
     &-req {
@@ -38,21 +40,50 @@
     margin: 0;
   }
 
-  &__enchantSlots {
-    list-style: none;
+  &__content {
     border-top: 1px solid rgba(51, 44, 29, 0.5);
     margin: 18px 10px 18px 50px;
-    padding: 18px 0;
+    padding: 18px 0 0 0;
+  }
 
-    &-replace {
-      em {
-        font-style: normal;
-        font-weight: bold;
-      }
+  &__description {
+    margin-bottom: 8px;
+  }
 
-      &-chance {
-        font-weight: normal !important;
-        color: var(--color-element-light-blue);
+  &__enchants {
+    display: flex;
+
+    li {
+      padding-top: 2  px;
+    }
+
+    &__base {
+      margin-right: 60px;
+      width: 35%;
+    }
+
+    &__fixed {
+      margin-bottom: 10px;
+    }
+
+    &__slotsContainer {
+      width: 65%;
+    }
+
+    &__slots {
+      list-style: none;
+
+      &-replace {
+        padding-top: 5px;
+        em {
+          font-style: normal;
+          font-weight: bold;
+        }
+
+        &-chance {
+          font-weight: 600 !important;
+          color: var(--color-element-light-beige);
+        }
       }
     }
   }
@@ -65,7 +96,7 @@
   }
 }
 
-.o-item__enchants {
+.o-item__possibleEnchants {
   width: 30%;
   background-color: var(--color-background-dark-brown);
 }

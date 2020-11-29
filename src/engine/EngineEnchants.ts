@@ -1,4 +1,4 @@
-import { compact } from 'lodash';
+import { compact, isEmpty } from 'lodash';
 
 import { ENCHANT_SLOTS_BY_RARITY } from 'engine/data/dataMappings';
 // import enchantsPool from 'engine/data/enchantsPool.json';
@@ -40,11 +40,15 @@ export default class EngineEnchants {
       const fixedEnchants = this.enchantsToRawEnchants(item.rarity, item.fixedEnchants);
       const baseEnchants = this.enchantsToRawEnchants(item.rarity, item.baseEnchants);
 
-      return {
-        enchantSlots,
-        fixedEnchants,
-        baseEnchants,
-      };
+      if (isEmpty(enchantSlots) && isEmpty(fixedEnchants) && isEmpty(baseEnchants)) {
+        return null;
+      } else {
+        return {
+          enchantSlots,
+          fixedEnchants,
+          baseEnchants,
+        };
+      }
     }
 
     return null;
@@ -60,6 +64,7 @@ export default class EngineEnchants {
       const ranges = enchant.ranges[rarity];
       return {
         name: enchant.name,
+        description: enchant.description,
         min: ranges.minimum,
         max: ranges.cap,
       };
