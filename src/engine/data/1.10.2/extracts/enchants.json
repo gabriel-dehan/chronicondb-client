@@ -1,5 +1,2903 @@
 [
   {
+    "uuid": 562,
+    "name": "Gem Block Chance",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% Extra Block Chance (Templar Only)",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 3,
+        "maximum": 3,
+        "cap": 3,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 561,
+    "name": "Gem Evasion",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% Evasion",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 3,
+        "maximum": 3,
+        "cap": 3,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 4,
+        "maximum": 4,
+        "cap": 4,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 560,
+    "name": "Gem Chain Lightning",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "On hit: 25% chance to cause Chain Lightning for AMOUNT% Lightning damage",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 35,
+        "maximum": 35,
+        "cap": 35,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 50,
+        "maximum": 50,
+        "cap": 50,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 100,
+        "maximum": 100,
+        "cap": 100,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 100,
+        "maximum": 100,
+        "cap": 100,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 100,
+        "maximum": 100,
+        "cap": 100,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 100,
+        "maximum": 100,
+        "cap": 100,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 559,
+    "name": "Gem Pickup Radius",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% Pickup Radius",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 20,
+        "maximum": 20,
+        "cap": 20,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 20,
+        "maximum": 20,
+        "cap": 20,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 20,
+        "maximum": 20,
+        "cap": 20,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 20,
+        "maximum": 20,
+        "cap": 20,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 558,
+    "name": "Gem Lightning Resistance",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% Lightning Resistance",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 3,
+        "maximum": 3,
+        "cap": 3,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 557,
+    "name": "Gem Attack Speed",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% Attack Speed",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 2,
+        "maximum": 2,
+        "cap": 2,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 4,
+        "maximum": 4,
+        "cap": 4,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 8,
+        "maximum": 8,
+        "cap": 8,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 8,
+        "maximum": 8,
+        "cap": 8,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 8,
+        "maximum": 8,
+        "cap": 8,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 8,
+        "maximum": 8,
+        "cap": 8,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 556,
+    "name": "Gem Lightning Damage",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% Lightning Damage",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 555,
+    "name": "Gem Movement Speed",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% Movement Speed",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 7,
+        "maximum": 7,
+        "cap": 7,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 554,
+    "name": "Gem Cooldown Reduction",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% Cooldown Reduction",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 3,
+        "maximum": 3,
+        "cap": 3,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 4,
+        "maximum": 4,
+        "cap": 4,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 553,
+    "name": "Gem Minimum Rage",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT minimum Rage (Berserker Only)",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 3,
+        "maximum": 3,
+        "cap": 3,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 8,
+        "maximum": 8,
+        "cap": 8,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 8,
+        "maximum": 8,
+        "cap": 8,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 8,
+        "maximum": 8,
+        "cap": 8,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 8,
+        "maximum": 8,
+        "cap": 8,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 552,
+    "name": "Gem Chill when hurt",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "When hurt: AMOUNT% chance to Chill attackers, slowing them by 50% for 5 seconds",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 25,
+        "maximum": 25,
+        "cap": 25,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 25,
+        "maximum": 25,
+        "cap": 25,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 25,
+        "maximum": 25,
+        "cap": 25,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 25,
+        "maximum": 25,
+        "cap": 25,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 551,
+    "name": "Gem Frost damage on Hit",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "Damage foes hit for AMOUNT% Frost damage instantly",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 25,
+        "maximum": 25,
+        "cap": 25,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 35,
+        "maximum": 35,
+        "cap": 35,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 80,
+        "maximum": 80,
+        "cap": 80,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 80,
+        "maximum": 80,
+        "cap": 80,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 80,
+        "maximum": 80,
+        "cap": 80,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 80,
+        "maximum": 80,
+        "cap": 80,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 550,
+    "name": "Gem Mana Regeneration",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% Mana Regeneration",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 20,
+        "maximum": 20,
+        "cap": 20,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 20,
+        "maximum": 20,
+        "cap": 20,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 20,
+        "maximum": 20,
+        "cap": 20,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 20,
+        "maximum": 20,
+        "cap": 20,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 549,
+    "name": "Gem Frost Resistance",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% Frost Resistance",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 3,
+        "maximum": 3,
+        "cap": 3,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 548,
+    "name": "Gem Chill on Hit",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "On hit: AMOUNT% chance to apply a Chill effect, slowing foes by 50% for up to 3 seconds",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 25,
+        "maximum": 25,
+        "cap": 25,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 40,
+        "maximum": 40,
+        "cap": 40,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 40,
+        "maximum": 40,
+        "cap": 40,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 40,
+        "maximum": 40,
+        "cap": 40,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 40,
+        "maximum": 40,
+        "cap": 40,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 547,
+    "name": "Gem Frost Damage",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% Frost Damage",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 546,
+    "name": "Gem Mana",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% Mana",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 4,
+        "cap": 4,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 8,
+        "maximum": 8,
+        "cap": 8,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 545,
+    "name": "Gem Mana on Hit",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% increased Mana on hit",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 30,
+        "maximum": 30,
+        "cap": 30,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 30,
+        "maximum": 30,
+        "cap": 30,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 30,
+        "maximum": 30,
+        "cap": 30,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 30,
+        "maximum": 30,
+        "cap": 30,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 544,
+    "name": "Gem Maximum Rage",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT maximum Rage (Berserker Only)",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 8,
+        "maximum": 8,
+        "cap": 8,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 12,
+        "maximum": 12,
+        "cap": 12,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 12,
+        "maximum": 12,
+        "cap": 12,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 12,
+        "maximum": 12,
+        "cap": 12,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 12,
+        "maximum": 12,
+        "cap": 12,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 543,
+    "name": "Gem Burn when hurt",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "When hurt: 5% chance to Burn attackers for AMOUNT% Fire damage per second for 3 seconds",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 25,
+        "maximum": 25,
+        "cap": 25,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 50,
+        "maximum": 50,
+        "cap": 50,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 100,
+        "maximum": 100,
+        "cap": 100,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 100,
+        "maximum": 100,
+        "cap": 100,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 100,
+        "maximum": 100,
+        "cap": 100,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 100,
+        "maximum": 100,
+        "cap": 100,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 542,
+    "name": "Gem Fire on hit",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "On hit: Deal AMOUNT% Fire damage instantly and per second, for 3 seconds",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 35,
+        "maximum": 35,
+        "cap": 35,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 50,
+        "maximum": 50,
+        "cap": 50,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 100,
+        "maximum": 100,
+        "cap": 100,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 100,
+        "maximum": 100,
+        "cap": 100,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 100,
+        "maximum": 100,
+        "cap": 100,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 100,
+        "maximum": 100,
+        "cap": 100,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 541,
+    "name": "Gem Health Regeneration",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% Health Regeneration",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 20,
+        "maximum": 20,
+        "cap": 20,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 20,
+        "maximum": 20,
+        "cap": 20,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 20,
+        "maximum": 20,
+        "cap": 20,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 20,
+        "maximum": 20,
+        "cap": 20,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 540,
+    "name": "Gem Fire Resistance",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% Fire Resistance",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 3,
+        "maximum": 3,
+        "cap": 3,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 539,
+    "name": "Gem Critical Hit Chance",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% Critical Hit Chance",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 2,
+        "maximum": 2,
+        "cap": 2,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 4,
+        "maximum": 4,
+        "cap": 4,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 8,
+        "maximum": 8,
+        "cap": 8,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 8,
+        "maximum": 8,
+        "cap": 8,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 8,
+        "maximum": 8,
+        "cap": 8,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 8,
+        "maximum": 8,
+        "cap": 8,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 538,
+    "name": "Gem Fire Damage",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% Fire Damage",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 537,
+    "name": "Gem Maximum Health",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% Maximum Health",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 3,
+        "maximum": 3,
+        "cap": 3,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 6,
+        "maximum": 6,
+        "cap": 6,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 536,
+    "name": "Gem Health on Hit",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% increased Health on hit",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 20,
+        "maximum": 20,
+        "cap": 20,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 20,
+        "maximum": 20,
+        "cap": 20,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 20,
+        "maximum": 20,
+        "cap": 20,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 20,
+        "maximum": 20,
+        "cap": 20,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 535,
+    "name": "Gem Magic Find",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% Magic find",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 25,
+        "maximum": 25,
+        "cap": 25,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 25,
+        "maximum": 25,
+        "cap": 25,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 25,
+        "maximum": 25,
+        "cap": 25,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 25,
+        "maximum": 25,
+        "cap": 25,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 534,
+    "name": "Gem Companion Damage",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% Companion Damage",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 25,
+        "maximum": 25,
+        "cap": 25,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 50,
+        "maximum": 50,
+        "cap": 50,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 50,
+        "maximum": 50,
+        "cap": 50,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 50,
+        "maximum": 50,
+        "cap": 50,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 50,
+        "maximum": 50,
+        "cap": 50,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 533,
+    "name": "Gem Holy on Hit",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "On hit: Deal AMOUNT% Holy damage instantly",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 25,
+        "maximum": 25,
+        "cap": 25,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 35,
+        "maximum": 35,
+        "cap": 35,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 80,
+        "maximum": 80,
+        "cap": 80,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 80,
+        "maximum": 80,
+        "cap": 80,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 80,
+        "maximum": 80,
+        "cap": 80,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 80,
+        "maximum": 80,
+        "cap": 80,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 532,
+    "name": "Gem Light Radius",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% Light Radius",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 20,
+        "maximum": 20,
+        "cap": 20,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 20,
+        "maximum": 20,
+        "cap": 20,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 20,
+        "maximum": 20,
+        "cap": 20,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 20,
+        "maximum": 20,
+        "cap": 20,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 531,
+    "name": "Gem Holy Resistance",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% Holy Resistance",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 3,
+        "maximum": 3,
+        "cap": 3,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 530,
+    "name": "Gem Stun on Hit",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "On hit: AMOUNT% chance to Stun for up to 3 seconds",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 2,
+        "maximum": 2,
+        "cap": 2,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 529,
+    "name": "Gem Holy Damage",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% Holy Damage",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 528,
+    "name": "Gem Pickup Strength",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% Pickup Strength",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 527,
+    "name": "Gem Reach",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% Reach",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 3,
+        "maximum": 3,
+        "cap": 3,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 526,
+    "name": "Gem Bleed Damage",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% Bleed Damage",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 25,
+        "maximum": 25,
+        "cap": 25,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 25,
+        "maximum": 25,
+        "cap": 25,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 25,
+        "maximum": 25,
+        "cap": 25,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 25,
+        "maximum": 25,
+        "cap": 25,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 525,
+    "name": "Gem Soul Duration",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% Soul Duration (Warlock Only)",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 30,
+        "maximum": 30,
+        "cap": 30,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 30,
+        "maximum": 30,
+        "cap": 30,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 30,
+        "maximum": 30,
+        "cap": 30,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 30,
+        "maximum": 30,
+        "cap": 30,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 524,
+    "name": "Gem Bleed on Hit",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "On hit: Deal AMOUNT% Bleed damage instantly and per second, for 3 seconds",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 35,
+        "maximum": 35,
+        "cap": 35,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 50,
+        "maximum": 50,
+        "cap": 50,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 100,
+        "maximum": 100,
+        "cap": 100,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 100,
+        "maximum": 100,
+        "cap": 100,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 100,
+        "maximum": 100,
+        "cap": 100,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 100,
+        "maximum": 100,
+        "cap": 100,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 523,
+    "name": "Gem Companion Health",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% Companion Health",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 25,
+        "maximum": 25,
+        "cap": 25,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 25,
+        "maximum": 25,
+        "cap": 25,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 25,
+        "maximum": 25,
+        "cap": 25,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 25,
+        "maximum": 25,
+        "cap": 25,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 522,
+    "name": "Gem Physical Resistance",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% Physical Resistance",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 3,
+        "maximum": 3,
+        "cap": 3,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 521,
+    "name": "Gem Knockback Chance",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% Knockback Chance",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 8,
+        "maximum": 8,
+        "cap": 8,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 520,
+    "name": "Gem Physical Damage",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% Physical Damage",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 519,
+    "name": "Gem Thorns",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% Thorns",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 7,
+        "maximum": 7,
+        "cap": 7,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 12,
+        "maximum": 12,
+        "cap": 12,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 20,
+        "maximum": 20,
+        "cap": 20,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 20,
+        "maximum": 20,
+        "cap": 20,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 20,
+        "maximum": 20,
+        "cap": 20,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 20,
+        "maximum": 20,
+        "cap": 20,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 518,
+    "name": "Gem Damage",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% Damage",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 3,
+        "maximum": 3,
+        "cap": 3,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 8,
+        "maximum": 8,
+        "cap": 8,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 8,
+        "maximum": 8,
+        "cap": 8,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 8,
+        "maximum": 8,
+        "cap": 8,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 8,
+        "maximum": 8,
+        "cap": 8,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 517,
+    "name": "Gem Damage Blocked",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% Extra Damage Blocked (Templar Only)",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 3,
+        "maximum": 3,
+        "cap": 3,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 516,
+    "name": "Gem Poison when hurt",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "When hurt: 5% chance to poison attackers for AMOUNT% Poison damage per second for 3 seconds",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 25,
+        "maximum": 25,
+        "cap": 25,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 50,
+        "maximum": 50,
+        "cap": 50,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 100,
+        "maximum": 100,
+        "cap": 100,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 100,
+        "maximum": 100,
+        "cap": 100,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 100,
+        "maximum": 100,
+        "cap": 100,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 100,
+        "maximum": 100,
+        "cap": 100,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 515,
+    "name": "Gem Poison on Hit",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "On hit: Deal AMOUNT% Poison damage instantly and per second, for 5 seconds",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 35,
+        "maximum": 35,
+        "cap": 35,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 50,
+        "maximum": 50,
+        "cap": 50,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 100,
+        "maximum": 100,
+        "cap": 100,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 100,
+        "maximum": 100,
+        "cap": 100,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 100,
+        "maximum": 100,
+        "cap": 100,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 100,
+        "maximum": 100,
+        "cap": 100,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 514,
+    "name": "Gem Bonus Experience",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% Bonus Experience",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 7,
+        "maximum": 7,
+        "cap": 7,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 513,
+    "name": "Gem Poison Resistance",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% Poison Resistance",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 3,
+        "maximum": 3,
+        "cap": 3,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 512,
+    "name": "Gem Mana Cost Reduction",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% Mana Cost Reduction",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 3,
+        "maximum": 3,
+        "cap": 3,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 511,
+    "name": "Gem Poison Damage",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% Poison Damage",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 510,
+    "name": "Gem Effect Duration",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% Effect Duration",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 7,
+        "maximum": 7,
+        "cap": 7,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 509,
+    "name": "Gem Overpower",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% Overpower",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 3,
+        "maximum": 3,
+        "cap": 3,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 508,
+    "name": "Gem Chance to steal Souls",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% chance to steal Souls (Warlock Only)",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 20,
+        "maximum": 20,
+        "cap": 20,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 20,
+        "maximum": 20,
+        "cap": 20,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 20,
+        "maximum": 20,
+        "cap": 20,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 20,
+        "maximum": 20,
+        "cap": 20,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 507,
+    "name": "Gem Fear when hurt",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "When hurt: AMOUNT% chance to cause attackers to run away in fear for up to 3 seconds",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 4,
+        "cap": 4,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 8,
+        "maximum": 8,
+        "cap": 8,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 506,
+    "name": "Gem Shadow on Hit",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "On hit: Deal AMOUNT% Shadow damage instantly and per second, for 5 seconds",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 35,
+        "maximum": 35,
+        "cap": 35,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 50,
+        "maximum": 50,
+        "cap": 50,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 100,
+        "maximum": 100,
+        "cap": 100,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 100,
+        "maximum": 100,
+        "cap": 100,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 100,
+        "maximum": 100,
+        "cap": 100,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 100,
+        "maximum": 100,
+        "cap": 100,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 505,
+    "name": "Gem Potion Effectiveness",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% Potion Effectiveness",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 20,
+        "maximum": 20,
+        "cap": 20,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 20,
+        "maximum": 20,
+        "cap": 20,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 20,
+        "maximum": 20,
+        "cap": 20,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 20,
+        "maximum": 20,
+        "cap": 20,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 504,
+    "name": "Gem Shadow Resistance",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% Shadow Resistance",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 3,
+        "maximum": 3,
+        "cap": 3,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 503,
+    "name": "Gem Fear on Hit",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "On hit: AMOUNT% chance to cause foes to run away in Fear for up to 3 seconds",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 2,
+        "maximum": 2,
+        "cap": 2,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 502,
+    "name": "Gem Shadow Damage",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% Shadow Damage",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 501,
+    "name": "Gem Bonus Crystals",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% Bonus Crystals",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 10,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 20,
+        "maximum": 20,
+        "cap": 20,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 20,
+        "maximum": 20,
+        "cap": 20,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 20,
+        "maximum": 20,
+        "cap": 20,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 20,
+        "maximum": 20,
+        "cap": 20,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
+    "uuid": 500,
+    "name": "Gem Critical Hit Damage",
+    "category": "Gem",
+    "type": "Gem",
+    "description": "+AMOUNT% Critical Hit Damage",
+    "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 0
+      },
+      "Enchanted": {
+        "minimum": 8,
+        "maximum": 8,
+        "cap": 8,
+        "greaterCap": 0
+      },
+      "Rare": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      },
+      "Unique": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      },
+      "Legendary": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      },
+      "True Legendary": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 0
+      }
+    },
+    "items": []
+  },
+  {
     "uuid": 1,
     "name": "Health",
     "category": "Enchant",
@@ -17936,7 +20834,7 @@
   {
     "uuid": 1200,
     "name": "Multishot",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of Multishot",
@@ -17986,7 +20884,7 @@
   {
     "uuid": 1201,
     "name": "Slicing",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Slicing",
@@ -18036,7 +20934,7 @@
   {
     "uuid": 1202,
     "name": "Rage Smash",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Smashing",
@@ -18086,7 +20984,7 @@
   {
     "uuid": 1203,
     "name": "Cursed Blood",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of Cursed Blood",
@@ -18136,7 +21034,7 @@
   {
     "uuid": 1204,
     "name": "Rolling Thunder",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of Rolling Thunder",
@@ -18186,7 +21084,7 @@
   {
     "uuid": 1205,
     "name": "Mega Charged",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Mega Charged",
@@ -18236,7 +21134,7 @@
   {
     "uuid": 1206,
     "name": "Boomspore",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Boomspore",
@@ -18286,7 +21184,7 @@
   {
     "uuid": 1207,
     "name": "Infinite Ruin",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of Infinite Ruin",
@@ -18336,7 +21234,7 @@
   {
     "uuid": 1208,
     "name": "Scorching Blaze",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Scorching",
@@ -18386,7 +21284,7 @@
   {
     "uuid": 1209,
     "name": "Dragon Stomp",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Stompin'",
@@ -18436,7 +21334,7 @@
   {
     "uuid": 1210,
     "name": "Chained Focus",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of Chained Focus",
@@ -18486,7 +21384,7 @@
   {
     "uuid": 1211,
     "name": "Demonic Fury",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of Demonic Fury",
@@ -18536,7 +21434,7 @@
   {
     "uuid": 1212,
     "name": "Storming Hammers",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of Storming Hammers",
@@ -18586,7 +21484,7 @@
   {
     "uuid": 1213,
     "name": "Infinite Rolls",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of Infinite Rolls",
@@ -18636,7 +21534,7 @@
   {
     "uuid": 1214,
     "name": "Shardstorm",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Shardstorm",
@@ -18686,7 +21584,7 @@
   {
     "uuid": 1215,
     "name": "Reaping",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Reaping",
@@ -18736,7 +21634,7 @@
   {
     "uuid": 1216,
     "name": "Blazing Hammers",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of Blazing Hammers",
@@ -18786,7 +21684,7 @@
   {
     "uuid": 1217,
     "name": "Phantom Shield",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Phantom's",
@@ -18836,7 +21734,7 @@
   {
     "uuid": 1218,
     "name": "Barbed Revenge",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of Barbed Revenge",
@@ -18886,7 +21784,7 @@
   {
     "uuid": 1219,
     "name": "Static Repulse",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of Static Repulse",
@@ -18936,7 +21834,7 @@
   {
     "uuid": 1220,
     "name": "The Living Forest",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of the Living Forest",
@@ -18986,7 +21884,7 @@
   {
     "uuid": 1221,
     "name": "Bramble Burst",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Bramble Burst",
@@ -19036,7 +21934,7 @@
   {
     "uuid": 1222,
     "name": "Thorn Veil",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Thorn Veil",
@@ -19086,7 +21984,7 @@
   {
     "uuid": 1223,
     "name": "Split Thunder",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of Split Thunder",
@@ -19136,7 +22034,7 @@
   {
     "uuid": 1226,
     "name": "Poison Trees",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of Poison Trees",
@@ -19186,7 +22084,7 @@
   {
     "uuid": 1227,
     "name": "Light's Aura",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Light's",
@@ -19236,7 +22134,7 @@
   {
     "uuid": 1228,
     "name": "Hallowed Grace",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of Hallowed Grace",
@@ -19286,7 +22184,7 @@
   {
     "uuid": 1229,
     "name": "Hydrarage",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Hydrarage",
@@ -19336,7 +22234,7 @@
   {
     "uuid": 1230,
     "name": "Embershield",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Embershield",
@@ -19386,7 +22284,7 @@
   {
     "uuid": 1231,
     "name": "Companion Mobility",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of Companion Mobility",
@@ -19436,7 +22334,7 @@
   {
     "uuid": 1232,
     "name": "Lethal Mobility",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of Lethal Mobility",
@@ -19486,7 +22384,7 @@
   {
     "uuid": 1233,
     "name": "Shattering Impact",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of Shattering Impact",
@@ -19536,7 +22434,7 @@
   {
     "uuid": 1234,
     "name": "Dragonthorn",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Dragonthorn",
@@ -19586,7 +22484,7 @@
   {
     "uuid": 1235,
     "name": "Hard Knocks",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of Hard Knocks",
@@ -19636,7 +22534,7 @@
   {
     "uuid": 1236,
     "name": "Released Heritage",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of Released Heritage",
@@ -19686,7 +22584,7 @@
   {
     "uuid": 1237,
     "name": "Ravenous Winds",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of Ravenous Winds",
@@ -19736,7 +22634,7 @@
   {
     "uuid": 1238,
     "name": "The Fierce Avenger",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of The Fierce Avenger",
@@ -19786,7 +22684,7 @@
   {
     "uuid": 1239,
     "name": "Critical Thorns",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of Critical Thorns",
@@ -19836,7 +22734,7 @@
   {
     "uuid": 1240,
     "name": "Chilled Blood",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of Chilled Blood",
@@ -19886,7 +22784,7 @@
   {
     "uuid": 1241,
     "name": "Infected Wounds",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of Infected Wounds",
@@ -19936,7 +22834,7 @@
   {
     "uuid": 1242,
     "name": "Winter's Chill",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of Winter's Chill",
@@ -19986,7 +22884,7 @@
   {
     "uuid": 1243,
     "name": "Curse of Thorns",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of Thorned Curses",
@@ -20036,7 +22934,7 @@
   {
     "uuid": 1244,
     "name": "Exoskeleton",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Exoskeleton",
@@ -20086,7 +22984,7 @@
   {
     "uuid": 1245,
     "name": "The Reckoning Hand",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of the Reckoning Hand",
@@ -20136,7 +23034,7 @@
   {
     "uuid": 1246,
     "name": "Warped Banes",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of Warped Banes",
@@ -20186,7 +23084,7 @@
   {
     "uuid": 1247,
     "name": "Foul Demon",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Foul",
@@ -20236,7 +23134,7 @@
   {
     "uuid": 1248,
     "name": "Rapid Plague",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Plagued",
@@ -20286,7 +23184,7 @@
   {
     "uuid": 1249,
     "name": "Shattered Spirits",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Shattered",
@@ -20336,7 +23234,7 @@
   {
     "uuid": 1250,
     "name": "Wisp Blast",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Wisp Blast",
@@ -20386,7 +23284,7 @@
   {
     "uuid": 1251,
     "name": "Burning Lightning",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of Burning Lightning",
@@ -20436,7 +23334,7 @@
   {
     "uuid": 1252,
     "name": "Greater Hail",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of Greater Hail",
@@ -20486,7 +23384,7 @@
   {
     "uuid": 1253,
     "name": "Trap Throw",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Trap Throwing",
@@ -20536,7 +23434,7 @@
   {
     "uuid": 1254,
     "name": "Advanced Toxicology",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of Advanced Toxicology",
@@ -20586,7 +23484,7 @@
   {
     "uuid": 1255,
     "name": "Pulverize",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Pulverizing",
@@ -20636,7 +23534,7 @@
   {
     "uuid": 1256,
     "name": "Boulderfist",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Boulderfist",
@@ -20686,7 +23584,7 @@
   {
     "uuid": 1257,
     "name": "Retaliating Companions",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of Retaliating Companions",
@@ -20736,7 +23634,7 @@
   {
     "uuid": 1258,
     "name": "Rapid Pyre",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Rapid Pyre",
@@ -20786,7 +23684,7 @@
   {
     "uuid": 1259,
     "name": "Bloodscent",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Bloodscent",
@@ -20836,7 +23734,7 @@
   {
     "uuid": 1260,
     "name": "Warp Echo",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Warp Echo",
@@ -20886,7 +23784,7 @@
   {
     "uuid": 1261,
     "name": "Great Storms",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Storming",
@@ -20936,7 +23834,7 @@
   {
     "uuid": 1262,
     "name": "Assertion",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Assertive",
@@ -20986,7 +23884,7 @@
   {
     "uuid": 1263,
     "name": "Simplicity",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Simple",
@@ -21036,7 +23934,7 @@
   {
     "uuid": 1264,
     "name": "Grand Reprisal",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Grand Reprisal",
@@ -21086,7 +23984,7 @@
   {
     "uuid": 1265,
     "name": "The Dragon Flame",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Dragonflame",
@@ -21136,7 +24034,7 @@
   {
     "uuid": 1266,
     "name": "Potency",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Potent",
@@ -21186,7 +24084,7 @@
   {
     "uuid": 1267,
     "name": "Frozen Graves",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of Frozen Graves",
@@ -21236,7 +24134,7 @@
   {
     "uuid": 1268,
     "name": "The Devouring Star",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of The Devouring Star",
@@ -21286,7 +24184,7 @@
   {
     "uuid": 1269,
     "name": "Wolfcaster",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Wolfcaster",
@@ -21336,7 +24234,7 @@
   {
     "uuid": 1270,
     "name": "Swelling Pods",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Swelling",
@@ -21386,7 +24284,7 @@
   {
     "uuid": 1271,
     "name": "Norla's Gale",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Norla's",
@@ -21436,7 +24334,7 @@
   {
     "uuid": 1272,
     "name": "Barraging Acrobatics",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Barraging",
@@ -21486,7 +24384,7 @@
   {
     "uuid": 1273,
     "name": "Mega Wisp",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Mega",
@@ -21536,7 +24434,7 @@
   {
     "uuid": 1274,
     "name": "Sparking Static",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Sparking",
@@ -21586,7 +24484,7 @@
   {
     "uuid": 1275,
     "name": "The Bombardier",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Bombardier's",
@@ -21636,7 +24534,7 @@
   {
     "uuid": 1276,
     "name": "Relentless Assault",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Relentless",
@@ -21686,7 +24584,7 @@
   {
     "uuid": 1277,
     "name": "The Sentry",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of The Sentry",
@@ -21736,7 +24634,7 @@
   {
     "uuid": 1278,
     "name": "Total Armageddon",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of Total Armageddon",
@@ -21786,7 +24684,7 @@
   {
     "uuid": 1279,
     "name": "Instant Combustion",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of Instant Combustion",
@@ -21836,7 +24734,7 @@
   {
     "uuid": 1280,
     "name": "Putrefying Poisons",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Putrefying",
@@ -21886,7 +24784,7 @@
   {
     "uuid": 1281,
     "name": "Blood Explosion",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of Blood Explosion",
@@ -21936,7 +24834,7 @@
   {
     "uuid": 1282,
     "name": "Rage Peak",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of Rage Peak",
@@ -21986,7 +24884,7 @@
   {
     "uuid": 1283,
     "name": "Winter Rage",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of Winter Rage",
@@ -22036,7 +24934,7 @@
   {
     "uuid": 1284,
     "name": "The Blue Bolt",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of The Blue Bolt",
@@ -22086,7 +24984,7 @@
   {
     "uuid": 1285,
     "name": "Soulstorm",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Soulstorm",
@@ -22136,7 +25034,7 @@
   {
     "uuid": 1286,
     "name": "Bouncing Throws",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Bouncy",
@@ -22186,7 +25084,7 @@
   {
     "uuid": 1287,
     "name": "Splitting Throws",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Splitting",
@@ -22236,7 +25134,7 @@
   {
     "uuid": 1288,
     "name": "Ancestral Rage",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Ancestral",
@@ -22286,7 +25184,7 @@
   {
     "uuid": 1289,
     "name": "Targeted Destruction",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of Targeted Destruction",
@@ -22336,7 +25234,7 @@
   {
     "uuid": 1290,
     "name": "Holy Chains",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of Holy Chains",
@@ -22386,7 +25284,7 @@
   {
     "uuid": 1291,
     "name": "Provocation",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of Provocation",
@@ -22436,7 +25334,7 @@
   {
     "uuid": 1292,
     "name": "Polished Gems",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of Polished Gems",
@@ -22486,7 +25384,7 @@
   {
     "uuid": 1293,
     "name": "Holy Expulsion",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of Holy Expulsion",
@@ -22536,7 +25434,7 @@
   {
     "uuid": 1294,
     "name": "Thundering Avatars",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of Thundering Avatars",
@@ -22586,7 +25484,7 @@
   {
     "uuid": 1295,
     "name": "Brutal Attacks",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "Brutal",
@@ -22636,7 +25534,7 @@
   {
     "uuid": 1296,
     "name": "Greatness",
-    "category": "Gem",
+    "category": "Rune",
     "type": "Legendary",
     "affixes": [
       "of Greatness",

@@ -1,8 +1,8 @@
-import { compact, capitalize } from 'lodash';
+import { compact, capitalize, min } from 'lodash';
 
 import { Enchant, EnchantRanges, EnchantRangeBoundary, EnchantType, EnchantCategory } from '../../types/Enchant.types';
 import { Item, ItemRarity } from '../../types/Item.types';
-import { readSourceFile, readExtractFile, writeFile } from '../utils/fileUtils';
+import { readSourceFile, readInjectedSourceFile, readExtractFile, writeFile } from '../utils/fileUtils';
 import { getLocaleSection, parseLocaleData, LocaleData } from './parseLocale';
 
 interface EnchantsLocaleData {
@@ -20,7 +20,10 @@ export function parseEnchants(version: string, verbose = false): Enchant[] {
     throw `ERROR: src/engine/data/${version}/extracts/items.json could not be found. Generate the file before parsing the enchants.`;
   }
 
-  const rawEnchants = compact(readSourceFile(version, 'enchantlist.txt').split(/\n|\r/));
+  const rawItemsEnchants = compact(readSourceFile(version, 'enchantlist.txt').split(/\n|\r/));
+  const rawGemEnchants = compact(readInjectedSourceFile(version, 'gemenchantlist.txt').split(/\n|\r/));
+  const rawEnchants = [...rawGemEnchants, ...rawItemsEnchants];
+
   const locales = parseLocale(version);
   const localesByCategory = {
     [EnchantCategory.Power]: locales.powerLocales,
@@ -34,7 +37,7 @@ export function parseEnchants(version: string, verbose = false): Enchant[] {
     const uuid = parseInt(id);
     const category = findCategory(uuid, locales);
     const locale = localesByCategory[category];
-    const ranges = parseRanges(rawRanges);
+    const ranges = parseRanges(rawRanges, category);
     const type = capitalize(rawType.replace(/\(|\)/g, '')) as EnchantType;
     const affixes = getAffixes(uuid, locale);
     const items = findItems(uuid, itemsData);
@@ -77,11 +80,11 @@ function findCategory(uuid: number, locales: EnchantsLocaleData): EnchantCategor
   return EnchantCategory.Enchant;
 }
 
-function parseRanges(ranges: string): EnchantRanges {
+function parseRanges(ranges: string, category: EnchantCategory): EnchantRanges {
   // Gives us the order in which rarities are defined in `minimumByRarity`, `maximumByRarity`, etc...
-  const rarities = [ItemRarity.Enchanted, ItemRarity.Rare, ItemRarity.Unique, ItemRarity.Legendary, ItemRarity.TrueLegendary];
-  // TODO:
-  const gemRarities = [ItemRarity.Ordinary, ItemRarity.Enchanted, ItemRarity.Rare];
+  const rarities = category === EnchantCategory.Gem ?
+    [ItemRarity.Ordinary, ItemRarity.Enchanted, ItemRarity.Rare] :
+    [ItemRarity.Enchanted, ItemRarity.Rare, ItemRarity.Unique, ItemRarity.Legendary, ItemRarity.TrueLegendary];
 
   const [
     minimumByRarity,
@@ -96,7 +99,6 @@ function parseRanges(ranges: string): EnchantRanges {
     );
 
   const boundariesForRarity = (rarity: ItemRarity): EnchantRangeBoundary => {
-    // TODO: is Gem use gemRarities
     const rarityIndex = rarities.indexOf(rarity);
 
     return {
@@ -107,26 +109,26 @@ function parseRanges(ranges: string): EnchantRanges {
     };
   };
 
-  // TODO: Is gem
-  /* s
-  return {
-    [ItemRarity.Ordinary]: boundariesForRarity(ItemRarity.Ordinary),
-    [ItemRarity.Enchanted]: boundariesForRarity(ItemRarity.Enchanted),
-    [ItemRarity.Rare]: boundariesForRarity(ItemRarity.Rare),
-    [ItemRarity.Unique]: boundariesForRarity(ItemRarity.Rare),
-    [ItemRarity.Legendary]: boundariesForRarity(ItemRarity.Rare),
-    [ItemRarity.TrueLegendary]: boundariesForRarity(ItemRarity.Rare),
-  };
-  */
-
-  return {
-    [ItemRarity.Ordinary]: boundariesForRarity(ItemRarity.Enchanted),
-    [ItemRarity.Enchanted]: boundariesForRarity(ItemRarity.Enchanted),
-    [ItemRarity.Rare]: boundariesForRarity(ItemRarity.Rare),
-    [ItemRarity.Unique]: boundariesForRarity(ItemRarity.Unique),
-    [ItemRarity.Legendary]: boundariesForRarity(ItemRarity.Legendary),
-    [ItemRarity.TrueLegendary]: boundariesForRarity(ItemRarity.TrueLegendary),
-  };
+  // Gems only have Ordinary - Enchanted - Rare.
+  if (category === EnchantCategory.Gem) {
+    return {
+      [ItemRarity.Ordinary]: boundariesForRarity(ItemRarity.Ordinary),
+      [ItemRarity.Enchanted]: boundariesForRarity(ItemRarity.Enchanted),
+      [ItemRarity.Rare]: boundariesForRarity(ItemRarity.Rare),
+      [ItemRarity.Unique]: boundariesForRarity(ItemRarity.Rare),
+      [ItemRarity.Legendary]: boundariesForRarity(ItemRarity.Rare),
+      [ItemRarity.TrueLegendary]: boundariesForRarity(ItemRarity.Rare),
+    };
+  } else {
+    return {
+      [ItemRarity.Ordinary]: boundariesForRarity(ItemRarity.Enchanted),
+      [ItemRarity.Enchanted]: boundariesForRarity(ItemRarity.Enchanted),
+      [ItemRarity.Rare]: boundariesForRarity(ItemRarity.Rare),
+      [ItemRarity.Unique]: boundariesForRarity(ItemRarity.Unique),
+      [ItemRarity.Legendary]: boundariesForRarity(ItemRarity.Legendary),
+      [ItemRarity.TrueLegendary]: boundariesForRarity(ItemRarity.TrueLegendary),
+    };
+  }
 }
 
 function getAffixes(uuid: number, locale: LocaleData): string[] | undefined {
@@ -150,8 +152,8 @@ function parseLocale(version: string): EnchantsLocaleData {
 
   const powerLocales = parseLocaleData(localePowerData, parser);
   const enchantLocales = parseLocaleData(localeEnchantData, parser);
-  const runesLocales = parseLocaleData(localeGemsData, parser);
-  const gemsLocales = parseLocaleData(localeRunesData, parser);
+  const runesLocales = parseLocaleData(localeRunesData, parser);
+  const gemsLocales = parseLocaleData(localeGemsData, parser);
 
   return {
     powerLocales,

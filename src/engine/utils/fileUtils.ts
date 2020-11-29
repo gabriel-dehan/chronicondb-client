@@ -14,6 +14,11 @@ export function readSourceFile(version: string, fileName: string): string {
   return fs.readFileSync(absolutePath).toString();
 }
 
+export function readInjectedSourceFile(version: string, fileName: string): string {
+  const absolutePath = path.resolve(__dirname, `../data/injected/${fileName}`);
+  return fs.readFileSync(absolutePath).toString();
+}
+
 export function readExtractFile(version: string, fileName: string): string {
   const absolutePath = path.resolve(__dirname, `../data/${version}/extracts/${fileName}.json`);
   return fs.readFileSync(absolutePath).toString();
