@@ -19,6 +19,7 @@ export interface EnchantRanges {
   [ItemRarity.Unique]: EnchantRangeBoundary;
   [ItemRarity.Legendary]: EnchantRangeBoundary;
   [ItemRarity.TrueLegendary]: EnchantRangeBoundary;
+  [ItemRarity.Mythical]: EnchantRangeBoundary;
 }
 
 export interface EnchantRangeBoundary {

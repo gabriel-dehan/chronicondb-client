@@ -16,7 +16,7 @@ import './Filters.scss';
 const Filters: FunctionComponent = () => {
   const [filters, setFilters] = useFilters<ItemsFilters>(FiltersType.Items);
 
-  const raritiesOptions: MultiselectOption[] = allEnumValues(ItemRarity).map(rarity => ({
+  const raritiesOptions: MultiselectOption[] = [...allEnumValues(ItemRarity), ...['Set']].map(rarity => ({
     label: rarity,
     value: rarity,
     color: `var(--color-item-${camelCase(rarity)})`,
@@ -35,7 +35,7 @@ const Filters: FunctionComponent = () => {
         onChange={search => setFilters({ search })}
       />
       <Multiselect
-        defaultValues={filters.rarities ? filters.rarities : [ItemRarity.Unique, ItemRarity.Legendary, ItemRarity.TrueLegendary, ItemRarity.Set]}
+        defaultValues={filters.rarities ? filters.rarities : [ItemRarity.Unique, ItemRarity.Legendary, ItemRarity.TrueLegendary, 'Set']}
         options={raritiesOptions}
         onChange={onRaritiesSelect}
       />

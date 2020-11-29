@@ -1,5 +1,3 @@
-import Item from 'components/organisms/Items/Item/Item';
-
 import { CharacterClass } from '../../types/Character.types';
 import { EnchantType, ItemEnchantSlot } from '../../types/Enchant.types';
 import { ItemCategory, SetId, ItemType, ItemRarity } from '../../types/Item.types';
@@ -15,78 +13,6 @@ export const EnchantableCategories: ItemCategory[] = [
   ItemCategory.Offhand,
   ItemCategory.Weapon,
 ];
-
-// export const GEM_ENCHANTS_RANGES_BY_RARITY: Partial<Record<ItemRarity, ItemRarity>> = {
-//   [ItemRarity.Ordinary]: ItemRarity.Enchanted,
-//   [ItemRarity.Enchanted]: ItemRarity.Unique,
-//   [ItemRarity.Rare]: ItemRarity.TrueLegendary,
-// };
-
-// export const GEM_ENCHANTS_MAP: Record<number, number> = {
-//   562: 98,
-//   561: 121,
-//   560: 109,
-//   559: 26,
-//   558: 37,
-//   557: 5,
-//   556: 42,
-//   555: 4,
-//   554: 50,
-//   553: 103, // Berserker only
-//   552: ,
-//   551: Damage foes hit for AMOUNT% Frost damage instantly,
-//   550: +AMOUNT% Mana Regeneration,
-//   549: +AMOUNT% Frost Resistance,
-//   548: On hit: AMOUNT% chance to apply a Chill effect, slowing foes by 50% for up to 3 seconds,
-//   547: +AMOUNT% Frost Damage,
-//   546: +AMOUNT% Mana,
-//   545: +AMOUNT% increased Mana on hit,
-//   544: +AMOUNT maximum Rage (Berserker Only),
-//   543: When hurt: 5% chance to Burn attackers for AMOUNT% Fire damage per second for 3 seconds,
-//   542: On hit: Deal AMOUNT% Fire damage instantly and per second, for 3 seconds,
-//   541: +AMOUNT% Health Regeneration,
-//   540: +AMOUNT% Fire Resistance,
-//   539: +AMOUNT% Critical Hit Chance,
-//   538: +AMOUNT% Fire Damage,
-//   537: +AMOUNT% Maximum Health,
-//   536: +AMOUNT% increased Health on hit,
-//   535: +AMOUNT% Magic find,
-//   534: +AMOUNT% Companion Damage,
-//   533: On hit: Deal AMOUNT% Holy damage instantly,
-//   532: +AMOUNT% Light Radius,
-//   531: +AMOUNT% Holy Resistance,
-//   530: On hit: AMOUNT% chance to Stun for up to 3 seconds,
-//   529: +AMOUNT% Holy Damage,
-//   528: +AMOUNT% Pickup Strength,
-//   527: +AMOUNT% Reach,
-//   526: +AMOUNT% Bleed Damage,
-//   525: +AMOUNT% Soul Duration (Warlock Only),
-//   524: On hit: Deal AMOUNT% Bleed damage instantly and per second, for 3 seconds,
-//   523: +AMOUNT% Companion Health,
-//   522: +AMOUNT% Physical Resistance,
-//   521: +AMOUNT% Knockback Chance,
-//   520: +AMOUNT% Physical Damage,
-//   519: +AMOUNT% Thorns,
-//   518: +AMOUNT% Damage,
-//   517: +AMOUNT% Extra Damage Blocked (Templar Only),
-//   516: When hurt: 5% chance to poison attackers for AMOUNT% Poison damage per second for 3 seconds,
-//   515: On hit: Deal AMOUNT% Poison damage instantly and per second, for 5 seconds,
-//   514: +AMOUNT% Bonus Experience,
-//   513: +AMOUNT% Poison Resistance,
-//   512: +AMOUNT% Mana Cost Reduction,
-//   511: +AMOUNT% Poison Damage,
-//   510: +AMOUNT% Effect Duration,
-//   509: +AMOUNT% Overpower,
-//   508: +AMOUNT% chance to steal Souls (Warlock Only),
-//   507: When hurt: AMOUNT% chance to cause attackers to run away in fear for up to 3 seconds,
-//   506: On hit: Deal AMOUNT% Shadow damage instantly and per second, for 5 seconds,
-//   505: +AMOUNT% Potion Effectiveness,
-//   504: +AMOUNT% Shadow Resistance,
-//   503: On hit: AMOUNT% chance to cause foes to run away in Fear for up to 3 seconds,
-//   502: +AMOUNT% Shadow Damage,
-//   501: +AMOUNT% Bonus Crystals,
-//   500: +AMOUNT% Critical Hit Damage,
-// };
 
 export const ENCHANT_SLOTS_BY_RARITY: Record<ItemRarity, ItemEnchantSlot[]> = {
   [ItemRarity.Ordinary]: [],
@@ -165,7 +91,6 @@ export const ENCHANT_SLOTS_BY_RARITY: Record<ItemRarity, ItemEnchantSlot[]> = {
       categoriesRestriction: EpicEnchantableCategories,
     },
   ],
-  [ItemRarity.Set]: [],
   [ItemRarity.Mythical]: [],
 };
 

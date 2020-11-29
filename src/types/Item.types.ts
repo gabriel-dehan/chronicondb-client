@@ -30,7 +30,6 @@ export enum ItemRarity {
   Unique = 'Unique',
   Legendary = 'Legendary',
   TrueLegendary = 'True Legendary',
-  Set = 'Set',
   Mythical = 'Mythical'
 }
 

@@ -3,7 +3,8 @@ import { Enchant } from 'types/Enchant.types';
 import { Item, ItemSet } from 'types/Item.types';
 import { Skill, SkillTree } from 'types/Skill.types';
 
-import EngineItems from './Items';
+import EngineEnchants from './EngineEnchants';
+import EngineItems from './EngineItems';
 
 type Version = string;
 
@@ -21,12 +22,13 @@ export default class Engine {
   public data?: DataInterface;
 
   public Items!: EngineItems;
-  // public readonly Enchants!: EngineEnchants;
+  public readonly Enchants!: EngineEnchants;
   // public readonly Skills!: EngineSkills;
 
   constructor(version: Version) {
     this.version = version;
     this.Items = new EngineItems(this);
+    this.Enchants = new EngineEnchants(this);
   }
 
   public get loaded(): boolean {

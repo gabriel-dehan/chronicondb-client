@@ -1,12 +1,8 @@
-import { compact } from 'lodash';
-
-import { ITEM_TYPES_BY_CATEGORIES, ENCHANT_SLOTS_BY_RARITY } from 'engine/data/dataMappings';
-import enchantsPool from 'engine/data/enchantsPool.json';
+import { ITEM_TYPES_BY_CATEGORIES } from 'engine/data/dataMappings';
 import { allEnumValues } from 'helpers/typeUtils';
 import { CharacterClass } from 'types/Character.types';
-import { ItemEnchantSlots, SimpleEnchant } from 'types/Enchant.types';
 import { ItemsFilters } from 'types/Filters.types';
-import { ItemCategory, ItemType, ItemRarity, Item } from 'types/Item.types';
+import { ItemCategory, ItemType, Item } from 'types/Item.types';
 
 import Engine, { DataInterface } from './Engine';
 
@@ -27,6 +23,17 @@ export default class EngineItems {
     this.engine = engine;
     this.categories = allEnumValues(ItemCategory);
     this.typesByCategories = ITEM_TYPES_BY_CATEGORIES;
+  }
+
+  /* Methods */
+  public all(filters: ItemsFilters): Item[] {
+    let items = this.items;
+
+    items = this.filterByTypeAndCategory(items, filters);
+    items = this.filterByClass(items, filters);
+    items = this.filterByRarities(items, filters);
+
+    return items;
   }
 
   /* Getters */
@@ -50,52 +57,7 @@ export default class EngineItems {
     return this.typesByCategories[this.defaultCategory][0];
   }
 
-  /* Methods */
-  public all(filters: ItemsFilters): Item[] {
-    let items = this.items;
-
-    items = this.filterByTypeAndCategory(items, filters);
-    items = this.filterByClass(items, filters);
-    items = this.filterByRarities(items, filters);
-
-    return items;
-  }
-
-  public getEnchantsSlots(item: Item): ItemEnchantSlots | null {
-    console.log('item:', item.uuid, item.name);
-    if (this.engine.loaded && ![ItemRarity.Set].includes(item.rarity)) {
-      const enchantSlots = ENCHANT_SLOTS_BY_RARITY[item.rarity];
-      const fixedEnchants = this.enchantsToRawEnchants(item.rarity, item.fixedEnchants);
-      const baseEnchants = this.enchantsToRawEnchants(item.rarity, item.baseEnchants);
-
-      return {
-        enchantSlots,
-        fixedEnchants,
-        baseEnchants,
-      };
-    }
-
-    return null;
-  }
-
-  /* Private utils */
-  private enchantsToRawEnchants(rarity: ItemRarity, enchantsIds: number[]): SimpleEnchant[] {
-    const { enchants } = this.data;
-    console.log(enchantsIds.map(enchantId => enchants.find(e => e.uuid === enchantId)));
-    return compact(
-      enchantsIds.map(enchantId => enchants.find(e => e.uuid === enchantId))
-    ).map((enchant) => {
-      console.log('HELLO', enchant);
-      // @ts-ignore
-      const ranges = enchant.ranges[rarity];
-      return {
-        name: enchant.name,
-        min: ranges.minimum,
-        max: ranges.cap,
-      };
-    });
-  }
-
+  /* Private */
   private filterByTypeAndCategory(items: Item[], filters: ItemsFilters) {
     if (filters.category === 'Any' || filters.type === 'Any') {
       return items;

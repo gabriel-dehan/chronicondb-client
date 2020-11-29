@@ -17,7 +17,7 @@ const Item: FunctionComponent<Props> = ({
   item,
 }) => {
   const Engine = useEngine();
-  const itemEnchants = useMemo(() => Engine.Items.getEnchantsSlots(item), [item]);
+  const itemEnchants = useMemo(() => Engine.Enchants.getItemEnchantsSlots(item), [item]);
 
   console.log(itemEnchants);
 

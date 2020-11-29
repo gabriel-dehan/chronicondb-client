@@ -1,4 +1,4 @@
-import { compact, capitalize, min } from 'lodash';
+import { compact, capitalize } from 'lodash';
 
 import { Enchant, EnchantRanges, EnchantRangeBoundary, EnchantType, EnchantCategory } from '../../types/Enchant.types';
 import { Item, ItemRarity } from '../../types/Item.types';
@@ -118,6 +118,7 @@ function parseRanges(ranges: string, category: EnchantCategory): EnchantRanges {
       [ItemRarity.Unique]: boundariesForRarity(ItemRarity.Rare),
       [ItemRarity.Legendary]: boundariesForRarity(ItemRarity.Rare),
       [ItemRarity.TrueLegendary]: boundariesForRarity(ItemRarity.Rare),
+      [ItemRarity.Mythical]: boundariesForRarity(ItemRarity.Rare),
     };
   } else {
     return {
@@ -127,6 +128,7 @@ function parseRanges(ranges: string, category: EnchantCategory): EnchantRanges {
       [ItemRarity.Unique]: boundariesForRarity(ItemRarity.Unique),
       [ItemRarity.Legendary]: boundariesForRarity(ItemRarity.Legendary),
       [ItemRarity.TrueLegendary]: boundariesForRarity(ItemRarity.TrueLegendary),
+      [ItemRarity.Mythical]: boundariesForRarity(ItemRarity.TrueLegendary),
     };
   }
 }
