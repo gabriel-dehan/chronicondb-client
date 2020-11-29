@@ -3,13 +3,14 @@ import React, { FunctionComponent, useMemo } from 'react';
 import { camelCase } from 'lodash';
 
 import GameIcon, { GameIconType } from 'components/atoms/GameIcon/GameIcon';
+import EnchantSlot from 'components/atoms/Items/EnchantSlot/EnchantSlot';
 import useEngine from 'hooks/useEngine';
-import { Item as ItemType } from 'types/Item.types';
+import { Item as ItemInterface, ItemType } from 'types/Item.types';
 
 import './Item.scss';
 
 interface Props {
-  item: ItemType,
+  item: ItemInterface,
 }
 
 const Item: FunctionComponent<Props> = ({
@@ -19,6 +20,7 @@ const Item: FunctionComponent<Props> = ({
   const itemEnchants = useMemo(() => Engine.Items.getEnchantsSlots(item), [item]);
 
   console.log(itemEnchants);
+
   return (
     <div className="o-item__container">
       <div className="o-item">
@@ -48,8 +50,29 @@ const Item: FunctionComponent<Props> = ({
             </span>
           </div>
         </div>
-        <div className="o-item__content">
-          CONTENT
+        <div className="o-item__enchantSlots__container">
+          {itemEnchants && (
+            <ul className="o-item__enchantSlots">
+              {itemEnchants.enchantSlots?.map((slot, index) => {
+                return !slot.categoriesRestriction || slot.categoriesRestriction.includes(item.category) ?
+                  (
+                    <EnchantSlot
+                      key={`${item.uuid}-eslot-${index}`}
+                      item={item}
+                      enchantSlot={slot}
+                    />
+                  ) : (
+                    null
+                  );
+              })}
+              {[ItemType.Helm, ItemType.Armor, ItemType.Boots].includes(item.type) &&
+                <li className="o-item__enchantSlots-replace">
+                  <em className="o-item__enchantSlots-replace-chance">25%</em> chance to replace 1 <em style={{ color: 'var(--color-enchant-major)' }}>Major</em> with 1 <em style={{ color: 'var(--color-enchant-epic)' }}>Epic</em>
+                </li>
+              }
+
+            </ul>
+          )}
         </div>
         {item.set && (
           <div className="o-item__set">

@@ -10,6 +10,12 @@
     ],
     "description": "+AMOUNT Health",
     "ranges": {
+      "Ordinary": {
+        "minimum": 450,
+        "maximum": 475,
+        "cap": 500,
+        "greaterCap": 2000
+      },
       "Enchanted": {
         "minimum": 450,
         "maximum": 475,
@@ -630,6 +636,12 @@
     ],
     "description": "+AMOUNT Mana",
     "ranges": {
+      "Ordinary": {
+        "minimum": 90,
+        "maximum": 95,
+        "cap": 100,
+        "greaterCap": 800
+      },
       "Enchanted": {
         "minimum": 90,
         "maximum": 95,
@@ -1250,6 +1262,12 @@
     ],
     "description": "+AMOUNT Damage",
     "ranges": {
+      "Ordinary": {
+        "minimum": 200,
+        "maximum": 285,
+        "cap": 200,
+        "greaterCap": 1500
+      },
       "Enchanted": {
         "minimum": 200,
         "maximum": 285,
@@ -1870,6 +1888,12 @@
     ],
     "description": "+AMOUNT% Movement Speed",
     "ranges": {
+      "Ordinary": {
+        "minimum": 2,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 20
+      },
       "Enchanted": {
         "minimum": 2,
         "maximum": 5,
@@ -1914,6 +1938,12 @@
     ],
     "description": "+AMOUNT% Attack Speed",
     "ranges": {
+      "Ordinary": {
+        "minimum": 3,
+        "maximum": 6,
+        "cap": 6,
+        "greaterCap": 20
+      },
       "Enchanted": {
         "minimum": 3,
         "maximum": 6,
@@ -2065,6 +2095,12 @@
     ],
     "description": "+AMOUNT Health Regeneration",
     "ranges": {
+      "Ordinary": {
+        "minimum": 10,
+        "maximum": 11,
+        "cap": 20,
+        "greaterCap": 200
+      },
       "Enchanted": {
         "minimum": 10,
         "maximum": 11,
@@ -2109,6 +2145,12 @@
     ],
     "description": "+AMOUNT Mana Regeneration",
     "ranges": {
+      "Ordinary": {
+        "minimum": 7,
+        "maximum": 7,
+        "cap": 7,
+        "greaterCap": 110
+      },
       "Enchanted": {
         "minimum": 7,
         "maximum": 7,
@@ -2153,6 +2195,12 @@
     ],
     "description": "+AMOUNT Thorns",
     "ranges": {
+      "Ordinary": {
+        "minimum": 405,
+        "maximum": 428,
+        "cap": 500,
+        "greaterCap": 2500
+      },
       "Enchanted": {
         "minimum": 405,
         "maximum": 428,
@@ -2197,6 +2245,12 @@
     ],
     "description": "+AMOUNT Health On Hit",
     "ranges": {
+      "Ordinary": {
+        "minimum": 10,
+        "maximum": 15,
+        "cap": 10,
+        "greaterCap": 65
+      },
       "Enchanted": {
         "minimum": 10,
         "maximum": 15,
@@ -2241,6 +2295,12 @@
     ],
     "description": "+AMOUNT Mana On Hit",
     "ranges": {
+      "Ordinary": {
+        "minimum": 10,
+        "maximum": 15,
+        "cap": 10,
+        "greaterCap": 100
+      },
       "Enchanted": {
         "minimum": 10,
         "maximum": 15,
@@ -2285,6 +2345,12 @@
     ],
     "description": "+AMOUNT% Magic find",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 8,
+        "cap": 8,
+        "greaterCap": 50
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 8,
@@ -2329,6 +2395,12 @@
     ],
     "description": "+AMOUNT% Critical Hit Chance",
     "ranges": {
+      "Ordinary": {
+        "minimum": 2,
+        "maximum": 4,
+        "cap": 5,
+        "greaterCap": 20
+      },
       "Enchanted": {
         "minimum": 2,
         "maximum": 4,
@@ -2480,6 +2552,12 @@
     ],
     "description": "+AMOUNT% Knockback Chance",
     "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 10,
+        "cap": 12,
+        "greaterCap": 30
+      },
       "Enchanted": {
         "minimum": 5,
         "maximum": 10,
@@ -2524,6 +2602,12 @@
     ],
     "description": "+AMOUNT% Effect Duration",
     "ranges": {
+      "Ordinary": {
+        "minimum": 2,
+        "maximum": 3,
+        "cap": 4,
+        "greaterCap": 17
+      },
       "Enchanted": {
         "minimum": 2,
         "maximum": 3,
@@ -2568,6 +2652,12 @@
     ],
     "description": "+AMOUNT% Pickup Strength",
     "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 7,
+        "cap": 8,
+        "greaterCap": 50
+      },
       "Enchanted": {
         "minimum": 5,
         "maximum": 7,
@@ -2612,6 +2702,12 @@
     ],
     "description": "+AMOUNT% Bonus Crystals",
     "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 50
+      },
       "Enchanted": {
         "minimum": 5,
         "maximum": 10,
@@ -2656,6 +2752,12 @@
     ],
     "description": "+AMOUNT% Bonus Experience",
     "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 10,
+        "greaterCap": 50
+      },
       "Enchanted": {
         "minimum": 5,
         "maximum": 5,
@@ -2700,6 +2802,12 @@
     ],
     "description": "+AMOUNT% Crystals found and Experience gained from all sources. Thanks for being awesome! (Early Access special item)",
     "ranges": {
+      "Ordinary": {
+        "minimum": 15,
+        "maximum": 15,
+        "cap": 20,
+        "greaterCap": 20
+      },
       "Enchanted": {
         "minimum": 15,
         "maximum": 15,
@@ -2744,6 +2852,12 @@
     ],
     "description": "+AMOUNT% Pickup Radius",
     "ranges": {
+      "Ordinary": {
+        "minimum": 10,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 60
+      },
       "Enchanted": {
         "minimum": 10,
         "maximum": 15,
@@ -2788,6 +2902,12 @@
     ],
     "description": "+AMOUNT% Physical Resistance",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 6,
+        "greaterCap": 20
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -2832,6 +2952,12 @@
     ],
     "description": "Satellite: An orb of lightning circles the player, casting Chain Lightning every second, dealing AMOUNT% Lightning damage",
     "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 10,
+        "cap": 15,
+        "greaterCap": 150
+      },
       "Enchanted": {
         "minimum": 5,
         "maximum": 10,
@@ -2876,6 +3002,12 @@
     ],
     "description": "Satellite: A frost orb circles the player, casting a Frost Spear every second, dealing AMOUNT% Frost damage",
     "ranges": {
+      "Ordinary": {
+        "minimum": 10,
+        "maximum": 15,
+        "cap": 20,
+        "greaterCap": 180
+      },
       "Enchanted": {
         "minimum": 10,
         "maximum": 15,
@@ -2920,6 +3052,12 @@
     ],
     "description": "Satellite: A molten orb circles the player, casting Firebomb every second, dealing AMOUNT% Fire damage",
     "ranges": {
+      "Ordinary": {
+        "minimum": 10,
+        "maximum": 15,
+        "cap": 20,
+        "greaterCap": 165
+      },
       "Enchanted": {
         "minimum": 10,
         "maximum": 15,
@@ -2964,6 +3102,12 @@
     ],
     "description": "Satellite: A poison orb circles the player, poisoning nearby enemies for AMOUNT% Poison damage per second",
     "ranges": {
+      "Ordinary": {
+        "minimum": 10,
+        "maximum": 15,
+        "cap": 20,
+        "greaterCap": 180
+      },
       "Enchanted": {
         "minimum": 10,
         "maximum": 15,
@@ -3008,6 +3152,12 @@
     ],
     "description": "Satellite: A holy orb circles the player, casting Holy Bolt twice per second, each dealing AMOUNT% Holy damage",
     "ranges": {
+      "Ordinary": {
+        "minimum": 10,
+        "maximum": 15,
+        "cap": 20,
+        "greaterCap": 200
+      },
       "Enchanted": {
         "minimum": 10,
         "maximum": 15,
@@ -3052,6 +3202,12 @@
     ],
     "description": "Makes you immune to all knockback and pull effects",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 1
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -3096,6 +3252,12 @@
     ],
     "description": "+AMOUNT% Fire Resistance",
     "ranges": {
+      "Ordinary": {
+        "minimum": 0,
+        "maximum": 1,
+        "cap": 8,
+        "greaterCap": 30
+      },
       "Enchanted": {
         "minimum": 0,
         "maximum": 1,
@@ -3140,6 +3302,12 @@
     ],
     "description": "+AMOUNT% Frost Resistance",
     "ranges": {
+      "Ordinary": {
+        "minimum": 0,
+        "maximum": 1,
+        "cap": 8,
+        "greaterCap": 30
+      },
       "Enchanted": {
         "minimum": 0,
         "maximum": 1,
@@ -3184,6 +3352,12 @@
     ],
     "description": "+AMOUNT% Poison Resistance",
     "ranges": {
+      "Ordinary": {
+        "minimum": 0,
+        "maximum": 1,
+        "cap": 8,
+        "greaterCap": 30
+      },
       "Enchanted": {
         "minimum": 0,
         "maximum": 1,
@@ -3228,6 +3402,12 @@
     ],
     "description": "+AMOUNT% Lightning Resistance",
     "ranges": {
+      "Ordinary": {
+        "minimum": 0,
+        "maximum": 1,
+        "cap": 8,
+        "greaterCap": 30
+      },
       "Enchanted": {
         "minimum": 0,
         "maximum": 1,
@@ -3272,6 +3452,12 @@
     ],
     "description": "+AMOUNT% Holy Resistance",
     "ranges": {
+      "Ordinary": {
+        "minimum": 0,
+        "maximum": 1,
+        "cap": 8,
+        "greaterCap": 30
+      },
       "Enchanted": {
         "minimum": 0,
         "maximum": 1,
@@ -3316,6 +3502,12 @@
     ],
     "description": "+AMOUNT% Fire Damage",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 35
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -3360,6 +3552,12 @@
     ],
     "description": "+AMOUNT% Frost Damage",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 35
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -3404,6 +3602,12 @@
     ],
     "description": "+AMOUNT% Poison Damage",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 35
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -3448,6 +3652,12 @@
     ],
     "description": "+AMOUNT% Lightning Damage",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 35
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -3492,6 +3702,12 @@
     ],
     "description": "+AMOUNT% Holy Damage",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 35
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -3536,6 +3752,12 @@
     ],
     "description": "+AMOUNT% Physical Damage",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 35
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -3580,6 +3802,12 @@
     ],
     "description": "+AMOUNT% Companion Health",
     "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 8,
+        "cap": 8,
+        "greaterCap": 50
+      },
       "Enchanted": {
         "minimum": 5,
         "maximum": 8,
@@ -3624,6 +3852,12 @@
     ],
     "description": "+AMOUNT% Companion Damage",
     "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 8,
+        "cap": 8,
+        "greaterCap": 50
+      },
       "Enchanted": {
         "minimum": 5,
         "maximum": 8,
@@ -3668,6 +3902,12 @@
     ],
     "description": "+AMOUNT% to all Resistances",
     "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 5,
+        "cap": 6,
+        "greaterCap": 20
+      },
       "Enchanted": {
         "minimum": 5,
         "maximum": 5,
@@ -3712,6 +3952,12 @@
     ],
     "description": "+AMOUNT% to all Elements",
     "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 8,
+        "cap": 8,
+        "greaterCap": 25
+      },
       "Enchanted": {
         "minimum": 5,
         "maximum": 8,
@@ -3756,6 +4002,12 @@
     ],
     "description": "+AMOUNT% Mana Cost Reduction",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 5,
+        "cap": 5,
+        "greaterCap": 18
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 5,
@@ -3800,6 +4052,12 @@
     ],
     "description": "+AMOUNT% Cooldown Reduction",
     "ranges": {
+      "Ordinary": {
+        "minimum": 2,
+        "maximum": 3,
+        "cap": 4,
+        "greaterCap": 17
+      },
       "Enchanted": {
         "minimum": 2,
         "maximum": 3,
@@ -3844,6 +4102,12 @@
     ],
     "description": "+AMOUNT% Critical Hit Damage",
     "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 8,
+        "cap": 8,
+        "greaterCap": 35
+      },
       "Enchanted": {
         "minimum": 5,
         "maximum": 8,
@@ -3888,6 +4152,12 @@
     ],
     "description": "+AMOUNT% Shadow Resistance",
     "ranges": {
+      "Ordinary": {
+        "minimum": 0,
+        "maximum": 1,
+        "cap": 8,
+        "greaterCap": 30
+      },
       "Enchanted": {
         "minimum": 0,
         "maximum": 1,
@@ -3932,6 +4202,12 @@
     ],
     "description": "+AMOUNT% Shadow Damage",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 35
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -3976,6 +4252,12 @@
     ],
     "description": "+AMOUNT% Light Radius",
     "ranges": {
+      "Ordinary": {
+        "minimum": 10,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 60
+      },
       "Enchanted": {
         "minimum": 10,
         "maximum": 15,
@@ -4020,6 +4302,12 @@
     ],
     "description": "+AMOUNT% Potion Effectiveness",
     "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 10,
+        "cap": 12,
+        "greaterCap": 50
+      },
       "Enchanted": {
         "minimum": 5,
         "maximum": 10,
@@ -4060,6 +4348,12 @@
     "type": "Major",
     "description": "AMOUNT Slots",
     "ranges": {
+      "Ordinary": {
+        "minimum": 2,
+        "maximum": 2,
+        "cap": 20,
+        "greaterCap": 20
+      },
       "Enchanted": {
         "minimum": 2,
         "maximum": 2,
@@ -4100,6 +4394,12 @@
     "type": "Major",
     "description": "AMOUNT Extra slots",
     "ranges": {
+      "Ordinary": {
+        "minimum": 0,
+        "maximum": 0,
+        "cap": 1,
+        "greaterCap": 1
+      },
       "Enchanted": {
         "minimum": 0,
         "maximum": 0,
@@ -4144,6 +4444,12 @@
     ],
     "description": "AMOUNT% chance on hit to pull all enemies within 3 meters of the foe closer to it",
     "ranges": {
+      "Ordinary": {
+        "minimum": 2,
+        "maximum": 4,
+        "cap": 8,
+        "greaterCap": 25
+      },
       "Enchanted": {
         "minimum": 2,
         "maximum": 4,
@@ -4188,6 +4494,12 @@
     ],
     "description": "15% Chance on critical hit to summon a Twister that seeks out nearby foes, dealing AMOUNT% Ethereal damage per second as direct damage but may not crit.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 15,
+        "maximum": 20,
+        "cap": 25,
+        "greaterCap": 220
+      },
       "Enchanted": {
         "minimum": 15,
         "maximum": 20,
@@ -4232,6 +4544,12 @@
     ],
     "description": "15% Chance on critical hit to summon Hellfire over your foe, dealing up to AMOUNT% Ethereal damage per strike. Deals direct damage but may not crit.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 15,
+        "maximum": 25,
+        "cap": 30,
+        "greaterCap": 260
+      },
       "Enchanted": {
         "minimum": 15,
         "maximum": 25,
@@ -4276,6 +4594,12 @@
     ],
     "description": "5% chance on critical hits to restore AMOUNT health",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 1
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -4320,6 +4644,12 @@
     ],
     "description": "5% chance on critical hits to increase the base Attack Speed of all skills by AMOUNT% for 5 seconds",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 5,
+        "cap": 8,
+        "greaterCap": 40
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 5,
@@ -4364,6 +4694,12 @@
     ],
     "description": "35% chance on critical hits to cause an explosion dealing AMOUNT% Ethereal damage",
     "ranges": {
+      "Ordinary": {
+        "minimum": 12,
+        "maximum": 18,
+        "cap": 30,
+        "greaterCap": 150
+      },
       "Enchanted": {
         "minimum": 12,
         "maximum": 18,
@@ -4408,6 +4744,12 @@
     ],
     "description": "AMOUNT% chance for foes to burst out extra crystals upon death",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 5,
+        "cap": 8,
+        "greaterCap": 25
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 5,
@@ -4452,6 +4794,12 @@
     ],
     "description": "AMOUNT% chance to explode foes upon their death, dealing up to 30% of their maximum health as Ethereal damage to other nearby foes",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 5,
+        "cap": 8,
+        "greaterCap": 25
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 5,
@@ -4496,6 +4844,12 @@
     ],
     "description": "AMOUNT% chance to spawn additional health and mana pickups on kill",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 5,
+        "cap": 8,
+        "greaterCap": 25
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 5,
@@ -4540,6 +4894,12 @@
     ],
     "description": "15% chance to increase Damage by AMOUNT% for 10 seconds after killing a foe. This effect may stack up to 5 times",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 5,
+        "cap": 8,
+        "greaterCap": 25
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 5,
@@ -4584,6 +4944,12 @@
     ],
     "description": "15% chance to increase Health Regeneration by AMOUNT% for 10 seconds after killing a foe. This effect may stack up to 5 times",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 3,
+        "cap": 10,
+        "greaterCap": 60
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 3,
@@ -4628,6 +4994,12 @@
     ],
     "description": "15% chance to increase Mana Regeneration by AMOUNT% for 10 seconds after killing a foe. This effect may stack up to 5 times",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 3,
+        "cap": 10,
+        "greaterCap": 60
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 3,
@@ -4672,6 +5044,12 @@
     ],
     "description": "5% chance to heal for AMOUNT% of Maximum Health after killing a foe",
     "ranges": {
+      "Ordinary": {
+        "minimum": 0,
+        "maximum": 0,
+        "cap": 4,
+        "greaterCap": 8
+      },
       "Enchanted": {
         "minimum": 0,
         "maximum": 0,
@@ -4716,6 +5094,12 @@
     ],
     "description": "15% chance to increase Movement Speed by AMOUNT% for 10 seconds after killing a foe. This effect may stack up to 5 times",
     "ranges": {
+      "Ordinary": {
+        "minimum": 2,
+        "maximum": 2,
+        "cap": 5,
+        "greaterCap": 20
+      },
       "Enchanted": {
         "minimum": 2,
         "maximum": 2,
@@ -4760,6 +5144,12 @@
     ],
     "description": "+AMOUNT% Health- and Mana Regeneration for 5 seconds after gibbing a foe",
     "ranges": {
+      "Ordinary": {
+        "minimum": 10,
+        "maximum": 30,
+        "cap": 50,
+        "greaterCap": 200
+      },
       "Enchanted": {
         "minimum": 10,
         "maximum": 30,
@@ -4804,6 +5194,12 @@
     ],
     "description": "+AMOUNT% Damage for 5 seconds after gibbing a foe",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 0,
+        "cap": 8,
+        "greaterCap": 25
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 0,
@@ -4848,6 +5244,12 @@
     ],
     "description": "5% chance to heal for AMOUNT% of Maximum Health after gibbing a foe",
     "ranges": {
+      "Ordinary": {
+        "minimum": 0,
+        "maximum": 0,
+        "cap": 4,
+        "greaterCap": 8
+      },
       "Enchanted": {
         "minimum": 0,
         "maximum": 0,
@@ -4892,6 +5294,12 @@
     ],
     "description": "AMOUNT% chance to slow attacker by 50% for 5 seconds when struck",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 7,
+        "cap": 10,
+        "greaterCap": 35
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 7,
@@ -4936,6 +5344,12 @@
     ],
     "description": "AMOUNT% chance to root and immobilize attacker for 3 seconds when struck",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 7,
+        "cap": 10,
+        "greaterCap": 35
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 7,
@@ -4980,6 +5394,12 @@
     ],
     "description": "AMOUNT% chance to cause attackers to run away in fear for up to 3 seconds when struck",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 7,
+        "cap": 10,
+        "greaterCap": 35
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 7,
@@ -5024,6 +5444,12 @@
     ],
     "description": "AMOUNT% chance to knock away attackers up to 3 meters when struck",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 7,
+        "cap": 10,
+        "greaterCap": 35
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 7,
@@ -5068,6 +5494,12 @@
     ],
     "description": "5% chance to release a Frost Nova dealing AMOUNT% Frost damage when struck",
     "ranges": {
+      "Ordinary": {
+        "minimum": 25,
+        "maximum": 35,
+        "cap": 40,
+        "greaterCap": 380
+      },
       "Enchanted": {
         "minimum": 25,
         "maximum": 35,
@@ -5112,6 +5544,12 @@
     ],
     "description": "5% chance to release a Holy Nova dealing AMOUNT% Holy damage when struck",
     "ranges": {
+      "Ordinary": {
+        "minimum": 25,
+        "maximum": 35,
+        "cap": 40,
+        "greaterCap": 380
+      },
       "Enchanted": {
         "minimum": 25,
         "maximum": 35,
@@ -5156,6 +5594,12 @@
     ],
     "description": "5% chance to release a nova of Deathblasts dealing AMOUNT% Shadow damage when struck",
     "ranges": {
+      "Ordinary": {
+        "minimum": 15,
+        "maximum": 25,
+        "cap": 30,
+        "greaterCap": 250
+      },
       "Enchanted": {
         "minimum": 15,
         "maximum": 25,
@@ -5200,6 +5644,12 @@
     ],
     "description": "5% chance to release an electric orb dealing AMOUNT% Lightning damage when struck",
     "ranges": {
+      "Ordinary": {
+        "minimum": 15,
+        "maximum": 25,
+        "cap": 30,
+        "greaterCap": 220
+      },
       "Enchanted": {
         "minimum": 15,
         "maximum": 25,
@@ -5244,6 +5694,12 @@
     ],
     "description": "AMOUNT% chance to increase Movement Speed by AMOUNT% for 5 seconds when struck",
     "ranges": {
+      "Ordinary": {
+        "minimum": 3,
+        "maximum": 8,
+        "cap": 10,
+        "greaterCap": 30
+      },
       "Enchanted": {
         "minimum": 3,
         "maximum": 8,
@@ -5288,6 +5744,12 @@
     ],
     "description": "5% chance to poison attackers for AMOUNT% Poison damage per second for 3 seconds when struck",
     "ranges": {
+      "Ordinary": {
+        "minimum": 15,
+        "maximum": 25,
+        "cap": 30,
+        "greaterCap": 200
+      },
       "Enchanted": {
         "minimum": 15,
         "maximum": 25,
@@ -5332,6 +5794,12 @@
     ],
     "description": "On hurt: 5% chance to burn attackers for AMOUNT% Fire damage per second for 3 seconds when struck",
     "ranges": {
+      "Ordinary": {
+        "minimum": 15,
+        "maximum": 25,
+        "cap": 30,
+        "greaterCap": 200
+      },
       "Enchanted": {
         "minimum": 15,
         "maximum": 25,
@@ -5376,6 +5844,12 @@
     ],
     "description": "Any attack that brings you below 30% Maximum Health instantly restores AMOUNT Health. 30 Second cooldown",
     "ranges": {
+      "Ordinary": {
+        "minimum": 900,
+        "maximum": 950,
+        "cap": 1000,
+        "greaterCap": 4000
+      },
       "Enchanted": {
         "minimum": 900,
         "maximum": 950,
@@ -5420,6 +5894,12 @@
     ],
     "description": "Any attack that brings you below 30% Maximum Health increases your Damage by AMOUNT% for 5 seconds",
     "ranges": {
+      "Ordinary": {
+        "minimum": 0,
+        "maximum": 0,
+        "cap": 10,
+        "greaterCap": 30
+      },
       "Enchanted": {
         "minimum": 0,
         "maximum": 0,
@@ -5464,6 +5944,12 @@
     ],
     "description": "Any attack that brings you below 30% Maximum Health cause a series of explosions dealing AMOUNT% Ethereal damage to any nearby foes",
     "ranges": {
+      "Ordinary": {
+        "minimum": 40,
+        "maximum": 50,
+        "cap": 60,
+        "greaterCap": 500
+      },
       "Enchanted": {
         "minimum": 40,
         "maximum": 50,
@@ -5508,6 +5994,12 @@
     ],
     "description": "Creates a trail of poison as you walk, dealing AMOUNT% Poison damage per second, for 3 seconds",
     "ranges": {
+      "Ordinary": {
+        "minimum": 15,
+        "maximum": 25,
+        "cap": 30,
+        "greaterCap": 220
+      },
       "Enchanted": {
         "minimum": 15,
         "maximum": 25,
@@ -5552,6 +6044,12 @@
     ],
     "description": "You are no longer affected by collisions and can walk through objects and enemies",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 1
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -5596,6 +6094,12 @@
     ],
     "description": "Makes you immune to damage from spike traps",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 1
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -5640,6 +6144,12 @@
     ],
     "description": "AMOUNT% Block Chance",
     "ranges": {
+      "Ordinary": {
+        "minimum": 10,
+        "maximum": 12,
+        "cap": 12,
+        "greaterCap": 30
+      },
       "Enchanted": {
         "minimum": 10,
         "maximum": 12,
@@ -5684,6 +6194,12 @@
     ],
     "description": "AMOUNT% Damage Blocked",
     "ranges": {
+      "Ordinary": {
+        "minimum": 10,
+        "maximum": 12,
+        "cap": 12,
+        "greaterCap": 30
+      },
       "Enchanted": {
         "minimum": 10,
         "maximum": 12,
@@ -5728,6 +6244,12 @@
     ],
     "description": "+AMOUNT% Extra Block Chance (Templar Only)",
     "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 7,
+        "cap": 12,
+        "greaterCap": 25
+      },
       "Enchanted": {
         "minimum": 5,
         "maximum": 7,
@@ -5772,6 +6294,12 @@
     ],
     "description": "+AMOUNT% Extra Damage Blocked (Templar Only)",
     "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 7,
+        "cap": 12,
+        "greaterCap": 30
+      },
       "Enchanted": {
         "minimum": 5,
         "maximum": 7,
@@ -5816,6 +6344,12 @@
     ],
     "description": "+AMOUNT% Reach",
     "ranges": {
+      "Ordinary": {
+        "minimum": 2,
+        "maximum": 3,
+        "cap": 4,
+        "greaterCap": 17
+      },
       "Enchanted": {
         "minimum": 2,
         "maximum": 3,
@@ -5860,6 +6394,12 @@
     ],
     "description": "+AMOUNT% Overpower",
     "ranges": {
+      "Ordinary": {
+        "minimum": 0,
+        "maximum": 1,
+        "cap": 5,
+        "greaterCap": 22
+      },
       "Enchanted": {
         "minimum": 0,
         "maximum": 1,
@@ -5904,6 +6444,12 @@
     ],
     "description": "+AMOUNT% Bleed Damage",
     "ranges": {
+      "Ordinary": {
+        "minimum": 10,
+        "maximum": 15,
+        "cap": 15,
+        "greaterCap": 80
+      },
       "Enchanted": {
         "minimum": 10,
         "maximum": 15,
@@ -5948,6 +6494,12 @@
     ],
     "description": "+AMOUNT Minimum Rage",
     "ranges": {
+      "Ordinary": {
+        "minimum": 2,
+        "maximum": 1,
+        "cap": 3,
+        "greaterCap": 10
+      },
       "Enchanted": {
         "minimum": 2,
         "maximum": 1,
@@ -5992,6 +6544,12 @@
     ],
     "description": "+AMOUNT Maximum Rage",
     "ranges": {
+      "Ordinary": {
+        "minimum": 3,
+        "maximum": 2,
+        "cap": 10,
+        "greaterCap": 25
+      },
       "Enchanted": {
         "minimum": 3,
         "maximum": 2,
@@ -6036,6 +6594,12 @@
     ],
     "description": "+AMOUNT% Rage Generation",
     "ranges": {
+      "Ordinary": {
+        "minimum": 6,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 50
+      },
       "Enchanted": {
         "minimum": 6,
         "maximum": 10,
@@ -6080,6 +6644,12 @@
     ],
     "description": "On hit: Deal AMOUNT% Fire damage instantly and per second, for 3 seconds",
     "ranges": {
+      "Ordinary": {
+        "minimum": 20,
+        "maximum": 35,
+        "cap": 55,
+        "greaterCap": 250
+      },
       "Enchanted": {
         "minimum": 20,
         "maximum": 35,
@@ -6124,6 +6694,12 @@
     ],
     "description": "On hit: Deal AMOUNT% Poison damage instantly and per second, for 5 seconds",
     "ranges": {
+      "Ordinary": {
+        "minimum": 20,
+        "maximum": 35,
+        "cap": 55,
+        "greaterCap": 250
+      },
       "Enchanted": {
         "minimum": 20,
         "maximum": 35,
@@ -6168,6 +6744,12 @@
     ],
     "description": "On hit: Deal AMOUNT% Frost damage instantly",
     "ranges": {
+      "Ordinary": {
+        "minimum": 15,
+        "maximum": 25,
+        "cap": 40,
+        "greaterCap": 200
+      },
       "Enchanted": {
         "minimum": 15,
         "maximum": 25,
@@ -6212,6 +6794,12 @@
     ],
     "description": "On hit: 25% chance to cause Chain Lightning for AMOUNT% Lightning damage",
     "ranges": {
+      "Ordinary": {
+        "minimum": 15,
+        "maximum": 25,
+        "cap": 40,
+        "greaterCap": 200
+      },
       "Enchanted": {
         "minimum": 15,
         "maximum": 25,
@@ -6256,6 +6844,12 @@
     ],
     "description": "On hit: Deal AMOUNT% Bleed damage instantly and per second, for 3 seconds",
     "ranges": {
+      "Ordinary": {
+        "minimum": 20,
+        "maximum": 35,
+        "cap": 55,
+        "greaterCap": 250
+      },
       "Enchanted": {
         "minimum": 20,
         "maximum": 35,
@@ -6300,6 +6894,12 @@
     ],
     "description": "On hit: Deal AMOUNT% Holy damage instantly",
     "ranges": {
+      "Ordinary": {
+        "minimum": 15,
+        "maximum": 25,
+        "cap": 40,
+        "greaterCap": 200
+      },
       "Enchanted": {
         "minimum": 15,
         "maximum": 25,
@@ -6344,6 +6944,12 @@
     ],
     "description": "On hit: Deal AMOUNT% Shadow damage instantly and per second, for 5 seconds",
     "ranges": {
+      "Ordinary": {
+        "minimum": 20,
+        "maximum": 35,
+        "cap": 55,
+        "greaterCap": 250
+      },
       "Enchanted": {
         "minimum": 20,
         "maximum": 35,
@@ -6388,6 +6994,12 @@
     ],
     "description": "+AMOUNT% damage vs. Undead",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 35
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -6432,6 +7044,12 @@
     ],
     "description": "+AMOUNT% damage vs. Spectral",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 35
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -6476,6 +7094,12 @@
     ],
     "description": "+AMOUNT% damage vs. Arachnids",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 35
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -6520,6 +7144,12 @@
     ],
     "description": "+AMOUNT% damage vs. Demons",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 35
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -6564,6 +7194,12 @@
     ],
     "description": "+AMOUNT% damage vs. Beasts",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 35
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -6608,6 +7244,12 @@
     ],
     "description": "+AMOUNT% damage vs. Fae",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 35
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -6652,6 +7294,12 @@
     ],
     "description": "+AMOUNT% damage vs. Crowned foes",
     "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 8,
+        "cap": 8,
+        "greaterCap": 25
+      },
       "Enchanted": {
         "minimum": 5,
         "maximum": 8,
@@ -6696,6 +7344,12 @@
     ],
     "description": "AMOUNT% reduced damage from all direct sources",
     "ranges": {
+      "Ordinary": {
+        "minimum": 2,
+        "maximum": 3,
+        "cap": 5,
+        "greaterCap": 20
+      },
       "Enchanted": {
         "minimum": 2,
         "maximum": 3,
@@ -6740,6 +7394,12 @@
     ],
     "description": "+AMOUNT% Evasion",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 2,
+        "cap": 5,
+        "greaterCap": 15
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 2,
@@ -6784,6 +7444,12 @@
     ],
     "description": "Satellite: A spiked orb circles the player, hitting nearby foes, dealing AMOUNT% Physical damage two times per second",
     "ranges": {
+      "Ordinary": {
+        "minimum": 8,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 100
+      },
       "Enchanted": {
         "minimum": 8,
         "maximum": 10,
@@ -6828,6 +7494,12 @@
     ],
     "description": "Satellite: A shadow orb circles the player, defiling nearby foes, dealing AMOUNT% Shadow damage two times per second",
     "ranges": {
+      "Ordinary": {
+        "minimum": 8,
+        "maximum": 10,
+        "cap": 10,
+        "greaterCap": 100
+      },
       "Enchanted": {
         "minimum": 8,
         "maximum": 10,
@@ -6872,6 +7544,12 @@
     ],
     "description": "+AMOUNT% increased effect of all Gems",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 4,
+        "cap": 4,
+        "greaterCap": 20
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 4,
@@ -6916,6 +7594,12 @@
     ],
     "description": "+AMOUNT% increased damage of all Satellite enchants",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 4,
+        "cap": 4,
+        "greaterCap": 20
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 4,
@@ -6960,6 +7644,12 @@
     ],
     "description": "AMOUNT% of damage taken is staggered and dealt over 3 seconds, at a 30% damage reduction",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 4,
+        "cap": 4,
+        "greaterCap": 20
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 4,
@@ -7004,6 +7694,12 @@
     ],
     "description": "AMOUNT% chance to stun foes hit for up to 3 seconds",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 2,
+        "cap": 2,
+        "greaterCap": 7
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 2,
@@ -7048,6 +7744,12 @@
     ],
     "description": "AMOUNT% chance to interrupt attacks of foes hit",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 5
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -7092,6 +7794,12 @@
     ],
     "description": "+AMOUNT% damage vs. Elementals",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 35
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -7136,6 +7844,12 @@
     ],
     "description": "+AMOUNT% damage vs. Humanoids",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 35
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -7180,6 +7894,12 @@
     ],
     "description": "+AMOUNT% damage vs. Mechanicals",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 35
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -7224,6 +7944,12 @@
     ],
     "description": "AMOUNT% reduced damage from harmful ground effects",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 25
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -7268,6 +7994,12 @@
     ],
     "description": "AMOUNT% reduced damage from indirect sources and debuffs",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 25
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -7312,6 +8044,12 @@
     ],
     "description": "AMOUNT% increased Healing from all sources",
     "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 8,
+        "cap": 12,
+        "greaterCap": 70
+      },
       "Enchanted": {
         "minimum": 5,
         "maximum": 8,
@@ -7356,6 +8094,12 @@
     ],
     "description": "Foes explode upon death, dealing AMOUNT% of their Maximum Health as Ethereal damage to all foes within 3 meters.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 2,
+        "maximum": 3,
+        "cap": 5,
+        "greaterCap": 15
+      },
       "Enchanted": {
         "minimum": 2,
         "maximum": 3,
@@ -7400,6 +8144,12 @@
     ],
     "description": "Your Critical Hit Chance is locked to 5%, and for each attack that lands a hit you gain AMOUNT% Critical Hit Damage for 3 seconds, until you reach 10 stacks. After reaching 10 stacks, your Critical Hit Chance is locked to 100% for 3 seconds, after which it resets.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 5,
+        "cap": 8,
+        "greaterCap": 25
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 5,
@@ -7444,6 +8194,12 @@
     ],
     "description": "Health and Mana pickups no longer instantly restore Health and Mana. Instead each pickup increases Health Regeneration, Mana Regeneration, Health on Hit, and Mana on Hit by AMOUNT% for 10 seconds. Stacks 5 times and is affected by Pickup Strength.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 2,
+        "cap": 2,
+        "greaterCap": 15
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 2,
@@ -7488,6 +8244,12 @@
     ],
     "description": "Increases Health by AMOUNT% of total Resistances, and sets all Resistances to 0.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 60
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -7532,6 +8294,12 @@
     ],
     "description": "Your Health Regeneration and Mana Regeneration are increased by AMOUNT% of your Movement Speed.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 20,
+        "maximum": 30,
+        "cap": 50,
+        "greaterCap": 180
+      },
       "Enchanted": {
         "minimum": 20,
         "maximum": 30,
@@ -7576,6 +8344,12 @@
     ],
     "description": "For each item of Rare quality or lower, all your Damage Element stats are increased by AMOUNT%.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 20,
+        "maximum": 30,
+        "cap": 50,
+        "greaterCap": 100
+      },
       "Enchanted": {
         "minimum": 20,
         "maximum": 30,
@@ -7620,6 +8394,12 @@
     ],
     "description": "All your Resistances except your highest Resistance are increased by AMOUNT% of your highest Resistance.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 8,
+        "maximum": 12,
+        "cap": 20,
+        "greaterCap": 60
+      },
       "Enchanted": {
         "minimum": 8,
         "maximum": 12,
@@ -7664,6 +8444,12 @@
     ],
     "description": "Using any Utility skill other than <SKILL_2> will also trigger <SKILL_2>. In addition, the effect of <SKILL_2> is AMOUNT% stronger.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 12,
+        "maximum": 18,
+        "cap": 30,
+        "greaterCap": 150
+      },
       "Enchanted": {
         "minimum": 12,
         "maximum": 18,
@@ -7708,6 +8494,12 @@
     ],
     "description": "Utility skills also restore AMOUNT% of Maximum Health and Mana.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 2,
+        "maximum": 2,
+        "cap": 3,
+        "greaterCap": 12
+      },
       "Enchanted": {
         "minimum": 2,
         "maximum": 2,
@@ -7752,6 +8544,12 @@
     ],
     "description": "Casting <SKILL_643> now pulls all nearby enemies together at your initial position and casts <SKILL_690> on them, dealing AMOUNT% increased damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 40,
+        "maximum": 60,
+        "cap": 100,
+        "greaterCap": 500
+      },
       "Enchanted": {
         "minimum": 40,
         "maximum": 60,
@@ -7796,6 +8594,12 @@
     ],
     "description": "<SKILL_100>, <SKILL_482>, and <SKILL_481> increase all Resistances by AMOUNT% for 5 seconds.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 3,
+        "maximum": 4,
+        "cap": 6,
+        "greaterCap": 25
+      },
       "Enchanted": {
         "minimum": 3,
         "maximum": 4,
@@ -7840,6 +8644,12 @@
     ],
     "description": "You become immune to spike traps, can walk through objects and foes, and cannot be slowed or immobilized.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 1
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -7884,6 +8694,12 @@
     ],
     "description": "Adds AMOUNT% of your Block Chance to Shield skill damage, but removes your ability to block.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 12,
+        "maximum": 18,
+        "cap": 30,
+        "greaterCap": 85
+      },
       "Enchanted": {
         "minimum": 12,
         "maximum": 18,
@@ -7928,6 +8744,12 @@
     ],
     "description": "AMOUNT% damage with all Magic skills.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 40
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -7972,6 +8794,12 @@
     ],
     "description": "<SKILL_5>, <SKILL_297>, and <SKILL_298> release several fragments on each hit, dealing AMOUNT% of the damage dealt to the foe.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 16,
+        "maximum": 24,
+        "cap": 40,
+        "greaterCap": 160
+      },
       "Enchanted": {
         "minimum": 16,
         "maximum": 24,
@@ -8016,6 +8844,12 @@
     ],
     "description": "AMOUNT% chance to cast rank 5 <SKILL_38> when you block an attack. 1 second cooldown.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 2,
+        "maximum": 2,
+        "cap": 3,
+        "greaterCap": 15
+      },
       "Enchanted": {
         "minimum": 2,
         "maximum": 2,
@@ -8060,6 +8894,12 @@
     ],
     "description": "<SKILL_38> and <SKILL_336> also cast rank 5 <SKILL_337> when cast.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 1
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -8104,6 +8944,12 @@
     ],
     "description": "<SKILL_285> shields for AMOUNT% increased health.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 12,
+        "maximum": 18,
+        "cap": 30,
+        "greaterCap": 150
+      },
       "Enchanted": {
         "minimum": 12,
         "maximum": 18,
@@ -8148,6 +8994,12 @@
     ],
     "description": "Reduces the cooldown of <SKILL_31>, <SKILL_757>, and <SKILL_326> by AMOUNT%.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 8,
+        "maximum": 12,
+        "cap": 20,
+        "greaterCap": 65
+      },
       "Enchanted": {
         "minimum": 8,
         "maximum": 12,
@@ -8192,6 +9044,12 @@
     ],
     "description": "Adds +AMOUNT% increased chance for <SKILL_226> to trigger.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 6,
+        "maximum": 9,
+        "cap": 15,
+        "greaterCap": 45
+      },
       "Enchanted": {
         "minimum": 6,
         "maximum": 9,
@@ -8236,6 +9094,12 @@
     ],
     "description": "Increases the range of <SKILL_20>, <SKILL_314>, and <SKILL_315> by AMOUNT%.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 65
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -8280,6 +9144,12 @@
     ],
     "description": "<SKILL_42>, <SKILL_340>, and <SKILL_335> deal AMOUNT% increased damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 65
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -8324,6 +9194,12 @@
     ],
     "description": "<SKILL_254> deals AMOUNT% additional damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 12,
+        "maximum": 18,
+        "cap": 30,
+        "greaterCap": 150
+      },
       "Enchanted": {
         "minimum": 12,
         "maximum": 18,
@@ -8368,6 +9244,12 @@
     ],
     "description": "Wearing this Tome grants permanent <SKILL_302> at max rank. In addition, the <SKILL_302> may now trigger <SKILL_237> on hit, based on AMOUNT% of damage inflicted.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 20,
+        "maximum": 30,
+        "cap": 50,
+        "greaterCap": 200
+      },
       "Enchanted": {
         "minimum": 20,
         "maximum": 30,
@@ -8412,6 +9294,12 @@
     ],
     "description": "<SKILL_216> has a AMOUNT% chance to cast Ember when triggered.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 12,
+        "maximum": 18,
+        "cap": 30,
+        "greaterCap": 100
+      },
       "Enchanted": {
         "minimum": 12,
         "maximum": 18,
@@ -8456,6 +9344,12 @@
     ],
     "description": "<SKILL_279> has a AMOUNT% additional chance to stun.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 80
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -8500,6 +9394,12 @@
     ],
     "description": "<SKILL_353> triggers on foes with AMOUNT% more Health.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 3,
+        "maximum": 5,
+        "cap": 7,
+        "greaterCap": 25
+      },
       "Enchanted": {
         "minimum": 3,
         "maximum": 5,
@@ -8544,6 +9444,12 @@
     ],
     "description": "<SKILL_390> deals AMOUNT% additional damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 8,
+        "maximum": 12,
+        "cap": 20,
+        "greaterCap": 100
+      },
       "Enchanted": {
         "minimum": 8,
         "maximum": 12,
@@ -8588,6 +9494,12 @@
     ],
     "description": "<SKILL_80>, <SKILL_431>, and <SKILL_430> reset their cooldown when Explosive Manoeuvres triggers.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 1
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -8632,6 +9544,12 @@
     ],
     "description": "<SKILL_475> and <SKILL_444> have an additional AMOUNT% chance to trigger.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 8,
+        "maximum": 12,
+        "cap": 20,
+        "greaterCap": 55
+      },
       "Enchanted": {
         "minimum": 8,
         "maximum": 12,
@@ -8676,6 +9594,12 @@
     ],
     "description": "<SKILL_375>, <SKILL_376>, and <SKILL_377> have an additional AMOUNT% range.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 50
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -8720,6 +9644,12 @@
     ],
     "description": "<SKILL_436> deals an additional AMOUNT% of the initial damage dealt.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 8,
+        "maximum": 12,
+        "cap": 20,
+        "greaterCap": 80
+      },
       "Enchanted": {
         "minimum": 8,
         "maximum": 12,
@@ -8764,6 +9694,12 @@
     ],
     "description": "<SKILL_402> now also increases Lightning Damage by AMOUNT%.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 8,
+        "maximum": 12,
+        "cap": 20,
+        "greaterCap": 70
+      },
       "Enchanted": {
         "minimum": 8,
         "maximum": 12,
@@ -8808,6 +9744,12 @@
     ],
     "description": "<SKILL_468> instead releases large ice chunks dealing AMOUNT% increased damage and in a 2 meter radius.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 12,
+        "maximum": 18,
+        "cap": 30,
+        "greaterCap": 150
+      },
       "Enchanted": {
         "minimum": 12,
         "maximum": 18,
@@ -8852,6 +9794,12 @@
     ],
     "description": "Generate AMOUNT rage per second at all times. Rage never fades.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 20
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -8896,6 +9844,12 @@
     ],
     "description": "Rage based passive skills are now AMOUNT% stronger.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 55
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -8940,6 +9894,12 @@
     ],
     "description": "The Knockback Chance stat increases Damage by the same percentage, but will no longer trigger knockbacks. In addition, active skills with a knockback effect no longer cause knockback, and have their base damage increased by AMOUNT% for each meter of knockback they normally do. Does not affect Utility skills.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 2,
+        "maximum": 3,
+        "cap": 5,
+        "greaterCap": 50
+      },
       "Enchanted": {
         "minimum": 2,
         "maximum": 3,
@@ -8984,6 +9944,12 @@
     ],
     "description": "All attacks deal AMOUNT% increased damage to foes who are slowed or immobilized.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 7,
+        "cap": 11,
+        "greaterCap": 40
+      },
       "Enchanted": {
         "minimum": 5,
         "maximum": 7,
@@ -9028,6 +9994,12 @@
     ],
     "description": "Summons four skull companions, each skull representing one of the four elements available in the skill trees. The skulls have AMOUNT% damage of their chosen element and their attacks will trigger player on-hit effects.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 20,
+        "maximum": 30,
+        "cap": 50,
+        "greaterCap": 300
+      },
       "Enchanted": {
         "minimum": 20,
         "maximum": 30,
@@ -9072,6 +10044,12 @@
     ],
     "description": "For each non-set item, Damage is increased by AMOUNT%.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 2,
+        "maximum": 3,
+        "cap": 5,
+        "greaterCap": 20
+      },
       "Enchanted": {
         "minimum": 2,
         "maximum": 3,
@@ -9116,6 +10094,12 @@
     ],
     "description": "For each Gem socketed into worn equipment, base Health, Mana, and Damage is increased by AMOUNT%.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 4
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -9160,6 +10144,12 @@
     ],
     "description": "AMOUNT% of your Health on Hit and Mana on Hit are now added to Health Regeneration and Mana Regeneration respectively, however both Health on Hit and Mana on Hit are removed.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 20,
+        "maximum": 30,
+        "cap": 50,
+        "greaterCap": 400
+      },
       "Enchanted": {
         "minimum": 20,
         "maximum": 30,
@@ -9204,6 +10194,12 @@
     ],
     "description": "Reduces the cooldown of <SKILL_107>, <SKILL_495>, and <SKILL_494> by AMOUNT%.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 5,
+        "cap": 8,
+        "greaterCap": 35
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 5,
@@ -9248,6 +10244,12 @@
     ],
     "description": "<SKILL_530> has a AMOUNT% increased effect.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 10,
+        "maximum": 15,
+        "cap": 25,
+        "greaterCap": 100
+      },
       "Enchanted": {
         "minimum": 10,
         "maximum": 15,
@@ -9292,6 +10294,12 @@
     ],
     "description": "<SKILL_563> deals an additional AMOUNT% damage per second.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 40
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -9336,6 +10344,12 @@
     ],
     "description": "<SKILL_141>, <SKILL_591>, and <SKILL_592> have a AMOUNT% increased radius.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 8,
+        "cap": 12,
+        "greaterCap": 40
+      },
       "Enchanted": {
         "minimum": 5,
         "maximum": 8,
@@ -9380,6 +10394,12 @@
     ],
     "description": "<SKILL_108> deals an additional AMOUNT% damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 6,
+        "maximum": 9,
+        "cap": 15,
+        "greaterCap": 50
+      },
       "Enchanted": {
         "minimum": 6,
         "maximum": 9,
@@ -9424,6 +10444,12 @@
     ],
     "description": "The damage of <SKILL_114>, <SKILL_523>, <SKILL_524>, and <SKILL_760> is increased by AMOUNT% of the Warden's Thorns stat, and Thorns damage turns into Poison.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 6,
+        "maximum": 9,
+        "cap": 15,
+        "greaterCap": 120
+      },
       "Enchanted": {
         "minimum": 6,
         "maximum": 9,
@@ -9468,6 +10494,12 @@
     ],
     "description": "<SKILL_576> jumps to up to AMOUNT additional targets.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 2,
+        "cap": 2,
+        "greaterCap": 10
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 2,
@@ -9512,6 +10544,12 @@
     ],
     "description": "<SKILL_605> and <SKILL_140> have an additional AMOUNT% chance to trigger.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 2,
+        "maximum": 3,
+        "cap": 5,
+        "greaterCap": 25
+      },
       "Enchanted": {
         "minimum": 2,
         "maximum": 3,
@@ -9556,6 +10594,12 @@
     ],
     "description": "<SKILL_638> has an additional AMOUNT meter range.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 5
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -9600,6 +10644,12 @@
     ],
     "description": "<SKILL_656> has a AMOUNT% extra chance to trigger.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 75
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -9644,6 +10694,12 @@
     ],
     "description": "<SKILL_178> has a AMOUNT% extra chance to trigger.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 5,
+        "cap": 8,
+        "greaterCap": 25
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 5,
@@ -9688,6 +10744,12 @@
     ],
     "description": "<SKILL_743> has AMOUNT% increased range.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 12,
+        "maximum": 18,
+        "cap": 30,
+        "greaterCap": 150
+      },
       "Enchanted": {
         "minimum": 12,
         "maximum": 18,
@@ -9732,6 +10794,12 @@
     ],
     "description": "<SKILL_661> lowers the cooldown by an additional AMOUNT%.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 5
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -9776,6 +10844,12 @@
     ],
     "description": "<SKILL_173>, <SKILL_690>, and <SKILL_691> have AMOUNT% increased radius.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 6,
+        "maximum": 9,
+        "cap": 15,
+        "greaterCap": 50
+      },
       "Enchanted": {
         "minimum": 6,
         "maximum": 9,
@@ -9820,6 +10894,12 @@
     ],
     "description": "<SKILL_726> deals an additional AMOUNT% damage per second.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 70
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -9864,6 +10944,12 @@
     ],
     "description": "<SKILL_628> adds an additional AMOUNT% damage per Soul.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 5
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -9908,6 +10994,12 @@
     ],
     "description": "10% chance when hit to release 3 Holy Bolts, each dealing AMOUNT% of your Thorns damage as Holy damage to random nearby foes.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 80,
+        "maximum": 120,
+        "cap": 200,
+        "greaterCap": 1000
+      },
       "Enchanted": {
         "minimum": 80,
         "maximum": 120,
@@ -9952,6 +11044,12 @@
     ],
     "description": "Reduces all damage taken by Companions by AMOUNT%.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 16,
+        "maximum": 24,
+        "cap": 40,
+        "greaterCap": 98
+      },
       "Enchanted": {
         "minimum": 16,
         "maximum": 24,
@@ -9996,6 +11094,12 @@
     ],
     "description": "Reduces damage taken from all sources, including indirect, by AMOUNT%.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 50
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -10040,6 +11144,12 @@
     ],
     "description": "<SKILL_179> summons AMOUNT additional demons.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 2
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -10084,6 +11194,12 @@
     ],
     "description": "<SKILL_430> now summons AMOUNT dragons circling the Berserker.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 4
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -10128,6 +11244,12 @@
     ],
     "description": "Removes the cooldown and mana cost from <SKILL_54>, <SKILL_428>, and <SKILL_455>.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 1
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -10172,6 +11294,12 @@
     ],
     "description": "<SKILL_596> also summons an <SKILL_595> of the same rank. In addition, all wolves deal AMOUNT% increased damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 40,
+        "maximum": 60,
+        "cap": 100,
+        "greaterCap": 500
+      },
       "Enchanted": {
         "minimum": 40,
         "maximum": 60,
@@ -10216,6 +11344,12 @@
     ],
     "description": "<SKILL_119> reduces all damage taken by AMOUNT% for 5 seconds when triggered.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 45
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -10260,6 +11394,12 @@
     ],
     "description": "<SKILL_555> and <SKILL_556> spawns a rank AMOUNT <SKILL_557> on impact.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 5
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -10304,6 +11444,12 @@
     ],
     "description": "You become immune to both knockback and movement impairing effects.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 1
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -10348,6 +11494,12 @@
     ],
     "description": "You become immune to movement impairing effects.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 1
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -10392,6 +11544,12 @@
     ],
     "description": "Restores AMOUNT Health instantly when falling below 30% Maximum Health. 10 second cooldown.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 500,
+        "maximum": 855,
+        "cap": 500,
+        "greaterCap": 5000
+      },
       "Enchanted": {
         "minimum": 500,
         "maximum": 855,
@@ -10436,6 +11594,12 @@
     ],
     "description": "Restores AMOUNT Mana instantly when falling below 30% Maximum Mana. 10 second cooldown.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 360,
+        "maximum": 380,
+        "cap": 500,
+        "greaterCap": 2500
+      },
       "Enchanted": {
         "minimum": 360,
         "maximum": 380,
@@ -10480,6 +11644,12 @@
     ],
     "description": "Adds a 5% chance on hit to strike the foe for AMOUNT% of the damage dealt as Lightning damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 24,
+        "maximum": 36,
+        "cap": 60,
+        "greaterCap": 500
+      },
       "Enchanted": {
         "minimum": 24,
         "maximum": 36,
@@ -10524,6 +11694,12 @@
     ],
     "description": "Foes killed burn the ground, dealing AMOUNT% Fire damage per second for 3 seconds in a small radius.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 28,
+        "maximum": 42,
+        "cap": 70,
+        "greaterCap": 300
+      },
       "Enchanted": {
         "minimum": 28,
         "maximum": 42,
@@ -10568,6 +11744,12 @@
     ],
     "description": "Dealing direct damage to a foe places an Elemental Attunement on them, increasing the direct damage they take by AMOUNT%. Each element used places a separate Attunement. Lasts 7 seconds.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 2,
+        "maximum": 3,
+        "cap": 5,
+        "greaterCap": 20
+      },
       "Enchanted": {
         "minimum": 2,
         "maximum": 3,
@@ -10612,6 +11794,12 @@
     ],
     "description": "Adds a 5% chance on being hit to increase Health Regeneration by AMOUNT% for 3 seconds.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 40,
+        "maximum": 60,
+        "cap": 100,
+        "greaterCap": 500
+      },
       "Enchanted": {
         "minimum": 40,
         "maximum": 60,
@@ -10656,6 +11844,12 @@
     ],
     "description": "Adds a 10% chance on kill to raise a Skeleton Warrior that will fight for the Warlock for up to 1 minute. A maximum of AMOUNT Skeletons can be controlled, and each Skeleton has 50% of the Warlock's Health, and 30% of his Shadow Damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 2,
+        "cap": 2,
+        "greaterCap": 6
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 2,
@@ -10700,6 +11894,12 @@
     ],
     "description": "All Frost skills have a AMOUNT% chance on cast to also cast <SKILL_659> over your target.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 2,
+        "maximum": 3,
+        "cap": 5,
+        "greaterCap": 20
+      },
       "Enchanted": {
         "minimum": 2,
         "maximum": 3,
@@ -10744,6 +11944,12 @@
     ],
     "description": "<SKILL_638> has an additional AMOUNT% chance to trigger, and the <SKILL_632> passive skill now applies <SKILL_156> instead, as if applied by the Warlock, however at 25% efficiency.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 35
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -10788,6 +11994,12 @@
     ],
     "description": "The Warlock now has a AMOUNT% chance to steal Souls on hit. 0.5 seconds cooldown.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 2,
+        "maximum": 3,
+        "cap": 5,
+        "greaterCap": 20
+      },
       "Enchanted": {
         "minimum": 2,
         "maximum": 3,
@@ -10832,6 +12044,12 @@
     ],
     "description": "+AMOUNT% damage with all Nature skills.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 8,
+        "cap": 12,
+        "greaterCap": 40
+      },
       "Enchanted": {
         "minimum": 5,
         "maximum": 8,
@@ -10876,6 +12094,12 @@
     ],
     "description": "All Shout skills also cast <SKILL_77>.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 1
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -10920,6 +12144,12 @@
     ],
     "description": "All Fire skills also cast <SKILL_76>. <SKILL_76> increases Health Regeneration by AMOUNT% while active. This effect is tripled if the Berserker is on fire.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 10,
+        "maximum": 15,
+        "cap": 25,
+        "greaterCap": 150
+      },
       "Enchanted": {
         "minimum": 10,
         "maximum": 15,
@@ -10964,6 +12194,12 @@
     ],
     "description": "Each time any Arrow passes through a foe because of <SKILL_106>, the damage of the Arrow is increased by AMOUNT%.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 5,
+        "cap": 8,
+        "greaterCap": 25
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 5,
@@ -11008,6 +12244,12 @@
     ],
     "description": "Storm skills cost AMOUNT% less mana.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 6,
+        "maximum": 9,
+        "cap": 15,
+        "greaterCap": 60
+      },
       "Enchanted": {
         "minimum": 6,
         "maximum": 9,
@@ -11052,6 +12294,12 @@
     ],
     "description": "+AMOUNT% damage with all Sorcery skills.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 9,
+        "greaterCap": 35
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -11096,6 +12344,12 @@
     ],
     "description": "Thorns damage is dealt as a nova, dealing AMOUNT% increased damage in a 2.5 meter radius.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 40,
+        "maximum": 60,
+        "cap": 100,
+        "greaterCap": 500
+      },
       "Enchanted": {
         "minimum": 40,
         "maximum": 60,
@@ -11140,6 +12394,12 @@
     ],
     "description": "All Archery skills attack with AMOUNT% increased attack speed.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 14,
+        "maximum": 20,
+        "cap": 33,
+        "greaterCap": 100
+      },
       "Enchanted": {
         "minimum": 14,
         "maximum": 20,
@@ -11184,6 +12444,12 @@
     ],
     "description": "+AMOUNT% increased Evasion and Damage Reduction.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 2,
+        "maximum": 3,
+        "cap": 5,
+        "greaterCap": 20
+      },
       "Enchanted": {
         "minimum": 2,
         "maximum": 3,
@@ -11228,6 +12494,12 @@
     ],
     "description": "+AMOUNT% increased range and effectiveness of all Auras.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 5,
+        "cap": 8,
+        "greaterCap": 30
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 5,
@@ -11272,6 +12544,12 @@
     ],
     "description": "Any attack that would kill the wearer will instead restore them to AMOUNT% Maximum Health. This effect can only occur once per 3 minutes.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 10,
+        "maximum": 15,
+        "cap": 25,
+        "greaterCap": 50
+      },
       "Enchanted": {
         "minimum": 10,
         "maximum": 15,
@@ -11316,6 +12594,12 @@
     ],
     "description": "When using any skill, there's a chance equal to AMOUNT% of the current missing Health percentage to instantly reset the cooldown of the skill. This chance never goes below 10%.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 40
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -11360,6 +12644,12 @@
     ],
     "description": "Health Regeneration is increased by AMOUNT% of missing Health percentage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 120,
+        "maximum": 180,
+        "cap": 300,
+        "greaterCap": 1200
+      },
       "Enchanted": {
         "minimum": 120,
         "maximum": 180,
@@ -11404,6 +12694,12 @@
     ],
     "description": "+AMOUNT% increased effect of all Gems.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 8,
+        "maximum": 12,
+        "cap": 20,
+        "greaterCap": 65
+      },
       "Enchanted": {
         "minimum": 8,
         "maximum": 12,
@@ -11448,6 +12744,12 @@
     ],
     "description": "+AMOUNT% increased damage of all Satellite enchants.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 8,
+        "maximum": 12,
+        "cap": 20,
+        "greaterCap": 75
+      },
       "Enchanted": {
         "minimum": 8,
         "maximum": 12,
@@ -11492,6 +12794,12 @@
     ],
     "description": "Shrine effects are doubled, but they also always spawn a Champion.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 1
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -11536,6 +12844,12 @@
     ],
     "description": "The wearer is healed for AMOUNT% of all mana spent or drained.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 20,
+        "maximum": 30,
+        "cap": 50,
+        "greaterCap": 200
+      },
       "Enchanted": {
         "minimum": 20,
         "maximum": 30,
@@ -11580,6 +12894,12 @@
     ],
     "description": "All satellites spawn in pairs and deal AMOUNT% increased damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 16,
+        "maximum": 24,
+        "cap": 40,
+        "greaterCap": 150
+      },
       "Enchanted": {
         "minimum": 16,
         "maximum": 24,
@@ -11624,6 +12944,12 @@
     ],
     "description": "<SKILL_158> is also fired from any active Frost Satellite enchants when cast.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 1
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -11668,6 +12994,12 @@
     ],
     "description": "Restores AMOUNT Health instantly when falling below 30% Maximum Health. 10 second cooldown.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 990,
+        "maximum": 1045,
+        "cap": 1000,
+        "greaterCap": 12000
+      },
       "Enchanted": {
         "minimum": 990,
         "maximum": 1045,
@@ -11712,6 +13044,12 @@
     ],
     "description": "Restores AMOUNT Mana instantly when falling below 30% Maximum Mana. 10 second cooldown.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 495,
+        "maximum": 523,
+        "cap": 500,
+        "greaterCap": 5000
+      },
       "Enchanted": {
         "minimum": 495,
         "maximum": 523,
@@ -11756,6 +13094,12 @@
     ],
     "description": "Adds a AMOUNT% chance on kill to grant a random Shrine buff that lasts for 15 seconds.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 2,
+        "maximum": 3,
+        "cap": 4,
+        "greaterCap": 15
+      },
       "Enchanted": {
         "minimum": 2,
         "maximum": 3,
@@ -11800,6 +13144,12 @@
     ],
     "description": "Breaking breakable objects increases Movement Speed by 1%, stacking up to AMOUNT times. Effect lasts 10 seconds.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 50
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -11844,6 +13194,12 @@
     ],
     "description": "You can now equip 2 Ultimate skills, and all Ultimate skills are AMOUNT% stronger.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 50
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -11888,6 +13244,12 @@
     ],
     "description": "<SKILL_99>, <SKILL_121>, <SKILL_110>, and <SKILL_132> shoot AMOUNT arrows in a cone.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 2,
+        "cap": 2,
+        "greaterCap": 10
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 2,
@@ -11932,6 +13294,12 @@
     ],
     "description": "Sword skills launch a Phantom Blade on attack, dealing AMOUNT% of the used skill's damage to all foes in a straight line. The Blade is of the same element as the skill used, and may trigger other on-hit effects.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 100
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -11976,6 +13344,12 @@
     ],
     "description": "All Curses that do not have a damage over time effect now deal an additional AMOUNT% of the total remaining damage of all curse damage over time effects on that foe. <SKILL_712>, <SKILL_614>, and <SKILL_618> now stack infinitely.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 12,
+        "maximum": 18,
+        "cap": 30,
+        "greaterCap": 200
+      },
       "Enchanted": {
         "minimum": 12,
         "maximum": 18,
@@ -12020,6 +13394,12 @@
     ],
     "description": "Each attack adds a stack of Face Breaking, storing the 40% of the damage of the attack. At AMOUNT stacks, the total damage is added to all attacks for 3 seconds.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 4
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -12064,6 +13444,12 @@
     ],
     "description": "AMOUNT% of Damage taken subtracted from Mana instead of Health, draining 1 Mana per 4 points of Damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 40
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -12108,6 +13494,12 @@
     ],
     "description": "Satellites now deal direct damage, triggering on-hit effects. In addition, satellite damage is increased by AMOUNT%.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 8,
+        "maximum": 12,
+        "cap": 20,
+        "greaterCap": 100
+      },
       "Enchanted": {
         "minimum": 8,
         "maximum": 12,
@@ -12152,6 +13544,12 @@
     ],
     "description": "The damage of <SKILL_287> is multiplied by Light Radius.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 1
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -12196,6 +13594,12 @@
     ],
     "description": "Mobility Skills increase Damage Reduction by AMOUNT% for 7 seconds when used.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 35
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -12240,6 +13644,12 @@
     ],
     "description": "Companions gain AMOUNT% increased Evasion and Attack Speed.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 2,
+        "maximum": 3,
+        "cap": 5,
+        "greaterCap": 30
+      },
       "Enchanted": {
         "minimum": 2,
         "maximum": 3,
@@ -12284,6 +13694,12 @@
     ],
     "description": "AMOUNT% of Shadow Resistance is added to Holy Damage, however this bonus does not interact with other elements.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 40,
+        "maximum": 60,
+        "cap": 100,
+        "greaterCap": 550
+      },
       "Enchanted": {
         "minimum": 40,
         "maximum": 60,
@@ -12328,6 +13744,12 @@
     ],
     "description": "<SKILL_292> also casts <SKILL_293> and <SKILL_2>.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 1
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -12372,6 +13794,12 @@
     ],
     "description": "Archery Skills cost AMOUNT% less mana, have AMOUNT% less cooldown, and deal AMOUNT% increased damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 2,
+        "maximum": 3,
+        "cap": 5,
+        "greaterCap": 30
+      },
       "Enchanted": {
         "minimum": 2,
         "maximum": 3,
@@ -12416,6 +13844,12 @@
     ],
     "description": "<SKILL_100>, <SKILL_482>, <SKILL_111>, and <SKILL_546> have their cooldown and mana cost reduced by AMOUNT%.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 16,
+        "maximum": 24,
+        "cap": 40,
+        "greaterCap": 100
+      },
       "Enchanted": {
         "minimum": 16,
         "maximum": 24,
@@ -12460,6 +13894,12 @@
     ],
     "description": "<SKILL_587> no longer has a knockback effect, and casts <SKILL_579> when landing.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 1
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -12504,6 +13944,12 @@
     ],
     "description": "<SKILL_481> and <SKILL_491> deal AMOUNT% increased damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 24,
+        "maximum": 36,
+        "cap": 60,
+        "greaterCap": 220
+      },
       "Enchanted": {
         "minimum": 24,
         "maximum": 36,
@@ -12548,6 +13994,12 @@
     ],
     "description": "<SKILL_593> increases Frost damage by an additional AMOUNT% and applies <SKILL_137> to all foes within 5 meters when triggered.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 70
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -12592,6 +14044,12 @@
     ],
     "description": "Storm Skills attack with AMOUNT% increased attack speed.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 12,
+        "maximum": 18,
+        "cap": 30,
+        "greaterCap": 100
+      },
       "Enchanted": {
         "minimum": 12,
         "maximum": 18,
@@ -12636,6 +14094,12 @@
     ],
     "description": "While moving, increases the damage of <SKILL_263> by AMOUNT% of Movement Speed every half second, stacking 10 times. Fades away slowly while not moving.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 65
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -12680,6 +14144,12 @@
     ],
     "description": "10% chance on being hurt to cast a random Curse at the attacker, and all Curses last AMOUNT% longer.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 40,
+        "maximum": 60,
+        "cap": 100,
+        "greaterCap": 300
+      },
       "Enchanted": {
         "minimum": 40,
         "maximum": 60,
@@ -12724,6 +14194,12 @@
     ],
     "description": "AMOUNT% of Health Regeneration is converted into Damage, however all Health Regeneration is removed.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 5,
+        "cap": 8,
+        "greaterCap": 50
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 5,
@@ -12768,6 +14244,12 @@
     ],
     "description": "<SKILL_721> instead fires AMOUNT piercing Bone Spears in a cone forwards, dealing Thorns damage but no longer pulling foes towards the Warlock. In addition, it no longer has a cooldown.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 6
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -12812,6 +14294,12 @@
     ],
     "description": "<SKILL_178> deals AMOUNT% increased damage for each remaining second of <SKILL_174>. ",
     "ranges": {
+      "Ordinary": {
+        "minimum": 2,
+        "maximum": 3,
+        "cap": 5,
+        "greaterCap": 20
+      },
       "Enchanted": {
         "minimum": 2,
         "maximum": 3,
@@ -12856,6 +14344,12 @@
     ],
     "description": "<SKILL_643> no longer consumes any Souls, and always acts as if consuming the max amount. ",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 1
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -12900,6 +14394,12 @@
     ],
     "description": "<SKILL_175>, <SKILL_694>, and <SKILL_179> have their base damage increased by AMOUNT% of the Warlock's bonus damage to Demons. ",
     "ranges": {
+      "Ordinary": {
+        "minimum": 24,
+        "maximum": 36,
+        "cap": 60,
+        "greaterCap": 250
+      },
       "Enchanted": {
         "minimum": 24,
         "maximum": 36,
@@ -12944,6 +14444,12 @@
     ],
     "description": "<SKILL_316> and <SKILL_22> deal AMOUNT% increased damage for each active <SKILL_21> orb. ",
     "ranges": {
+      "Ordinary": {
+        "minimum": 2,
+        "maximum": 2,
+        "cap": 3,
+        "greaterCap": 12
+      },
       "Enchanted": {
         "minimum": 2,
         "maximum": 2,
@@ -12988,6 +14494,12 @@
     ],
     "description": "+AMOUNT Maximum Souls. Souls stolen while already at Maximum Souls will now hover around the Warlock until the Warlock has room to hold more Souls or there are 5 Souls hovering. ",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 10
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -13032,6 +14544,12 @@
     ],
     "description": "Health Regeneration is increased by AMOUNT% for each application of <SKILL_156> on all foes within 7 meters. ",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 8
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -13076,6 +14594,12 @@
     ],
     "description": "<SKILL_675> can stack one more time per Soul held.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 1
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -13120,6 +14644,12 @@
     ],
     "description": "All Base Skills attack in AMOUNT directions.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 2,
+        "cap": 2,
+        "greaterCap": 6
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 2,
@@ -13164,6 +14694,12 @@
     ],
     "description": "<SKILL_473> no longer deals damage and instead provides a protective barrier, shielding the Berserker for 1% of his Maximum Health for every 3 Rage consumed by the skill. Barrier lasts AMOUNT seconds or until broken.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 3,
+        "maximum": 4,
+        "cap": 6,
+        "greaterCap": 30
+      },
       "Enchanted": {
         "minimum": 3,
         "maximum": 4,
@@ -13208,6 +14744,12 @@
     ],
     "description": "AMOUNT% of damage taken is staggered and dealt over 3 seconds, at a 30% damage reduction.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 6,
+        "maximum": 9,
+        "cap": 15,
+        "greaterCap": 45
+      },
       "Enchanted": {
         "minimum": 6,
         "maximum": 9,
@@ -13252,6 +14794,12 @@
     ],
     "description": "Grants a friendly Hellhound companion with AMOUNT% Fire damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 7,
+        "cap": 11,
+        "greaterCap": 100
+      },
       "Enchanted": {
         "minimum": 5,
         "maximum": 7,
@@ -13296,6 +14844,12 @@
     ],
     "description": "Grants an annoying Goblin companion (whether you like it or not) with AMOUNT% Physical damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 7,
+        "cap": 11,
+        "greaterCap": 100
+      },
       "Enchanted": {
         "minimum": 5,
         "maximum": 7,
@@ -13340,6 +14894,12 @@
     ],
     "description": "Adds a 5% chance on attack to summon a random Ghost companion with AMOUNT% Lightning damage. Companion lasts for 15 seconds.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 7,
+        "cap": 11,
+        "greaterCap": 100
+      },
       "Enchanted": {
         "minimum": 5,
         "maximum": 7,
@@ -13384,6 +14944,12 @@
     ],
     "description": "Adds +AMOUNT% Bonus Experience on each kill, stacking up to 100 times and lasts until an item of Unique or higher quality drops.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 5
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -13428,6 +14994,12 @@
     ],
     "description": "<SKILL_505> now triggers from Storm skills, shooting Gusts instead of arrows. <SKILL_505> also has a AMOUNT% additional chance to trigger.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 40
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -13472,6 +15044,12 @@
     ],
     "description": "<SKILL_552> strikes an addtional AMOUNT times and deals 40% increased damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 2,
+        "maximum": 3,
+        "cap": 4,
+        "greaterCap": 15
+      },
       "Enchanted": {
         "minimum": 2,
         "maximum": 3,
@@ -13516,6 +15094,12 @@
     ],
     "description": "AMOUNT% of Movement Speed is added to Companion Damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 28,
+        "maximum": 42,
+        "cap": 70,
+        "greaterCap": 430
+      },
       "Enchanted": {
         "minimum": 28,
         "maximum": 42,
@@ -13560,6 +15144,12 @@
     ],
     "description": "All Nova skills deal AMOUNT% increased damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 7,
+        "cap": 11,
+        "greaterCap": 100
+      },
       "Enchanted": {
         "minimum": 5,
         "maximum": 7,
@@ -13604,6 +15194,12 @@
     ],
     "description": "All indirect damage enchants such as Chain Lightning, Burn, Smite, etc. deal AMOUNT% increased damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 16,
+        "maximum": 24,
+        "cap": 40,
+        "greaterCap": 150
+      },
       "Enchanted": {
         "minimum": 16,
         "maximum": 24,
@@ -13648,6 +15244,12 @@
     ],
     "description": "All absorption barriers are AMOUNT% stronger.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 60
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -13692,6 +15294,12 @@
     ],
     "description": "+AMOUNT Thorns.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 400,
+        "maximum": 950,
+        "cap": 1000,
+        "greaterCap": 7500
+      },
       "Enchanted": {
         "minimum": 400,
         "maximum": 950,
@@ -13736,6 +15344,12 @@
     ],
     "description": "<SKILL_367> also applies <SKILL_368>, and the effect of both skills is increased by AMOUNT%",
     "ranges": {
+      "Ordinary": {
+        "minimum": 8,
+        "maximum": 12,
+        "cap": 20,
+        "greaterCap": 150
+      },
       "Enchanted": {
         "minimum": 8,
         "maximum": 12,
@@ -13780,6 +15394,12 @@
     ],
     "description": "<SKILL_448> deals AMOUNT% increased damage for every 22 points of Mana Regeneration.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 3
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -13824,6 +15444,12 @@
     ],
     "description": "Drains 15% of Maximum Mana every 5 seconds to create a protective barrier absorbing damage equal to AMOUNT times the mana drained.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 2,
+        "maximum": 3,
+        "cap": 5,
+        "greaterCap": 40
+      },
       "Enchanted": {
         "minimum": 2,
         "maximum": 3,
@@ -13868,6 +15494,12 @@
     ],
     "description": "<SKILL_595> and <SKILL_596> now cause a stacking bleed effect when dealing damage. The bleed damages for 100% of the damage dealt, per second, for 5 seconds. In addition, <SKILL_595> and <SKILL_596> deal AMOUNT% increased damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 12,
+        "maximum": 18,
+        "cap": 30,
+        "greaterCap": 100
+      },
       "Enchanted": {
         "minimum": 12,
         "maximum": 18,
@@ -13912,6 +15544,12 @@
     ],
     "description": "<SKILL_692> can now be triggered by any fire skill, and <SKILL_701> is AMOUNT% stronger if not having any active Companion Skills.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 6,
+        "maximum": 9,
+        "cap": 15,
+        "greaterCap": 100
+      },
       "Enchanted": {
         "minimum": 6,
         "maximum": 9,
@@ -13956,6 +15594,12 @@
     ],
     "description": "Arrows fired from <SKILL_505> now explode on impact, dealing damage in a 3 meter radius. <SKILL_505> also deals AMOUNT% increased damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 12,
+        "maximum": 18,
+        "cap": 30,
+        "greaterCap": 100
+      },
       "Enchanted": {
         "minimum": 12,
         "maximum": 18,
@@ -14000,6 +15644,12 @@
     ],
     "description": "All of the Warden's companion skills that summon 2 or more companions summon AMOUNT additional companions.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 3
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -14044,6 +15694,12 @@
     ],
     "description": "For each active companion, Damage is increased by AMOUNT%.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 2,
+        "cap": 2,
+        "greaterCap": 20
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 2,
@@ -14088,6 +15744,12 @@
     ],
     "description": "Reduces the base cooldown of all skills by AMOUNT%, and increases their base cost by twice as much.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 5,
+        "cap": 8,
+        "greaterCap": 40
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 5,
@@ -14132,6 +15794,12 @@
     ],
     "description": "Nature Skills attack with AMOUNT% increased attack speed.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 12,
+        "maximum": 18,
+        "cap": 30,
+        "greaterCap": 100
+      },
       "Enchanted": {
         "minimum": 12,
         "maximum": 18,
@@ -14176,6 +15844,12 @@
     ],
     "description": "10% of overhealing received from Health on Hit is turned into damage. The effect lasts 7 seconds and stacks up to AMOUNT% of Maximum Health.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 2,
+        "cap": 2,
+        "greaterCap": 15
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 2,
@@ -14220,6 +15894,12 @@
     ],
     "description": "Every third <SKILL_294> attack also casts rank 5 <SKILL_297>. In addition, the radius of <SKILL_294> is increased by AMOUNT%. This sword also counts as a shield and allows blocking.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 6,
+        "maximum": 9,
+        "cap": 15,
+        "greaterCap": 200
+      },
       "Enchanted": {
         "minimum": 6,
         "maximum": 9,
@@ -14264,6 +15944,12 @@
     ],
     "description": "<SKILL_752> deals AMOUNT% increased damage when triggered from a Shield skill cast.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 6,
+        "maximum": 9,
+        "cap": 15,
+        "greaterCap": 100
+      },
       "Enchanted": {
         "minimum": 6,
         "maximum": 9,
@@ -14308,6 +15994,12 @@
     ],
     "description": "Adds 0.AMOUNT to Thorns for every point of Health, Mana, and Damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 50
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -14352,6 +16044,12 @@
     ],
     "description": "Curse skills attack AMOUNT% faster, cost AMOUNT% less mana, and deal AMOUNT% increased base damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 50
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -14396,6 +16094,12 @@
     ],
     "description": "<SKILL_726> may now be triggered from any Bone skill. In addition, all Bone skills deal AMOUNT% increased damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 2,
+        "maximum": 3,
+        "cap": 5,
+        "greaterCap": 30
+      },
       "Enchanted": {
         "minimum": 2,
         "maximum": 3,
@@ -14440,6 +16144,12 @@
     ],
     "description": "<SKILL_367> now provides immunity to poison and bleed effects while active. In addition, all Stone skills deal AMOUNT% increased damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 2,
+        "maximum": 3,
+        "cap": 5,
+        "greaterCap": 30
+      },
       "Enchanted": {
         "minimum": 2,
         "maximum": 3,
@@ -14484,6 +16194,12 @@
     ],
     "description": "Damage is increased by AMOUNT% of the currently held Staggered Damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 2,
+        "maximum": 3,
+        "cap": 5,
+        "greaterCap": 25
+      },
       "Enchanted": {
         "minimum": 2,
         "maximum": 3,
@@ -14528,6 +16244,12 @@
     ],
     "description": "Blade Conjuration skills now count as Hammer skills and will conjure great hammers instead of blades. In addition, all Hammer skills deal an increased AMOUNT% damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 8,
+        "maximum": 12,
+        "cap": 20,
+        "greaterCap": 100
+      },
       "Enchanted": {
         "minimum": 8,
         "maximum": 12,
@@ -14572,6 +16294,12 @@
     ],
     "description": "Spooky",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 1
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -14616,6 +16344,12 @@
     ],
     "description": "Damage taken from burn effects now triggers <SKILL_447>. <SKILL_447>' damage is increased by AMOUNT% for each percentage of health lost from any damage taken that triggers the effect.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 15
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -14660,6 +16394,12 @@
     ],
     "description": "AMOUNT% chance on attack to cast rank 5 <SKILL_435>, dealing fire damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 10
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -14704,6 +16444,12 @@
     ],
     "description": "<SKILL_302> now attack the target of any Blade Conjuration skills used by the Templar by mimicking the skill at AMOUNT% efficiency in addition to their own attacks. The mimicked skills use the companions' own stats and bonuses instead of the Templar's.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 80
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -14748,6 +16494,12 @@
     ],
     "description": "5% chance on attack to cast rank 5 <SKILL_332>. In addition, Hammer skills deal AMOUNT% increased damage and attack AMOUNT% faster.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 5,
+        "cap": 8,
+        "greaterCap": 50
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 5,
@@ -14792,6 +16544,12 @@
     ],
     "description": "When evading an attack, there is a 10% chance to spawn a Health or Mana pickup. Adds AMOUNT% to Evasion.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 2,
+        "maximum": 3,
+        "cap": 5,
+        "greaterCap": 40
+      },
       "Enchanted": {
         "minimum": 2,
         "maximum": 3,
@@ -14836,6 +16594,12 @@
     ],
     "description": "Archery, Storm, and Nature skills deal AMOUNT% increased damage per meter distance to the foe hit, however this requires that the Warden has no active companions.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 2,
+        "cap": 2,
+        "greaterCap": 15
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 2,
@@ -14880,6 +16644,12 @@
     ],
     "description": "Standing in hostile ground effects triggers Health on Hit. Take AMOUNT% less damage from Ground Effects.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 12,
+        "maximum": 18,
+        "cap": 30,
+        "greaterCap": 100
+      },
       "Enchanted": {
         "minimum": 12,
         "maximum": 18,
@@ -14924,6 +16694,12 @@
     ],
     "description": "Grants a Sandworm companion with AMOUNT% Physical damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 7,
+        "cap": 11,
+        "greaterCap": 300
+      },
       "Enchanted": {
         "minimum": 5,
         "maximum": 7,
@@ -14968,6 +16744,12 @@
     ],
     "description": "Health on Hit is AMOUNT% more effective.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 6,
+        "maximum": 9,
+        "cap": 15,
+        "greaterCap": 200
+      },
       "Enchanted": {
         "minimum": 6,
         "maximum": 9,
@@ -15012,6 +16794,12 @@
     ],
     "description": "Bone Skills deal AMOUNT% increased damage. (Warlock only)",
     "ranges": {
+      "Ordinary": {
+        "minimum": 2,
+        "maximum": 3,
+        "cap": 5,
+        "greaterCap": 60
+      },
       "Enchanted": {
         "minimum": 2,
         "maximum": 3,
@@ -15056,6 +16844,12 @@
     ],
     "description": "Projectile skills have AMOUNT% increased range and damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 8,
+        "cap": 12,
+        "greaterCap": 90
+      },
       "Enchanted": {
         "minimum": 5,
         "maximum": 8,
@@ -15100,6 +16894,12 @@
     ],
     "description": "Reveal all invisible foes within AMOUNT meters.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 2,
+        "maximum": 2,
+        "cap": 3,
+        "greaterCap": 10
+      },
       "Enchanted": {
         "minimum": 2,
         "maximum": 2,
@@ -15144,6 +16944,12 @@
     ],
     "description": "Ground Effect Skills deal AMOUNT% increased damage and last AMOUNT% longer.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 5,
+        "maximum": 8,
+        "cap": 12,
+        "greaterCap": 90
+      },
       "Enchanted": {
         "minimum": 5,
         "maximum": 8,
@@ -15188,6 +16994,12 @@
     ],
     "description": "Mana Regeneration is increased by AMOUNT% for each foe within 7 meters. Bosses count as 15 foes.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 2,
+        "maximum": 2,
+        "cap": 3,
+        "greaterCap": 10
+      },
       "Enchanted": {
         "minimum": 2,
         "maximum": 2,
@@ -15232,6 +17044,12 @@
     ],
     "description": "Provoke and pull a random nearby foe when attacking.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 1
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -15276,6 +17094,12 @@
     ],
     "description": "Thrown skills and Stone (Berserker) skills deal AMOUNT% increased damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 2,
+        "maximum": 3,
+        "cap": 5,
+        "greaterCap": 60
+      },
       "Enchanted": {
         "minimum": 2,
         "maximum": 3,
@@ -15320,6 +17144,12 @@
     ],
     "description": "Fungi skills deal AMOUNT% increased damage. <SKILL_117> spawned from Fungi skills are twice as strong.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 40
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -15364,6 +17194,12 @@
     ],
     "description": "Bane spells deal AMOUNT% increased damage for every 5% Reach.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 2,
+        "cap": 2,
+        "greaterCap": 10
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 2,
@@ -15408,6 +17244,12 @@
     ],
     "description": "Sorcery spells are sometimes duplicated by a magical clone of the Warlock, casting from a random nearby location towards the same target, for AMOUNT% increased damage. 25% chance to cast.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 12,
+        "maximum": 18,
+        "cap": 30,
+        "greaterCap": 300
+      },
       "Enchanted": {
         "minimum": 12,
         "maximum": 18,
@@ -15452,6 +17294,12 @@
     ],
     "description": "<SKILL_715>, <SKILL_720>, and <SKILL_719> are now all cast once per second at the Warlock's location. The Warlock only needs to equip one of these skills to gain the effect of all of them. In addition, these skills deal AMOUNT% increased damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 16,
+        "maximum": 24,
+        "cap": 40,
+        "greaterCap": 200
+      },
       "Enchanted": {
         "minimum": 16,
         "maximum": 24,
@@ -15496,6 +17344,12 @@
     ],
     "description": "Brawl skills have a 50% chance to strike up to 2 additional times at random nearby enemies for AMOUNT% increased damage. Mobility skills are unaffected.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 100
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -15540,6 +17394,12 @@
     ],
     "description": "<SKILL_50> now throws fists, traveling up to 7 meters. <SKILL_50> also deals AMOUNT% increased damage and is considered a Thrown skill.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 50
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -15584,6 +17444,12 @@
     ],
     "description": "<SKILL_711> no longer spirals the Warlock and instead bounces up to AMOUNT times between foes.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 2,
+        "maximum": 2,
+        "cap": 3,
+        "greaterCap": 12
+      },
       "Enchanted": {
         "minimum": 2,
         "maximum": 2,
@@ -15628,6 +17494,12 @@
     ],
     "description": "Shout skills deal up to AMOUNT% increased damage the closer the foes are to the Berserker. In addition, Shout skills have 50% increased range.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 24,
+        "maximum": 36,
+        "cap": 60,
+        "greaterCap": 400
+      },
       "Enchanted": {
         "minimum": 24,
         "maximum": 36,
@@ -15672,6 +17544,12 @@
     ],
     "description": "All indirect damage enchants apply a debuff dealing the same amount of damage per second as Ethereal, stacking infinitely and lasting 7 seconds.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 1
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -15716,6 +17594,12 @@
     ],
     "description": "Each time a foe is struck by a Shield skill they suffer AMOUNT% increased damage from all Shield skills, stacking infinitely.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 2,
+        "maximum": 3,
+        "cap": 5,
+        "greaterCap": 20
+      },
       "Enchanted": {
         "minimum": 2,
         "maximum": 3,
@@ -15760,6 +17644,12 @@
     ],
     "description": "Magic skills attack AMOUNT% faster and have 25% chance to doublecast.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 100
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -15804,6 +17694,12 @@
     ],
     "description": "Dragon skills attack AMOUNT% faster, have AMOUNT% less cooldown, and last AMOUNT% longer.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 100
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -15848,6 +17744,12 @@
     ],
     "description": "While still, Auras have AMOUNT% increased range. While moving, Auras have AMOUNT% increased effect & damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 8,
+        "maximum": 12,
+        "cap": 20,
+        "greaterCap": 100
+      },
       "Enchanted": {
         "minimum": 8,
         "maximum": 12,
@@ -15892,6 +17794,12 @@
     ],
     "description": "For each assigned skill that is Utility, Ultimate, Companion, Aura, Heritage, or Ritual, thorns is increased by AMOUNT%.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 16,
+        "maximum": 24,
+        "cap": 40,
+        "greaterCap": 150
+      },
       "Enchanted": {
         "minimum": 16,
         "maximum": 24,
@@ -15936,6 +17844,12 @@
     ],
     "description": "All Skills with any chance effects, proc rates, etc, have a AMOUNT% increased chance to trigger.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 100
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -15980,6 +17894,12 @@
     ],
     "description": "For each nearby foe, maximum rage is increased by 3. Rage-based passive skills are AMOUNT% stronger. Bosses count as 15 foes.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 6,
+        "maximum": 9,
+        "cap": 15,
+        "greaterCap": 90
+      },
       "Enchanted": {
         "minimum": 6,
         "maximum": 9,
@@ -16024,6 +17944,12 @@
     ],
     "description": "<SKILL_101>, <SKILL_486>, and <SKILL_490> fire AMOUNT additional arrows/fragments.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 2,
+        "cap": 2,
+        "greaterCap": 5
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 2,
@@ -16068,6 +17994,12 @@
     ],
     "description": "<SKILL_295>, <SKILL_3>, and <SKILL_296>, moves only half the distance, and mana cost and cooldown is reduced by AMOUNT%.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 12,
+        "maximum": 18,
+        "cap": 30,
+        "greaterCap": 100
+      },
       "Enchanted": {
         "minimum": 12,
         "maximum": 18,
@@ -16112,6 +18044,12 @@
     ],
     "description": "<SKILL_52> consumes up to AMOUNT Rage when used, increasing its base damage by 2% per point of Rage consumed.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 35
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -16156,6 +18094,12 @@
     ],
     "description": "<SKILL_640> is AMOUNT% stronger when spawned from foes affected by <SKILL_614>.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 8,
+        "maximum": 12,
+        "cap": 20,
+        "greaterCap": 200
+      },
       "Enchanted": {
         "minimum": 8,
         "maximum": 12,
@@ -16200,6 +18144,12 @@
     ],
     "description": "<SKILL_244> has a AMOUNT% additional chance to trigger.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 6,
+        "maximum": 9,
+        "cap": 15,
+        "greaterCap": 75
+      },
       "Enchanted": {
         "minimum": 6,
         "maximum": 9,
@@ -16244,6 +18194,12 @@
     ],
     "description": "<SKILL_389> increases Damage by an additional AMOUNT%.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 25
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -16288,6 +18244,12 @@
     ],
     "description": "<SKILL_518> will instantly burst any Shrooms spawned from <SKILL_117> when cast. The Shrooms will burst regardless of growth stage and deal AMOUNT% increased damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 14,
+        "maximum": 21,
+        "cap": 35,
+        "greaterCap": 150
+      },
       "Enchanted": {
         "minimum": 14,
         "maximum": 21,
@@ -16332,6 +18294,12 @@
     ],
     "description": "<SKILL_651> now stacks infinitely.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 1
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -16376,6 +18344,12 @@
     ],
     "description": "<SKILL_319> now always triggers <SKILL_262>, and <SKILL_263> is AMOUNT% stronger when triggered from <SKILL_319>.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 12,
+        "maximum": 18,
+        "cap": 30,
+        "greaterCap": 150
+      },
       "Enchanted": {
         "minimum": 12,
         "maximum": 18,
@@ -16420,6 +18394,12 @@
     ],
     "description": "<SKILL_427> now interrupts attacks and stuns foes for up to AMOUNT seconds.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 1
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -16464,6 +18444,12 @@
     ],
     "description": "All Chained skills now deal AMOUNT% of the total remaining damage spread across all foes struck if the effect ends before performing all jumps.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 8,
+        "maximum": 12,
+        "cap": 20,
+        "greaterCap": 80
+      },
       "Enchanted": {
         "minimum": 8,
         "maximum": 12,
@@ -16508,6 +18494,12 @@
     ],
     "description": "<SKILL_700> has a AMOUNT% additional base damage and increased chance to trigger for each active companion.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 15
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -16552,6 +18544,12 @@
     ],
     "description": "<SKILL_332> has a AMOUNT% chance on each foe hit to spawn an additional hammer.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 2,
+        "maximum": 3,
+        "cap": 4,
+        "greaterCap": 15
+      },
       "Enchanted": {
         "minimum": 2,
         "maximum": 3,
@@ -16596,6 +18594,12 @@
     ],
     "description": "The cooldown of <SKILL_383>, <SKILL_431>, and <SKILL_91> is reduced by AMOUNT%.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 6,
+        "maximum": 9,
+        "cap": 15,
+        "greaterCap": 100
+      },
       "Enchanted": {
         "minimum": 6,
         "maximum": 9,
@@ -16640,6 +18644,12 @@
     ],
     "description": "<SKILL_583> has a AMOUNT% chance to also cast <SKILL_134> on itself.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 1
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -16684,6 +18694,12 @@
     ],
     "description": "<SKILL_714> no longer has a cooldown and deals AMOUNT% increased damage for each <SKILL_715>, <SKILL_720>, or <SKILL_719> the foe is affected by.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 8,
+        "maximum": 12,
+        "cap": 20,
+        "greaterCap": 100
+      },
       "Enchanted": {
         "minimum": 8,
         "maximum": 12,
@@ -16728,6 +18744,12 @@
     ],
     "description": "<SKILL_325> now casts AMOUNT fire versions of <SKILL_332> on each tick instead of dealing damage in a radius.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 4
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -16772,6 +18794,12 @@
     ],
     "description": "<SKILL_752> bounces up to AMOUNT additional times.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 2,
+        "cap": 2,
+        "greaterCap": 7
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 2,
@@ -16816,6 +18844,12 @@
     ],
     "description": "<SKILL_753> now bases the damage of <SKILL_752> on Thorns rather than the damage blocked, and will always deal the damage as Physical, regardless of thorns element.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 1
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -16860,6 +18894,12 @@
     ],
     "description": "<SKILL_13>, <SKILL_306>, and <SKILL_307> now also destroy all <SKILL_21> orbs when used, causing them to burst, dealing AMOUNT% of their damage to all foes within twice their damage radius.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 48,
+        "maximum": 72,
+        "cap": 120,
+        "greaterCap": 300
+      },
       "Enchanted": {
         "minimum": 48,
         "maximum": 72,
@@ -16904,6 +18944,12 @@
     ],
     "description": "<SKILL_498> also summons <SKILL_499>, and the other way around. In addition, both companions have their damage and thorns stats increased by AMOUNT%.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 20,
+        "maximum": 30,
+        "cap": 50,
+        "greaterCap": 500
+      },
       "Enchanted": {
         "minimum": 20,
         "maximum": 30,
@@ -16948,6 +18994,12 @@
     ],
     "description": "<SKILL_760>, <SKILL_114>, <SKILL_524>, and <SKILL_523> have a AMOUNT% chance to cause any <SKILL_541> on foes hit to burst.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 40
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -16992,6 +19044,12 @@
     ],
     "description": "<SKILL_514> also increases Thorns by AMOUNT% while active.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 40,
+        "maximum": 60,
+        "cap": 100,
+        "greaterCap": 400
+      },
       "Enchanted": {
         "minimum": 40,
         "maximum": 60,
@@ -17036,6 +19094,12 @@
     ],
     "description": "<SKILL_556> now splits into 3 smaller orbs on impact, each dealing AMOUNT% of the orb's damage in half of its radius. One of the orbs will attempt to target a random nearby foe, whereas the others will move randomly.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 40
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -17080,6 +19144,12 @@
     ],
     "description": "<SKILL_498> and <SKILL_499> may now trigger the <SKILL_100084> Mastery Perk at AMOUNT% efficiency on themselves, provided that they also have the <SKILL_501> passive skill.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 40,
+        "maximum": 60,
+        "cap": 100,
+        "greaterCap": 500
+      },
       "Enchanted": {
         "minimum": 40,
         "maximum": 60,
@@ -17124,6 +19194,12 @@
     ],
     "description": "<SKILL_40>, <SKILL_338>, and <SKILL_339> now restore 1% of Maximum Health per second and increase Light Radius by AMOUNT%.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 48,
+        "maximum": 72,
+        "cap": 120,
+        "greaterCap": 600
+      },
       "Enchanted": {
         "minimum": 48,
         "maximum": 72,
@@ -17168,6 +19244,12 @@
     ],
     "description": "Adds AMOUNTx the strength of the Templar's current barriers to the base damage of <SKILL_290>.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 16,
+        "maximum": 24,
+        "cap": 40,
+        "greaterCap": 150
+      },
       "Enchanted": {
         "minimum": 16,
         "maximum": 24,
@@ -17212,6 +19294,12 @@
     ],
     "description": "<SKILL_435> now attaches itself to the back of the Berserker, and deals 1% increased damage for each point of Rage. <SKILL_435> also has its duration increased by AMOUNT seconds, but is limited to a single instance.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 2,
+        "cap": 2,
+        "greaterCap": 7
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 2,
@@ -17256,6 +19344,12 @@
     ],
     "description": "<SKILL_76> may now trigger on-hit effects and increases Mana Regeneration by AMOUNT% while active.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 20,
+        "maximum": 30,
+        "cap": 50,
+        "greaterCap": 250
+      },
       "Enchanted": {
         "minimum": 20,
         "maximum": 30,
@@ -17300,6 +19394,12 @@
     ],
     "description": "Melee companions gain the Leaper affix, and ranged companions gain the Warping affix.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 1
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -17344,6 +19444,12 @@
     ],
     "description": "Mobility Skills increase the damage of all non-Mobility Skills used in the next 3 seconds by AMOUNT%.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 5,
+        "cap": 8,
+        "greaterCap": 30
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 5,
@@ -17388,6 +19494,12 @@
     ],
     "description": "<SKILL_54> and <SKILL_370> cause <SKILL_374> of the same rank on impact.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 1
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -17432,6 +19544,12 @@
     ],
     "description": "Thorns damage turns into Lightning, and taking damage spawns a <SKILL_410> using AMOUNT% of Thorns as its base damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 20,
+        "maximum": 30,
+        "cap": 50,
+        "greaterCap": 300
+      },
       "Enchanted": {
         "minimum": 20,
         "maximum": 30,
@@ -17476,6 +19594,12 @@
     ],
     "description": "The cooldown of <SKILL_370>, <SKILL_80>, and <SKILL_65> is reduced by AMOUNT%.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 6,
+        "maximum": 9,
+        "cap": 15,
+        "greaterCap": 100
+      },
       "Enchanted": {
         "minimum": 6,
         "maximum": 9,
@@ -17520,6 +19644,12 @@
     ],
     "description": "<SKILL_473> increases Heritage Effect by 5% for 5 seconds after triggering, stacking up to AMOUNT times.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 2,
+        "cap": 2,
+        "greaterCap": 13
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 2,
@@ -17564,6 +19694,12 @@
     ],
     "description": "Increases the tick rate of <SKILL_475> by AMOUNT% of Attack Speed.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 5,
+        "cap": 8,
+        "greaterCap": 40
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 5,
@@ -17608,6 +19744,12 @@
     ],
     "description": "<SKILL_254> always lands a critical hit, and deals AMOUNT% increased damage while the Templar is moving.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 2,
+        "maximum": 3,
+        "cap": 5,
+        "greaterCap": 30
+      },
       "Enchanted": {
         "minimum": 2,
         "maximum": 3,
@@ -17652,6 +19794,12 @@
     ],
     "description": "Critical hits increase Thorns by AMOUNT% for 7 seconds, stacking 15 times.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 5,
+        "cap": 8,
+        "greaterCap": 30
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 5,
@@ -17696,6 +19844,12 @@
     ],
     "description": "Chilled foes suffer AMOUNT% increased damage from bleed effects.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 5,
+        "cap": 8,
+        "greaterCap": 30
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 5,
@@ -17740,6 +19894,12 @@
     ],
     "description": "Bleeding foes suffer AMOUNT% increased damage from poison effects.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 5,
+        "cap": 8,
+        "greaterCap": 30
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 5,
@@ -17784,6 +19944,12 @@
     ],
     "description": "<SKILL_137> is applied to all foes within AMOUNT meters when casting any Frost skill.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 2,
+        "maximum": 2,
+        "cap": 3,
+        "greaterCap": 13
+      },
       "Enchanted": {
         "minimum": 2,
         "maximum": 2,
@@ -17828,6 +19994,12 @@
     ],
     "description": "Foes afflicted by <SKILL_719> instead suffer AMOUNT% increased Thorns damage from the Warlock.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 40,
+        "maximum": 60,
+        "cap": 100,
+        "greaterCap": 400
+      },
       "Enchanted": {
         "minimum": 40,
         "maximum": 60,
@@ -17872,6 +20044,12 @@
     ],
     "description": "<SKILL_727> also adds AMOUNT Thorns for each stack of <SKILL_739>, and Thorns damage is now dealt as a bone nova to all foes within 7 meters while <SKILL_727> is active.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 120,
+        "maximum": 180,
+        "cap": 300,
+        "greaterCap": 20000
+      },
       "Enchanted": {
         "minimum": 120,
         "maximum": 180,
@@ -17916,6 +20094,12 @@
     ],
     "description": "<SKILL_712> applies <SKILL_719> to all foes hit, and foes afflicted by <SKILL_719> instead suffer AMOUNT% increased Thorns damage from the Warlock.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 40,
+        "maximum": 60,
+        "cap": 100,
+        "greaterCap": 400
+      },
       "Enchanted": {
         "minimum": 40,
         "maximum": 60,
@@ -17960,6 +20144,12 @@
     ],
     "description": "<SKILL_643> also casts either <SKILL_621>, <SKILL_686>, <SKILL_160>, or <SKILL_721> at max rank when landing. The Warlock's highest Elemental damage decides the skill cast.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 1
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -18004,6 +20194,12 @@
     ],
     "description": "All active <SKILL_175> and <SKILL_694> are sacrificed, adding AMOUNT% of their total combined Health and Damage to <SKILL_179>.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 20,
+        "maximum": 30,
+        "cap": 50,
+        "greaterCap": 300
+      },
       "Enchanted": {
         "minimum": 20,
         "maximum": 30,
@@ -18048,6 +20244,12 @@
     ],
     "description": "<SKILL_617> now strikes faster, based on AMOUNT% of the Warlock's attack speed, but is limited to a single instance.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 8,
+        "maximum": 12,
+        "cap": 20,
+        "greaterCap": 80
+      },
       "Enchanted": {
         "minimum": 8,
         "maximum": 12,
@@ -18092,6 +20294,12 @@
     ],
     "description": "When triggered, <SKILL_672> spawns AMOUNT <SKILL_677> based on its damage. ",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 2
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -18136,6 +20344,12 @@
     ],
     "description": "<SKILL_549> and <SKILL_551> are also fired from any active <SKILL_574> when cast. The skill will target what the Wisp targets. ",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 1
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -18180,6 +20394,12 @@
     ],
     "description": "Burning foes suffer AMOUNT% increased damage from Lightning attacks ",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 5,
+        "cap": 8,
+        "greaterCap": 30
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 5,
@@ -18224,6 +20444,12 @@
     ],
     "description": "<SKILL_140> has a AMOUNT% chance to create a Greater Hail, dealing damage in a 2 meter radius. ",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 100
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -18268,6 +20494,12 @@
     ],
     "description": "<SKILL_491> now throws a single trap at the target foe rather than laying them on the ground. The trap deals AMOUNT% increased damage to a AMOUNT% wider radius. In addition, the element of the trap matches the highest bonus element stat. <SKILL_491> now counts as a Thrown skill.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 9,
+        "greaterCap": 35
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -18312,6 +20544,12 @@
     ],
     "description": "Mushrooms spawned from <SKILL_519> and <SKILL_540> now stack their poison effects infinitely and the effects last AMOUNT% longer.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 6,
+        "maximum": 9,
+        "cap": 15,
+        "greaterCap": 100
+      },
       "Enchanted": {
         "minimum": 6,
         "maximum": 9,
@@ -18356,6 +20594,12 @@
     ],
     "description": "If <SKILL_369> hits a crowned foe it will strike an additional AMOUNT times.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 8
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -18400,6 +20644,12 @@
     ],
     "description": "<SKILL_375> has a AMOUNT% chance on hit to summon a <SKILL_369> over the foe and no longer causes a knockback.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 6,
+        "maximum": 9,
+        "cap": 15,
+        "greaterCap": 100
+      },
       "Enchanted": {
         "minimum": 6,
         "maximum": 9,
@@ -18444,6 +20694,12 @@
     ],
     "description": "Companions are granted Thorns equal to AMOUNT% of their Maximum Health.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 32,
+        "maximum": 48,
+        "cap": 80,
+        "greaterCap": 300
+      },
       "Enchanted": {
         "minimum": 32,
         "maximum": 48,
@@ -18488,6 +20744,12 @@
     ],
     "description": "<SKILL_320> now lasts 1.5 seconds but spews as many Embers as if lasting AMOUNT seconds.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 2,
+        "cap": 2,
+        "greaterCap": 12
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 2,
@@ -18532,6 +20794,12 @@
     ],
     "description": "Companions deal AMOUNT% increased damage to bleeding foes.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 20,
+        "maximum": 30,
+        "cap": 50,
+        "greaterCap": 300
+      },
       "Enchanted": {
         "minimum": 20,
         "maximum": 30,
@@ -18576,6 +20844,12 @@
     ],
     "description": "<SKILL_395> creates a Warp Echo when used, which has a AMOUNT% chance to replicate any Shout Skills used by the Berserker. The Warp Echo lasts until <SKILL_395> is used again.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 6,
+        "maximum": 9,
+        "cap": 15,
+        "greaterCap": 100
+      },
       "Enchanted": {
         "minimum": 6,
         "maximum": 9,
@@ -18620,6 +20894,12 @@
     ],
     "description": "<SKILL_494>, <SKILL_528>, <SKILL_130>, and <SKILL_141> have their tick rates increased by AMOUNT% of the Warden's attack speed.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 9,
+        "greaterCap": 35
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -18664,6 +20944,12 @@
     ],
     "description": "All doublecast passive skills have a AMOUNT% increased chance to trigger.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 12,
+        "maximum": 18,
+        "cap": 30,
+        "greaterCap": 300
+      },
       "Enchanted": {
         "minimum": 12,
         "maximum": 18,
@@ -18708,6 +20994,12 @@
     ],
     "description": "All Base Skills deal AMOUNT% increased damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 8,
+        "maximum": 12,
+        "cap": 20,
+        "greaterCap": 200
+      },
       "Enchanted": {
         "minimum": 8,
         "maximum": 12,
@@ -18752,6 +21044,12 @@
     ],
     "description": "The passive effect of <SKILL_8>, <SKILL_24> and <SKILL_236> is increased by AMOUNT%.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 48,
+        "maximum": 72,
+        "cap": 120,
+        "greaterCap": 600
+      },
       "Enchanted": {
         "minimum": 48,
         "maximum": 72,
@@ -18796,6 +21094,12 @@
     ],
     "description": "<SKILL_76>, <SKILL_431>, and <SKILL_78> deal AMOUNT% increased damage and have no cooldown. However, these skills apply a burn effect to the Berserker, dealing 1% of his total health per second, stacking 10 times. Burn lasts 7 seconds.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 6,
+        "maximum": 9,
+        "cap": 15,
+        "greaterCap": 150
+      },
       "Enchanted": {
         "minimum": 6,
         "maximum": 9,
@@ -18840,6 +21144,12 @@
     ],
     "description": "All Active skills deal AMOUNT% increased damage for each percentage of Mana they cost to cast.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 8
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -18884,6 +21194,12 @@
     ],
     "description": "Foes affected by <SKILL_655> have a 0.AMOUNT% chance per missing health percentage to instantly die and cause <SKILL_672> when struck by a frost skill.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 33
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -18928,6 +21244,12 @@
     ],
     "description": "<SKILL_658> now only spawns a single powerful star with the damage of the original number of stars combined. This new star periodically absorbs any <SKILL_654> within 4 meters, refreshing its own duration and gaining AMOUNT% of the absorbed spell's damage. In addition, <SKILL_658> lasts 3 seconds longer.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 14,
+        "maximum": 21,
+        "cap": 35,
+        "greaterCap": 200
+      },
       "Enchanted": {
         "minimum": 14,
         "maximum": 21,
@@ -18972,6 +21294,12 @@
     ],
     "description": "<SKILL_591> and <SKILL_583> now summon charging wolves instead. <SKILL_583> summons a single charging <SKILL_595>, and <SKILL_591> summons multiple charging <SKILL_596> wolves. The Wolves dissolve after charging a short distance and will damage anything they touch. Their damage is based on AMOUNT% of <SKILL_595> and <SKILL_596>'s listed damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 20,
+        "maximum": 30,
+        "cap": 50,
+        "greaterCap": 200
+      },
       "Enchanted": {
         "minimum": 20,
         "maximum": 30,
@@ -19016,6 +21344,12 @@
     ],
     "description": "<SKILL_541> no longer deal damage in a radius when bursting, and instead adds AMOUNT stacks to itself. The base damage of <SKILL_541> is also doubled.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 2,
+        "cap": 2,
+        "greaterCap": 10
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 2,
@@ -19060,6 +21394,12 @@
     ],
     "description": "<SKILL_103> now orbits the Warden and lasts for 7 seconds. Each cast refreshes the duration. Any <SKILL_484> or <SKILL_494> cast will also spawn from each <SKILL_103>, and deal AMOUNT% increased damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 12,
+        "maximum": 18,
+        "cap": 30,
+        "greaterCap": 150
+      },
       "Enchanted": {
         "minimum": 12,
         "maximum": 18,
@@ -19104,6 +21444,12 @@
     ],
     "description": "<SKILL_490> is now automatically performed when using <SKILL_100> or <SKILL_482>, and deals AMOUNT% increased damage. However, it is no longer nearly as accurate and will spread arrows in all directions.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 14,
+        "maximum": 21,
+        "cap": 35,
+        "greaterCap": 150
+      },
       "Enchanted": {
         "minimum": 14,
         "maximum": 21,
@@ -19148,6 +21494,12 @@
     ],
     "description": "<SKILL_100332> is AMOUNT% stronger and <SKILL_575> stacks 10 more times.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 40
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -19192,6 +21544,12 @@
     ],
     "description": "For each active <SKILL_564>, <SKILL_576> deals AMOUNT% increased total damage, including Stormcaller's Regalia Set bonuses.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 14,
+        "maximum": 21,
+        "cap": 35,
+        "greaterCap": 100
+      },
       "Enchanted": {
         "minimum": 14,
         "maximum": 21,
@@ -19236,6 +21594,12 @@
     ],
     "description": "Bombardment skills deal AMOUNT% increased damage for each second of duration, however their base durations are halved. Bombardment skills without any duration are treated as if having a 3 second duration for this effect.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 8,
+        "maximum": 12,
+        "cap": 20,
+        "greaterCap": 100
+      },
       "Enchanted": {
         "minimum": 8,
         "maximum": 12,
@@ -19280,6 +21644,12 @@
     ],
     "description": "Assault skills no longer cost any mana, restore 3% mana on use, and have their cooldowns reduced by AMOUNT%.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 8,
+        "maximum": 12,
+        "cap": 20,
+        "greaterCap": 50
+      },
       "Enchanted": {
         "minimum": 8,
         "maximum": 12,
@@ -19324,6 +21694,12 @@
     ],
     "description": "Sentry skills deal AMOUNT% increased damage and last AMOUNT% longer, but have their damage radius halved.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 18,
+        "maximum": 27,
+        "cap": 45,
+        "greaterCap": 150
+      },
       "Enchanted": {
         "minimum": 18,
         "maximum": 27,
@@ -19368,6 +21744,12 @@
     ],
     "description": "<SKILL_693> has AMOUNT% additional chance to trigger.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 8,
+        "maximum": 12,
+        "cap": 20,
+        "greaterCap": 75
+      },
       "Enchanted": {
         "minimum": 8,
         "maximum": 12,
@@ -19412,6 +21794,12 @@
     ],
     "description": "<SKILL_171> no longer deals damage and instead triggers <SKILL_178> on all foes affected by <SKILL_174>. In addition, <SKILL_178> deals AMOUNT% increased damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 12,
+        "maximum": 18,
+        "cap": 30,
+        "greaterCap": 100
+      },
       "Enchanted": {
         "minimum": 12,
         "maximum": 18,
@@ -19456,6 +21844,12 @@
     ],
     "description": "All Corruptor skills now apply both <SKILL_614> and <SKILL_618> at max rank to all foes struck. These effects also deal AMOUNT% increased damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 20,
+        "maximum": 30,
+        "cap": 50,
+        "greaterCap": 300
+      },
       "Enchanted": {
         "minimum": 20,
         "maximum": 30,
@@ -19500,6 +21894,12 @@
     ],
     "description": "Casting <SKILL_151> will make any <SKILL_640> (or Clots) instantly explode for AMOUNT% increased damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 20,
+        "maximum": 30,
+        "cap": 50,
+        "greaterCap": 200
+      },
       "Enchanted": {
         "minimum": 20,
         "maximum": 30,
@@ -19544,6 +21944,12 @@
     ],
     "description": "<SKILL_462> now exhausts all rage when cast, increasing its damage by AMOUNT% per 5 points of rage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 10
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -19588,6 +21994,12 @@
     ],
     "description": "<SKILL_91>, <SKILL_455>, and <SKILL_456> generate twice as much rage on hit, and deal AMOUNT% increased damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 12,
+        "maximum": 18,
+        "cap": 30,
+        "greaterCap": 150
+      },
       "Enchanted": {
         "minimum": 12,
         "maximum": 18,
@@ -19632,6 +22044,12 @@
     ],
     "description": "<SKILL_383> and <SKILL_384> casts <SKILL_400> at rank 5 when used. <SKILL_400> deals AMOUNT% increased damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 20,
+        "maximum": 30,
+        "cap": 50,
+        "greaterCap": 200
+      },
       "Enchanted": {
         "minimum": 20,
         "maximum": 30,
@@ -19676,6 +22094,12 @@
     ],
     "description": "<SKILL_410> spawned from <SKILL_400> deal AMOUNT% increased damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 20,
+        "maximum": 30,
+        "cap": 50,
+        "greaterCap": 200
+      },
       "Enchanted": {
         "minimum": 20,
         "maximum": 30,
@@ -19720,6 +22144,12 @@
     ],
     "description": "Thrown skills that are thrown in an arc and hit the ground may now bounce up to AMOUNT times, moving a short distance and dealing damage on each bounce.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 4
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -19764,6 +22194,12 @@
     ],
     "description": "Thrown skills that are not thrown in an arc may now split, throwing up to AMOUNT additional copies of themselves in random directions.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 4
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -19808,6 +22244,12 @@
     ],
     "description": "All rage-based passive skills & Heritage effects now always give a minimum of AMOUNT% of the effect, regardless of current rage level.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 8,
+        "maximum": 12,
+        "cap": 20,
+        "greaterCap": 120
+      },
       "Enchanted": {
         "minimum": 8,
         "maximum": 12,
@@ -19852,6 +22294,12 @@
     ],
     "description": "<SKILL_211> now attempts to target a random enemy within range, and will apply a stacking burn effect to all foes struck, dealing AMOUNT% of the damage dealt, per second, for 5 seconds.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 8,
+        "maximum": 12,
+        "cap": 20,
+        "greaterCap": 150
+      },
       "Enchanted": {
         "minimum": 8,
         "maximum": 12,
@@ -19896,6 +22344,12 @@
     ],
     "description": "<SKILL_758> and <SKILL_331> are now Chained skills, dealing AMOUNT% increased damage and jumping up to 4 times.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 20,
+        "maximum": 30,
+        "cap": 50,
+        "greaterCap": 300
+      },
       "Enchanted": {
         "minimum": 20,
         "maximum": 30,
@@ -19940,6 +22394,12 @@
     ],
     "description": "Foes affected by <SKILL_27> take AMOUNT% increased damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 100
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -19984,6 +22444,12 @@
     ],
     "description": "All gems provide +AMOUNT% to elemental damage in their respective elements, regardless of shape or quality.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 7
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -20028,6 +22494,12 @@
     ],
     "description": "<SKILL_217> deals AMOUNT% increased damage when triggered from <SKILL_759> hits.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 12,
+        "maximum": 18,
+        "cap": 30,
+        "greaterCap": 200
+      },
       "Enchanted": {
         "minimum": 12,
         "maximum": 18,
@@ -20072,6 +22544,12 @@
     ],
     "description": "<SKILL_316> has AMOUNT% increased attack speed and cooldown reduction on its attacks, and summons an additional Avatar.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 8,
+        "maximum": 12,
+        "cap": 20,
+        "greaterCap": 100
+      },
       "Enchanted": {
         "minimum": 8,
         "maximum": 12,
@@ -20116,6 +22594,12 @@
     ],
     "description": "Damage is increased by AMOUNT% for each percentage attack speed below 150%. Any percentage below 100% attack speed grants twice this bonus.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 8
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -20160,6 +22644,12 @@
     ],
     "description": "Greater Rune cap is increased by 1.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 1
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -20204,6 +22694,12 @@
     ],
     "description": "+AMOUNT% damage vs. Crowned foes.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 5,
+        "cap": 8,
+        "greaterCap": 50
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 5,
@@ -20248,6 +22744,12 @@
     ],
     "description": "Every 3 seconds, resistance to a random element is increased by AMOUNT% for 3 seconds.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 8,
+        "maximum": 12,
+        "cap": 20,
+        "greaterCap": 100
+      },
       "Enchanted": {
         "minimum": 8,
         "maximum": 12,
@@ -20292,6 +22794,12 @@
     ],
     "description": "+AMOUNT% to all Resistances and all Elements.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 35
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -20336,6 +22844,12 @@
     ],
     "description": "<SKILL_165> deals AMOUNT% increased damage and has 2 meters increased base range.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 12,
+        "maximum": 18,
+        "cap": 30,
+        "greaterCap": 300
+      },
       "Enchanted": {
         "minimum": 12,
         "maximum": 18,
@@ -20380,6 +22894,12 @@
     ],
     "description": "+AMOUNT Minimum Rage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 50
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -20424,6 +22944,12 @@
     ],
     "description": "Thorns and Bleed damage increased by AMOUNT%.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 16,
+        "maximum": 24,
+        "cap": 40,
+        "greaterCap": 300
+      },
       "Enchanted": {
         "minimum": 16,
         "maximum": 24,
@@ -20468,6 +22994,12 @@
     ],
     "description": "<SKILL_427>, <SKILL_374>, and <SKILL_85> deal AMOUNT% increased damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 12,
+        "maximum": 18,
+        "cap": 30,
+        "greaterCap": 200
+      },
       "Enchanted": {
         "minimum": 12,
         "maximum": 18,
@@ -20512,6 +23044,12 @@
     ],
     "description": "Any gem socketed into this helm also provides the bonuses from being socketed into a weapon and jewelry slot.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 1,
+        "maximum": 1,
+        "cap": 1,
+        "greaterCap": 1
+      },
       "Enchanted": {
         "minimum": 1,
         "maximum": 1,
@@ -20556,6 +23094,12 @@
     ],
     "description": "Damage increased by AMOUNT% for each twister, gust, whirlwind and similar type of effect within 5 meters.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 2,
+        "maximum": 2,
+        "cap": 3,
+        "greaterCap": 15
+      },
       "Enchanted": {
         "minimum": 2,
         "maximum": 2,
@@ -20600,6 +23144,12 @@
     ],
     "description": "Using an Aura will cause a nova dealing AMOUNT% damage in the element of the Aura. This damage is multiplied by Aura Effect. May trigger on-hit effects.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 20,
+        "maximum": 30,
+        "cap": 50,
+        "greaterCap": 500
+      },
       "Enchanted": {
         "minimum": 20,
         "maximum": 30,
@@ -20644,6 +23194,12 @@
     ],
     "description": "While within 5 meters of any Crowned foe, Damage Reduction, Block Chance, and Damage is increased by AMOUNT%. ",
     "ranges": {
+      "Ordinary": {
+        "minimum": 2,
+        "maximum": 3,
+        "cap": 5,
+        "greaterCap": 40
+      },
       "Enchanted": {
         "minimum": 2,
         "maximum": 3,
@@ -20688,6 +23244,12 @@
     ],
     "description": "Foes struck by Archery skills become weakened, increasing the damage they take by AMOUNT%.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 50
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -20732,6 +23294,12 @@
     ],
     "description": "+AMOUNT% Crystals found and Experience gained from all sources.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 4,
+        "maximum": 6,
+        "cap": 10,
+        "greaterCap": 30
+      },
       "Enchanted": {
         "minimum": 4,
         "maximum": 6,
@@ -20776,6 +23344,12 @@
     ],
     "description": "AMOUNT% of Maximum Mana is converted into twice as much Damage.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 6,
+        "maximum": 9,
+        "cap": 15,
+        "greaterCap": 70
+      },
       "Enchanted": {
         "minimum": 6,
         "maximum": 9,
@@ -20820,6 +23394,12 @@
     ],
     "description": "AMOUNT% increased Healing from all sources.",
     "ranges": {
+      "Ordinary": {
+        "minimum": 20,
+        "maximum": 30,
+        "cap": 50,
+        "greaterCap": 200
+      },
       "Enchanted": {
         "minimum": 20,
         "maximum": 30,

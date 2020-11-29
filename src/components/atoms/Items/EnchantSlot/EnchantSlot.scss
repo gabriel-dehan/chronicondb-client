@@ -1,0 +1,13 @@
+.a-enchantSlot {
+  list-style: none;
+
+  &__count {
+    font-style: normal;
+    color: var(--color-element-light-blue);
+  }
+
+  &__type {
+    font-style: normal;
+    font-weight: bold;
+  }
+}

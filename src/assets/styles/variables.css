@@ -47,4 +47,10 @@
   --color-item-set: #f7c200;
   --color-item-mythical: #FFEEDE;
 
+  /* == ENCHANTS == */
+  /* -- Category -- */
+  --color-enchant-minor: #FFEEDE;
+  --color-enchant-major: #637793;
+  --color-enchant-epic: #8833d0;
+
 }

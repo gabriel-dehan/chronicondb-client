@@ -13,6 +13,7 @@ export interface Enchant {
 
 
 export interface EnchantRanges {
+  [ItemRarity.Ordinary]: EnchantRangeBoundary;
   [ItemRarity.Enchanted]: EnchantRangeBoundary;
   [ItemRarity.Rare]: EnchantRangeBoundary;
   [ItemRarity.Unique]: EnchantRangeBoundary;
@@ -41,20 +42,20 @@ export enum EnchantCategory {
   Rune = 'Rune'
 }
 
-export interface RawEnchant {
+export interface SimpleEnchant {
   name: string;
   min: number;
   max: number;
 }
 
-export interface ItemRawEnchantCategory {
+export interface ItemEnchantSlot{
   count: number;
   types: EnchantType[]; // If multiple element it's an OR
   categoriesRestriction?: ItemCategory[];
 }
 
 export interface ItemEnchantSlots {
-  baseEnchants: RawEnchant[];
-  fixedEnchants: RawEnchant[];
-  enchantSlots?: ItemRawEnchantCategory[];
+  baseEnchants: SimpleEnchant[];
+  fixedEnchants: SimpleEnchant[];
+  enchantSlots?: ItemEnchantSlot[];
 }

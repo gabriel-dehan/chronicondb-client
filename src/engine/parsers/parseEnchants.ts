@@ -80,6 +80,8 @@ function findCategory(uuid: number, locales: EnchantsLocaleData): EnchantCategor
 function parseRanges(ranges: string): EnchantRanges {
   // Gives us the order in which rarities are defined in `minimumByRarity`, `maximumByRarity`, etc...
   const rarities = [ItemRarity.Enchanted, ItemRarity.Rare, ItemRarity.Unique, ItemRarity.Legendary, ItemRarity.TrueLegendary];
+  // TODO:
+  const gemRarities = [ItemRarity.Ordinary, ItemRarity.Enchanted, ItemRarity.Rare];
 
   const [
     minimumByRarity,
@@ -94,6 +96,7 @@ function parseRanges(ranges: string): EnchantRanges {
     );
 
   const boundariesForRarity = (rarity: ItemRarity): EnchantRangeBoundary => {
+    // TODO: is Gem use gemRarities
     const rarityIndex = rarities.indexOf(rarity);
 
     return {
@@ -104,7 +107,20 @@ function parseRanges(ranges: string): EnchantRanges {
     };
   };
 
+  // TODO: Is gem
+  /* s
   return {
+    [ItemRarity.Ordinary]: boundariesForRarity(ItemRarity.Ordinary),
+    [ItemRarity.Enchanted]: boundariesForRarity(ItemRarity.Enchanted),
+    [ItemRarity.Rare]: boundariesForRarity(ItemRarity.Rare),
+    [ItemRarity.Unique]: boundariesForRarity(ItemRarity.Rare),
+    [ItemRarity.Legendary]: boundariesForRarity(ItemRarity.Rare),
+    [ItemRarity.TrueLegendary]: boundariesForRarity(ItemRarity.Rare),
+  };
+  */
+
+  return {
+    [ItemRarity.Ordinary]: boundariesForRarity(ItemRarity.Enchanted),
     [ItemRarity.Enchanted]: boundariesForRarity(ItemRarity.Enchanted),
     [ItemRarity.Rare]: boundariesForRarity(ItemRarity.Rare),
     [ItemRarity.Unique]: boundariesForRarity(ItemRarity.Unique),

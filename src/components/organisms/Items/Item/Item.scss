@@ -38,10 +38,23 @@
     margin: 0;
   }
 
-  &__content {
+  &__enchantSlots {
+    list-style: none;
     border-top: 1px solid rgba(51, 44, 29, 0.5);
     margin: 18px 10px 18px 50px;
     padding: 18px 0;
+
+    &-replace {
+      em {
+        font-style: normal;
+        font-weight: bold;
+      }
+
+      &-chance {
+        font-weight: normal !important;
+        color: var(--color-element-light-blue);
+      }
+    }
   }
 
   &__set {

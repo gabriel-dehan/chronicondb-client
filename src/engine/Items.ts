@@ -4,7 +4,7 @@ import { ITEM_TYPES_BY_CATEGORIES, ENCHANT_SLOTS_BY_RARITY } from 'engine/data/d
 import enchantsPool from 'engine/data/enchantsPool.json';
 import { allEnumValues } from 'helpers/typeUtils';
 import { CharacterClass } from 'types/Character.types';
-import { ItemEnchantSlots, RawEnchant } from 'types/Enchant.types';
+import { ItemEnchantSlots, SimpleEnchant } from 'types/Enchant.types';
 import { ItemsFilters } from 'types/Filters.types';
 import { ItemCategory, ItemType, ItemRarity, Item } from 'types/Item.types';
 
@@ -62,7 +62,8 @@ export default class EngineItems {
   }
 
   public getEnchantsSlots(item: Item): ItemEnchantSlots | null {
-    if (this.engine.loaded && ![ItemRarity.Ordinary, ItemRarity.Set, ItemRarity.Mythical].includes(item.rarity)) {
+    console.log('item:', item.uuid, item.name);
+    if (this.engine.loaded && ![ItemRarity.Set].includes(item.rarity)) {
       const enchantSlots = ENCHANT_SLOTS_BY_RARITY[item.rarity];
       const fixedEnchants = this.enchantsToRawEnchants(item.rarity, item.fixedEnchants);
       const baseEnchants = this.enchantsToRawEnchants(item.rarity, item.baseEnchants);
@@ -78,12 +79,13 @@ export default class EngineItems {
   }
 
   /* Private utils */
-  private enchantsToRawEnchants(rarity: ItemRarity, enchantsIds: number[]): RawEnchant[] {
+  private enchantsToRawEnchants(rarity: ItemRarity, enchantsIds: number[]): SimpleEnchant[] {
     const { enchants } = this.data;
-
+    console.log(enchantsIds.map(enchantId => enchants.find(e => e.uuid === enchantId)));
     return compact(
       enchantsIds.map(enchantId => enchants.find(e => e.uuid === enchantId))
     ).map((enchant) => {
+      console.log('HELLO', enchant);
       // @ts-ignore
       const ranges = enchant.ranges[rarity];
       return {
