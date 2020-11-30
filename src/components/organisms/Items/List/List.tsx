@@ -8,7 +8,6 @@ import useEngine from 'hooks/useEngine';
 import { useStores } from 'hooks/useStores';
 import { FiltersStore } from 'stores/FiltersStore';
 import { DataStore } from 'types/DataStore.types';
-import { ItemCategory, ItemType } from 'types/Item.types';
 
 import './List.scss';
 
@@ -20,7 +19,7 @@ const List: FunctionComponent = () => {
   const { filtersStore } = useStores<Stores>(DataStore.Filters);
   const Engine = useEngine();
 
-  const items = getItems();
+  const items = getFilteredItems();
 
   return (
     <div className="o-itemsList">
@@ -42,13 +41,14 @@ const List: FunctionComponent = () => {
     </div>
   );
 
-  function getItems() {
+  function getFilteredItems() {
     return Engine.Items.all({
       search: filtersStore.items.search,
       category: filtersStore.items.category,
       type: filtersStore.items.type,
       characterClass: filtersStore.items.characterClass,
       rarities: filtersStore.items.rarities,
+      onlySet: filtersStore.items.onlySet,
     });
   }
 };

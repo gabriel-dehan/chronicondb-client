@@ -6,6 +6,12 @@ import { ItemCategory, ItemType, Item, ItemRarity } from 'types/Item.types';
 
 import Engine, { DataInterface } from './Engine';
 
+export const DEFAULT_RARITIES_FILTERS = [
+  ItemRarity.Unique,
+  ItemRarity.Legendary,
+  ItemRarity.TrueLegendary,
+];
+
 const FILTER_UNAFFECTED_CATEGORIES = [
   'Any',
   ItemCategory.Consumables,
@@ -32,6 +38,7 @@ export default class EngineItems {
     items = this.filterByTypeAndCategory(items, filters);
     items = this.filterByClass(items, filters);
     items = this.filterByRarities(items, filters);
+    items = this.filterOnlySet(items, filters);
 
     return items;
   }
@@ -84,8 +91,8 @@ export default class EngineItems {
   }
 
   private filterByRarities(items: Item[], filters: ItemsFilters) {
-    // If we have a category and it's a category that should not be affected by rarity
-    if ((filters.category && FILTER_UNAFFECTED_CATEGORIES.includes(filters.category))) {
+    // Don't use this filter for unaffected categories
+    if (FILTER_UNAFFECTED_CATEGORIES.includes(filters.category || this.defaultCategory)) {
       // Don't return mythical items anyway if it is unselected
       if (!filters.rarities?.includes(ItemRarity.Mythical)) {
         return items.filter(item => item.rarity !== ItemRarity.Mythical);
@@ -97,6 +104,19 @@ export default class EngineItems {
     // For all others categories, filter by rarity
     if (filters.rarities) {
       return items.filter(item => filters.rarities?.includes(item.rarity));
+    } else {
+      return items.filter(item => DEFAULT_RARITIES_FILTERS.includes(item.rarity));
+    }
+  }
+
+  private filterOnlySet(items: Item[], filters: ItemsFilters) {
+    // Don't use this filter for unaffected categories
+    if (FILTER_UNAFFECTED_CATEGORIES.includes(filters.category || this.defaultCategory)) {
+      return items;
+    }
+
+    if (filters.onlySet) {
+      return items.filter(item => !!item.set);
     }
 
     return items;

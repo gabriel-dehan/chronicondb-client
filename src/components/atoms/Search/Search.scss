@@ -4,9 +4,9 @@
 
   &__input {
     outline: none;
-    width: 320px;
+    width: 180px;
     height: 34px;
-    padding: 8px 12px;
+    padding: 8px 32px 8px 12px;
     border-radius: 3px;
     border: none;
 
@@ -21,9 +21,12 @@
     }
   }
 
-  &__icon {
+  &__iconContainer {
     position: absolute;
-    top: 8px;
+    background-color: var(--color-background-black);
+    top: 6px;
     right: 10px;
+    padding-left: 5px;
+    padding-top: 1px;
   }
 }

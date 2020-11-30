@@ -56,18 +56,17 @@ There you go, chronicondb is now up to date.
 
 ## Roadmap
 
-- [ ] Header links not working -> You cannot change <Router history>
-- [ ] Responsive minimum
+- [x] Handle Sets in rarity filter
+- [x] Fix header overflow
+- [x] Auto add version to versions file
+- [x] Layout
+- [~] Items image generator
+- [~] Items
+- [ ] Responsive minimum (860 -)
 - [ ] Do not display the divider for item content if there is no content at all
 - [ ] Order by REQ LVL
 - [ ] Skill links react-router
-- [ ] Handle Sets in rarity filter
-- [ ] Fix header overflow
 - [ ] Runes possible enchants
-- [x] Auto add version to versions file
-- [x] Layout
-- [ ] Items
-- [~] Items image generator
 - [ ] Enchants
 - [ ] Skills
 - [ ] SEO

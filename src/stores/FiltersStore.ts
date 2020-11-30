@@ -53,6 +53,7 @@ export class FiltersStore {
       type: query.itemsType,
       characterClass: query.itemsCharacterClass,
       rarities: query.itemsRarities,
+      onlySet: query.itemsOnlySet ? query.itemsOnlySet === 'true' : undefined, // typecast
     };
 
     this.enchants = {

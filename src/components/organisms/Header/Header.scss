@@ -68,7 +68,7 @@
 
     &-item {
       position: relative;
-      z-index: 1;
+      z-index: 2;
       height: 100%;
       display: inline-block;
       padding: 20px 30px 14px 30px;
@@ -85,16 +85,13 @@
       &:last-child {
         border-right: none;
         z-index: 0;
+        transform: initial;
+        margin: 0 -40px 0 -20px;
+        padding-left: 55px;
+        padding-right: 50px;
 
-        &:before {
-          content: "";
-          position: absolute;
-          top: 0;
-          right: -40px;
-          width: 55px;
-          height: 100%;
-          background-color: var(--color-background-light-black);
-          transform: skewX(-25deg);
+        a {
+          transform: initial;
         }
       }
 

@@ -8,6 +8,7 @@ export interface ItemsFilters {
   type?: string;
   characterClass?: string;
   rarities?: string[];
+  onlySet?: boolean;
 }
 
 export interface EnchantsFilters {
@@ -35,6 +36,7 @@ export type QueryFiltersInterface = {
   itemsType?: string;
   itemsCharacterClass?: string;
   itemsRarities?: string[];
+  itemsOnlySet?: string;
   enchantsSearch?: string;
   enchantsType?: string;
   skillsSearch?: string;
