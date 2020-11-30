@@ -1,10 +1,16 @@
+import { compact } from 'lodash';
+
 import { ITEM_TYPES_BY_CATEGORIES } from 'engine/data/dataMappings';
 import { allEnumValues } from 'helpers/typeUtils';
 import { CharacterClass } from 'types/Character.types';
 import { ItemsFilters } from 'types/Filters.types';
-import { ItemCategory, ItemType, Item, ItemRarity } from 'types/Item.types';
+import { ItemCategory, ItemType, Item, ItemRarity, ItemSet } from 'types/Item.types';
 
 import Engine, { DataInterface } from './Engine';
+
+interface ItemSetData extends ItemSet {
+  items: Item[];
+}
 
 export const DEFAULT_RARITIES_FILTERS = [
   ItemRarity.Unique,
@@ -41,6 +47,22 @@ export default class EngineItems {
     items = this.filterOnlySet(items, filters);
 
     return items;
+  }
+
+  public getSetData(item: Item): ItemSetData | null {
+    if (item.set) {
+      const set = this.data.sets.find(set => set.uuid === item.set);
+
+      if (set) {
+        const setItems = compact(set.itemIds.map(itemId => this.items.find(item => item.uuid === itemId)));
+        return {
+          ...set,
+          items: setItems,
+        };
+      }
+    }
+
+    return null;
   }
 
   /* Getters */

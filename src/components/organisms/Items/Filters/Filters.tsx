@@ -43,7 +43,7 @@ const Filters: FunctionComponent = () => {
       />
       <CheckboxSelect
         className="o-filters__setCheckbox"
-        selected={false}
+        selected={filters.onlySet || false}
         label="Only Sets"
         value="Set"
         color={`var(--color-item-set)`}

@@ -11,15 +11,15 @@ export interface Item {
   rarity: ItemRarity,
   classRestriction: CharacterClass | null;
   minLevel: number;
-  set: SetId | null;
+  set: SetUuid | null;
   baseEnchants: number[];
   fixedEnchants: number[];
 }
 
 export interface ItemSet {
-  id: SetId;
+  uuid: SetUuid;
   name: string;
-  items: number[];
+  itemIds: number[];
   bonuses: Record<number, string>;
 }
 
@@ -81,7 +81,7 @@ export enum ItemType {
   Rune = 'Item'
 }
 
-export enum SetId {
+export enum SetUuid {
   SunAndMoon = 'sunandmoon',
   Seeker = 'seeker',
   Bond = 'bond',

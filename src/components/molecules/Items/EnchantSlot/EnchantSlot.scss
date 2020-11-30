@@ -1,8 +1,13 @@
-.a-appliedEnchant {
+.m-enchantSlot {
   list-style: none;
 
-  &__min, &__max {
+  &__count {
     font-style: normal;
     color: var(--color-element-light-blue);
+  }
+
+  &__type {
+    font-style: normal;
+    font-weight: bold;
   }
 }

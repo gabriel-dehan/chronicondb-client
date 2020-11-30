@@ -1,9 +1,9 @@
 import { reduce, isEmpty, map, pickBy } from 'lodash';
 
-import { ItemSet, SetId } from '../../types/Item.types';
+import { ItemSet, SetUuid } from '../../types/Item.types';
 import { ITEM_ID_BY_SETS } from '../data/dataMappings';
 import { writeFile } from '../utils/fileUtils';
-import { getLocaleSection, LocaleData } from './parseLocale';
+import { getLocaleSection } from './parseLocale';
 
 export interface SetLocaleData {
   [key: string]: Record<string, string>;
@@ -13,7 +13,7 @@ export function parseSets(version: string, verbose = false): ItemSet[] {
 
   const sets: ItemSet[] = map(setLocales, (setData, setId) => {
     const { name } = setData;
-    const id = setId as SetId;
+    const uuid = setId as SetUuid;
     const piecesBonus = pickBy(setData, (_, key) => key.match(/\dpbonus/));
     const bonuses = reduce(piecesBonus, (setBonuses: Record<number, string>, bonus, key) => {
       const matches = key.match(/(\d)pbonus/);
@@ -26,10 +26,10 @@ export function parseSets(version: string, verbose = false): ItemSet[] {
     }, {});
 
     const set = {
-      id,
+      uuid,
       name,
       bonuses,
-      items: ITEM_ID_BY_SETS[id],
+      itemIds: ITEM_ID_BY_SETS[uuid],
     };
 
     if (verbose) {

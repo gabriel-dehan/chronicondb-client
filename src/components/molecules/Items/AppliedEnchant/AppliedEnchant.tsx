@@ -15,7 +15,7 @@ const AppliedEnchant: FunctionComponent<Props> = ({
   enchant,
 }) => {
   return (
-    <li className="a-appliedEnchant">
+    <li className="m-appliedEnchant">
       {descriptionToTemplate()}
     </li>
   );
@@ -27,7 +27,7 @@ const AppliedEnchant: FunctionComponent<Props> = ({
       return (
         <span
           key={`tpl-enchant-${enchant.name}-${i}`}
-          className="a-appliedEnchant__range"
+          className="m-appliedEnchant__range"
         >
           {renderRange()}
         </span>
@@ -43,7 +43,7 @@ const AppliedEnchant: FunctionComponent<Props> = ({
             <a
               href={`/skills?uuid=${skillId}`}
               key={`tpl-skill-${enchant.name}-${i}`}
-              className="a-appliedEnchant__skill"
+              className="m-appliedEnchant__skill"
             >
               {skillName}
             </a>
@@ -53,7 +53,7 @@ const AppliedEnchant: FunctionComponent<Props> = ({
             <a
               href={`/skills?uuid=${skillId}`}
               key={`tpl-skill-${enchant.name}-${i}`}
-              className="a-appliedEnchant__skill unknown"
+              className="m-appliedEnchant__skill unknown"
             >
               Unknown Skill
             </a>
@@ -77,12 +77,12 @@ const AppliedEnchant: FunctionComponent<Props> = ({
   function renderRange() {
     if (enchant.min === enchant.max) {
       return (
-        <em className="a-appliedEnchant__max">{enchant.max}</em>
+        <em className="m-appliedEnchant__max">{enchant.max}</em>
       );
     } else {
       return (
         <>
-          [<em className="a-appliedEnchant__min">{enchant.min}</em>-<em className="a-appliedEnchant__max">{enchant.max}</em>]
+          [<em className="m-appliedEnchant__min">{enchant.min}</em>-<em className="m-appliedEnchant__max">{enchant.max}</em>]
         </>
       );
     }

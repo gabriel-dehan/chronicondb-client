@@ -15,8 +15,8 @@ const EnchantSlot: FunctionComponent<Props> = ({
   enchantSlot,
 }) => {
   return (
-    <li className="a-enchantSlot">
-      +<em className="a-enchantSlot__count">{enchantSlot.count}</em>&nbsp;
+    <li className="m-enchantSlot">
+      +<em className="m-enchantSlot__count">{enchantSlot.count}</em>&nbsp;
       {formattedTypes()}&nbsp;
       {enchantSlot.count > 1 ? 'enchants' : 'enchant'}
     </li>
@@ -26,7 +26,7 @@ const EnchantSlot: FunctionComponent<Props> = ({
     const renderSlotType = (type: EnchantType) => (
       <em
         key={`${item.uuid}-slot-${type}`}
-        className="a-enchantSlot__type"
+        className="m-enchantSlot__type"
         style={{ color: `var(--color-enchant-${type.toLowerCase()})` }}
       >
         {type}

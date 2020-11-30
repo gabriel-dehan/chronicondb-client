@@ -1,7 +1,7 @@
 import { compact, findKey } from 'lodash';
 
 import { CharacterClass } from '../../types/Character.types';
-import { Item, ItemCategory, ItemRarity, ItemType, SetId } from '../../types/Item.types';
+import { Item, ItemCategory, ItemRarity, ItemType, SetUuid } from '../../types/Item.types';
 import { ITEM_TYPES_BY_CATEGORIES, ITEM_ID_BY_SETS } from '../data/dataMappings';
 import { readSourceFile, writeFile, assetExists } from '../utils/fileUtils';
 import { getLocaleSection, parseLocaleData, LocaleData } from './parseLocale';
@@ -130,10 +130,10 @@ function getCategoryFromType(type: ItemType): ItemCategory {
   }
 }
 
-function findSet(uuid: number): SetId | null {
+function findSet(uuid: number): SetUuid | null {
   const set = findKey(ITEM_ID_BY_SETS, (itemIds) => {
     return itemIds.includes(uuid);
-  }) as SetId;
+  }) as SetUuid;
 
   return set;
 }
