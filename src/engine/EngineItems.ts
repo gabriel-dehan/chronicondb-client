@@ -8,8 +8,9 @@ import { ItemCategory, ItemType, Item, ItemRarity, ItemSet } from 'types/Item.ty
 
 import Engine, { DataInterface } from './Engine';
 
-interface ItemSetData extends ItemSet {
+export interface ItemSetData extends ItemSet {
   items: Item[];
+  types: ItemType[];
 }
 
 export const DEFAULT_RARITIES_FILTERS = [
@@ -58,6 +59,7 @@ export default class EngineItems {
         return {
           ...set,
           items: setItems,
+          types: setItems.map(item => item.type),
         };
       }
     }
