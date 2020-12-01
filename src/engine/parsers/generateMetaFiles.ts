@@ -25,10 +25,13 @@ function updatePatches(version: string): string[] {
 function generateVersionIndex(version: string) {
   const TEMPLATE = `
 import enchants from './enchants.json';
+import enchantsSearchIndex from './enchantsSearchIndex.json';
 import items from './items.json';
+import itemsSearchIndex from './itemsSearchIndex.json';
 import sets from './sets.json';
 import skills from './skills.json';
 import skillsByClass from './skillsByClass.json';
+import skillsSearchIndex from './skillsSearchIndex.json';
 
 export default {
   items,
@@ -36,6 +39,9 @@ export default {
   sets,
   skills,
   skillsByClass,
+  itemsSearchIndex,
+  enchantsSearchIndex,
+  skillsSearchIndex,
 };`;
 
   const indexFilePath = path.resolve(__dirname, `../data/${version}/extracts/index.ts`);

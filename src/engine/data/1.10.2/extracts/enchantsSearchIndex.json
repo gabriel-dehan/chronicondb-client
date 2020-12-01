@@ -1,0 +1,2960 @@
+[
+  {
+    "uuid": 562,
+    "name": "Gem Block Chance",
+    "category": "Gem",
+    "description": " Extra Block Chance (Templar Only)"
+  },
+  {
+    "uuid": 561,
+    "name": "Gem Evasion",
+    "category": "Gem",
+    "description": " Evasion"
+  },
+  {
+    "uuid": 560,
+    "name": "Gem Chain Lightning",
+    "category": "Gem",
+    "description": "On hit: 25% chance to cause Chain Lightning for  Lightning damage"
+  },
+  {
+    "uuid": 559,
+    "name": "Gem Pickup Radius",
+    "category": "Gem",
+    "description": " Pickup Radius"
+  },
+  {
+    "uuid": 558,
+    "name": "Gem Lightning Resistance",
+    "category": "Gem",
+    "description": " Lightning Resistance"
+  },
+  {
+    "uuid": 557,
+    "name": "Gem Attack Speed",
+    "category": "Gem",
+    "description": " Attack Speed"
+  },
+  {
+    "uuid": 556,
+    "name": "Gem Lightning Damage",
+    "category": "Gem",
+    "description": " Lightning Damage"
+  },
+  {
+    "uuid": 555,
+    "name": "Gem Movement Speed",
+    "category": "Gem",
+    "description": " Movement Speed"
+  },
+  {
+    "uuid": 554,
+    "name": "Gem Cooldown Reduction",
+    "category": "Gem",
+    "description": " Cooldown Reduction"
+  },
+  {
+    "uuid": 553,
+    "name": "Gem Minimum Rage",
+    "category": "Gem",
+    "description": " minimum Rage (Berserker Only)"
+  },
+  {
+    "uuid": 552,
+    "name": "Gem Chill when hurt",
+    "category": "Gem",
+    "description": "When hurt:  chance to Chill attackers, slowing them by 50% for 5 seconds"
+  },
+  {
+    "uuid": 551,
+    "name": "Gem Frost damage on Hit",
+    "category": "Gem",
+    "description": "Damage foes hit for  Frost damage instantly"
+  },
+  {
+    "uuid": 550,
+    "name": "Gem Mana Regeneration",
+    "category": "Gem",
+    "description": " Mana Regeneration"
+  },
+  {
+    "uuid": 549,
+    "name": "Gem Frost Resistance",
+    "category": "Gem",
+    "description": " Frost Resistance"
+  },
+  {
+    "uuid": 548,
+    "name": "Gem Chill on Hit",
+    "category": "Gem",
+    "description": "On hit:  chance to apply a Chill effect, slowing foes by 50% for up to 3 seconds"
+  },
+  {
+    "uuid": 547,
+    "name": "Gem Frost Damage",
+    "category": "Gem",
+    "description": " Frost Damage"
+  },
+  {
+    "uuid": 546,
+    "name": "Gem Mana",
+    "category": "Gem",
+    "description": " Mana"
+  },
+  {
+    "uuid": 545,
+    "name": "Gem Mana on Hit",
+    "category": "Gem",
+    "description": " increased Mana on hit"
+  },
+  {
+    "uuid": 544,
+    "name": "Gem Maximum Rage",
+    "category": "Gem",
+    "description": " maximum Rage (Berserker Only)"
+  },
+  {
+    "uuid": 543,
+    "name": "Gem Burn when hurt",
+    "category": "Gem",
+    "description": "When hurt: 5% chance to Burn attackers for  Fire damage per second for 3 seconds"
+  },
+  {
+    "uuid": 542,
+    "name": "Gem Fire on hit",
+    "category": "Gem",
+    "description": "On hit: Deal  Fire damage instantly and per second, for 3 seconds"
+  },
+  {
+    "uuid": 541,
+    "name": "Gem Health Regeneration",
+    "category": "Gem",
+    "description": " Health Regeneration"
+  },
+  {
+    "uuid": 540,
+    "name": "Gem Fire Resistance",
+    "category": "Gem",
+    "description": " Fire Resistance"
+  },
+  {
+    "uuid": 539,
+    "name": "Gem Critical Hit Chance",
+    "category": "Gem",
+    "description": " Critical Hit Chance"
+  },
+  {
+    "uuid": 538,
+    "name": "Gem Fire Damage",
+    "category": "Gem",
+    "description": " Fire Damage"
+  },
+  {
+    "uuid": 537,
+    "name": "Gem Maximum Health",
+    "category": "Gem",
+    "description": " Maximum Health"
+  },
+  {
+    "uuid": 536,
+    "name": "Gem Health on Hit",
+    "category": "Gem",
+    "description": " increased Health on hit"
+  },
+  {
+    "uuid": 535,
+    "name": "Gem Magic Find",
+    "category": "Gem",
+    "description": " Magic find"
+  },
+  {
+    "uuid": 534,
+    "name": "Gem Companion Damage",
+    "category": "Gem",
+    "description": " Companion Damage"
+  },
+  {
+    "uuid": 533,
+    "name": "Gem Holy on Hit",
+    "category": "Gem",
+    "description": "On hit: Deal  Holy damage instantly"
+  },
+  {
+    "uuid": 532,
+    "name": "Gem Light Radius",
+    "category": "Gem",
+    "description": " Light Radius"
+  },
+  {
+    "uuid": 531,
+    "name": "Gem Holy Resistance",
+    "category": "Gem",
+    "description": " Holy Resistance"
+  },
+  {
+    "uuid": 530,
+    "name": "Gem Stun on Hit",
+    "category": "Gem",
+    "description": "On hit:  chance to Stun for up to 3 seconds"
+  },
+  {
+    "uuid": 529,
+    "name": "Gem Holy Damage",
+    "category": "Gem",
+    "description": " Holy Damage"
+  },
+  {
+    "uuid": 528,
+    "name": "Gem Pickup Strength",
+    "category": "Gem",
+    "description": " Pickup Strength"
+  },
+  {
+    "uuid": 527,
+    "name": "Gem Reach",
+    "category": "Gem",
+    "description": " Reach"
+  },
+  {
+    "uuid": 526,
+    "name": "Gem Bleed Damage",
+    "category": "Gem",
+    "description": " Bleed Damage"
+  },
+  {
+    "uuid": 525,
+    "name": "Gem Soul Duration",
+    "category": "Gem",
+    "description": " Soul Duration (Warlock Only)"
+  },
+  {
+    "uuid": 524,
+    "name": "Gem Bleed on Hit",
+    "category": "Gem",
+    "description": "On hit: Deal  Bleed damage instantly and per second, for 3 seconds"
+  },
+  {
+    "uuid": 523,
+    "name": "Gem Companion Health",
+    "category": "Gem",
+    "description": " Companion Health"
+  },
+  {
+    "uuid": 522,
+    "name": "Gem Physical Resistance",
+    "category": "Gem",
+    "description": " Physical Resistance"
+  },
+  {
+    "uuid": 521,
+    "name": "Gem Knockback Chance",
+    "category": "Gem",
+    "description": " Knockback Chance"
+  },
+  {
+    "uuid": 520,
+    "name": "Gem Physical Damage",
+    "category": "Gem",
+    "description": " Physical Damage"
+  },
+  {
+    "uuid": 519,
+    "name": "Gem Thorns",
+    "category": "Gem",
+    "description": " Thorns"
+  },
+  {
+    "uuid": 518,
+    "name": "Gem Damage",
+    "category": "Gem",
+    "description": " Damage"
+  },
+  {
+    "uuid": 517,
+    "name": "Gem Damage Blocked",
+    "category": "Gem",
+    "description": " Extra Damage Blocked (Templar Only)"
+  },
+  {
+    "uuid": 516,
+    "name": "Gem Poison when hurt",
+    "category": "Gem",
+    "description": "When hurt: 5% chance to poison attackers for  Poison damage per second for 3 seconds"
+  },
+  {
+    "uuid": 515,
+    "name": "Gem Poison on Hit",
+    "category": "Gem",
+    "description": "On hit: Deal  Poison damage instantly and per second, for 5 seconds"
+  },
+  {
+    "uuid": 514,
+    "name": "Gem Bonus Experience",
+    "category": "Gem",
+    "description": " Bonus Experience"
+  },
+  {
+    "uuid": 513,
+    "name": "Gem Poison Resistance",
+    "category": "Gem",
+    "description": " Poison Resistance"
+  },
+  {
+    "uuid": 512,
+    "name": "Gem Mana Cost Reduction",
+    "category": "Gem",
+    "description": " Mana Cost Reduction"
+  },
+  {
+    "uuid": 511,
+    "name": "Gem Poison Damage",
+    "category": "Gem",
+    "description": " Poison Damage"
+  },
+  {
+    "uuid": 510,
+    "name": "Gem Effect Duration",
+    "category": "Gem",
+    "description": " Effect Duration"
+  },
+  {
+    "uuid": 509,
+    "name": "Gem Overpower",
+    "category": "Gem",
+    "description": " Overpower"
+  },
+  {
+    "uuid": 508,
+    "name": "Gem Chance to steal Souls",
+    "category": "Gem",
+    "description": " chance to steal Souls (Warlock Only)"
+  },
+  {
+    "uuid": 507,
+    "name": "Gem Fear when hurt",
+    "category": "Gem",
+    "description": "When hurt:  chance to cause attackers to run away in fear for up to 3 seconds"
+  },
+  {
+    "uuid": 506,
+    "name": "Gem Shadow on Hit",
+    "category": "Gem",
+    "description": "On hit: Deal  Shadow damage instantly and per second, for 5 seconds"
+  },
+  {
+    "uuid": 505,
+    "name": "Gem Potion Effectiveness",
+    "category": "Gem",
+    "description": " Potion Effectiveness"
+  },
+  {
+    "uuid": 504,
+    "name": "Gem Shadow Resistance",
+    "category": "Gem",
+    "description": " Shadow Resistance"
+  },
+  {
+    "uuid": 503,
+    "name": "Gem Fear on Hit",
+    "category": "Gem",
+    "description": "On hit:  chance to cause foes to run away in Fear for up to 3 seconds"
+  },
+  {
+    "uuid": 502,
+    "name": "Gem Shadow Damage",
+    "category": "Gem",
+    "description": " Shadow Damage"
+  },
+  {
+    "uuid": 501,
+    "name": "Gem Bonus Crystals",
+    "category": "Gem",
+    "description": " Bonus Crystals"
+  },
+  {
+    "uuid": 500,
+    "name": "Gem Critical Hit Damage",
+    "category": "Gem",
+    "description": " Critical Hit Damage"
+  },
+  {
+    "uuid": 1,
+    "name": "Health",
+    "category": "Enchant",
+    "description": " Health"
+  },
+  {
+    "uuid": 2,
+    "name": "Mana",
+    "category": "Enchant",
+    "description": " Mana"
+  },
+  {
+    "uuid": 3,
+    "name": "Damage",
+    "category": "Enchant",
+    "description": " Damage"
+  },
+  {
+    "uuid": 4,
+    "name": "Movement Speed",
+    "category": "Enchant",
+    "description": " Movement Speed"
+  },
+  {
+    "uuid": 5,
+    "name": "Attack Speed",
+    "category": "Enchant",
+    "description": " Attack Speed"
+  },
+  {
+    "uuid": 6,
+    "name": "Health Regeneration",
+    "category": "Enchant",
+    "description": " Health Regeneration"
+  },
+  {
+    "uuid": 7,
+    "name": "Mana Regeneration",
+    "category": "Enchant",
+    "description": " Mana Regeneration"
+  },
+  {
+    "uuid": 8,
+    "name": "Thorns",
+    "category": "Enchant",
+    "description": " Thorns"
+  },
+  {
+    "uuid": 9,
+    "name": "Vampire",
+    "category": "Enchant",
+    "description": " Health On Hit"
+  },
+  {
+    "uuid": 10,
+    "name": "Leech",
+    "category": "Enchant",
+    "description": " Mana On Hit"
+  },
+  {
+    "uuid": 13,
+    "name": "Magic Find",
+    "category": "Enchant",
+    "description": " Magic find"
+  },
+  {
+    "uuid": 19,
+    "name": "Critical Hit Chance",
+    "category": "Enchant",
+    "description": " Critical Hit Chance"
+  },
+  {
+    "uuid": 20,
+    "name": "Knockback",
+    "category": "Enchant",
+    "description": " Knockback Chance"
+  },
+  {
+    "uuid": 21,
+    "name": "Effect Duration",
+    "category": "Enchant",
+    "description": " Effect Duration"
+  },
+  {
+    "uuid": 22,
+    "name": "Pickup Strength",
+    "category": "Enchant",
+    "description": " Pickup Strength"
+  },
+  {
+    "uuid": 23,
+    "name": "Bonus Crystals",
+    "category": "Enchant",
+    "description": " Bonus Crystals"
+  },
+  {
+    "uuid": 24,
+    "name": "Experience",
+    "category": "Enchant",
+    "description": " Bonus Experience"
+  },
+  {
+    "uuid": 25,
+    "name": "Supporter",
+    "category": "Enchant",
+    "description": " Crystals found and Experience gained from all sources. Thanks for being awesome! (Early Access special item)"
+  },
+  {
+    "uuid": 26,
+    "name": "Pickup Radius",
+    "category": "Enchant",
+    "description": " Pickup Radius"
+  },
+  {
+    "uuid": 27,
+    "name": "Physical Resistance",
+    "category": "Enchant",
+    "description": " Physical Resistance"
+  },
+  {
+    "uuid": 28,
+    "name": "Lightning Orb",
+    "category": "Enchant",
+    "description": "Satellite: An orb of lightning circles the player, casting Chain Lightning every second, dealing  Lightning damage"
+  },
+  {
+    "uuid": 29,
+    "name": "Frost Orb",
+    "category": "Enchant",
+    "description": "Satellite: A frost orb circles the player, casting a Frost Spear every second, dealing  Frost damage"
+  },
+  {
+    "uuid": 30,
+    "name": "Molten Orb",
+    "category": "Enchant",
+    "description": "Satellite: A molten orb circles the player, casting Firebomb every second, dealing  Fire damage"
+  },
+  {
+    "uuid": 31,
+    "name": "Poison Orb",
+    "category": "Enchant",
+    "description": "Satellite: A poison orb circles the player, poisoning nearby enemies for  Poison damage per second"
+  },
+  {
+    "uuid": 32,
+    "name": "Holy Orb",
+    "category": "Enchant",
+    "description": "Satellite: A holy orb circles the player, casting Holy Bolt twice per second, each dealing  Holy damage"
+  },
+  {
+    "uuid": 33,
+    "name": "Sturdy",
+    "category": "Enchant",
+    "description": "Makes you immune to all knockback and pull effects"
+  },
+  {
+    "uuid": 34,
+    "name": "Fire Resistance",
+    "category": "Enchant",
+    "description": " Fire Resistance"
+  },
+  {
+    "uuid": 35,
+    "name": "Frost Resistance",
+    "category": "Enchant",
+    "description": " Frost Resistance"
+  },
+  {
+    "uuid": 36,
+    "name": "Poison Resistance",
+    "category": "Enchant",
+    "description": " Poison Resistance"
+  },
+  {
+    "uuid": 37,
+    "name": "Lightning Resistance",
+    "category": "Enchant",
+    "description": " Lightning Resistance"
+  },
+  {
+    "uuid": 38,
+    "name": "Holy Resistance",
+    "category": "Enchant",
+    "description": " Holy Resistance"
+  },
+  {
+    "uuid": 39,
+    "name": "Fire Damage",
+    "category": "Enchant",
+    "description": " Fire Damage"
+  },
+  {
+    "uuid": 40,
+    "name": "Frost Damage",
+    "category": "Enchant",
+    "description": " Frost Damage"
+  },
+  {
+    "uuid": 41,
+    "name": "Poison Damage",
+    "category": "Enchant",
+    "description": " Poison Damage"
+  },
+  {
+    "uuid": 42,
+    "name": "Lightning Damage",
+    "category": "Enchant",
+    "description": " Lightning Damage"
+  },
+  {
+    "uuid": 43,
+    "name": "Holy Damage",
+    "category": "Enchant",
+    "description": " Holy Damage"
+  },
+  {
+    "uuid": 44,
+    "name": "Physical Damage",
+    "category": "Enchant",
+    "description": " Physical Damage"
+  },
+  {
+    "uuid": 45,
+    "name": "Companion Health",
+    "category": "Enchant",
+    "description": " Companion Health"
+  },
+  {
+    "uuid": 46,
+    "name": "Companion Damage",
+    "category": "Enchant",
+    "description": " Companion Damage"
+  },
+  {
+    "uuid": 47,
+    "name": "Resist All",
+    "category": "Enchant",
+    "description": " to all Resistances"
+  },
+  {
+    "uuid": 48,
+    "name": "Power All",
+    "category": "Enchant",
+    "description": " to all Elements"
+  },
+  {
+    "uuid": 49,
+    "name": "Mana Cost Reduction",
+    "category": "Enchant",
+    "description": " Mana Cost Reduction"
+  },
+  {
+    "uuid": 50,
+    "name": "Cooldown Reduction",
+    "category": "Enchant",
+    "description": " Cooldown Reduction"
+  },
+  {
+    "uuid": 51,
+    "name": "Critical Hit Damage",
+    "category": "Enchant",
+    "description": " Critical Hit Damage"
+  },
+  {
+    "uuid": 52,
+    "name": "Shadow Resistance",
+    "category": "Enchant",
+    "description": " Shadow Resistance"
+  },
+  {
+    "uuid": 53,
+    "name": "Shadow Damage",
+    "category": "Enchant",
+    "description": " Shadow Damage"
+  },
+  {
+    "uuid": 54,
+    "name": "Light Radius",
+    "category": "Enchant",
+    "description": " Light Radius"
+  },
+  {
+    "uuid": 55,
+    "name": "Potion Effectiveness",
+    "category": "Enchant",
+    "description": " Potion Effectiveness"
+  },
+  {
+    "uuid": 56,
+    "name": "Slot",
+    "category": "Enchant",
+    "description": " Slots"
+  },
+  {
+    "uuid": 57,
+    "name": "Extra Slots",
+    "category": "Enchant",
+    "description": " Extra slots"
+  },
+  {
+    "uuid": 58,
+    "name": "Grip",
+    "category": "Enchant",
+    "description": " chance on hit to pull all enemies within 3 meters of the foe closer to it"
+  },
+  {
+    "uuid": 59,
+    "name": "Twister",
+    "category": "Enchant",
+    "description": "15% Chance on critical hit to summon a Twister that seeks out nearby foes, dealing  Ethereal damage per second as direct damage but may not crit."
+  },
+  {
+    "uuid": 60,
+    "name": "Hellfire",
+    "category": "Enchant",
+    "description": "15% Chance on critical hit to summon Hellfire over your foe, dealing up to  Ethereal damage per strike. Deals direct damage but may not crit."
+  },
+  {
+    "uuid": 61,
+    "name": "Crit Heal",
+    "category": "Enchant",
+    "description": "5% chance on critical hits to restore  health"
+  },
+  {
+    "uuid": 62,
+    "name": "Enrage",
+    "category": "Enchant",
+    "description": "5% chance on critical hits to increase the base Attack Speed of all skills by  for 5 seconds"
+  },
+  {
+    "uuid": 63,
+    "name": "Burst",
+    "category": "Enchant",
+    "description": "35% chance on critical hits to cause an explosion dealing  Ethereal damage"
+  },
+  {
+    "uuid": 65,
+    "name": "Kill Hoarder",
+    "category": "Enchant",
+    "description": " chance for foes to burst out extra crystals upon death"
+  },
+  {
+    "uuid": 66,
+    "name": "Kill Explode",
+    "category": "Enchant",
+    "description": " chance to explode foes upon their death, dealing up to 30% of their maximum health as Ethereal damage to other nearby foes"
+  },
+  {
+    "uuid": 67,
+    "name": "Kill Pickups",
+    "category": "Enchant",
+    "description": " chance to spawn additional health and mana pickups on kill"
+  },
+  {
+    "uuid": 68,
+    "name": "Kill Damage",
+    "category": "Enchant",
+    "description": "15% chance to increase Damage by  for 10 seconds after killing a foe. This effect may stack up to 5 times"
+  },
+  {
+    "uuid": 69,
+    "name": "Kill Restoration",
+    "category": "Enchant",
+    "description": "15% chance to increase Health Regeneration by  for 10 seconds after killing a foe. This effect may stack up to 5 times"
+  },
+  {
+    "uuid": 70,
+    "name": "Kill Recharge",
+    "category": "Enchant",
+    "description": "15% chance to increase Mana Regeneration by  for 10 seconds after killing a foe. This effect may stack up to 5 times"
+  },
+  {
+    "uuid": 71,
+    "name": "Kill Healing",
+    "category": "Enchant",
+    "description": "5% chance to heal for  of Maximum Health after killing a foe"
+  },
+  {
+    "uuid": 72,
+    "name": "Kill Haste",
+    "category": "Enchant",
+    "description": "15% chance to increase Movement Speed by  for 10 seconds after killing a foe. This effect may stack up to 5 times"
+  },
+  {
+    "uuid": 73,
+    "name": "Gib Regeneration",
+    "category": "Enchant",
+    "description": " Health- and Mana Regeneration for 5 seconds after gibbing a foe"
+  },
+  {
+    "uuid": 74,
+    "name": "Gib Damage",
+    "category": "Enchant",
+    "description": " Damage for 5 seconds after gibbing a foe"
+  },
+  {
+    "uuid": 75,
+    "name": "Gib Heal",
+    "category": "Enchant",
+    "description": "5% chance to heal for  of Maximum Health after gibbing a foe"
+  },
+  {
+    "uuid": 76,
+    "name": "Hurt Slow",
+    "category": "Enchant",
+    "description": " chance to slow attacker by 50% for 5 seconds when struck"
+  },
+  {
+    "uuid": 77,
+    "name": "Hurt Root",
+    "category": "Enchant",
+    "description": " chance to root and immobilize attacker for 3 seconds when struck"
+  },
+  {
+    "uuid": 78,
+    "name": "Hurt Fear",
+    "category": "Enchant",
+    "description": " chance to cause attackers to run away in fear for up to 3 seconds when struck"
+  },
+  {
+    "uuid": 79,
+    "name": "Hurt Knockback",
+    "category": "Enchant",
+    "description": " chance to knock away attackers up to 3 meters when struck"
+  },
+  {
+    "uuid": 80,
+    "name": "Frost Nova",
+    "category": "Enchant",
+    "description": "5% chance to release a Frost Nova dealing  Frost damage when struck"
+  },
+  {
+    "uuid": 81,
+    "name": "Holy Nova",
+    "category": "Enchant",
+    "description": "5% chance to release a Holy Nova dealing  Holy damage when struck"
+  },
+  {
+    "uuid": 82,
+    "name": "Death Nova",
+    "category": "Enchant",
+    "description": "5% chance to release a nova of Deathblasts dealing  Shadow damage when struck"
+  },
+  {
+    "uuid": 83,
+    "name": "Discharge",
+    "category": "Enchant",
+    "description": "5% chance to release an electric orb dealing  Lightning damage when struck"
+  },
+  {
+    "uuid": 84,
+    "name": "Hurt Movement Speed",
+    "category": "Enchant",
+    "description": " chance to increase Movement Speed by  for 5 seconds when struck"
+  },
+  {
+    "uuid": 85,
+    "name": "Hurt Poison",
+    "category": "Enchant",
+    "description": "5% chance to poison attackers for  Poison damage per second for 3 seconds when struck"
+  },
+  {
+    "uuid": 86,
+    "name": "Hurt Burn",
+    "category": "Enchant",
+    "description": "On hurt: 5% chance to burn attackers for  Fire damage per second for 3 seconds when struck"
+  },
+  {
+    "uuid": 87,
+    "name": "Low Health Heal",
+    "category": "Enchant",
+    "description": "Any attack that brings you below 30% Maximum Health instantly restores  Health. 30 Second cooldown"
+  },
+  {
+    "uuid": 88,
+    "name": "Low Health Damage",
+    "category": "Enchant",
+    "description": "Any attack that brings you below 30% Maximum Health increases your Damage by  for 5 seconds"
+  },
+  {
+    "uuid": 89,
+    "name": "Low Health Explode",
+    "category": "Enchant",
+    "description": "Any attack that brings you below 30% Maximum Health cause a series of explosions dealing  Ethereal damage to any nearby foes"
+  },
+  {
+    "uuid": 92,
+    "name": "Sludge Treads",
+    "category": "Enchant",
+    "description": "Creates a trail of poison as you walk, dealing  Poison damage per second, for 3 seconds"
+  },
+  {
+    "uuid": 93,
+    "name": "Phasewalk",
+    "category": "Enchant",
+    "description": "You are no longer affected by collisions and can walk through objects and enemies"
+  },
+  {
+    "uuid": 94,
+    "name": "Ironsole",
+    "category": "Enchant",
+    "description": "Makes you immune to damage from spike traps"
+  },
+  {
+    "uuid": 96,
+    "name": "Block Rate",
+    "category": "Enchant",
+    "description": " Block Chance"
+  },
+  {
+    "uuid": 97,
+    "name": "Block Damage",
+    "category": "Enchant",
+    "description": " Damage Blocked"
+  },
+  {
+    "uuid": 98,
+    "name": "Bonus Block Rate",
+    "category": "Enchant",
+    "description": " Extra Block Chance (Templar Only)"
+  },
+  {
+    "uuid": 99,
+    "name": "Bonus Block Damage",
+    "category": "Enchant",
+    "description": " Extra Damage Blocked (Templar Only)"
+  },
+  {
+    "uuid": 100,
+    "name": "Reach",
+    "category": "Enchant",
+    "description": " Reach"
+  },
+  {
+    "uuid": 101,
+    "name": "Overpower",
+    "category": "Enchant",
+    "description": " Overpower"
+  },
+  {
+    "uuid": 102,
+    "name": "Bleed Damage",
+    "category": "Enchant",
+    "description": " Bleed Damage"
+  },
+  {
+    "uuid": 103,
+    "name": "Minimum Rage",
+    "category": "Enchant",
+    "description": " Minimum Rage"
+  },
+  {
+    "uuid": 104,
+    "name": "Maximum Rage",
+    "category": "Enchant",
+    "description": " Maximum Rage"
+  },
+  {
+    "uuid": 105,
+    "name": "Rage Generation",
+    "category": "Enchant",
+    "description": " Rage Generation"
+  },
+  {
+    "uuid": 106,
+    "name": "Burn",
+    "category": "Enchant",
+    "description": "On hit: Deal  Fire damage instantly and per second, for 3 seconds"
+  },
+  {
+    "uuid": 107,
+    "name": "Poison",
+    "category": "Enchant",
+    "description": "On hit: Deal  Poison damage instantly and per second, for 5 seconds"
+  },
+  {
+    "uuid": 108,
+    "name": "Chill",
+    "category": "Enchant",
+    "description": "On hit: Deal  Frost damage instantly"
+  },
+  {
+    "uuid": 109,
+    "name": "Chain Lightning",
+    "category": "Enchant",
+    "description": "On hit: 25% chance to cause Chain Lightning for  Lightning damage"
+  },
+  {
+    "uuid": 110,
+    "name": "Bleed",
+    "category": "Enchant",
+    "description": "On hit: Deal  Bleed damage instantly and per second, for 3 seconds"
+  },
+  {
+    "uuid": 111,
+    "name": "Holy Smite",
+    "category": "Enchant",
+    "description": "On hit: Deal  Holy damage instantly"
+  },
+  {
+    "uuid": 112,
+    "name": "Blight",
+    "category": "Enchant",
+    "description": "On hit: Deal  Shadow damage instantly and per second, for 5 seconds"
+  },
+  {
+    "uuid": 113,
+    "name": "Undead Slaying",
+    "category": "Enchant",
+    "description": " damage vs. Undead"
+  },
+  {
+    "uuid": 114,
+    "name": "Spectral Slaying",
+    "category": "Enchant",
+    "description": " damage vs. Spectral"
+  },
+  {
+    "uuid": 115,
+    "name": "Arachnid Slaying",
+    "category": "Enchant",
+    "description": " damage vs. Arachnids"
+  },
+  {
+    "uuid": 116,
+    "name": "Demon Slaying",
+    "category": "Enchant",
+    "description": " damage vs. Demons"
+  },
+  {
+    "uuid": 117,
+    "name": "Beast Slaying",
+    "category": "Enchant",
+    "description": " damage vs. Beasts"
+  },
+  {
+    "uuid": 118,
+    "name": "Fae Slaying",
+    "category": "Enchant",
+    "description": " damage vs. Fae"
+  },
+  {
+    "uuid": 119,
+    "name": "Crown Slaying",
+    "category": "Enchant",
+    "description": " damage vs. Crowned foes"
+  },
+  {
+    "uuid": 120,
+    "name": "Damage Reduction",
+    "category": "Enchant",
+    "description": " reduced damage from all direct sources"
+  },
+  {
+    "uuid": 121,
+    "name": "Evasion",
+    "category": "Enchant",
+    "description": " Evasion"
+  },
+  {
+    "uuid": 122,
+    "name": "Spiked Orb",
+    "category": "Enchant",
+    "description": "Satellite: A spiked orb circles the player, hitting nearby foes, dealing  Physical damage two times per second"
+  },
+  {
+    "uuid": 123,
+    "name": "Shadow Orb",
+    "category": "Enchant",
+    "description": "Satellite: A shadow orb circles the player, defiling nearby foes, dealing  Shadow damage two times per second"
+  },
+  {
+    "uuid": 124,
+    "name": "Gem Strength",
+    "category": "Enchant",
+    "description": " increased effect of all Gems"
+  },
+  {
+    "uuid": 125,
+    "name": "Satellite Strength",
+    "category": "Enchant",
+    "description": " increased damage of all Satellite enchants"
+  },
+  {
+    "uuid": 126,
+    "name": "Damage Stagger",
+    "category": "Enchant",
+    "description": " of damage taken is staggered and dealt over 3 seconds, at a 30% damage reduction"
+  },
+  {
+    "uuid": 127,
+    "name": "Stun",
+    "category": "Enchant",
+    "description": " chance to stun foes hit for up to 3 seconds"
+  },
+  {
+    "uuid": 128,
+    "name": "Interrupt",
+    "category": "Enchant",
+    "description": " chance to interrupt attacks of foes hit"
+  },
+  {
+    "uuid": 129,
+    "name": "Elemental Slaying",
+    "category": "Enchant",
+    "description": " damage vs. Elementals"
+  },
+  {
+    "uuid": 130,
+    "name": "Humanoid Slaying",
+    "category": "Enchant",
+    "description": " damage vs. Humanoids"
+  },
+  {
+    "uuid": 131,
+    "name": "Mechanical Slaying",
+    "category": "Enchant",
+    "description": " damage vs. Mechanicals"
+  },
+  {
+    "uuid": 132,
+    "name": "Ground Effect Resistance",
+    "category": "Enchant",
+    "description": " reduced damage from harmful ground effects"
+  },
+  {
+    "uuid": 133,
+    "name": "Indirect Damage Resistance",
+    "category": "Enchant",
+    "description": " reduced damage from indirect sources and debuffs"
+  },
+  {
+    "uuid": 134,
+    "name": "Healing from all sources",
+    "category": "Enchant",
+    "description": " increased Healing from all sources"
+  },
+  {
+    "uuid": 1000,
+    "name": "Boomring",
+    "category": "Power",
+    "description": "Foes explode upon death, dealing  of their Maximum Health as Ethereal damage to all foes within 3 meters."
+  },
+  {
+    "uuid": 1001,
+    "name": "Jeopardy",
+    "category": "Power",
+    "description": "Your Critical Hit Chance is locked to 5%, and for each attack that lands a hit you gain  Critical Hit Damage for 3 seconds, until you reach 10 stacks. After reaching 10 stacks, your Critical Hit Chance is locked to 100% for 3 seconds, after which it resets."
+  },
+  {
+    "uuid": 1002,
+    "name": "Choker",
+    "category": "Power",
+    "description": "Health and Mana pickups no longer instantly restore Health and Mana. Instead each pickup increases Health Regeneration, Mana Regeneration, Health on Hit, and Mana on Hit by  for 10 seconds. Stacks 5 times and is affected by Pickup Strength."
+  },
+  {
+    "uuid": 1003,
+    "name": "Heartstone",
+    "category": "Power",
+    "description": "Increases Health by  of total Resistances, and sets all Resistances to 0."
+  },
+  {
+    "uuid": 1004,
+    "name": "Pathmakers",
+    "category": "Power",
+    "description": "Your Health Regeneration and Mana Regeneration are increased by  of your Movement Speed."
+  },
+  {
+    "uuid": 1005,
+    "name": "Extra-Ordinary",
+    "category": "Power",
+    "description": "For each item of Rare quality or lower, all your Damage Element stats are increased by ."
+  },
+  {
+    "uuid": 1006,
+    "name": "Elementium",
+    "category": "Power",
+    "description": "All your Resistances except your highest Resistance are increased by  of your highest Resistance."
+  },
+  {
+    "uuid": 1007,
+    "name": "Hurtblocker",
+    "category": "Power",
+    "description": "Using any Utility skill other than Shield Dance will also trigger Shield Dance. In addition, the effect of Shield Dance is  stronger."
+  },
+  {
+    "uuid": 1008,
+    "name": "Dodgeclaw",
+    "category": "Power",
+    "description": "Utility skills also restore  of Maximum Health and Mana."
+  },
+  {
+    "uuid": 1009,
+    "name": "Meteora",
+    "category": "Power",
+    "description": "Casting Soul Warp now pulls all nearby enemies together at your initial position and casts Meteor on them, dealing  increased damage."
+  },
+  {
+    "uuid": 1010,
+    "name": "Tumblespike",
+    "category": "Power",
+    "description": "Tumble, Escape, and Trapflip increase all Resistances by  for 5 seconds."
+  },
+  {
+    "uuid": 1011,
+    "name": "Fleetstride",
+    "category": "Power",
+    "description": "You become immune to spike traps, can walk through objects and foes, and cannot be slowed or immobilized."
+  },
+  {
+    "uuid": 1012,
+    "name": "Shield Maiden",
+    "category": "Power",
+    "description": "Adds  of your Block Chance to Shield skill damage, but removes your ability to block."
+  },
+  {
+    "uuid": 1013,
+    "name": "Blessed Raiment",
+    "category": "Power",
+    "description": " damage with all Magic skills."
+  },
+  {
+    "uuid": 1014,
+    "name": "Iactus",
+    "category": "Power",
+    "description": "Shield Throw, Shield Spiral, and Shield Boomerang release several fragments on each hit, dealing  of the damage dealt to the foe."
+  },
+  {
+    "uuid": 1015,
+    "name": "Aegis",
+    "category": "Power",
+    "description": " chance to cast rank 5 Blessing when you block an attack. 1 second cooldown."
+  },
+  {
+    "uuid": 1016,
+    "name": "Book of Purity",
+    "category": "Power",
+    "description": "Blessing and Healing Touch also cast rank 5 Purify when cast."
+  },
+  {
+    "uuid": 1017,
+    "name": "Heart of Grace",
+    "category": "Power",
+    "description": "Grace shields for  increased health."
+  },
+  {
+    "uuid": 1018,
+    "name": "Starfell",
+    "category": "Power",
+    "description": "Reduces the cooldown of Star Fall, Shattering Shield, and Shooting Stars by ."
+  },
+  {
+    "uuid": 1019,
+    "name": "Iapetus",
+    "category": "Power",
+    "description": "Adds  increased chance for Celerity to trigger."
+  },
+  {
+    "uuid": 1020,
+    "name": "Jupiter",
+    "category": "Power",
+    "description": "Increases the range of Magnetic Orbs, Magnetic Field, and Blade Overload by ."
+  },
+  {
+    "uuid": 1021,
+    "name": "Illumine",
+    "category": "Power",
+    "description": "Holy Light, Open Heavens, and Divine Salvo deal  increased damage."
+  },
+  {
+    "uuid": 1022,
+    "name": "Tome of Wrath",
+    "category": "Power",
+    "description": "Avenger deals  additional damage."
+  },
+  {
+    "uuid": 1023,
+    "name": "Tome of Vengeance",
+    "category": "Power",
+    "description": "Wearing this Tome grants permanent Dancing Blades at max rank. In addition, the Dancing Blades may now trigger Sharp Steel on hit, based on  of damage inflicted."
+  },
+  {
+    "uuid": 1024,
+    "name": "Tome of Condemnation",
+    "category": "Power",
+    "description": "Condemnation has a  chance to cast Ember when triggered."
+  },
+  {
+    "uuid": 1025,
+    "name": "Tome of Redemption",
+    "category": "Power",
+    "description": "Blinding Light has a  additional chance to stun."
+  },
+  {
+    "uuid": 1026,
+    "name": "Claws of Gluttony",
+    "category": "Power",
+    "description": "Hunger triggers on foes with  more Health."
+  },
+  {
+    "uuid": 1027,
+    "name": "Amp Claw",
+    "category": "Power",
+    "description": "Amplified deals  additional damage."
+  },
+  {
+    "uuid": 1028,
+    "name": "Wrath Claw",
+    "category": "Power",
+    "description": "Explosive Punch, Flame Roll, and Dragon Breath reset their cooldown when Explosive Manoeuvres triggers."
+  },
+  {
+    "uuid": 1029,
+    "name": "Wyrmtooth",
+    "category": "Power",
+    "description": "Frost Winds and Cooling Off have an additional  chance to trigger."
+  },
+  {
+    "uuid": 1030,
+    "name": "Bad Boys",
+    "category": "Power",
+    "description": "Boulder, Rock Pound, and Shattering Roar have an additional  range."
+  },
+  {
+    "uuid": 1031,
+    "name": "Arsonists",
+    "category": "Power",
+    "description": "Dragon Burn deals an additional  of the initial damage dealt."
+  },
+  {
+    "uuid": 1032,
+    "name": "Thunder Claps",
+    "category": "Power",
+    "description": "Blessing of The Skies now also increases Lightning Damage by ."
+  },
+  {
+    "uuid": 1033,
+    "name": "Icebergs",
+    "category": "Power",
+    "description": "Shattering Cold instead releases large ice chunks dealing  increased damage and in a 2 meter radius."
+  },
+  {
+    "uuid": 1034,
+    "name": "Wrathborn",
+    "category": "Power",
+    "description": "Generate  rage per second at all times. Rage never fades."
+  },
+  {
+    "uuid": 1035,
+    "name": "Helm of Might",
+    "category": "Power",
+    "description": "Rage based passive skills are now  stronger."
+  },
+  {
+    "uuid": 1036,
+    "name": "Titan Ring",
+    "category": "Power",
+    "description": "The Knockback Chance stat increases Damage by the same percentage, but will no longer trigger knockbacks. In addition, active skills with a knockback effect no longer cause knockback, and have their base damage increased by  for each meter of knockback they normally do. Does not affect Utility skills."
+  },
+  {
+    "uuid": 1037,
+    "name": "Despair",
+    "category": "Power",
+    "description": "All attacks deal  increased damage to foes who are slowed or immobilized."
+  },
+  {
+    "uuid": 1038,
+    "name": "Quadruplets",
+    "category": "Power",
+    "description": "Summons four skull companions, each skull representing one of the four elements available in the skill trees. The skulls have  damage of their chosen element and their attacks will trigger player on-hit effects."
+  },
+  {
+    "uuid": 1039,
+    "name": "Skull Mask",
+    "category": "Power",
+    "description": "For each non-set item, Damage is increased by ."
+  },
+  {
+    "uuid": 1040,
+    "name": "Weyrick's Crown",
+    "category": "Power",
+    "description": "For each Gem socketed into worn equipment, base Health, Mana, and Damage is increased by ."
+  },
+  {
+    "uuid": 1041,
+    "name": "Royal Armor",
+    "category": "Power",
+    "description": " of your Health on Hit and Mana on Hit are now added to Health Regeneration and Mana Regeneration respectively, however both Health on Hit and Mana on Hit are removed."
+  },
+  {
+    "uuid": 1042,
+    "name": "Terra Nova",
+    "category": "Power",
+    "description": "Reduces the cooldown of Arrow Hail, Empowered Shot, and Tornado by ."
+  },
+  {
+    "uuid": 1043,
+    "name": "Marruu's Rose",
+    "category": "Power",
+    "description": "Symbiosis has a  increased effect."
+  },
+  {
+    "uuid": 1044,
+    "name": "Thunderstring",
+    "category": "Power",
+    "description": "Lightning Burns deals an additional  damage per second."
+  },
+  {
+    "uuid": 1045,
+    "name": "Stormdraw",
+    "category": "Power",
+    "description": "Hail Storm, Air Freeze, and Blast Arrow have a  increased radius."
+  },
+  {
+    "uuid": 1046,
+    "name": "Wind Razor",
+    "category": "Power",
+    "description": "Splinter deals an additional  damage."
+  },
+  {
+    "uuid": 1047,
+    "name": "Nature's Barbs",
+    "category": "Power",
+    "description": "The damage of Vine Shot, Bramble Vine, Bramble Storm, and Vine Blast is increased by  of the Warden's Thorns stat, and Thorns damage turns into Poison."
+  },
+  {
+    "uuid": 1048,
+    "name": "Thunderpoint",
+    "category": "Power",
+    "description": "Static jumps to up to  additional targets."
+  },
+  {
+    "uuid": 1049,
+    "name": "Snowpiercer",
+    "category": "Power",
+    "description": "Snow Blast and Hail have an additional  chance to trigger."
+  },
+  {
+    "uuid": 1050,
+    "name": "Book of Boils",
+    "category": "Power",
+    "description": "Bursting Boils has an additional  meter range."
+  },
+  {
+    "uuid": 1051,
+    "name": "Book of Duplus",
+    "category": "Power",
+    "description": "Doublecast has a  extra chance to trigger."
+  },
+  {
+    "uuid": 1052,
+    "name": "Book of Destruction",
+    "category": "Power",
+    "description": "Combustion has a  extra chance to trigger."
+  },
+  {
+    "uuid": 1053,
+    "name": "Book of Desecration",
+    "category": "Power",
+    "description": "Desecration has  increased range."
+  },
+  {
+    "uuid": 1054,
+    "name": "Frostborne",
+    "category": "Power",
+    "description": "Cold Embrace lowers the cooldown by an additional ."
+  },
+  {
+    "uuid": 1055,
+    "name": "Hellstaff",
+    "category": "Power",
+    "description": "Inferno, Meteor, and Fire Storm have  increased radius."
+  },
+  {
+    "uuid": 1056,
+    "name": "Kennerth",
+    "category": "Power",
+    "description": "Bone Splinters deals an additional  damage per second."
+  },
+  {
+    "uuid": 1057,
+    "name": "Bile Rod",
+    "category": "Power",
+    "description": "Soul Power adds an additional  damage per Soul."
+  },
+  {
+    "uuid": 1058,
+    "name": "Golden Guard",
+    "category": "Power",
+    "description": "10% chance when hit to release 3 Holy Bolts, each dealing  of your Thorns damage as Holy damage to random nearby foes."
+  },
+  {
+    "uuid": 1059,
+    "name": "Unbreakable Bond",
+    "category": "Power",
+    "description": "Reduces all damage taken by Companions by ."
+  },
+  {
+    "uuid": 1060,
+    "name": "Life Guard",
+    "category": "Power",
+    "description": "Reduces damage taken from all sources, including indirect, by ."
+  },
+  {
+    "uuid": 1061,
+    "name": "Infernal Horns",
+    "category": "Power",
+    "description": "Infernal Demon summons  additional demons."
+  },
+  {
+    "uuid": 1062,
+    "name": "Firebreather",
+    "category": "Power",
+    "description": "Dragon Breath now summons  dragons circling the Berserker."
+  },
+  {
+    "uuid": 1063,
+    "name": "Brutal Stompers",
+    "category": "Power",
+    "description": "Removes the cooldown and mana cost from Leap, Dragon Leap, and Arctic Leap."
+  },
+  {
+    "uuid": 1064,
+    "name": "Packleader",
+    "category": "Power",
+    "description": "Wolfpack also summons an Alpha Wolf of the same rank. In addition, all wolves deal  increased damage."
+  },
+  {
+    "uuid": 1065,
+    "name": "Forest Embrace",
+    "category": "Power",
+    "description": "Bloom reduces all damage taken by  for 5 seconds when triggered."
+  },
+  {
+    "uuid": 1066,
+    "name": "Storm Pendant",
+    "category": "Power",
+    "description": "Lightning Arrow and Thunder Orb spawns a rank  Nimbus on impact."
+  },
+  {
+    "uuid": 1067,
+    "name": "Hermes",
+    "category": "Power",
+    "description": "You become immune to both knockback and movement impairing effects."
+  },
+  {
+    "uuid": 1068,
+    "name": "Nimble",
+    "category": "Power",
+    "description": "You become immune to movement impairing effects."
+  },
+  {
+    "uuid": 1069,
+    "name": "Health Injection",
+    "category": "Power",
+    "description": "Restores  Health instantly when falling below 30% Maximum Health. 10 second cooldown."
+  },
+  {
+    "uuid": 1070,
+    "name": "Mana Injection",
+    "category": "Power",
+    "description": "Restores  Mana instantly when falling below 30% Maximum Mana. 10 second cooldown."
+  },
+  {
+    "uuid": 1071,
+    "name": "Skyshard",
+    "category": "Power",
+    "description": "Adds a 5% chance on hit to strike the foe for  of the damage dealt as Lightning damage."
+  },
+  {
+    "uuid": 1072,
+    "name": "Smolder",
+    "category": "Power",
+    "description": "Foes killed burn the ground, dealing  Fire damage per second for 3 seconds in a small radius."
+  },
+  {
+    "uuid": 1073,
+    "name": "Elementium Stone",
+    "category": "Power",
+    "description": "Dealing direct damage to a foe places an Elemental Attunement on them, increasing the direct damage they take by . Each element used places a separate Attunement. Lasts 7 seconds."
+  },
+  {
+    "uuid": 1074,
+    "name": "Hydra Scale",
+    "category": "Power",
+    "description": "Adds a 5% chance on being hit to increase Health Regeneration by  for 3 seconds."
+  },
+  {
+    "uuid": 1075,
+    "name": "Death List",
+    "category": "Power",
+    "description": "Adds a 10% chance on kill to raise a Skeleton Warrior that will fight for the Warlock for up to 1 minute. A maximum of  Skeletons can be controlled, and each Skeleton has 50% of the Warlock's Health, and 30% of his Shadow Damage."
+  },
+  {
+    "uuid": 1076,
+    "name": "Lich's Touch",
+    "category": "Power",
+    "description": "All Frost skills have a  chance on cast to also cast Curse of Doom over your target."
+  },
+  {
+    "uuid": 1077,
+    "name": "Pestilence",
+    "category": "Power",
+    "description": "Bursting Boils has an additional  chance to trigger, and the Pestilence passive skill now applies Infection instead, as if applied by the Warlock, however at 25% efficiency."
+  },
+  {
+    "uuid": 1078,
+    "name": "Hellstone",
+    "category": "Power",
+    "description": "The Warlock now has a  chance to steal Souls on hit. 0.5 seconds cooldown."
+  },
+  {
+    "uuid": 1079,
+    "name": "Band of Nature",
+    "category": "Power",
+    "description": " damage with all Nature skills."
+  },
+  {
+    "uuid": 1080,
+    "name": "Helm o' War",
+    "category": "Power",
+    "description": "All Shout skills also cast War Cry."
+  },
+  {
+    "uuid": 1081,
+    "name": "Flamebound",
+    "category": "Power",
+    "description": "All Fire skills also cast Embershield. Embershield increases Health Regeneration by  while active. This effect is tripled if the Berserker is on fire."
+  },
+  {
+    "uuid": 1082,
+    "name": "Pain Bolts",
+    "category": "Power",
+    "description": "Each time any Arrow passes through a foe because of Overdraw, the damage of the Arrow is increased by ."
+  },
+  {
+    "uuid": 1083,
+    "name": "Stormdweller",
+    "category": "Power",
+    "description": "Storm skills cost  less mana."
+  },
+  {
+    "uuid": 1084,
+    "name": "Brimstone",
+    "category": "Power",
+    "description": " damage with all Sorcery skills."
+  },
+  {
+    "uuid": 1085,
+    "name": "Vindicator",
+    "category": "Power",
+    "description": "Thorns damage is dealt as a nova, dealing  increased damage in a 2.5 meter radius."
+  },
+  {
+    "uuid": 1086,
+    "name": "Serenity",
+    "category": "Power",
+    "description": "All Archery skills attack with  increased attack speed."
+  },
+  {
+    "uuid": 1087,
+    "name": "Spectral Armor",
+    "category": "Power",
+    "description": " increased Evasion and Damage Reduction."
+  },
+  {
+    "uuid": 1088,
+    "name": "Crown of Justice",
+    "category": "Power",
+    "description": " increased range and effectiveness of all Auras."
+  },
+  {
+    "uuid": 1089,
+    "name": "Hardcore",
+    "category": "Power",
+    "description": "Any attack that would kill the wearer will instead restore them to  Maximum Health. This effect can only occur once per 3 minutes."
+  },
+  {
+    "uuid": 1090,
+    "name": "Ferocity",
+    "category": "Power",
+    "description": "When using any skill, there's a chance equal to  of the current missing Health percentage to instantly reset the cooldown of the skill. This chance never goes below 10%."
+  },
+  {
+    "uuid": 1091,
+    "name": "Hydrascale Boots",
+    "category": "Power",
+    "description": "Health Regeneration is increased by  of missing Health percentage."
+  },
+  {
+    "uuid": 1092,
+    "name": "Kingsrock",
+    "category": "Power",
+    "description": " increased effect of all Gems."
+  },
+  {
+    "uuid": 1093,
+    "name": "Meteorite Ring",
+    "category": "Power",
+    "description": " increased damage of all Satellite enchants."
+  },
+  {
+    "uuid": 1094,
+    "name": "Challenger's Charm",
+    "category": "Power",
+    "description": "Shrine effects are doubled, but they also always spawn a Champion."
+  },
+  {
+    "uuid": 1095,
+    "name": "Vampire Lord's Cape",
+    "category": "Power",
+    "description": "The wearer is healed for  of all mana spent or drained."
+  },
+  {
+    "uuid": 1097,
+    "name": "Gravity",
+    "category": "Power",
+    "description": "All satellites spawn in pairs and deal  increased damage."
+  },
+  {
+    "uuid": 1098,
+    "name": "Icecrown",
+    "category": "Power",
+    "description": "Frost Spear is also fired from any active Frost Satellite enchants when cast."
+  },
+  {
+    "uuid": 1099,
+    "name": "Health Injection Mk2",
+    "category": "Power",
+    "description": "Restores  Health instantly when falling below 30% Maximum Health. 10 second cooldown."
+  },
+  {
+    "uuid": 1100,
+    "name": "Mana Injection Mk2",
+    "category": "Power",
+    "description": "Restores  Mana instantly when falling below 30% Maximum Mana. 10 second cooldown."
+  },
+  {
+    "uuid": 1101,
+    "name": "Rahlence's Resolution",
+    "category": "Power",
+    "description": "Adds a  chance on kill to grant a random Shrine buff that lasts for 15 seconds."
+  },
+  {
+    "uuid": 1102,
+    "name": "Saboteur",
+    "category": "Power",
+    "description": "Breaking breakable objects increases Movement Speed by 1%, stacking up to  times. Effect lasts 10 seconds."
+  },
+  {
+    "uuid": 1103,
+    "name": "Mightcap",
+    "category": "Power",
+    "description": "You can now equip 2 Ultimate skills, and all Ultimate skills are  stronger."
+  },
+  {
+    "uuid": 1104,
+    "name": "Harp",
+    "category": "Power",
+    "description": "Rapid Shot, Charged Arrow, Poison Shot, and Frost Arrow shoot  arrows in a cone."
+  },
+  {
+    "uuid": 1105,
+    "name": "Phantom",
+    "category": "Power",
+    "description": "Sword skills launch a Phantom Blade on attack, dealing  of the used skill's damage to all foes in a straight line. The Blade is of the same element as the skill used, and may trigger other on-hit effects."
+  },
+  {
+    "uuid": 1106,
+    "name": "Death Speaker",
+    "category": "Power",
+    "description": "All Curses that do not have a damage over time effect now deal an additional  of the total remaining damage of all curse damage over time effects on that foe. Hand of Death, Blood Curse, and Flesh Rot now stack infinitely."
+  },
+  {
+    "uuid": 1107,
+    "name": "Face Breakers",
+    "category": "Power",
+    "description": "Each attack adds a stack of Face Breaking, storing the 40% of the damage of the attack. At  stacks, the total damage is added to all attacks for 3 seconds."
+  },
+  {
+    "uuid": 1108,
+    "name": "Pure Energy",
+    "category": "Power",
+    "description": " of Damage taken subtracted from Mana instead of Health, draining 1 Mana per 4 points of Damage."
+  },
+  {
+    "uuid": 1109,
+    "name": "Entity's Eccentricity",
+    "category": "Power",
+    "description": "Satellites now deal direct damage, triggering on-hit effects. In addition, satellite damage is increased by ."
+  },
+  {
+    "uuid": 1110,
+    "name": "Armor of Retribution",
+    "category": "Power",
+    "description": "The damage of Soul Purge is multiplied by Light Radius."
+  },
+  {
+    "uuid": 1111,
+    "name": "Battle Boots",
+    "category": "Power",
+    "description": "Mobility Skills increase Damage Reduction by  for 7 seconds when used."
+  },
+  {
+    "uuid": 1112,
+    "name": "Unwavering Loyalty",
+    "category": "Power",
+    "description": "Companions gain  increased Evasion and Attack Speed."
+  },
+  {
+    "uuid": 1114,
+    "name": "Lusombra's Path",
+    "category": "Power",
+    "description": " of Shadow Resistance is added to Holy Damage, however this bonus does not interact with other elements."
+  },
+  {
+    "uuid": 1115,
+    "name": "The Dancing Maiden",
+    "category": "Power",
+    "description": "Hearty Dance also casts War Dance and Shield Dance."
+  },
+  {
+    "uuid": 1116,
+    "name": "The Elven Ranger",
+    "category": "Power",
+    "description": "Archery Skills cost  less mana, have  less cooldown, and deal  increased damage."
+  },
+  {
+    "uuid": 1117,
+    "name": "Acrobat's Slippers",
+    "category": "Power",
+    "description": "Tumble, Escape, Agility, and Sprint have their cooldown and mana cost reduced by ."
+  },
+  {
+    "uuid": 1118,
+    "name": "Boots of The Snow Elf",
+    "category": "Power",
+    "description": "Winter Blast no longer has a knockback effect, and casts Flash Freeze when landing."
+  },
+  {
+    "uuid": 1119,
+    "name": "Trapper's Boots",
+    "category": "Power",
+    "description": "Trapflip and Lay Traps deal  increased damage."
+  },
+  {
+    "uuid": 1120,
+    "name": "Winter's Coming",
+    "category": "Power",
+    "description": "Winter increases Frost damage by an additional  and applies Winter's Chill to all foes within 5 meters when triggered."
+  },
+  {
+    "uuid": 1121,
+    "name": "Druid's Scroll of Storms",
+    "category": "Power",
+    "description": "Storm Skills attack with  increased attack speed."
+  },
+  {
+    "uuid": 1122,
+    "name": "Blazing Stride",
+    "category": "Power",
+    "description": "While moving, increases the damage of Blaze by  of Movement Speed every half second, stacking 10 times. Fades away slowly while not moving."
+  },
+  {
+    "uuid": 1123,
+    "name": "Murmur",
+    "category": "Power",
+    "description": "10% chance on being hurt to cast a random Curse at the attacker, and all Curses last  longer."
+  },
+  {
+    "uuid": 1124,
+    "name": "Jotunhelm",
+    "category": "Power",
+    "description": " of Health Regeneration is converted into Damage, however all Health Regeneration is removed."
+  },
+  {
+    "uuid": 1125,
+    "name": "The Bone Spear",
+    "category": "Power",
+    "description": "Bone Spears instead fires  piercing Bone Spears in a cone forwards, dealing Thorns damage but no longer pulling foes towards the Warlock. In addition, it no longer has a cooldown."
+  },
+  {
+    "uuid": 1126,
+    "name": "The Boomstick",
+    "category": "Power",
+    "description": "Combustion deals  increased damage for each remaining second of Flaming Hells. "
+  },
+  {
+    "uuid": 1127,
+    "name": "The Darkwalkers",
+    "category": "Power",
+    "description": "Soul Warp no longer consumes any Souls, and always acts as if consuming the max amount. "
+  },
+  {
+    "uuid": 1128,
+    "name": "Demonology",
+    "category": "Power",
+    "description": "Imps, Little Devils, and Infernal Demon have their base damage increased by  of the Warlock's bonus damage to Demons. "
+  },
+  {
+    "uuid": 1129,
+    "name": "Static Echoes",
+    "category": "Power",
+    "description": "Soul Avatar and Soul Replication deal  increased damage for each active Static Overload orb. "
+  },
+  {
+    "uuid": 1130,
+    "name": "Jon's Book of Souls",
+    "category": "Power",
+    "description": " Maximum Souls. Souls stolen while already at Maximum Souls will now hover around the Warlock until the Warlock has room to hold more Souls or there are 5 Souls hovering. "
+  },
+  {
+    "uuid": 1131,
+    "name": "Robe of Corruption",
+    "category": "Power",
+    "description": "Health Regeneration is increased by  for each application of Infection on all foes within 7 meters. "
+  },
+  {
+    "uuid": 1132,
+    "name": "Iceheart",
+    "category": "Power",
+    "description": "Frozen Veil can stack one more time per Soul held."
+  },
+  {
+    "uuid": 1133,
+    "name": "The Art of Combat",
+    "category": "Power",
+    "description": "All Base Skills attack in  directions."
+  },
+  {
+    "uuid": 1134,
+    "name": "Frostborn Heirloom",
+    "category": "Power",
+    "description": "Rage Release no longer deals damage and instead provides a protective barrier, shielding the Berserker for 1% of his Maximum Health for every 3 Rage consumed by the skill. Barrier lasts  seconds or until broken."
+  },
+  {
+    "uuid": 1135,
+    "name": "Staggering Boots",
+    "category": "Power",
+    "description": " of damage taken is staggered and dealt over 3 seconds, at a 30% damage reduction."
+  },
+  {
+    "uuid": 1136,
+    "name": "Hound Whistle",
+    "category": "Power",
+    "description": "Grants a friendly Hellhound companion with  Fire damage."
+  },
+  {
+    "uuid": 1137,
+    "name": "Mollug's One Ring",
+    "category": "Power",
+    "description": "Grants an annoying Goblin companion (whether you like it or not) with  Physical damage."
+  },
+  {
+    "uuid": 1138,
+    "name": "Soulblade",
+    "category": "Power",
+    "description": "Adds a 5% chance on attack to summon a random Ghost companion with  Lightning damage. Companion lasts for 15 seconds."
+  },
+  {
+    "uuid": 1139,
+    "name": "Knowledge",
+    "category": "Power",
+    "description": "Adds  Bonus Experience on each kill, stacking up to 100 times and lasts until an item of Unique or higher quality drops."
+  },
+  {
+    "uuid": 1140,
+    "name": "Windflurry",
+    "category": "Power",
+    "description": "Double Draw now triggers from Storm skills, shooting Gusts instead of arrows. Double Draw also has a  additional chance to trigger."
+  },
+  {
+    "uuid": 1141,
+    "name": "Finned Arrow",
+    "category": "Power",
+    "description": "Seeking Arrow strikes an addtional  times and deals 40% increased damage."
+  },
+  {
+    "uuid": 1142,
+    "name": "Advancing Army",
+    "category": "Power",
+    "description": " of Movement Speed is added to Companion Damage."
+  },
+  {
+    "uuid": 1144,
+    "name": "Supernova",
+    "category": "Power",
+    "description": "All Nova skills deal  increased damage."
+  },
+  {
+    "uuid": 1145,
+    "name": "Tear of The Arch Druid",
+    "category": "Power",
+    "description": "All indirect damage enchants such as Chain Lightning, Burn, Smite, etc. deal  increased damage."
+  },
+  {
+    "uuid": 1146,
+    "name": "Star of The Pure",
+    "category": "Power",
+    "description": "All absorption barriers are  stronger."
+  },
+  {
+    "uuid": 1147,
+    "name": "Thorn Ring",
+    "category": "Power",
+    "description": " Thorns."
+  },
+  {
+    "uuid": 1148,
+    "name": "Ragnarok Guard",
+    "category": "Power",
+    "description": "Stoneskin also applies Dragonscales, and the effect of both skills is increased by "
+  },
+  {
+    "uuid": 1149,
+    "name": "Molten Medallion",
+    "category": "Power",
+    "description": "Lava Blood deals  increased damage for every 22 points of Mana Regeneration."
+  },
+  {
+    "uuid": 1150,
+    "name": "Vestige of Lost Souls",
+    "category": "Power",
+    "description": "Drains 15% of Maximum Mana every 5 seconds to create a protective barrier absorbing damage equal to  times the mana drained."
+  },
+  {
+    "uuid": 1151,
+    "name": "Wolf Tooth Necklace",
+    "category": "Power",
+    "description": "Alpha Wolf and Wolfpack now cause a stacking bleed effect when dealing damage. The bleed damages for 100% of the damage dealt, per second, for 5 seconds. In addition, Alpha Wolf and Wolfpack deal  increased damage."
+  },
+  {
+    "uuid": 1152,
+    "name": "Firelord's Amulet",
+    "category": "Power",
+    "description": "Hell Caller can now be triggered by any fire skill, and Demonic Appetite is  stronger if not having any active Companion Skills."
+  },
+  {
+    "uuid": 1153,
+    "name": "Loaded Bolts",
+    "category": "Power",
+    "description": "Arrows fired from Double Draw now explode on impact, dealing damage in a 3 meter radius. Double Draw also deals  increased damage."
+  },
+  {
+    "uuid": 1154,
+    "name": "Call of the Wild",
+    "category": "Power",
+    "description": "All of the Warden's companion skills that summon 2 or more companions summon  additional companions."
+  },
+  {
+    "uuid": 1155,
+    "name": "Gaia",
+    "category": "Power",
+    "description": "For each active companion, Damage is increased by ."
+  },
+  {
+    "uuid": 1156,
+    "name": "Heart of the Forest",
+    "category": "Power",
+    "description": "Reduces the base cooldown of all skills by , and increases their base cost by twice as much."
+  },
+  {
+    "uuid": 1157,
+    "name": "Thistle Thorn",
+    "category": "Power",
+    "description": "Nature Skills attack with  increased attack speed."
+  },
+  {
+    "uuid": 1158,
+    "name": "Lucilla's Vision",
+    "category": "Power",
+    "description": "10% of overhealing received from Health on Hit is turned into damage. The effect lasts 7 seconds and stacks up to  of Maximum Health."
+  },
+  {
+    "uuid": 1159,
+    "name": "Tenacious Defender",
+    "category": "Power",
+    "description": "Every third Cleave attack also casts rank 5 Shield Spiral. In addition, the radius of Cleave is increased by . This sword also counts as a shield and allows blocking."
+  },
+  {
+    "uuid": 1160,
+    "name": "Captain's Shield",
+    "category": "Power",
+    "description": "Phantom Shield deals  increased damage when triggered from a Shield skill cast."
+  },
+  {
+    "uuid": 1161,
+    "name": "Nemesis",
+    "category": "Power",
+    "description": "Adds 0. to Thorns for every point of Health, Mana, and Damage."
+  },
+  {
+    "uuid": 1162,
+    "name": "Deceiver's Tongue",
+    "category": "Power",
+    "description": "Curse skills attack  faster, cost  less mana, and deal  increased base damage."
+  },
+  {
+    "uuid": 1163,
+    "name": "Splinter Skull",
+    "category": "Power",
+    "description": "Bone Splinters may now be triggered from any Bone skill. In addition, all Bone skills deal  increased damage."
+  },
+  {
+    "uuid": 1164,
+    "name": "Gritstone",
+    "category": "Power",
+    "description": "Stoneskin now provides immunity to poison and bleed effects while active. In addition, all Stone skills deal  increased damage."
+  },
+  {
+    "uuid": 1165,
+    "name": "Balgar's Binding",
+    "category": "Power",
+    "description": "Damage is increased by  of the currently held Staggered Damage."
+  },
+  {
+    "uuid": 1166,
+    "name": "Council's Gavel",
+    "category": "Power",
+    "description": "Blade Conjuration skills now count as Hammer skills and will conjure great hammers instead of blades. In addition, all Hammer skills deal an increased  damage."
+  },
+  {
+    "uuid": 1167,
+    "name": "Spooky",
+    "category": "Power",
+    "description": "Spooky"
+  },
+  {
+    "uuid": 1168,
+    "name": "Dragonring",
+    "category": "Power",
+    "description": "Damage taken from burn effects now triggers Molten Veins. Molten Veins' damage is increased by  for each percentage of health lost from any damage taken that triggers the effect."
+  },
+  {
+    "uuid": 1169,
+    "name": "Hydraloop",
+    "category": "Power",
+    "description": " chance on attack to cast rank 5 Magma Hydra, dealing fire damage."
+  },
+  {
+    "uuid": 1170,
+    "name": "Ring of Blades",
+    "category": "Power",
+    "description": "Dancing Blades now attack the target of any Blade Conjuration skills used by the Templar by mimicking the skill at  efficiency in addition to their own attacks. The mimicked skills use the companions' own stats and bonuses instead of the Templar's."
+  },
+  {
+    "uuid": 1171,
+    "name": "Hammerblade",
+    "category": "Power",
+    "description": "5% chance on attack to cast rank 5 Hammer Storm. In addition, Hammer skills deal  increased damage and attack  faster."
+  },
+  {
+    "uuid": 1172,
+    "name": "Elegance",
+    "category": "Power",
+    "description": "When evading an attack, there is a 10% chance to spawn a Health or Mana pickup. Adds  to Evasion."
+  },
+  {
+    "uuid": 1173,
+    "name": "Lone Ranger",
+    "category": "Power",
+    "description": "Archery, Storm, and Nature skills deal  increased damage per meter distance to the foe hit, however this requires that the Warden has no active companions."
+  },
+  {
+    "uuid": 1174,
+    "name": "Hazard",
+    "category": "Power",
+    "description": "Standing in hostile ground effects triggers Health on Hit. Take  less damage from Ground Effects."
+  },
+  {
+    "uuid": 1175,
+    "name": "The Thumper",
+    "category": "Power",
+    "description": "Grants a Sandworm companion with  Physical damage."
+  },
+  {
+    "uuid": 1176,
+    "name": "Fang of Alucard",
+    "category": "Power",
+    "description": "Health on Hit is  more effective."
+  },
+  {
+    "uuid": 1177,
+    "name": "Ancient Bone",
+    "category": "Power",
+    "description": "Bone Skills deal  increased damage. (Warlock only)"
+  },
+  {
+    "uuid": 1178,
+    "name": "Skull of Harlon",
+    "category": "Power",
+    "description": "Projectile skills have  increased range and damage."
+  },
+  {
+    "uuid": 1179,
+    "name": "Eye of Hazioxth",
+    "category": "Power",
+    "description": "Reveal all invisible foes within  meters."
+  },
+  {
+    "uuid": 1180,
+    "name": "Molten Skin Boots",
+    "category": "Power",
+    "description": "Ground Effect Skills deal  increased damage and last  longer."
+  },
+  {
+    "uuid": 1181,
+    "name": "Ring of Hunger",
+    "category": "Power",
+    "description": "Mana Regeneration is increased by  for each foe within 7 meters. Bosses count as 15 foes."
+  },
+  {
+    "uuid": 1182,
+    "name": "Shizbuk's Tail",
+    "category": "Power",
+    "description": "Provoke and pull a random nearby foe when attacking."
+  },
+  {
+    "uuid": 1183,
+    "name": "Stone of Tephra",
+    "category": "Power",
+    "description": "Thrown skills and Stone (Berserker) skills deal  increased damage."
+  },
+  {
+    "uuid": 1184,
+    "name": "Fungimancer's Loop",
+    "category": "Power",
+    "description": "Fungi skills deal  increased damage. Spores spawned from Fungi skills are twice as strong."
+  },
+  {
+    "uuid": 1185,
+    "name": "Grimm",
+    "category": "Power",
+    "description": "Bane spells deal  increased damage for every 5% Reach."
+  },
+  {
+    "uuid": 1186,
+    "name": "Simulacra",
+    "category": "Power",
+    "description": "Sorcery spells are sometimes duplicated by a magical clone of the Warlock, casting from a random nearby location towards the same target, for  increased damage. 25% chance to cast."
+  },
+  {
+    "uuid": 1187,
+    "name": "Death's Bond",
+    "category": "Power",
+    "description": "Curse of Woe, Curse of Terror, and Curse of Reckoning are now all cast once per second at the Warlock's location. The Warlock only needs to equip one of these skills to gain the effect of all of them. In addition, these skills deal  increased damage."
+  },
+  {
+    "uuid": 1188,
+    "name": "Haymaker",
+    "category": "Power",
+    "description": "Brawl skills have a 50% chance to strike up to 2 additional times at random nearby enemies for  increased damage. Mobility skills are unaffected."
+  },
+  {
+    "uuid": 1189,
+    "name": "Moe's Fury",
+    "category": "Power",
+    "description": "Fists of Fury now throws fists, traveling up to 7 meters. Fists of Fury also deals  increased damage and is considered a Thrown skill."
+  },
+  {
+    "uuid": 1190,
+    "name": "Screaming Skull",
+    "category": "Power",
+    "description": "Screaming Skull no longer spirals the Warlock and instead bounces up to  times between foes."
+  },
+  {
+    "uuid": 1191,
+    "name": "The Last Word",
+    "category": "Power",
+    "description": "Shout skills deal up to  increased damage the closer the foes are to the Berserker. In addition, Shout skills have 50% increased range."
+  },
+  {
+    "uuid": 1192,
+    "name": "Aspect of the Ethereal",
+    "category": "Power",
+    "description": "All indirect damage enchants apply a debuff dealing the same amount of damage per second as Ethereal, stacking infinitely and lasting 7 seconds."
+  },
+  {
+    "uuid": 1193,
+    "name": "Contra",
+    "category": "Power",
+    "description": "Each time a foe is struck by a Shield skill they suffer  increased damage from all Shield skills, stacking infinitely."
+  },
+  {
+    "uuid": 1194,
+    "name": "Venerata",
+    "category": "Power",
+    "description": "Magic skills attack  faster and have 25% chance to doublecast."
+  },
+  {
+    "uuid": 1195,
+    "name": "Ancient Claw of The Firstborn",
+    "category": "Power",
+    "description": "Dragon skills attack  faster, have  less cooldown, and last  longer."
+  },
+  {
+    "uuid": 1196,
+    "name": "Prayer Beads",
+    "category": "Power",
+    "description": "While still, Auras have  increased range. While moving, Auras have  increased effect & damage."
+  },
+  {
+    "uuid": 1197,
+    "name": "Talisman of Spines",
+    "category": "Power",
+    "description": "For each assigned skill that is Utility, Ultimate, Companion, Aura, Heritage, or Ritual, thorns is increased by ."
+  },
+  {
+    "uuid": 1198,
+    "name": "Crown of Innate Probability",
+    "category": "Power",
+    "description": "All Skills with any chance effects, proc rates, etc, have a  increased chance to trigger."
+  },
+  {
+    "uuid": 1199,
+    "name": "Mantle of the Dragonkin",
+    "category": "Power",
+    "description": "For each nearby foe, maximum rage is increased by 3. Rage-based passive skills are  stronger. Bosses count as 15 foes."
+  },
+  {
+    "uuid": 1200,
+    "name": "Multishot",
+    "category": "Rune",
+    "description": "Multi Shot, Scatter Shot, and Volley fire  additional arrows/fragments."
+  },
+  {
+    "uuid": 1201,
+    "name": "Slicing",
+    "category": "Rune",
+    "description": "Slice, Charge, and Tackle, moves only half the distance, and mana cost and cooldown is reduced by ."
+  },
+  {
+    "uuid": 1202,
+    "name": "Rage Smash",
+    "category": "Rune",
+    "description": "Rock Smash consumes up to  Rage when used, increasing its base damage by 2% per point of Rage consumed."
+  },
+  {
+    "uuid": 1203,
+    "name": "Cursed Blood",
+    "category": "Rune",
+    "description": "Living Blood is  stronger when spawned from foes affected by Blood Curse."
+  },
+  {
+    "uuid": 1204,
+    "name": "Rolling Thunder",
+    "category": "Rune",
+    "description": "Rolling Thunder has a  additional chance to trigger."
+  },
+  {
+    "uuid": 1205,
+    "name": "Mega Charged",
+    "category": "Rune",
+    "description": "Charged Up increases Damage by an additional ."
+  },
+  {
+    "uuid": 1206,
+    "name": "Boomspore",
+    "category": "Rune",
+    "description": "Boom Shrooms will instantly burst any Shrooms spawned from Spores when cast. The Shrooms will burst regardless of growth stage and deal  increased damage."
+  },
+  {
+    "uuid": 1207,
+    "name": "Infinite Ruin",
+    "category": "Rune",
+    "description": "Ruin now stacks infinitely."
+  },
+  {
+    "uuid": 1208,
+    "name": "Scorching Blaze",
+    "category": "Rune",
+    "description": "Scorch now always triggers Flare, and Blaze is  stronger when triggered from Scorch."
+  },
+  {
+    "uuid": 1209,
+    "name": "Dragon Stomp",
+    "category": "Rune",
+    "description": "Dragon Stomp now interrupts attacks and stuns foes for up to  seconds."
+  },
+  {
+    "uuid": 1210,
+    "name": "Chained Focus",
+    "category": "Rune",
+    "description": "All Chained skills now deal  of the total remaining damage spread across all foes struck if the effect ends before performing all jumps."
+  },
+  {
+    "uuid": 1211,
+    "name": "Demonic Fury",
+    "category": "Rune",
+    "description": "Demonic Fury has a  additional base damage and increased chance to trigger for each active companion."
+  },
+  {
+    "uuid": 1212,
+    "name": "Storming Hammers",
+    "category": "Rune",
+    "description": "Hammer Storm has a  chance on each foe hit to spawn an additional hammer."
+  },
+  {
+    "uuid": 1213,
+    "name": "Infinite Rolls",
+    "category": "Rune",
+    "description": "The cooldown of Dive, Flame Roll, and Glacial Roll is reduced by ."
+  },
+  {
+    "uuid": 1214,
+    "name": "Shardstorm",
+    "category": "Rune",
+    "description": "Ice Shard has a  chance to also cast Winter Storm on itself."
+  },
+  {
+    "uuid": 1215,
+    "name": "Reaping",
+    "category": "Rune",
+    "description": "Life Reap no longer has a cooldown and deals  increased damage for each Curse of Woe, Curse of Terror, or Curse of Reckoning the foe is affected by."
+  },
+  {
+    "uuid": 1216,
+    "name": "Blazing Hammers",
+    "category": "Rune",
+    "description": "Holy Fire now casts  fire versions of Hammer Storm on each tick instead of dealing damage in a radius."
+  },
+  {
+    "uuid": 1217,
+    "name": "Phantom Shield",
+    "category": "Rune",
+    "description": "Phantom Shield bounces up to  additional times."
+  },
+  {
+    "uuid": 1218,
+    "name": "Barbed Revenge",
+    "category": "Rune",
+    "description": "Revenge now bases the damage of Phantom Shield on Thorns rather than the damage blocked, and will always deal the damage as Physical, regardless of thorns element."
+  },
+  {
+    "uuid": 1219,
+    "name": "Static Repulse",
+    "category": "Rune",
+    "description": "Repulse, Revert, and Magnetic Lock now also destroy all Static Overload orbs when used, causing them to burst, dealing  of their damage to all foes within twice their damage radius."
+  },
+  {
+    "uuid": 1220,
+    "name": "The Living Forest",
+    "category": "Rune",
+    "description": "Treant Guard also summons Treant Strider, and the other way around. In addition, both companions have their damage and thorns stats increased by ."
+  },
+  {
+    "uuid": 1221,
+    "name": "Bramble Burst",
+    "category": "Rune",
+    "description": "Vine Blast, Vine Shot, Bramble Storm, and Bramble Vine have a  chance to cause any Pods on foes hit to burst."
+  },
+  {
+    "uuid": 1222,
+    "name": "Thorn Veil",
+    "category": "Rune",
+    "description": "Root Veil also increases Thorns by  while active."
+  },
+  {
+    "uuid": 1223,
+    "name": "Split Thunder",
+    "category": "Rune",
+    "description": "Thunder Orb now splits into 3 smaller orbs on impact, each dealing  of the orb's damage in half of its radius. One of the orbs will attempt to target a random nearby foe, whereas the others will move randomly."
+  },
+  {
+    "uuid": 1226,
+    "name": "Poison Trees",
+    "category": "Rune",
+    "description": "Treant Guard and Treant Strider may now trigger the Barbed Spores Mastery Perk at  efficiency on themselves, provided that they also have the Thorny passive skill."
+  },
+  {
+    "uuid": 1227,
+    "name": "Light's Aura",
+    "category": "Rune",
+    "description": "Prayer, Hymn, and Plea now restore 1% of Maximum Health per second and increase Light Radius by ."
+  },
+  {
+    "uuid": 1228,
+    "name": "Hallowed Grace",
+    "category": "Rune",
+    "description": "Adds x the strength of the Templar's current barriers to the base damage of Hallowed."
+  },
+  {
+    "uuid": 1229,
+    "name": "Hydrarage",
+    "category": "Rune",
+    "description": "Magma Hydra now attaches itself to the back of the Berserker, and deals 1% increased damage for each point of Rage. Magma Hydra also has its duration increased by  seconds, but is limited to a single instance."
+  },
+  {
+    "uuid": 1230,
+    "name": "Embershield",
+    "category": "Rune",
+    "description": "Embershield may now trigger on-hit effects and increases Mana Regeneration by  while active."
+  },
+  {
+    "uuid": 1231,
+    "name": "Companion Mobility",
+    "category": "Rune",
+    "description": "Melee companions gain the Leaper affix, and ranged companions gain the Warping affix."
+  },
+  {
+    "uuid": 1232,
+    "name": "Lethal Mobility",
+    "category": "Rune",
+    "description": "Mobility Skills increase the damage of all non-Mobility Skills used in the next 3 seconds by ."
+  },
+  {
+    "uuid": 1233,
+    "name": "Shattering Impact",
+    "category": "Rune",
+    "description": "Leap and Take Down cause Earthshatter of the same rank on impact."
+  },
+  {
+    "uuid": 1234,
+    "name": "Dragonthorn",
+    "category": "Rune",
+    "description": "Thorns damage turns into Lightning, and taking damage spawns a Dragon Soul using  of Thorns as its base damage."
+  },
+  {
+    "uuid": 1235,
+    "name": "Hard Knocks",
+    "category": "Rune",
+    "description": "The cooldown of Take Down, Explosive Punch, and Thunder Punch is reduced by ."
+  },
+  {
+    "uuid": 1236,
+    "name": "Released Heritage",
+    "category": "Rune",
+    "description": "Rage Release increases Heritage Effect by 5% for 5 seconds after triggering, stacking up to  times."
+  },
+  {
+    "uuid": 1237,
+    "name": "Ravenous Winds",
+    "category": "Rune",
+    "description": "Increases the tick rate of Frost Winds by  of Attack Speed."
+  },
+  {
+    "uuid": 1238,
+    "name": "The Fierce Avenger",
+    "category": "Rune",
+    "description": "Avenger always lands a critical hit, and deals  increased damage while the Templar is moving."
+  },
+  {
+    "uuid": 1239,
+    "name": "Critical Thorns",
+    "category": "Rune",
+    "description": "Critical hits increase Thorns by  for 7 seconds, stacking 15 times."
+  },
+  {
+    "uuid": 1240,
+    "name": "Chilled Blood",
+    "category": "Rune",
+    "description": "Chilled foes suffer  increased damage from bleed effects."
+  },
+  {
+    "uuid": 1241,
+    "name": "Infected Wounds",
+    "category": "Rune",
+    "description": "Bleeding foes suffer  increased damage from poison effects."
+  },
+  {
+    "uuid": 1242,
+    "name": "Winter's Chill",
+    "category": "Rune",
+    "description": "Winter's Chill is applied to all foes within  meters when casting any Frost skill."
+  },
+  {
+    "uuid": 1243,
+    "name": "Curse of Thorns",
+    "category": "Rune",
+    "description": "Foes afflicted by Curse of Reckoning instead suffer  increased Thorns damage from the Warlock."
+  },
+  {
+    "uuid": 1244,
+    "name": "Exoskeleton",
+    "category": "Rune",
+    "description": "Exoskeleton also adds  Thorns for each stack of Masochism, and Thorns damage is now dealt as a bone nova to all foes within 7 meters while Exoskeleton is active."
+  },
+  {
+    "uuid": 1245,
+    "name": "The Reckoning Hand",
+    "category": "Rune",
+    "description": "Hand of Death applies Curse of Reckoning to all foes hit, and foes afflicted by Curse of Reckoning instead suffer  increased Thorns damage from the Warlock."
+  },
+  {
+    "uuid": 1246,
+    "name": "Warped Banes",
+    "category": "Rune",
+    "description": "Soul Warp also casts either Bane of the Dead, Fire Nova, Frost Nova, or Bone Spears at max rank when landing. The Warlock's highest Elemental damage decides the skill cast."
+  },
+  {
+    "uuid": 1247,
+    "name": "Foul Demon",
+    "category": "Rune",
+    "description": "All active Imps and Little Devils are sacrificed, adding  of their total combined Health and Damage to Infernal Demon."
+  },
+  {
+    "uuid": 1248,
+    "name": "Rapid Plague",
+    "category": "Rune",
+    "description": "Plague now strikes faster, based on  of the Warlock's attack speed, but is limited to a single instance."
+  },
+  {
+    "uuid": 1249,
+    "name": "Shattered Spirits",
+    "category": "Rune",
+    "description": "When triggered, Corpse Shatter spawns  Spirit of Torment based on its damage. "
+  },
+  {
+    "uuid": 1250,
+    "name": "Wisp Blast",
+    "category": "Rune",
+    "description": "Shock Orb and Storm Orbs are also fired from any active Wisp when cast. The skill will target what the Wisp targets. "
+  },
+  {
+    "uuid": 1251,
+    "name": "Burning Lightning",
+    "category": "Rune",
+    "description": "Burning foes suffer  increased damage from Lightning attacks "
+  },
+  {
+    "uuid": 1252,
+    "name": "Greater Hail",
+    "category": "Rune",
+    "description": "Hail has a  chance to create a Greater Hail, dealing damage in a 2 meter radius. "
+  },
+  {
+    "uuid": 1253,
+    "name": "Trap Throw",
+    "category": "Rune",
+    "description": "Lay Traps now throws a single trap at the target foe rather than laying them on the ground. The trap deals  increased damage to a  wider radius. In addition, the element of the trap matches the highest bonus element stat. Lay Traps now counts as a Thrown skill."
+  },
+  {
+    "uuid": 1254,
+    "name": "Advanced Toxicology",
+    "category": "Rune",
+    "description": "Mushrooms spawned from Fairy Ring and Toxicology now stack their poison effects infinitely and the effects last  longer."
+  },
+  {
+    "uuid": 1255,
+    "name": "Pulverize",
+    "category": "Rune",
+    "description": "If Stonefist hits a crowned foe it will strike an additional  times."
+  },
+  {
+    "uuid": 1256,
+    "name": "Boulderfist",
+    "category": "Rune",
+    "description": "Boulder has a  chance on hit to summon a Stonefist over the foe and no longer causes a knockback."
+  },
+  {
+    "uuid": 1257,
+    "name": "Retaliating Companions",
+    "category": "Rune",
+    "description": "Companions are granted Thorns equal to  of their Maximum Health."
+  },
+  {
+    "uuid": 1258,
+    "name": "Rapid Pyre",
+    "category": "Rune",
+    "description": "Pyre now lasts 1.5 seconds but spews as many Embers as if lasting  seconds."
+  },
+  {
+    "uuid": 1259,
+    "name": "Bloodscent",
+    "category": "Rune",
+    "description": "Companions deal  increased damage to bleeding foes."
+  },
+  {
+    "uuid": 1260,
+    "name": "Warp Echo",
+    "category": "Rune",
+    "description": "Dragon Warp creates a Warp Echo when used, which has a  chance to replicate any Shout Skills used by the Berserker. The Warp Echo lasts until Dragon Warp is used again."
+  },
+  {
+    "uuid": 1261,
+    "name": "Great Storms",
+    "category": "Rune",
+    "description": "Tornado, Toxic Storm, Thunder Storm, and Hail Storm have their tick rates increased by  of the Warden's attack speed."
+  },
+  {
+    "uuid": 1262,
+    "name": "Assertion",
+    "category": "Rune",
+    "description": "All doublecast passive skills have a  increased chance to trigger."
+  },
+  {
+    "uuid": 1263,
+    "name": "Simplicity",
+    "category": "Rune",
+    "description": "All Base Skills deal  increased damage."
+  },
+  {
+    "uuid": 1264,
+    "name": "Grand Reprisal",
+    "category": "Rune",
+    "description": "The passive effect of Reprisal, Retribution and Retaliation is increased by ."
+  },
+  {
+    "uuid": 1265,
+    "name": "The Dragon Flame",
+    "category": "Rune",
+    "description": "Embershield, Flame Roll, and Flamewrath deal  increased damage and have no cooldown. However, these skills apply a burn effect to the Berserker, dealing 1% of his total health per second, stacking 10 times. Burn lasts 7 seconds."
+  },
+  {
+    "uuid": 1266,
+    "name": "Potency",
+    "category": "Rune",
+    "description": "All Active skills deal  increased damage for each percentage of Mana they cost to cast."
+  },
+  {
+    "uuid": 1267,
+    "name": "Frozen Graves",
+    "category": "Rune",
+    "description": "Foes affected by Frozen Fate have a 0. chance per missing health percentage to instantly die and cause Corpse Shatter when struck by a frost skill."
+  },
+  {
+    "uuid": 1268,
+    "name": "The Devouring Star",
+    "category": "Rune",
+    "description": "Deathly Barrage now only spawns a single powerful star with the damage of the original number of stars combined. This new star periodically absorbs any Frigid Star within 4 meters, refreshing its own duration and gaining  of the absorbed spell's damage. In addition, Deathly Barrage lasts 3 seconds longer."
+  },
+  {
+    "uuid": 1269,
+    "name": "Wolfcaster",
+    "category": "Rune",
+    "description": "Air Freeze and Ice Shard now summon charging wolves instead. Ice Shard summons a single charging Alpha Wolf, and Air Freeze summons multiple charging Wolfpack wolves. The Wolves dissolve after charging a short distance and will damage anything they touch. Their damage is based on  of Alpha Wolf and Wolfpack's listed damage."
+  },
+  {
+    "uuid": 1270,
+    "name": "Swelling Pods",
+    "category": "Rune",
+    "description": "Pods no longer deal damage in a radius when bursting, and instead adds  stacks to itself. The base damage of Pods is also doubled."
+  },
+  {
+    "uuid": 1271,
+    "name": "Norla's Gale",
+    "category": "Rune",
+    "description": "Gale now orbits the Warden and lasts for 7 seconds. Each cast refreshes the duration. Any Gust or Tornado cast will also spawn from each Gale, and deal  increased damage."
+  },
+  {
+    "uuid": 1272,
+    "name": "Barraging Acrobatics",
+    "category": "Rune",
+    "description": "Volley is now automatically performed when using Tumble or Escape, and deals  increased damage. However, it is no longer nearly as accurate and will spread arrows in all directions."
+  },
+  {
+    "uuid": 1273,
+    "name": "Mega Wisp",
+    "category": "Rune",
+    "description": "Mega Wisp is  stronger and Empowered Wisp stacks 10 more times."
+  },
+  {
+    "uuid": 1274,
+    "name": "Sparking Static",
+    "category": "Rune",
+    "description": "For each active Sparkies, Static deals  increased total damage, including Stormcaller's Regalia Set bonuses."
+  },
+  {
+    "uuid": 1275,
+    "name": "The Bombardier",
+    "category": "Rune",
+    "description": "Bombardment skills deal  increased damage for each second of duration, however their base durations are halved. Bombardment skills without any duration are treated as if having a 3 second duration for this effect."
+  },
+  {
+    "uuid": 1276,
+    "name": "Relentless Assault",
+    "category": "Rune",
+    "description": "Assault skills no longer cost any mana, restore 3% mana on use, and have their cooldowns reduced by ."
+  },
+  {
+    "uuid": 1277,
+    "name": "The Sentry",
+    "category": "Rune",
+    "description": "Sentry skills deal  increased damage and last  longer, but have their damage radius halved."
+  },
+  {
+    "uuid": 1278,
+    "name": "Total Armageddon",
+    "category": "Rune",
+    "description": "Armageddon has  additional chance to trigger."
+  },
+  {
+    "uuid": 1279,
+    "name": "Instant Combustion",
+    "category": "Rune",
+    "description": "Detonation no longer deals damage and instead triggers Combustion on all foes affected by Flaming Hells. In addition, Combustion deals  increased damage."
+  },
+  {
+    "uuid": 1280,
+    "name": "Putrefying Poisons",
+    "category": "Rune",
+    "description": "All Corruptor skills now apply both Blood Curse and Flesh Rot at max rank to all foes struck. These effects also deal  increased damage."
+  },
+  {
+    "uuid": 1281,
+    "name": "Blood Explosion",
+    "category": "Rune",
+    "description": "Casting Poison Nova will make any Living Blood (or Clots) instantly explode for  increased damage."
+  },
+  {
+    "uuid": 1282,
+    "name": "Rage Peak",
+    "category": "Rune",
+    "description": "Glacier now exhausts all rage when cast, increasing its damage by  per 5 points of rage."
+  },
+  {
+    "uuid": 1283,
+    "name": "Winter Rage",
+    "category": "Rune",
+    "description": "Glacial Roll, Arctic Leap, and Frigid Roar generate twice as much rage on hit, and deal  increased damage."
+  },
+  {
+    "uuid": 1284,
+    "name": "The Blue Bolt",
+    "category": "Rune",
+    "description": "Dive and Hop casts Dragon Storm at rank 5 when used. Dragon Storm deals  increased damage."
+  },
+  {
+    "uuid": 1285,
+    "name": "Soulstorm",
+    "category": "Rune",
+    "description": "Dragon Soul spawned from Dragon Storm deal  increased damage."
+  },
+  {
+    "uuid": 1286,
+    "name": "Bouncing Throws",
+    "category": "Rune",
+    "description": "Thrown skills that are thrown in an arc and hit the ground may now bounce up to  times, moving a short distance and dealing damage on each bounce."
+  },
+  {
+    "uuid": 1287,
+    "name": "Splitting Throws",
+    "category": "Rune",
+    "description": "Thrown skills that are not thrown in an arc may now split, throwing up to  additional copies of themselves in random directions."
+  },
+  {
+    "uuid": 1288,
+    "name": "Ancestral Rage",
+    "category": "Rune",
+    "description": "All rage-based passive skills & Heritage effects now always give a minimum of  of the effect, regardless of current rage level."
+  },
+  {
+    "uuid": 1289,
+    "name": "Targeted Destruction",
+    "category": "Rune",
+    "description": "Destructive Manoeuvres now attempts to target a random enemy within range, and will apply a stacking burn effect to all foes struck, dealing  of the damage dealt, per second, for 5 seconds."
+  },
+  {
+    "uuid": 1290,
+    "name": "Holy Chains",
+    "category": "Rune",
+    "description": "Cinderblast and Holy Bolt are now Chained skills, dealing  increased damage and jumping up to 4 times."
+  },
+  {
+    "uuid": 1291,
+    "name": "Provocation",
+    "category": "Rune",
+    "description": "Foes affected by Taunt take  increased damage."
+  },
+  {
+    "uuid": 1292,
+    "name": "Polished Gems",
+    "category": "Rune",
+    "description": "All gems provide  to elemental damage in their respective elements, regardless of shape or quality."
+  },
+  {
+    "uuid": 1293,
+    "name": "Holy Expulsion",
+    "category": "Rune",
+    "description": "Expulsion deals  increased damage when triggered from Holy Nova hits."
+  },
+  {
+    "uuid": 1294,
+    "name": "Thundering Avatars",
+    "category": "Rune",
+    "description": "Soul Avatar has  increased attack speed and cooldown reduction on its attacks, and summons an additional Avatar."
+  },
+  {
+    "uuid": 1295,
+    "name": "Brutal Attacks",
+    "category": "Rune",
+    "description": "Damage is increased by  for each percentage attack speed below 150%. Any percentage below 100% attack speed grants twice this bonus."
+  },
+  {
+    "uuid": 1296,
+    "name": "Greatness",
+    "category": "Rune",
+    "description": "Greater Rune cap is increased by 1."
+  },
+  {
+    "uuid": 1705,
+    "name": "Crown of Solitude",
+    "category": "Power",
+    "description": " damage vs. Crowned foes."
+  },
+  {
+    "uuid": 1706,
+    "name": "Primordial Rose",
+    "category": "Power",
+    "description": "Every 3 seconds, resistance to a random element is increased by  for 3 seconds."
+  },
+  {
+    "uuid": 1707,
+    "name": "Terra's Binding",
+    "category": "Power",
+    "description": " to all Resistances and all Elements."
+  },
+  {
+    "uuid": 1708,
+    "name": "Rimeheart",
+    "category": "Power",
+    "description": "Rime deals  increased damage and has 2 meters increased base range."
+  },
+  {
+    "uuid": 1709,
+    "name": "Frozen Anger",
+    "category": "Power",
+    "description": " Minimum Rage."
+  },
+  {
+    "uuid": 1710,
+    "name": "Paingrinder",
+    "category": "Power",
+    "description": "Thorns and Bleed damage increased by ."
+  },
+  {
+    "uuid": 1711,
+    "name": "Drakehoof",
+    "category": "Power",
+    "description": "Dragon Stomp, Earthshatter, and Icicles deal  increased damage."
+  },
+  {
+    "uuid": 1712,
+    "name": "Gemstone Tiara",
+    "category": "Power",
+    "description": "Any gem socketed into this helm also provides the bonuses from being socketed into a weapon and jewelry slot."
+  },
+  {
+    "uuid": 1713,
+    "name": "Stormchasers",
+    "category": "Power",
+    "description": "Damage increased by  for each twister, gust, whirlwind and similar type of effect within 5 meters."
+  },
+  {
+    "uuid": 1714,
+    "name": "Faith",
+    "category": "Power",
+    "description": "Using an Aura will cause a nova dealing  damage in the element of the Aura. This damage is multiplied by Aura Effect. May trigger on-hit effects."
+  },
+  {
+    "uuid": 1715,
+    "name": "Contender",
+    "category": "Power",
+    "description": "While within 5 meters of any Crowned foe, Damage Reduction, Block Chance, and Damage is increased by . "
+  },
+  {
+    "uuid": 1716,
+    "name": "Sniper Eye",
+    "category": "Power",
+    "description": "Foes struck by Archery skills become weakened, increasing the damage they take by ."
+  },
+  {
+    "uuid": 1717,
+    "name": "Community",
+    "category": "Power",
+    "description": " Crystals found and Experience gained from all sources."
+  },
+  {
+    "uuid": 1718,
+    "name": "Cosmic",
+    "category": "Power",
+    "description": " of Maximum Mana is converted into twice as much Damage."
+  },
+  {
+    "uuid": 1719,
+    "name": "Divine Link",
+    "category": "Power",
+    "description": " increased Healing from all sources."
+  }
+]

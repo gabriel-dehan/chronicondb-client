@@ -2,6 +2,7 @@ import commandLineArgs, { CommandLineOptions } from 'command-line-args';
 
 import { createExtractsFolder } from '../utils/fileUtils';
 import { generateMetaFiles } from './generateMetaFiles';
+import { generateSearchIndexes } from './generateSearchIndexes';
 import { parseEnchants } from './parseEnchants';
 import { parseEnchantsPool } from './parseEnchantsPool';
 import { parseItems } from './parseItems';
@@ -37,6 +38,7 @@ function parseAll(opts: CommandLineOptions) {
   parseEnchants(version, verbose);
   parseSkills(version, verbose);
 
+  generateSearchIndexes(version);
   generateMetaFiles(version);
 
   return null;

@@ -69,7 +69,9 @@ There you go, chronicondb is now up to date.
 - [ ] Set items links react-router
 - [ ] Runes possible enchants
 - [ ] Enchants
+- [~] Enchants Search Index (item types ?)
 - [ ] Skills
+- [~] Skills Search Index (items types, enchants)
 - [ ] SEO
 
 ## License
