@@ -1,6 +1,6 @@
 import camelCaseKeys from 'camelcase-keys';
 import { flatten } from 'flatten-anything';
-import { isEmpty, merge, pick } from 'lodash';
+import { isEmpty, merge, pick, has } from 'lodash';
 import { observable, action, computed } from 'mobx';
 import qs from 'query-string';
 
@@ -82,7 +82,7 @@ export class FiltersStore {
     }
 
     // Allow undefined value for search
-    if (isEmpty(filters.search)) {
+    if (has(filters, 'search') && isEmpty(filters.search)) {
       this.items.search = undefined;
     }
   }
@@ -92,8 +92,8 @@ export class FiltersStore {
     this.enchants = merge(this.enchants, filters);
 
     // Allow undefined value for search
-    if (isEmpty(filters.search)) {
-      this.items.search = undefined;
+    if (has(filters, 'search') && isEmpty(filters.search)) {
+      this.enchants.search = undefined;
     }
   }
 

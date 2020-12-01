@@ -1,4 +1,5 @@
 import { compact } from 'lodash';
+import Minisearch from 'minisearch';
 
 import { ITEM_TYPES_BY_CATEGORIES } from 'engine/data/dataMappings';
 import { allEnumValues } from 'helpers/typeUtils';
@@ -31,17 +32,29 @@ export default class EngineItems {
   public readonly engine: Engine;
   public categories: ItemCategory[];
   public typesByCategories: Record<ItemCategory, ItemType[]>;
+  private searchEngine: Minisearch;
 
   constructor(engine: Engine) {
     this.engine = engine;
     this.categories = allEnumValues(ItemCategory);
     this.typesByCategories = ITEM_TYPES_BY_CATEGORIES;
+    this.searchEngine = new Minisearch({
+      idField: 'uuid',
+      fields: ['name', 'classRestriction', 'enchants', 'setName', 'setBonuses'],
+      storeFields: ['uuid'],
+    });
+  }
+
+  public onDataLoaded() {
+    this.searchEngine.removeAll();
+    this.searchEngine.addAll(this.data.itemsSearchIndex);
   }
 
   /* Methods */
   public all(filters: ItemsFilters): Item[] {
     let items = this.items;
 
+    items = this.filterBySearch(items, filters);
     items = this.filterByTypeAndCategory(items, filters);
     items = this.filterByClass(items, filters);
     items = this.filterByRarities(items, filters);
@@ -89,6 +102,19 @@ export default class EngineItems {
   }
 
   /* Private */
+  private filterBySearch(items: Item[], filters: ItemsFilters) {
+    if (filters.search) {
+      const resultingUuids = this.searchEngine.search(filters.search, {
+        prefix: true,
+        fuzzy: 0.2,
+      }).map(r => r.uuid);
+
+      return items.filter(item => resultingUuids.includes(item.uuid));
+    }
+
+    return items;
+  }
+
   private filterByTypeAndCategory(items: Item[], filters: ItemsFilters) {
     if (filters.category === 'Any' || filters.type === 'Any') {
       return items;

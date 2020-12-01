@@ -20,17 +20,8 @@ export default class EngineEnchants {
     this.types = allEnumValues(EnchantType);
   }
 
-  /* Getters */
-  private get data(): DataInterface {
-    return this.engine.data as DataInterface;
-  }
-
-  private get enchants(): Enchant[] {
-    if (this.engine.loaded) {
-      return this.data.enchants;
-    }
-
-    return [];
+  public onDataLoaded() {
+    //
   }
 
   public getItemEnchantsSlots(item: Item): ItemEnchantSlots | null {
@@ -52,6 +43,19 @@ export default class EngineEnchants {
     }
 
     return null;
+  }
+
+  /* Getters */
+  private get data(): DataInterface {
+    return this.engine.data as DataInterface;
+  }
+
+  private get enchants(): Enchant[] {
+    if (this.engine.loaded) {
+      return this.data.enchants;
+    }
+
+    return [];
   }
 
   /* Private utils */

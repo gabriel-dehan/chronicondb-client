@@ -14,6 +14,9 @@ export interface DataInterface {
   sets: ItemSet[];
   skills: Skill[];
   skillsByClass: Record<CharacterClass, Record<SkillTree, Skill[]>>;
+  itemsSearchIndex: Record<string, string | number>[];
+  enchantsSearchIndex: Record<string, string | number>[];
+  skillsSearchIndex: Record<string, string | number>[];
 }
 
 /* Singleton */
@@ -45,5 +48,7 @@ export default class Engine {
 
   public async loadData() {
     this.data = (await import(`./data/${this.version}/extracts`)).default;
+    this.Items.onDataLoaded();
+    this.Enchants.onDataLoaded();
   }
 }
