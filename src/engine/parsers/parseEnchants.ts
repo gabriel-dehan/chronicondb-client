@@ -144,7 +144,7 @@ function getAffixes(uuid: number, locale: LocaleData): string[] | undefined {
 
 function findItems(uuid: number, items: Item[]): number[] {
   return items
-    .filter(item => item.baseEnchants.includes(uuid))
+    .filter(item => item.fixedEnchants.includes(uuid))
     .map(item => item.uuid);
 }
 
