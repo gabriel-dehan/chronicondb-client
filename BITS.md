@@ -60,3 +60,10 @@ if (fixedEnchants) {
   console.log('----------------------------------');
 }
 ```
+
+```ts
+hydratedPool[itemType] = reduce(poolByEnchantType, (hydratedPoolTypes: HydratedPoolType, enchantIds: number[], enchantType: CraftableEnchantTypes) => {
+  hydratedPoolTypes[enchantType] = compact(enchantIds.map(uuid => this.data.enchants.find(e => e.uuid === uuid)));
+  return hydratedPoolTypes;
+}, {});
+```

@@ -1,0 +1,100 @@
+.m-enchantsPool {
+  &__content {
+
+  }
+
+  &__none {
+
+  }
+
+  &__enchant {
+    position: relative;
+    font-family: 'Nunito Sans';
+    font-size: var(--font-normal);
+    font-weight: 600;
+    padding: 9px 14px;
+    cursor: pointer;
+
+    &:nth-child(2n) {
+      background-color: #121110;
+    }
+
+    &:hover {
+      .m-enchantsPool__enchant-name {
+        opacity: 0.8;
+      }
+    }
+
+    // Collapsed
+    &::after {
+      content: '';
+      background-image: url(/assets/images/icons/arrow_right_white.svg);
+      background-repeat: no-repeat;
+      width: 7px;
+      height: 14px;
+      opacity: 0.6;
+      display: inline-block;
+      position: absolute;
+      right: 12px;
+      top: 12px;
+    }
+
+    &.etype-epic {
+      color: var(--color-enchant-epic);
+
+      &::after {
+        background-image: url(/assets/images/icons/arrow_right_purple.svg);
+      }
+    }
+
+    &.etype-major {
+      color: var(--color-enchant-major);
+
+      &::after {
+        background-image: url(/assets/images/icons/arrow_right_blue.svg);
+      }
+    }
+
+    &.etype-minor {
+      color: var(--color-enchant-minor);
+
+      &::after {
+        background-image: url(/assets/images/icons/arrow_right_white.svg);
+      }
+    }
+
+    // Expanded
+    &.expanded {
+      &::after {
+        top: 14px;
+        right: 9px;
+        width: 14px;
+        height: 7px;
+      }
+
+      &.etype-epic {
+        color: var(--color-enchant-epic);
+
+        &::after {
+          background-image: url(/assets/images/icons/arrow_down_purple.svg);
+        }
+      }
+
+      &.etype-major {
+        color: var(--color-enchant-major);
+
+        &::after {
+          background-image: url(/assets/images/icons/arrow_down_blue.svg);
+        }
+      }
+
+      &.etype-minor {
+        color: var(--color-enchant-minor);
+
+        &::after {
+          background-image: url(/assets/images/icons/arrow_down_white.svg);
+        }
+      }
+    }
+  }
+}

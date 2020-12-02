@@ -29,6 +29,17 @@
     &:last-child {
       border-right: 0;
     }
+
+    &:hover {
+      color: var(--color-element-dark-beige);
+      opacity: 0.9;
+    }
+
+    &:hover {
+      .a-checkboxSelect-borderBottom {
+        background: var(--color-element-dark-beige);
+      }
+    }
   }
 
   &-borderBottom {

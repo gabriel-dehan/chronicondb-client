@@ -1,4 +1,4 @@
-import { ItemRarity, ItemCategory } from './Item.types';
+import { ItemRarity, ItemCategory, ItemType } from './Item.types';
 
 export interface Enchant {
   uuid: number;
@@ -62,3 +62,7 @@ export interface ItemEnchantSlots {
   fixedEnchants: SimpleEnchant[];
   enchantSlots?: ItemEnchantSlot[];
 }
+
+export type CraftableEnchantTypes = EnchantType.Epic | EnchantType.Major | EnchantType.Minor;
+export type EnchantPoolType = Record<CraftableEnchantTypes, number[]>;
+export type EnchantsPool = Record<ItemType, EnchantPoolType>

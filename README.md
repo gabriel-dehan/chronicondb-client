@@ -62,6 +62,7 @@ There you go, chronicondb is now up to date.
 - [x] Layout
 - [~] Items image generator
 - [~] Items
+- [ ] React infinite scroller
 - [ ] Responsive minimum (860 -)
 - [ ] Do not display the divider for item content if there is no content at all
 - [ ] Order by REQ LVL

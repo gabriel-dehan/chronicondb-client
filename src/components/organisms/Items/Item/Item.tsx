@@ -5,6 +5,7 @@ import { camelCase } from 'lodash';
 import GameIcon, { GameIconType } from 'components/atoms/GameIcon/GameIcon';
 import AppliedEnchant from 'components/molecules/Items/AppliedEnchant/AppliedEnchant';
 import EnchantSlot from 'components/molecules/Items/EnchantSlot/EnchantSlot';
+import EnchantsPool from 'components/molecules/Items/EnchantsPool/EnchantsPool';
 import ItemSet from 'components/molecules/Items/Set/Set';
 import useEngine from 'hooks/useEngine';
 import { Item as ItemInterface, ItemType } from 'types/Item.types';
@@ -79,7 +80,7 @@ const Item: FunctionComponent<Props> = ({
         )}
       </div>
       <div className="o-item__possibleEnchants">
-        Enchants
+        <EnchantsPool item={item} />
       </div>
     </div>
   );
@@ -90,6 +91,7 @@ const Item: FunctionComponent<Props> = ({
         {itemEnchants.baseEnchants?.map((enchant, index) => (
           <AppliedEnchant
             key={`${item.uuid}-ebase-${index}`}
+            item={item}
             enchant={enchant}
           />
         ))}
@@ -103,6 +105,7 @@ const Item: FunctionComponent<Props> = ({
         {itemEnchants.fixedEnchants?.map((enchant, index) => (
           <AppliedEnchant
             key={`${item.uuid}-fbase-${index}`}
+            item={item}
             enchant={enchant}
           />
         ))}

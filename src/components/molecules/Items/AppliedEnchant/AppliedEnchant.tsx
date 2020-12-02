@@ -4,14 +4,17 @@ import replaceWithJSX from 'react-string-replace';
 import { isString } from 'lodash';
 
 import { SimpleEnchant } from 'types/Enchant.types';
+import { Item } from 'types/Item.types';
 
 import './AppliedEnchant.scss';
 
 interface Props {
+  item: Item
   enchant: SimpleEnchant;
 }
 
 const AppliedEnchant: FunctionComponent<Props> = ({
+  item,
   enchant,
 }) => {
   return (
@@ -26,7 +29,7 @@ const AppliedEnchant: FunctionComponent<Props> = ({
     const replacedRanges = replaceWithJSX(enchant.description, /(AMOUNT)/, (_, i) => {
       return (
         <span
-          key={`tpl-enchant-${enchant.name}-${i}`}
+          key={`tpl-${item.uuid}-enchant-${enchant.name}-${i}`}
           className="m-appliedEnchant__range"
         >
           {renderRange()}
@@ -42,7 +45,7 @@ const AppliedEnchant: FunctionComponent<Props> = ({
           return (
             <a
               href={`/skills?uuid=${skillId}`}
-              key={`tpl-skill-${enchant.name}-${i}`}
+              key={`tpl-${item.uuid}-skill-${skillId}-${i}`}
               className="m-appliedEnchant__skill"
             >
               {skillName}
@@ -52,7 +55,7 @@ const AppliedEnchant: FunctionComponent<Props> = ({
           return (
             <a
               href={`/skills?uuid=${skillId}`}
-              key={`tpl-skill-${enchant.name}-${i}`}
+              key={`tpl-${item.uuid}-skill-${skillId}-${i}`}
               className="m-appliedEnchant__skill unknown"
             >
               Unknown Skill

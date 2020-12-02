@@ -24,7 +24,7 @@ export default class Engine {
   public version!: Version;
   public data?: DataInterface;
 
-  public Items!: EngineItems;
+  public readonly Items!: EngineItems;
   public readonly Enchants!: EngineEnchants;
   // public readonly Skills!: EngineSkills;
 

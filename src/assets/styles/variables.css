@@ -7,7 +7,7 @@
 
   /* = COLORS = */
   /* == BACKGROUND == */
-  --colorbackground-light-brown: #4f4235;
+  --color-background-light-brown: #4f4235;
   --color-background-brown: #50452e;
   --color-background-mid-brown: #1b1917;
   --color-background-dark-brown: #171614;
@@ -20,7 +20,8 @@
   --color-element-white: #DEDEDE;
   --color-element-light-beige: #FFEEDE;
   --color-element-beige: #DECFB0;
-  --color-element-dark-beige: ##8e847b;
+  --color-element-mid-beige: #696255;
+  --color-element-dark-beige: #8e847b;
   --color-element-brown: #50452e;
   --color-element-mid-brown: #332c1d;
   --color-element-dark-brown: #211c15;
@@ -52,5 +53,9 @@
   --color-enchant-minor: #FFEEDE;
   --color-enchant-major: #637793;
   --color-enchant-epic: #8833d0;
+
+  --color-enchant-dim-minor: rgba(222, 207, 176, 0.25);
+  --color-enchant-dim-major: rgba(99, 119, 147, 0.45);
+  --color-enchant-dim-epic: rgba(136, 51, 208, 0.35);
 
 }

@@ -26,6 +26,17 @@
 
     color: var(--color-element-brown);
 
+    &:hover {
+      color: var(--color-element-dark-beige);
+      opacity: 0.9;
+    }
+
+    &:hover {
+      .a-multiselect__option-borderBottom {
+        background: var(--color-element-dark-beige);
+      }
+    }
+
     &-borderBottom {
       position: absolute;
       bottom: 0px;

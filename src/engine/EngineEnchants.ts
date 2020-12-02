@@ -1,18 +1,22 @@
-import { compact, isEmpty } from 'lodash';
+import { compact, isEmpty, reduce } from 'lodash';
 
 import { ENCHANT_SLOTS_BY_RARITY } from 'engine/data/dataMappings';
-// import enchantsPool from 'engine/data/enchantsPool.json';
+import EnchantsPoolData from 'engine/data/enchantsPool.json';
 import { allEnumValues } from 'helpers/typeUtils';
-import { ItemEnchantSlots, SimpleEnchant, EnchantCategory, EnchantType, Enchant } from 'types/Enchant.types';
+import { ItemEnchantSlots, SimpleEnchant, EnchantCategory, EnchantType, Enchant, CraftableEnchantTypes, EnchantsPool, EnchantPoolType } from 'types/Enchant.types';
 // import { EnchantsFilters } from 'types/Filters.types';
-import { ItemRarity, Item } from 'types/Item.types';
+import { ItemRarity, Item, ItemType } from 'types/Item.types';
 
 import Engine, { DataInterface } from './Engine';
+
+type HydratedPoolType = Record<CraftableEnchantTypes, Enchant[]>
+type HydratedEnchantsPool = Record<ItemType, HydratedPoolType>;
 
 export default class EngineEnchants {
   public readonly engine: Engine;
   public categories: EnchantCategory[];
   public types: EnchantType[];
+  private enchantsPool!: HydratedEnchantsPool;
 
   constructor(engine: Engine) {
     this.engine = engine;
@@ -21,11 +25,14 @@ export default class EngineEnchants {
   }
 
   public onDataLoaded() {
-    //
+    this.enchantsPool = this.hydrateEnchantsPool();
+  }
+
+  public getItemEnchantsPool(item: Item): HydratedPoolType | null {
+    return this.enchantsPool[item.type] || null;
   }
 
   public getItemEnchantsSlots(item: Item): ItemEnchantSlots | null {
-    // console.log('item:', item.uuid, item.name);
     if (this.engine.loaded && ![ItemRarity.Mythical].includes(item.rarity)) {
       const enchantSlots = ENCHANT_SLOTS_BY_RARITY[item.rarity];
       const fixedEnchants = this.enchantsToRawEnchants(item.rarity, item.fixedEnchants);
@@ -60,10 +67,10 @@ export default class EngineEnchants {
 
   /* Private utils */
   private enchantsToRawEnchants(rarity: ItemRarity, enchantsIds: number[]): SimpleEnchant[] {
-    const { enchants, skills } = this.data;
+    const { skills } = this.data;
 
     return compact(
-      enchantsIds.map(enchantId => enchants.find(e => e.uuid === enchantId))
+      enchantsIds.map(enchantId => this.enchants.find(e => e.uuid === enchantId))
     ).map((enchant) => {
       const ranges = enchant.ranges[rarity];
 
@@ -79,5 +86,19 @@ export default class EngineEnchants {
         }, {}),
       };
     });
+  }
+
+  private hydrateEnchantsPool(): HydratedEnchantsPool {
+    const enchantsPool = EnchantsPoolData as unknown as EnchantsPool;
+
+    // @ts-ignore
+    return reduce(enchantsPool, (hydratedPool: HydratedEnchantsPool, poolByEnchantType: EnchantPoolType, itemType: ItemType) => {
+      hydratedPool[itemType] = {
+        [EnchantType.Epic]: compact(poolByEnchantType[EnchantType.Epic].map(uuid => this.enchants.find(e => e.uuid === uuid))),
+        [EnchantType.Major]: compact(poolByEnchantType[EnchantType.Major].map(uuid => this.enchants.find(e => e.uuid === uuid))),
+        [EnchantType.Minor]: compact(poolByEnchantType[EnchantType.Minor].map(uuid => this.enchants.find(e => e.uuid === uuid))),
+      };
+      return hydratedPool;
+    }, {});
   }
 }
