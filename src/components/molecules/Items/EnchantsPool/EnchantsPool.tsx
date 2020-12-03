@@ -24,11 +24,6 @@ const EnchantsPool: FunctionComponent<Props> = ({
   ) as CraftableEnchantTypes[];
   const [currentEnchant, setCurrentEnchant] = useState<Enchant | null>(null);
 
-  // const [currentType, setCurrentType] = useState<CraftableEnchantTypes>(EnchantType.Epic);
-  // const defaultEnchant = enchantsPool ? (enchantsPool[currentType][0] || null) : null;
-
-  console.log(availableEnchantTypes);
-
   return (
     <div className="m-enchantsPool">
       {enchantsPool ? (
@@ -69,6 +64,7 @@ const EnchantsPool: FunctionComponent<Props> = ({
 
     return enchantsPool[type].map((enchant) => {
       const isSelected = currentEnchant?.uuid === enchant.uuid;
+      const rolls = enchant.ranges[item.rarity];
 
       return (
         <div
@@ -79,6 +75,31 @@ const EnchantsPool: FunctionComponent<Props> = ({
           <span className="m-enchantsPool__enchant-name">
             {enchant.name}
           </span>
+          {isSelected && (
+            <div className="m-enchantsPool__enchant__data">
+              <strong className="m-enchantsPool__enchant__data-description">
+                {enchant.description}
+              </strong>
+              <ul className="m-enchantsPool__enchant__rolls">
+                <li className="m-enchantsPool__enchant__roll">
+                  <span className="m-enchantsPool__enchant__roll-header">
+                    Roll range
+                  </span>
+                  <em className="m-enchantsPool__enchant__roll-roll">
+                    {rolls.minimum} - {rolls.maximum}
+                  </em>
+                </li>
+                <li className="m-enchantsPool__enchant__roll">
+                  <span className="m-enchantsPool__enchant__roll-header">
+                    Augment caps
+                  </span>
+                  <em className="m-enchantsPool__enchant__roll-roll">
+                    {rolls.cap} - {rolls.greaterCap}
+                  </em>
+                </li>
+              </ul>
+            </div>
+          )}
         </div>
       );
     });
