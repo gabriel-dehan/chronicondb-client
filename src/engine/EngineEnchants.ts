@@ -3,7 +3,16 @@ import { compact, isEmpty, reduce } from 'lodash';
 import { ENCHANT_SLOTS_BY_RARITY } from 'engine/data/dataMappings';
 import EnchantsPoolData from 'engine/data/enchantsPool.json';
 import { allEnumValues } from 'helpers/typeUtils';
-import { ItemEnchantSlots, SimpleEnchant, EnchantCategory, EnchantType, Enchant, CraftableEnchantTypes, EnchantsPool, EnchantPoolType } from 'types/Enchant.types';
+import {
+  ItemEnchantSlots,
+  SimpleEnchant,
+  EnchantType,
+  Enchant,
+  EnchantCategory,
+  CraftableEnchantTypes,
+  EnchantsPool,
+  EnchantPoolType,
+} from 'types/Enchant.types';
 // import { EnchantsFilters } from 'types/Filters.types';
 import { ItemRarity, Item, ItemType } from 'types/Item.types';
 
@@ -30,6 +39,10 @@ export default class EngineEnchants {
 
   public getTypeEnchantsPool(type: ItemType): HydratedPoolType | null {
     return this.enchantsPool[type] || null;
+  }
+
+  public getRunesEnchantsPool(): Enchant[] {
+    return this.enchants.filter(enchant => enchant.category === EnchantCategory.Rune);
   }
 
   public getItemEnchantsSlots(item: Item): ItemEnchantSlots | null {
@@ -75,6 +88,7 @@ export default class EngineEnchants {
       const ranges = enchant.ranges[rarity];
 
       return {
+        uuid: enchant.uuid,
         name: enchant.name,
         description: enchant.description,
         min: ranges.minimum,

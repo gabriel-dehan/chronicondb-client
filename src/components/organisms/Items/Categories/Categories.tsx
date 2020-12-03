@@ -69,7 +69,7 @@ const Categories: FunctionComponent = () => {
               className="o-categories__itemTypeName"
               onClick={() => onItemTypeSelect(category, itemType)}
             >
-              {itemType}
+              {itemType === ItemType.Rune ? 'Rune' : itemType}
             </span>
           </li>
         ))}

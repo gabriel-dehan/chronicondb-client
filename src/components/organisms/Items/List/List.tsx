@@ -2,8 +2,9 @@ import React, { FunctionComponent } from 'react';
 
 import EnchantsPool from 'components/molecules/Items/EnchantsPool/EnchantsPool';
 import Header from 'components/molecules/Items/Header/Header';
+import RunesEnchantsPool from 'components/molecules/Items/RunesEnchantsPool/RunesEnchantsPool';
 import Item from 'components/organisms/Items/Item/Item';
-import { Item as ItemInterface } from 'types/Item.types';
+import { Item as ItemInterface, ItemType } from 'types/Item.types';
 
 import './List.scss';
 
@@ -12,6 +13,8 @@ interface Props {
 }
 
 const List: FunctionComponent<Props> = ({ items }) => {
+  const currentType = items[0].type;
+
   return (
     <div className="o-itemsList">
       {items.length > 0 ? (
@@ -24,7 +27,11 @@ const List: FunctionComponent<Props> = ({ items }) => {
               ))}
             </div>
             <div className="o-itemsList__possibleEnchants">
-              <EnchantsPool type={items[0].type} />
+              {currentType === ItemType.Rune ? (
+                <RunesEnchantsPool />
+              ) : (
+                <EnchantsPool type={currentType} />
+              )}
             </div>
           </div>
         </>

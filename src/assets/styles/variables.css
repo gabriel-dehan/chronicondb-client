@@ -54,9 +54,11 @@
   --color-enchant-minor: #FFEEDE;
   --color-enchant-major: #637793;
   --color-enchant-epic: #8833d0;
+  --color-enchant-legendary:#cd7f3c;
 
   --color-enchant-dim-minor: rgba(222, 207, 176, 0.25);
   --color-enchant-dim-major: rgba(99, 119, 147, 0.45);
   --color-enchant-dim-epic: rgba(136, 51, 208, 0.35);
+  --color-enchant-dim-legendary: rgba(205, 127, 60, 0.35);
 
 }

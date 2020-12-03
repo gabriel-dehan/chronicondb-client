@@ -5,6 +5,7 @@ import { Skill, SkillTree } from 'types/Skill.types';
 
 import EngineEnchants from './EngineEnchants';
 import EngineItems from './EngineItems';
+import EngineSkills from './EngineSkills';
 
 type Version = string;
 
@@ -26,12 +27,13 @@ export default class Engine {
 
   public readonly Items!: EngineItems;
   public readonly Enchants!: EngineEnchants;
-  // public readonly Skills!: EngineSkills;
+  public readonly Skills!: EngineSkills;
 
   constructor(version: Version) {
     this.version = version;
     this.Items = new EngineItems(this);
     this.Enchants = new EngineEnchants(this);
+    this.Skills = new EngineSkills(this);
   }
 
   public get loaded(): boolean {

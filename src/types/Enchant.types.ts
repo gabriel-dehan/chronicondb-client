@@ -44,6 +44,7 @@ export enum EnchantCategory {
 }
 
 export interface SimpleEnchant {
+  uuid: number;
   name: string;
   description: string;
   min: number;
