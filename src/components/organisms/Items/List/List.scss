@@ -1,5 +1,19 @@
 .o-itemsList {
+  position: relative;
   width: 100%;
+
+  &__container {
+    display: flex;
+  }
+
+  &__items {
+    width: 70%;
+  }
+
+  &__possibleEnchants {
+    width: 30%;
+    background-color: var(--color-background-dark-brown);
+  }
 
   .o-item__container {
     background: var(--color-background-darkest-brown);

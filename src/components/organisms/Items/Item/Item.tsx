@@ -5,7 +5,6 @@ import { camelCase } from 'lodash';
 import GameIcon, { GameIconType } from 'components/atoms/GameIcon/GameIcon';
 import AppliedEnchant from 'components/molecules/Items/AppliedEnchant/AppliedEnchant';
 import EnchantSlot from 'components/molecules/Items/EnchantSlot/EnchantSlot';
-import EnchantsPool from 'components/molecules/Items/EnchantsPool/EnchantsPool';
 import ItemSet from 'components/molecules/Items/Set/Set';
 import useEngine from 'hooks/useEngine';
 import { Item as ItemInterface, ItemType } from 'types/Item.types';
@@ -78,9 +77,6 @@ const Item: FunctionComponent<Props> = ({
             <ItemSet set={itemSetData} />
           </div>
         )}
-      </div>
-      <div className="o-item__possibleEnchants">
-        <EnchantsPool item={item} />
       </div>
     </div>
   );

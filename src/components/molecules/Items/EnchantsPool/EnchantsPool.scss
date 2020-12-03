@@ -11,8 +11,6 @@
     font-family: 'Nunito Sans';
     font-size: var(--font-normal);
     font-weight: 600;
-    padding: 9px 14px;
-    cursor: pointer;
 
     &:nth-child(2n) {
       background-color: #121110;
@@ -27,6 +25,9 @@
     &-name {
       font-family: 'Philosopher';
       font-size: var(--font-big);
+      padding: 9px 14px;
+      display: block;
+      cursor: pointer;
     }
 
     // Collapsed
@@ -103,18 +104,30 @@
 
     &__data {
       color: var(--color-element-beige);
-      margin-top: 8px;
-      border-top: 1px solid var(--color-element-mid-brown);
-      padding: 6px 4px 4px 4px;
+      margin-top: 10px;
+      padding: 0px 18px 14px 18px;
 
       &-description {
         color: var(--color-element-light-orange);
         font-weight: normal;
+        font-style: italic;
+
+        &-amount {
+          color: var(--color-element-light-beige);
+          font-weight: bold;
+        }
       }
     }
 
     &__rolls {
-      margin-top: 8px;
+      margin-top: 10px;
+
+      &-rarity {
+        display: block;
+        border-bottom: 1px solid var(--color-element-mid-brown);
+        padding: 4px 0;
+        margin-bottom: 10px;
+      }
     }
 
     &__roll {

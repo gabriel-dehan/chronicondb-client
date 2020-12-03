@@ -28,8 +28,8 @@ export default class EngineEnchants {
     this.enchantsPool = this.hydrateEnchantsPool();
   }
 
-  public getItemEnchantsPool(item: Item): HydratedPoolType | null {
-    return this.enchantsPool[item.type] || null;
+  public getTypeEnchantsPool(type: ItemType): HydratedPoolType | null {
+    return this.enchantsPool[type] || null;
   }
 
   public getItemEnchantsSlots(item: Item): ItemEnchantSlots | null {

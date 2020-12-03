@@ -23,6 +23,7 @@ const AppliedEnchant: FunctionComponent<Props> = ({
     </li>
   );
 
+  // TODO: Refactor with EnchantsPool
   function descriptionToTemplate() {
     let finalNodes = null;
 

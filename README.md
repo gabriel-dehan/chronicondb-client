@@ -56,6 +56,7 @@ There you go, chronicondb is now up to date.
 
 ## Roadmap
 
+- [ ] TODOS
 - [x] Handle Sets in rarity filter
 - [x] Fix header overflow
 - [x] Auto add version to versions file

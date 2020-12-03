@@ -5,7 +5,7 @@
 }
 
 .o-item {
-  width: 70%;
+  width: 100%;
   padding: 18px 18px 0 18px;
 
   &__header {
@@ -101,9 +101,4 @@
     margin: 0 -18px;
     padding: 0px 18px 0px 68px;
   }
-}
-
-.o-item__possibleEnchants {
-  width: 30%;
-  background-color: var(--color-background-dark-brown);
 }

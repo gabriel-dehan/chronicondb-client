@@ -24,6 +24,10 @@ const EnchantsPool: FunctionComponent<Props> = ({
 }) => {
   const [currentTab, setCurrentTab] = useState(defaultItem || 0);
 
+  React.useEffect(() => {
+    setCurrentTab(defaultItem || 0);
+  }, [defaultItem]);
+
   return (
     <div className={`m-tabs ${className ? className : ''}`}>
       <ul className="m-tabs__navigation">

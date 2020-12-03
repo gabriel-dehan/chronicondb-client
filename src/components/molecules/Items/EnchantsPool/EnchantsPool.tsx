@@ -1,23 +1,24 @@
 import React, { FunctionComponent, useState } from 'react';
+import replaceWithJSX from 'react-string-replace';
 
-import { pickBy } from 'lodash';
+import { pickBy, map, camelCase, isString } from 'lodash';
 
 import Tabs from 'components/molecules/Tabs/Tabs';
 import useEngine from 'hooks/useEngine';
 import { CraftableEnchantTypes, EnchantType, Enchant } from 'types/Enchant.types';
-import { Item } from 'types/Item.types';
+import { ItemType, ItemRarity } from 'types/Item.types';
 
 import './EnchantsPool.scss';
 
 interface Props {
-  item: Item,
+  type: ItemType,
 }
 
 const EnchantsPool: FunctionComponent<Props> = ({
-  item,
+  type,
 }) => {
   const Engine = useEngine();
-  const enchantsPool = Engine.Enchants.getItemEnchantsPool(item);
+  const enchantsPool = Engine.Enchants.getTypeEnchantsPool(type);
   const availableEnchantTypes = (enchantsPool ?
     Object.keys(pickBy(enchantsPool, pool => pool.length > 0))
     : []
@@ -29,7 +30,6 @@ const EnchantsPool: FunctionComponent<Props> = ({
       {enchantsPool ? (
         <div className="m-enchantsPool__content">
           <Tabs
-            defaultItem={Math.floor((availableEnchantTypes.length - 1) / 2)}
             navItems={availableEnchantTypes.map(enchantType => ({
               label: enchantType,
               color: `var(--color-enchant-${enchantType.toLowerCase()})`,
@@ -41,9 +41,9 @@ const EnchantsPool: FunctionComponent<Props> = ({
           >
             {availableEnchantTypes.map((enchantType) => {
               return (
-                <>
+                <div key={`pool-${enchantType}`}>
                   {renderPoolForType(enchantType)}
-                </>
+                </div>
               );
             })}
           </Tabs>
@@ -51,7 +51,7 @@ const EnchantsPool: FunctionComponent<Props> = ({
         </div>
       ) : (
         <div className="m-enchantsPool__none">
-          Not enchantable
+          {type}s are not enchantable
         </div>
       )}
     </div>
@@ -64,45 +64,84 @@ const EnchantsPool: FunctionComponent<Props> = ({
 
     return enchantsPool[type].map((enchant) => {
       const isSelected = currentEnchant?.uuid === enchant.uuid;
-      const rolls = enchant.ranges[item.rarity];
 
       return (
         <div
-          key={`epool-${item.uuid}-${enchant.uuid}`}
+          key={`epool-${type}-${enchant.uuid}`}
           className={`m-enchantsPool__enchant etype-${type.toLowerCase()} ${isSelected ? 'expanded' : ''}`}
-          onClick={() => setCurrentEnchant(isSelected ? null : enchant)}
         >
-          <span className="m-enchantsPool__enchant-name">
+          <span
+            className="m-enchantsPool__enchant-name"
+            onClick={() => setCurrentEnchant(isSelected ? null : enchant)}
+          >
             {enchant.name}
           </span>
           {isSelected && (
             <div className="m-enchantsPool__enchant__data">
               <strong className="m-enchantsPool__enchant__data-description">
-                {enchant.description}
+                {renderDescription(enchant)}
               </strong>
-              <ul className="m-enchantsPool__enchant__rolls">
-                <li className="m-enchantsPool__enchant__roll">
-                  <span className="m-enchantsPool__enchant__roll-header">
+              {map(enchant.ranges, (rolls, rarity) => {
+                if (rarity === ItemRarity.Mythical) {
+                  return null;
+                }
+
+                return (
+                  <div key={`epool-rolls-${rarity}`} className="m-enchantsPool__enchant__rolls">
+                    <strong
+                      className="m-enchantsPool__enchant__rolls-rarity"
+                      style={{ color: `var(--color-item-${camelCase(rarity)})` }}
+                    >
+                      {rarity}
+                    </strong>
+                    <ul>
+                      <li className="m-enchantsPool__enchant__roll">
+                        <span className="m-enchantsPool__enchant__roll-header">
                     Roll range
-                  </span>
-                  <em className="m-enchantsPool__enchant__roll-roll">
-                    {rolls.minimum} - {rolls.maximum}
-                  </em>
-                </li>
-                <li className="m-enchantsPool__enchant__roll">
-                  <span className="m-enchantsPool__enchant__roll-header">
+                        </span>
+                        <em className="m-enchantsPool__enchant__roll-roll">
+                          {rolls.minimum} - {rolls.maximum}
+                        </em>
+                      </li>
+                      <li className="m-enchantsPool__enchant__roll">
+                        <span className="m-enchantsPool__enchant__roll-header">
                     Augment caps
-                  </span>
-                  <em className="m-enchantsPool__enchant__roll-roll">
-                    {rolls.cap} - {rolls.greaterCap}
-                  </em>
-                </li>
-              </ul>
+                        </span>
+                        <em className="m-enchantsPool__enchant__roll-roll">
+                          {rolls.cap} - {rolls.greaterCap}
+                        </em>
+                      </li>
+                    </ul>
+                  </div>
+                );
+              }).reverse()}
+
             </div>
           )}
         </div>
       );
     });
+  }
+
+  // TODO: Refactor with AppliedEnchant
+  function renderDescription(enchant: Enchant) {
+    const replacedRanges = replaceWithJSX(enchant.description, /(AMOUNT)/, (_, i) => {
+      return (
+        <span
+          key={`tpl-${enchant.uuid}-enchant-${enchant.name}-${i}`}
+          className="m-enchantsPool__enchant__data-description-amount"
+        >
+          X
+        </span>
+      );
+    });
+
+    // Just add a `-` at the beginning of the string if there is no `+`
+    if (replacedRanges && isString(replacedRanges[0]) && !replacedRanges[0].match(/^\+/)) {
+      replacedRanges[0] = `- ${replacedRanges[0]}`;
+    }
+
+    return replacedRanges;
   }
 };
 
