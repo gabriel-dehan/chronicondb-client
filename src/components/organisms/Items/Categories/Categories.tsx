@@ -33,7 +33,7 @@ const Categories: FunctionComponent = () => {
         onHandleClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
         onClose={() => setIsMobileMenuOpen(false)}
         className={`o-categories__menuMobile category-${selectedCategory.toLowerCase()}`}
-        width="50vw"
+        width="60vw"
         placement={'left'}
       >
         {renderCategoryMenu()}

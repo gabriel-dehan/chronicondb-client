@@ -31,6 +31,12 @@
 
   }
 
+  @include mediaUpToSmallTablet {
+    .o-filters__search {
+      margin-left: 35px;
+    }
+  }
+
   @include mediaUpToTablet {
     .o-filters__raritySelect {
       display: none;

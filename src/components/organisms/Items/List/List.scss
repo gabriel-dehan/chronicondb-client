@@ -53,10 +53,14 @@
   }
 
   &__enchantsPoolMobile {
+    z-index: 9998;
+
     .drawer-handle {
       opacity: 0.8;
-      top: 130px;
-      left: -48px !important;
+      top: 185px;
+      top: 105px;
+
+      right: -48px !important;
       width: 50px;
       height: 48px;
       background-color: var(--color-background-mid-brown);

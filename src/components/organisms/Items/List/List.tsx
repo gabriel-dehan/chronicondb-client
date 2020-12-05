@@ -47,7 +47,7 @@ const List: FunctionComponent<Props> = ({ items }) => {
         <Drawer
           className={`o-itemsList__enchantsPoolMobile`}
           width="80vw"
-          placement={'right'}
+          placement={'left'}
         >
           <div className="o-itemsList__possibleEnchants">
             <div className="o-itemsList__title">
