@@ -7,12 +7,14 @@ import Icon, { IconName } from 'components/atoms/Icon/Icon';
 import './Search.scss';
 
 interface SearchProps {
+  className?: string;
   placeholder?: string;
   value: string;
   onChange: (value?: string) => void;
 }
 
 const Search: FunctionComponent<SearchProps> = ({
+  className,
   placeholder,
   value,
   onChange,
@@ -24,7 +26,7 @@ const Search: FunctionComponent<SearchProps> = ({
   }, 500), []);
 
   return (
-    <div className="a-search">
+    <div className={`a-search ${className ? className : ''}`}>
       <input
         className="a-search__input"
         placeholder={placeholder}

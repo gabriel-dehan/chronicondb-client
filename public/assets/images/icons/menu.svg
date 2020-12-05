@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="360px" viewBox="0 0 512 360" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>menu</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="menu" fill="#BEB298" fill-rule="nonzero">
+            <path d="M492,160 L20,160 C8.954,160 0,168.954 0,180 C0,191.046 8.954,200 20,200 L492,200 C503.046,200 512,191.046 512,180 C512,168.954 503.046,160 492,160 Z" id="Path"></path>
+            <path d="M492,0 L20,0 C8.954,0 0,8.954 0,20 C0,31.046 8.954,40 20,40 L492,40 C503.046,40 512,31.046 512,20 C512,8.954 503.046,0 492,0 Z" id="Path"></path>
+            <path d="M492,320 L20,320 C8.954,320 0,328.954 0,340 C0,351.046 8.954,360 20,360 L492,360 C503.046,360 512,351.046 512,340 C512,328.954 503.046,320 492,320 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>

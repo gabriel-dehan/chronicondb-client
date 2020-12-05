@@ -1,14 +1,17 @@
 
-import { configure } from 'mobx';
-import App from 'pages/App';
 import React from 'react';
 import ReactDOM from 'react-dom';
+
+import { configure } from 'mobx';
+
+import App from 'pages/App';
 
 import reportWebVitals from './reportWebVitals';
 
 import 'assets/styles/fonts.css';
 import 'assets/styles/variables.css';
 import 'assets/styles/global.css';
+import 'rc-drawer/assets/index.css';
 
 // Mobx : all state that is observed somewhere needs to be changed through actions
 configure({ enforceActions: 'observed' });

@@ -12,7 +12,6 @@ const Header: FunctionComponent = () => {
       <div className="m-header__enchants">
         <h3 className="m-header__thead">Possible Enchants</h3>
       </div>
-
     </div>
   );
 };

@@ -1,3 +1,5 @@
+@import "responsive.scss";
+
 .m-header {
   display: flex;
   justify-content: space-between;
@@ -10,10 +12,18 @@
     margin: 0 18px;
 
     width: 70%;
+
+    @include mediaUpToSmallTablet {
+      width: 100%;
+    }
   }
 
   &__enchants {
     width: 30%;
+
+    @include mediaUpToSmallTablet {
+      display: none;
+    }
   }
 
   &__thead {
@@ -26,6 +36,10 @@
     &.req {
       width: 90px;
       text-align: left;
+
+      @include mediaMobile {
+        width: initial;
+      }
     }
   }
 }

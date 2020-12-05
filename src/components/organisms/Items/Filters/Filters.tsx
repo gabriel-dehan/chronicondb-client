@@ -32,11 +32,13 @@ const Filters: FunctionComponent = () => {
   return (
     <div className="o-filters">
       <Search
+        className="o-filters__search"
         placeholder="Search"
         value={filters.search || ''}
         onChange={onSearchChange}
       />
       <Multiselect
+        className="o-filters__raritySelect"
         defaultValues={filters.rarities ? filters.rarities : DEFAULT_RARITIES_FILTERS}
         options={raritiesOptions}
         onChange={onRaritiesSelect}
@@ -56,7 +58,6 @@ const Filters: FunctionComponent = () => {
         options={classOptions}
         onChange={onClassSelect}
       />
-
     </div>
   );
 

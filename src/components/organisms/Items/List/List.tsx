@@ -4,6 +4,7 @@ import EnchantsPool from 'components/molecules/Items/EnchantsPool/EnchantsPool';
 import Header from 'components/molecules/Items/Header/Header';
 import RunesEnchantsPool from 'components/molecules/Items/RunesEnchantsPool/RunesEnchantsPool';
 import Item from 'components/organisms/Items/Item/Item';
+import useResponsive from 'hooks/useResponsive';
 import { Item as ItemInterface, ItemType } from 'types/Item.types';
 
 import './List.scss';
@@ -13,7 +14,8 @@ interface Props {
 }
 
 const List: FunctionComponent<Props> = ({ items }) => {
-  const currentType = items[0].type;
+  const { isUpToTablet } = useResponsive();
+  const currentType = items[0]?.type;
 
   return (
     <div className="o-itemsList">
@@ -26,13 +28,7 @@ const List: FunctionComponent<Props> = ({ items }) => {
                 <Item key={`item-${item.uuid}`} item={item} />
               ))}
             </div>
-            <div className="o-itemsList__possibleEnchants">
-              {currentType === ItemType.Rune ? (
-                <RunesEnchantsPool />
-              ) : (
-                <EnchantsPool type={currentType} />
-              )}
-            </div>
+            {renderEnchantsPool()}
           </div>
         </>
       ) : (
@@ -42,6 +38,22 @@ const List: FunctionComponent<Props> = ({ items }) => {
       )}
     </div>
   );
+
+  function renderEnchantsPool() {
+    if (isUpToTablet) {
+      return null;
+    }
+
+    return (
+      <div className="o-itemsList__possibleEnchants">
+        {currentType === ItemType.Rune ? (
+          <RunesEnchantsPool />
+        ) : (
+          <EnchantsPool type={currentType} />
+        )}
+      </div>
+    );
+  }
 
 };
 

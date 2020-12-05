@@ -1,8 +1,15 @@
+@import "responsive.scss";
+
 .o-categories {
   background-image: url('../../../../assets/images/textures/sidebar.png');
   width: 240px;
   color: var(--color-element-brown);
   border-right: 1px solid var(--color-element-transparent-blue);
+
+  @include mediaUpToSmallTablet {
+    width: 100%;
+    height: 100%;
+  }
 
   &__category {
     cursor: pointer;
@@ -98,6 +105,70 @@
       .o-categories__itemTypeName {
         color: var(--color-element-light-beige);
       }
+    }
+  }
+
+  &__menuMobile {
+    .drawer-handle {
+      opacity: 0.8;
+      top: 130px;
+      right: -48px !important;
+      width: 50px;
+      height: 48px;
+      background-color: var(--color-background-mid-brown);
+      border: 1px solid var(--color-element-mid-beige);
+
+      &::after {
+        content: '';
+        display: block;
+        background-image: url(/assets/images/game/items/categories/helmet.png);
+        background-repeat: no-repeat;
+        background-position: 100%;
+        background-size: 100%;
+        width: 68%;
+        height: 68%;
+      }
+
+      .drawer-handle-icon {
+        display: none
+      }
+    }
+
+    &.category-helmet .drawer-handle::after {
+      background-image: url(/assets/images/game/items/categories/helmet.png);
+    }
+    &.category-armor .drawer-handle::after {
+      background-image: url(/assets/images/game/items/categories/armor.png);
+    }
+    &.category-boots .drawer-handle::after {
+      background-image: url(/assets/images/game/items/categories/boots.png);
+    }
+    &.category-weapon .drawer-handle::after {
+      background-image: url(/assets/images/game/items/categories/weapon.png);
+    }
+    &.category-offhand .drawer-handle::after {
+      background-image: url(/assets/images/game/items/categories/offhand.png);
+    }
+    &.category-ring .drawer-handle::after {
+      background-image: url(/assets/images/game/items/categories/ring.png);
+    }
+    &.category-amulet .drawer-handle::after {
+      background-image: url(/assets/images/game/items/categories/amulet.png);
+    }
+    &.category-accessory .drawer-handle::after {
+      background-image: url(/assets/images/game/items/categories/accessory.png);
+    }
+    &.category-consumables .drawer-handle::after {
+      background-image: url(/assets/images/game/items/categories/consumables.png);
+    }
+    &.category-gem .drawer-handle::after {
+      background-image: url(/assets/images/game/items/categories/gem.png);
+    }
+    &.category-misc .drawer-handle::after {
+      background-image: url(/assets/images/game/items/categories/misc.png);
+    }
+    &.category-craft .drawer-handle::after {
+      background-image: url(/assets/images/game/items/categories/craft.png);
     }
   }
 }

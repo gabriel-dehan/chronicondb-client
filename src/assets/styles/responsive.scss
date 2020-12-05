@@ -1,0 +1,14 @@
+@mixin mediaMobile {
+  @media (max-width: 480px) { @content; }
+}
+@mixin mediaUpToSmallTablet {
+  @media (max-width: 860px) { @content; }
+}
+
+@mixin mediaUpToTablet {
+  @media (max-width: 960px) { @content; }
+}
+
+@mixin mediaUpToLaptop {
+  @media (max-width: 1024px) { @content; }
+}

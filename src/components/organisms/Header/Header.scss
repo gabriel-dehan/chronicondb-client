@@ -1,3 +1,5 @@
+@import "responsive.scss";
+
 .o-header {
   display: flex;
   justify-content: space-between;
@@ -13,13 +15,22 @@
     display: inline-block;
     color: var(--color-element-beige);
     font-family: Philosopher;
-    font-size: 28px;
+    font-size: var(--font-title);
+
+    @include mediaUpToTablet {
+      font-size: 22px;
+    }
   }
 
   &__left {
     height: 100%;
     display: flex;
     align-items: center;
+  }
+
+  &__right {
+    display: flex;
+    cursor: pointer;
   }
 
   &__main-menu {
@@ -133,6 +144,50 @@
         color: var(--color-element-beige);
         font-family: 'Kufam';
         font-size: var(--font-normal);
+      }
+    }
+  }
+
+  &__menuMobile {
+    &-items {
+      list-style: none;
+      height: 100%;
+      background: var(--color-background-black);
+      padding: 24px 36px;
+      font-family: 'Kufam';
+      text-transform: capitalize;
+    }
+
+    &-item {
+      padding: 8px 0;
+
+      a {
+        color: var(--color-element-light-beige);
+        text-decoration: none;
+        border-bottom: 2px solid var(--color-element-brown);
+
+        &:hover {
+          color: #fff7f0;
+          border-bottom: 2px solid var(--color-element-light-orange);
+        }
+      }
+
+      &.current {
+        padding-bottom: 12px;
+        font-weight: 500;
+
+        a {
+          border-bottom: 2px solid var(--color-element-light-orange);
+        }
+      }
+
+      &.patch {
+        margin-top: 12px;
+        max-width: 130px;
+
+        .a-dropdown__trigger {
+          padding: 0;
+        }
       }
     }
   }

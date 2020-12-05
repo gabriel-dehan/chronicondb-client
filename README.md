@@ -54,6 +54,12 @@ This generates JSON files for items, skills and enchants in the `engine/data/VER
 
 There you go, chronicondb is now up to date.
 
+## Developers
+
+### Notes
+
+- Mobile was not planned at first so the CSS is not mobile first. Not the cleanest but 🤷‍♀️
+
 ## Roadmap
 
 - [ ] TODOS
@@ -61,15 +67,16 @@ There you go, chronicondb is now up to date.
 - [x] Fix header overflow
 - [x] Auto add version to versions file
 - [x] Layout
+- [x] Runes possible enchants
+- [x] Items
+- [x] Responsiveness
 - [~] Items image generator
-- [~] Items
+- [ ] Item page and permalink
 - [ ] React infinite scroller
-- [ ] Responsive minimum (860 -)
 - [ ] Do not display the divider for item content if there is no content at all
 - [ ] Order by REQ LVL
 - [ ] Skill links react-router
 - [ ] Set items links react-router
-- [ ] Runes possible enchants
 - [ ] Enchants
 - [~] Enchants Search Index (item types ?)
 - [ ] Skills

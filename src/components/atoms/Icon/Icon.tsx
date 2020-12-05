@@ -12,7 +12,8 @@ export enum IconName {
   ArrowUpBlue = 'arrow_up_blue',
   Copy = 'copy',
   Link = 'link',
-  Search = 'search'
+  Search = 'search',
+  Menu = 'menu'
 }
 
 const SVG_PATH = 'assets/images/icons';

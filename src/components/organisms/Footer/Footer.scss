@@ -1,3 +1,5 @@
+@import "responsive.scss";
+
 .o-footer {
   background-color: var(--color-background-black);
   border-top: 1px solid var(--color-element-darker-brown);
@@ -16,5 +18,18 @@
     display: inline-block;
     padding: 0 1em;
     margin-top: -1px;
+
+    @include mediaMobile {
+      display: none;
+    }
+  }
+
+  @include mediaMobile {
+    .o-footer-item {
+      &.made-with,
+      &.source-code {
+        display: none;
+      }
+    }
   }
 }

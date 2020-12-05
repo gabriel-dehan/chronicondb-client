@@ -11,12 +11,14 @@ export interface MultiselectOption {
 }
 
 export interface MultiselectProps {
+  className?: string;
   defaultValues: string[];
   options: MultiselectOption[];
   onChange: (values: string[]) => void;
 }
 
 const Multiselect: FunctionComponent<MultiselectProps> = ({
+  className,
   defaultValues,
   options,
   onChange,
@@ -24,7 +26,7 @@ const Multiselect: FunctionComponent<MultiselectProps> = ({
   const [selectedOptions, setSelectedOptions] = useState<string[]>(defaultValues);
 
   return (
-    <div className="a-multiselect">
+    <div className={`a-multiselect ${className ? className : ''}`}>
       {options.map((option) => {
         const isSelected = selectedOptions.includes(option.value);
         const optionStyles = isSelected ? {
