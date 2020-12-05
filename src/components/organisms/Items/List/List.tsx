@@ -1,5 +1,7 @@
 import React, { FunctionComponent } from 'react';
 
+import Drawer from 'rc-drawer';
+
 import EnchantsPool from 'components/molecules/Items/EnchantsPool/EnchantsPool';
 import Header from 'components/molecules/Items/Header/Header';
 import RunesEnchantsPool from 'components/molecules/Items/RunesEnchantsPool/RunesEnchantsPool';
@@ -41,7 +43,24 @@ const List: FunctionComponent<Props> = ({ items }) => {
 
   function renderEnchantsPool() {
     if (isUpToTablet) {
-      return null;
+      return (
+        <Drawer
+          className={`o-itemsList__enchantsPoolMobile`}
+          width="80vw"
+          placement={'right'}
+        >
+          <div className="o-itemsList__possibleEnchants">
+            <div className="o-itemsList__title">
+            Possible enchants
+            </div>
+            {currentType === ItemType.Rune ? (
+              <RunesEnchantsPool />
+            ) : (
+              <EnchantsPool type={currentType} />
+            )}
+          </div>
+        </Drawer>
+      );
     }
 
     return (

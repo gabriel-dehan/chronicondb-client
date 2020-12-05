@@ -37,7 +37,7 @@
       width: 90px;
       text-align: left;
 
-      @include mediaMobile {
+      @include mediaUpToSmallTablet {
         width: initial;
       }
     }

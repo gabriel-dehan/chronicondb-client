@@ -1,4 +1,12 @@
+@import "responsive.scss";
+
 .m-enchantsPool {
+  background-color: var(--color-background-dark-brown);
+
+  @include mediaUpToSmallTablet {
+    padding-bottom: 50px;
+  }
+
   &__none {
     text-align: center;
     padding-top: 1em;

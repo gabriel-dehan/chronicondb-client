@@ -28,7 +28,7 @@
       flex-direction: column;
       width: 80px;
 
-      @include mediaMobile {
+      @include mediaUpToSmallTablet {
         width: initial;
         text-align: right;
       }
