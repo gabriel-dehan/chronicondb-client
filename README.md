@@ -63,24 +63,26 @@ There you go, chronicondb is now up to date.
 ## Roadmap
 
 - [ ] TODOS
-- [x] Handle Sets in rarity filter
-- [x] Fix header overflow
-- [x] Auto add version to versions file
+- [x] Parsing
+  - [x] Auto add version to versions file
 - [x] Layout
-- [x] Runes possible enchants
+  - [x] Fix header overflow
+  - [x] Responsiveness
 - [x] Items
-- [x] Responsiveness
-- [~] Items image generator
-- [ ] Item page and permalink
-- [ ] React infinite scroller
-- [ ] Do not display the divider for item content if there is no content at all
-- [ ] Order by REQ LVL
+  - [x] Handle Sets in rarity filter
+  - [x] Runes possible enchants
+  - [~] Items image generator
+  - [?] React infinite scroller
+  - [ ] Item page
+  - [ ] Permalink
+  - [ ] Do not display the divider for item content if there is no content at all
+  - [ ] Order by REQ LVL
 - [ ] Skill links react-router
 - [ ] Set items links react-router
 - [ ] Enchants
-- [~] Enchants Search Index (item types ?)
+- [x] Enchants Search Index (item types ?)
 - [ ] Skills
-- [~] Skills Search Index (items types, enchants)
+- [x] Skills Search Index (items types, enchants)
 - [ ] SEO
 
 ## License
