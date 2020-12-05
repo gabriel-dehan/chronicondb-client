@@ -1,4 +1,12 @@
+@import "responsive.scss";
+
 .m-runesEnchantsPool {
+  background-color: var(--color-background-dark-brown);
+
+  @include mediaUpToSmallTablet {
+    padding-bottom: 50px;
+  }
+
   &__none {
     text-align: center;
     padding-top: 1em;
