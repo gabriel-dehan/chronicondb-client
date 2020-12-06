@@ -41,6 +41,7 @@ const ItemsTemplate: FunctionComponent = () => {
       type: filtersStore.items.type,
       characterClass: filtersStore.items.characterClass,
       rarities: filtersStore.items.rarities,
+      orderBy: filtersStore.items.orderBy,
       onlySet: filtersStore.items.onlySet,
     });
   }

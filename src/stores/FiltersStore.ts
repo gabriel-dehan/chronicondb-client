@@ -13,6 +13,7 @@ import {
   Filters,
   FiltersType,
   QueryFiltersInterface,
+  SortOrder,
 } from 'types/Filters.types';
 
 // Has a dependency on query params, not very clean but it works. See `useFilters`
@@ -53,6 +54,7 @@ export class FiltersStore {
       type: query.itemsType,
       characterClass: query.itemsCharacterClass,
       rarities: query.itemsRarities,
+      orderBy: query.itemsOrderBy as SortOrder,
       onlySet: query.itemsOnlySet ? query.itemsOnlySet === 'true' : undefined, // typecast
     };
 

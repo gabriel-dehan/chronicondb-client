@@ -1,4 +1,4 @@
-import React, { FunctionComponent, useMemo } from 'react';
+import React, { Fragment, FunctionComponent, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 
 import { camelCase } from 'lodash';
@@ -114,14 +114,14 @@ const Item: FunctionComponent<Props> = ({
     return itemEnchants && (
       <ul className="o-item__enchants__fixed">
         {itemEnchants.fixedEnchants?.map((enchant, index) => (
-          <>
+          <Fragment key={`fr-${item.uuid}-fbase-${index}`}>
             {isGem && <span className="o-item__enchants__fixed-label">{enchantForType[index]}</span>}
             <AppliedEnchant
               item={item}
               key={`${item.uuid}-fbase-${index}`}
               enchant={enchant}
             />
-          </>
+          </Fragment>
         ))}
       </ul>
     );

@@ -4,7 +4,7 @@ import Minisearch from 'minisearch';
 import { ITEM_TYPES_BY_CATEGORIES } from 'engine/data/dataMappings';
 import { allEnumValues } from 'helpers/typeUtils';
 import { CharacterClass } from 'types/Character.types';
-import { ItemsFilters } from 'types/Filters.types';
+import { ItemsFilters, SortOrder } from 'types/Filters.types';
 import { ItemCategory, ItemType, Item, ItemRarity, ItemSet } from 'types/Item.types';
 
 import Engine, { DataInterface } from './Engine';
@@ -59,6 +59,7 @@ export default class EngineItems {
     items = this.filterByClass(items, filters);
     items = this.filterByRarities(items, filters);
     items = this.filterOnlySet(items, filters);
+    items = this.sortBy(items, filters);
 
     return items;
   }
@@ -174,5 +175,30 @@ export default class EngineItems {
     }
 
     return items;
+  }
+
+  private sortBy(items: Item[], filters: ItemsFilters) {
+    if (!filters.orderBy) {
+      return items;
+    }
+
+    switch (filters.orderBy) {
+      case SortOrder.NameAsc:
+        return items.sort((a, b) => {
+          const [nameA, nameB] = [a.name.toUpperCase(), b.name.toUpperCase()];
+          return nameA < nameB ? -1 : 1;
+        });
+      case SortOrder.NameDesc:
+        return items.sort((a, b) => {
+          const [nameA, nameB] = [a.name.toUpperCase(), b.name.toUpperCase()];
+          return nameA < nameB ? 1 : -1;
+        });
+      case SortOrder.LevelAsc:
+        return items.sort((a, b) => a.minLevel - b.minLevel);
+      case SortOrder.LevelDesc:
+        return items.sort((a, b) => -(a.minLevel - b.minLevel));
+      default:
+        return items;
+    }
   }
 }

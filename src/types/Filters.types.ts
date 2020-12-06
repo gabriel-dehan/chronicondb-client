@@ -1,3 +1,10 @@
+export enum SortOrder {
+  NameAsc = 'nameAsc',
+  NameDesc = 'nameDesc',
+  LevelAsc = 'levelAsc',
+  LevelDesc = 'levelDesc',
+}
+
 export interface GeneralFilters {
   patch: string;
 }
@@ -9,6 +16,7 @@ export interface ItemsFilters {
   characterClass?: string;
   rarities?: string[];
   onlySet?: boolean;
+  orderBy?: SortOrder;
 }
 
 export interface EnchantsFilters {
@@ -37,6 +45,7 @@ export type QueryFiltersInterface = {
   itemsCharacterClass?: string;
   itemsRarities?: string[];
   itemsOnlySet?: string;
+  itemsOrderBy?: string;
   enchantsSearch?: string;
   enchantsType?: string;
   skillsSearch?: string;
