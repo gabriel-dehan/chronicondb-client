@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
 import Icon, { IconName } from 'components/atoms/Icon/Icon';
+import EnchantsPool from 'components/organisms/Items/EnchantsPool/EnchantsPool';
 import Item from 'components/organisms/Items/Item/Item';
 import useEngine from 'hooks/useEngine';
 import { RoutePath } from 'routes';
@@ -29,7 +30,10 @@ const ItemTemplate: FunctionComponent = () => {
                 /> Back to items
               </Link>
             </div>
-            <Item item={item} setCollapsed={false} />
+            <div className="t-item__container">
+              <Item item={item} setCollapsed={false} />
+              <EnchantsPool itemType={item.type} />
+            </div>
           </>
         ) : (
           <div className="t-item__notFound">
@@ -39,7 +43,6 @@ const ItemTemplate: FunctionComponent = () => {
       </div>
     </>
   );
-
 };
 
 export default ItemTemplate;

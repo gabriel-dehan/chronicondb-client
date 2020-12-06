@@ -8,13 +8,13 @@ import useEngine from 'hooks/useEngine';
 import { CraftableEnchantTypes, EnchantType, Enchant } from 'types/Enchant.types';
 import { ItemType, ItemRarity } from 'types/Item.types';
 
-import './EnchantsPool.scss';
+import './ItemsEnchantsPool.scss';
 
 interface Props {
   type: ItemType,
 }
 
-const EnchantsPool: FunctionComponent<Props> = ({
+const ItemsEnchantsPool: FunctionComponent<Props> = ({
   type,
 }) => {
   const Engine = useEngine();
@@ -145,4 +145,4 @@ const EnchantsPool: FunctionComponent<Props> = ({
   }
 };
 
-export default EnchantsPool;
+export default ItemsEnchantsPool;
