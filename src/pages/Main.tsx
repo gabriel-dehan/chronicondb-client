@@ -12,6 +12,7 @@ import useEngine from 'hooks/useEngine';
 import { useStores } from 'hooks/useStores';
 import Layout from 'layouts/Default';
 import EnchantsPage from 'pages/enchants/Enchants';
+import ItemPage from 'pages/items/Item';
 import ItemsPage from 'pages/items/Items';
 import { RoutePath } from 'routes';
 import { FiltersStore } from 'stores/FiltersStore';
@@ -52,6 +53,7 @@ const Main: FunctionComponent =  () => {
             ) : (
               <Switch>
                 <Route exact path={RoutePath.Items} component={ItemsPage} />
+                <Route exact path={RoutePath.Item} component={ItemPage} />
                 <Route exact path={RoutePath.Enchants} component={EnchantsPage} />
                 <Route exact path={RoutePath.Skills} component={EnchantsPage} />
                 <Route exact path={RoutePath.Developers} component={EnchantsPage} />

@@ -1,10 +1,11 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { useEffect } from 'react';
-import { useHistory, useLocation } from 'react-router-dom';
+import { useHistory, useLocation, matchPath } from 'react-router-dom';
 
 import { capitalize } from 'lodash';
 import { autorun } from 'mobx';
 
+import { allEnumValues } from 'helpers/typeUtils';
 import { useStores } from 'hooks/useStores';
 import { RoutePath } from 'routes';
 import { FiltersStore } from 'stores/FiltersStore';
@@ -25,21 +26,29 @@ type useFiltersInterface<T> = [T, (params: T) => void];
 
 const AVAILABLE_FILTERS_FOR_ROUTES: Record<RoutePath, FiltersType[]> = {
   [RoutePath.Items]: [FiltersType.General, FiltersType.Items],
+  [RoutePath.Item]: [],
   [RoutePath.Enchants]: [FiltersType.General, FiltersType.Enchants],
+  [RoutePath.Enchant]: [],
   [RoutePath.Skills]: [FiltersType.General, FiltersType.Skills],
-  [RoutePath.Developers]: [],
+  [RoutePath.Skill]: [],
+  [RoutePath.Help]: [],
+  [RoutePath.Developers]: [FiltersType.General],
 };
 
 export default function useFilters
   <T extends GeneralFilters | ItemsFilters | EnchantsFilters | SkillsFilters>(filtersType: FiltersType)
   : useFiltersInterface<T>  {
+  const routes = allEnumValues(RoutePath);
   const { filtersStore } = useStores<Stores>(DataStore.Filters);
   const history = useHistory();
   const location = useLocation();
 
   // When the change location change and on first render, observe the filters store
   useEffect(() => {
-    const path = location.pathname as RoutePath;
+    const path = (
+      routes.find(route => matchPath(location.pathname, { path: route }))
+      || location.pathname
+    ) as RoutePath;
 
     autorun(() => {
       history.replace({

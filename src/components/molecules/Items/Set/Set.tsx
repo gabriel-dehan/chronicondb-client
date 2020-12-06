@@ -1,21 +1,25 @@
 import React, { FunctionComponent, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 import { map } from 'lodash';
 
 import GameIcon, { GameIconType } from 'components/atoms/GameIcon/GameIcon';
 import Icon, { IconName } from 'components/atoms/Icon/Icon';
 import { ItemSetData } from 'engine/EngineItems';
+import { RoutePath } from 'routes';
 
 import './Set.scss';
 
 interface Props {
   set: ItemSetData,
+  setCollapsed?: boolean,
 }
 
 const ItemSet: FunctionComponent<Props> = ({
   set,
+  setCollapsed = true,
 }) => {
-  const [isCollapsed, setIsCollapsed] = useState(true);
+  const [isCollapsed, setIsCollapsed] = useState(setCollapsed);
 
   return (
     <div className="m-itemSet">
@@ -55,14 +59,14 @@ const ItemSet: FunctionComponent<Props> = ({
               <li
                 key={`set-items-${set.uuid}-${item.uuid}`}
               >
-                <a href={`/items?uuid=${item.uuid}`} className="m-itemSet__itemsInfo-item">
+                <Link to={RoutePath.Item.replace(':uuid', item.uuid.toString())} className="m-itemSet__itemsInfo-item">
                   {item.icon && (
                     <GameIcon type={GameIconType.Item} name={item.icon} width={18} />
                   )}
                   <em className="m-itemSet__itemsInfo-item-name">
                     {item.name}
                   </em>
-                </a>
+                </Link>
               </li>
             ))}
           </ul>

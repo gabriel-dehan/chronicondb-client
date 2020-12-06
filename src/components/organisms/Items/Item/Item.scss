@@ -21,16 +21,30 @@
     &-title {
       margin-left: 18px;
       color: var(--color-element-light-beige);
+
+      &-link {
+        color: inherit;
+
+        &:hover {
+          color: inherit;
+          border-bottom: 1px solid var(--color-element-beige);
+        }
+      }
     }
 
     &-req {
       display: flex;
       flex-direction: column;
       width: 80px;
+      text-align: right;
+
+      .a-badge {
+        margin-bottom: 6px;
+        opacity: 0.8;
+      }
 
       @include mediaUpToSmallTablet {
         width: initial;
-        text-align: right;
       }
     }
   }
@@ -87,6 +101,17 @@
 
     &__fixed {
       margin-bottom: 8px;
+
+      &-label {
+        margin-bottom: 2px;
+        display: inline-block;
+        margin-top: 12px;
+        color: var(--color-element-orange);
+
+        &:first-child {
+          margin-top: 0;
+        }
+      }
     }
 
     &__slotsContainer {

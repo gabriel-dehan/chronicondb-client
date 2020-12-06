@@ -1,0 +1,30 @@
+.t-item {
+  background: var(--color-background-darkest-brown);
+
+  &__header {
+    display: flex;
+    align-items: center;
+    padding: 2px 1.2em 0 1.2em;
+    border-radius: 4px 4px 0 0;
+    background-color: var(--color-background-dark-brown);
+    box-shadow: 0 2px 5px 1px rgba(1, 1, 1, 0.5);
+    border-bottom: 1px solid #0b0b0b;
+    z-index: 1;
+    height: 66px;
+
+    a {
+      font-family: 'Philosopher';
+      font-size: var(--font-big);
+      font-weight: bold;
+      color: var(--color-element-mid-beige);
+    }
+
+    &-icon {
+      opacity: 0.5;
+      transform: rotate(180deg);
+      margin-right: 5px;
+      top: 2px;
+      position: relative;
+    }
+  }
+}

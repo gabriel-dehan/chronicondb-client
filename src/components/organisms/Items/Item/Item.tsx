@@ -1,26 +1,32 @@
 import React, { FunctionComponent, useMemo } from 'react';
+import { Link } from 'react-router-dom';
 
 import { camelCase } from 'lodash';
 
+import Badge from 'components/atoms/Badge/Badge';
 import GameIcon, { GameIconType } from 'components/atoms/GameIcon/GameIcon';
 import AppliedEnchant from 'components/molecules/Items/AppliedEnchant/AppliedEnchant';
 import EnchantSlot from 'components/molecules/Items/EnchantSlot/EnchantSlot';
 import ItemSet from 'components/molecules/Items/Set/Set';
 import useEngine from 'hooks/useEngine';
-import { Item as ItemInterface, ItemType } from 'types/Item.types';
+import { RoutePath } from 'routes';
+import { Item as ItemInterface, ItemCategory, ItemType } from 'types/Item.types';
 
 import './Item.scss';
 
 interface Props {
   item: ItemInterface,
+  setCollapsed?: boolean,
 }
 
 const Item: FunctionComponent<Props> = ({
   item,
+  setCollapsed,
 }) => {
   const Engine = useEngine();
   const itemEnchants = useMemo(() => Engine.Enchants.getItemEnchantsSlots(item), [item]);
   const itemSetData = useMemo(() => Engine.Items.getSetData(item), [item]);
+  const classRestriction = item.classRestriction || 'Any Class';
 
   return (
     <div className="o-item__container">
@@ -33,7 +39,11 @@ const Item: FunctionComponent<Props> = ({
               )}
             </span>
             <div className="o-item__header-title">
-              <h2 className="o-item__name">{item.name}</h2>
+              <h2 className="o-item__name">
+                <Link to={RoutePath.Item.replace(':uuid', item.uuid.toString())} className="o-item__header-title-link" target="__blank">
+                  {item.name}
+                </Link>
+              </h2>
               <h3
                 className="o-item__rarity"
                 style={{ color: `var(--color-item-${camelCase(item.rarity)})` }}
@@ -43,11 +53,12 @@ const Item: FunctionComponent<Props> = ({
             </div>
           </div>
           <div className="o-item__header-req">
+            <Badge
+              label={classRestriction}
+              color={`var(--color-class-${camelCase(classRestriction)})`}
+            />
             <span>
               LVL. {item.minLevel}
-            </span>
-            <span>
-              {item.classRestriction || 'Any Class'}
             </span>
           </div>
         </div>
@@ -74,7 +85,7 @@ const Item: FunctionComponent<Props> = ({
         </div>
         {itemSetData && (
           <div className="o-item__set">
-            <ItemSet set={itemSetData} />
+            <ItemSet set={itemSetData} setCollapsed={setCollapsed} />
           </div>
         )}
       </div>
@@ -96,14 +107,21 @@ const Item: FunctionComponent<Props> = ({
   }
 
   function renderFixedEnchants() {
+    const isGem = item.category === ItemCategory.Gem;
+    // TODO: Extract to a proper dataMapping
+    const enchantForType = ['Weapon/Offhand', 'Helm/Armor/Boots', 'Amulet/Ring/Accessory'];
+
     return itemEnchants && (
       <ul className="o-item__enchants__fixed">
         {itemEnchants.fixedEnchants?.map((enchant, index) => (
-          <AppliedEnchant
-            key={`${item.uuid}-fbase-${index}`}
-            item={item}
-            enchant={enchant}
-          />
+          <>
+            {isGem && <span className="o-item__enchants__fixed-label">{enchantForType[index]}</span>}
+            <AppliedEnchant
+              item={item}
+              key={`${item.uuid}-fbase-${index}`}
+              enchant={enchant}
+            />
+          </>
         ))}
       </ul>
     );

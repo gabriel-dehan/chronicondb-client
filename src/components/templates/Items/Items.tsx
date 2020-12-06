@@ -14,9 +14,9 @@ interface Stores {
   [DataStore.Filters]: FiltersStore;
 }
 
-import './Items.scss';
+import './ItemsTemplate.scss';
 
-const Items: FunctionComponent = () => {
+const ItemsTemplate: FunctionComponent = () => {
   const { filtersStore } = useStores<Stores>(DataStore.Filters);
   const Engine = useEngine();
 
@@ -46,4 +46,4 @@ const Items: FunctionComponent = () => {
   }
 };
 
-export default observer(Items);
+export default observer(ItemsTemplate);

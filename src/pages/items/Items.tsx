@@ -1,10 +1,10 @@
 import React, { FunctionComponent } from 'react';
 
-import Items from 'components/templates/Items/Items';
+import ItemsTemplate from 'components/templates/Items/Items';
 
 export const ItemsPage: FunctionComponent = () => {
   return (
-    <Items />
+    <ItemsTemplate />
   );
 };
 

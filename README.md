@@ -71,11 +71,12 @@ There you go, chronicondb is now up to date.
 - [x] Items
   - [x] Handle Sets in rarity filter
   - [x] Runes possible enchants
+  - [x] Item page
   - [~] Items image generator
   - [?] React infinite scroller
-  - [ ] Item page
-  - [ ] Permalink
-  - [ ] Do not display the divider for item content if there is no content at all
+  - [x] Permalink
+  - [x] Badge
+  - [ ] Gems matching
   - [ ] Order by REQ LVL
 - [ ] Skill links react-router
 - [ ] Set items links react-router

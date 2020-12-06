@@ -33,7 +33,7 @@ const GameIcon: FunctionComponent<Props> = ({
 }) =>  (
   <img
     aria-label={name}
-    src={`${ICONS_PATH[type]}/${name.toLowerCase()}.png`}
+    src={`/${ICONS_PATH[type]}/${name.toLowerCase()}.png`}
     width={width}
     height={height}
     alt={name}

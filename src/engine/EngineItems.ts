@@ -63,6 +63,10 @@ export default class EngineItems {
     return items;
   }
 
+  public find(uuid: number): Item | null {
+    return this.items.find(item => item.uuid === uuid) || null;
+  }
+
   public getSetData(item: Item): ItemSetData | null {
     if (item.set) {
       const set = this.data.sets.find(set => set.uuid === item.set);
