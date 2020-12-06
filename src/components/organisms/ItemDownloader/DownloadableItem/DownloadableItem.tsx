@@ -13,7 +13,7 @@ import useEngine from 'hooks/useEngine';
 import { RoutePath } from 'routes';
 import { Item as ItemInterface, ItemCategory, ItemType } from 'types/Item.types';
 
-import './Item.scss';
+import './DownloadableItem.scss';
 
 interface Props {
   item: ItemInterface,
@@ -30,31 +30,31 @@ const Item: FunctionComponent<Props> = ({
   const classRestriction = item.classRestriction || 'Any Class';
 
   return (
-    <div className="o-item__container">
-      <div className="o-item">
-        <div className="o-item__header">
-          <div className="o-item__header-content">
-            <span className="o-item__icon">
+    <div className="o-downloadableItem__container">
+      <div className="o-downloadableItem">
+        <div className="o-downloadableItem__header">
+          <div className="o-downloadableItem__header-content">
+            <span className="o-downloadableItem__icon">
               {item.icon && (
                 <GameIcon type={GameIconType.Item} name={item.icon} width={32} />
               )}
             </span>
-            <div className="o-item__header-title">
-              <h2 className="o-item__name">
-                <Link to={RoutePath.Item.replace(':uuid', item.uuid.toString())} className="o-item__header-title-link" target="__blank">
+            <div className="o-downloadableItem__header-title">
+              <h2 className="o-downloadableItem__name">
+                <Link to={RoutePath.Item.replace(':uuid', item.uuid.toString())} className="o-downloadableItem__header-title-link" target="__blank">
                   {item.name}
                 </Link>
                 <ItemDownloader item={item} />
               </h2>
               <h3
-                className="o-item__rarity"
+                className="o-downloadableItem__rarity"
                 style={{ color: `var(--color-item-${camelCase(item.rarity)})` }}
               >
                 {item.rarity} {item.type}
               </h3>
             </div>
           </div>
-          <div className="o-item__header-req">
+          <div className="o-downloadableItem__header-req">
             <Badge
               label={classRestriction}
               color={`var(--color-class-${camelCase(classRestriction)})`}
@@ -64,29 +64,29 @@ const Item: FunctionComponent<Props> = ({
             </span>
           </div>
         </div>
-        <div className="o-item__content">
+        <div className="o-downloadableItem__content">
           {item.description && (
-            <div className="o-item__description">
+            <div className="o-downloadableItem__description">
               {item.description}
             </div>
           )}
           {itemEnchants &&
-            <div className="o-item__enchants">
+            <div className="o-downloadableItem__enchants">
               {renderBaseEnchants()}
-              <div className="o-item__enchants__slotsContainer">
+              <div className="o-downloadableItem__enchants__slotsContainer">
                 {renderFixedEnchants()}
                 {renderEnchantsSlots()}
               </div>
             </div>
           }
           {item.flavor && (
-            <div className="o-item__flavor">
+            <div className="o-downloadableItem__flavor">
               {item.flavor}
             </div>
           )}
         </div>
         {itemSetData && (
-          <div className="o-item__set">
+          <div className="o-downloadableItem__set">
             <ItemSet set={itemSetData} setCollapsed={setCollapsed} />
           </div>
         )}
@@ -96,7 +96,7 @@ const Item: FunctionComponent<Props> = ({
 
   function renderBaseEnchants() {
     return itemEnchants && itemEnchants.baseEnchants?.length > 0 && (
-      <ul className="o-item__enchants__base">
+      <ul className="o-downloadableItem__enchants__base">
         {itemEnchants.baseEnchants?.map((enchant, index) => (
           <AppliedEnchant
             key={`${item.uuid}-ebase-${index}`}
@@ -114,10 +114,10 @@ const Item: FunctionComponent<Props> = ({
     const enchantForType = ['Weapon/Offhand', 'Helm/Armor/Boots', 'Amulet/Ring/Accessory'];
 
     return itemEnchants && (
-      <ul className="o-item__enchants__fixed">
+      <ul className="o-downloadableItem__enchants__fixed">
         {itemEnchants.fixedEnchants?.map((enchant, index) => (
           <Fragment key={`fr-${item.uuid}-fbase-${index}`}>
-            {isGem && <span className="o-item__enchants__fixed-label">{enchantForType[index]}</span>}
+            {isGem && <span className="o-downloadableItem__enchants__fixed-label">{enchantForType[index]}</span>}
             <AppliedEnchant
               item={item}
               key={`${item.uuid}-fbase-${index}`}
@@ -131,7 +131,7 @@ const Item: FunctionComponent<Props> = ({
 
   function renderEnchantsSlots() {
     return itemEnchants && (
-      <ul className="o-item__enchants__slots">
+      <ul className="o-downloadableItem__enchants__slots">
         {itemEnchants.enchantSlots?.map((slot, index) => {
           return (!slot.categoriesRestriction || slot.categoriesRestriction.includes(item.category)) && (
             <EnchantSlot
@@ -142,8 +142,8 @@ const Item: FunctionComponent<Props> = ({
           );
         })}
         {[ItemType.Helm, ItemType.Armor, ItemType.Boots].includes(item.type) &&
-          <li className="o-item__enchants__slots-replace">
-            <em className="o-item__enchants__slots-replace-chance">25%</em> chance to replace 1 <em style={{ color: 'var(--color-enchant-major)' }}>Major</em> with 1 <em style={{ color: 'var(--color-enchant-epic)' }}>Epic</em>
+          <li className="o-downloadableItem__enchants__slots-replace">
+            <em className="o-downloadableItem__enchants__slots-replace-chance">25%</em> chance to replace 1 <em style={{ color: 'var(--color-enchant-major)' }}>Major</em> with 1 <em style={{ color: 'var(--color-enchant-epic)' }}>Epic</em>
           </li>
         }
       </ul>

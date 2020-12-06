@@ -1,12 +1,13 @@
 @import "responsive.scss";
 
-.o-item__container {
+.o-downloadableItem__container {
+  width: 800px;
   display: flex;
   justify-content: space-between;
   color: var(--color-element-beige);
 }
 
-.o-item {
+.o-downloadableItem {
   width: 100%;
   padding: 18px 18px 0 18px;
 
@@ -53,16 +54,6 @@
     font-size: var(--font-big);
     font-family: 'Philosopher';
     margin: 0 0 4px 0;
-    display: inline-flex;
-
-    a {
-      display: inline-block;
-    }
-
-    .o-itemDownloader {
-      margin-left: 15px;
-      cursor: pointer;
-    }
   }
 
   &__rarity {
