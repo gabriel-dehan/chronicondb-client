@@ -30,21 +30,21 @@ const Filters: FunctionComponent = () => {
   }));
 
   return (
-    <div className="o-filters">
+    <div className="o-itemFilters">
       <Search
-        className="o-filters__search"
+        className="o-itemFilters__search"
         placeholder="Search"
         value={filters.search || ''}
         onChange={onSearchChange}
       />
       <Multiselect
-        className="o-filters__raritySelect"
+        className="o-itemFilters__raritySelect"
         defaultValues={filters.rarities ? filters.rarities : DEFAULT_RARITIES_FILTERS}
         options={raritiesOptions}
         onChange={onRaritiesSelect}
       />
       <CheckboxSelect
-        className="o-filters__setCheckbox"
+        className="o-itemFilters__setCheckbox"
         selected={filters.onlySet || false}
         label="Only Sets"
         value="Set"
@@ -52,7 +52,7 @@ const Filters: FunctionComponent = () => {
         onChange={onSetSelect}
       />
       <Dropdown
-        className="o-filters__classDropdown"
+        className="o-itemFilters__classDropdown"
         label=""
         defaultValue={filters.characterClass || CharacterClass.All}
         options={classOptions}

@@ -1,7 +1,9 @@
-import { compact, isEmpty, reduce } from 'lodash';
+import { compact, isEmpty, reduce, uniq } from 'lodash';
+import Minisearch from 'minisearch';
 
 import { ENCHANT_SLOTS_BY_RARITY } from 'engine/data/dataMappings';
 import EnchantsPoolData from 'engine/data/enchantsPool.json';
+import { sortObject } from 'helpers/objectUtils';
 import { allEnumValues } from 'helpers/typeUtils';
 import {
   ItemEnchantSlots,
@@ -13,7 +15,7 @@ import {
   EnchantsPool,
   EnchantPoolType,
 } from 'types/Enchant.types';
-// import { EnchantsFilters } from 'types/Filters.types';
+import { EnchantsFilters } from 'types/Filters.types';
 import { ItemRarity, Item, ItemType } from 'types/Item.types';
 
 import Engine, { DataInterface } from './Engine';
@@ -25,18 +27,36 @@ export default class EngineEnchants {
   public readonly engine: Engine;
   public categories: EnchantCategory[];
   public types: EnchantType[];
+  private _categoriesByTypes?: Record<EnchantType, EnchantCategory[]>;
   private enchantsPool!: HydratedEnchantsPool;
+  private searchEngine: Minisearch;
 
   constructor(engine: Engine) {
     this.engine = engine;
     this.categories = allEnumValues(EnchantCategory);
     this.types = allEnumValues(EnchantType);
+    this.searchEngine = new Minisearch({
+      idField: 'uuid',
+      fields: ['name', 'category', 'description'],
+      storeFields: ['uuid'],
+    });
   }
 
   public onDataLoaded() {
     this.enchantsPool = this.hydrateEnchantsPool();
+    this.searchEngine.removeAll();
+    this.searchEngine.addAll(this.data.itemsSearchIndex);
   }
 
+  /* Methods */
+  public all(filters: EnchantsFilters): Enchant[] {
+    let enchants = this.enchants;
+
+    enchants = this.filterBySearch(enchants, filters);
+    enchants = this.filterByTypeAndCategory(enchants, filters);
+
+    return enchants;
+  }
   public getTypeEnchantsPool(type: ItemType): HydratedPoolType | null {
     return this.enchantsPool[type] || null;
   }
@@ -76,6 +96,68 @@ export default class EngineEnchants {
     }
 
     return [];
+  }
+
+  public get defaultType(): EnchantType {
+    return Object.keys(this.categoriesByTypes)[0] as EnchantType;
+  }
+
+  public get defaultCategory(): EnchantCategory {
+    return this.categoriesByTypes[this.defaultType][0];
+  }
+
+  public get categoriesByTypes(): Record<EnchantType, EnchantCategory[]> {
+    if (!this._categoriesByTypes) {
+      const enchants = this.enchants.reduce((memo: Record<string, string[]>, enchant: Enchant) => {
+        if (enchant.type === 'Gem' as EnchantType) {
+          return memo;
+        }
+
+        if (memo[enchant.type]) {
+          memo[enchant.type].push(enchant.category);
+          memo[enchant.type] = uniq(memo[enchant.type]);
+        } else {
+          memo[enchant.type] = [];
+        }
+
+        return memo;
+      }, {});
+
+      enchants[EnchantType.Major].push(EnchantCategory.Gem);
+      this._categoriesByTypes = sortObject(enchants, (a) => {
+        if (a === EnchantType.Minor) {
+          return 1;
+        }
+        return -1;
+      }) as Record<EnchantType, EnchantCategory[]>;
+    }
+
+    return this._categoriesByTypes;
+  }
+
+  /* Private */
+  private filterBySearch(enchants: Enchant[], filters: EnchantsFilters) {
+    if (filters.search) {
+      const resultingUuids = this.searchEngine.search(filters.search, {
+        prefix: true,
+        fuzzy: 0.2,
+      }).map(r => r.uuid);
+
+      return enchants.filter(enchant => resultingUuids.includes(enchant.uuid));
+    }
+
+    return enchants;
+  }
+
+  private filterByTypeAndCategory(enchants: Enchant[], filters: EnchantsFilters) {
+    if (filters.category === 'Any' || filters.type === 'Any') {
+      return enchants;
+    } else {
+      const category = (filters.category || this.defaultCategory) as EnchantCategory;
+      const type = (category === EnchantCategory.Gem ? 'Gem' : (filters.type || this.defaultType)) as EnchantType;
+
+      return enchants.filter(enchant => enchant.type === type && enchant.category === category);
+    }
   }
 
   /* Private utils */

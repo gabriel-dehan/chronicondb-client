@@ -1,6 +1,6 @@
 @import "responsive.scss";
 
-.o-filters {
+.o-itemFilters {
   display: flex;
   align-items: center;
   position: relative;
@@ -25,24 +25,24 @@
   }
 
   @include mediaMobile {
-    .o-filters__classDropdown {
+    .o-itemFilters__classDropdown {
       display: none;
     }
 
   }
 
   @include mediaUpToSmallTablet {
-    .o-filters__search {
+    .o-itemFilters__search {
       margin-left: 35px;
     }
   }
 
   @include mediaUpToTablet {
-    .o-filters__raritySelect {
+    .o-itemFilters__raritySelect {
       display: none;
     }
 
-    .o-filters__search {
+    .o-itemFilters__search {
       width: 100%;
       margin-right: 0;
 
@@ -53,7 +53,7 @@
   }
 
   @media (max-width: 1060px) {
-    .o-filters__setCheckbox {
+    .o-itemFilters__setCheckbox {
       display: none;
     }
   }

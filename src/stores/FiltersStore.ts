@@ -61,6 +61,7 @@ export class FiltersStore {
     this.enchants = {
       search: query.enchantsSearch,
       type: query.enchantsType,
+      category: query.enchantsCategory,
     };
 
     this.skills = {

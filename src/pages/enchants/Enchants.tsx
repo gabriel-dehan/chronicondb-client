@@ -1,9 +1,11 @@
 import React, { FunctionComponent } from 'react';
 
-const Enchants: FunctionComponent = () => {
+import EnchantsTemplate from 'components/templates/Enchants/EnchantsTemplate';
+
+const EnchantsPage: FunctionComponent = () => {
   return (
-    <div>Enchants</div>
+    <EnchantsTemplate />
   );
 };
 
-export default Enchants;
+export default EnchantsPage;

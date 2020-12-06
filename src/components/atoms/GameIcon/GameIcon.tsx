@@ -1,7 +1,8 @@
 import React, { FunctionComponent } from 'react';
 
 export enum GameIconType {
-  Category = 'category',
+  ItemCategory = 'itemCategory',
+  EnchantType = 'enchantType',
   Item = 'item',
   Enchant = 'enchant',
 }
@@ -9,7 +10,8 @@ export enum GameIconType {
 const BASE_PATH = 'assets/images/game';
 
 const ICONS_PATH: Record<GameIconType, string> = {
-  [GameIconType.Category]: `${BASE_PATH}/items/categories/`,
+  [GameIconType.ItemCategory]: `${BASE_PATH}/items/categories/`,
+  [GameIconType.EnchantType]: `${BASE_PATH}/enchants/types/`,
   [GameIconType.Item]: `${BASE_PATH}/items/all/`,
   [GameIconType.Enchant]: `${BASE_PATH}/enchants/`,
 };

@@ -22,6 +22,7 @@ export interface ItemsFilters {
 export interface EnchantsFilters {
   search?: string;
   type?: string;
+  category?: string;
 }
 
 export interface SkillsFilters {
@@ -48,6 +49,7 @@ export type QueryFiltersInterface = {
   itemsOrderBy?: string;
   enchantsSearch?: string;
   enchantsType?: string;
+  enchantsCategory?: string;
   skillsSearch?: string;
   skillsCharacterClass: string;
 }

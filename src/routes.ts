@@ -12,8 +12,8 @@ export enum RouteId {
 export enum RoutePath {
   Items = '/items',
   Item = '/item/:uuid',
-  Enchant = '/enchants',
-  Enchants = '/enchant/:uuid',
+  Enchants = '/enchants',
+  Enchant = '/enchant/:uuid',
   Skills = '/skills',
   Skill = '/skill/:uuid',
   Help = '/help',

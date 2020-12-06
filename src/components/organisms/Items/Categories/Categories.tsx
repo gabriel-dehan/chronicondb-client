@@ -13,6 +13,7 @@ import { ItemCategory, ItemType } from 'types/Item.types';
 
 import './Categories.scss';
 
+// TODO: Refacto in a sidebar component that can be used for skills, enchants and items
 const Categories: FunctionComponent = () => {
   const { isUpToTablet } = useResponsive();
   const Engine = useEngine();
@@ -32,7 +33,7 @@ const Categories: FunctionComponent = () => {
         open={isMobileMenuOpen}
         onHandleClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
         onClose={() => setIsMobileMenuOpen(false)}
-        className={`o-categories__menuMobile category-${selectedCategory.toLowerCase()}`}
+        className={`o-itemCategories__menuMobile category-${selectedCategory.toLowerCase()}`}
         width="60vw"
         placement={'left'}
       >
@@ -45,14 +46,14 @@ const Categories: FunctionComponent = () => {
 
   function renderItemTypes(category: ItemCategory, itemTypes: ItemType[]) {
     return (
-      <ul className="o-categories__itemTypes">
+      <ul className="o-itemCategories__itemTypes">
         {itemTypes.map(itemType => (
           <li
             key={`item-type-${itemType}`}
-            className={`o-categories__itemType ${selectedType === itemType ? 'selected' : ''}`}
+            className={`o-itemCategories__itemType ${selectedType === itemType ? 'selected' : ''}`}
           >
             <span
-              className="o-categories__itemTypeName"
+              className="o-itemCategories__itemTypeName"
               onClick={() => onItemTypeSelect(category, itemType)}
             >
               {itemType === ItemType.Rune ? 'Rune' : itemType}
@@ -65,28 +66,28 @@ const Categories: FunctionComponent = () => {
 
   function renderCategoryMenu() {
     return (
-      <ul className="o-categories">
+      <ul className="o-itemCategories">
         {map(typesByCategories, ((itemTypes, category: ItemCategory) => {
           const isSelected = selectedCategory === category;
           return (
             <li
               key={`item-category-${category}`}
-              className={`o-categories__category ${isSelected ? 'selected' : ''}`}
+              className={`o-itemCategories__category ${isSelected ? 'selected' : ''}`}
             >
               <span
-                className="o-categories__categoryName"
+                className="o-itemCategories__categoryName"
                 onClick={() => onCategorySelect(category)}
               >
                 <Icon
-                  className="o-categories__categoryName-arrow"
+                  className="o-itemCategories__categoryName-arrow"
                   width={isSelected ? 14 : 6}
                   height={isSelected ? 7 : 12}
                   name={isSelected ? IconName.ArrowDownBlue : IconName.ArrowRightBlue}
                 />
                 {category}
                 <GameIcon
-                  className="o-categories__categoryName-icon"
-                  type={GameIconType.Category}
+                  className="o-itemCategories__categoryName-icon"
+                  type={GameIconType.ItemCategory}
                   name={category}
                   width={28}
                 />

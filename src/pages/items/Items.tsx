@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from 'react';
 
-import ItemsTemplate from 'components/templates/Items/Items';
+import ItemsTemplate from 'components/templates/Items/ItemsTemplate';
 
 export const ItemsPage: FunctionComponent = () => {
   return (

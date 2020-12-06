@@ -1,0 +1,27 @@
+@import "responsive.scss";
+
+.o-enchantsList {
+  width: 100%;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid var(--color-element-darkest-blue);
+
+    &__items {
+      display: flex;
+      justify-content: space-between;
+      margin: 0 18px;
+      width: inherit;
+    }
+
+    &__thead {
+      color: var(--color-element-beige);
+      font-family: Philosopher;
+      font-size: var(--font-normal);
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+}

@@ -30,7 +30,7 @@ const List: FunctionComponent<Props> = ({ items }) => {
         </>
       ) : (
         <div className="o-itemsList__noItem">
-          No item were found matching these criteria.
+          No item was found matching these criteria.
         </div>
       )}
     </div>
