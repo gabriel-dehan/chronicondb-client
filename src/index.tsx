@@ -12,6 +12,7 @@ import 'assets/styles/fonts.css';
 import 'assets/styles/variables.css';
 import 'assets/styles/global.css';
 import 'rc-drawer/assets/index.css';
+import 'react-tippy/dist/tippy.css';
 
 // Mobx : all state that is observed somewhere needs to be changed through actions
 configure({ enforceActions: 'observed' });

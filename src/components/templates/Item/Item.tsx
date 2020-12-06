@@ -37,7 +37,7 @@ const ItemTemplate: FunctionComponent = () => {
           </>
         ) : (
           <div className="t-item__notFound">
-            Not Found
+            Item Not Found
           </div>
         )}
       </div>

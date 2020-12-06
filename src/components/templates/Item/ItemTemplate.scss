@@ -41,4 +41,20 @@
       }
     }
   }
+
+  &__notFound {
+    font-family: 'Philosopher';
+    font-size: var(--font-title);
+    color: var(--color-element-beige);
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .o-itemDownloader {
+    display: block;
+
+    @include mediaUpToSmallTablet {
+      display: none;
+    }
+  }
 }

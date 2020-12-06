@@ -7,15 +7,18 @@ export default function useAsDownloadableImage(node: RefObject<HTMLElement>, sty
   const [blob, setBlob] = useState<Blob>();
 
   useEffect(() => {
-    if (node.current) {
-      // @ts-ignore
-      toBlob(node.current, { pixelRatio: 1, style })
-        .then((blob) => {
-          if (blob) {
-            setBlob(blob);
-          }
-        });
-    }
+    // Make sure the node.current render is finished
+    setTimeout(() => {
+      if (node.current) {
+        // @ts-ignore
+        toBlob(node.current, { pixelRatio: 1, style })
+          .then((blob) => {
+            if (blob) {
+              setBlob(blob);
+            }
+          });
+      }
+    }, 500);
   }, [node, style]);
 
   return (name: string, callback?: () => void) => {

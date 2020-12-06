@@ -1,9 +1,19 @@
 
-.o-itemDownloader__icon {
-  display: block;
-  opacity: 0.6;
+.o-itemDownloader {
+  &__item {
+    background-color: var(--color-background-darkest-brown);
+  }
 
-  &:hover {
-    opacity: 1;
+  &__icon {
+    display: block;
+    opacity: 0.6;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  &__tooltip {
+    background: red;
   }
 }

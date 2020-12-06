@@ -1,20 +1,18 @@
-@import "responsive.scss";
-
 .o-downloadableItem__container {
-  width: 800px;
+  width: 600px;
   display: flex;
   justify-content: space-between;
-  color: var(--color-element-beige);
+  color: var(--color-element-orange);
   font-family: 'VP Pixel' !important;
   font-weight: normal !important;
+  font-size: var(--font-big);
 }
 
 .o-downloadableItem {
   width: 100%;
-  padding: 18px 18px 0 18px;
+  padding: 18px 18px 18px 18px;
 
   &__header {
-    display: flex;
     justify-content: space-between;
 
     &-content {
@@ -23,50 +21,30 @@
 
     &-title {
       margin-left: 18px;
-      color: var(--color-element-light-beige);
-
-      &-link {
-        color: inherit;
-
-        &:hover {
-          color: inherit;
-          border-bottom: 1px solid var(--color-element-beige);
-        }
-      }
     }
 
     &-req {
       display: flex;
       flex-direction: column;
-      width: 80px;
-      text-align: right;
-
-      .a-badge {
-        margin-bottom: 6px;
-        opacity: 0.8;
-      }
-
-      @include mediaUpToSmallTablet {
-        width: initial;
-      }
+      color: var(--color-element-white);
     }
   }
 
   &__name {
     font-size: var(--font-big);
-    margin: 0 0 4px 0;
+    font-weight: normal;
+    margin: 0;
+    line-height: 0.8em;
   }
 
   &__rarity {
-    font-size: var(--font-normal);
+    font-size: var(--font-big);
     font-weight: normal;
     margin: 0;
   }
 
   &__content {
-    border-top: 1px solid rgba(51, 44, 29, 0.5);
-    margin: 18px 10px 18px 50px;
-    padding: 18px 0 0 0;
+    padding: 6px 0 0 0;
   }
 
   &__description {
@@ -76,7 +54,6 @@
   &__flavor {
     margin: 12px 0 8px 0;
     color: var(--color-element-red);
-    font-style: italic;
   }
 
   &__enchants {
@@ -84,19 +61,13 @@
 
     flex-direction: column;
 
-    li {
-      padding-top: 2  px;
-    }
-
     &__base {
+      // Override the color
+      --color-element-light-blue: #15c300;
+
       margin-right: 60px;
       width: 185px;
       min-width: 185px;
-
-      @include mediaMobile {
-        width: 100%;
-        margin-right: 0;
-      }
     }
 
     &__fixed {
@@ -117,10 +88,8 @@
     &__slotsContainer {
       width: 65%;
 
-      @include mediaMobile {
-        width: 100%;
-        margin-right: 0;
-        margin-top: 12px;
+      .m-enchantSlot {
+        color: var(--color-element-white);
       }
     }
 
@@ -128,6 +97,7 @@
       list-style: none;
 
       &-replace {
+        color: var(--color-element-white);
         padding-top: 5px;
         em {
           font-style: normal;
@@ -143,9 +113,38 @@
   }
 
   &__set {
+    padding: 6px 0;
     color: var(--color-element-beige);
-    background-color: var(--color-background-mid-brown);
-    margin: 0 -18px;
-    padding: 0px 18px 0px 68px;
+
+    &-name {
+      color: var(--color-item-set);
+    }
+  }
+
+  &__setInfo {
+    width: 60%;
+    margin-right: 20px;
+
+    &-itemTypes {
+      color: var(--color-element-orange);
+      font-weight: normal;
+    }
+
+    &-bonuses {
+      margin-top: 4px;
+    }
+
+    &-bonus {
+      list-style: none;
+      color: #737373;
+      margin-top: 2px;
+
+      &-count {
+        color: var(--color-element-orange);
+        padding-right: 5px;
+        font-style: normal;
+      }
+
+    }
   }
 }

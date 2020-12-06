@@ -1,15 +1,11 @@
 import React, { Fragment, FunctionComponent, useMemo } from 'react';
-import { Link } from 'react-router-dom';
 
-import { camelCase } from 'lodash';
+import { camelCase, map } from 'lodash';
 
-import Badge from 'components/atoms/Badge/Badge';
 import GameIcon, { GameIconType } from 'components/atoms/GameIcon/GameIcon';
 import AppliedEnchant from 'components/molecules/Items/AppliedEnchant/AppliedEnchant';
 import EnchantSlot from 'components/molecules/Items/EnchantSlot/EnchantSlot';
-import ItemSet from 'components/molecules/Items/Set/Set';
 import useEngine from 'hooks/useEngine';
-import { RoutePath } from 'routes';
 import { Item as ItemInterface, ItemCategory, ItemType } from 'types/Item.types';
 
 import './DownloadableItem.scss';
@@ -21,7 +17,6 @@ interface Props {
 
 const Item: FunctionComponent<Props> = ({
   item,
-  setCollapsed,
 }) => {
   const Engine = useEngine();
   const itemEnchants = useMemo(() => Engine.Enchants.getItemEnchantsSlots(item), [item]);
@@ -39,27 +34,25 @@ const Item: FunctionComponent<Props> = ({
               )}
             </span>
             <div className="o-downloadableItem__header-title">
-              <h2 className="o-downloadableItem__name">
-                <Link to={RoutePath.Item.replace(':uuid', item.uuid.toString())} className="o-downloadableItem__header-title-link" target="__blank">
-                  {item.name}
-                </Link>
+              <h2
+                className="o-downloadableItem__name"
+                style={{ color: `var(--color-item-${camelCase(item.rarity)})` }}
+              >
+                {item.name}
               </h2>
               <h3
                 className="o-downloadableItem__rarity"
-                style={{ color: `var(--color-item-${camelCase(item.rarity)})` }}
+
               >
                 {item.rarity} {item.type}
               </h3>
             </div>
           </div>
           <div className="o-downloadableItem__header-req">
-            <Badge
-              label={classRestriction}
-              color={`var(--color-class-${camelCase(classRestriction)})`}
-            />
             <span>
-              LVL. {item.minLevel}
+              Level: {item.minLevel}
             </span>
+            {classRestriction} Item
           </div>
         </div>
         <div className="o-downloadableItem__content">
@@ -68,14 +61,34 @@ const Item: FunctionComponent<Props> = ({
               {item.description}
             </div>
           )}
+          {itemEnchants &&(
+            <div className="o-downloadableItem__enchants">
+              {renderBaseEnchants()}
+            </div>
+          )}
           {itemSetData && (
             <div className="o-downloadableItem__set">
-              <ItemSet set={itemSetData} setCollapsed={setCollapsed} />
+              <span className="o-downloadableItem__set-name">Set: {itemSetData.name}</span>
+              <div className="o-downloadableItem__setInfo">
+                <strong className="o-downloadableItem__setInfo-itemTypes">
+                  {itemSetData.types.join(', ')}
+                </strong>
+                <ul className="o-downloadableItem__setInfo-bonuses">
+                  {map(itemSetData.bonuses, (bonus, piecesCount) => (
+                    <li
+                      key={`set-bonus-${itemSetData.uuid}-${piecesCount}`}
+                      className="o-downloadableItem__setInfo-bonus"
+                    >
+                      <em className="o-downloadableItem__setInfo-bonus-count">{piecesCount})</em>
+                      {bonus}
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
           )}
           {itemEnchants &&
             <div className="o-downloadableItem__enchants">
-              {renderBaseEnchants()}
               <div className="o-downloadableItem__enchants__slotsContainer">
                 {renderFixedEnchants()}
                 {renderEnchantsSlots()}

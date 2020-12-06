@@ -29,3 +29,16 @@ a:hover {
   text-decoration: none;
   color: var(--color-element-orange);
 }
+
+/* Vendor styles */
+.tippy-popper {
+  top: -3px !important;
+}
+
+.tippy-tooltip {
+  background-color: #544039 !important;
+}
+
+.tippy-popper[x-placement^=right] [x-arrow] {
+  border-right-color: #544039 !important;
+}
