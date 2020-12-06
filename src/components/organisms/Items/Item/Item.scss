@@ -10,6 +10,16 @@
   width: 100%;
   padding: 18px 18px 0 18px;
 
+  &:hover {
+    .o-itemDownloader {
+      display: block;
+
+      @include mediaUpToSmallTablet {
+        display: none;
+      }
+    }
+  }
+
   &__header {
     display: flex;
     justify-content: space-between;
@@ -62,6 +72,7 @@
     .o-itemDownloader {
       margin-left: 15px;
       cursor: pointer;
+      display: none;
     }
   }
 

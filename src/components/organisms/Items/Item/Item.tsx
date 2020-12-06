@@ -8,6 +8,7 @@ import GameIcon, { GameIconType } from 'components/atoms/GameIcon/GameIcon';
 import AppliedEnchant from 'components/molecules/Items/AppliedEnchant/AppliedEnchant';
 import EnchantSlot from 'components/molecules/Items/EnchantSlot/EnchantSlot';
 import ItemSet from 'components/molecules/Items/Set/Set';
+import DownloadableItem from 'components/organisms/ItemDownloader/DownloadableItem/DownloadableItem';
 import ItemDownloader from 'components/organisms/ItemDownloader/ItemDownloader';
 import useEngine from 'hooks/useEngine';
 import { RoutePath } from 'routes';
@@ -28,6 +29,7 @@ const Item: FunctionComponent<Props> = ({
   const itemEnchants = useMemo(() => Engine.Enchants.getItemEnchantsSlots(item), [item]);
   const itemSetData = useMemo(() => Engine.Items.getSetData(item), [item]);
   const classRestriction = item.classRestriction || 'Any Class';
+  // return <DownloadableItem item={item} />;
 
   return (
     <div className="o-item__container">

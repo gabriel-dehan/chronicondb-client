@@ -8,7 +8,6 @@ import GameIcon, { GameIconType } from 'components/atoms/GameIcon/GameIcon';
 import AppliedEnchant from 'components/molecules/Items/AppliedEnchant/AppliedEnchant';
 import EnchantSlot from 'components/molecules/Items/EnchantSlot/EnchantSlot';
 import ItemSet from 'components/molecules/Items/Set/Set';
-import ItemDownloader from 'components/organisms/ItemDownloader/ItemDownloader';
 import useEngine from 'hooks/useEngine';
 import { RoutePath } from 'routes';
 import { Item as ItemInterface, ItemCategory, ItemType } from 'types/Item.types';
@@ -44,7 +43,6 @@ const Item: FunctionComponent<Props> = ({
                 <Link to={RoutePath.Item.replace(':uuid', item.uuid.toString())} className="o-downloadableItem__header-title-link" target="__blank">
                   {item.name}
                 </Link>
-                <ItemDownloader item={item} />
               </h2>
               <h3
                 className="o-downloadableItem__rarity"
@@ -70,6 +68,11 @@ const Item: FunctionComponent<Props> = ({
               {item.description}
             </div>
           )}
+          {itemSetData && (
+            <div className="o-downloadableItem__set">
+              <ItemSet set={itemSetData} setCollapsed={setCollapsed} />
+            </div>
+          )}
           {itemEnchants &&
             <div className="o-downloadableItem__enchants">
               {renderBaseEnchants()}
@@ -85,11 +88,6 @@ const Item: FunctionComponent<Props> = ({
             </div>
           )}
         </div>
-        {itemSetData && (
-          <div className="o-downloadableItem__set">
-            <ItemSet set={itemSetData} setCollapsed={setCollapsed} />
-          </div>
-        )}
       </div>
     </div>
   );

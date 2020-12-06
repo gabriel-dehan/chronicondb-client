@@ -275,3 +275,14 @@
   font-style: italic;
   font-display: swap;
 }
+
+/* VP Pixel Simplified */
+
+@font-face {
+  font-family: 'VP Pixel';
+  src: url('../fonts/VPPixel/VPPixel-Simplified.woff2') format('woff2'),
+      url('../fonts/VPPixel/VPPixel-Simplified.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

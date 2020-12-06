@@ -5,6 +5,8 @@
   display: flex;
   justify-content: space-between;
   color: var(--color-element-beige);
+  font-family: 'VP Pixel' !important;
+  font-weight: normal !important;
 }
 
 .o-downloadableItem {
@@ -52,7 +54,6 @@
 
   &__name {
     font-size: var(--font-big);
-    font-family: 'Philosopher';
     margin: 0 0 4px 0;
   }
 
@@ -81,9 +82,7 @@
   &__enchants {
     display: flex;
 
-    @include mediaMobile {
-      flex-direction: column;
-    }
+    flex-direction: column;
 
     li {
       padding-top: 2  px;
