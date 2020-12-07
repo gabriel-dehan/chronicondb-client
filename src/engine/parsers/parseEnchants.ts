@@ -1,10 +1,11 @@
 import { compact, capitalize, uniq } from 'lodash';
 
+import { allEnumValues } from '../../helpers/typeUtils';
 import { Enchant, EnchantRanges, EnchantRangeBoundary, EnchantType, EnchantCategory } from '../../types/Enchant.types';
-import { Item, ItemRarity } from '../../types/Item.types';
+import { Item, ItemRarity, ItemType } from '../../types/Item.types';
+import enchantsPool from '../data/enchantsPool.json';
 import { readSourceFile, readInjectedSourceFile, readExtractFile, writeFile } from '../utils/fileUtils';
 import { getLocaleSection, parseLocaleData, LocaleData } from './parseLocale';
-
 interface EnchantsLocaleData {
   powerLocales: LocaleData;
   enchantLocales: LocaleData;
@@ -42,6 +43,7 @@ export function parseEnchants(version: string, verbose = false): Enchant[] {
     const affixes = getAffixes(uuid, locale);
     const description = locale[uuid].txt;
     const items = findItems(uuid, itemsData);
+    const itemTypes = findItemTypes(uuid, type, category);
     const skills = findSkills(description);
 
     const enchant = {
@@ -53,6 +55,7 @@ export function parseEnchants(version: string, verbose = false): Enchant[] {
       description,
       ranges,
       items,
+      itemTypes,
       skills,
     };
 
@@ -146,6 +149,28 @@ function findItems(uuid: number, items: Item[]): number[] {
   return items
     .filter(item => item.fixedEnchants.includes(uuid))
     .map(item => item.uuid);
+}
+
+function findItemTypes(uuid: number, type: EnchantType, category: EnchantCategory): ItemType[] {
+  const pool = enchantsPool as unknown as Record<ItemType, Record<EnchantType, number[]>>;
+
+  const itemTypes = allEnumValues(ItemType).filter((itemType: ItemType) => {
+    const enchants = pool[itemType] && pool[itemType][type];
+
+    return enchants ?
+      !!enchants.find(enchantUuid => enchantUuid === uuid)
+      : false;
+  });
+
+  if (category === EnchantCategory.Gem) {
+    itemTypes.push(ItemType.CubeGem);
+    itemTypes.push(ItemType.SphereGem);
+    itemTypes.push(ItemType.StarGem);
+  } else if (category === EnchantCategory.Rune || category === EnchantCategory.Power) {
+    itemTypes.push(ItemType.Rune);
+  }
+
+  return itemTypes;
 }
 
 function findSkills(description: string): number[] | undefined {

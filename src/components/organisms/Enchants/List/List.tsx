@@ -12,7 +12,6 @@ interface Props {
 const List: FunctionComponent<Props> = ({
   enchants,
 }) => {
-  console.log(enchants);
 
   return (
     <div className="o-enchantsList">
@@ -24,7 +23,7 @@ const List: FunctionComponent<Props> = ({
                 Enchant
               </h3>
               <h3 className="o-enchantsList__header__thead">
-                Item Types
+                Affixes
               </h3>
             </div>
           </div>

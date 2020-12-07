@@ -90,7 +90,7 @@ const EnchantsPool: FunctionComponent = () => {
     });
   }
 
-  // TODO: Refactor with AppliedEnchant
+  // TODO: Refactor with AppliedEnchant and enchant page
   function renderDescription(enchant: Enchant) {
     let finalNodes = null;
 

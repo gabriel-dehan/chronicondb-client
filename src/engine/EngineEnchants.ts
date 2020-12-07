@@ -45,7 +45,7 @@ export default class EngineEnchants {
   public onDataLoaded() {
     this.enchantsPool = this.hydrateEnchantsPool();
     this.searchEngine.removeAll();
-    this.searchEngine.addAll(this.data.itemsSearchIndex);
+    this.searchEngine.addAll(this.data.enchantsSearchIndex);
   }
 
   /* Methods */

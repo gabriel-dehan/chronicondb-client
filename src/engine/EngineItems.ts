@@ -1,4 +1,4 @@
-import { compact } from 'lodash';
+import { compact, findKey } from 'lodash';
 import Minisearch from 'minisearch';
 
 import { ITEM_TYPES_BY_CATEGORIES } from 'engine/data/dataMappings';
@@ -31,13 +31,17 @@ const FILTER_UNAFFECTED_CATEGORIES = [
 export default class EngineItems {
   public readonly engine: Engine;
   public categories: ItemCategory[];
+  public types: ItemType[];
   public typesByCategories: Record<ItemCategory, ItemType[]>;
+  public categoriesByType: Record<ItemType, ItemCategory>;
   private searchEngine: Minisearch;
 
   constructor(engine: Engine) {
     this.engine = engine;
+    this.types = allEnumValues(ItemType);
     this.categories = allEnumValues(ItemCategory);
     this.typesByCategories = ITEM_TYPES_BY_CATEGORIES;
+    this.categoriesByType = this._categoriesByType();
     this.searchEngine = new Minisearch({
       idField: 'uuid',
       fields: ['name', 'classRestriction', 'enchants', 'setName', 'setBonuses'],
@@ -200,5 +204,16 @@ export default class EngineItems {
       default:
         return items;
     }
+  }
+
+  private _categoriesByType(): Record<ItemType, ItemCategory> {
+    // @ts-ignore
+    return this.types.reduce((memo: Record<ItemType, ItemCategory>, type) => {
+      memo[type] = findKey(this.typesByCategories, types =>
+        types.includes(type)
+      ) as ItemCategory;
+
+      return memo;
+    }, {});
   }
 }

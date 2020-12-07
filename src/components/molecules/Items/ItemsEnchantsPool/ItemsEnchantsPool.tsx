@@ -123,7 +123,7 @@ const ItemsEnchantsPool: FunctionComponent<Props> = ({
     });
   }
 
-  // TODO: Refactor with AppliedEnchant
+  // TODO: Refactor with AppliedEnchant and Enchant page
   function renderDescription(enchant: Enchant) {
     const replacedRanges = replaceWithJSX(enchant.description, /(AMOUNT)/, (_, i) => {
       return (

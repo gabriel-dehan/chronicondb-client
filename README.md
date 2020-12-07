@@ -80,8 +80,8 @@ There you go, chronicondb is now up to date.
   - [?] React infinite scroller
 - [ ] Skill links react-router
 - [ ] Set items links react-router
-- [ ] Enchants
-- [x] Enchants Search Index (item types ?)
+- [x] Enchants
+  - [] Enchants Search Index (item types)
 - [ ] Skills
 - [x] Skills Search Index (items types, enchants)
 - [ ] Map item category - types automatically in the item parser (reduce uniq should do the trick)

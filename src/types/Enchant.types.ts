@@ -9,6 +9,7 @@ export interface Enchant {
   description: string;
   ranges: EnchantRanges;
   items: number[];
+  itemTypes: ItemType[];
   skills?: number[];
 }
 

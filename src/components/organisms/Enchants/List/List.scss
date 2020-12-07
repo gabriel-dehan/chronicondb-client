@@ -24,4 +24,10 @@
       text-transform: uppercase;
     }
   }
+
+  &__noEnchant {
+    font-size: var(--font-big);
+    padding: 34px;
+    text-align: center;
+  }
 }
