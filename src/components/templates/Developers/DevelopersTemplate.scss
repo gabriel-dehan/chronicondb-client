@@ -1,0 +1,73 @@
+@import "responsive.scss";
+
+.t-developers {
+  padding: 36px 48px;
+  font-family: 'Kufam';
+
+  @include mediaUpToSmallTablet {
+    padding: 18px 28px;
+  }
+
+  h1 {
+    font-family: 'Philosopher';
+    color: var(--color-element-beige);
+    line-height: 1.2em;
+  }
+
+  h2, h3 {
+    margin-top: 1.2em;
+  }
+
+  p {
+    line-height: 1.5em;
+  }
+
+  strong {
+    color: var(--color-element-white);
+  }
+
+  a {
+    color: var(--color-element-yellow);
+
+    &:hover {
+      color: var(--color-element-light-orange);
+    }
+  }
+
+  pre {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    line-height: 1.2em;
+    overflow: scroll;
+
+    strong {
+      color: var(--color-element-light-orange);
+    }
+  }
+
+  &__tldr, pre {
+    padding: 18px;
+    background-color: #2a2724;
+    border-radius: 4px;
+  }
+
+  code {
+    background-color: #3b3632;
+    padding: 2px 8px;
+    border-radius: 4px;
+
+    strong {
+      color: var(--color-element-light-orange);
+    }
+  }
+
+  ul {
+    padding-left: 1.4em;
+    margin: 12px 0;
+
+    li {
+      padding: 4px 0;
+    }
+  }
+}

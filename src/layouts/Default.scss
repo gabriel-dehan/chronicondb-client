@@ -10,6 +10,8 @@
 
 .p-wrapper {
   min-height: calc(100vh - 40px - 60px);
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .p-content {

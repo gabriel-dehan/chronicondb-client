@@ -40,40 +40,42 @@ const Header: FunctionComponent = () => {
   function renderDesktopHeader() {
     return (
       <header className="o-header">
-        <div className="o-header__left">
-          <h1 className="o-header__logo">ChroniconDB</h1>
-          <ul className="o-header__main-menu">
-            {MAIN_MENU_ITEMS.map((menuItem) => {
-              const menuRouteId: RouteId = ROUTES_ID_MAPPING[menuItem.path];
-              const { path } = menuItem;
-              const isCurrent = pathname === path;
+        <div className="o-header__container">
+          <div className="o-header__left">
+            <h1 className="o-header__logo">ChroniconDB</h1>
+            <ul className="o-header__main-menu">
+              {MAIN_MENU_ITEMS.map((menuItem) => {
+                const menuRouteId: RouteId = ROUTES_ID_MAPPING[menuItem.path];
+                const { path } = menuItem;
+                const isCurrent = pathname === path;
 
-              return (
-                <li
-                  className={`o-header__main-menu-item ${isCurrent ? 'current' : ''}`}
-                  key={menuRouteId}
-                >
-                  <Link to={path}>{menuRouteId}</Link>
-                </li>
-              );
-            })}
+                return (
+                  <li
+                    className={`o-header__main-menu-item ${isCurrent ? 'current' : ''}`}
+                    key={menuRouteId}
+                  >
+                    <Link to={path}>{menuRouteId}</Link>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+          <ul className="o-header__sub-menu">
+            <li className="o-header__sub-menu-item">
+              <div className="o-header__sub-menu-patches">
+                <Dropdown
+                  label="Patch:"
+                  defaultValue={filters.patch}
+                  options={patches.map(patch => ({ label: patch, value: patch }))}
+                  onChange={onPatchChange}
+                />
+              </div>
+            </li>
+            <li className={`o-header__sub-menu-item ${pathname === RoutePath.Developers ? 'current' : ''}`}>
+              <Link to={RoutePath.Developers}>{RouteId.Developers}</Link>
+            </li>
           </ul>
         </div>
-        <ul className="o-header__sub-menu">
-          <li className="o-header__sub-menu-item">
-            <div className="o-header__sub-menu-patches">
-              <Dropdown
-                label="Patch:"
-                defaultValue={filters.patch}
-                options={patches.map(patch => ({ label: patch, value: patch }))}
-                onChange={onPatchChange}
-              />
-            </div>
-          </li>
-          <li className={`o-header__sub-menu-item ${pathname === RoutePath.Developers ? 'current' : ''}`}>
-            <Link to={RoutePath.Developers}>{RouteId.Developers}</Link>
-          </li>
-        </ul>
       </header>
     );
   }
@@ -81,48 +83,50 @@ const Header: FunctionComponent = () => {
   function renderMobileHeader() {
     return (
       <header className="o-header">
-        <div className="o-header__left">
-          <h1 className="o-header__logo">ChroniconDB</h1>
-        </div>
-        <div className="o-header__right" onClick={() => setIsMobileMenuOpen(true)}>
-          <Icon name={IconName.Menu} width={28} />
-        </div>
-        <Drawer
-          className="o-header__menuMobile"
-          open={isMobileMenuOpen}
-          onClose={() => setIsMobileMenuOpen(false)}
-          handler={false}
-          width="50vw"
-          placement={'right'}
-        >
-          <ul className="o-header__menuMobile-items">
-            {MAIN_MENU_ITEMS.map((menuItem) => {
-              const menuRouteId: RouteId = ROUTES_ID_MAPPING[menuItem.path];
-              const { path } = menuItem;
-              const isCurrent = pathname === path;
+        <div className="o-header__container">
+          <div className="o-header__left">
+            <h1 className="o-header__logo">ChroniconDB</h1>
+          </div>
+          <div className="o-header__right" onClick={() => setIsMobileMenuOpen(true)}>
+            <Icon name={IconName.Menu} width={28} />
+          </div>
+          <Drawer
+            className="o-header__menuMobile"
+            open={isMobileMenuOpen}
+            onClose={() => setIsMobileMenuOpen(false)}
+            handler={false}
+            width="50vw"
+            placement={'right'}
+          >
+            <ul className="o-header__menuMobile-items">
+              {MAIN_MENU_ITEMS.map((menuItem) => {
+                const menuRouteId: RouteId = ROUTES_ID_MAPPING[menuItem.path];
+                const { path } = menuItem;
+                const isCurrent = pathname === path;
 
-              return (
-                <li
-                  className={`o-header__menuMobile-item ${isCurrent ? 'current' : ''}`}
-                  key={menuRouteId}
-                >
-                  <Link to={path} onClick={() => setIsMobileMenuOpen(false)}>{menuRouteId}</Link>
-                </li>
-              );
-            })}
-            <li className={`o-header__menuMobile-item ${pathname === RoutePath.Developers ? 'current' : ''}`}>
-              <Link to={RoutePath.Developers} onClick={() => setIsMobileMenuOpen(false)}>{RouteId.Developers}</Link>
-            </li>
-            <li className="o-header__menuMobile-item patch">
-              <Dropdown
-                label="Patch:"
-                defaultValue={filters.patch}
-                options={patches.map(patch => ({ label: patch, value: patch }))}
-                onChange={onPatchChange}
-              />
-            </li>
-          </ul>
-        </Drawer>
+                return (
+                  <li
+                    className={`o-header__menuMobile-item ${isCurrent ? 'current' : ''}`}
+                    key={menuRouteId}
+                  >
+                    <Link to={path} onClick={() => setIsMobileMenuOpen(false)}>{menuRouteId}</Link>
+                  </li>
+                );
+              })}
+              <li className={`o-header__menuMobile-item ${pathname === RoutePath.Developers ? 'current' : ''}`}>
+                <Link to={RoutePath.Developers} onClick={() => setIsMobileMenuOpen(false)}>{RouteId.Developers}</Link>
+              </li>
+              <li className="o-header__menuMobile-item patch">
+                <Dropdown
+                  label="Patch:"
+                  defaultValue={filters.patch}
+                  options={patches.map(patch => ({ label: patch, value: patch }))}
+                  onChange={onPatchChange}
+                />
+              </li>
+            </ul>
+          </Drawer>
+        </div>
       </header>
     );
   }

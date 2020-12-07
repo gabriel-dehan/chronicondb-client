@@ -11,6 +11,7 @@ import ScrollToTop from 'components/atoms/ScrollToTop/ScrollToTop';
 import useEngine from 'hooks/useEngine';
 import { useStores } from 'hooks/useStores';
 import Layout from 'layouts/Default';
+import DevelopersPage from 'pages/developers/Developers';
 import EnchantsPage from 'pages/enchants/Enchants';
 import ItemPage from 'pages/items/Item';
 import ItemsPage from 'pages/items/Items';
@@ -57,7 +58,7 @@ const Main: FunctionComponent =  () => {
                 <Route exact path={RoutePath.Enchants} component={EnchantsPage} />
                 <Route exact path={RoutePath.Skills} component={EnchantsPage} />
                 <Route exact path={RoutePath.Skill} component={EnchantsPage} />
-                <Route exact path={RoutePath.Developers} component={EnchantsPage} />
+                <Route exact path={RoutePath.Developers} component={DevelopersPage} />
 
                 <Route>
                   <Redirect to={RoutePath.Items} />

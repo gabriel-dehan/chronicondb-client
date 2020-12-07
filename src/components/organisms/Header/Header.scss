@@ -1,15 +1,29 @@
 @import "responsive.scss";
 
 .o-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 40px;
-  width: 100%;
-  height: 60px;
-
   background-color: var(--color-background-black);
   border-bottom: 1px solid var(--color-element-dark-brown);
+  width: 100%;
+  background: linear-gradient(90deg, #11100f 80%, #191715 81%);
+  // background: linear-gradient(90deg, rgba(17,16,15,1) 73%, rgba(25,23,21,1) 74%);
+
+  // @include mediaUpToDesktop {
+  //   background: linear-gradient(90deg, #11100f 80%, #191715 81%);
+  // }
+
+  @include mediaUpToSmallTablet {
+    background: var(--color-background-black);
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    height: 60px;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
 
   &__logo {
     display: inline-block;
@@ -36,7 +50,7 @@
   &__main-menu {
     height: 100%;
     display: inline-block;
-    padding: 18px 45px 14px 0;
+    padding: 20px 45px 14px 0;
     padding-left: 45px;
 
     &-item {
@@ -82,7 +96,7 @@
       z-index: 2;
       height: 100%;
       display: inline-block;
-      padding: 20px 30px 14px 30px;
+      padding: 22px 30px 14px 30px;
       transform: skew(25deg, 0deg);
 
       background: var(--color-background-light-black);
