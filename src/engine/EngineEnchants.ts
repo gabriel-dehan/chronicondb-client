@@ -37,7 +37,7 @@ export default class EngineEnchants {
     this.types = allEnumValues(EnchantType);
     this.searchEngine = new Minisearch({
       idField: 'uuid',
-      fields: ['name', 'category', 'description'],
+      fields: ['name', 'category', 'description', 'itemTypes', 'itemCategories'],
       storeFields: ['uuid'],
     });
   }

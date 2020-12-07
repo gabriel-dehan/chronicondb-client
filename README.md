@@ -62,7 +62,8 @@ There you go, chronicondb is now up to date.
 
 ## Roadmap
 
-- [ ] TODOS
+### Release
+
 - [x] Parsing
   - [x] Auto add version to versions file
 - [x] Layout
@@ -76,18 +77,24 @@ There you go, chronicondb is now up to date.
   - [x] Badge
   - [x] Gems matching
   - [x] Order by REQ LVL
-  - [~] Items image generator
+  - [x] Items image generator
+  - [x] Skill links react-router
+  - [x] Set items links react-router
   - [?] React infinite scroller
-- [ ] Skill links react-router
-- [ ] Set items links react-router
 - [x] Enchants page
-  - [] Enchants Search Index (item types)
+  - [x] Enchants Search Index (item types)
 - [ ] Skills page
-  - [x] Skills Search Index (items types, enchants)
+  - [~] Skills Search Index (items types, enchants)
 - [ ] Help page
 - [ ] Developers page
-- [ ] Map item category - types automatically in the item parser (reduce uniq should do the trick)
 - [ ] SEO
+- [ ] GA
+
+### After release
+- [ ] Create issues for `TODO:`
+- [ ] Map item category - types automatically in the item parser (reduce uniq should do the trick)
+
+
 
 ## License
 

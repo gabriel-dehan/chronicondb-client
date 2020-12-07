@@ -1,8 +1,10 @@
-import { compact } from 'lodash';
+import { compact, findKey, uniq } from 'lodash';
 
+import { allEnumValues } from '../../helpers/typeUtils';
 import { Enchant } from '../../types/Enchant.types';
-import { Item, ItemSet } from '../../types/Item.types';
+import { Item, ItemSet, ItemType, ItemCategory } from '../../types/Item.types';
 import { Skill } from '../../types/Skill.types';
+import { ITEM_TYPES_BY_CATEGORIES } from '../data/dataMappings';
 import { readExtractFile, writeFile } from '../utils/fileUtils';
 
 interface Data {
@@ -63,6 +65,16 @@ function generateEnchantsSearchIndex(version: string, data: Data) {
   const index: Record<string, string | number>[] = [];
   const { enchants, skills } = data;
 
+  //@ts-ignore
+  const categoriesByType: Record<ItemType, ItemCategory> = allEnumValues(ItemType)
+    .reduce((memo: Record<ItemType, ItemCategory>, type) => {
+      memo[type] = findKey(ITEM_TYPES_BY_CATEGORIES, types =>
+        types.includes(type)
+      ) as ItemCategory;
+
+      return memo;
+    }, {});
+
   enchants.forEach((enchant) => {
     const indexedEnchant: Record<string, string | number> = {
       uuid: enchant.uuid,
@@ -76,6 +88,8 @@ function generateEnchantsSearchIndex(version: string, data: Data) {
             return skill ? skill.name : 'Unknown Skill';
           })
         : '',
+      itemTypes: uniq(enchant.itemTypes).join(', '),
+      itemCategories: uniq(enchant.itemTypes.map(itemType => categoriesByType[itemType])).join(', '),
     };
 
     index.push(indexedEnchant);
