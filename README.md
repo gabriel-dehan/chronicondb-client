@@ -68,7 +68,7 @@ There you go, chronicondb is now up to date.
 - [x] Layout
   - [x] Fix header overflow
   - [x] Responsiveness
-- [x] Items
+- [x] Items page
   - [x] Handle Sets in rarity filter
   - [x] Runes possible enchants
   - [x] Item page
@@ -80,10 +80,12 @@ There you go, chronicondb is now up to date.
   - [?] React infinite scroller
 - [ ] Skill links react-router
 - [ ] Set items links react-router
-- [x] Enchants
+- [x] Enchants page
   - [] Enchants Search Index (item types)
-- [ ] Skills
-- [x] Skills Search Index (items types, enchants)
+- [ ] Skills page
+  - [x] Skills Search Index (items types, enchants)
+- [ ] Help page
+- [ ] Developers page
 - [ ] Map item category - types automatically in the item parser (reduce uniq should do the trick)
 - [ ] SEO
 
