@@ -99,6 +99,7 @@ There you go, chronicondb is now up to date.
 ### After release
 - [ ] Create issues for `TODO:`
 - [ ] Map item category - types automatically in the item parser (reduce uniq should do the trick)
+- [ ] Update or change the infinite scroll to support react 17+
 
 
 

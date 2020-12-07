@@ -178,7 +178,11 @@ const DevelopersTemplate: FunctionComponent = () => {
             Think of it as your homework if you will. Hint: it's not in the Engine.
           </p>
 
-          That's all I could think of for now, hope it helped.
+          <p>
+            Use the data as you like, the same goes for the code. If you want to take out the parsers and use them directly into your own projects, do it.<br />
+            <a href="http://www.wtfpl.net/about/">Do whatever the fuck you want</a> with all this.<br /><br />
+            That's all I could think of for now, hope it helped.
+          </p>
         </p>
       </div>
     </>

@@ -183,7 +183,8 @@ export default class EngineItems {
 
   private sortBy(items: Item[], filters: ItemsFilters) {
     if (!filters.orderBy) {
-      return items;
+      // Default sort is LevelDesc
+      return items.sort((a, b) => a.minLevel - b.minLevel);
     }
 
     switch (filters.orderBy) {
