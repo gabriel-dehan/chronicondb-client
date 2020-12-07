@@ -55,7 +55,6 @@ const Main: FunctionComponent =  () => {
                 <Route exact path={RoutePath.Items} component={ItemsPage} />
                 <Route exact path={RoutePath.Item} component={ItemPage} />
                 <Route exact path={RoutePath.Enchants} component={EnchantsPage} />
-                <Route exact path={RoutePath.Enchant} component={EnchantsPage} />
                 <Route exact path={RoutePath.Skills} component={EnchantsPage} />
                 <Route exact path={RoutePath.Skill} component={EnchantsPage} />
                 <Route exact path={RoutePath.Developers} component={EnchantsPage} />

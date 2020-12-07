@@ -55,6 +55,7 @@
     "eject": "react-scripts eject",
     "lint": "eslint src/**/*.{ts,tsx}",
     "lint:fix": "eslint --fix src/**/*.{ts,tsx}",
+    "build:sitemap": "ts-node -O '{ \"module\":\"commonjs\" }' src/sitemap-builder.jsx",
     "parse:all": "ts-node -O '{ \"module\":\"commonjs\" }' src/engine/parsers/parseAll.ts --version",
     "parse:all:debug": "ts-node -O '{ \"module\":\"commonjs\" }' src/engine/parsers/parseAll.ts --verbose --version"
   },
@@ -85,6 +86,7 @@
     "ejs": "^3.1.5",
     "eslint-plugin-react-hooks": "^4.2.0",
     "gh-pages": "^3.1.0",
+    "react-router-sitemap": "^1.2.0",
     "ts-node": "^9.0.0"
   }
 }

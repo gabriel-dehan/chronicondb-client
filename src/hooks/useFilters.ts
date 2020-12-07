@@ -28,7 +28,6 @@ const AVAILABLE_FILTERS_FOR_ROUTES: Record<RoutePath, FiltersType[]> = {
   [RoutePath.Items]: [FiltersType.General, FiltersType.Items],
   [RoutePath.Item]: [],
   [RoutePath.Enchants]: [FiltersType.General, FiltersType.Enchants],
-  [RoutePath.Enchant]: [],
   [RoutePath.Skills]: [FiltersType.General, FiltersType.Skills],
   [RoutePath.Skill]: [],
   [RoutePath.Developers]: [FiltersType.General],

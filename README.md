@@ -87,11 +87,11 @@ There you go, chronicondb is now up to date.
 - [ ] Skills page
   - [~] Skills Search Index (items types, enchants)
   - [ ] Skill page
-- [ ] Developers page
-- [ ] SEO
-  - [ ] Helmet
-  - [ ] Robot.txt
-  - [ ] Sitemap
+- [ ] Developers page - nofollow links
+- [x] SEO
+  - [x] Helmet
+  - [x] Robot.txt
+  - [x] Sitemap
 - [x] GA
 
 ### After release
