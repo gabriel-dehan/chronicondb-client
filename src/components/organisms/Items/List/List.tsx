@@ -1,4 +1,4 @@
-import React, { FunctionComponent, useState } from 'react';
+import React, { FunctionComponent, useEffect, useState } from 'react';
 import InfiniteScroll from 'react-infinite-scroll-component';
 
 import { chunk } from 'lodash';
@@ -16,9 +16,15 @@ interface Props {
 
 const List: FunctionComponent<Props> = ({ items }) => {
   const currentType = items[0]?.type;
-  const perPage = 20;
-  const itemsChunks = chunk(items, perPage);
+  const perPage = 10;
+  const [itemsChunks, setItemsChunks] = useState<ItemInterface[][]>(chunk(items, perPage));
   const [paginatedItems, setPaginatedItems] = useState<ItemInterface[]>(itemsChunks[0]);
+
+  useEffect(() => {
+    const chunks = chunk(items, perPage);
+    setItemsChunks(chunks);
+    setPaginatedItems(chunks[0]);
+  }, [items]);
 
   return (
     <div className="o-itemsList">
@@ -51,8 +57,7 @@ const List: FunctionComponent<Props> = ({ items }) => {
 
   function fetchNextItems() {
     const currentChunk = Math.round(paginatedItems.length / perPage) - 1;
-    console.log(currentChunk);
-    setPaginatedItems([...paginatedItems, ...itemsChunks[currentChunk]]);
+    setPaginatedItems([...paginatedItems, ...itemsChunks[currentChunk + 1]]);
   }
 };
 
