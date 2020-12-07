@@ -67,3 +67,5 @@ hydratedPool[itemType] = reduce(poolByEnchantType, (hydratedPoolTypes: HydratedP
   return hydratedPoolTypes;
 }, {});
 ```
+
+  "homepage": "https://gabriel-dehan.github.io/chronicondb-client",
