@@ -31,7 +31,6 @@ const AVAILABLE_FILTERS_FOR_ROUTES: Record<RoutePath, FiltersType[]> = {
   [RoutePath.Enchant]: [],
   [RoutePath.Skills]: [FiltersType.General, FiltersType.Skills],
   [RoutePath.Skill]: [],
-  [RoutePath.Help]: [],
   [RoutePath.Developers]: [FiltersType.General],
 };
 
@@ -52,7 +51,7 @@ export default function useFilters
 
     autorun(() => {
       history.replace({
-        search: filtersStore.toQueryString(AVAILABLE_FILTERS_FOR_ROUTES[path]),
+        search: filtersStore.toQueryString(AVAILABLE_FILTERS_FOR_ROUTES[path] || []),
       });
     });
   }, [location.pathname]);

@@ -6,6 +6,7 @@ import Icon, { IconName } from 'components/atoms/Icon/Icon';
 import EnchantsPool from 'components/organisms/Items/EnchantsPool/EnchantsPool';
 import Item from 'components/organisms/Items/Item/Item';
 import useEngine from 'hooks/useEngine';
+import useSeo from 'hooks/useSeo';
 import { RoutePath } from 'routes';
 
 import './ItemTemplate.scss';
@@ -14,9 +15,14 @@ const ItemTemplate: FunctionComponent = () => {
   const { uuid } = useParams<{ uuid: string }>();
   const Engine = useEngine();
   const item = Engine.Items.find(parseInt(uuid));
+  const Seo = useSeo({
+    title: item ? item.name : 'Item not found',
+    description: item ? `Find all the information about ${item.name}` : 'Item not found',
+  });
 
   return (
     <>
+      <Seo />
       <div className="t-item">
         {item ? (
           <>

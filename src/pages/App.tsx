@@ -1,5 +1,6 @@
 import React, { FunctionComponent, useState } from 'react';
 import { useAsync } from 'react-async-hook';
+import { HelmetProvider } from 'react-helmet-async';
 
 import { Provider } from 'mobx-react';
 
@@ -21,11 +22,13 @@ const App: FunctionComponent = () => {
   }
 
   return (
-    <Provider {...stores}>
-      <EngineContext.Provider value={engine}>
-        <Main />
-      </EngineContext.Provider>
-    </Provider>
+    <HelmetProvider>
+      <Provider {...stores}>
+        <EngineContext.Provider value={engine}>
+          <Main />
+        </EngineContext.Provider>
+      </Provider>
+    </HelmetProvider>
   );
 
   // return (

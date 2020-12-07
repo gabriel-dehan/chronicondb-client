@@ -69,6 +69,7 @@ There you go, chronicondb is now up to date.
 - [x] Layout
   - [x] Fix header overflow
   - [x] Responsiveness
+  - [ ] Max width
 - [x] Items page
   - [x] Handle Sets in rarity filter
   - [x] Runes possible enchants
@@ -85,10 +86,13 @@ There you go, chronicondb is now up to date.
   - [x] Enchants Search Index (item types)
 - [ ] Skills page
   - [~] Skills Search Index (items types, enchants)
-- [ ] Help page
+  - [ ] Skill page
 - [ ] Developers page
 - [ ] SEO
-- [ ] GA
+  - [ ] Helmet
+  - [ ] Robot.txt
+  - [ ] Sitemap
+- [x] GA
 
 ### After release
 - [ ] Create issues for `TODO:`
