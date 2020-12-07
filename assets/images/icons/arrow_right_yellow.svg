@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="6px" height="11px" viewBox="0 0 6 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Atoms / Icons / Arrow down</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.968627 0 0 0 0 0.760784 0 0 0 0 0.000000 0 0 0 0.503551 0"></feColorMatrix>
+        </filter>
+        <path d="M11.5195149,5.28390718 C11.9153768,4.90536427 12.5552115,4.90536427 12.9510734,5.28390718 C13.3496422,5.66503866 13.3496422,6.28496134 12.9510734,6.66609282 L8.71577924,10.7160928 C8.31991737,11.0946357 7.68008263,11.0946357 7.28422076,10.7160928 L3.04892665,6.66609282 C2.65035778,6.28496134 2.65035778,5.66503866 3.04892665,5.28390718 C3.44478852,4.90536427 4.08462325,4.90536427 4.48048512,5.28390718 L8,8.64944329 L11.5195149,5.28390718 Z" id="path-2"></path>
+    </defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-517.000000, -399.000000)">
+            <g id="ItemGroupSet" transform="translate(268.120000, 172.423077)">
+                <g id="Set" transform="translate(0.640000, 208.576923)">
+                    <g id="Atoms-/-Icons-/-Arrow-down" transform="translate(243.240000, 15.615385)" filter="url(#filter-1)">
+                        <g transform="translate(8.000000, 8.000000) rotate(-90.000000) translate(-8.000000, -8.000000) ">
+                            <mask id="mask-3" fill="white">
+                                <use xlink:href="#path-2"></use>
+                            </mask>
+                            <use id="ico/arrow_down-16" fill="#000000" xlink:href="#path-2"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
