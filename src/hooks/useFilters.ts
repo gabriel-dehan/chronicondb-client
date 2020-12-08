@@ -49,9 +49,13 @@ export default function useFilters
     ) as RoutePath;
 
     autorun(() => {
-      history.replace({
-        search: filtersStore.toQueryString(AVAILABLE_FILTERS_FOR_ROUTES[path] || []),
-      });
+      const filtersForPath = AVAILABLE_FILTERS_FOR_ROUTES[path];
+
+      if (filtersForPath.length > 0) {
+        history.replace({
+          search: filtersStore.toQueryString(filtersForPath || []),
+        });
+      }
     });
   }, [location.pathname]);
 

@@ -110,7 +110,7 @@ const EnchantsPool: FunctionComponent = () => {
     if (enchant.skills) {
       const replacedSkills = replaceWithJSX(replacedRanges, /<SKILL_(\d+)>/g, (match, i, offset) => {
         const skillId = parseInt(match);
-        const skillName = Engine.Skills.getSkillById(skillId)?.name;
+        const skillName = Engine.Skills.find(skillId)?.name;
 
         if (skillName) {
           return (

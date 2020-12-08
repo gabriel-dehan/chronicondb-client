@@ -1,19 +1,27 @@
 import React, { FunctionComponent } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useLocation } from 'react-router-dom';
 import { Link } from 'react-router-dom';
+
+import { isEmpty } from 'lodash';
+import qs from 'query-string';
 
 import Icon, { IconName } from 'components/atoms/Icon/Icon';
 import Skill from 'components/organisms/Skills/Skill/Skill';
 import useEngine from 'hooks/useEngine';
 import useSeo from 'hooks/useSeo';
 import { RoutePath } from 'routes';
+import { CharacterClass } from 'types/Character.types';
 
 import './SkillTemplate.scss';
 
 const SkillTemplate: FunctionComponent = () => {
   const { uuid } = useParams<{ uuid: string }>();
+  const location = useLocation();
+  const queryParams = qs.parse(location.search);
+  const findParams = !isEmpty(queryParams) ? { class: queryParams.skillCharacterClass as CharacterClass } : undefined;
+
   const Engine = useEngine();
-  const skill = Engine.Skills.find(parseInt(uuid));
+  const skill = Engine.Skills.find(parseInt(uuid), findParams);
   const Seo = useSeo({
     title: skill ? skill.name : 'Skill not found',
     description: skill ? `Find all the information about ${skill.name}` : 'Skill not found',

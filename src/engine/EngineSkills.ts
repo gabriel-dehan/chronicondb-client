@@ -1,9 +1,14 @@
 import Minisearch from 'minisearch';
 
+import { CharacterClass } from 'types/Character.types';
 import { SkillsFilters } from 'types/Filters.types';
 import { Skill } from 'types/Skill.types';
 
 import Engine, { DataInterface } from './Engine';
+
+interface FindParams {
+  class: CharacterClass;
+}
 
 export default class EngineEnchants {
   public readonly engine: Engine;
@@ -36,15 +41,15 @@ export default class EngineEnchants {
     return skills;
   }
 
-  public find(uuid: number): Skill | null {
-    return this.skills.find(skill => skill.uuid === uuid) || null;
+  public find(uuid: number, params?: FindParams): Skill | null {
+    if (params) {
+      return this.skills.find(skill => skill.uuid === uuid && skill.class === params.class) || null;
+    } else {
+      return this.skills.find(skill => skill.uuid === uuid) || null;
+    }
   }
 
-  getSkillById(uuid: number): Skill | null {
-    return this.data.skills.find(skill => skill.uuid === uuid) || null;
-  }
-
-  getSkillByName(name: string): Skill | null {
+  public findByName(name: string): Skill | null {
     return this.data.skills.find(skill => skill.name.toLowerCase() === name.toLowerCase()) || null;
   }
 

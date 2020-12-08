@@ -5,9 +5,10 @@ import replaceWithJSX from 'react-string-replace';
 import { camelCase, isString } from 'lodash';
 
 import GameIcon, { GameIconType } from 'components/atoms/GameIcon/GameIcon';
+import { allEnumValues } from 'helpers/typeUtils';
 import useEngine from 'hooks/useEngine';
 import { RoutePath } from 'routes';
-import { Skill as SkillInterface, SkillTree } from 'types/Skill.types';
+import { Skill as SkillInterface, SkillTree, SkillFamily } from 'types/Skill.types';
 
 import './Skill.scss';
 
@@ -18,6 +19,8 @@ const GENERIC_REPLACE_REGEX = /(?:\||~)((?:\w|\.|'|-|%|\s)+)¥/g;
 
 // TODO: Add this in the skills parser, automatically
 const DEFAULT_MASTERY_VALUE = 10;
+
+const SKILL_FAMILIES = allEnumValues(SkillFamily);
 
 interface Props {
   skill: SkillInterface,
@@ -45,7 +48,14 @@ const Skill: FunctionComponent<Props> = ({
           </span>
           <div className="o-skill__header-title">
             <h2 className="o-skill__header-name">
-              <Link to={RoutePath.Skill.replace(':uuid', skill.uuid.toString())} className="o-skill__header-title-link" target="__blank">
+              <Link
+                to={{
+                  pathname: RoutePath.Skill.replace(':uuid', skill.uuid.toString()),
+                  search: `?skillCharacterClass=${skill.class}`,
+                }}
+                className="o-skill__header-title-link"
+                target="__blank"
+              >
                 {skill.name}
               </Link>
             </h2>
@@ -79,7 +89,7 @@ const Skill: FunctionComponent<Props> = ({
     finalNodes = replaceWithJSX(skill.description, SKILLS_TEMPLATE_REGEX, (match, i, offset) => {
       replacementCounter++;
       const skillName = match.replace('|', '');
-      const skillId = Engine.Skills.getSkillByName(skillName)?.uuid;
+      const skillId = Engine.Skills.findByName(skillName)?.uuid;
 
       if (skillId) {
         return (
@@ -92,7 +102,7 @@ const Skill: FunctionComponent<Props> = ({
           </Link>
         );
       // It's a skill family
-      } else {
+      } else if (SKILL_FAMILIES.includes(skillName as SkillFamily)) {
         return (
           // TODO: In search add `skillsTree=Any&characterClass=CURRENT`
           <Link
@@ -102,6 +112,15 @@ const Skill: FunctionComponent<Props> = ({
           >
             {skillName}
           </Link>
+        );
+      } else {
+        return (
+          <em
+            key={`tpl-${safeUuid}-skill-${skillId}-${i}-${offset}`}
+            className="o-skill__description-skill-spell unknown"
+          >
+            {skillName}
+          </em>
         );
       }
     });
