@@ -61,7 +61,7 @@ Tinka commands:
 
 Those files will be located in your `%LOCALAPPDATA%\Chronicon` folder.
 
-- You will also need the `locale` folder that can be found in your `Program Files\Steam\steamapps\common\Chronicon` folder.
+- You will also need the `locale` folder that can be found in your `Program Files\Steam\steamapps\common\Chronicon` folder (or wherever you installed steam).
 - Copy all those inside this project's `src/engine/data/VERSION_NUMBER/sources` folder, where `VERSION_NUMBER` is the current version, e.g: `1.10.2`. You'll have to create this folder.
 
 You can then use the command `yarn parse:all VERSION_NUMBER`
@@ -115,7 +115,7 @@ If you are unfamiliar with the fork - branch - MR workflow, [read this guide](ht
   - [x] Items image generator
   - [x] Skill links react-router
   - [x] Set items links react-router
-  - [?] React infinite scroller
+  - [x] React infinite scroller
 - [x] Enchants page
   - [x] Enchants Search Index (item types)
 - [ ] Skills page
