@@ -1,6 +1,6 @@
 # Chronicon DB
 
-[ChroniconDB](https://chronicondb.com)
+Official website: [ChroniconDB](https://chronicondb.com)
 
 ## Table of Contents
 
@@ -18,7 +18,7 @@
 
 ## Acknowledgement
 
-This is a fan project. All data and game assets are the intellectual property of [Subworld Games](https://www.subworldgames.com/chronicon/).
+This is a fan project. All data and game assets are **not mine** and the intellectual property of [Subworld Games](https://www.subworldgames.com/chronicon/).
 
 ## Starting up
 
