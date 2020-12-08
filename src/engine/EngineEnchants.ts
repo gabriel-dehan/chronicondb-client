@@ -106,6 +106,7 @@ export default class EngineEnchants {
     return this.categoriesByTypes[this.defaultType][0];
   }
 
+  // TODO: Move this to a parser ?
   public get categoriesByTypes(): Record<EnchantType, EnchantCategory[]> {
     if (!this._categoriesByTypes) {
       const enchants = this.enchants.reduce((memo: Record<string, string[]>, enchant: Enchant) => {

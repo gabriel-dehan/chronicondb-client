@@ -2,18 +2,24 @@ import React, { FunctionComponent } from 'react';
 
 export enum GameIconType {
   ItemCategory = 'itemCategory',
-  EnchantType = 'enchantType',
   Item = 'item',
+  EnchantType = 'enchantType',
   Enchant = 'enchant',
+  SkillSpell = 'skillSpell',
+  SkillMastery = 'skillMastery',
+  SkillTree =  'skillTree'
 }
 
 const BASE_PATH = 'assets/images/game';
 
 const ICONS_PATH: Record<GameIconType, string> = {
   [GameIconType.ItemCategory]: `${BASE_PATH}/items/categories/`,
-  [GameIconType.EnchantType]: `${BASE_PATH}/enchants/types/`,
   [GameIconType.Item]: `${BASE_PATH}/items/all/`,
+  [GameIconType.EnchantType]: `${BASE_PATH}/enchants/types/`,
   [GameIconType.Enchant]: `${BASE_PATH}/enchants/`,
+  [GameIconType.SkillSpell]: `${BASE_PATH}/skills/skills/`,
+  [GameIconType.SkillMastery]: `${BASE_PATH}/skills/masteries/`,
+  [GameIconType.SkillTree]: `${BASE_PATH}/skills/trees/`,
 };
 
 export interface Props {

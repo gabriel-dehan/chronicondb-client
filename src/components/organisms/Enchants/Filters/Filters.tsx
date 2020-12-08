@@ -13,7 +13,7 @@ const Filters: FunctionComponent = () => {
     <div className="o-enchantFilters">
       <Search
         className="o-enchantFilters__search"
-        placeholder="Search"
+        placeholder="Search anything: Health, Movement, Weapons..."
         value={filters.search || ''}
         onChange={onSearchChange}
       />

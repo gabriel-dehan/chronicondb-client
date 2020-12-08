@@ -33,7 +33,7 @@ const Filters: FunctionComponent = () => {
     <div className="o-itemFilters">
       <Search
         className="o-itemFilters__search"
-        placeholder="Search"
+        placeholder="Search anything: Fire, Movement, Tornado..."
         value={filters.search || ''}
         onChange={onSearchChange}
       />

@@ -1,6 +1,7 @@
 import React, { FunctionComponent } from 'react';
 
 import Enchant from 'components/organisms/Enchants/Enchant/Enchant';
+import useInfiniteScroll from 'hooks/useInfiniteScroll';
 import { Enchant as EnchantInterface } from 'types/Enchant.types';
 
 import './List.scss';
@@ -12,6 +13,7 @@ interface Props {
 const List: FunctionComponent<Props> = ({
   enchants,
 }) => {
+  const { paginatedData, InfiniteScroll } =  useInfiniteScroll<EnchantInterface>(enchants, 10);
 
   return (
     <div className="o-enchantsList">
@@ -29,9 +31,11 @@ const List: FunctionComponent<Props> = ({
           </div>
           <div className="o-enchantsList__container">
             <div className="o-enchantsList__enchants">
-              {enchants.map(enchant => (
-                <Enchant key={`enchant-${enchant.uuid}`} enchant={enchant} />
-              ))}
+              <InfiniteScroll>
+                {paginatedData.map(enchant => (
+                  <Enchant key={`enchant-${enchant.uuid}`} enchant={enchant} />
+                ))}
+              </InfiniteScroll>
             </div>
           </div>
         </>

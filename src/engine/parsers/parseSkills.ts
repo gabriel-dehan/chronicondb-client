@@ -2,7 +2,7 @@ import { compact, reduce, map, isEmpty } from 'lodash';
 
 import { CharacterClass } from '../../types/Character.types';
 import { Skill, SkillTree, SkillFamily, SkillType, DamageElement } from '../../types/Skill.types';
-import { readSourceFile, writeFile } from '../utils/fileUtils';
+import { readSourceFile, writeFile, assetExists } from '../utils/fileUtils';
 
 export function parseSkills(version: string, verbose = false) {
   // We remove the first line as it contains the version number
@@ -43,8 +43,8 @@ export function parseSkills(version: string, verbose = false) {
 }
 
 function parseSkill(skill: Record<string, string>, skillTree: string, characterClass: string): Skill {
-  const { name, type, element, description } = skill;
-  const uuid = parseInt(skill.id);
+  const { id, name, type, element, description } = skill;
+  const uuid = parseInt(id);
   const family = skill.family === 'None' ? undefined : skill.family;
   const minLevel = skill.min_level ? parseInt(skill.min_level) : 0;
   const maxRank = parseInt(skill.max_rank);
@@ -62,12 +62,24 @@ function parseSkill(skill: Record<string, string>, skillTree: string, characterC
   const description_next = isEmpty(skill.description_next) ? undefined : skill.description_next;
   const cost = skill.cost1 ? parseInt(skill.cost1) : undefined;
   const cost100 = skill.cost100 ? parseInt(skill.cost100) : undefined;
+  const tree = skillTree as SkillTree;
+  let icon = null;
+
+  if (tree === SkillTree.Mastery) {
+    const iconId = parseInt(id.replace(/^100/, ''));
+    const hasIcon = assetExists(`skills/masteries/spr_masteryicons_${iconId}.png`);
+    icon = hasIcon ? `spr_masteryicons_${iconId}` : null;
+  } else {
+    const hasIcon = assetExists(`skills/skills/spr_spellicons_${id}.png`);
+    icon = hasIcon ? `spr_spellicons_${id}` : null;
+  }
 
   return {
     uuid,
     class: characterClass as CharacterClass,
-    tree: skillTree as SkillTree,
+    tree,
     name,
+    icon,
     type: type as SkillType,
     family: family as SkillFamily,
     minLevel,

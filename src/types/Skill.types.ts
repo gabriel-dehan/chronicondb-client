@@ -3,6 +3,7 @@ import { CharacterClass } from './Character.types';
 export interface Skill {
   uuid: number;
   name: string;
+  icon: string | null,
   tree: SkillTree;
   type?:  SkillType;
   family?: SkillFamily;

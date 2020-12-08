@@ -15,6 +15,7 @@ import DevelopersPage from 'pages/developers/Developers';
 import EnchantsPage from 'pages/enchants/Enchants';
 import ItemPage from 'pages/items/Item';
 import ItemsPage from 'pages/items/Items';
+import SkillPage from 'pages/skills/Skill';
 import { RoutePath } from 'routes';
 import { FiltersStore } from 'stores/FiltersStore';
 import { DataStore } from 'types/DataStore.types';
@@ -57,7 +58,7 @@ const Main: FunctionComponent =  () => {
                 <Route exact path={RoutePath.Item} component={ItemPage} />
                 <Route exact path={RoutePath.Enchants} component={EnchantsPage} />
                 <Route exact path={RoutePath.Skills} component={EnchantsPage} />
-                <Route exact path={RoutePath.Skill} component={EnchantsPage} />
+                <Route exact path={RoutePath.Skill} component={SkillPage} />
                 <Route exact path={RoutePath.Developers} component={DevelopersPage} />
 
                 <Route>

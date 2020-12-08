@@ -2,7 +2,7 @@ import React, { FunctionComponent } from 'react';
 import { Link } from 'react-router-dom';
 import replaceWithJSX from 'react-string-replace';
 
-import { camelCase, uniq, map } from 'lodash';
+import { camelCase, uniq } from 'lodash';
 
 import Badge from 'components/atoms/Badge/Badge';
 import GameIcon, { GameIconType } from 'components/atoms/GameIcon/GameIcon';
@@ -168,14 +168,15 @@ const Enchant: FunctionComponent<Props> = ({
     });
 
     if (enchant.skills) {
-      const replacedSkills = replaceWithJSX(replacedRanges, /<SKILL_(\d+)>/g, (match, i) => {
+      const replacedSkills = replaceWithJSX(replacedRanges, /<SKILL_(\d+)>/g, (match, i, offset) => {
         const skillId = parseInt(match);
         const skillName = Engine.Skills.getSkillById(skillId)?.name;
+
         if (skillName) {
           return (
             <a
               href={`/skills?uuid=${skillId}`}
-              key={`tpl-${enchant.uuid}-skill-${skillId}-${i}`}
+              key={`tpl-${enchant.uuid}-skill-${skillId}-${i}-${offset}`}
               className="o-enchant__description-enchant-skill"
             >
               {skillName}
@@ -185,7 +186,7 @@ const Enchant: FunctionComponent<Props> = ({
           return (
             <a
               href={`/skills?uuid=${skillId}`}
-              key={`tpl-${enchant.uuid}-skill-${skillId}-${i}`}
+              key={`tpl-${enchant.uuid}-skill-${skillId}-${i}-${offset}`}
               className="o-enchant__description-enchant-skill unknown"
             >
               Unknown Skill
