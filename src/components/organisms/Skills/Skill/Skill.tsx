@@ -12,10 +12,11 @@ import { Skill as SkillInterface, SkillTree, SkillFamily } from 'types/Skill.typ
 
 import './Skill.scss';
 
-const SKILLS_TEMPLATE_REGEX = /\|((?:\w|\s|\|?)+)¥/g;
+const SKILLS_TEMPLATE_REGEX = /\|((?:\w|'|\s|\|?)+)¥/g;
 const DAMAGE_TYPES_TEMPLATE_REGEX = /(?:XDAM\s?)?_\w{3}_(\w+)¥/g;
 const VALUES_TEMPLATE_REGEX = /(EFFECT|DURATION|DAMAGE|VALUE|PROC|RANGE2|RANGE)/g;
 const GENERIC_REPLACE_REGEX = /(?:\||~)((?:\w|\.|'|-|%|\s)+)¥/g;
+const SINGLE_REPLACE_REGEX = /\|(\w+)/g;
 
 // TODO: Add this in the skills parser, automatically
 const DEFAULT_MASTERY_VALUE = 10;
@@ -88,7 +89,7 @@ const Skill: FunctionComponent<Props> = ({
 
     finalNodes = replaceWithJSX(skill.description, SKILLS_TEMPLATE_REGEX, (match, i, offset) => {
       replacementCounter++;
-      const skillName = match.replace('|', '');
+      const skillName = match.replace(/\|/g, '');
       const skillId = Engine.Skills.findByName(skillName)?.uuid;
 
       if (skillId) {
@@ -188,6 +189,19 @@ const Skill: FunctionComponent<Props> = ({
       );
     });
 
+    finalNodes = replaceWithJSX(finalNodes, SINGLE_REPLACE_REGEX, (match, i, offset) => {
+      replacementCounter++;
+
+      // TODO: Same color as spell unknown, spell unknown should be a different color than links
+      return (
+        <em
+          key={`tpl-skill-${safeUuid}-singleValue-${i}-${offset}-${replacementCounter}`}
+          className="o-skill__description-skill-singleValue"
+        >
+          {match}
+        </em>
+      );
+    });
 
     return finalNodes;
   }
