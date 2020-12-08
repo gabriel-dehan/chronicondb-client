@@ -1,10 +1,12 @@
 import React, { FunctionComponent, useState } from 'react';
+import { Link } from 'react-router-dom';
 import replaceWithJSX from 'react-string-replace';
 
 import { isString } from 'lodash';
 
 import Tabs from 'components/molecules/Tabs/Tabs';
 import useEngine from 'hooks/useEngine';
+import { RoutePath } from 'routes';
 import { EnchantType, Enchant } from 'types/Enchant.types';
 import { ItemRarity } from 'types/Item.types';
 
@@ -106,28 +108,29 @@ const EnchantsPool: FunctionComponent = () => {
     });
 
     if (enchant.skills) {
-      const replacedSkills = replaceWithJSX(replacedRanges, /<SKILL_(\d+)>/g, (match, i) => {
+      const replacedSkills = replaceWithJSX(replacedRanges, /<SKILL_(\d+)>/g, (match, i, offset) => {
         const skillId = parseInt(match);
         const skillName = Engine.Skills.getSkillById(skillId)?.name;
+
         if (skillName) {
           return (
-            <a
-              href={`/skills?uuid=${skillId}`}
-              key={`tpl-${enchant.uuid}-skill-${skillId}-${i}`}
+            <Link
+              key={`tpl-${enchant.uuid}-skill-${skillId}-${i}-${offset}`}
+              to={RoutePath.Skill.replace(':uuid', skillId.toString())}
               className="m-runesEnchantsPool__enchant__data-description-skill"
             >
               {skillName}
-            </a>
+            </Link>
           );
         } else {
           return (
-            <a
-              href={`/skills?uuid=${skillId}`}
-              key={`tpl-${enchant.uuid}-skill-${skillId}-${i}`}
+            <Link
+              key={`tpl-${enchant.uuid}-skill-${skillId}-${i}-${offset}`}
+              to={RoutePath.Skill.replace(':uuid', skillId.toString())}
               className="m-runesEnchantsPool__enchant__data-description-skill unknown"
             >
               Unknown Skill
-            </a>
+            </Link>
           );
         }
       });

@@ -69,4 +69,25 @@
   --color-enchant-dim-epic: rgba(136, 51, 208, 0.35);
   --color-enchant-dim-legendary: rgba(205, 127, 60, 0.35);
 
+  /* == SKILLS == */
+  /* -- Damage Types -- */
+  --color-damage-type-physical: #9DB1AB;
+  --color-damage-type-lightning: #00F0D8;
+  --color-damage-type-fire: #F04200;
+  --color-damage-type-holy: #ffec88;
+  --color-damage-type-ethereal: #DEDEDE;
+  --color-damage-type-poison: #808625;
+  --color-damage-type-shadow: #A200E1;
+  --color-damage-type-frost: #00ABE5;
+
+  /* IN GAME COLORS, used as reference
+  --color-damage-type-physical: #9DB1AB;
+  --color-damage-type-lightning: #00F0D8;
+  --color-damage-type-fire: #F04200;
+  --color-damage-type-holy: #FDD500;
+  --color-damage-type-ethereal: #DEDEDE;
+  --color-damage-type-poison: #808625;
+  --color-damage-type-shadow: #A200E1;
+  --color-damage-type-frost: #00ABE5; */
+
 }

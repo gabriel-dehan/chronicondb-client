@@ -1,0 +1,176 @@
+@import "responsive.scss";
+
+.o-itemCategories {
+  background-image: url('../../../../assets/images/textures/sidebar.png');
+  width: 240px;
+  color: var(--color-element-brown);
+  border-right: 1px solid var(--color-element-transparent-blue);
+
+  @include mediaUpToSmallTablet {
+    width: 100%;
+    height: 100%;
+  }
+
+  &__category {
+    cursor: pointer;
+    list-style: none;
+
+    .o-itemCategories__categoryName {
+      display: flex;
+      align-items: center;
+      height: 52px;
+      padding-left: 18px;
+      opacity: 0.8;
+
+      background-color: var(--color-background-dark-brown);
+      color: var(--color-element-light-beige);
+      border-bottom: 1px solid var(--color-element-mid-brown);
+
+      font-family: Philosopher;
+      font-size: var(--font-big);
+      font-weight: 700;
+      text-transform: uppercase;
+
+      &-arrow {
+        margin-right: 10px;
+        opacity: 0.6;
+      }
+
+      &-icon {
+        margin-left: auto;
+        margin-right: 12px;
+      }
+
+      &:hover {
+        opacity: 1;
+        color: var(--color-element-light-beige);
+        text-shadow: 0 0 6px rgba(172, 140, 87, 0.54), 0 0 10px rgba(172, 140, 87, 0.57);
+      }
+    }
+
+    &.selected {
+      .o-itemCategories__categoryName {
+        opacity: 1;
+
+        padding-left: 12px;
+        color: var(--color-element-light-beige);
+        text-shadow: 0 0 6px rgba(172, 140, 87, 0.54), 0 0 10px rgba(172, 140, 87, 0.57);
+
+        &-arrow {
+          margin-right: 8px;
+        }
+      }
+
+      .o-itemCategories__itemTypeName {
+        padding-left: 42px;
+      }
+
+      .o-itemCategories__itemTypes {
+        max-height: 1000px;
+        transition: max-height 0.5s ease-in-out;
+      }
+    }
+  }
+
+  &__itemTypes {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.35s cubic-bezier(0, 1, 0, 1);
+  }
+
+  &__itemType {
+    list-style: none;
+    cursor: pointer;
+
+    font-family: "Nunito Sans";
+    font-size: var(--font-normal);
+
+
+    .o-itemCategories__itemTypeName {
+      display: flex;
+      align-items: center;
+      height: 40px;
+      padding-left: 34px;
+      background-color: var(--color-element-darkest-brown);
+      border-bottom: 1px solid var(--color-element-dark-brown);
+      transition: all 0.2s;
+
+      &:hover {
+        color: var(--color-element-light-beige);
+      }
+    }
+
+
+    &.selected {
+      .o-itemCategories__itemTypeName {
+        color: var(--color-element-light-beige);
+      }
+    }
+  }
+
+  &__menuMobile {
+    .drawer-handle {
+      opacity: 0.8;
+      top: 130px;
+      top: 50px;
+
+      right: -48px !important;
+      width: 50px;
+      height: 48px;
+      background-color: var(--color-background-mid-brown);
+      border: 1px solid var(--color-element-mid-beige);
+
+      &::after {
+        content: '';
+        display: block;
+        background-image: url(/assets/images/game/items/categories/helmet.png);
+        background-repeat: no-repeat;
+        background-position: 100%;
+        background-size: 100%;
+        width: 68%;
+        height: 68%;
+      }
+
+      .drawer-handle-icon {
+        display: none
+      }
+    }
+
+    &.category-helmet .drawer-handle::after {
+      background-image: url(/assets/images/game/items/categories/helmet.png);
+    }
+    &.category-armor .drawer-handle::after {
+      background-image: url(/assets/images/game/items/categories/armor.png);
+    }
+    &.category-boots .drawer-handle::after {
+      background-image: url(/assets/images/game/items/categories/boots.png);
+    }
+    &.category-weapon .drawer-handle::after {
+      background-image: url(/assets/images/game/items/categories/weapon.png);
+    }
+    &.category-offhand .drawer-handle::after {
+      background-image: url(/assets/images/game/items/categories/offhand.png);
+    }
+    &.category-ring .drawer-handle::after {
+      background-image: url(/assets/images/game/items/categories/ring.png);
+    }
+    &.category-amulet .drawer-handle::after {
+      background-image: url(/assets/images/game/items/categories/amulet.png);
+    }
+    &.category-accessory .drawer-handle::after {
+      background-image: url(/assets/images/game/items/categories/accessory.png);
+    }
+    &.category-consumables .drawer-handle::after {
+      background-image: url(/assets/images/game/items/categories/consumables.png);
+    }
+    &.category-gem .drawer-handle::after {
+      background-image: url(/assets/images/game/items/categories/gem.png);
+    }
+    &.category-misc .drawer-handle::after {
+      background-image: url(/assets/images/game/items/categories/misc.png);
+    }
+    &.category-craft .drawer-handle::after {
+      background-image: url(/assets/images/game/items/categories/craft.png);
+    }
+  }
+}

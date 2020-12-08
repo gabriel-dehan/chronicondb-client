@@ -1,5 +1,6 @@
 import Minisearch from 'minisearch';
 
+import { SkillsFilters } from 'types/Filters.types';
 import { Skill } from 'types/Skill.types';
 
 import Engine, { DataInterface } from './Engine';
@@ -22,13 +23,29 @@ export default class EngineEnchants {
     this.searchEngine.addAll(this.data.skillsSearchIndex);
   }
 
+
   /* Methods */
+  public all(filters: SkillsFilters): Skill[] {
+    let skills = this.skills;
+
+    skills = this.filterBySearch(skills, filters);
+    // skills = this.filterByClassAndTree(skills, filters);
+    // skills = this.filterByTypes(skills, filters);
+    // skills = this.sortBy(skills, filters);
+
+    return skills;
+  }
+
   public find(uuid: number): Skill | null {
     return this.skills.find(skill => skill.uuid === uuid) || null;
   }
 
   getSkillById(uuid: number): Skill | null {
     return this.data.skills.find(skill => skill.uuid === uuid) || null;
+  }
+
+  getSkillByName(name: string): Skill | null {
+    return this.data.skills.find(skill => skill.name.toLowerCase() === name.toLowerCase()) || null;
   }
 
   /* Getters */
@@ -43,6 +60,19 @@ export default class EngineEnchants {
     }
 
     return [];
+  }
+
+  private filterBySearch(skills: Skill[], filters: SkillsFilters) {
+    if (filters.search) {
+      const resultingUuids = this.searchEngine.search(filters.search, {
+        prefix: true,
+        fuzzy: 0.2,
+      }).map(r => r.uuid);
+
+      return skills.filter(skill => resultingUuids.includes(skill.uuid));
+    }
+
+    return skills;
   }
 
 }

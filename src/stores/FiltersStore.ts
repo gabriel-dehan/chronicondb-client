@@ -67,6 +67,9 @@ export class FiltersStore {
     this.skills = {
       search: query.skillsSearch,
       characterClass: query.skillsCharacterClass,
+      tree: query.skillsTree,
+      types: query.skillsTypes,
+      family: query.skillsFamily,
     };
   }
 

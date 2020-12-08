@@ -92,14 +92,20 @@ If you are unfamiliar with the fork - branch - MR workflow, [read this guide](ht
 ## Roadmap
 
 ### Post release
-- [ ] Create issues for `TODO:`
+- [ ] Create issues for `TODO:` and the post release roadmap
 - [ ] Map item category - types automatically in the item parser (reduce uniq should do the trick)
 - [ ] Update or change the infinite scroll to support react 17+
+- [ ] Add related skills to `skills.json` and clean up the template description
+- [ ] Skills that enhance previously selected skills should display a list of previously selected skills
+- [ ] Refactor Filters and Sidebars
+- [ ] Refactor string templating
+- [ ] In all skills templating, "Unknown Skill" should be handled in a one liner and not repeat the whole ReactDomElement
 
 ### Release
 
 - [x] Parsing
   - [x] Auto add version to versions file
+  - [ ] Use react router links in templating replacements
 - [x] Layout
   - [x] Fix header overflow
   - [x] Responsiveness
@@ -118,15 +124,17 @@ If you are unfamiliar with the fork - branch - MR workflow, [read this guide](ht
   - [x] React infinite scroller
 - [x] Enchants page
   - [x] Enchants Search Index (item types)
-- [ ] Skills page
+- [~] Skills page
   - [~] Skills Search Index (items types, enchants)
-  - [ ] Skill page
+  - [~] Skill page
 - [x] Developers page
 - [x] SEO
   - [x] Helmet
   - [x] Robot.txt
   - [x] Sitemap
   - [x] GA
+- [] Reddit post
+  - Point out how much sqrbt is a monster to have created so many skills, items and enchants, what a mad lad. Give the number of enchants, skills and items.
 
 ## License
 

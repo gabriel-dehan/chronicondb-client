@@ -24,6 +24,16 @@
     &-title {
       margin-left: 18px;
       color: var(--color-element-light-beige);
+
+      &-link {
+        color: inherit;
+        border-bottom: 1px solid transparent;
+
+        &:hover {
+          color: inherit;
+          border-color: var(--color-element-beige);
+        }
+      }
     }
 
     &-name {
@@ -70,8 +80,12 @@
         font-weight: bold;
       }
 
-      &-skill {
+      &-spell {
         color: var(--color-element-yellow);
+      }
+
+      &-damageType {
+        font-weight: bold;
       }
     }
   }

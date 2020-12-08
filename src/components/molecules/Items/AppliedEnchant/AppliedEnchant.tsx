@@ -1,8 +1,10 @@
 import React, { FunctionComponent } from 'react';
+import { Link } from 'react-router-dom';
 import replaceWithJSX from 'react-string-replace';
 
 import { isString } from 'lodash';
 
+import { RoutePath } from 'routes';
 import { SimpleEnchant } from 'types/Enchant.types';
 import { Item } from 'types/Item.types';
 
@@ -39,28 +41,28 @@ const AppliedEnchant: FunctionComponent<Props> = ({
     });
 
     if (enchant.skills) {
-      const replacedSkills = replaceWithJSX(replacedRanges, /<SKILL_(\d+)>/g, (match, i) => {
+      const replacedSkills = replaceWithJSX(replacedRanges, /<SKILL_(\d+)>/g, (match, i, offset) => {
         const skillId = parseInt(match);
         const skillName = enchant.skills ? enchant.skills[skillId] : null;
         if (skillName) {
           return (
-            <a
-              href={`/skills?uuid=${skillId}`}
-              key={`tpl-${item.uuid}-skill-${skillId}-${i}`}
+            <Link
+              key={`tpl-${item.uuid}-skill-${skillId}-${i}-${offset}`}
+              to={RoutePath.Skill.replace(':uuid', skillId.toString())}
               className="m-appliedEnchant__skill"
             >
               {skillName}
-            </a>
+            </Link>
           );
         } else {
           return (
-            <a
-              href={`/skills?uuid=${skillId}`}
-              key={`tpl-${item.uuid}-skill-${skillId}-${i}`}
-              className="m-appliedEnchant__skill unknown"
+            <Link
+              key={`tpl-${item.uuid}-skill-${skillId}-${i}-${offset}`}
+              to={RoutePath.Skill.replace(':uuid', skillId.toString())}
+              className="m-appliedEnchant__skill unkown"
             >
-              Unknown Skill
-            </a>
+            Unknown Skill
+            </Link>
           );
         }
       });

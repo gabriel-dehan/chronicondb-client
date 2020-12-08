@@ -28,6 +28,9 @@ export interface EnchantsFilters {
 export interface SkillsFilters {
   search?: string;
   characterClass?: string;
+  tree?: string;
+  types?: string[];
+  family: string;
 }
 
 export interface Filters {
@@ -52,6 +55,9 @@ export type QueryFiltersInterface = {
   enchantsCategory?: string;
   skillsSearch?: string;
   skillsCharacterClass: string;
+  skillsTree: string;
+  skillsTypes: string[];
+  skillsFamily: string;
 }
 
 export enum FiltersType {

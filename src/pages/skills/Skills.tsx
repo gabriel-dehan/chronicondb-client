@@ -1,18 +1,18 @@
 import React, { FunctionComponent } from 'react';
 
-import EnchantsTemplate from 'components/templates/Enchants/EnchantsTemplate';
+import SkillsTemplate from 'components/templates/Skills/SkillsTemplate';
 import useSeo from 'hooks/useSeo';
 
 const EnchantsPage: FunctionComponent = () => {
   const Seo = useSeo({
-    title: 'Enchants database',
-    description: 'Find all the enchants you need to craft your dream items.',
+    title: 'Skills database',
+    description: 'Find the skills that best suit your build.',
   });
 
   return (
     <>
       <Seo />
-      <EnchantsTemplate />
+      <SkillsTemplate />
     </>
   );
 };

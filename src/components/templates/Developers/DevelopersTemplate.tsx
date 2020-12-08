@@ -37,7 +37,7 @@ const DevelopersTemplate: FunctionComponent = () => {
             <strong>TL;DR:</strong> Clone everything.<br />
             In the <a href="https://github.com/gabriel-dehan/chronicondb-client/tree/main/src/engine">Engine data folder</a>, <code>{filters.patch}/extracts/</code> contains almost all the data in JSON format for the latest version.<br />
             The <a href="https://github.com/gabriel-dehan/chronicondb-client/tree/main/src/types">Types</a> will help you make sense of those json files: for instance <code>items.json</code> has it's interface <code>Item</code> in the <code>types/Item.types.ts</code> file.<br />
-            The rest of the non-versioned data, is in the same folder: <code>dataMappings.ts</code> and <code>enchantsPool.json</code> are the most useful.
+            The rest of the non-versioned data, is in the Engine data folder: <code>dataMappings.ts</code> and <code>enchantsPool.json</code> are the most useful.
           </p>
           <p>
             ChroniconDB is an <strong>open source</strong> React/Typescript application and everything can be found in the <a href="https://github.com/gabriel-dehan/chronicondb-client">Github Repository</a>.<br />
@@ -50,7 +50,7 @@ const DevelopersTemplate: FunctionComponent = () => {
             everything can be found in the <a href="https://github.com/gabriel-dehan/chronicondb-client/tree/main/src/engine">Engine</a>, or more specifically in the <a href="https://github.com/gabriel-dehan/chronicondb-client/tree/main/src/engine">Engine data folder</a>.
           </p>
           <p>
-            In here you you'll find the following architecture:
+            In here you'll find the following architecture:
 
             <pre>
               .<br />
@@ -89,7 +89,7 @@ const DevelopersTemplate: FunctionComponent = () => {
             <h2>VERSIONS</h2>
             Those folders, aptly named by their respective versions <code>x.y.z/</code>, contain most of the data you'll need.<br />
             They are automatically created using the command <code>yarn parse:all x.y.z</code> whenever I see that a new version of Chronicon is out.<br />
-            If you can't see a folder for the latest version, it probably means <strong>I've been ran over by a Moose</strong>, an unfortunate accident.<br />
+            If you can't see a folder for the latest version, it probably means that <strong>I've been ran over by a Moose</strong>, an unfortunate accident.<br />
             But don't fret, you can still generate everything you need yourself by following <a href="https://github.com/gabriel-dehan/chronicondb-client#how-to-get-up-to-date-item-and-skills-data">those instructions</a>.<br /><br />
 
             So we have something that looks like this.
@@ -109,7 +109,7 @@ const DevelopersTemplate: FunctionComponent = () => {
               <ul>
                 <li><code><strong>sources/</strong></code>, contains all the data extracted from the game itself, mainly CSV (sort of) and locales (translations) files.</li>
                 <li>
-                  <code><strong>extracts/</strong></code>, is where it gets spicy, as it contains all the data parsed and formatted, both from versionned data, and manually extracted data (sigh.)<br />
+                  <code><strong>extracts/</strong></code>, is where it gets spicy, as it contains all the data parsed and formatted, both from versioned data, and manually extracted data (sigh.)<br />
                   Everything inside the folder is pretty self explanatory, just don't pay attention to the <code>*SearchIndex.json</code> files, they are used internally. But if you need indexes for your own search engine, please feel free to use those.<br />
                   To help make sense of those files, do not hesitate to take a peak at the <a href="https://github.com/gabriel-dehan/chronicondb-client/tree/main/src/types">Types</a>: for instance <code>items.json</code> has it's interface <code>Item</code> in the <code>types/Item.types.ts</code> file.
                 </li>
@@ -138,7 +138,7 @@ const DevelopersTemplate: FunctionComponent = () => {
                 <code>dataMappings.ts</code> contains most of the data mappings, mainly which item goes in which set, all the sets ids, what item type is in which category, etc...
               </li>
               <li>
-                <code>enchantsPool.ts</code> and <code>enchantsPoolByName.ts</code> are pretty much extracted from <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=835123683" rel="nofollow">this guide</a>, they should help you to know which enchants goes with which type of item.
+                <code>enchantsPool.ts</code> and <code>enchantsPoolByName.ts</code> are pretty much extracted from <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=835123683" rel="nofollow">this guide</a>, they should help you identify which enchants goes with which type of item.
               </li>
               <li>
                 <code>patches.json</code> contains all the patches known to the application. Not very useful to you, I guess.

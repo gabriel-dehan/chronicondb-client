@@ -7,6 +7,7 @@ import { camelCase, uniq } from 'lodash';
 import Badge from 'components/atoms/Badge/Badge';
 import GameIcon, { GameIconType } from 'components/atoms/GameIcon/GameIcon';
 import useEngine from 'hooks/useEngine';
+import { RoutePath } from 'routes';
 import { Enchant as EnchantInterfacee, EnchantCategory, EnchantType } from 'types/Enchant.types';
 import { ItemRarity, ItemType } from 'types/Item.types';
 
@@ -174,23 +175,23 @@ const Enchant: FunctionComponent<Props> = ({
 
         if (skillName) {
           return (
-            <a
-              href={`/skills?uuid=${skillId}`}
+            <Link
               key={`tpl-${enchant.uuid}-skill-${skillId}-${i}-${offset}`}
+              to={RoutePath.Skill.replace(':uuid', skillId.toString())}
               className="o-enchant__description-enchant-skill"
             >
               {skillName}
-            </a>
+            </Link>
           );
         } else {
           return (
-            <a
-              href={`/skills?uuid=${skillId}`}
+            <Link
               key={`tpl-${enchant.uuid}-skill-${skillId}-${i}-${offset}`}
+              to={RoutePath.Skill.replace(':uuid', skillId.toString())}
               className="o-enchant__description-enchant-skill unknown"
             >
               Unknown Skill
-            </a>
+            </Link>
           );
         }
       });

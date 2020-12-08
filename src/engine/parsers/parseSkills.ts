@@ -32,7 +32,6 @@ export function parseSkills(version: string, verbose = false) {
     return result;
   }, {});
 
-
   writeFile(skills, version, 'skills');
   writeFile(skillsByClass, version, 'skillsByClass');
 
