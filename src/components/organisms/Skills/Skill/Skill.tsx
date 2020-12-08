@@ -85,7 +85,6 @@ const Skill: FunctionComponent<Props> = ({
   function renderDescription() {
     let finalNodes = null;
     let replacementCounter = 0; // Fuck react unique keys
-    // Replace REQUIRED with "The previously selected skill"
 
     finalNodes = replaceWithJSX(skill.description, SKILLS_TEMPLATE_REGEX, (match, i, offset) => {
       replacementCounter++;
@@ -200,6 +199,19 @@ const Skill: FunctionComponent<Props> = ({
         >
           {match}
         </em>
+      );
+    });
+
+    finalNodes = replaceWithJSX(finalNodes, 'REQUIRED', (match, i, offset) => {
+      replacementCounter++;
+
+      return (
+        <strong
+          key={`tpl-skill-${safeUuid}-required-${i}-${offset}-${replacementCounter}`}
+          className="o-skill__description-skill-required"
+        >
+          The previously selected skill
+        </strong>
       );
     });
 
