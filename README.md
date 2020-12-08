@@ -2,15 +2,34 @@
 
 [ChroniconDB](https://chronicondb.com)
 
+## Table of Contents
+
+- [Acknowledgement](#acknowledgement)
+- [Starting up](#starting-up)
+- [How to get up to date item and skills data](#how-to-get-up-to-date-item-and-skills-data)
+- [Developers](#developers)
+  * [I want your data for my own projects](#i-want-your-data-for-my-own-projects)
+  * [Contributing](#contributing)
+  * [Notes](#notes)
+- [Roadmap](#roadmap)
+  * [Post release](#post-release)
+  * [Release](#release)
+- [License](#license)
+
 ## Acknowledgement
 
 This is a fan project. All data and game assets are the intellectual property of [Subworld Games](https://www.subworldgames.com/chronicon/).
 
 ## Starting up
 
-Install all dependencies
+- Clone this project
+- Install all dependencies
 ```
   yarn
+```
+- Start the webserver
+```
+  yarn start
 ```
 
 ## How to get up to date item and skills data
@@ -58,11 +77,24 @@ There you go, chronicondb is now up to date.
 
 ## Developers
 
+### I want your data for my own projects
+
+[It's all in there](https://chronicondb.com/developers).
+
+### Contributing
+
+If you are unfamiliar with the fork - branch - MR workflow, [read this guide](https://github.com/firstcontributions/first-contributions)
+
 ### Notes
 
 - Mobile was not planned at first so the CSS is not mobile first. Not the cleanest but 🤷‍♀️
 
 ## Roadmap
+
+### Post release
+- [ ] Create issues for `TODO:`
+- [ ] Map item category - types automatically in the item parser (reduce uniq should do the trick)
+- [ ] Update or change the infinite scroll to support react 17+
 
 ### Release
 
@@ -95,13 +127,6 @@ There you go, chronicondb is now up to date.
   - [x] Robot.txt
   - [x] Sitemap
   - [x] GA
-
-### After release
-- [ ] Create issues for `TODO:`
-- [ ] Map item category - types automatically in the item parser (reduce uniq should do the trick)
-- [ ] Update or change the infinite scroll to support react 17+
-
-
 
 ## License
 
