@@ -42,3 +42,7 @@ a:hover {
 .tippy-popper[x-placement^=right] [x-arrow] {
   border-right-color: #544039 !important;
 }
+
+.tippy-popper[x-placement^=bottom] [x-arrow] {
+  border-bottom-color: #544039 !important;
+}

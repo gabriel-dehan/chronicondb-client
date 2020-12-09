@@ -1,13 +1,15 @@
-import React, { FunctionComponent } from 'react';
+import React, { FunctionComponent, ReactNode } from 'react';
 import { Link } from 'react-router-dom';
 import replaceWithJSX from 'react-string-replace';
+import { Tooltip } from 'react-tippy';
 
-import { camelCase, isString } from 'lodash';
+import { camelCase, isString, compact } from 'lodash';
 
 import GameIcon, { GameIconType } from 'components/atoms/GameIcon/GameIcon';
 import { allEnumValues } from 'helpers/typeUtils';
 import useEngine from 'hooks/useEngine';
 import { RoutePath } from 'routes';
+import { CharacterClass } from 'types/Character.types';
 import { Skill as SkillInterface, SkillTree, SkillFamily, SkillType } from 'types/Skill.types';
 
 import './Skill.scss';
@@ -24,6 +26,14 @@ const DEFAULT_VALUE2 = 3;
 
 const SKILL_FAMILIES = allEnumValues(SkillFamily);
 
+// TODO: Move outside
+interface SkillLinkProps {
+  uuid: number;
+  content: string | ReactNode;
+  charClass?: CharacterClass;
+  className?: string;
+  key?: string;
+}
 interface Props {
   skill: SkillInterface,
 }
@@ -50,26 +60,70 @@ const Skill: FunctionComponent<Props> = ({
           </span>
           <div className="o-skill__header-title">
             <h2 className="o-skill__header-name">
-              <Link
-                to={{
-                  pathname: RoutePath.Skill.replace(':uuid', skill.uuid.toString()),
-                  search: `?skillCharacterClass=${skill.class}`,
-                }}
-                className="o-skill__header-title-link"
-                target="__blank"
-              >
-                {skill.name}
-              </Link>
+              {renderSkillLink({
+                uuid: skill.uuid,
+                content: skill.name,
+                charClass: skill.class,
+                className: 'o-skill__header-title-link',
+              })}
             </h2>
-            <h3
-              className="o-skill__header-category"
-              style={{ color: `var(--color-skill-${camelCase(skill.class)})` }}
-            >
-              {skill.class} - {skill.type} - {skill.tree} - {skill.family}
+            <h3 className="o-skill__header-category">
+              <strong style={{ color: `var(--color-damage-type-${camelCase(skill.element)})` }}>
+                {skill.element}
+              </strong>
+              &nbsp;-&nbsp;
+              <span className="o-skill__header-tree">
+                {skill.type ? skill.type : skill.tree}
+              </span>
+              {skill.family && (
+                <>
+                  &nbsp;-&nbsp;
+                  <span
+                    className="o-skill__header-family"
+                    style={{ color: `var(--color-damage-type-${camelCase(skill.element)})` }}
+                  >
+                    {skill.family}
+                  </span>
+                </>
+              )}
             </h3>
           </div>
         </div>
-        <div className="o-skill__header-affixes">
+        <div className="o-skill__header-meta">
+          <span className="o-skill__header-meta-category">
+            <span className="o-skill__header-meta-class">
+              <Tooltip
+                title={skill.class}
+                position="bottom"
+                arrow={true}
+                distance={5}
+                offset={0}
+                size="small"
+              >
+                <GameIcon
+                  type={GameIconType.ClassProfile}
+                  name={skill.class.toLowerCase()}
+                  height={32}
+                />
+              </Tooltip>
+            </span>
+            <span className="o-skill__header-meta-tree">
+              <Tooltip
+                title={skill.tree}
+                position="bottom"
+                arrow={true}
+                distance={10}
+                offset={0}
+                size="small"
+              >
+                <GameIcon
+                  type={GameIconType.SkillTree}
+                  name={skill.tree.toLowerCase().replace(/\s/g, '')}
+                  height={32}
+                />
+              </Tooltip>
+            </span>
+          </span>
         </div>
       </div>
       <div className="o-skill__content">
@@ -78,9 +132,103 @@ const Skill: FunctionComponent<Props> = ({
             {renderDescription()}
           </div>
         </div>
+        <div className="o-skill__content-sub">
+          <ul className="o-skill__content-list">
+            {skill.skillRequirement.length > 0 && (
+              <li>
+                <span className="o-skill__content-list-title">
+                  Parent skill
+                </span>
+                <span className="o-skill__content-list-value requirements">
+                  {renderSkillsRequirement()}
+                </span>
+              </li>
+            )}
+            <li>
+              <span className="o-skill__content-list-title">
+                Max rank
+              </span>
+              <span className="o-skill__content-list-value maxRank">
+                {skill.maxRank}
+              </span>
+            </li>
+            {skill.cooldown && (
+              <li>
+                <span className="o-skill__content-list-title">
+                Cooldown
+                </span>
+                <span className="o-skill__content-list-value cooldown">
+                  {skill.cooldown}
+                </span>
+              </li>
+            )}
+            {skill.cost100 && (
+              <li>
+                <span className="o-skill__content-list-title">
+                Mana cost
+                </span>
+                <span className="o-skill__content-list-value cost">
+                  {skill.cost100}
+                </span>
+              </li>
+            )}
+          </ul>
+        </div>
       </div>
     </div>
   );
+
+  // TODO: SkillLink component, reusable everywhere
+  function renderSkillLink({ uuid, content, charClass, className, key }: SkillLinkProps) {
+    return (
+      <Link
+        to={{
+          pathname: RoutePath.Skill.replace(':uuid', uuid.toString()),
+          search: charClass ? `?skillCharacterClass=${charClass}` : '',
+        }}
+        className={className}
+        key={key}
+      >
+        {content}
+      </Link>
+    );
+  }
+
+  function renderSkillsRequirement() {
+    return compact(
+      skill.skillRequirement.map<React.ReactNode>((skillId) => {
+        const skillReq = Engine.Skills.find(skillId, { class: skill.class });
+        return skillReq ? (
+          <span
+            className="o-skill__parentSkill"
+            key={`req-skills-${safeUuid}-${skillId}`}
+          >
+            <Tooltip
+              title={skillReq.name}
+              position="bottom"
+              arrow={true}
+              distance={10}
+              offset={0}
+              size="small"
+            >
+              {renderSkillLink({
+                uuid: skillReq.uuid,
+                charClass: skillReq.class,
+                content: (
+                  <GameIcon
+                    type={skillReq.tree === SkillTree.Mastery ? GameIconType.SkillMastery : GameIconType.SkillSpell}
+                    name={skillReq.icon || 'default'}
+                    width={24}
+                  />
+                ),
+              })}
+
+            </Tooltip>
+          </span>
+        ) : null;
+      }) // TODO: Create "join" helper and replace all those occurences
+    ).reduce((prev, curr) => [prev, ' or ', curr]);
+  }
 
   // TODO: Refactor in useTemplateResolver (skill, amount, effect, etc...) that can be used elsewhere
   function renderDescription() {

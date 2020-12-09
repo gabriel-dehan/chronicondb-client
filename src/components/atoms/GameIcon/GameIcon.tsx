@@ -7,7 +7,10 @@ export enum GameIconType {
   Enchant = 'enchant',
   SkillSpell = 'skillSpell',
   SkillMastery = 'skillMastery',
-  SkillTree =  'skillTree'
+  SkillTree =  'skillTree',
+  ClassProfile =  'classProfile',
+  ClassHeader =  'classHeader',
+  ClassBanner =  'classBanner'
 }
 
 const BASE_PATH = 'assets/images/game';
@@ -20,6 +23,9 @@ const ICONS_PATH: Record<GameIconType, string> = {
   [GameIconType.SkillSpell]: `${BASE_PATH}/skills/skills/`,
   [GameIconType.SkillMastery]: `${BASE_PATH}/skills/masteries/`,
   [GameIconType.SkillTree]: `${BASE_PATH}/skills/trees/`,
+  [GameIconType.ClassProfile]: `${BASE_PATH}/classes/profiles/`,
+  [GameIconType.ClassHeader]: `${BASE_PATH}/classes/headers/`,
+  [GameIconType.ClassBanner]: `${BASE_PATH}/classes/banners/`,
 };
 
 export interface Props {

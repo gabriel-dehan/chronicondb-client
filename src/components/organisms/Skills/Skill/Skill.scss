@@ -5,6 +5,7 @@
   justify-content: space-between;
   flex-direction: column;
   min-height: 50px;
+  width: 100%;
 
   border-bottom: 1px solid var(--color-element-darkest-blue);
   background: var(--color-background-darkest-brown);
@@ -43,10 +44,32 @@
       display: inline-flex;
     }
 
+    &-family {
+      text-align: right;
+      font-weight: bold;
+      color: var(--color-element-light-orange);
+    }
+
     &-category {
       font-size: var(--font-normal);
       font-weight: normal;
       margin: 0;
+    }
+
+    &-meta {
+      display: flex;
+      flex-direction: column;
+
+      &-category {
+        display: flex;
+      }
+
+      &-tree {
+        margin-left: 12px;
+        img {
+          border-radius: 50%;
+        }
+      }
     }
   }
 
@@ -57,8 +80,12 @@
     margin: 18px 10px 18px 50px;
     padding: 18px 0 0 0;
 
+    @include mediaUpToSmallTablet {
+      flex-direction: column;
+    }
+
     &-main {
-      width: 65%;
+      width: 70%;
       margin-right: 60px;
 
       @include mediaUpToSmallTablet {
@@ -66,8 +93,65 @@
       }
     }
 
-    @include mediaUpToSmallTablet {
-      flex-direction: column;
+    &-sub {
+      width: 25%;
+
+      @include mediaUpToSmallTablet {
+        width: 100%;
+        margin-top: 20px;
+        padding-top: 20px;
+        border-top: 1px solid rgba(51, 44, 29, 0.5);
+      }
+    }
+
+    &-list {
+      list-style: none;
+
+      li {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px dashed #435063;
+        padding: 8px 8px;
+      }
+
+      &-title {
+        font-weight: bold;
+        color: var(--color-element-white);
+      }
+
+      &-value {
+        font-weight: bold;
+        color: var(--color-element-yellow);
+
+        &.requirements {
+          display: flex;
+          line-height: 0;
+          align-items: center;
+        }
+
+        &.cost {
+          color: var(--color-element-light-blue);
+        }
+      }
+    }
+  }
+
+  &__parentSkill {
+    margin: 0 8px;
+    border: 1px solid var(--color-element-white);
+    border-radius: 4px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &:hover {
+      border-color: var(--color-element-light-orange);
+    }
+
+    img {
+      border-radius: 4px;
     }
   }
 

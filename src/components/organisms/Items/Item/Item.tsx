@@ -43,7 +43,7 @@ const Item: FunctionComponent<Props> = ({
             </span>
             <div className="o-item__header-title">
               <h2 className="o-item__name">
-                <Link to={RoutePath.Item.replace(':uuid', item.uuid.toString())} className="o-item__header-title-link" target="__blank">
+                <Link to={RoutePath.Item.replace(':uuid', item.uuid.toString())} className="o-item__header-title-link">
                   {item.name}
                 </Link>
                 <ItemDownloader item={item} />

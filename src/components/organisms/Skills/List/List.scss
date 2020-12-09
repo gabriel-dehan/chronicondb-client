@@ -9,11 +9,7 @@
   }
 
   &__skills {
-    width: 70%;
-
-    @include mediaUpToSmallTablet {
-      width: 100%;
-    }
+    width: 100%;
   }
 
   .o-skill__container {
