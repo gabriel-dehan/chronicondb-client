@@ -82,10 +82,43 @@
 
       &-spell {
         color: var(--color-element-yellow);
+
+        &.unknown {
+          color: var(--color-element-white);
+          font-style: normal;
+        }
       }
 
       &-damageType {
         font-weight: bold;
+      }
+
+      &-values {
+        color: white;
+      }
+
+      &-valueRange-min, &-valueRange-max, &-value {
+        font-style: normal;
+        color: var(--color-element-light-green);
+        font-weight: bold;
+      }
+
+      &-onUse {
+        color: var(--color-element-orange);
+      }
+
+      &-simpleValue {
+        color: var(--color-element-light-orange);
+        font-weight: bold;
+      }
+
+      &-singleValue {
+        color: var(--color-element-light-blue);
+        font-weight: bold;
+      }
+
+      &-required {
+        color: var(--color-element-light-orange);
       }
     }
   }

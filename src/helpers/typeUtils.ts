@@ -14,6 +14,11 @@ export function allEnumValues<T>(enumObject: Record<string, T>): T[] {
     .map(key => enumObject[key]);
 }
 
+export function allEnumKeys(enumObject: Record<string, string>): string[] {
+  return Object
+    .keys(enumObject);
+}
+
 export function isInEnum<T>(enumObject: Record<string, T>, value: T): boolean {
   return Object.values(enumObject).includes(value);
 }

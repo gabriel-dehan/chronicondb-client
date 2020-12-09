@@ -8,18 +8,19 @@ import GameIcon, { GameIconType } from 'components/atoms/GameIcon/GameIcon';
 import { allEnumValues } from 'helpers/typeUtils';
 import useEngine from 'hooks/useEngine';
 import { RoutePath } from 'routes';
-import { Skill as SkillInterface, SkillTree, SkillFamily } from 'types/Skill.types';
+import { Skill as SkillInterface, SkillTree, SkillFamily, SkillType } from 'types/Skill.types';
 
 import './Skill.scss';
 
 const SKILLS_TEMPLATE_REGEX = /\|((?:\w|'|\s|\|?)+)¥/g;
 const DAMAGE_TYPES_TEMPLATE_REGEX = /(?:XDAM\s?)?_\w{3}_(\w+)¥/g;
-const VALUES_TEMPLATE_REGEX = /(EFFECT|DURATION|DAMAGE|VALUE|PROC|RANGE2|RANGE)/g;
+const VALUES_TEMPLATE_REGEX = /(EFFECT|DURATION|DAMAGE|VALUE2|VALUE|PROC|RANGE2|RANGE)/g;
 const GENERIC_REPLACE_REGEX = /(?:\||~)((?:\w|\.|'|-|%|\s)+)¥/g;
 const SINGLE_REPLACE_REGEX = /\|(\w+)/g;
 
 // TODO: Add this in the skills parser, automatically
 const DEFAULT_MASTERY_VALUE = 10;
+const DEFAULT_VALUE2 = 3;
 
 const SKILL_FAMILIES = allEnumValues(SkillFamily);
 
@@ -113,6 +114,18 @@ const Skill: FunctionComponent<Props> = ({
             {skillName}
           </Link>
         );
+      // @ts-ignore
+      } else if (SkillType[skillName]) {
+        return (
+          // TODO: In search add `skillsTree=Any&characterClass=CURRENT`
+          <Link
+            to={{ pathname: RoutePath.Skills, search: `?skillsTypes=${skillName}` }}
+            key={`tpl-${safeUuid}-skill-${skillId}-${i}-${offset}`}
+            className="o-skill__description-skill-spell type"
+          >
+            {skillName}
+          </Link>
+        );
       } else {
         return (
           <em
@@ -144,18 +157,22 @@ const Skill: FunctionComponent<Props> = ({
       replacementCounter++;
       const valueType = match.toLowerCase();
       const key = `tpl-skill-${safeUuid}-vals-${valueType}-${i}-${offset}-${replacementCounter}`;
-      // @ts-ignore
-      const values: Array<string | number> = skill[valueType];
 
-      // Some masteries don't come with values even tho they should, so we use the DEFAULT_MASTERY_VALUE
-      if (values.length === 0) {
+      // @ts-ignore
+      const values: Array<string | number> = skill[valueType] || [];
+
+      // VALUE2 seems to be hardcoded
+      if (valueType === 'value2' && values.length === 0) {
+        values.push(DEFAULT_VALUE2);
+      } else if (values.length === 0) {
+        // Some masteries don't come with values even tho they should, so we use the DEFAULT_MASTERY_VALUE
         values.push(DEFAULT_MASTERY_VALUE);
       }
 
       return (
         <span
           key={key}
-          className="o-skill__description-skill-damageType"
+          className="o-skill__description-skill-values"
         >
           {values.length > 6 ? renderRange(values) : renderValues(values, key)}
         </span>
@@ -228,10 +245,18 @@ const Skill: FunctionComponent<Props> = ({
       );
     });
 
-    if (values.length === 0) {
-      console.log(skill.name, skill.uuid, values, valueNodes);
+    if (valueNodes.length === 1) {
+      return valueNodes;
+    } else {
+      return (
+        <>
+          [
+          {valueNodes.reduce((prev, curr) => [prev, ' / ', curr])}
+          ]
+        </>
+      );
     }
-    return valueNodes.reduce((prev, curr) => [prev, ' / ', curr]);
+
   }
 
   function renderRange(values: Array<string | number>) {

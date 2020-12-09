@@ -173,6 +173,15 @@ const DevelopersTemplate: FunctionComponent = () => {
             </ul>
           </p>
           <p>
+            <h2>TEMPLATING</h2>
+            If you look at the enchants and skills, you'll notice that their descriptions are looking like that:
+            <pre>
+              Using a |Shield¥ skill increases |Sword¥ skill damage by EFFECT% for DURATION seconds, stacking VALUE times. Using a |Sword¥ skill increases |Shield¥ skill damage by EFFECT% for DURATION seconds, stacking VALUE times.
+            </pre>
+            This is called a templating string and actual values are usually inserted into it at runtime.
+            The templating system in Chronicon is a bit convoluted but if you want to see how it's integrated in ChroniconDB, feel free to look at the <code>renderDescription()</code> functions in the following files: <a href="https://github.com/gabriel-dehan/chronicondb-client/blob/main/src/components/organisms/Skills/Skill/Skill.tsx">Skills</a> and <a href="https://github.com/gabriel-dehan/chronicondb-client/blob/main/src/components/molecules/Items/AppliedEnchant/AppliedEnchant.tsx">Enchants</a>.
+          </p>
+          <p>
             <h2>ASSETS</h2>
             If you've read up to here, I believe you'll be able to find them yourselves in the repository.<br />
             Think of it as your homework if you will. Hint: it's not in the Engine.
