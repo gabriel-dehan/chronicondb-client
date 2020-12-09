@@ -10,6 +10,7 @@ interface Props {
   enchants: EnchantInterface[];
 }
 
+// TODO: Header should be a reusable component between lists
 const List: FunctionComponent<Props> = ({
   enchants,
 }) => {

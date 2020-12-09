@@ -1,9 +1,11 @@
 import Minisearch from 'minisearch';
 
+import { allEnumValues } from 'helpers/typeUtils';
 import { CharacterClass } from 'types/Character.types';
 import { SkillsFilters } from 'types/Filters.types';
-import { Skill } from 'types/Skill.types';
+import { Skill, SkillTree } from 'types/Skill.types';
 
+import { SKILLTREES_BY_CLASSES } from './data/dataMappings';
 import Engine, { DataInterface } from './Engine';
 
 interface FindParams {
@@ -13,9 +15,17 @@ interface FindParams {
 export default class EngineEnchants {
   public readonly engine: Engine;
   private searchEngine: Minisearch;
+  public classes: CharacterClass[];
+  public trees: SkillTree[];
+  public treesByClasses: Partial<Record<CharacterClass, SkillTree[]>>;
+
+  //typesByCategories, defaultCategory, defaultType
 
   constructor(engine: Engine) {
     this.engine = engine;
+    this.classes = allEnumValues(CharacterClass);
+    this.trees = allEnumValues(SkillTree);
+    this.treesByClasses = SKILLTREES_BY_CLASSES;
     this.searchEngine = new Minisearch({
       idField: 'uuid',
       fields: ['name', 'class', 'tree', 'type', 'element', 'family', 'description'],
@@ -28,13 +38,12 @@ export default class EngineEnchants {
     this.searchEngine.addAll(this.data.skillsSearchIndex);
   }
 
-
   /* Methods */
   public all(filters: SkillsFilters): Skill[] {
     let skills = this.skills;
 
     skills = this.filterBySearch(skills, filters);
-    // skills = this.filterByClassAndTree(skills, filters);
+    skills = this.filterByClassAndTree(skills, filters);
     // skills = this.filterByTypes(skills, filters);
     // skills = this.sortBy(skills, filters);
 
@@ -53,9 +62,22 @@ export default class EngineEnchants {
     return this.data.skills.find(skill => skill.name.toLowerCase() === name.toLowerCase()) || null;
   }
 
+  public defaultTreeForClass(characterClass: CharacterClass): SkillTree {
+    const classTrees = this.treesByClasses[characterClass];
+    return classTrees ? classTrees[0] : SkillTree.Mastery;
+  }
+
   /* Getters */
   private get data(): DataInterface {
     return this.engine.data as DataInterface;
+  }
+
+  public get defaultClass(): CharacterClass {
+    return this.classes[0];
+  }
+
+  public get defaultTree(): SkillTree {
+    return this.defaultTreeForClass(this.defaultClass);
   }
 
   /* Private */
@@ -78,6 +100,17 @@ export default class EngineEnchants {
     }
 
     return skills;
+  }
+
+  private filterByClassAndTree(skills: Skill[], filters: SkillsFilters) {
+    if (filters.characterClass === 'All' || filters.tree === 'Any') {
+      return skills;
+    } else {
+      const characterClass = (filters.characterClass || this.defaultClass) as CharacterClass;
+      const tree = (filters.tree || this.defaultTree) as SkillTree;
+
+      return skills.filter(item => item.class === characterClass && item.tree === tree);
+    }
   }
 
 }

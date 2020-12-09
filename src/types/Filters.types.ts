@@ -30,7 +30,7 @@ export interface SkillsFilters {
   characterClass?: string;
   tree?: string;
   types?: string[];
-  family: string;
+  family?: string;
 }
 
 export interface Filters {

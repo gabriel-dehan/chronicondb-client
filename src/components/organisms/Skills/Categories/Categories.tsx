@@ -8,8 +8,9 @@ import Icon, { IconName } from 'components/atoms/Icon/Icon';
 import useEngine from 'hooks/useEngine';
 import useFilters from 'hooks/useFilters';
 import useResponsive from 'hooks/useResponsive';
-import { ItemsFilters, FiltersType } from 'types/Filters.types';
-import { ItemCategory, ItemType } from 'types/Item.types';
+import { CharacterClass } from 'types/Character.types';
+import { SkillsFilters, FiltersType } from 'types/Filters.types';
+import { SkillTree } from 'types/Skill.types';
 
 import './Categories.scss';
 
@@ -17,14 +18,14 @@ import './Categories.scss';
 const Categories: FunctionComponent = () => {
   const { isUpToTablet } = useResponsive();
   const Engine = useEngine();
-  const [filters, setFilters] = useFilters<ItemsFilters>(FiltersType.Items);
+  const [filters, setFilters] = useFilters<SkillsFilters>(FiltersType.Skills);
 
-  const { Items: { typesByCategories, defaultCategory, defaultType } } = Engine;
-  const baseCategory = (filters.category ?? defaultCategory) as ItemCategory;
-  const baseType = (filters.type ?? defaultType) as ItemType;
+  const { Skills: { treesByClasses, defaultClass, defaultTree } } = Engine;
+  const baseClass = (filters.characterClass ?? defaultClass) as CharacterClass;
+  const baseTree = (filters.tree ?? defaultTree) as SkillTree;
 
-  const [selectedCategory, setSelectedCategory] = useState<ItemCategory>(baseCategory);
-  const [selectedType, setSelectedType] = useState<ItemType>(baseType);
+  const [selectedClass, setSelectedClass] = useState<CharacterClass>(baseClass);
+  const [selectedTree, setSelectedTree] = useState<SkillTree>(baseTree);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   if (isUpToTablet) {
@@ -33,7 +34,7 @@ const Categories: FunctionComponent = () => {
         open={isMobileMenuOpen}
         onHandleClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
         onClose={() => setIsMobileMenuOpen(false)}
-        className={`o-itemCategories__menuMobile category-${selectedCategory.toLowerCase()}`}
+        className={`o-skillClasses__menuMobile class-${selectedClass.toLowerCase()}`}
         width="60vw"
         placement={'left'}
       >
@@ -44,19 +45,19 @@ const Categories: FunctionComponent = () => {
     return renderCategoryMenu();
   }
 
-  function renderItemTypes(category: ItemCategory, itemTypes: ItemType[]) {
+  function renderSkillTrees(characterClass: CharacterClass, skillTrees: SkillTree[]) {
     return (
-      <ul className="o-itemCategories__itemTypes">
-        {itemTypes.map(itemType => (
+      <ul className="o-skillClasses__skillTrees">
+        {skillTrees.map(skillTree => (
           <li
-            key={`item-type-${itemType}`}
-            className={`o-itemCategories__itemType ${selectedType === itemType ? 'selected' : ''}`}
+            key={`skill-tree-${skillTree}`}
+            className={`o-skillClasses__skillTree ${selectedTree === skillTree ? 'selected' : ''}`}
           >
             <span
-              className="o-itemCategories__itemTypeName"
-              onClick={() => onItemTypeSelect(category, itemType)}
+              className="o-skillClasses__skillTreeName"
+              onClick={() => onSkillTreeSelect(characterClass, skillTree)}
             >
-              {itemType === ItemType.Rune ? 'Rune' : itemType}
+              {skillTree}
             </span>
           </li>
         ))}
@@ -66,33 +67,36 @@ const Categories: FunctionComponent = () => {
 
   function renderCategoryMenu() {
     return (
-      <ul className="o-itemCategories">
-        {map(typesByCategories, ((itemTypes, category: ItemCategory) => {
-          const isSelected = selectedCategory === category;
+      <ul className="o-skillClasses">
+        {map(treesByClasses, ((skillTrees, characterClass: CharacterClass) => {
+          const isSelected = selectedClass === characterClass;
+
+          if (!skillTrees) { return null; }
+
           return (
             <li
-              key={`item-category-${category}`}
-              className={`o-itemCategories__category ${isSelected ? 'selected' : ''}`}
+              key={`skill-class-${characterClass}`}
+              className={`o-skillClasses__class ${isSelected ? 'selected' : ''}`}
             >
               <span
-                className="o-itemCategories__categoryName"
-                onClick={() => onCategorySelect(category)}
+                className="o-skillClasses__className"
+                onClick={() => onClassSelect(characterClass)}
               >
                 <Icon
-                  className="o-itemCategories__categoryName-arrow"
+                  className="o-skillClasses__className-arrow"
                   width={isSelected ? 14 : 6}
                   height={isSelected ? 7 : 12}
                   name={isSelected ? IconName.ArrowDownBlue : IconName.ArrowRightBlue}
                 />
-                {category}
+                {characterClass}
                 <GameIcon
-                  className="o-itemCategories__categoryName-icon"
-                  type={GameIconType.ItemCategory}
-                  name={category}
-                  width={28}
+                  className="o-skillClasses__className-icon"
+                  type={GameIconType.ClassHeader}
+                  name={characterClass.toLowerCase()}
+                  width={32}
                 />
               </span>
-              {renderItemTypes(category, itemTypes)}
+              {renderSkillTrees(characterClass, skillTrees)}
             </li>
           );
         }))}
@@ -100,17 +104,17 @@ const Categories: FunctionComponent = () => {
     );
   }
 
-  function onCategorySelect(category: ItemCategory) {
-    const defaultItemType = typesByCategories[category][0];
+  function onClassSelect(characterClass: CharacterClass) {
+    const defaultSkillTree = Engine.Skills.defaultTreeForClass(characterClass);
 
-    setSelectedCategory(category);
-    setSelectedType(defaultItemType);
-    setFilters({ category, type: defaultItemType });
+    setSelectedClass(characterClass);
+    setSelectedTree(defaultSkillTree);
+    setFilters({ characterClass, tree: defaultSkillTree });
   }
 
-  function onItemTypeSelect(category: ItemCategory, itemType: ItemType) {
-    setSelectedType(itemType);
-    setFilters({ category, type: itemType });
+  function onSkillTreeSelect(characterClass: CharacterClass, skillTree: SkillTree) {
+    setSelectedTree(skillTree);
+    setFilters({ characterClass, tree: skillTree });
     setIsMobileMenuOpen(false);
   }
 };

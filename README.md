@@ -100,6 +100,7 @@ If you are unfamiliar with the fork - branch - MR workflow, [read this guide](ht
 - [ ] Refactor Filters and Sidebars
 - [ ] Refactor string templating
 - [ ] In all skills templating, "Unknown Skill" should be handled in a one liner and not repeat the whole ReactDomElement
+- [ ] Ability to sort everything (skills by points invested, alphabetic order...), enchants alphabetically
 
 ### Release
 
@@ -133,8 +134,7 @@ If you are unfamiliar with the fork - branch - MR workflow, [read this guide](ht
   - [x] Robot.txt
   - [x] Sitemap
   - [x] GA
-- [] Reddit post
-  - Point out how much sqrbt is a monster to have created so many skills, items and enchants, what a mad lad. Give the number of enchants, skills and items.
+- [] Reddit / Steam post for release
 
 ## License
 

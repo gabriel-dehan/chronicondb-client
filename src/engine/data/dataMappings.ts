@@ -1,6 +1,7 @@
 import { CharacterClass } from '../../types/Character.types';
 import { EnchantType, ItemEnchantSlot } from '../../types/Enchant.types';
 import { ItemCategory, SetUuid, ItemType, ItemRarity } from '../../types/Item.types';
+import { SkillTree } from '../../types/Skill.types';
 
 export const EpicEnchantableCategories: ItemCategory[] = [ItemCategory.Ring, ItemCategory.Amulet];
 export const EnchantableCategories: ItemCategory[] = [
@@ -243,4 +244,35 @@ export const ITEM_ID_BY_SETS: Record<SetUuid, number[]> = {
   [SetUuid.Snowstorm]: [392, 393, 394, 589],
   [SetUuid.Christmas]: [716, 717, 718, 719, 720],
   [SetUuid.Master]: [776, 616],
+};
+
+export const SKILLTREES_BY_CLASSES: Partial<Record<CharacterClass, SkillTree[]>> = {
+  [CharacterClass.Templar]: [
+    SkillTree.Vengeance,
+    SkillTree.Wrath,
+    SkillTree.Conviction,
+    SkillTree.Redemption,
+    SkillTree.Mastery,
+  ],
+  [CharacterClass.Berserker]: [
+    SkillTree.Guardian,
+    SkillTree.SkyLord,
+    SkillTree.Dragonkin,
+    SkillTree.Frostborn,
+    SkillTree.Mastery,
+  ],
+  [CharacterClass.Warden]: [
+    SkillTree.WindRanger,
+    SkillTree.Druid,
+    SkillTree.StormCaller,
+    SkillTree.WinterHerald,
+    SkillTree.Mastery,
+  ],
+  [CharacterClass.Warlock]: [
+    SkillTree.Corruptor,
+    SkillTree.Lich,
+    SkillTree.Demonologist,
+    SkillTree.Reaper,
+    SkillTree.Mastery,
+  ],
 };

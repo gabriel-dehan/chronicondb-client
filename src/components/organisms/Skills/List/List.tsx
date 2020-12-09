@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from 'react';
 
-import Header from 'components/molecules/Items/Header/Header';
+import Header from 'components/molecules/Skills/Header/Header';
 import Skill from 'components/organisms/Skills/Skill/Skill';
 import useInfiniteScroll from 'hooks/useInfiniteScroll';
 import { Skill as SkillInterface } from 'types/Skill.types';
@@ -21,11 +21,11 @@ const List: FunctionComponent<Props> = ({ skills }) => {
           <Header />
           <div className="o-skillsList__container">
             <div className="o-skillsList__skills">
-              {/* <InfiniteScroll> */}
-              {skills.map(skill => (
-                <Skill key={`skill-${skill.uuid}-${skill.class}`} skill={skill} />
-              ))}
-              {/* </InfiniteScroll> */}
+              <InfiniteScroll>
+                {paginatedData.map(skill => (
+                  <Skill key={`skill-${skill.uuid}-${skill.class}`} skill={skill} />
+                ))}
+              </InfiniteScroll>
             </div>
           </div>
         </>

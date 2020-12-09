@@ -1,6 +1,6 @@
 @import "responsive.scss";
 
-.o-itemCategories {
+.o-skillClasses {
   background-image: url('../../../../assets/images/textures/sidebar.png');
   width: 240px;
   color: var(--color-element-brown);
@@ -11,11 +11,11 @@
     height: 100%;
   }
 
-  &__category {
+  &__class {
     cursor: pointer;
     list-style: none;
 
-    .o-itemCategories__categoryName {
+    .o-skillClasses__className {
       display: flex;
       align-items: center;
       height: 52px;
@@ -49,7 +49,7 @@
     }
 
     &.selected {
-      .o-itemCategories__categoryName {
+      .o-skillClasses__className {
         opacity: 1;
 
         padding-left: 12px;
@@ -61,24 +61,24 @@
         }
       }
 
-      .o-itemCategories__itemTypeName {
+      .o-skillClasses__skillTreeName {
         padding-left: 42px;
       }
 
-      .o-itemCategories__itemTypes {
+      .o-skillClasses__skillTrees {
         max-height: 1000px;
         transition: max-height 0.5s ease-in-out;
       }
     }
   }
 
-  &__itemTypes {
+  &__skillTrees {
     overflow: hidden;
     max-height: 0;
     transition: max-height 0.35s cubic-bezier(0, 1, 0, 1);
   }
 
-  &__itemType {
+  &__skillTree {
     list-style: none;
     cursor: pointer;
 
@@ -86,7 +86,7 @@
     font-size: var(--font-normal);
 
 
-    .o-itemCategories__itemTypeName {
+    .o-skillClasses__skillTreeName {
       display: flex;
       align-items: center;
       height: 40px;
@@ -102,7 +102,7 @@
 
 
     &.selected {
-      .o-itemCategories__itemTypeName {
+      .o-skillClasses__skillTreeName {
         color: var(--color-element-light-beige);
       }
     }
@@ -123,7 +123,7 @@
       &::after {
         content: '';
         display: block;
-        background-image: url(/assets/images/game/items/categories/helmet.png);
+        background-image: url(/assets/images/game/classes/profiles/templar.png);
         background-repeat: no-repeat;
         background-position: 100%;
         background-size: 100%;
@@ -136,41 +136,17 @@
       }
     }
 
-    &.category-helmet .drawer-handle::after {
-      background-image: url(/assets/images/game/items/categories/helmet.png);
+    &.class-templar .drawer-handle::after {
+      background-image: url(/assets/images/game/classes/profiles/templar.png);
     }
-    &.category-armor .drawer-handle::after {
-      background-image: url(/assets/images/game/items/categories/armor.png);
+    &.class-warlock .drawer-handle::after {
+      background-image: url(/assets/images/game/classes/profiles/warlock.png);
     }
-    &.category-boots .drawer-handle::after {
-      background-image: url(/assets/images/game/items/categories/boots.png);
+    &.class-berserker .drawer-handle::after {
+      background-image: url(/assets/images/game/classes/profiles/berserker.png);
     }
-    &.category-weapon .drawer-handle::after {
-      background-image: url(/assets/images/game/items/categories/weapon.png);
-    }
-    &.category-offhand .drawer-handle::after {
-      background-image: url(/assets/images/game/items/categories/offhand.png);
-    }
-    &.category-ring .drawer-handle::after {
-      background-image: url(/assets/images/game/items/categories/ring.png);
-    }
-    &.category-amulet .drawer-handle::after {
-      background-image: url(/assets/images/game/items/categories/amulet.png);
-    }
-    &.category-accessory .drawer-handle::after {
-      background-image: url(/assets/images/game/items/categories/accessory.png);
-    }
-    &.category-consumables .drawer-handle::after {
-      background-image: url(/assets/images/game/items/categories/consumables.png);
-    }
-    &.category-gem .drawer-handle::after {
-      background-image: url(/assets/images/game/items/categories/gem.png);
-    }
-    &.category-misc .drawer-handle::after {
-      background-image: url(/assets/images/game/items/categories/misc.png);
-    }
-    &.category-craft .drawer-handle::after {
-      background-image: url(/assets/images/game/items/categories/craft.png);
+    &.class-warden .drawer-handle::after {
+      background-image: url(/assets/images/game/classes/profiles/warden.png);
     }
   }
 }
