@@ -52,5 +52,6 @@ export default class Engine {
     this.data = (await import(`./data/${this.version}/extracts`)).default;
     this.Items.onDataLoaded();
     this.Enchants.onDataLoaded();
+    this.Skills.onDataLoaded();
   }
 }

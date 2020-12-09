@@ -108,8 +108,8 @@ export class FiltersStore {
     this.skills = merge(this.skills, filters);
 
     // Allow undefined value for search
-    if (isEmpty(filters.search)) {
-      this.items.search = undefined;
+    if (has(filters, 'search') && isEmpty(filters.search)) {
+      this.skills.search = undefined;
     }
   }
 

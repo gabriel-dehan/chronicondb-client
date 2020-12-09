@@ -14,7 +14,7 @@ const Footer: FunctionComponent = () => {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://github.com/gabriel-dehan/chronicondb-client/issues"
+          href="https://www.reddit.com/r/ChroniconDB/"
         >
           here.
         </a>

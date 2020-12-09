@@ -10,7 +10,7 @@ export default function useInfiniteScroll<T>(data: T[], perPage = 10) {
   useEffect(() => {
     const chunks = chunk(data, perPage);
     setDataChunks(chunks);
-    setPaginatedData(chunks[0]);
+    setPaginatedData(chunks[0] || []);
   }, [data, perPage]);
 
   return {

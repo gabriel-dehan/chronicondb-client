@@ -1,6 +1,6 @@
 @import "responsive.scss";
 
-.o-itemFilters {
+.o-skillFilters {
   display: flex;
   align-items: center;
   position: relative;
@@ -12,11 +12,7 @@
   border-bottom: 1px solid #0b0b0b;
   z-index: 1;
 
-  &__setCheckbox {
-    margin-left: 1.2em;
-  }
-
-  &__classDropdown {
+  &__familyDropdown {
     font-size: var(--font-normal);
     font-family: "Kufam";
     margin-left: auto;
@@ -25,24 +21,24 @@
   }
 
   @include mediaMobile {
-    .o-itemFilters__classDropdown {
+    .o-skillFilters__familyDropdown {
       display: none;
     }
 
   }
 
   @include mediaUpToSmallTablet {
-    .o-itemFilters__search {
+    .o-skillFilters__search {
       margin-left: 35px;
     }
   }
 
   @include mediaUpToTablet {
-    .o-itemFilters__raritySelect {
+    .o-skillFilters__typeSelect {
       display: none;
     }
 
-    .o-itemFilters__search {
+    .o-skillFilters__search {
       width: 100%;
       margin-right: 0;
 
@@ -51,11 +47,4 @@
       }
     }
   }
-
-  @media (max-width: 1060px) {
-    .o-itemFilters__setCheckbox {
-      display: none;
-    }
-  }
-
 }

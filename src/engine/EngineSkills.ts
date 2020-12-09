@@ -19,11 +19,9 @@ export default class EngineEnchants {
   public trees: SkillTree[];
   public treesByClasses: Partial<Record<CharacterClass, SkillTree[]>>;
 
-  //typesByCategories, defaultCategory, defaultType
-
   constructor(engine: Engine) {
     this.engine = engine;
-    this.classes = allEnumValues(CharacterClass);
+    this.classes = [CharacterClass.Templar, CharacterClass.Berserker, CharacterClass.Warden, CharacterClass.Warlock];
     this.trees = allEnumValues(SkillTree);
     this.treesByClasses = SKILLTREES_BY_CLASSES;
     this.searchEngine = new Minisearch({
@@ -44,7 +42,8 @@ export default class EngineEnchants {
 
     skills = this.filterBySearch(skills, filters);
     skills = this.filterByClassAndTree(skills, filters);
-    // skills = this.filterByTypes(skills, filters);
+    skills = this.filterByFamily(skills, filters);
+    skills = this.filterByTypes(skills, filters);
     // skills = this.sortBy(skills, filters);
 
     return skills;
@@ -109,8 +108,24 @@ export default class EngineEnchants {
       const characterClass = (filters.characterClass || this.defaultClass) as CharacterClass;
       const tree = (filters.tree || this.defaultTree) as SkillTree;
 
-      return skills.filter(item => item.class === characterClass && item.tree === tree);
+      return skills.filter(skill => skill.class === characterClass && skill.tree === tree);
     }
   }
 
+
+  private filterByFamily(skills: Skill[], filters: SkillsFilters) {
+    if (filters.family && filters.family !== 'All') {
+      return skills.filter(skill => filters.family === skill.family);
+    }
+
+    return skills;
+  }
+
+  private filterByTypes(skills: Skill[], filters: SkillsFilters) {
+    if (filters.types) {
+      return skills.filter(skill => skill.type && filters.types?.includes(skill.type));
+    }
+
+    return skills;
+  }
 }

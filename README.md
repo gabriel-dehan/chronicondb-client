@@ -125,9 +125,9 @@ If you are unfamiliar with the fork - branch - MR workflow, [read this guide](ht
   - [x] React infinite scroller
 - [x] Enchants page
   - [x] Enchants Search Index (item types)
-- [~] Skills page
-  - [~] Skills Search Index (items types, enchants)
-  - [~] Skill page
+- [x] Skills page
+  - [x] Skills Search Index (items types, enchants)
+  - [x] Skill page
 - [x] Developers page
 - [x] SEO
   - [x] Helmet

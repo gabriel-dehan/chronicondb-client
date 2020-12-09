@@ -1,76 +1,60 @@
 import React, { FunctionComponent } from 'react';
 
-import { camelCase } from 'lodash';
-
-import CheckboxSelect from 'components/atoms/CheckboxSelect/CheckboxSelect';
 import Dropdown from 'components/atoms/Dropdown/Dropdown';
 import Multiselect, { MultiselectOption } from 'components/atoms/Multiselect/Multiselect';
 import Search from 'components/atoms/Search/Search';
-import { DEFAULT_RARITIES_FILTERS } from 'engine/EngineItems';
 import { allEnumValues } from 'helpers/typeUtils';
 import useFilters from 'hooks/useFilters';
-import { CharacterClass } from 'types/Character.types';
-import { ItemsFilters, FiltersType } from 'types/Filters.types';
-import { ItemRarity } from 'types/Item.types';
+import { SkillsFilters, FiltersType } from 'types/Filters.types';
+import { SkillType, SkillFamily } from 'types/Skill.types';
 
 import './Filters.scss';
 
 const Filters: FunctionComponent = () => {
-  const [filters, setFilters] = useFilters<ItemsFilters>(FiltersType.Items);
+  const [filters, setFilters] = useFilters<SkillsFilters>(FiltersType.Skills);
+  const skillTypes = allEnumValues(SkillType);
 
-  const raritiesOptions: MultiselectOption[] = allEnumValues(ItemRarity).map(rarity => ({
-    label: rarity,
-    value: rarity,
-    color: `var(--color-item-${camelCase(rarity)})`,
+  const typesOptions: MultiselectOption[] = skillTypes.map(type => ({
+    label: type,
+    value: type,
+    color: `var(--color-element-orange)`,
   }));
 
-  const classOptions = allEnumValues(CharacterClass).map(charClass => ({
-    label: charClass === CharacterClass.All ? 'All classes' : charClass,
-    value: charClass,
+  const familyOptions = [...['All'], ...allEnumValues(SkillFamily)].map(family => ({
+    label: family === 'All' ? 'Any family' : family,
+    value: family,
   }));
 
   return (
-    <div className="o-itemFilters">
+    <div className="o-skillFilters">
       <Search
-        className="o-itemFilters__search"
+        className="o-skillFilters__search"
         placeholder="Search anything: Fire, Movement, Tornado..."
         value={filters.search || ''}
         onChange={onSearchChange}
       />
       <Multiselect
-        className="o-itemFilters__raritySelect"
-        defaultValues={filters.rarities ? filters.rarities : DEFAULT_RARITIES_FILTERS}
-        options={raritiesOptions}
-        onChange={onRaritiesSelect}
-      />
-      <CheckboxSelect
-        className="o-itemFilters__setCheckbox"
-        selected={filters.onlySet || false}
-        label="Only Sets"
-        value="Set"
-        color={`var(--color-item-set)`}
-        onChange={onSetSelect}
+        className="o-skillFilters__typeSelect"
+        defaultValues={filters.types ? filters.types : skillTypes}
+        options={typesOptions}
+        onChange={onTypesSelect}
       />
       <Dropdown
-        className="o-itemFilters__classDropdown"
+        className="o-skillFilters__familyDropdown"
         label=""
-        defaultValue={filters.characterClass || CharacterClass.All}
-        options={classOptions}
-        onChange={onClassSelect}
+        defaultValue={filters.family || 'All'}
+        options={familyOptions}
+        onChange={onFamilySelect}
       />
     </div>
   );
 
-  function onRaritiesSelect(rarities: string[]) {
-    setFilters({ rarities });
+  function onTypesSelect(types: string[]) {
+    setFilters({ types });
   }
 
-  function onSetSelect(isSelected: boolean) {
-    setFilters({ onlySet: isSelected });
-  }
-
-  function onClassSelect(characterClass: string) {
-    setFilters({ characterClass });
+  function onFamilySelect(family: string) {
+    setFilters({ family });
   }
 
   function onSearchChange(search?: string) {
