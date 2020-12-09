@@ -42,7 +42,7 @@ const Header: FunctionComponent = () => {
       <header className="o-header">
         <div className="o-header__container">
           <div className="o-header__left">
-            <h1 className="o-header__logo">ChroniconDB</h1>
+            <h1 className="o-header__logo"><Link to="/items">ChroniconDB</Link></h1>
             <ul className="o-header__main-menu">
               {MAIN_MENU_ITEMS.map((menuItem) => {
                 const menuRouteId: RouteId = ROUTES_ID_MAPPING[menuItem.path];
