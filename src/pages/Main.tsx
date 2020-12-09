@@ -2,7 +2,7 @@ import React, { FunctionComponent, useEffect, useState, useRef } from 'react';
 import { Router } from 'react-router';
 import { Redirect, Route, Switch } from 'react-router-dom';
 
-import { createBrowserHistory } from 'history';
+import { createBrowserHistory, createHashHistory } from 'history';
 import { autorun } from 'mobx';
 import { observer } from 'mobx-react';
 
@@ -28,7 +28,7 @@ interface Stores {
 const Main: FunctionComponent =  () => {
   const engine = useEngine();
   const { filtersStore } = useStores<Stores>(DataStore.Filters);
-  const history = useRef(createBrowserHistory());
+  const history = useRef(createHashHistory());
   const [engineLoaded, setEngineLoaded] = useState(engine.loaded);
 
   useEffect(() => {
