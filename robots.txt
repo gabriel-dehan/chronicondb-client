@@ -1,3 +1,3 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Sitemap: https://chronicondb.com/sitemap.xml

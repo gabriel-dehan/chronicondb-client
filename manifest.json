@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "ChroniconDB",
+  "name": "Chronicon Database - Items, Enchants, Skills",
   "icons": [
     {
       "src": "favicon.ico",
