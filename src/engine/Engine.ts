@@ -53,5 +53,9 @@ export default class Engine {
     this.Items.onDataLoaded();
     this.Enchants.onDataLoaded();
     this.Skills.onDataLoaded();
+
+    console.log('Enchants', this.data?.enchants.length);
+    console.log('Skills', this.data?.skills.length);
+    console.log('Items', this.data?.items.length);
   }
 }

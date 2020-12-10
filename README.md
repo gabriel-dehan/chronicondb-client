@@ -88,10 +88,19 @@ If you are unfamiliar with the fork - branch - MR workflow, [read this guide](ht
 ### Notes
 
 - Mobile was not planned at first so the CSS is not mobile first. Not the cleanest but 🤷‍♀️
+- There are
+  - 493 Enchants
+  - 1218 Skills
+  - 753 Items
 
 ## Roadmap
 
 ### Post release
+
+- [ ] Fix multiword search (currently searches words separately)
+- [ ] Fix mobile drawer scroll bug
+- [ ] Fix enchant pools that are sometimes incorrect for epic enchants
+- [ ] Fix title and metas for the SPA Redirect page
 - [ ] Create issues for `TODO:` and the post release roadmap
 - [ ] Map item category - types automatically in the item parser (reduce uniq should do the trick)
 - [ ] Update or change the infinite scroll to support react 17+
@@ -106,7 +115,7 @@ If you are unfamiliar with the fork - branch - MR workflow, [read this guide](ht
 
 - [x] Parsing
   - [x] Auto add version to versions file
-  - [ ] Use react router links in templating replacements
+  - [x] Use react router links in templating replacements
 - [x] Layout
   - [x] Fix header overflow
   - [x] Responsiveness
@@ -134,7 +143,7 @@ If you are unfamiliar with the fork - branch - MR workflow, [read this guide](ht
   - [x] Robot.txt
   - [x] Sitemap
   - [x] GA
-- [] Reddit / Steam post for release
+- [x] Reddit / Steam post for release
 
 ## License
 
