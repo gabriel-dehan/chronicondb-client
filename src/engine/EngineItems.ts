@@ -28,6 +28,17 @@ const FILTER_UNAFFECTED_CATEGORIES = [
   ItemCategory.Misc,
 ];
 
+export const ITEM_TYPES_WITH_EPIC_REPLACEMENT_CHANCE = [
+  ItemType.Armor,
+  ItemType.Boots,
+  ItemType.Bow,
+  ItemType.Sword,
+  ItemType.Fists,
+  ItemType.Staff,
+  ItemType.Accessory,
+
+];
+
 export default class EngineItems {
   public readonly engine: Engine;
   public categories: ItemCategory[];
