@@ -100,7 +100,7 @@ If you are unfamiliar with the fork - branch - MR workflow, [read this guide](ht
 - [ ] Fix multiword search (currently searches words separately)
 - [ ] Fix mobile drawer scroll bug
 - [ ] Fix enchant pools that are sometimes incorrect for epic enchants
-- [ ] Fix title and metas for the SPA Redirect page
+- [x] Fix title and metas for the SPA Redirect page
 - [ ] Create issues for `TODO:` and the post release roadmap
 - [ ] Map item category - types automatically in the item parser (reduce uniq should do the trick)
 - [ ] Update or change the infinite scroll to support react 17+
