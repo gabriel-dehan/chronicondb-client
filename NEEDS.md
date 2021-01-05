@@ -45,15 +45,15 @@ If this concerns all enchants and not just the base ones, a good way I just thou
 
 **5**. Rune enchants are missing some information, whether or not a legendary enchant comes from a rune, and whether a legendary enchantment is lesser or greater and what types of items they can be applied to. Pretty much what's on Rahlence guide: https://steamcommunity.com/sharedfiles/filedetails/?id=1911997938. I could have mapped it by hand but I just couldn't muster the motivation of spending a few days on that alone :D.
 
+**6**. Skills don't have their tags in the extract.
+
 ## Would love to have
 
-**6**. I've started working with the guy that created http://iconmaster.info/Chronomancer/ using the jsons I provided, and he helped me put together this whole list, as well as noted a few things missing on the skill side of things:
+**7**. I've started working with the guy that created http://iconmaster.info/Chronomancer/ using the jsons I provided, and he helped me put together this whole list, as well as noted a few things missing on the skill side of things:
 
 For instance now: https://chronicondb.com/skill/100275?skillCharacterClass=Templar
 
 This skill, has a `PROC%` in its templating string with a corresponding value of `3000` I guess it should be divided by 100 as it is stored as an integer instead of a float, but values are sometimes floats, sometimes integer and I am not sure if there is a rule to determine when it should or should not be divided? Or is it an error in the extract?
-
-**7**. Skills don't have their tags in the extract.
 
 **8**. Apparently, some skills are missing their cooldown information.
 
