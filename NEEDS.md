@@ -47,7 +47,17 @@ If this concerns all enchants and not just the base ones, a good way I just thou
 
 ## Would love to have
 
-**6**. For some items, the icon is "TAKEN" instead of the picture. The ones that we noticed:
+**6**. I've started working with the guy that created http://iconmaster.info/Chronomancer/ using the jsons I provided, and he helped me put together this whole list, as well as noted a few things missing on the skill side of things:
+
+For instance now: https://chronicondb.com/skill/100275?skillCharacterClass=Templar
+
+This skill, has a `PROC%` in its templating string with a corresponding value of `3000` I guess it should be divided by 100 as it is stored as an integer instead of a float, but values are sometimes floats, sometimes integer and I am not sure if there is a rule to determine when it should or should not be divided? Or is it an error in the extract?
+
+**7**. Skills don't have their tags in the extract.
+
+**8**. Apparently, some skills are missing their cooldown information.
+
+**9**. For some items, the icon is "TAKEN" instead of the picture. The ones that we noticed:
 
 - Moore's Helmet
 - Refugee's Tattered Vest
@@ -57,16 +67,6 @@ If this concerns all enchants and not just the base ones, a good way I just thou
 - Lich's Wand
 
 They usually use the `spr_itemicons_ID` nomenclature, but some items seem not to, do you have any idea as to why (this way I could make an exception in the parser or something).
-
-**7**. I've started working with the guy that created http://iconmaster.info/Chronomancer/ using the jsons I provided, and he helped me put together this whole list, as well as noted a few things missing on the skill side of things:
-
-For instance now: https://chronicondb.com/skill/100275?skillCharacterClass=Templar
-
-This skill, has a `PROC%` in its templating string with a corresponding value of `3000` I guess it should be divided by 100 as it is stored as an integer instead of a float, but values are sometimes floats, sometimes integer and I am not sure if there is a rule to determine when it should or should not be divided? Or is it an error in the extract?
-
-**8**. Skills don't have their tags in the extract.
-
-**9**. Apparently, some skills are missing their cooldown information.
 
 **10**. Mastery skills "tallies" (the icons / categories preceding each line) are missing from the extracts, not sure where to find those or if it could be added?
 
