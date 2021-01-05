@@ -11,7 +11,8 @@ What extracted data is needed:
 
 **1**. Enchants pools, I manually extracted the data from your guide (actually just noticed you were the author, I was like "how did this guy got all this info" xD): https://steamcommunity.com/sharedfiles/filedetails/?id=835123683 and made it into a JSON (https://github.com/gabriel-dehan/chronicondb-client/blob/main/src/engine/data/enchantsPool.json) but this took me almost half a day of work and I am not looking forward to having to do it again anytime soon :p. If there was a way for the data to be extracted, it would be plain amazing. The format doesn't matter, could be a JSON using my format or another or a CSV or anything, I'll just parse it if it doesn't fit. But this is probably the most important.
 
-Also I am not sure how to format the "25% chance to replace 1 Major with 1 Epic" in a proper way (that's why it's not in my `enchantsPool.json`). I currently have an array like so:
+**1.5**.
+Also I am not sure how to format the *"25% chance to replace 1 Major with 1 Epic"* in a proper way in the enchants pool, which is why it's not in my `enchantsPool.json` file. I currently have it separately in an array like so:
 
 ```ts
 const ITEM_TYPES_WITH_EPIC_REPLACEMENT_CHANCE = [
