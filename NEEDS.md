@@ -41,11 +41,17 @@ Example
 
 **3**. Base enchants data. From what I've understood from the community feedback (and I suspected it), the enchants data in the `enchantlist.txt` file doesn't provide the correct values for the base enchants but only for slotted enchants. It'd be nice to have another `baseenchantlist.txt` with the values only for the bases maybe?
 
+---
+
 **4**. Rahlence on Chronicon's discord told me that "all the items in the same rarity have the same stats in the db and they shouldn't. rings have different ranges from armor, etc etc."
 I am not sure if he was talking about base enchants or any enchants for that matter, but whatever the case, it'd be very welcome to have a way getting this information out of the game. But this is probably **very** hard to represent in a CSV.
 If this concerns all enchants and not just the base ones, a good way I just thought of, that might be able to kill two birds with one (big-ass) stone, would be to create one CSV per item type with the same structure as `enchantlist.txt`. This would give the both the enchants pool for a given item type as well as the correct ranges for every rarity. I might be missing something but it should cover both needs. I don't know your internal structure though so I am not sure if that would simplify the task for you.
 
+---
+
 **5**. Rune enchants are missing some information, whether or not a legendary enchant comes from a rune, and whether a legendary enchantment is lesser or greater and what types of items they can be applied to. Pretty much what's on Rahlence guide: https://steamcommunity.com/sharedfiles/filedetails/?id=1911997938. I could have mapped it by hand but I just couldn't muster the motivation of spending a few days on that alone :D.
+
+---
 
 **6**. Skills don't have their tags in the extract.
 
@@ -57,7 +63,11 @@ For instance now: https://chronicondb.com/skill/100275?skillCharacterClass=Templ
 
 This skill, has a `PROC%` in its templating string with a corresponding value of `3000` I guess it should be divided by 100 as it is stored as an integer instead of a float, but values are sometimes floats, sometimes integer and I am not sure if there is a rule to determine when it should or should not be divided? Or is it an error in the extract?
 
+---
+
 **8**. Apparently, some skills are missing their cooldown information.
+
+---
 
 **9**. For some items, the icon is "TAKEN" instead of the picture. The ones that we noticed:
 
@@ -70,7 +80,11 @@ This skill, has a `PROC%` in its templating string with a corresponding value of
 
 They usually use the `spr_itemicons_ID` nomenclature, but some items seem not to, do you have any idea as to why (this way I could make an exception in the parser or something).
 
+---
+
 **10**. Mastery skills "tallies" (the icons / categories preceding each line) are missing from the extracts, not sure where to find those or if it could be added?
+
+---
 
 **11**. Enchant slots per item type and rarity, this actually goes hand in hand with the enchants pool as it's also in your guide https://steamcommunity.com/sharedfiles/filedetails/?id=835123683, but I had to map it by hand in a dictionnary / object like so:
 
