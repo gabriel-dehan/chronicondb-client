@@ -36,7 +36,6 @@ export const ITEM_TYPES_WITH_EPIC_REPLACEMENT_CHANCE = [
   ItemType.Fists,
   ItemType.Staff,
   ItemType.Accessory,
-
 ];
 
 export default class EngineItems {
