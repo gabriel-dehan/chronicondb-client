@@ -9,7 +9,7 @@ What extracted data is needed:
 
 ## Most important
 
-**1**. Enchants pools, I manually extracted the data from your guide (actually just noticed you were the author, I was like "how did this guy got all this info" xD): https://steamcommunity.com/sharedfiles/filedetails/?id=835123683 and made it into a JSON (https://github.com/gabriel-dehan/chronicondb-client/blob/main/src/engine/data/enchantsPool.json) but this took me almost half a day of work and I am not looking forward to having to do it again anytime soon :p. If there was a way for the data to be extracted, it would be plain amazing. The format doesn't matter, could be a JSON using my format or another or a CSV or anything, I'll just parse it if it doesn't fit. But this is probably the most important.
+**1**. **Enchants pools**, I manually extracted the data from your guide (actually just noticed you were the author, I was like "how did this guy got all this info" xD): https://steamcommunity.com/sharedfiles/filedetails/?id=835123683 and made it into a JSON (https://github.com/gabriel-dehan/chronicondb-client/blob/main/src/engine/data/enchantsPool.json) but this took me almost half a day of work and I am not looking forward to having to do it again anytime soon :p. If there was a way for the data to be extracted, it would be plain amazing. The format doesn't matter, could be a JSON using my format or another or a CSV or anything, I'll just parse it if it doesn't fit. But this is probably the most important.
 
 **1.5**.
 Also I am not sure how to format the *"25% chance to replace 1 Major with 1 Epic"* in a proper way in the enchants pool, which is why it's not in my `enchantsPool.json` file. I currently have it separately in an array like so:
@@ -30,7 +30,7 @@ But it'd be obviously better if it could be extracted from the game (or at least
 
 ## Important
 
-**2**. Gem enchants data in a "CSV" format like the rest, ideally separated (so it's easily separated from the rest of the enchants, that sometimes share names and effects but not ranges.)
+**2**. **Gem enchants** data in a "CSV" format like the rest, ideally separated (so it's easily separated from the rest of the enchants, that sometimes share names and effects but not ranges.)
 Currently I extracted the data manually from the game and made it look like this so it works with the enchants parser: https://github.com/gabriel-dehan/chronicondb-client/blob/main/src/engine/data/injected/gemenchantlist.txt, but once more it a few took hours so I'd like not to have to do it again :D.
 
 Example
@@ -40,7 +40,7 @@ Example
 
 ---
 
-**3**. Base enchants data. From what I've understood from the community feedback (and I suspected it), the enchants data in the `enchantlist.txt` file doesn't provide the correct values for the base enchants but only for slotted enchants. It'd be nice to have another `baseenchantlist.txt` with the values only for the bases maybe?
+**3**. **Base enchants** data. From what I've understood from the community feedback (and I suspected it), the enchants data in the `enchantlist.txt` file doesn't provide the correct values for the base enchants but only for slotted enchants. It'd be nice to have another `baseenchantlist.txt` with the values only for the bases maybe?
 
 ---
 
@@ -50,11 +50,11 @@ If this concerns all enchants and not just the base ones, a good way I just thou
 
 ---
 
-**5**. Rune enchants are missing some information, whether or not a legendary enchant comes from a rune, and whether a legendary enchantment is lesser or greater and what types of items they can be applied to. Pretty much what's on Rahlence guide: https://steamcommunity.com/sharedfiles/filedetails/?id=1911997938. I could have mapped it by hand but I just couldn't muster the motivation of spending a few days on that alone :D.
+**5**. **Runes enchants** are missing some information, whether or not a legendary enchant comes from a rune, and whether a legendary enchantment is lesser or greater and what types of items they can be applied to. Pretty much what's on Rahlence guide: https://steamcommunity.com/sharedfiles/filedetails/?id=1911997938. I could have mapped it by hand but I just couldn't muster the motivation of spending a few days on that alone :D.
 
 ---
 
-**6**. Skills don't have their tags in the extract.
+**6**. **Skills** don't have their **tags** in the extract.
 
 ## Would love to have
 
