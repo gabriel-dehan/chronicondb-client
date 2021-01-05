@@ -27,7 +27,7 @@ const ITEM_TYPES_WITH_EPIC_REPLACEMENT_CHANCE = [
 
 But it'd be obviously better if it could be extracted from the game (or at least if you could ping me if it ever changes :p).
 
-## Very important
+## Important
 
 **2**. Gem enchants data in a "CSV" format like the rest, ideally separated (so it's easily separated from the rest.)
 Currently I extracted the data manually from the game and made it look like this so it works with the enchants parser: https://github.com/gabriel-dehan/chronicondb-client/blob/main/src/engine/data/injected/gemenchantlist.txt, but once more it a few took hours so I'd like not to have to do it again :D.
@@ -45,7 +45,7 @@ If this concerns all enchants and not just the base ones, a good way I just thou
 
 **5**. Rune enchants are missing some information, whether or not a legendary enchant comes from a rune, and whether a legendary enchantment is lesser or greater and what types of items they can be applied to. Pretty much what's on Rahlence guide: https://steamcommunity.com/sharedfiles/filedetails/?id=1911997938. I could have mapped it by hand but I just couldn't muster the motivation of spending a few days on that alone :D.
 
-## Nice to have
+## Would love to have
 
 **6**. Enchant slots per item type and rarity, this actually goes hand in hand with the enchants pool as it's also in your guide https://steamcommunity.com/sharedfiles/filedetails/?id=835123683, but I had to map it by hand in a dictionnary / object like so:
 
