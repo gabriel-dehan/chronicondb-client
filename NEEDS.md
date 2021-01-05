@@ -47,7 +47,30 @@ If this concerns all enchants and not just the base ones, a good way I just thou
 
 ## Would love to have
 
-**6**. Enchant slots per item type and rarity, this actually goes hand in hand with the enchants pool as it's also in your guide https://steamcommunity.com/sharedfiles/filedetails/?id=835123683, but I had to map it by hand in a dictionnary / object like so:
+**6**. For some items, the icon is "TAKEN" instead of the picture. The ones that we noticed:
+
+- Moore's Helmet
+- Refugee's Tattered Vest
+- Amulet of the Apprentice
+- Thundercharged Blade
+- Ayeela's Will
+- Lich's Wand
+
+They usually use the `spr_itemicons_ID` nomenclature, but some items seem not to, do you have any idea as to why (this way I could make an exception in the parser or something).
+
+**7**. I've started working with the guy that created http://iconmaster.info/Chronomancer/ using the jsons I provided, and he helped me put together this whole list, as well as noted a few things missing on the skill side of things:
+
+For instance now: https://chronicondb.com/skill/100275?skillCharacterClass=Templar
+
+This skill, has a `PROC%` in its templating string with a corresponding value of `3000` I guess it should be divided by 100 as it is stored as an integer instead of a float, but values are sometimes floats, sometimes integer and I am not sure if there is a rule to determine when it should or should not be divided? Or is it an error in the extract?
+
+**8**. Skills don't have their tags in the extract.
+
+**9**. Apparently, some skills are missing their cooldown information.
+
+**10**. Mastery skills "tallies" (the icons / categories preceding each line) are missing from the extracts, not sure where to find those or if it could be added?
+
+**11**. Enchant slots per item type and rarity, this actually goes hand in hand with the enchants pool as it's also in your guide https://steamcommunity.com/sharedfiles/filedetails/?id=835123683, but I had to map it by hand in a dictionnary / object like so:
 
 ```json
 {
@@ -82,26 +105,3 @@ If this concerns all enchants and not just the base ones, a good way I just thou
 
 This is not very future proof either, so if we can find a way to extract it, it'd be better. If not possible, at least knowing when this changes would help. I guess it's not supposed to change very frequently and it's a rather easy object to adjust so I could just manually do it, it's not as important as the enchants pool and the rest.
 Actually most of the constants here: https://github.com/gabriel-dehan/chronicondb-client/blob/main/src/engine/data/dataMappings.ts are things that would be more future proof if extracted from the game but clearly not as important as the rest.
-
-**7**. For some items, the icon is "TAKEN" instead of the picture. The ones that we noticed:
-
-Moore's Helmet
-Refugee's Tattered Vest
-Amulet of the Apprentice
-Thundercharged Blade
-Ayeela's Will
-Lich's Wand
-
-They usually use the `spr_itemicons_ID` nomenclature, but some items seem not to, do you have any idea as to why (this way I could make an exception in the parser or something).
-
-**8**. I've started working with the guy that created http://iconmaster.info/Chronomancer/ using the jsons I provided, and he helped me put together this whole list, as well as noted a few things missing on the skill side of things:
-
-For instance now: https://chronicondb.com/skill/100275?skillCharacterClass=Templar
-
-This skill, has a `PROC%` in its templating string with a corresponding value of `3000` I guess it should be divided by 100 as it is stored as an integer instead of a float, but values are sometimes floats, sometimes integer and I am not sure if there is a rule to determine when it should or should not be divided? Or is it an error in the extract?
-
-**9**. Skills don't have their tags in the extract.
-
-**10**. Apparently, some skills are missing their cooldown information.
-
-**11**. Mastery skills "tallies" (the icons / categories preceding each line) are missing from the extracts, not sure where to find those or if it could be added?
