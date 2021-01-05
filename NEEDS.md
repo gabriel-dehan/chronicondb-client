@@ -37,6 +37,8 @@ Example
 562 - Gem Block Chance - 3/5/10, 3/5/10, 3/5/10, 0 - (gem)
 ```
 
+---
+
 **3**. Base enchants data. From what I've understood from the community feedback (and I suspected it), the enchants data in the `enchantlist.txt` file doesn't provide the correct values for the base enchants but only for slotted enchants. It'd be nice to have another `baseenchantlist.txt` with the values only for the bases maybe?
 
 **4**. Rahlence on Chronicon's discord told me that "all the items in the same rarity have the same stats in the db and they shouldn't. rings have different ranges from armor, etc etc."
