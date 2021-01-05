@@ -30,7 +30,7 @@ But it'd be obviously better if it could be extracted from the game (or at least
 
 ## Important
 
-**2**. Gem enchants data in a "CSV" format like the rest, ideally separated (so it's easily separated from the rest.)
+**2**. Gem enchants data in a "CSV" format like the rest, ideally separated (so it's easily separated from the rest of the enchants, that sometimes share names and effects but not ranges.)
 Currently I extracted the data manually from the game and made it look like this so it works with the enchants parser: https://github.com/gabriel-dehan/chronicondb-client/blob/main/src/engine/data/injected/gemenchantlist.txt, but once more it a few took hours so I'd like not to have to do it again :D.
 
 Example
