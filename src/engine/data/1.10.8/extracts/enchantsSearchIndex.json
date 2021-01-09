@@ -708,8 +708,8 @@
     "name": "Sturdy",
     "category": "Enchant",
     "description": "Makes you immune to all knockback and pull effects",
-    "itemTypes": "Boots, Accessory, Amulet",
-    "itemCategories": "Boots, Accessory, Amulet"
+    "itemTypes": "Boots, Amulet",
+    "itemCategories": "Boots, Amulet"
   },
   {
     "uuid": 34,
@@ -1484,8 +1484,8 @@
     "name": "Healing from all sources",
     "category": "Enchant",
     "description": " increased Healing from all sources",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Helm, Armor, Boots",
+    "itemCategories": "Helmet, Armor, Boots"
   },
   {
     "uuid": 1000,

@@ -100,7 +100,6 @@ If you are unfamiliar with the fork - branch - MR workflow, [read this guide](ht
 - [x] Update to 1.10.6
 - [x] Fix enchant slot pools that are sometimes incorrect for epic enchants
 - [x] Fix title and metas for the SPA Redirect page
-- [ ] https://seositecheckup.com/seo-audit/chronicondb.com
 - [ ] Fix multiword search (currently searches words separately)
 - [ ] Fix mobile drawer scroll bug
 - [ ] Create issues for `TODO:` and the post release roadmap
@@ -112,6 +111,7 @@ If you are unfamiliar with the fork - branch - MR workflow, [read this guide](ht
 - [ ] Refactor string templating
 - [ ] In all skills templating, "Unknown Skill" should be handled in a one liner and not repeat the whole ReactDomElement
 - [ ] Ability to sort everything (skills by points invested, alphabetic order...), enchants alphabetically
+- [ ] https://seositecheckup.com/seo-audit/chronicondb.com
 
 ### Release
 

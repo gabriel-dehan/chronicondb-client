@@ -2,7 +2,6 @@ import { compact, isEmpty, reduce, uniq } from 'lodash';
 import Minisearch from 'minisearch';
 
 import { ENCHANT_SLOTS_BY_RARITY } from 'engine/data/dataMappings';
-import EnchantsPoolData from 'engine/data/enchantsPool.json';
 import { sortObject } from 'helpers/objectUtils';
 import { allEnumValues } from 'helpers/typeUtils';
 import {
@@ -186,7 +185,7 @@ export default class EngineEnchants {
   }
 
   private hydrateEnchantsPool(): HydratedEnchantsPool {
-    const enchantsPool = EnchantsPoolData as unknown as EnchantsPool;
+    const enchantsPool = this.data.enchantsPool;
 
     // @ts-ignore
     return reduce(enchantsPool, (hydratedPool: HydratedEnchantsPool, poolByEnchantType: EnchantPoolType, itemType: ItemType) => {

@@ -1,0 +1,924 @@
+[h1]Helm[/h1]
+[list]
+[b]Epic[/b]
+[list]
+[/list]
+[b]Major[/b]
+[list]
+[*]Health - ¤+<X>¥ Health
+[*]Mana - ¤+<X>¥ Mana
+[*]Health Regeneration - ¤+<X>¥ Health Regeneration
+[*]Mana Regeneration - ¤+<X>¥ Mana Regeneration
+[*]Leech - ¤+<X>¥ Mana On Hit
+[*]Critical Hit Chance - ¤+<X>¥% Critical Hit Chance
+[*]Physical Resistance - ¤+<X>¥% Physical Resistance
+[*]Fire Damage - ¤+<X>¥% Fire Damage
+[*]Frost Damage - ¤+<X>¥% Frost Damage
+[*]Lightning Damage - ¤+<X>¥% Lightning Damage
+[*]Poison Damage - ¤+<X>¥% Poison Damage
+[*]Shadow Damage - ¤+<X>¥% Shadow Damage
+[*]Holy Damage - ¤+<X>¥% Holy Damage
+[*]Physical Damage - ¤+<X>¥% Physical Damage
+[*]Healing from all sources - ¤<X>¥% increased Healing from all sources
+[*]Critical Hit Damage - ¤+<X>¥% Critical Hit Damage
+[*]Damage Stagger - ¤<X>¥% of damage taken is staggered and dealt over 3 seconds, at a 30% damage reduction
+[/list]
+[b]Minor[/b]
+[list]
+[*]Indirect Damage Resistance - ¤<X>¥% reduced damage from indirect sources and debuffs
+[*]Thorns - ¤+<X>¥ Thorns
+[*]Magic Find - ¤+<X>¥% Magic find
+[*]Effect Duration - ¤+<X>¥% Effect Duration
+[*]Cooldown Reduction - ¤+<X>¥% Cooldown Reduction
+[*]Reach - ¤+<X>¥% Reach
+[*]Bonus Crystals - ¤+<X>¥% Bonus Crystals
+[*]Experience - ¤+<X>¥% Bonus Experience
+[*]Fire Resistance - ¤+<X>¥% Fire Resistance
+[*]Frost Resistance - ¤+<X>¥% Frost Resistance
+[*]Lightning Resistance - ¤+<X>¥% Lightning Resistance
+[*]Poison Resistance - ¤+<X>¥% Poison Resistance
+[*]Holy Resistance - ¤+<X>¥% Holy Resistance
+[*]Shadow Resistance - ¤+<X>¥% Shadow Resistance
+[*]Companion Damage - ¤+<X>¥% Companion Damage
+[*]Light Radius - ¤+<X>¥% Light Radius
+[*]Satellite Strength - ¤+<X>¥% increased damage of all Satellite enchants
+[/list]
+[/list]
+[h1]Armor[/h1]
+[list]
+[b]Epic[/b]
+[list]
+[*]Damage Reduction - ¤<X>¥% reduced damage from all direct sources
+[*]Evasion - ¤+<X>¥% Evasion
+[*]Kill Restoration - 15% chance to increase Health Regeneration by ¤<X>¥% for 10 seconds after killing a foe. This effect may stack up to 5 times
+[*]Kill Recharge - 15% chance to increase Mana Regeneration by ¤<X>¥% for 10 seconds after killing a foe. This effect may stack up to 5 times
+[*]Kill Healing - 5% chance to heal for ¤<X>¥% of Maximum Health after killing a foe
+[*]Hurt Fear - ¤<X>¥% chance to cause attackers to run away in fear for up to 3 seconds when struck
+[*]Hurt Knockback - ¤<X>¥% chance to knock away attackers up to 3 meters when struck
+[*]Frost Nova - 5% chance to release a Frost Nova dealing ¤<X>¥% Frost damage when struck
+[*]Holy Nova - 5% chance to release a Holy Nova dealing ¤<X>¥% Holy damage when struck
+[*]Death Nova - 5% chance to release a nova of Deathblasts dealing ¤<X>¥% Shadow damage when struck
+[*]Discharge - 5% chance to release an electric orb dealing ¤<X>¥% Lightning damage when struck
+[/list]
+[b]Major[/b]
+[list]
+[*]Health - ¤+<X>¥ Health
+[*]Mana - ¤+<X>¥ Mana
+[*]Health Regeneration - ¤+<X>¥ Health Regeneration
+[*]Mana Regeneration - ¤+<X>¥ Mana Regeneration
+[*]Physical Resistance - ¤+<X>¥% Physical Resistance
+[*]Healing from all sources - ¤<X>¥% increased Healing from all sources
+[*]Resist All - ¤+<X>¥% to all Resistances
+[*]Power All - ¤+<X>¥% to all Elements
+[*]Damage Stagger - ¤<X>¥% of damage taken is staggered and dealt over 3 seconds, at a 30% damage reduction
+[/list]
+[b]Minor[/b]
+[list]
+[*]Thorns - ¤+<X>¥ Thorns
+[*]Mana Cost Reduction - ¤+<X>¥% Mana Cost Reduction
+[*]Pickup Strength - ¤+<X>¥% Pickup Strength
+[*]Pickup Radius - ¤+<X>¥% Pickup Radius
+[*]Fire Resistance - ¤+<X>¥% Fire Resistance
+[*]Frost Resistance - ¤+<X>¥% Frost Resistance
+[*]Lightning Resistance - ¤+<X>¥% Lightning Resistance
+[*]Poison Resistance - ¤+<X>¥% Poison Resistance
+[*]Holy Resistance - ¤+<X>¥% Holy Resistance
+[*]Shadow Resistance - ¤+<X>¥% Shadow Resistance
+[*]Companion Health - ¤+<X>¥% Companion Health
+[*]Gem Strength - ¤+<X>¥% increased effect of all Gems
+[/list]
+[/list]
+[h1]Amulet[/h1]
+[list]
+[b]Epic[/b]
+[list]
+[*]Crown Slaying - ¤+<X>¥% damage vs. Crowned foes
+[*]Damage Reduction - ¤<X>¥% reduced damage from all direct sources
+[*]Lightning Orb - Satellite: An orb of lightning circles the player, casting Chain Lightning every second, dealing ¤<X>¥% Lightning damage
+[*]Frost Orb - Satellite: A frost orb circles the player, casting a Frost Spear every second, dealing ¤<X>¥% Frost damage
+[*]Molten Orb - Satellite: A molten orb circles the player, casting Firebomb every second, dealing ¤<X>¥% Fire damage
+[*]Poison Orb - Satellite: A poison orb circles the player, poisoning nearby enemies for ¤<X>¥% Poison damage per second
+[*]Holy Orb - Satellite: A holy orb circles the player, casting Holy Bolt twice per second, each dealing ¤<X>¥% Holy damage
+[*]Spiked Orb - Satellite: A spiked orb circles the player, hitting nearby foes, dealing ¤<X>¥% Physical damage two times per second
+[*]Shadow Orb - Satellite: A shadow orb circles the player, defiling nearby foes, dealing ¤<X>¥% Shadow damage two times per second
+[*]Kill Hoarder - ¤<X>¥% chance for foes to burst out extra crystals upon death
+[*]Kill Explode - ¤<X>¥% chance to explode foes upon their death, dealing up to 30% of their maximum health as Ethereal damage to other nearby foes
+[*]Kill Pickups - ¤<X>¥% chance to spawn additional health and mana pickups on kill
+[*]Kill Damage - 15% chance to increase Damage by ¤<X>¥% for 10 seconds after killing a foe. This effect may stack up to 5 times
+[*]Kill Restoration - 15% chance to increase Health Regeneration by ¤<X>¥% for 10 seconds after killing a foe. This effect may stack up to 5 times
+[*]Kill Recharge - 15% chance to increase Mana Regeneration by ¤<X>¥% for 10 seconds after killing a foe. This effect may stack up to 5 times
+[*]Kill Healing - 5% chance to heal for ¤<X>¥% of Maximum Health after killing a foe
+[*]Kill Haste - 15% chance to increase Movement Speed by ¤<X>¥% for 10 seconds after killing a foe. This effect may stack up to 5 times
+[*]Hurt Slow - ¤<X>¥% chance to slow attacker by 50% for 5 seconds when struck
+[*]Hurt Root - ¤<X>¥% chance to root and immobilize attacker for 3 seconds when struck
+[*]Hurt Fear - ¤<X>¥% chance to cause attackers to run away in fear for up to 3 seconds when struck
+[*]Hurt Knockback - ¤<X>¥% chance to knock away attackers up to 3 meters when struck
+[*]Frost Nova - 5% chance to release a Frost Nova dealing ¤<X>¥% Frost damage when struck
+[*]Holy Nova - 5% chance to release a Holy Nova dealing ¤<X>¥% Holy damage when struck
+[*]Death Nova - 5% chance to release a nova of Deathblasts dealing ¤<X>¥% Shadow damage when struck
+[*]Discharge - 5% chance to release an electric orb dealing ¤<X>¥% Lightning damage when struck
+[*]Low Health Heal - Any attack that brings you below 30% Maximum Health instantly restores ¤<X>¥ Health. 30 Second cooldown
+[*]Sturdy - Makes you immune to all knockback and pull effects
+[/list]
+[b]Major[/b]
+[list]
+[*]Overpower - ¤+<X>¥% Overpower
+[*]Health - ¤+<X>¥ Health
+[*]Mana - ¤+<X>¥ Mana
+[*]Health Regeneration - ¤+<X>¥ Health Regeneration
+[*]Mana Regeneration - ¤+<X>¥ Mana Regeneration
+[*]Movement Speed - ¤+<X>¥% Movement Speed
+[*]Attack Speed - ¤+<X>¥% Attack Speed
+[*]Vampire - ¤+<X>¥ Health On Hit
+[*]Critical Hit Chance - ¤+<X>¥% Critical Hit Chance
+[*]Physical Resistance - ¤+<X>¥% Physical Resistance
+[*]Fire Damage - ¤+<X>¥% Fire Damage
+[*]Frost Damage - ¤+<X>¥% Frost Damage
+[*]Lightning Damage - ¤+<X>¥% Lightning Damage
+[*]Poison Damage - ¤+<X>¥% Poison Damage
+[*]Shadow Damage - ¤+<X>¥% Shadow Damage
+[*]Holy Damage - ¤+<X>¥% Holy Damage
+[*]Physical Damage - ¤+<X>¥% Physical Damage
+[*]Undead Slaying - ¤+<X>¥% damage vs. Undead
+[*]Spectral Slaying - ¤+<X>¥% damage vs. Spectral
+[*]Arachnid Slaying - ¤+<X>¥% damage vs. Arachnids
+[*]Demon Slaying - ¤+<X>¥% damage vs. Demons
+[*]Beast Slaying - ¤+<X>¥% damage vs. Beasts
+[*]Fae Slaying - ¤+<X>¥% damage vs. Fae
+[*]Humanoid Slaying - ¤+<X>¥% damage vs. Humanoids
+[*]Mechanical Slaying - ¤+<X>¥% damage vs. Mechanicals
+[*]Elemental Slaying - ¤+<X>¥% damage vs. Elementals
+[*]Resist All - ¤+<X>¥% to all Resistances
+[*]Power All - ¤+<X>¥% to all Elements
+[*]Critical Hit Damage - ¤+<X>¥% Critical Hit Damage
+[/list]
+[b]Minor[/b]
+[list]
+[*]Indirect Damage Resistance - ¤<X>¥% reduced damage from indirect sources and debuffs
+[*]Magic Find - ¤+<X>¥% Magic find
+[*]Mana Cost Reduction - ¤+<X>¥% Mana Cost Reduction
+[*]Effect Duration - ¤+<X>¥% Effect Duration
+[*]Cooldown Reduction - ¤+<X>¥% Cooldown Reduction
+[*]Reach - ¤+<X>¥% Reach
+[*]Pickup Strength - ¤+<X>¥% Pickup Strength
+[*]Bonus Crystals - ¤+<X>¥% Bonus Crystals
+[*]Experience - ¤+<X>¥% Bonus Experience
+[*]Fire Resistance - ¤+<X>¥% Fire Resistance
+[*]Frost Resistance - ¤+<X>¥% Frost Resistance
+[*]Lightning Resistance - ¤+<X>¥% Lightning Resistance
+[*]Poison Resistance - ¤+<X>¥% Poison Resistance
+[*]Holy Resistance - ¤+<X>¥% Holy Resistance
+[*]Shadow Resistance - ¤+<X>¥% Shadow Resistance
+[*]Companion Health - ¤+<X>¥% Companion Health
+[*]Companion Damage - ¤+<X>¥% Companion Damage
+[*]Light Radius - ¤+<X>¥% Light Radius
+[*]Potion Effectiveness - ¤+<X>¥% Potion Effectiveness
+[*]Gem Strength - ¤+<X>¥% increased effect of all Gems
+[/list]
+[/list]
+[h1]Ring[/h1]
+[list]
+[b]Epic[/b]
+[list]
+[*]Evasion - ¤+<X>¥% Evasion
+[*]Stun - ¤<X>¥% chance to stun foes hit for up to 3 seconds
+[*]Lightning Orb - Satellite: An orb of lightning circles the player, casting Chain Lightning every second, dealing ¤<X>¥% Lightning damage
+[*]Frost Orb - Satellite: A frost orb circles the player, casting a Frost Spear every second, dealing ¤<X>¥% Frost damage
+[*]Molten Orb - Satellite: A molten orb circles the player, casting Firebomb every second, dealing ¤<X>¥% Fire damage
+[*]Poison Orb - Satellite: A poison orb circles the player, poisoning nearby enemies for ¤<X>¥% Poison damage per second
+[*]Holy Orb - Satellite: A holy orb circles the player, casting Holy Bolt twice per second, each dealing ¤<X>¥% Holy damage
+[*]Spiked Orb - Satellite: A spiked orb circles the player, hitting nearby foes, dealing ¤<X>¥% Physical damage two times per second
+[*]Shadow Orb - Satellite: A shadow orb circles the player, defiling nearby foes, dealing ¤<X>¥% Shadow damage two times per second
+[*]Kill Hoarder - ¤<X>¥% chance for foes to burst out extra crystals upon death
+[*]Kill Explode - ¤<X>¥% chance to explode foes upon their death, dealing up to 30% of their maximum health as Ethereal damage to other nearby foes
+[*]Kill Pickups - ¤<X>¥% chance to spawn additional health and mana pickups on kill
+[*]Kill Damage - 15% chance to increase Damage by ¤<X>¥% for 10 seconds after killing a foe. This effect may stack up to 5 times
+[*]Kill Restoration - 15% chance to increase Health Regeneration by ¤<X>¥% for 10 seconds after killing a foe. This effect may stack up to 5 times
+[*]Kill Recharge - 15% chance to increase Mana Regeneration by ¤<X>¥% for 10 seconds after killing a foe. This effect may stack up to 5 times
+[*]Kill Healing - 5% chance to heal for ¤<X>¥% of Maximum Health after killing a foe
+[*]Kill Haste - 15% chance to increase Movement Speed by ¤<X>¥% for 10 seconds after killing a foe. This effect may stack up to 5 times
+[*]Hurt Slow - ¤<X>¥% chance to slow attacker by 50% for 5 seconds when struck
+[*]Hurt Root - ¤<X>¥% chance to root and immobilize attacker for 3 seconds when struck
+[*]Hurt Fear - ¤<X>¥% chance to cause attackers to run away in fear for up to 3 seconds when struck
+[*]Hurt Knockback - ¤<X>¥% chance to knock away attackers up to 3 meters when struck
+[*]Hurt Movement Speed - ¤<X>¥% chance to increase Movement Speed by ¤<X>¥% for 5 seconds when struck
+[*]Hurt Poison - 5% chance to poison attackers for ¤<X>¥% Poison damage per second for 3 seconds when struck
+[*]Hurt Burn - On hurt: 5% chance to burn attackers for ¤<X>¥% Fire damage per second for 3 seconds when struck
+[*]Low Health Damage - Any attack that brings you below 30% Maximum Health increases your Damage by ¤<X>¥% for 5 seconds
+[*]Low Health Explode - Any attack that brings you below 30% Maximum Health cause a series of explosions dealing ¤<X>¥% Ethereal damage to any nearby foes
+[/list]
+[b]Major[/b]
+[list]
+[*]Overpower - ¤+<X>¥% Overpower
+[*]Health - ¤+<X>¥ Health
+[*]Mana - ¤+<X>¥ Mana
+[*]Health Regeneration - ¤+<X>¥ Health Regeneration
+[*]Mana Regeneration - ¤+<X>¥ Mana Regeneration
+[*]Damage - ¤+<X>¥ Damage
+[*]Movement Speed - ¤+<X>¥% Movement Speed
+[*]Attack Speed - ¤+<X>¥% Attack Speed
+[*]Leech - ¤+<X>¥ Mana On Hit
+[*]Burn - On hit: Deal ¤<X>¥% Fire damage instantly and per second, for 3 seconds
+[*]Chill - On hit: Deal ¤<X>¥% Frost damage instantly
+[*]Holy Smite - On hit: Deal ¤<X>¥% Holy damage instantly
+[*]Poison - On hit: Deal ¤<X>¥% Poison damage instantly and per second, for 5 seconds
+[*]Blight - On hit: Deal ¤<X>¥% Shadow damage instantly and per second, for 5 seconds
+[*]Bleed - On hit: Deal ¤<X>¥% Bleed damage instantly and per second, for 3 seconds
+[*]Chain Lightning - On hit: 25% chance to cause Chain Lightning for ¤<X>¥% Lightning damage
+[*]Critical Hit Chance - ¤+<X>¥% Critical Hit Chance
+[*]Fire Damage - ¤+<X>¥% Fire Damage
+[*]Frost Damage - ¤+<X>¥% Frost Damage
+[*]Lightning Damage - ¤+<X>¥% Lightning Damage
+[*]Poison Damage - ¤+<X>¥% Poison Damage
+[*]Shadow Damage - ¤+<X>¥% Shadow Damage
+[*]Holy Damage - ¤+<X>¥% Holy Damage
+[*]Physical Damage - ¤+<X>¥% Physical Damage
+[*]Bleed Damage - ¤+<X>¥% Bleed Damage
+[*]Resist All - ¤+<X>¥% to all Resistances
+[*]Power All - ¤+<X>¥% to all Elements
+[*]Critical Hit Damage - ¤+<X>¥% Critical Hit Damage
+[/list]
+[b]Minor[/b]
+[list]
+[*]Magic Find - ¤+<X>¥% Magic find
+[*]Mana Cost Reduction - ¤+<X>¥% Mana Cost Reduction
+[*]Effect Duration - ¤+<X>¥% Effect Duration
+[*]Cooldown Reduction - ¤+<X>¥% Cooldown Reduction
+[*]Pickup Strength - ¤+<X>¥% Pickup Strength
+[*]Bonus Crystals - ¤+<X>¥% Bonus Crystals
+[*]Experience - ¤+<X>¥% Bonus Experience
+[*]Fire Resistance - ¤+<X>¥% Fire Resistance
+[*]Frost Resistance - ¤+<X>¥% Frost Resistance
+[*]Lightning Resistance - ¤+<X>¥% Lightning Resistance
+[*]Poison Resistance - ¤+<X>¥% Poison Resistance
+[*]Holy Resistance - ¤+<X>¥% Holy Resistance
+[*]Shadow Resistance - ¤+<X>¥% Shadow Resistance
+[*]Companion Health - ¤+<X>¥% Companion Health
+[*]Companion Damage - ¤+<X>¥% Companion Damage
+[*]Light Radius - ¤+<X>¥% Light Radius
+[*]Potion Effectiveness - ¤+<X>¥% Potion Effectiveness
+[*]Satellite Strength - ¤+<X>¥% increased damage of all Satellite enchants
+[*]Gem Strength - ¤+<X>¥% increased effect of all Gems
+[/list]
+[/list]
+[h1]Boots[/h1]
+[list]
+[b]Epic[/b]
+[list]
+[*]Stun - ¤<X>¥% chance to stun foes hit for up to 3 seconds
+[*]Interrupt - ¤<X>¥% chance to interrupt attacks of foes hit
+[*]Kill Haste - 15% chance to increase Movement Speed by ¤<X>¥% for 10 seconds after killing a foe. This effect may stack up to 5 times
+[*]Hurt Slow - ¤<X>¥% chance to slow attacker by 50% for 5 seconds when struck
+[*]Hurt Root - ¤<X>¥% chance to root and immobilize attacker for 3 seconds when struck
+[*]Hurt Movement Speed - ¤<X>¥% chance to increase Movement Speed by ¤<X>¥% for 5 seconds when struck
+[*]Hurt Poison - 5% chance to poison attackers for ¤<X>¥% Poison damage per second for 3 seconds when struck
+[*]Hurt Burn - On hurt: 5% chance to burn attackers for ¤<X>¥% Fire damage per second for 3 seconds when struck
+[*]Phasewalk - You are no longer affected by collisions and can walk through objects and enemies
+[*]Ironsole - Makes you immune to damage from spike traps
+[*]Sludge Treads - Creates a trail of poison as you walk, dealing ¤<X>¥% Poison damage per second, for 3 seconds
+[*]Sturdy - Makes you immune to all knockback and pull effects
+[/list]
+[b]Major[/b]
+[list]
+[*]Health - ¤+<X>¥ Health
+[*]Mana - ¤+<X>¥ Mana
+[*]Health Regeneration - ¤+<X>¥ Health Regeneration
+[*]Mana Regeneration - ¤+<X>¥ Mana Regeneration
+[*]Movement Speed - ¤+<X>¥% Movement Speed
+[*]Vampire - ¤+<X>¥ Health On Hit
+[*]Knockback - ¤+<X>¥% Knockback Chance
+[*]Physical Resistance - ¤+<X>¥% Physical Resistance
+[*]Healing from all sources - ¤<X>¥% increased Healing from all sources
+[*]Resist All - ¤+<X>¥% to all Resistances
+[/list]
+[b]Minor[/b]
+[list]
+[*]Ground Effect Resistance - ¤<X>¥% reduced damage from harmful ground effects
+[*]Thorns - ¤+<X>¥ Thorns
+[*]Magic Find - ¤+<X>¥% Magic find
+[*]Pickup Strength - ¤+<X>¥% Pickup Strength
+[*]Pickup Radius - ¤+<X>¥% Pickup Radius
+[*]Bonus Crystals - ¤+<X>¥% Bonus Crystals
+[*]Fire Resistance - ¤+<X>¥% Fire Resistance
+[*]Frost Resistance - ¤+<X>¥% Frost Resistance
+[*]Lightning Resistance - ¤+<X>¥% Lightning Resistance
+[*]Poison Resistance - ¤+<X>¥% Poison Resistance
+[*]Holy Resistance - ¤+<X>¥% Holy Resistance
+[*]Shadow Resistance - ¤+<X>¥% Shadow Resistance
+[*]Companion Damage - ¤+<X>¥% Companion Damage
+[*]Potion Effectiveness - ¤+<X>¥% Potion Effectiveness
+[/list]
+[/list]
+[h1]Accessory[/h1]
+[list]
+[b]Epic[/b]
+[list]
+[/list]
+[b]Major[/b]
+[list]
+[*]Overpower - ¤+<X>¥% Overpower
+[*]Health - ¤+<X>¥ Health
+[*]Mana - ¤+<X>¥ Mana
+[*]Health Regeneration - ¤+<X>¥ Health Regeneration
+[*]Mana Regeneration - ¤+<X>¥ Mana Regeneration
+[*]Movement Speed - ¤+<X>¥% Movement Speed
+[*]Attack Speed - ¤+<X>¥% Attack Speed
+[*]Burn - On hit: Deal ¤<X>¥% Fire damage instantly and per second, for 3 seconds
+[*]Chill - On hit: Deal ¤<X>¥% Frost damage instantly
+[*]Holy Smite - On hit: Deal ¤<X>¥% Holy damage instantly
+[*]Poison - On hit: Deal ¤<X>¥% Poison damage instantly and per second, for 5 seconds
+[*]Blight - On hit: Deal ¤<X>¥% Shadow damage instantly and per second, for 5 seconds
+[*]Bleed - On hit: Deal ¤<X>¥% Bleed damage instantly and per second, for 3 seconds
+[*]Chain Lightning - On hit: 25% chance to cause Chain Lightning for ¤<X>¥% Lightning damage
+[*]Critical Hit Chance - ¤+<X>¥% Critical Hit Chance
+[*]Knockback - ¤+<X>¥% Knockback Chance
+[*]Fire Damage - ¤+<X>¥% Fire Damage
+[*]Frost Damage - ¤+<X>¥% Frost Damage
+[*]Lightning Damage - ¤+<X>¥% Lightning Damage
+[*]Poison Damage - ¤+<X>¥% Poison Damage
+[*]Shadow Damage - ¤+<X>¥% Shadow Damage
+[*]Holy Damage - ¤+<X>¥% Holy Damage
+[*]Physical Damage - ¤+<X>¥% Physical Damage
+[*]Undead Slaying - ¤+<X>¥% damage vs. Undead
+[*]Spectral Slaying - ¤+<X>¥% damage vs. Spectral
+[*]Arachnid Slaying - ¤+<X>¥% damage vs. Arachnids
+[*]Demon Slaying - ¤+<X>¥% damage vs. Demons
+[*]Beast Slaying - ¤+<X>¥% damage vs. Beasts
+[*]Fae Slaying - ¤+<X>¥% damage vs. Fae
+[*]Humanoid Slaying - ¤+<X>¥% damage vs. Humanoids
+[*]Mechanical Slaying - ¤+<X>¥% damage vs. Mechanicals
+[*]Elemental Slaying - ¤+<X>¥% damage vs. Elementals
+[*]Resist All - ¤+<X>¥% to all Resistances
+[/list]
+[b]Minor[/b]
+[list]
+[*]Ground Effect Resistance - ¤<X>¥% reduced damage from harmful ground effects
+[*]Thorns - ¤+<X>¥ Thorns
+[*]Magic Find - ¤+<X>¥% Magic find
+[*]Mana Cost Reduction - ¤+<X>¥% Mana Cost Reduction
+[*]Cooldown Reduction - ¤+<X>¥% Cooldown Reduction
+[*]Reach - ¤+<X>¥% Reach
+[*]Pickup Strength - ¤+<X>¥% Pickup Strength
+[*]Pickup Radius - ¤+<X>¥% Pickup Radius
+[*]Bonus Crystals - ¤+<X>¥% Bonus Crystals
+[*]Experience - ¤+<X>¥% Bonus Experience
+[*]Companion Health - ¤+<X>¥% Companion Health
+[*]Companion Damage - ¤+<X>¥% Companion Damage
+[*]Potion Effectiveness - ¤+<X>¥% Potion Effectiveness
+[*]Satellite Strength - ¤+<X>¥% increased damage of all Satellite enchants
+[*]Gem Strength - ¤+<X>¥% increased effect of all Gems
+[/list]
+[/list]
+[h1]Spellbook (Offhand)[/h1]
+[list]
+[b]Epic[/b]
+[list]
+[/list]
+[b]Major[/b]
+[list]
+[*]Overpower - ¤+<X>¥% Overpower
+[*]Mana - ¤+<X>¥ Mana
+[*]Health Regeneration - ¤+<X>¥ Health Regeneration
+[*]Mana Regeneration - ¤+<X>¥ Mana Regeneration
+[*]Damage - ¤+<X>¥ Damage
+[*]Attack Speed - ¤+<X>¥% Attack Speed
+[*]Vampire - ¤+<X>¥ Health On Hit
+[*]Leech - ¤+<X>¥ Mana On Hit
+[*]Burn - On hit: Deal ¤<X>¥% Fire damage instantly and per second, for 3 seconds
+[*]Chill - On hit: Deal ¤<X>¥% Frost damage instantly
+[*]Holy Smite - On hit: Deal ¤<X>¥% Holy damage instantly
+[*]Poison - On hit: Deal ¤<X>¥% Poison damage instantly and per second, for 5 seconds
+[*]Blight - On hit: Deal ¤<X>¥% Shadow damage instantly and per second, for 5 seconds
+[*]Bleed - On hit: Deal ¤<X>¥% Bleed damage instantly and per second, for 3 seconds
+[*]Chain Lightning - On hit: 25% chance to cause Chain Lightning for ¤<X>¥% Lightning damage
+[*]Critical Hit Chance - ¤+<X>¥% Critical Hit Chance
+[*]Knockback - ¤+<X>¥% Knockback Chance
+[*]Fire Damage - ¤+<X>¥% Fire Damage
+[*]Frost Damage - ¤+<X>¥% Frost Damage
+[*]Poison Damage - ¤+<X>¥% Poison Damage
+[*]Shadow Damage - ¤+<X>¥% Shadow Damage
+[*]Undead Slaying - ¤+<X>¥% damage vs. Undead
+[*]Spectral Slaying - ¤+<X>¥% damage vs. Spectral
+[*]Arachnid Slaying - ¤+<X>¥% damage vs. Arachnids
+[*]Demon Slaying - ¤+<X>¥% damage vs. Demons
+[*]Beast Slaying - ¤+<X>¥% damage vs. Beasts
+[*]Fae Slaying - ¤+<X>¥% damage vs. Fae
+[*]Humanoid Slaying - ¤+<X>¥% damage vs. Humanoids
+[*]Mechanical Slaying - ¤+<X>¥% damage vs. Mechanicals
+[*]Elemental Slaying - ¤+<X>¥% damage vs. Elementals
+[*]Power All - ¤+<X>¥% to all Elements
+[*]Critical Hit Damage - ¤+<X>¥% Critical Hit Damage
+[*]Damage Stagger - ¤<X>¥% of damage taken is staggered and dealt over 3 seconds, at a 30% damage reduction
+[/list]
+[b]Minor[/b]
+[list]
+[*]Thorns - ¤+<X>¥ Thorns
+[*]Magic Find - ¤+<X>¥% Magic find
+[*]Mana Cost Reduction - ¤+<X>¥% Mana Cost Reduction
+[*]Effect Duration - ¤+<X>¥% Effect Duration
+[*]Reach - ¤+<X>¥% Reach
+[*]Pickup Strength - ¤+<X>¥% Pickup Strength
+[*]Experience - ¤+<X>¥% Bonus Experience
+[*]Fire Resistance - ¤+<X>¥% Fire Resistance
+[*]Frost Resistance - ¤+<X>¥% Frost Resistance
+[*]Lightning Resistance - ¤+<X>¥% Lightning Resistance
+[*]Poison Resistance - ¤+<X>¥% Poison Resistance
+[*]Holy Resistance - ¤+<X>¥% Holy Resistance
+[*]Shadow Resistance - ¤+<X>¥% Shadow Resistance
+[*]Companion Health - ¤+<X>¥% Companion Health
+[*]Potion Effectiveness - ¤+<X>¥% Potion Effectiveness
+[/list]
+[/list]
+[h1]Claw (Offhand)[/h1]
+[list]
+[b]Epic[/b]
+[list]
+[/list]
+[b]Major[/b]
+[list]
+[*]Minimum Rage - ¤+<X>¥ Minimum Rage
+[*]Maximum Rage - ¤+<X>¥ Maximum Rage
+[*]Overpower - ¤+<X>¥% Overpower
+[*]Health Regeneration - ¤+<X>¥ Health Regeneration
+[*]Mana Regeneration - ¤+<X>¥ Mana Regeneration
+[*]Damage - ¤+<X>¥ Damage
+[*]Movement Speed - ¤+<X>¥% Movement Speed
+[*]Attack Speed - ¤+<X>¥% Attack Speed
+[*]Vampire - ¤+<X>¥ Health On Hit
+[*]Leech - ¤+<X>¥ Mana On Hit
+[*]Burn - On hit: Deal ¤<X>¥% Fire damage instantly and per second, for 3 seconds
+[*]Chill - On hit: Deal ¤<X>¥% Frost damage instantly
+[*]Holy Smite - On hit: Deal ¤<X>¥% Holy damage instantly
+[*]Poison - On hit: Deal ¤<X>¥% Poison damage instantly and per second, for 5 seconds
+[*]Blight - On hit: Deal ¤<X>¥% Shadow damage instantly and per second, for 5 seconds
+[*]Bleed - On hit: Deal ¤<X>¥% Bleed damage instantly and per second, for 3 seconds
+[*]Chain Lightning - On hit: 25% chance to cause Chain Lightning for ¤<X>¥% Lightning damage
+[*]Critical Hit Chance - ¤+<X>¥% Critical Hit Chance
+[*]Knockback - ¤+<X>¥% Knockback Chance
+[*]Fire Damage - ¤+<X>¥% Fire Damage
+[*]Frost Damage - ¤+<X>¥% Frost Damage
+[*]Lightning Damage - ¤+<X>¥% Lightning Damage
+[*]Physical Damage - ¤+<X>¥% Physical Damage
+[*]Undead Slaying - ¤+<X>¥% damage vs. Undead
+[*]Spectral Slaying - ¤+<X>¥% damage vs. Spectral
+[*]Arachnid Slaying - ¤+<X>¥% damage vs. Arachnids
+[*]Demon Slaying - ¤+<X>¥% damage vs. Demons
+[*]Beast Slaying - ¤+<X>¥% damage vs. Beasts
+[*]Fae Slaying - ¤+<X>¥% damage vs. Fae
+[*]Humanoid Slaying - ¤+<X>¥% damage vs. Humanoids
+[*]Mechanical Slaying - ¤+<X>¥% damage vs. Mechanicals
+[*]Elemental Slaying - ¤+<X>¥% damage vs. Elementals
+[*]Bleed Damage - ¤+<X>¥% Bleed Damage
+[*]Power All - ¤+<X>¥% to all Elements
+[*]Critical Hit Damage - ¤+<X>¥% Critical Hit Damage
+[*]Damage Stagger - ¤<X>¥% of damage taken is staggered and dealt over 3 seconds, at a 30% damage reduction
+[/list]
+[b]Minor[/b]
+[list]
+[*]Rage Generation - ¤+<X>¥% Rage Generation
+[*]Thorns - ¤+<X>¥ Thorns
+[*]Magic Find - ¤+<X>¥% Magic find
+[*]Mana Cost Reduction - ¤+<X>¥% Mana Cost Reduction
+[*]Effect Duration - ¤+<X>¥% Effect Duration
+[*]Reach - ¤+<X>¥% Reach
+[*]Pickup Strength - ¤+<X>¥% Pickup Strength
+[*]Experience - ¤+<X>¥% Bonus Experience
+[*]Fire Resistance - ¤+<X>¥% Fire Resistance
+[*]Frost Resistance - ¤+<X>¥% Frost Resistance
+[*]Lightning Resistance - ¤+<X>¥% Lightning Resistance
+[*]Poison Resistance - ¤+<X>¥% Poison Resistance
+[*]Holy Resistance - ¤+<X>¥% Holy Resistance
+[*]Shadow Resistance - ¤+<X>¥% Shadow Resistance
+[*]Companion Health - ¤+<X>¥% Companion Health
+[/list]
+[/list]
+[h1]Shield (Offhand)[/h1]
+[list]
+[b]Epic[/b]
+[list]
+[/list]
+[b]Major[/b]
+[list]
+[*]Bonus Block Rate - ¤+<X>¥% Extra Block Chance (Templar Only)
+[*]Bonus Block Damage - ¤+<X>¥% Extra Damage Blocked (Templar Only)
+[*]Health - ¤+<X>¥ Health
+[*]Mana - ¤+<X>¥ Mana
+[*]Health Regeneration - ¤+<X>¥ Health Regeneration
+[*]Mana Regeneration - ¤+<X>¥ Mana Regeneration
+[*]Damage - ¤+<X>¥ Damage
+[*]Vampire - ¤+<X>¥ Health On Hit
+[*]Leech - ¤+<X>¥ Mana On Hit
+[*]Knockback - ¤+<X>¥% Knockback Chance
+[*]Physical Resistance - ¤+<X>¥% Physical Resistance
+[*]Fire Damage - ¤+<X>¥% Fire Damage
+[*]Lightning Damage - ¤+<X>¥% Lightning Damage
+[*]Holy Damage - ¤+<X>¥% Holy Damage
+[*]Physical Damage - ¤+<X>¥% Physical Damage
+[*]Undead Slaying - ¤+<X>¥% damage vs. Undead
+[*]Spectral Slaying - ¤+<X>¥% damage vs. Spectral
+[*]Arachnid Slaying - ¤+<X>¥% damage vs. Arachnids
+[*]Demon Slaying - ¤+<X>¥% damage vs. Demons
+[*]Beast Slaying - ¤+<X>¥% damage vs. Beasts
+[*]Fae Slaying - ¤+<X>¥% damage vs. Fae
+[*]Humanoid Slaying - ¤+<X>¥% damage vs. Humanoids
+[*]Mechanical Slaying - ¤+<X>¥% damage vs. Mechanicals
+[*]Elemental Slaying - ¤+<X>¥% damage vs. Elementals
+[*]Bleed Damage - ¤+<X>¥% Bleed Damage
+[*]Resist All - ¤+<X>¥% to all Resistances
+[*]Power All - ¤+<X>¥% to all Elements
+[*]Critical Hit Damage - ¤+<X>¥% Critical Hit Damage
+[*]Damage Stagger - ¤<X>¥% of damage taken is staggered and dealt over 3 seconds, at a 30% damage reduction
+[/list]
+[b]Minor[/b]
+[list]
+[*]Thorns - ¤+<X>¥ Thorns
+[*]Magic Find - ¤+<X>¥% Magic find
+[*]Mana Cost Reduction - ¤+<X>¥% Mana Cost Reduction
+[*]Effect Duration - ¤+<X>¥% Effect Duration
+[*]Reach - ¤+<X>¥% Reach
+[*]Pickup Strength - ¤+<X>¥% Pickup Strength
+[*]Experience - ¤+<X>¥% Bonus Experience
+[*]Fire Resistance - ¤+<X>¥% Fire Resistance
+[*]Frost Resistance - ¤+<X>¥% Frost Resistance
+[*]Lightning Resistance - ¤+<X>¥% Lightning Resistance
+[*]Poison Resistance - ¤+<X>¥% Poison Resistance
+[*]Holy Resistance - ¤+<X>¥% Holy Resistance
+[*]Shadow Resistance - ¤+<X>¥% Shadow Resistance
+[*]Companion Health - ¤+<X>¥% Companion Health
+[/list]
+[/list]
+[h1]Tome (Offhand)[/h1]
+[list]
+[b]Epic[/b]
+[list]
+[/list]
+[b]Major[/b]
+[list]
+[*]Overpower - ¤+<X>¥% Overpower
+[*]Mana - ¤+<X>¥ Mana
+[*]Health Regeneration - ¤+<X>¥ Health Regeneration
+[*]Mana Regeneration - ¤+<X>¥ Mana Regeneration
+[*]Damage - ¤+<X>¥ Damage
+[*]Attack Speed - ¤+<X>¥% Attack Speed
+[*]Vampire - ¤+<X>¥ Health On Hit
+[*]Leech - ¤+<X>¥ Mana On Hit
+[*]Burn - On hit: Deal ¤<X>¥% Fire damage instantly and per second, for 3 seconds
+[*]Chill - On hit: Deal ¤<X>¥% Frost damage instantly
+[*]Holy Smite - On hit: Deal ¤<X>¥% Holy damage instantly
+[*]Poison - On hit: Deal ¤<X>¥% Poison damage instantly and per second, for 5 seconds
+[*]Blight - On hit: Deal ¤<X>¥% Shadow damage instantly and per second, for 5 seconds
+[*]Bleed - On hit: Deal ¤<X>¥% Bleed damage instantly and per second, for 3 seconds
+[*]Chain Lightning - On hit: 25% chance to cause Chain Lightning for ¤<X>¥% Lightning damage
+[*]Critical Hit Chance - ¤+<X>¥% Critical Hit Chance
+[*]Knockback - ¤+<X>¥% Knockback Chance
+[*]Fire Damage - ¤+<X>¥% Fire Damage
+[*]Lightning Damage - ¤+<X>¥% Lightning Damage
+[*]Holy Damage - ¤+<X>¥% Holy Damage
+[*]Physical Damage - ¤+<X>¥% Physical Damage
+[*]Undead Slaying - ¤+<X>¥% damage vs. Undead
+[*]Spectral Slaying - ¤+<X>¥% damage vs. Spectral
+[*]Arachnid Slaying - ¤+<X>¥% damage vs. Arachnids
+[*]Demon Slaying - ¤+<X>¥% damage vs. Demons
+[*]Beast Slaying - ¤+<X>¥% damage vs. Beasts
+[*]Fae Slaying - ¤+<X>¥% damage vs. Fae
+[*]Humanoid Slaying - ¤+<X>¥% damage vs. Humanoids
+[*]Mechanical Slaying - ¤+<X>¥% damage vs. Mechanicals
+[*]Elemental Slaying - ¤+<X>¥% damage vs. Elementals
+[*]Bleed Damage - ¤+<X>¥% Bleed Damage
+[*]Power All - ¤+<X>¥% to all Elements
+[*]Critical Hit Damage - ¤+<X>¥% Critical Hit Damage
+[*]Damage Stagger - ¤<X>¥% of damage taken is staggered and dealt over 3 seconds, at a 30% damage reduction
+[/list]
+[b]Minor[/b]
+[list]
+[*]Thorns - ¤+<X>¥ Thorns
+[*]Magic Find - ¤+<X>¥% Magic find
+[*]Mana Cost Reduction - ¤+<X>¥% Mana Cost Reduction
+[*]Effect Duration - ¤+<X>¥% Effect Duration
+[*]Reach - ¤+<X>¥% Reach
+[*]Pickup Strength - ¤+<X>¥% Pickup Strength
+[*]Experience - ¤+<X>¥% Bonus Experience
+[*]Fire Resistance - ¤+<X>¥% Fire Resistance
+[*]Frost Resistance - ¤+<X>¥% Frost Resistance
+[*]Lightning Resistance - ¤+<X>¥% Lightning Resistance
+[*]Poison Resistance - ¤+<X>¥% Poison Resistance
+[*]Holy Resistance - ¤+<X>¥% Holy Resistance
+[*]Shadow Resistance - ¤+<X>¥% Shadow Resistance
+[*]Companion Health - ¤+<X>¥% Companion Health
+[*]Potion Effectiveness - ¤+<X>¥% Potion Effectiveness
+[/list]
+[/list]
+[h1]Arrow (Offhand)[/h1]
+[list]
+[b]Epic[/b]
+[list]
+[/list]
+[b]Major[/b]
+[list]
+[*]Overpower - ¤+<X>¥% Overpower
+[*]Health Regeneration - ¤+<X>¥ Health Regeneration
+[*]Mana Regeneration - ¤+<X>¥ Mana Regeneration
+[*]Damage - ¤+<X>¥ Damage
+[*]Movement Speed - ¤+<X>¥% Movement Speed
+[*]Attack Speed - ¤+<X>¥% Attack Speed
+[*]Vampire - ¤+<X>¥ Health On Hit
+[*]Leech - ¤+<X>¥ Mana On Hit
+[*]Burn - On hit: Deal ¤<X>¥% Fire damage instantly and per second, for 3 seconds
+[*]Chill - On hit: Deal ¤<X>¥% Frost damage instantly
+[*]Holy Smite - On hit: Deal ¤<X>¥% Holy damage instantly
+[*]Poison - On hit: Deal ¤<X>¥% Poison damage instantly and per second, for 5 seconds
+[*]Blight - On hit: Deal ¤<X>¥% Shadow damage instantly and per second, for 5 seconds
+[*]Bleed - On hit: Deal ¤<X>¥% Bleed damage instantly and per second, for 3 seconds
+[*]Chain Lightning - On hit: 25% chance to cause Chain Lightning for ¤<X>¥% Lightning damage
+[*]Critical Hit Chance - ¤+<X>¥% Critical Hit Chance
+[*]Knockback - ¤+<X>¥% Knockback Chance
+[*]Frost Damage - ¤+<X>¥% Frost Damage
+[*]Lightning Damage - ¤+<X>¥% Lightning Damage
+[*]Poison Damage - ¤+<X>¥% Poison Damage
+[*]Physical Damage - ¤+<X>¥% Physical Damage
+[*]Undead Slaying - ¤+<X>¥% damage vs. Undead
+[*]Spectral Slaying - ¤+<X>¥% damage vs. Spectral
+[*]Arachnid Slaying - ¤+<X>¥% damage vs. Arachnids
+[*]Demon Slaying - ¤+<X>¥% damage vs. Demons
+[*]Beast Slaying - ¤+<X>¥% damage vs. Beasts
+[*]Fae Slaying - ¤+<X>¥% damage vs. Fae
+[*]Humanoid Slaying - ¤+<X>¥% damage vs. Humanoids
+[*]Mechanical Slaying - ¤+<X>¥% damage vs. Mechanicals
+[*]Elemental Slaying - ¤+<X>¥% damage vs. Elementals
+[*]Bleed Damage - ¤+<X>¥% Bleed Damage
+[*]Power All - ¤+<X>¥% to all Elements
+[*]Critical Hit Damage - ¤+<X>¥% Critical Hit Damage
+[*]Damage Stagger - ¤<X>¥% of damage taken is staggered and dealt over 3 seconds, at a 30% damage reduction
+[/list]
+[b]Minor[/b]
+[list]
+[*]Thorns - ¤+<X>¥ Thorns
+[*]Magic Find - ¤+<X>¥% Magic find
+[*]Mana Cost Reduction - ¤+<X>¥% Mana Cost Reduction
+[*]Effect Duration - ¤+<X>¥% Effect Duration
+[*]Reach - ¤+<X>¥% Reach
+[*]Pickup Strength - ¤+<X>¥% Pickup Strength
+[*]Experience - ¤+<X>¥% Bonus Experience
+[*]Fire Resistance - ¤+<X>¥% Fire Resistance
+[*]Frost Resistance - ¤+<X>¥% Frost Resistance
+[*]Lightning Resistance - ¤+<X>¥% Lightning Resistance
+[*]Poison Resistance - ¤+<X>¥% Poison Resistance
+[*]Holy Resistance - ¤+<X>¥% Holy Resistance
+[*]Shadow Resistance - ¤+<X>¥% Shadow Resistance
+[*]Companion Health - ¤+<X>¥% Companion Health
+[/list]
+[/list]
+[h1]Bow[/h1]
+[list]
+[b]Epic[/b]
+[list]
+[*]Crown Slaying - ¤+<X>¥% damage vs. Crowned foes
+[*]Interrupt - ¤<X>¥% chance to interrupt attacks of foes hit
+[*]Grip - ¤<X>¥% chance on hit to pull all enemies within 3 meters of the foe closer to it
+[*]Twister - 15% Chance on critical hit to summon a Twister that seeks out nearby foes, dealing ¤<X>¥% Ethereal damage per second as direct damage but may not crit.
+[*]Hellfire - 15% Chance on critical hit to summon Hellfire over your foe, dealing up to ¤<X>¥% Ethereal damage per strike. Deals direct damage but may not crit.
+[*]Enrage - 5% chance on critical hits to increase the base Attack Speed of all skills by ¤<X>¥% for 5 seconds
+[*]Burst - 35% chance on critical hits to cause an explosion dealing ¤<X>¥% Ethereal damage
+[*]Gib Regeneration - ¤+<X>¥% Health- and Mana Regeneration for 5 seconds after gibbing a foe
+[*]Gib Damage - ¤+<X>¥% Damage for 5 seconds after gibbing a foe
+[*]Gib Heal - 5% chance to heal for ¤<X>¥% of Maximum Health after gibbing a foe
+[/list]
+[b]Major[/b]
+[list]
+[*]Health - ¤+<X>¥ Health
+[*]Mana - ¤+<X>¥ Mana
+[*]Damage - ¤+<X>¥ Damage
+[*]Attack Speed - ¤+<X>¥% Attack Speed
+[*]Vampire - ¤+<X>¥ Health On Hit
+[*]Leech - ¤+<X>¥ Mana On Hit
+[*]Burn - On hit: Deal ¤<X>¥% Fire damage instantly and per second, for 3 seconds
+[*]Chill - On hit: Deal ¤<X>¥% Frost damage instantly
+[*]Holy Smite - On hit: Deal ¤<X>¥% Holy damage instantly
+[*]Poison - On hit: Deal ¤<X>¥% Poison damage instantly and per second, for 5 seconds
+[*]Blight - On hit: Deal ¤<X>¥% Shadow damage instantly and per second, for 5 seconds
+[*]Bleed - On hit: Deal ¤<X>¥% Bleed damage instantly and per second, for 3 seconds
+[*]Chain Lightning - On hit: 25% chance to cause Chain Lightning for ¤<X>¥% Lightning damage
+[*]Critical Hit Chance - ¤+<X>¥% Critical Hit Chance
+[*]Knockback - ¤+<X>¥% Knockback Chance
+[*]Frost Damage - ¤+<X>¥% Frost Damage
+[*]Lightning Damage - ¤+<X>¥% Lightning Damage
+[*]Poison Damage - ¤+<X>¥% Poison Damage
+[*]Physical Damage - ¤+<X>¥% Physical Damage
+[*]Undead Slaying - ¤+<X>¥% damage vs. Undead
+[*]Spectral Slaying - ¤+<X>¥% damage vs. Spectral
+[*]Arachnid Slaying - ¤+<X>¥% damage vs. Arachnids
+[*]Demon Slaying - ¤+<X>¥% damage vs. Demons
+[*]Beast Slaying - ¤+<X>¥% damage vs. Beasts
+[*]Fae Slaying - ¤+<X>¥% damage vs. Fae
+[*]Humanoid Slaying - ¤+<X>¥% damage vs. Humanoids
+[*]Mechanical Slaying - ¤+<X>¥% damage vs. Mechanicals
+[*]Elemental Slaying - ¤+<X>¥% damage vs. Elementals
+[*]Bleed Damage - ¤+<X>¥% Bleed Damage
+[*]Power All - ¤+<X>¥% to all Elements
+[*]Critical Hit Damage - ¤+<X>¥% Critical Hit Damage
+[/list]
+[b]Minor[/b]
+[list]
+[*]Thorns - ¤+<X>¥ Thorns
+[*]Magic Find - ¤+<X>¥% Magic find
+[*]Mana Cost Reduction - ¤+<X>¥% Mana Cost Reduction
+[*]Effect Duration - ¤+<X>¥% Effect Duration
+[*]Cooldown Reduction - ¤+<X>¥% Cooldown Reduction
+[*]Reach - ¤+<X>¥% Reach
+[*]Pickup Radius - ¤+<X>¥% Pickup Radius
+[*]Experience - ¤+<X>¥% Bonus Experience
+[*]Companion Damage - ¤+<X>¥% Companion Damage
+[*]Satellite Strength - ¤+<X>¥% increased damage of all Satellite enchants
+[/list]
+[/list]
+[h1]Sword[/h1]
+[list]
+[b]Epic[/b]
+[list]
+[*]Crown Slaying - ¤+<X>¥% damage vs. Crowned foes
+[*]Interrupt - ¤<X>¥% chance to interrupt attacks of foes hit
+[*]Grip - ¤<X>¥% chance on hit to pull all enemies within 3 meters of the foe closer to it
+[*]Twister - 15% Chance on critical hit to summon a Twister that seeks out nearby foes, dealing ¤<X>¥% Ethereal damage per second as direct damage but may not crit.
+[*]Hellfire - 15% Chance on critical hit to summon Hellfire over your foe, dealing up to ¤<X>¥% Ethereal damage per strike. Deals direct damage but may not crit.
+[*]Enrage - 5% chance on critical hits to increase the base Attack Speed of all skills by ¤<X>¥% for 5 seconds
+[*]Burst - 35% chance on critical hits to cause an explosion dealing ¤<X>¥% Ethereal damage
+[*]Gib Regeneration - ¤+<X>¥% Health- and Mana Regeneration for 5 seconds after gibbing a foe
+[*]Gib Damage - ¤+<X>¥% Damage for 5 seconds after gibbing a foe
+[*]Gib Heal - 5% chance to heal for ¤<X>¥% of Maximum Health after gibbing a foe
+[/list]
+[b]Major[/b]
+[list]
+[*]Health - ¤+<X>¥ Health
+[*]Mana - ¤+<X>¥ Mana
+[*]Damage - ¤+<X>¥ Damage
+[*]Attack Speed - ¤+<X>¥% Attack Speed
+[*]Vampire - ¤+<X>¥ Health On Hit
+[*]Leech - ¤+<X>¥ Mana On Hit
+[*]Burn - On hit: Deal ¤<X>¥% Fire damage instantly and per second, for 3 seconds
+[*]Chill - On hit: Deal ¤<X>¥% Frost damage instantly
+[*]Holy Smite - On hit: Deal ¤<X>¥% Holy damage instantly
+[*]Poison - On hit: Deal ¤<X>¥% Poison damage instantly and per second, for 5 seconds
+[*]Blight - On hit: Deal ¤<X>¥% Shadow damage instantly and per second, for 5 seconds
+[*]Bleed - On hit: Deal ¤<X>¥% Bleed damage instantly and per second, for 3 seconds
+[*]Chain Lightning - On hit: 25% chance to cause Chain Lightning for ¤<X>¥% Lightning damage
+[*]Critical Hit Chance - ¤+<X>¥% Critical Hit Chance
+[*]Fire Damage - ¤+<X>¥% Fire Damage
+[*]Lightning Damage - ¤+<X>¥% Lightning Damage
+[*]Holy Damage - ¤+<X>¥% Holy Damage
+[*]Physical Damage - ¤+<X>¥% Physical Damage
+[*]Undead Slaying - ¤+<X>¥% damage vs. Undead
+[*]Spectral Slaying - ¤+<X>¥% damage vs. Spectral
+[*]Arachnid Slaying - ¤+<X>¥% damage vs. Arachnids
+[*]Demon Slaying - ¤+<X>¥% damage vs. Demons
+[*]Beast Slaying - ¤+<X>¥% damage vs. Beasts
+[*]Fae Slaying - ¤+<X>¥% damage vs. Fae
+[*]Humanoid Slaying - ¤+<X>¥% damage vs. Humanoids
+[*]Mechanical Slaying - ¤+<X>¥% damage vs. Mechanicals
+[*]Elemental Slaying - ¤+<X>¥% damage vs. Elementals
+[*]Bleed Damage - ¤+<X>¥% Bleed Damage
+[*]Power All - ¤+<X>¥% to all Elements
+[*]Critical Hit Damage - ¤+<X>¥% Critical Hit Damage
+[/list]
+[b]Minor[/b]
+[list]
+[*]Thorns - ¤+<X>¥ Thorns
+[*]Magic Find - ¤+<X>¥% Magic find
+[*]Mana Cost Reduction - ¤+<X>¥% Mana Cost Reduction
+[*]Effect Duration - ¤+<X>¥% Effect Duration
+[*]Cooldown Reduction - ¤+<X>¥% Cooldown Reduction
+[*]Reach - ¤+<X>¥% Reach
+[*]Pickup Radius - ¤+<X>¥% Pickup Radius
+[*]Experience - ¤+<X>¥% Bonus Experience
+[*]Companion Damage - ¤+<X>¥% Companion Damage
+[*]Satellite Strength - ¤+<X>¥% increased damage of all Satellite enchants
+[/list]
+[/list]
+[h1]Fists[/h1]
+[list]
+[b]Epic[/b]
+[list]
+[*]Crown Slaying - ¤+<X>¥% damage vs. Crowned foes
+[*]Interrupt - ¤<X>¥% chance to interrupt attacks of foes hit
+[*]Grip - ¤<X>¥% chance on hit to pull all enemies within 3 meters of the foe closer to it
+[*]Twister - 15% Chance on critical hit to summon a Twister that seeks out nearby foes, dealing ¤<X>¥% Ethereal damage per second as direct damage but may not crit.
+[*]Hellfire - 15% Chance on critical hit to summon Hellfire over your foe, dealing up to ¤<X>¥% Ethereal damage per strike. Deals direct damage but may not crit.
+[*]Enrage - 5% chance on critical hits to increase the base Attack Speed of all skills by ¤<X>¥% for 5 seconds
+[*]Burst - 35% chance on critical hits to cause an explosion dealing ¤<X>¥% Ethereal damage
+[*]Gib Regeneration - ¤+<X>¥% Health- and Mana Regeneration for 5 seconds after gibbing a foe
+[*]Gib Damage - ¤+<X>¥% Damage for 5 seconds after gibbing a foe
+[*]Gib Heal - 5% chance to heal for ¤<X>¥% of Maximum Health after gibbing a foe
+[/list]
+[b]Major[/b]
+[list]
+[*]Minimum Rage - ¤+<X>¥ Minimum Rage
+[*]Maximum Rage - ¤+<X>¥ Maximum Rage
+[*]Overpower - ¤+<X>¥% Overpower
+[*]Health - ¤+<X>¥ Health
+[*]Mana - ¤+<X>¥ Mana
+[*]Damage - ¤+<X>¥ Damage
+[*]Attack Speed - ¤+<X>¥% Attack Speed
+[*]Vampire - ¤+<X>¥ Health On Hit
+[*]Leech - ¤+<X>¥ Mana On Hit
+[*]Burn - On hit: Deal ¤<X>¥% Fire damage instantly and per second, for 3 seconds
+[*]Chill - On hit: Deal ¤<X>¥% Frost damage instantly
+[*]Holy Smite - On hit: Deal ¤<X>¥% Holy damage instantly
+[*]Poison - On hit: Deal ¤<X>¥% Poison damage instantly and per second, for 5 seconds
+[*]Blight - On hit: Deal ¤<X>¥% Shadow damage instantly and per second, for 5 seconds
+[*]Bleed - On hit: Deal ¤<X>¥% Bleed damage instantly and per second, for 3 seconds
+[*]Chain Lightning - On hit: 25% chance to cause Chain Lightning for ¤<X>¥% Lightning damage
+[*]Critical Hit Chance - ¤+<X>¥% Critical Hit Chance
+[*]Fire Damage - ¤+<X>¥% Fire Damage
+[*]Frost Damage - ¤+<X>¥% Frost Damage
+[*]Lightning Damage - ¤+<X>¥% Lightning Damage
+[*]Physical Damage - ¤+<X>¥% Physical Damage
+[*]Undead Slaying - ¤+<X>¥% damage vs. Undead
+[*]Spectral Slaying - ¤+<X>¥% damage vs. Spectral
+[*]Arachnid Slaying - ¤+<X>¥% damage vs. Arachnids
+[*]Demon Slaying - ¤+<X>¥% damage vs. Demons
+[*]Beast Slaying - ¤+<X>¥% damage vs. Beasts
+[*]Fae Slaying - ¤+<X>¥% damage vs. Fae
+[*]Humanoid Slaying - ¤+<X>¥% damage vs. Humanoids
+[*]Mechanical Slaying - ¤+<X>¥% damage vs. Mechanicals
+[*]Elemental Slaying - ¤+<X>¥% damage vs. Elementals
+[*]Bleed Damage - ¤+<X>¥% Bleed Damage
+[*]Power All - ¤+<X>¥% to all Elements
+[*]Critical Hit Damage - ¤+<X>¥% Critical Hit Damage
+[/list]
+[b]Minor[/b]
+[list]
+[*]Rage Generation - ¤+<X>¥% Rage Generation
+[*]Thorns - ¤+<X>¥ Thorns
+[*]Magic Find - ¤+<X>¥% Magic find
+[*]Mana Cost Reduction - ¤+<X>¥% Mana Cost Reduction
+[*]Effect Duration - ¤+<X>¥% Effect Duration
+[*]Cooldown Reduction - ¤+<X>¥% Cooldown Reduction
+[*]Reach - ¤+<X>¥% Reach
+[*]Pickup Radius - ¤+<X>¥% Pickup Radius
+[*]Experience - ¤+<X>¥% Bonus Experience
+[*]Companion Damage - ¤+<X>¥% Companion Damage
+[*]Satellite Strength - ¤+<X>¥% increased damage of all Satellite enchants
+[/list]
+[/list]
+[h1]Staff[/h1]
+[list]
+[b]Epic[/b]
+[list]
+[*]Crown Slaying - ¤+<X>¥% damage vs. Crowned foes
+[*]Interrupt - ¤<X>¥% chance to interrupt attacks of foes hit
+[*]Grip - ¤<X>¥% chance on hit to pull all enemies within 3 meters of the foe closer to it
+[*]Twister - 15% Chance on critical hit to summon a Twister that seeks out nearby foes, dealing ¤<X>¥% Ethereal damage per second as direct damage but may not crit.
+[*]Hellfire - 15% Chance on critical hit to summon Hellfire over your foe, dealing up to ¤<X>¥% Ethereal damage per strike. Deals direct damage but may not crit.
+[*]Enrage - 5% chance on critical hits to increase the base Attack Speed of all skills by ¤<X>¥% for 5 seconds
+[*]Burst - 35% chance on critical hits to cause an explosion dealing ¤<X>¥% Ethereal damage
+[*]Gib Regeneration - ¤+<X>¥% Health- and Mana Regeneration for 5 seconds after gibbing a foe
+[*]Gib Damage - ¤+<X>¥% Damage for 5 seconds after gibbing a foe
+[*]Gib Heal - 5% chance to heal for ¤<X>¥% of Maximum Health after gibbing a foe
+[/list]
+[b]Major[/b]
+[list]
+[*]Health - ¤+<X>¥ Health
+[*]Mana - ¤+<X>¥ Mana
+[*]Damage - ¤+<X>¥ Damage
+[*]Attack Speed - ¤+<X>¥% Attack Speed
+[*]Vampire - ¤+<X>¥ Health On Hit
+[*]Leech - ¤+<X>¥ Mana On Hit
+[*]Burn - On hit: Deal ¤<X>¥% Fire damage instantly and per second, for 3 seconds
+[*]Chill - On hit: Deal ¤<X>¥% Frost damage instantly
+[*]Holy Smite - On hit: Deal ¤<X>¥% Holy damage instantly
+[*]Poison - On hit: Deal ¤<X>¥% Poison damage instantly and per second, for 5 seconds
+[*]Blight - On hit: Deal ¤<X>¥% Shadow damage instantly and per second, for 5 seconds
+[*]Bleed - On hit: Deal ¤<X>¥% Bleed damage instantly and per second, for 3 seconds
+[*]Chain Lightning - On hit: 25% chance to cause Chain Lightning for ¤<X>¥% Lightning damage
+[*]Critical Hit Chance - ¤+<X>¥% Critical Hit Chance
+[*]Knockback - ¤+<X>¥% Knockback Chance
+[*]Fire Damage - ¤+<X>¥% Fire Damage
+[*]Frost Damage - ¤+<X>¥% Frost Damage
+[*]Poison Damage - ¤+<X>¥% Poison Damage
+[*]Shadow Damage - ¤+<X>¥% Shadow Damage
+[*]Undead Slaying - ¤+<X>¥% damage vs. Undead
+[*]Spectral Slaying - ¤+<X>¥% damage vs. Spectral
+[*]Arachnid Slaying - ¤+<X>¥% damage vs. Arachnids
+[*]Demon Slaying - ¤+<X>¥% damage vs. Demons
+[*]Beast Slaying - ¤+<X>¥% damage vs. Beasts
+[*]Fae Slaying - ¤+<X>¥% damage vs. Fae
+[*]Humanoid Slaying - ¤+<X>¥% damage vs. Humanoids
+[*]Mechanical Slaying - ¤+<X>¥% damage vs. Mechanicals
+[*]Elemental Slaying - ¤+<X>¥% damage vs. Elementals
+[*]Bleed Damage - ¤+<X>¥% Bleed Damage
+[*]Power All - ¤+<X>¥% to all Elements
+[*]Critical Hit Damage - ¤+<X>¥% Critical Hit Damage
+[/list]
+[b]Minor[/b]
+[list]
+[*]Thorns - ¤+<X>¥ Thorns
+[*]Magic Find - ¤+<X>¥% Magic find
+[*]Mana Cost Reduction - ¤+<X>¥% Mana Cost Reduction
+[*]Effect Duration - ¤+<X>¥% Effect Duration
+[*]Cooldown Reduction - ¤+<X>¥% Cooldown Reduction
+[*]Reach - ¤+<X>¥% Reach
+[*]Pickup Radius - ¤+<X>¥% Pickup Radius
+[*]Experience - ¤+<X>¥% Bonus Experience
+[*]Companion Damage - ¤+<X>¥% Companion Damage
+[*]Satellite Strength - ¤+<X>¥% increased damage of all Satellite enchants
+[/list]
+[/list]

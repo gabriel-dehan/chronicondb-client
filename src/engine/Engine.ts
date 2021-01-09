@@ -1,5 +1,5 @@
 import { CharacterClass } from 'types/Character.types';
-import { Enchant } from 'types/Enchant.types';
+import { Enchant, EnchantsPool } from 'types/Enchant.types';
 import { Item, ItemSet } from 'types/Item.types';
 import { Skill, SkillTree } from 'types/Skill.types';
 
@@ -12,6 +12,7 @@ type Version = string;
 export interface DataInterface {
   items: Item[];
   enchants: Enchant[];
+  enchantsPool: EnchantsPool;
   sets: ItemSet[];
   skills: Skill[];
   skillsByClass: Record<CharacterClass, Record<SkillTree, Skill[]>>;

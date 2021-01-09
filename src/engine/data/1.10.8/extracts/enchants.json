@@ -5819,7 +5819,6 @@
     ],
     "itemTypes": [
       "Boots",
-      "Accessory",
       "Amulet"
     ]
   },
@@ -12477,7 +12476,11 @@
       }
     },
     "items": [],
-    "itemTypes": []
+    "itemTypes": [
+      "Helm",
+      "Armor",
+      "Boots"
+    ]
   },
   {
     "uuid": 1000,

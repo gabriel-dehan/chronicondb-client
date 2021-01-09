@@ -3,7 +3,6 @@ import { compact, capitalize, uniq } from 'lodash';
 import { allEnumValues } from '../../helpers/typeUtils';
 import { Enchant, EnchantRanges, EnchantRangeBoundary, EnchantType, EnchantCategory } from '../../types/Enchant.types';
 import { Item, ItemRarity, ItemType } from '../../types/Item.types';
-import enchantsPool from '../data/enchantsPool.json';
 import { readSourceFile, readInjectedSourceFile, readExtractFile, writeFile } from '../utils/fileUtils';
 import { getLocaleSection, parseLocaleData, LocaleData } from './parseLocale';
 interface EnchantsLocaleData {
@@ -14,6 +13,7 @@ interface EnchantsLocaleData {
 }
 
 export function parseEnchants(version: string, verbose = false): Enchant[] {
+  // Get item data
   let itemsData: Item[] = [];
   try {
     itemsData = JSON.parse(readExtractFile(version, 'items')) as Item[];
@@ -43,7 +43,7 @@ export function parseEnchants(version: string, verbose = false): Enchant[] {
     const affixes = getAffixes(uuid, locale);
     const description = locale[uuid].txt;
     const items = findItems(uuid, itemsData);
-    const itemTypes = findItemTypes(uuid, type, category);
+    const itemTypes = findItemTypes(uuid, type, category, version);
     const skills = findSkills(description);
 
     const enchant = {
@@ -151,8 +151,15 @@ function findItems(uuid: number, items: Item[]): number[] {
     .map(item => item.uuid);
 }
 
-function findItemTypes(uuid: number, type: EnchantType, category: EnchantCategory): ItemType[] {
-  const pool = enchantsPool as unknown as Record<ItemType, Record<EnchantType, number[]>>;
+function findItemTypes(uuid: number, type: EnchantType, category: EnchantCategory, version: string): ItemType[] {
+  // Get enchants pool
+  // @ts-ignore
+  let pool: Record<ItemType, Record<EnchantType, number[]>> = {};
+  try {
+    pool = JSON.parse(readExtractFile(version, 'enchantsPool'));
+  } catch (e) {
+    throw `ERROR: src/engine/data/${version}/extracts/enchantsPool.json could not be found. Generate the file before parsing the enchants.`;
+  }
 
   const itemTypes = allEnumValues(ItemType).filter((itemType: ItemType) => {
     const enchants = pool[itemType] && pool[itemType][type];

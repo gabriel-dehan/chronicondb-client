@@ -37,7 +37,7 @@ const DevelopersTemplate: FunctionComponent = () => {
             <strong>TL;DR:</strong> Clone everything.<br />
             In the <a href="https://github.com/gabriel-dehan/chronicondb-client/tree/main/src/engine">Engine data folder</a>, <code>{filters.patch}/extracts/</code> contains almost all the data in JSON format for the latest version.<br />
             The <a href="https://github.com/gabriel-dehan/chronicondb-client/tree/main/src/types">Types</a> will help you make sense of those json files: for instance <code>items.json</code> has it's interface <code>Item</code> in the <code>types/Item.types.ts</code> file.<br />
-            The rest of the non-versioned data, is in the Engine data folder: <code>dataMappings.ts</code> and <code>enchantsPool.json</code> are the most useful.
+            The rest of the non-versioned data, is in the Engine data folder: <code>dataMappings.ts</code> is the most useful.
           </p>
           <p>
             ChroniconDB is an <strong>open source</strong> React/Typescript application and everything can be found in the <a href="https://github.com/gabriel-dehan/chronicondb-client">Github Repository</a>.<br />
@@ -54,13 +54,14 @@ const DevelopersTemplate: FunctionComponent = () => {
 
             <pre>
               .<br />
-              ├── <strong>1.10.5/</strong><br />
+              ├── <strong>1.10.6/</strong><br />
               │   ├── ...<br />
               ├── <strong>1.10.4/</strong><br />
               │   ├── ...<br />
               ├── <strong>1.10.2/</strong><br />
               │   ├── <strong>extracts/</strong><br />
               │   │   ├── enchants.json<br />
+              │   │   ├── enchantsPool.json<br />
               │   │   ├── enchantsSearchIndex.json<br />
               │   │   ├── index.ts<br />
               │   │   ├── items.json<br />
@@ -71,6 +72,7 @@ const DevelopersTemplate: FunctionComponent = () => {
               │   │   └── skillsSearchIndex.json<br />
               │   └── <strong>sources/</strong><br />
               │       ├── enchantlist.txt<br />
+              │       ├── enchantspool.txt<br />
               │       ├── itemlist.txt<br />
               │       ├── skilldata_1.10.2.json<br />
               │       └── <strong>locale/</strong><br />
@@ -78,8 +80,6 @@ const DevelopersTemplate: FunctionComponent = () => {
               ├── <strong>injected/</strong><br />
               │   └── gemenchantlist.txt<br />
               ├── dataMappings.ts<br />
-              ├── enchantsPool.json<br />
-              ├── enchantsPoolByName.json<br />
               ├── index.ts<br />
               └── patches.json<br />
             </pre>
@@ -113,6 +113,9 @@ const DevelopersTemplate: FunctionComponent = () => {
                   Everything inside the folder is pretty self explanatory, just don't pay attention to the <code>*SearchIndex.json</code> files, they are used internally. But if you need indexes for your own search engine, please feel free to use those.<br />
                   To help make sense of those files, do not hesitate to take a peak at the <a href="https://github.com/gabriel-dehan/chronicondb-client/tree/main/src/types">Types</a>: for instance <code>items.json</code> has it's interface <code>Item</code> in the <code>types/Item.types.ts</code> file.
                 </li>
+                <li>
+                  Inside the extracts, <code>enchantsPool.ts</code> is pretty much extracted from <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=835123683" rel="nofollow">this guide</a>, it should help you identify which enchants goes with which type of item.
+                </li>
               </ul>
             </p>
           </p>
@@ -126,8 +129,6 @@ const DevelopersTemplate: FunctionComponent = () => {
               ├── <strong>injected/</strong><br />
               │   └── gemenchantlist.txt<br />
               ├── dataMappings.ts<br />
-              ├── enchantsPool.json<br />
-              ├── enchantsPoolByName.json<br />
               └── patches.json<br />
             </pre>
             <ul>
@@ -136,9 +137,6 @@ const DevelopersTemplate: FunctionComponent = () => {
               </li>
               <li>
                 <code>dataMappings.ts</code> contains most of the data mappings, mainly which item goes in which set, all the sets ids, what item type is in which category, etc...
-              </li>
-              <li>
-                <code>enchantsPool.ts</code> and <code>enchantsPoolByName.ts</code> are pretty much extracted from <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=835123683" rel="nofollow">this guide</a>, they should help you identify which enchants goes with which type of item.
               </li>
               <li>
                 <code>patches.json</code> contains all the patches known to the application. Not very useful to you, I guess.
