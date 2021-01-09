@@ -1,5 +1,6 @@
 import React, { Fragment, FunctionComponent, useMemo } from 'react';
 import { Link } from 'react-router-dom';
+import { Tooltip } from 'react-tippy';
 
 import { camelCase } from 'lodash';
 
@@ -11,7 +12,9 @@ import ItemSet from 'components/molecules/Items/Set/Set';
 import ItemDownloader from 'components/organisms/ItemDownloader/ItemDownloader';
 import { ITEM_TYPES_WITH_EPIC_REPLACEMENT_CHANCE } from 'engine/EngineItems';
 import useEngine from 'hooks/useEngine';
+import useResponsive from 'hooks/useResponsive';
 import { RoutePath } from 'routes';
+import { CharacterClass } from 'types/Character.types';
 import { Item as ItemInterface, ItemCategory, ItemRarity } from 'types/Item.types';
 
 import './Item.scss';
@@ -25,6 +28,7 @@ const Item: FunctionComponent<Props> = ({
   item,
   setCollapsed,
 }) => {
+  const { isUpToTablet } = useResponsive();
   const Engine = useEngine();
   const itemEnchants = useMemo(() => Engine.Enchants.getItemEnchantsSlots(item), [item]);
   const itemSetData = useMemo(() => Engine.Items.getSetData(item), [item]);
@@ -56,10 +60,9 @@ const Item: FunctionComponent<Props> = ({
             </div>
           </div>
           <div className="o-item__header-req">
-            <Badge
-              label={classRestriction}
-              color={`var(--color-class-${camelCase(classRestriction)})`}
-            />
+            <span className="o-item__header-req-badge">
+              {renderBadges(classRestriction)}
+            </span>
             <span>
               LVL. {item.minLevel}
             </span>
@@ -94,6 +97,57 @@ const Item: FunctionComponent<Props> = ({
       </div>
     </div>
   );
+
+  function renderBadges(classRestriction: CharacterClass | 'Any Class') {
+    // Mobile has less space
+    if (isUpToTablet) {
+      return (
+        <Badge
+          label={classRestriction}
+          color={`var(--color-class-${camelCase(classRestriction)})`}
+        />
+      );
+    }
+
+    if (classRestriction === 'Any Class') {
+      return (
+        <Tooltip
+          title={classRestriction}
+          position="bottom"
+          arrow={true}
+          distance={5}
+          offset={0}
+          size="small"
+        >
+          {[CharacterClass.Templar, CharacterClass.Berserker, CharacterClass.Warlock, CharacterClass.Warden].map(charClass => (
+            <GameIcon
+              key={`item-${item.uuid}-req-class-${charClass.toLowerCase()}`}
+              type={GameIconType.ClassProfile}
+              name={charClass.toLowerCase()}
+              height={28}
+            />
+          ))}
+        </Tooltip>
+      );
+    } else {
+      return (
+        <Tooltip
+          title={classRestriction}
+          position="bottom"
+          arrow={true}
+          distance={5}
+          offset={0}
+          size="small"
+        >
+          <GameIcon
+            type={GameIconType.ClassProfile}
+            name={classRestriction.toLowerCase()}
+            height={28}
+          />
+        </Tooltip>
+      );
+    }
+  }
 
   function renderBaseEnchants() {
     return itemEnchants && itemEnchants.baseEnchants?.length > 0 && (

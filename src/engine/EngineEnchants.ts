@@ -11,7 +11,6 @@ import {
   Enchant,
   EnchantCategory,
   CraftableEnchantTypes,
-  EnchantsPool,
   EnchantPoolType,
 } from 'types/Enchant.types';
 import { EnchantsFilters } from 'types/Filters.types';

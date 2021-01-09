@@ -46,10 +46,17 @@
     &-req {
       display: flex;
       flex-direction: column;
-      width: 80px;
       text-align: right;
 
-      .a-badge {
+      img {
+        margin-left: 5px;
+
+        &:last-child {
+          margin-left: 10px;
+        }
+      }
+
+      &-badge {
         margin-bottom: 6px;
         opacity: 0.8;
       }
