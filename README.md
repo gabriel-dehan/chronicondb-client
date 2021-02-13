@@ -75,6 +75,8 @@ This generates JSON files for items, skills and enchants in the `engine/data/VER
 
 There you go, chronicondb is now up to date.
 
+**Note:** Since version `1.11.x` the game extracts structure has changed and the source files are now normalized before the extract happens. If you are trying to extract old game data (< to `1.11.x`) you might see a warning, it should be ignored.
+
 ## Developers
 
 ### I want your data for my own projects

@@ -3,6 +3,7 @@ import commandLineArgs, { CommandLineOptions } from 'command-line-args';
 import { createExtractsFolder } from '../utils/fileUtils';
 import { generateMetaFiles } from './generateMetaFiles';
 import { generateSearchIndexes } from './generateSearchIndexes';
+import { normalizeSourceFiles } from './normalizeSourceFiles';
 import { parseEnchants } from './parseEnchants';
 import { parseEnchantsPool } from './parseEnchantsPool';
 import { parseItems } from './parseItems';
@@ -18,6 +19,8 @@ const cliOptions = commandLineArgs(optionDefinitions);
 
 function parseAll(opts: CommandLineOptions) {
   const { verbose, version } = opts;
+
+  normalizeSourceFiles(version, verbose);
 
   createExtractsFolder(version);
 
