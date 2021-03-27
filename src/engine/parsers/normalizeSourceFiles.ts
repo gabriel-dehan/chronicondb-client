@@ -72,7 +72,7 @@ const normalizeEnchantsPoolFile = (version: string, sourcePath: string, distPath
   });
 
   const enchantsPoolFileDist = path.resolve(distPath, `enchantpool.txt`);
-  fs.writeFileSync(enchantsPoolFileDist, JSON.stringify(normalizedEnchantsPoolData, null, 2));
+  fs.writeFileSync(enchantsPoolFileDist, normalizedEnchantsPoolData.join('\n'));
 };
 
 // const generateEnchantsList = (version: string, sourcePath: string, distPath: string) => {

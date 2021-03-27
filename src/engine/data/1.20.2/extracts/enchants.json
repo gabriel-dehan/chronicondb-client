@@ -3908,7 +3908,19 @@
       728,
       767
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Helm",
+      "Armor",
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists",
+      "Boots",
+      "Accessory",
+      "Ring",
+      "Amulet",
+      "Shield"
+    ]
   },
   {
     "uuid": 2,
@@ -3972,7 +3984,21 @@
       760,
       817
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Helm",
+      "Armor",
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists",
+      "Boots",
+      "Accessory",
+      "Ring",
+      "Amulet",
+      "Spellbook",
+      "Shield",
+      "Tome"
+    ]
   },
   {
     "uuid": 3,
@@ -4040,7 +4066,18 @@
       589,
       593
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists",
+      "Ring",
+      "Claw",
+      "Arrow",
+      "Spellbook",
+      "Shield",
+      "Tome"
+    ]
   },
   {
     "uuid": 4,
@@ -4129,7 +4166,14 @@
       811,
       822
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Boots",
+      "Accessory",
+      "Ring",
+      "Amulet",
+      "Claw",
+      "Arrow"
+    ]
   },
   {
     "uuid": 5,
@@ -4223,7 +4267,19 @@
       805,
       810
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists",
+      "Accessory",
+      "Ring",
+      "Amulet",
+      "Claw",
+      "Arrow",
+      "Spellbook",
+      "Tome"
+    ]
   },
   {
     "uuid": 6,
@@ -4292,7 +4348,19 @@
       508,
       514
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Helm",
+      "Armor",
+      "Boots",
+      "Accessory",
+      "Ring",
+      "Amulet",
+      "Claw",
+      "Arrow",
+      "Spellbook",
+      "Shield",
+      "Tome"
+    ]
   },
   {
     "uuid": 7,
@@ -4366,7 +4434,19 @@
       594,
       765
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Helm",
+      "Armor",
+      "Boots",
+      "Accessory",
+      "Ring",
+      "Amulet",
+      "Claw",
+      "Arrow",
+      "Spellbook",
+      "Shield",
+      "Tome"
+    ]
   },
   {
     "uuid": 8,
@@ -4448,7 +4528,21 @@
       812,
       821
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Helm",
+      "Armor",
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists",
+      "Boots",
+      "Accessory",
+      "Claw",
+      "Arrow",
+      "Spellbook",
+      "Shield",
+      "Tome"
+    ]
   },
   {
     "uuid": 9,
@@ -4519,7 +4613,19 @@
       790,
       801
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists",
+      "Boots",
+      "Amulet",
+      "Claw",
+      "Arrow",
+      "Spellbook",
+      "Shield",
+      "Tome"
+    ]
   },
   {
     "uuid": 10,
@@ -4585,7 +4691,19 @@
       601,
       775
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Helm",
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists",
+      "Ring",
+      "Claw",
+      "Arrow",
+      "Spellbook",
+      "Shield",
+      "Tome"
+    ]
   },
   {
     "uuid": 13,
@@ -4648,7 +4766,22 @@
       333,
       716
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Helm",
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists",
+      "Boots",
+      "Accessory",
+      "Ring",
+      "Amulet",
+      "Claw",
+      "Arrow",
+      "Spellbook",
+      "Shield",
+      "Tome"
+    ]
   },
   {
     "uuid": 19,
@@ -4723,7 +4856,20 @@
       804,
       827
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Helm",
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists",
+      "Accessory",
+      "Ring",
+      "Amulet",
+      "Claw",
+      "Arrow",
+      "Spellbook",
+      "Tome"
+    ]
   },
   {
     "uuid": 20,
@@ -4784,7 +4930,17 @@
       109,
       405
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Bow",
+      "Staff",
+      "Boots",
+      "Accessory",
+      "Claw",
+      "Arrow",
+      "Spellbook",
+      "Shield",
+      "Tome"
+    ]
   },
   {
     "uuid": 21,
@@ -4857,7 +5013,20 @@
       603,
       730
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Helm",
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists",
+      "Ring",
+      "Amulet",
+      "Claw",
+      "Arrow",
+      "Spellbook",
+      "Shield",
+      "Tome"
+    ]
   },
   {
     "uuid": 22,
@@ -4917,7 +5086,18 @@
       516,
       787
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Armor",
+      "Boots",
+      "Accessory",
+      "Ring",
+      "Amulet",
+      "Claw",
+      "Arrow",
+      "Spellbook",
+      "Shield",
+      "Tome"
+    ]
   },
   {
     "uuid": 23,
@@ -4981,7 +5161,13 @@
       440,
       716
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Helm",
+      "Boots",
+      "Accessory",
+      "Ring",
+      "Amulet"
+    ]
   },
   {
     "uuid": 24,
@@ -5043,7 +5229,21 @@
       317,
       716
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Helm",
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists",
+      "Accessory",
+      "Ring",
+      "Amulet",
+      "Claw",
+      "Arrow",
+      "Spellbook",
+      "Shield",
+      "Tome"
+    ]
   },
   {
     "uuid": 25,
@@ -5163,7 +5363,15 @@
       494,
       799
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Armor",
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists",
+      "Boots",
+      "Accessory"
+    ]
   },
   {
     "uuid": 27,
@@ -5224,7 +5432,13 @@
       130,
       441
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Helm",
+      "Armor",
+      "Boots",
+      "Amulet",
+      "Shield"
+    ]
   },
   {
     "uuid": 28,
@@ -5285,7 +5499,10 @@
       300,
       427
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Ring",
+      "Amulet"
+    ]
   },
   {
     "uuid": 29,
@@ -5347,7 +5564,10 @@
       426,
       706
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Ring",
+      "Amulet"
+    ]
   },
   {
     "uuid": 30,
@@ -5408,7 +5628,10 @@
       310,
       425
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Ring",
+      "Amulet"
+    ]
   },
   {
     "uuid": 31,
@@ -5468,7 +5691,10 @@
       303,
       428
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Ring",
+      "Amulet"
+    ]
   },
   {
     "uuid": 32,
@@ -5528,7 +5754,10 @@
       304,
       430
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Ring",
+      "Amulet"
+    ]
   },
   {
     "uuid": 33,
@@ -5587,7 +5816,10 @@
     "items": [
       45
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Boots",
+      "Amulet"
+    ]
   },
   {
     "uuid": 34,
@@ -5650,7 +5882,18 @@
       426,
       704
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Helm",
+      "Armor",
+      "Boots",
+      "Ring",
+      "Amulet",
+      "Claw",
+      "Arrow",
+      "Spellbook",
+      "Shield",
+      "Tome"
+    ]
   },
   {
     "uuid": 35,
@@ -5710,7 +5953,18 @@
       158,
       425
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Helm",
+      "Armor",
+      "Boots",
+      "Ring",
+      "Amulet",
+      "Claw",
+      "Arrow",
+      "Spellbook",
+      "Shield",
+      "Tome"
+    ]
   },
   {
     "uuid": 36,
@@ -5772,7 +6026,18 @@
       158,
       427
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Helm",
+      "Armor",
+      "Boots",
+      "Ring",
+      "Amulet",
+      "Claw",
+      "Arrow",
+      "Spellbook",
+      "Shield",
+      "Tome"
+    ]
   },
   {
     "uuid": 37,
@@ -5832,7 +6097,18 @@
       45,
       428
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Helm",
+      "Armor",
+      "Boots",
+      "Ring",
+      "Amulet",
+      "Claw",
+      "Arrow",
+      "Spellbook",
+      "Shield",
+      "Tome"
+    ]
   },
   {
     "uuid": 38,
@@ -5891,7 +6167,18 @@
     "items": [
       429
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Helm",
+      "Armor",
+      "Boots",
+      "Ring",
+      "Amulet",
+      "Claw",
+      "Arrow",
+      "Spellbook",
+      "Shield",
+      "Tome"
+    ]
   },
   {
     "uuid": 39,
@@ -5990,7 +6277,19 @@
       704,
       783
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Helm",
+      "Sword",
+      "Staff",
+      "Fists",
+      "Accessory",
+      "Ring",
+      "Amulet",
+      "Claw",
+      "Spellbook",
+      "Shield",
+      "Tome"
+    ]
   },
   {
     "uuid": 40,
@@ -6084,7 +6383,18 @@
       706,
       819
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Helm",
+      "Bow",
+      "Staff",
+      "Fists",
+      "Accessory",
+      "Ring",
+      "Amulet",
+      "Claw",
+      "Arrow",
+      "Spellbook"
+    ]
   },
   {
     "uuid": 41,
@@ -6168,7 +6478,16 @@
       703,
       802
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Helm",
+      "Bow",
+      "Staff",
+      "Accessory",
+      "Ring",
+      "Amulet",
+      "Arrow",
+      "Spellbook"
+    ]
   },
   {
     "uuid": 42,
@@ -6260,7 +6579,19 @@
       701,
       756
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Helm",
+      "Bow",
+      "Sword",
+      "Fists",
+      "Accessory",
+      "Ring",
+      "Amulet",
+      "Claw",
+      "Arrow",
+      "Shield",
+      "Tome"
+    ]
   },
   {
     "uuid": 43,
@@ -6332,7 +6663,15 @@
       537,
       708
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Helm",
+      "Sword",
+      "Accessory",
+      "Ring",
+      "Amulet",
+      "Shield",
+      "Tome"
+    ]
   },
   {
     "uuid": 44,
@@ -6419,7 +6758,19 @@
       755,
       778
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Helm",
+      "Bow",
+      "Sword",
+      "Fists",
+      "Accessory",
+      "Ring",
+      "Amulet",
+      "Claw",
+      "Arrow",
+      "Shield",
+      "Tome"
+    ]
   },
   {
     "uuid": 45,
@@ -6487,7 +6838,17 @@
       594,
       605
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Armor",
+      "Accessory",
+      "Ring",
+      "Amulet",
+      "Claw",
+      "Arrow",
+      "Spellbook",
+      "Shield",
+      "Tome"
+    ]
   },
   {
     "uuid": 46,
@@ -6556,7 +6917,17 @@
       763,
       764
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Helm",
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists",
+      "Boots",
+      "Accessory",
+      "Ring",
+      "Amulet"
+    ]
   },
   {
     "uuid": 47,
@@ -6624,7 +6995,14 @@
       779,
       818
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Armor",
+      "Boots",
+      "Accessory",
+      "Ring",
+      "Amulet",
+      "Shield"
+    ]
   },
   {
     "uuid": 48,
@@ -6694,7 +7072,20 @@
       758,
       779
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Armor",
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists",
+      "Ring",
+      "Amulet",
+      "Claw",
+      "Arrow",
+      "Spellbook",
+      "Shield",
+      "Tome"
+    ]
   },
   {
     "uuid": 49,
@@ -6754,7 +7145,21 @@
       736,
       809
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Armor",
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists",
+      "Accessory",
+      "Ring",
+      "Amulet",
+      "Claw",
+      "Arrow",
+      "Spellbook",
+      "Shield",
+      "Tome"
+    ]
   },
   {
     "uuid": 50,
@@ -6814,7 +7219,16 @@
       488,
       490
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Helm",
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists",
+      "Accessory",
+      "Ring",
+      "Amulet"
+    ]
   },
   {
     "uuid": 51,
@@ -6878,7 +7292,20 @@
       604,
       607
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Helm",
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists",
+      "Ring",
+      "Amulet",
+      "Claw",
+      "Arrow",
+      "Spellbook",
+      "Shield",
+      "Tome"
+    ]
   },
   {
     "uuid": 52,
@@ -6939,7 +7366,18 @@
       484,
       744
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Helm",
+      "Armor",
+      "Boots",
+      "Ring",
+      "Amulet",
+      "Claw",
+      "Arrow",
+      "Spellbook",
+      "Shield",
+      "Tome"
+    ]
   },
   {
     "uuid": 53,
@@ -7011,7 +7449,14 @@
       612,
       613
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Helm",
+      "Staff",
+      "Accessory",
+      "Ring",
+      "Amulet",
+      "Spellbook"
+    ]
   },
   {
     "uuid": 54,
@@ -7073,7 +7518,11 @@
       438,
       799
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Helm",
+      "Ring",
+      "Amulet"
+    ]
   },
   {
     "uuid": 55,
@@ -7130,7 +7579,14 @@
       }
     },
     "items": [],
-    "itemTypes": []
+    "itemTypes": [
+      "Boots",
+      "Accessory",
+      "Ring",
+      "Amulet",
+      "Spellbook",
+      "Tome"
+    ]
   },
   {
     "uuid": 56,
@@ -7303,7 +7759,12 @@
       }
     },
     "items": [],
-    "itemTypes": []
+    "itemTypes": [
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists"
+    ]
   },
   {
     "uuid": 59,
@@ -7362,7 +7823,12 @@
     "items": [
       807
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists"
+    ]
   },
   {
     "uuid": 60,
@@ -7421,7 +7887,12 @@
     "items": [
       807
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists"
+    ]
   },
   {
     "uuid": 61,
@@ -7537,7 +8008,12 @@
     "items": [
       519
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists"
+    ]
   },
   {
     "uuid": 63,
@@ -7599,7 +8075,12 @@
       412,
       417
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists"
+    ]
   },
   {
     "uuid": 65,
@@ -7656,7 +8137,10 @@
       }
     },
     "items": [],
-    "itemTypes": []
+    "itemTypes": [
+      "Ring",
+      "Amulet"
+    ]
   },
   {
     "uuid": 66,
@@ -7717,7 +8201,10 @@
       477,
       493
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Ring",
+      "Amulet"
+    ]
   },
   {
     "uuid": 67,
@@ -7774,7 +8261,10 @@
       }
     },
     "items": [],
-    "itemTypes": []
+    "itemTypes": [
+      "Ring",
+      "Amulet"
+    ]
   },
   {
     "uuid": 68,
@@ -7831,7 +8321,10 @@
       }
     },
     "items": [],
-    "itemTypes": []
+    "itemTypes": [
+      "Ring",
+      "Amulet"
+    ]
   },
   {
     "uuid": 69,
@@ -7888,7 +8381,11 @@
       }
     },
     "items": [],
-    "itemTypes": []
+    "itemTypes": [
+      "Armor",
+      "Ring",
+      "Amulet"
+    ]
   },
   {
     "uuid": 70,
@@ -7945,7 +8442,11 @@
       }
     },
     "items": [],
-    "itemTypes": []
+    "itemTypes": [
+      "Armor",
+      "Ring",
+      "Amulet"
+    ]
   },
   {
     "uuid": 71,
@@ -8004,7 +8505,11 @@
     "items": [
       479
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Armor",
+      "Ring",
+      "Amulet"
+    ]
   },
   {
     "uuid": 72,
@@ -8064,7 +8569,11 @@
       53,
       814
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Boots",
+      "Ring",
+      "Amulet"
+    ]
   },
   {
     "uuid": 73,
@@ -8123,7 +8632,12 @@
     "items": [
       414
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists"
+    ]
   },
   {
     "uuid": 74,
@@ -8182,7 +8696,12 @@
     "items": [
       414
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists"
+    ]
   },
   {
     "uuid": 75,
@@ -8239,7 +8758,12 @@
       }
     },
     "items": [],
-    "itemTypes": []
+    "itemTypes": [
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists"
+    ]
   },
   {
     "uuid": 76,
@@ -8299,7 +8823,11 @@
       487,
       571
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Boots",
+      "Ring",
+      "Amulet"
+    ]
   },
   {
     "uuid": 77,
@@ -8359,7 +8887,11 @@
       47,
       403
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Boots",
+      "Ring",
+      "Amulet"
+    ]
   },
   {
     "uuid": 78,
@@ -8419,7 +8951,11 @@
       158,
       410
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Armor",
+      "Ring",
+      "Amulet"
+    ]
   },
   {
     "uuid": 79,
@@ -8478,7 +9014,11 @@
     "items": [
       42
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Armor",
+      "Ring",
+      "Amulet"
+    ]
   },
   {
     "uuid": 80,
@@ -8538,7 +9078,10 @@
       311,
       413
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Armor",
+      "Amulet"
+    ]
   },
   {
     "uuid": 81,
@@ -8599,7 +9142,10 @@
       408,
       708
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Armor",
+      "Amulet"
+    ]
   },
   {
     "uuid": 82,
@@ -8659,7 +9205,10 @@
       407,
       484
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Armor",
+      "Amulet"
+    ]
   },
   {
     "uuid": 83,
@@ -8716,7 +9265,10 @@
       }
     },
     "items": [],
-    "itemTypes": []
+    "itemTypes": [
+      "Armor",
+      "Amulet"
+    ]
   },
   {
     "uuid": 84,
@@ -8778,7 +9330,10 @@
       487,
       492
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Boots",
+      "Ring"
+    ]
   },
   {
     "uuid": 85,
@@ -8839,7 +9394,10 @@
       409,
       703
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Boots",
+      "Ring"
+    ]
   },
   {
     "uuid": 86,
@@ -8898,7 +9456,10 @@
     "items": [
       704
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Boots",
+      "Ring"
+    ]
   },
   {
     "uuid": 87,
@@ -8957,7 +9518,9 @@
     "items": [
       617
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Amulet"
+    ]
   },
   {
     "uuid": 88,
@@ -9014,7 +9577,9 @@
       }
     },
     "items": [],
-    "itemTypes": []
+    "itemTypes": [
+      "Ring"
+    ]
   },
   {
     "uuid": 89,
@@ -9071,7 +9636,9 @@
       }
     },
     "items": [],
-    "itemTypes": []
+    "itemTypes": [
+      "Ring"
+    ]
   },
   {
     "uuid": 92,
@@ -9130,7 +9697,9 @@
     "items": [
       406
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Boots"
+    ]
   },
   {
     "uuid": 93,
@@ -9187,7 +9756,9 @@
       }
     },
     "items": [],
-    "itemTypes": []
+    "itemTypes": [
+      "Boots"
+    ]
   },
   {
     "uuid": 94,
@@ -9244,7 +9815,9 @@
       }
     },
     "items": [],
-    "itemTypes": []
+    "itemTypes": [
+      "Boots"
+    ]
   },
   {
     "uuid": 96,
@@ -9469,7 +10042,9 @@
     "items": [
       128
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Shield"
+    ]
   },
   {
     "uuid": 99,
@@ -9526,7 +10101,9 @@
       }
     },
     "items": [],
-    "itemTypes": []
+    "itemTypes": [
+      "Shield"
+    ]
   },
   {
     "uuid": 100,
@@ -9607,7 +10184,20 @@
       806,
       808
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Helm",
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists",
+      "Accessory",
+      "Amulet",
+      "Claw",
+      "Arrow",
+      "Spellbook",
+      "Shield",
+      "Tome"
+    ]
   },
   {
     "uuid": 101,
@@ -9672,7 +10262,16 @@
       579,
       608
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Fists",
+      "Accessory",
+      "Ring",
+      "Amulet",
+      "Claw",
+      "Arrow",
+      "Spellbook",
+      "Tome"
+    ]
   },
   {
     "uuid": 102,
@@ -9741,7 +10340,17 @@
       709,
       777
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists",
+      "Ring",
+      "Claw",
+      "Arrow",
+      "Shield",
+      "Tome"
+    ]
   },
   {
     "uuid": 103,
@@ -9802,7 +10411,10 @@
       565,
       570
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Fists",
+      "Claw"
+    ]
   },
   {
     "uuid": 104,
@@ -9859,7 +10471,10 @@
       }
     },
     "items": [],
-    "itemTypes": []
+    "itemTypes": [
+      "Fists",
+      "Claw"
+    ]
   },
   {
     "uuid": 105,
@@ -9920,7 +10535,10 @@
       566,
       820
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Fists",
+      "Claw"
+    ]
   },
   {
     "uuid": 106,
@@ -9979,7 +10597,18 @@
     "items": [
       213
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists",
+      "Accessory",
+      "Ring",
+      "Claw",
+      "Arrow",
+      "Spellbook",
+      "Tome"
+    ]
   },
   {
     "uuid": 107,
@@ -10039,7 +10668,18 @@
       72,
       482
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists",
+      "Accessory",
+      "Ring",
+      "Claw",
+      "Arrow",
+      "Spellbook",
+      "Tome"
+    ]
   },
   {
     "uuid": 108,
@@ -10098,7 +10738,18 @@
     "items": [
       141
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists",
+      "Accessory",
+      "Ring",
+      "Claw",
+      "Arrow",
+      "Spellbook",
+      "Tome"
+    ]
   },
   {
     "uuid": 109,
@@ -10158,7 +10809,18 @@
       72,
       141
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists",
+      "Accessory",
+      "Ring",
+      "Claw",
+      "Arrow",
+      "Spellbook",
+      "Tome"
+    ]
   },
   {
     "uuid": 110,
@@ -10221,7 +10883,18 @@
       700,
       709
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists",
+      "Accessory",
+      "Ring",
+      "Claw",
+      "Arrow",
+      "Spellbook",
+      "Tome"
+    ]
   },
   {
     "uuid": 111,
@@ -10280,7 +10953,18 @@
     "items": [
       491
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists",
+      "Accessory",
+      "Ring",
+      "Claw",
+      "Arrow",
+      "Spellbook",
+      "Tome"
+    ]
   },
   {
     "uuid": 112,
@@ -10337,7 +11021,18 @@
       }
     },
     "items": [],
-    "itemTypes": []
+    "itemTypes": [
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists",
+      "Accessory",
+      "Ring",
+      "Claw",
+      "Arrow",
+      "Spellbook",
+      "Tome"
+    ]
   },
   {
     "uuid": 113,
@@ -10394,7 +11089,19 @@
       }
     },
     "items": [],
-    "itemTypes": []
+    "itemTypes": [
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists",
+      "Accessory",
+      "Amulet",
+      "Claw",
+      "Arrow",
+      "Spellbook",
+      "Shield",
+      "Tome"
+    ]
   },
   {
     "uuid": 114,
@@ -10454,7 +11161,19 @@
       705,
       792
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists",
+      "Accessory",
+      "Amulet",
+      "Claw",
+      "Arrow",
+      "Spellbook",
+      "Shield",
+      "Tome"
+    ]
   },
   {
     "uuid": 115,
@@ -10513,7 +11232,19 @@
     "items": [
       489
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists",
+      "Accessory",
+      "Amulet",
+      "Claw",
+      "Arrow",
+      "Spellbook",
+      "Shield",
+      "Tome"
+    ]
   },
   {
     "uuid": 116,
@@ -10573,7 +11304,19 @@
       58,
       114
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists",
+      "Accessory",
+      "Amulet",
+      "Claw",
+      "Arrow",
+      "Spellbook",
+      "Shield",
+      "Tome"
+    ]
   },
   {
     "uuid": 117,
@@ -10630,7 +11373,19 @@
       }
     },
     "items": [],
-    "itemTypes": []
+    "itemTypes": [
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists",
+      "Accessory",
+      "Amulet",
+      "Claw",
+      "Arrow",
+      "Spellbook",
+      "Shield",
+      "Tome"
+    ]
   },
   {
     "uuid": 118,
@@ -10687,7 +11442,19 @@
       }
     },
     "items": [],
-    "itemTypes": []
+    "itemTypes": [
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists",
+      "Accessory",
+      "Amulet",
+      "Claw",
+      "Arrow",
+      "Spellbook",
+      "Shield",
+      "Tome"
+    ]
   },
   {
     "uuid": 119,
@@ -10744,7 +11511,13 @@
       }
     },
     "items": [],
-    "itemTypes": []
+    "itemTypes": [
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists",
+      "Amulet"
+    ]
   },
   {
     "uuid": 120,
@@ -10805,7 +11578,10 @@
       723,
       813
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Armor",
+      "Amulet"
+    ]
   },
   {
     "uuid": 121,
@@ -10867,7 +11643,10 @@
       705,
       824
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Armor",
+      "Ring"
+    ]
   },
   {
     "uuid": 122,
@@ -10924,7 +11703,10 @@
       }
     },
     "items": [],
-    "itemTypes": []
+    "itemTypes": [
+      "Ring",
+      "Amulet"
+    ]
   },
   {
     "uuid": 123,
@@ -10983,7 +11765,10 @@
     "items": [
       429
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Ring",
+      "Amulet"
+    ]
   },
   {
     "uuid": 124,
@@ -11043,7 +11828,12 @@
       574,
       823
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Armor",
+      "Accessory",
+      "Ring",
+      "Amulet"
+    ]
   },
   {
     "uuid": 125,
@@ -11103,7 +11893,15 @@
       725,
       739
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Helm",
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists",
+      "Accessory",
+      "Ring"
+    ]
   },
   {
     "uuid": 126,
@@ -11162,7 +11960,15 @@
     "items": [
       772
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Helm",
+      "Armor",
+      "Claw",
+      "Arrow",
+      "Spellbook",
+      "Shield",
+      "Tome"
+    ]
   },
   {
     "uuid": 127,
@@ -11221,7 +12027,10 @@
     "items": [
       774
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Boots",
+      "Ring"
+    ]
   },
   {
     "uuid": 128,
@@ -11278,7 +12087,13 @@
       }
     },
     "items": [],
-    "itemTypes": []
+    "itemTypes": [
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists",
+      "Boots"
+    ]
   },
   {
     "uuid": 129,
@@ -11335,7 +12150,19 @@
       }
     },
     "items": [],
-    "itemTypes": []
+    "itemTypes": [
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists",
+      "Accessory",
+      "Amulet",
+      "Claw",
+      "Arrow",
+      "Spellbook",
+      "Shield",
+      "Tome"
+    ]
   },
   {
     "uuid": 130,
@@ -11392,7 +12219,19 @@
       }
     },
     "items": [],
-    "itemTypes": []
+    "itemTypes": [
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists",
+      "Accessory",
+      "Amulet",
+      "Claw",
+      "Arrow",
+      "Spellbook",
+      "Shield",
+      "Tome"
+    ]
   },
   {
     "uuid": 131,
@@ -11449,7 +12288,19 @@
       }
     },
     "items": [],
-    "itemTypes": []
+    "itemTypes": [
+      "Bow",
+      "Sword",
+      "Staff",
+      "Fists",
+      "Accessory",
+      "Amulet",
+      "Claw",
+      "Arrow",
+      "Spellbook",
+      "Shield",
+      "Tome"
+    ]
   },
   {
     "uuid": 132,
@@ -11506,7 +12357,10 @@
       }
     },
     "items": [],
-    "itemTypes": []
+    "itemTypes": [
+      "Boots",
+      "Accessory"
+    ]
   },
   {
     "uuid": 133,
@@ -11563,7 +12417,10 @@
       }
     },
     "items": [],
-    "itemTypes": []
+    "itemTypes": [
+      "Helm",
+      "Amulet"
+    ]
   },
   {
     "uuid": 134,
@@ -11622,7 +12479,11 @@
     "items": [
       479
     ],
-    "itemTypes": []
+    "itemTypes": [
+      "Helm",
+      "Armor",
+      "Boots"
+    ]
   },
   {
     "uuid": 1000,

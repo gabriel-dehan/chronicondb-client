@@ -1,0 +1,12 @@
+@¿Qué son las habilidades?
+Las habilidades son ataques, curaciones, mejoras, compañeros, auras y efectos pasivos que benefician a tu personaje.
+@Dice en la pantalla que tengo un punto de habilidad disponible, ¿qué hago?
+Abre tu inventario (predeterminado "I" o "atrás/seleccionar" en los gamepads) y luego ve a tu página de habilidades, es el ícono en la parte superior izquierda de tu inventario con el signo "+" parpadeante. ¡Gasta el punto en cualquier habilidad que quieras! Recuerdaque puedes gastar puntos en todos los árboles disponibles de la forma que desees. ¡Mezcla y combina!
+@¿Cómo uso una habilidad después de ponerle puntos?
+Las habilidades pasivas (redondas) se utilizan automáticamente. Pero todos los demás deben estar vinculados a una ranura. Para hacer esto, haz clic con el botón derecho en el icono de habilidad en la página de habilidades (o navega hasta él con su gamepad y presiona Y), y luego selecciona a qué botón/ranura vincularlo desde el menú contextual. Ahora cierra la página de habilidades y verás la habilidad en tu pantalla. Simplemente presiona el botón al que lo ha vinculado para usarlo.
+@No puedo vincular una habilidad.
+Asegúrate de haber gastado puntos en ella y de que no sea una habilidad pasiva. Las habilidades pasivas siempre están activas y no necesitan ser vinculadas.
+@¿Puedo cambiar qué botones se utilizan para las habilidades?
+Sí, simplemente ve al menú Opciones, luego al menú Controles y finalmente al menú Combinaciones de teclas.
+@¿Puedo reemplazar una habilidad activa seleccionada en los espacios en blanco?
+Sí, simplemente abre el menú de vinculación (haz clic derecho o presiona (Y) en el gamepad) y selecciona Cambiar en el menú. Ahora puede cambiar la habilidad a cualquiera de las opciones y los puntos de habilidad gastados se transfieren a la nueva habilidad.

@@ -13,7 +13,11 @@ Evasion
 @Indirect Damage
 Indirect damage is the damage that comes from a triggered enchant, passive, etc. Indirect damage may not trigger any effects at all.
 The following defensive stats will affect indirect damage:
+[list]
 Mana Shield
+Indirect Damage Resistance
+Ground Effect Resistance (most enemy ground effects, such as trails, are indirect damage)
+[/list]
 @Mana Shield
 There are effects that drain Mana instead of Health when taking damage. These effects are unique in the way that they are triggered by both direct and indirect damage.
 Not to be confused with regular barriers/shields, which provide temporary additional health, and is shown as a light blue bar on your healthbar.

@@ -4,6 +4,7 @@ import V1104 from './1.10.4/extracts';
 import V1106 from './1.10.6/extracts';
 import V1107 from './1.10.7/extracts';
 import V1108 from './1.10.8/extracts';
+import V1113 from './1.11.3/extracts';
 import V1202 from './1.20.2/extracts';
 
 export default {
@@ -12,5 +13,6 @@ export default {
   '1.10.6': V1106,
   '1.10.7': V1107,
   '1.10.8': V1108,
+  '1.11.3': V1113,
   '1.20.2': V1202,
 };

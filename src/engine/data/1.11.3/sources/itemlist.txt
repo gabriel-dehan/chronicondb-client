@@ -1,754 +1,753 @@
-1 - Leather Hood - Ordinary Helm - Any Class - Lv 1 
-2 - Leather Armor - Ordinary Armor - Warden - Lv 1 
-3 - Druid Hood - Ordinary Helm - Any Class - Lv 7 
-4 - Druid Armor - Ordinary Armor - Warden - Lv 7 
-5 - Ranger Hood - Ordinary Helm - Warden - Lv 15 
-6 - Ranger Armor - Ordinary Armor - Warden - Lv 15 
-7 - Plate Helmet - Ordinary Helm - Templar - Lv 1 
-8 - Plate Armor - Ordinary Armor - Templar - Lv 1 
-9 - Silver Helmet - Ordinary Helm - Templar - Lv 7 
-10 - Silver Armor - Ordinary Armor - Templar - Lv 7 
-11 - Gold Plate Helmet - Ordinary Helm - Templar - Lv 15 
-12 - Gold Plate Armor - Ordinary Armor - Templar - Lv 15 
-13 - Dark Hood - Ordinary Helm - Warlock - Lv 1 
-14 - Dark Robes - Ordinary Armor - Warlock - Lv 1 
-15 - Arcane Hood - Ordinary Helm - Warlock - Lv 7 
-16 - Arcane Robes - Ordinary Armor - Warlock - Lv 7 
-17 - Mage Hood - Ordinary Helm - Warlock - Lv 15 
-18 - Mage Robes - Ordinary Armor - Warlock - Lv 15 
-19 - Leather Cap - Ordinary Helm - Any Class - Lv 1 
-20 - Fighter Harness - Ordinary Armor - Berserker - Lv 1 
-21 - Bruiser Cap - Ordinary Helm - Berserker - Lv 7 
-22 - Bruiser Armor - Ordinary Armor - Berserker - Lv 7 
-23 - Brawler Cap - Ordinary Helm - Berserker - Lv 15 
-24 - Brawler Harness - Ordinary Armor - Berserker - Lv 15 
-25 - Bow - Ordinary Bow - Warden - Lv 1 
-26 - Longbow - Ordinary Bow - Warden - Lv 1 
-27 - Recurve Bow - Ordinary Bow - Warden - Lv 1 
-28 - Sword - Ordinary Sword - Templar - Lv 1 
-29 - Longsword - Ordinary Sword - Templar - Lv 1 
-30 - Short Sword - Ordinary Sword - Templar - Lv 1 
-31 - Staff - Ordinary Staff - Warlock - Lv 1 
-32 - Crescent Staff - Ordinary Staff - Warlock - Lv 1 
-33 - Orbed Staff - Ordinary Staff - Warlock - Lv 1 
-34 - Fists - Ordinary Fists - Berserker - Lv 1 
-35 - Pounders - Ordinary Fists - Berserker - Lv 1 
-36 - Jabs - Ordinary Fists - Berserker - Lv 1 
-37 - Leather Boots - Ordinary Boots - Any Class - Lv 1  -- e4 
-38 - Crystal Heart - Ordinary Accessory - Any Class - Lv 1  -- e1 
-39 - Mana Orb - Ordinary Accessory - Any Class - Lv 1  -- e2 
-40 - Power Ring - Unique Ring - Any Class - Lv 10  -- e4 
-41 - Thorn Ring - Unique Ring - Any Class - Lv 10  -- e1147 
-42 - Amulet of Repulsion - Unique Amulet - Any Class - Lv 10  -- e79 
-43 - Chimaera Band - Unique Ring - Any Class - Lv 10  -- e6 e7 
-44 - Imp Claw - Rare Claw (Offhand) - Berserker - Lv 1  -- e5 
-45 - The Anchor - Unique Accessory - Any Class - Lv 1  -- e33 e37 
-46 - Golem Heart - Unique Accessory - Any Class - Lv 1  -- e63 e34 
-47 - Treant Beads - Unique Accessory - Any Class - Lv 1  -- e77 e36 
-48 - Nimble Boots - Unique Boots - Any Class - Lv 1  -- e1068 e4 
-49 - Hydra Scales - Unique Accessory - Any Class - Lv 1  -- e1074 
-50 - Demonband - Unique Ring - Any Class - Lv 10  -- e39 
-51 - Meteorite Ring - Legendary Ring - Any Class - Lv 10  -- e1093 
-52 - Sticky Fingers - Unique Accessory - Any Class - Lv 1  -- e13 
-53 - Cloudrunners - Legendary Boots - Any Class - Lv 1  -- e84 e72 
-54 - Hound Whistle - Unique Accessory - Any Class - Lv 15  -- e1136 
-56 - Elixir of Life - Unique Accessory - Any Class - Lv 15  -- e36 e6 
-57 - Boots of Hermes - Legendary Boots - Any Class - Lv 1  -- e1067 e4 
-58 - Demon Claw - Unique Claw (Offhand) - Berserker - Lv 1  -- e19 e116 
-59 - Chronicle of Knowledge - Legendary Accessory - Any Class - Lv 1  -- e1139 
-61 - Ring - Enchanted Ring - Any Class - Lv 10 
-62 - Loop - Enchanted Ring - Any Class - Lv 10 
-63 - Iron Band - Enchanted Ring - Any Class - Lv 10 
-64 - Circlet - Enchanted Ring - Any Class - Lv 10 
-66 - Light's Blessing - Unique Amulet - Any Class - Lv 10  -- e81 
-67 - Powergem - Unique Accessory - Any Class - Lv 1  -- e20 
-68 - Wind Razor - Legendary Arrow (Offhand) - Warden - Lv 30  -- e1046 e44 
-69 - Spellbook - Ordinary Spellbook (Offhand) - Warlock - Lv 1  -- e7 
-70 - Spiked Shield - Enchanted Shield (Offhand) - Templar - Lv 1  -- e96 e97 
-71 - Barbed Wire - Ordinary Offhand - Berserker - Lv 1  -- e3 
-72 - Maddoc's Cure - Legendary Accessory - Any Class - Lv 1  -- e19 e107 e109 
-73 - Terra Nova - Legendary Bow - Warden - Lv 30  -- e1042 e44 
-74 - Stormcaller's Aim - Legendary Bow - Warden - Lv 30  -- e42 e5 
-75 - Heartpiercer - Unique Bow - Warden - Lv 5  -- e44 
-76 - Spiderbite - Unique Bow - Warden - Lv 5  -- e41 
-77 - Serenity - Legendary Bow - Warden - Lv 10  -- e1086 
-78 - Starfell - Legendary Sword - Templar - Lv 30  -- e1018 e39 
-79 - Rolling Thunder - Legendary Sword - Templar - Lv 5  -- e109 e42 
-80 - Iapetus - Legendary Sword - Templar - Lv 30  -- e1019 e44 
-81 - Hallowed Blade - Unique Sword - Templar - Lv 5  -- e43 e9 
-82 - Soulblade - Unique Sword - Templar - Lv 5  -- e1138 e42 
-83 - Staff of Screaming Skulls - Unique Staff - Warlock - Lv 5  -- e1190 
-84 - Frostborne - Legendary Staff - Warlock - Lv 30  -- e1054 e40 
-85 - Brimstone Staff - Legendary Staff - Warlock - Lv 30  -- e1084 
-86 - Boomstick - Unique Staff - Warlock - Lv 15  -- e1126 e21 
-87 - Root of Evil - Unique Staff - Warlock - Lv 5  -- e41 e53 
-88 - Bad Boys - Legendary Fists - Berserker - Lv 30  -- e1030 e44 
-89 - Arsonists - Legendary Fists - Berserker - Lv 30  -- e1031 e39 
-90 - Lightning Jabs - Unique Fists - Berserker - Lv 5  -- e42 
-91 - Bloodsoaked Fists - Legendary Fists - Berserker - Lv 30  -- e44 e102 
-92 - Nailers - Unique Fists - Berserker - Lv 5  -- e110 
-93 - Key - Enchanted Key - Any Class - Lv 1 
-100 - Bloodsoaked Armor - Legendary Armor - Berserker - Lv 30  -- e44 e21 
-101 - Ragnarok Guard - Legendary Armor - Berserker - Lv 5  -- e1148 e21 
-102 - Dragonfire Armor - Legendary Armor - Berserker - Lv 30  -- e39 e6 
-103 - Flamebound Armor - Legendary Armor - Berserker - Lv 5  -- e1081 e39 
-104 - Wrathborn Helmet - Legendary Helm - Berserker - Lv 10  -- e1034 e19 
-105 - Helm of Might - Legendary Helm - Berserker - Lv 20  -- e1035 
-106 - Firebreather - Legendary Helm - Berserker - Lv 15  -- e1062 e39 
-107 - Molten Medallion - Legendary Amulet - Berserker - Lv 50  -- e1149 e8 
-108 - Winged Striders - Unique Boots - Any Class - Lv 1  -- e4 
-109 - Ring of Titans - True Legendary Ring - Any Class - Lv 100  -- e1036 e20 
-110 - Helm o' War - Unique Helm - Berserker - Lv 1  -- e1080 e44 
-111 - Vampire Lord's Cape - Legendary Armor - Any Class - Lv 5  -- e1095 e10 
-112 - Demon Lord's Robes - Legendary Armor - Warlock - Lv 30  -- e39 e46 
-113 - Lich's Armor - Legendary Armor - Warlock - Lv 30  -- e40 e100 
-114 - Demonologist's Robes - Legendary Armor - Warlock - Lv 15  -- e1128 e116 
-115 - Icecrown - Legendary Helm - Warlock - Lv 20  -- e1098 e29 
-116 - Infernal Horns - Legendary Helm - Warlock - Lv 30  -- e1061 e39 
-117 - Hood of the Master - Unique Helm - Warlock - Lv 20  -- e27 
-118 - Demon Lord's Horns - Legendary Helm - Warlock - Lv 30  -- e39 
-119 - Supernova - Legendary Ring - Any Class - Lv 10  -- e1144 e48 
-120 - Hellstone Amulet - Legendary Amulet - Warlock - Lv 40  -- e1078 e34 
-121 - Lich's Touch - Legendary Accessory - Warlock - Lv 20  -- e1076 e40 
-122 - Iceheart - Legendary Accessory - Warlock - Lv 15  -- e1132 
-123 - Thundercharged Raiment - Legendary Armor - Templar - Lv 30  -- e42 e28 
-124 - Ayeela's Embrace - Legendary Armor - Templar - Lv 30  -- e43 e7 
-125 - Blessed Raiment - Legendary Armor - Templar - Lv 10  -- e1013 
-126 - Armor of Retribution - Legendary Armor - Templar - Lv 15  -- e1110 e54 
-127 - Armor of the Shield Maiden - Legendary Armor - Templar - Lv 15  -- e1012 
-128 - Crown of Justice - Legendary Helm - Templar - Lv 30  -- e1088 e98 
-129 - Crown of Solitude - Legendary Helm - Any Class - Lv 20  -- e1705 
-130 - Protectorae - Unique Helm - Any Class - Lv 5  -- e1 e27 
-131 - Iactus - Legendary Shield (Offhand) - Templar - Lv 30  -- e1014 e96 e97 
-132 - Aegis - Legendary Shield (Offhand) - Templar - Lv 30  -- e1015 e96 e97 
-133 - Book of Purity - Unique Tome (Offhand) - Templar - Lv 20  -- e1016 
-134 - Thundercharged Tome - Legendary Tome (Offhand) - Templar - Lv 30  -- e42 e8 
-135 - Heart of Grace - Legendary Accessory - Templar - Lv 15  -- e1017 
-136 - Forest Embrace - Legendary Armor - Warden - Lv 15  -- e1065 e41 
-137 - Packleader's Vest - Legendary Armor - Warden - Lv 15  -- e1064 e45 
-138 - Armor of the Elven Ranger - Legendary Armor - Warden - Lv 25  -- e1116 
-139 - Stormcaller's Regalia - Legendary Armor - Warden - Lv 30  -- e42 e19 
-140 - Stormcaller's Visage - Legendary Helm - Warden - Lv 30  -- e42 
-141 - Crown of Storms - Legendary Helm - Any Class - Lv 5  -- e19 e108 e109 
-142 - High Ranger's Vision - Legendary Helm - Warden - Lv 30  -- e44 
-143 - Stormdweller Hood - Legendary Helm - Warden - Lv 30  -- e1083 e48 
-144 - Saboteur's Hood - Unique Helm - Any Class - Lv 5  -- e1102 
-145 - Band of Nature - Unique Ring - Warden - Lv 30  -- e1079 e7 
-146 - Druid's Scroll of Storms - Legendary Accessory - Warden - Lv 30  -- e1121 e100 
-147 - Storm Pendant - Legendary Amulet - Warden - Lv 15  -- e1066 e7 
-148 - Trapper's Boots - Unique Boots - Warden - Lv 5  -- e1119 e4 
-149 - Wrath Cage - Unique Armor - Any Class - Lv 1  -- e8 e19 
-150 - Robe of Corruption - Legendary Armor - Warlock - Lv 25  -- e1131 
-151 - Master Scout's Armor - Unique Armor - Any Class - Lv 1  -- e4 e19 
-152 - Jotunhelm - Legendary Helm - Any Class - Lv 25  -- e1124 
-153 - Dragonleech - Unique Helm - Any Class - Lv 1  -- e10 e41 
-154 - Mindcage - Unique Helm - Any Class - Lv 1  -- e2 e7 
-155 - Helm of the Fallen King - Unique Helm - Any Class - Lv 1  -- e19 e1 
-156 - Golden Guard - Unique Helm - Any Class - Lv 1  -- e1058 e8 
-157 - Smoldering Gemstone - Legendary Accessory - Any Class - Lv 1  -- e1072 
-158 - Ring of Horror - Legendary Ring - Any Class - Lv 10  -- e78 e35 e36 
-159 - The Skyshard - Legendary Accessory - Any Class - Lv 1  -- e1071 
-180 - Elixir of Invisibility - Rare Elixir - Any Class - Lv 1 
-181 - Elixir of The Steadfast - Enchanted Elixir - Any Class - Lv 1 
-182 - Elixir of Fumes - Enchanted Elixir - Any Class - Lv 1 
-183 - Elixir of Shock - Enchanted Elixir - Any Class - Lv 1 
-184 - Elixir of Haste - Rare Elixir - Any Class - Lv 1 
-185 - Elixir of Fortitude - Rare Elixir - Any Class - Lv 1 
-193 - Icewind - Unique Bow - Warden - Lv 5  -- e40 
-194 - Bolt - Unique Bow - Warden - Lv 5  -- e42 
-195 - Cael'is' Aim - Unique Bow - Warden - Lv 5  -- e44 
-196 - Stormdraw - Legendary Bow - Warden - Lv 30  -- e1045 e40 
-197 - Thunderstring - Legendary Bow - Warden - Lv 30  -- e1044 e42 
-198 - Marruu's Rose - Legendary Bow - Warden - Lv 30  -- e1043 e41 
-199 - Vault Key - Unique Quest Item - Any Class - Lv 1 
-200 - Treasury Key - Unique Special Item - Any Class - Lv 1 
-201 - Ancient Coin - Rare Special Item - Any Class - Lv 1 
-203 - Flamers - Unique Fists - Berserker - Lv 5  -- e39 
-204 - Shatterfrost - Unique Staff - Warlock - Lv 5  -- e40 
-205 - Firebug's Rod - Unique Staff - Warlock - Lv 5  -- e39 
-206 - Hellstaff - Legendary Staff - Warlock - Lv 30  -- e1055 e39 
-207 - The Kennerth - Legendary Staff - Warlock - Lv 30  -- e1056 e53 
-208 - Bile Rod - Legendary Staff - Warlock - Lv 30  -- e1057 e41 
-210 - Moore's Helmet - Rare Helm - Any Class - Lv 1  -- e47 e5 
-211 - Refugee's Tattered Vest - Rare Armor - Any Class - Lv 1  -- e7 e24 e4 
-212 - Amulet of the Apprentice - Rare Amulet - Any Class - Lv 1  -- e21 e6 
-213 - Ring of Cleansing Fire - Legendary Ring - Any Class - Lv 1  -- e106 e39 
-214 - Carapace of Mos'ag - Unique Armor - Any Class - Lv 1  -- e47 e3 e8 
-215 - Druid's Gold - Unique Ring - Any Class - Lv 1  -- e48 e7 
-216 - Bramblecrown - Legendary Helm - Any Class - Lv 1  -- e8 e2 e48 
-217 - Floe Fist - Unique Fists - Berserker - Lv 5  -- e40 
-218 - Thunder Claps - Legendary Fists - Berserker - Lv 30  -- e1032 e42 
-219 - Icebergs - Legendary Fists - Berserker - Lv 30  -- e1033 e40 
-220 - Family Heirloom - Unique Quest Item - Any Class - Lv 1 
-221 - The Headmistress' Spectacles - Unique Quest Item - Any Class - Lv 1 
-222 - Treant Key - Unique Quest Item - Any Class - Lv 1 
-223 - Stag Key - Unique Quest Item - Any Class - Lv 1 
-224 - Pixie Key - Unique Quest Item - Any Class - Lv 1 
-225 - Atlas - Unique Sword - Templar - Lv 5  -- e44 e102 
-226 - Helios - Unique Sword - Templar - Lv 5  -- e39 e7 
-227 - Jupiter - Legendary Sword - Templar - Lv 30  -- e1020 e42 
-228 - Illumine - Legendary Sword - Templar - Lv 30  -- e1021 e43 
-229 - Student's Textbook - Unique Accessory - Any Class - Lv 1  -- e24 e4 
-230 - Elixir of Flames - Rare Elixir - Any Class - Lv 1 
-231 - Eastern Wing Key - Unique Quest Item - Any Class - Lv 1 
-232 - Enchanter's Codex - Unique Quest Item - Any Class - Lv 1 
-241 - Scroll of Testing 100M - Mythical Scroll - Any Class - Lv 1 
-242 - Scroll of Testing 1,000M - Mythical Scroll - Any Class - Lv 1 
-243 - Scroll of Dimensions - Unique Scroll - Any Class - Lv 1 
-244 - Scroll of Challenge - Unique Scroll - Any Class - Lv 1 
-245 - Scroll of Champions - Unique Scroll - Any Class - Lv 1 
-247 - Elixir of the Mind - Rare Elixir - Any Class - Lv 1 
-249 - Scroll of Return - Enchanted Scroll - Any Class - Lv 1 
-250 - Minor Health Potion - Ordinary Potion - Any Class - Lv 1 
-251 - Minor Mana Potion - Ordinary Potion - Any Class - Lv 1 
-252 - Small Health Potion - Ordinary Potion - Any Class - Lv 10 
-253 - Small Mana Potion - Ordinary Potion - Any Class - Lv 10 
-254 - Health Potion - Ordinary Potion - Any Class - Lv 20 
-255 - Mana Potion - Ordinary Potion - Any Class - Lv 20 
-256 - Medium Health Potion - Ordinary Potion - Any Class - Lv 30 
-257 - Medium Mana Potion - Ordinary Potion - Any Class - Lv 30 
-258 - Great Health Potion - Ordinary Potion - Any Class - Lv 40 
-259 - Great Mana Potion - Ordinary Potion - Any Class - Lv 40 
-260 - Greater Health Potion - Ordinary Potion - Any Class - Lv 50 
-261 - Greater Mana Potion - Ordinary Potion - Any Class - Lv 50 
-262 - Grand Health Potion - Ordinary Potion - Any Class - Lv 60 
-263 - Grand Mana Potion - Ordinary Potion - Any Class - Lv 60 
-264 - Superior Health Potion - Ordinary Potion - Any Class - Lv 70 
-265 - Superior Mana Potion - Ordinary Potion - Any Class - Lv 70 
-266 - Supreme Health Potion - Ordinary Potion - Any Class - Lv 80 
-267 - Supreme Mana Potion - Ordinary Potion - Any Class - Lv 80 
-268 - Extreme Health Potion - Ordinary Potion - Any Class - Lv 90 
-269 - Extreme Mana Potion - Ordinary Potion - Any Class - Lv 90 
-270 - Soft Holiday Gift - Ordinary Container - Any Class - Lv 1 
-271 - Badly Wrapped Holiday Gift - Enchanted Container - Any Class - Lv 1 
-272 - Promising Holiday Gift - Rare Container - Any Class - Lv 1 
-273 - Pretty Holiday Gift - Unique Container - Any Class - Lv 1 
-274 - Exceptional Holiday Gift - Legendary Container - Any Class - Lv 1 
-275 - Loot Container - Enchanted Container - Any Class - Lv 1 
-276 - Ultimate Health Potion - Ordinary Potion - Any Class - Lv 100 
-277 - Ultimate Mana Potion - Ordinary Potion - Any Class - Lv 100 
-278 - Elixir of Mastery - Rare Elixir - Any Class - Lv 1 
-280 - Amulet - Enchanted Amulet - Any Class - Lv 10 
-281 - Necklace - Enchanted Amulet - Any Class - Lv 10 
-282 - Medallion - Enchanted Amulet - Any Class - Lv 10 
-283 - Miasmic Band - Unique Ring - Any Class - Lv 10  -- e41 
-284 - Frostband - Unique Ring - Any Class - Lv 10  -- e40 
-285 - Blasphemy - Unique Ring - Warlock - Lv 10  -- e53 
-286 - Enforcer's Ring - Unique Ring - Any Class - Lv 10  -- e44 
-287 - Righteous Circlet - Unique Ring - Templar - Lv 10  -- e43 
-288 - Static Loop - Unique Ring - Any Class - Lv 10  -- e42 
-289 - Terra's Binding - Legendary Ring - Any Class - Lv 10  -- e1707 
-290 - Hoarfrost - Legendary Ring - Any Class - Lv 10  -- e40 
-291 - Death's Bond - Legendary Ring - Warlock - Lv 50  -- e1187 
-292 - Kingsrock - Legendary Ring - Any Class - Lv 10  -- e1092 
-293 - Divine Link - Legendary Ring - Templar - Lv 10  -- e1719 e43 
-294 - Ring of Thunder - Legendary Ring - Any Class - Lv 10  -- e42 
-295 - Magic Essence - Enchanted Crafting Material - Any Class - Lv 1 
-296 - Crystal Essence - Rare Crafting Material - Any Class - Lv 1 
-297 - Soul Essence - Unique Crafting Material - Any Class - Lv 1 
-298 - Memory Essence - Legendary Crafting Material - Any Class - Lv 1 
-300 - Stormforce - Unique Ring - Any Class - Lv 10  -- e28 
-301 - Wintertale - Unique Amulet - Any Class - Lv 10  -- e29 
-302 - Demon's Guile - Unique Ring - Any Class - Lv 10  -- e30 
-303 - Bad Voodoo - Unique Amulet - Any Class - Lv 10  -- e31 
-304 - Ring of Hope - Unique Ring - Any Class - Lv 10  -- e32 
-305 - Darkskitter's Hide - Unique Armor - Any Class - Lv 1  -- e41 e85 
-306 - Mollug's One Ring - Unique Ring - Any Class - Lv 1  -- e1137 e34 
-307 - Mary's Mirror - Unique Accessory - Any Class - Lv 1  -- e110 e102 
-308 - Glod's Coins - Unique Accessory - Any Class - Lv 1  -- e23 e26 
-309 - Eye of The Watcher - Unique Helm - Any Class - Lv 1  -- e9 e10 
-310 - Bat Bat - Unique Staff - Warlock - Lv 1  -- e39 e30 
-311 - Sleepwalker's Robe - Unique Armor - Any Class - Lv 1  -- e40 e80 
-312 - The Woodwall - Unique Shield (Offhand) - Templar - Lv 1  -- e96 e97 e8 
-313 - Bramblefists - Unique Fists - Berserker - Lv 1  -- e110 e9 
-314 - Deadeye Hood - Unique Helm - Any Class - Lv 1  -- e19 
-315 - Flamehorn - Unique Sword - Templar - Lv 1  -- e39 e63 
-316 - So'eira's Needler - Unique Bow - Warden - Lv 1  -- e5 e4 
-317 - Pixie Gem - Unique Accessory - Any Class - Lv 1  -- e24 e6 
-318 - Thundercharged Blade - Legendary Sword - Templar - Lv 30  -- e42 e8 
-319 - Demon Lord's Scepter - Legendary Staff - Warlock - Lv 30  -- e39 e45 
-320 - Firelord's Amulet - Legendary Amulet - Warlock - Lv 30  -- e1152 
-321 - Lich's Crown - Legendary Helm - Warlock - Lv 30  -- e40 
-322 - Lich's Wand - Legendary Staff - Warlock - Lv 30  -- e40 e21 
-323 - Ayeela's Wisdom - Legendary Tome (Offhand) - Templar - Lv 30  -- e43 e9 
-324 - Ayeela's Will - Legendary Sword - Templar - Lv 30  -- e43 e9 
-325 - Ayeela's Sight - Legendary Helm - Templar - Lv 30  -- e43 
-326 - Thundercharged Crown - Legendary Helm - Templar - Lv 30  -- e42 
-327 - Master Scout's Hood - Unique Helm - Any Class - Lv 1  -- e19 
-328 - Master Scout's Boots - Unique Boots - Any Class - Lv 1  -- e4 
-329 - Hate Crown - Unique Helm - Any Class - Lv 1  -- e8 
-330 - Pain Lid - Unique Shield (Offhand) - Templar - Lv 1  -- e96 e97 e8 
-331 - Seeker's Fortune - Unique Helm - Any Class - Lv 1  -- e23 e13 
-332 - Seeker's Reach - Unique Armor - Any Class - Lv 1  -- e26 e23 e13 
-333 - Seeker's Luck - Unique Accessory - Any Class - Lv 1  -- e13 e23 
-334 - Challenger's Helm - Unique Helm - Any Class - Lv 1  -- e19 
-335 - Challenger's Armor - Unique Armor - Any Class - Lv 1  -- e1 e6 
-336 - Challenger's Boots - Unique Boots - Any Class - Lv 1  -- e4 e5 
-337 - Bloodsoaked Helmet - Legendary Helm - Berserker - Lv 30  -- e44 
-338 - Brutal Stompers - Legendary Boots - Berserker - Lv 20  -- e1063 e4 
-339 - Dragonfire Visage - Legendary Helm - Berserker - Lv 30  -- e39 
-340 - Dragonfire Fists - Legendary Fists - Berserker - Lv 30  -- e39 e101 
-341 - High Ranger's Guard - Legendary Armor - Warden - Lv 30  -- e44 e19 
-342 - High Ranger's Deadeye - Legendary Bow - Warden - Lv 30  -- e44 e102 
-343 - High Ranger's Gift - Legendary Arrow (Offhand) - Warden - Lv 30  -- e5 e102 
-344 - Elven Wisdom - Unique Staff - Warlock - Lv 1  -- e7 e6 e10 
-345 - Unknown Warden Arrow - Enchanted Unknown Item - Warden - Lv 1 
-346 - Unknown Templar Offhand - Enchanted Unknown Item - Templar - Lv 1 
-347 - Unknown Warlock Spellbook - Enchanted Unknown Item - Warlock - Lv 1 
-348 - Unknown Berserker Claw - Enchanted Unknown Item - Berserker - Lv 1 
-350 - Unknown Helmet - Enchanted Unknown Item - Any Class - Lv 1 
-351 - Unknown Armor - Enchanted Unknown Item - Any Class - Lv 1 
-352 - Unknown Accessory - Enchanted Unknown Item - Any Class - Lv 1 
-353 - Unknown Templar Weapon - Enchanted Unknown Item - Templar - Lv 1 
-354 - Unknown Berserker Weapon - Enchanted Unknown Item - Berserker - Lv 1 
-355 - Unknown Warden Weapon - Enchanted Unknown Item - Warden - Lv 1 
-356 - Unknown Warlock Weapon - Enchanted Unknown Item - Warlock - Lv 1 
-357 - Unknown Ring (level 10+) - Enchanted Unknown Item - Any Class - Lv 10 
-358 - Unknown Amulet (level 10+) - Enchanted Unknown Item - Any Class - Lv 10 
-359 - Unknown Boots - Enchanted Unknown Item - Any Class - Lv 1 
-364 - Desecrator's Face - Legendary Helm - Warlock - Lv 30  -- e53 
-365 - Desecrator's Cage - Legendary Armor - Warlock - Lv 30  -- e53 e100 
-366 - Desecrator's Touch - Legendary Staff - Warlock - Lv 30  -- e53 e5 
-367 - Death's List - Legendary Accessory - Warlock - Lv 30  -- e1075 e53 
-368 - Bloodbinder's Helm - Legendary Helm - Warlock - Lv 30  -- e41 
-369 - Bloodbinder's Robes - Legendary Armor - Warlock - Lv 30  -- e41 e21 
-370 - Bloodbinder's Staff - Legendary Staff - Warlock - Lv 30  -- e41 e46 
-371 - Pestilence - Legendary Ring - Warlock - Lv 20  -- e1077 e41 
-372 - Caine's Vision - Legendary Helm - Templar - Lv 30  -- e39 
-373 - Caine's Armor - Legendary Armor - Templar - Lv 30  -- e39 e4 
-374 - Caine's Fire - Legendary Sword - Templar - Lv 30  -- e39 e100 
-375 - Caine's Deflector - Legendary Shield (Offhand) - Templar - Lv 30  -- e96 e97 e4 
-376 - Reckoning's Sight - Legendary Helm - Templar - Lv 30  -- e8 
-377 - Reckoning's Cage - Legendary Armor - Templar - Lv 30  -- e44 e8 
-378 - Reckoning's Instrument - Legendary Sword - Templar - Lv 30  -- e44 e8 
-379 - Reckoning's Safeguard - Legendary Shield (Offhand) - Templar - Lv 30  -- e96 e97 e8 
-380 - Spirit Visage - Legendary Helm - Berserker - Lv 30  -- e42 
-381 - Spirit Vest - Legendary Armor - Berserker - Lv 30  -- e42 e21 
-382 - Spirit Fist - Legendary Fists - Berserker - Lv 30  -- e42 e19 
-383 - Spirit Carver - Legendary Claw (Offhand) - Berserker - Lv 30  -- e5 e100 
-384 - Northern Rage Helm - Legendary Helm - Berserker - Lv 30  -- e40 
-385 - Northern Rage Hide - Legendary Armor - Berserker - Lv 30  -- e40 e103 
-386 - Northern Rage Fists - Legendary Fists - Berserker - Lv 30  -- e40 e100 
-387 - Frostborn Heirloom - Legendary Amulet - Berserker - Lv 30  -- e1134 
-388 - Everspring's Crown - Legendary Helm - Warden - Lv 30  -- e41 
-389 - Everspring's Embrace - Legendary Armor - Warden - Lv 30  -- e41 e100 
-390 - Everspring's Breeze - Legendary Bow - Warden - Lv 30  -- e41 e6 
-391 - Everspring's Thorn - Legendary Arrow (Offhand) - Warden - Lv 30  -- e3 e21 
-392 - Snowstorm Eye - Legendary Helm - Warden - Lv 30  -- e40 
-393 - Snowstorm Grasp - Legendary Armor - Warden - Lv 30  -- e40 e51 
-394 - Snowstorm Bite - Legendary Bow - Warden - Lv 30  -- e40 e4 
-395 - Winter's Coming - Legendary Ring - Warden - Lv 30  -- e1120 e7 
-396 - Pouch - Ordinary Bag - Any Class - Lv 1  -- e56 
-397 - Satchel - Enchanted Bag - Any Class - Lv 1  -- e56 
-398 - Gear Bag - Rare Bag - Any Class - Lv 1  -- e56 
-399 - Backpack - Unique Bag - Any Class - Lv 1  -- e56 
-400 - Bottomless Bag - Legendary Bag - Any Class - Lv 1  -- e56 
-402 - Moe's Fury - Unique Fists - Berserker - Lv 5  -- e1189 
-403 - Grasswalkers - Unique Boots - Any Class - Lv 1  -- e77 
-404 - Escapists - Unique Boots - Any Class - Lv 1  -- e84 
-405 - Kickers - Unique Boots - Any Class - Lv 1  -- e20 
-406 - Sludge Treaders - Unique Boots - Any Class - Lv 1  -- e92 e41 
-407 - Nightcap - Unique Helm - Any Class - Lv 1  -- e82 
-408 - Lightcap - Unique Helm - Any Class - Lv 1  -- e81 e54 
-409 - Blightcap - Unique Helm - Any Class - Lv 1  -- e85 
-410 - Frightcap - Unique Helm - Any Class - Lv 1  -- e78 
-411 - Mightcap - Legendary Helm - Any Class - Lv 1  -- e1103 
-412 - Heart of Fire - Unique Amulet - Any Class - Lv 10  -- e63 
-413 - Nova - Unique Amulet - Any Class - Lv 10  -- e80 
-414 - Goreneck - Legendary Amulet - Any Class - Lv 10  -- e73 e74 
-415 - Health Injector - True Legendary Accessory - Any Class - Lv 100  -- e1069 
-416 - Mana Injector - True Legendary Accessory - Any Class - Lv 100  -- e1070 
-417 - Dragon Claw - Unique Claw (Offhand) - Berserker - Lv 1  -- e63 e66 
-418 - Claw - Ordinary Claw (Offhand) - Berserker - Lv 1  -- e3 
-419 - Arrows - Ordinary Arrow (Offhand) - Warden - Lv 1 
-420 - Snowpiercer - Legendary Arrow (Offhand) - Warden - Lv 30  -- e1049 e40 
-421 - Nature's Barbs - Legendary Arrow (Offhand) - Warden - Lv 30  -- e1047 e8 
-422 - Thunderpoint - Legendary Arrow (Offhand) - Warden - Lv 30  -- e1048 e42 
-423 - Book of Destruction - Legendary Spellbook (Offhand) - Warlock - Lv 15  -- e1052 e39 
-424 - Book of Desecration - Legendary Spellbook (Offhand) - Warlock - Lv 15  -- e1053 e53 
-425 - Firestone - Unique Accessory - Any Class - Lv 1  -- e30 e35 
-426 - Froststone - Unique Accessory - Any Class - Lv 1  -- e29 e34 
-427 - Thunderstone - Unique Accessory - Any Class - Lv 1  -- e28 e36 
-428 - Poisonstone - Unique Accessory - Any Class - Lv 1  -- e31 e37 
-429 - Shadowstone - Unique Accessory - Any Class - Lv 1  -- e123 e38 
-430 - Lightstone - Unique Accessory - Any Class - Lv 1  -- e32 e52 
-431 - Elementium Stone - Legendary Accessory - Any Class - Lv 1  -- e1073 e48 
-432 - Houndmaster's Vest - Legendary Armor - Berserker - Lv 5 
-433 - Darkwalkers - Legendary Boots - Warlock - Lv 15  -- e1127 
-438 - Lantern - Ordinary Accessory - Any Class - Lv 1  -- e54 
-439 - Small Charm - Ordinary Accessory - Any Class - Lv 1 
-440 - Charm - Ordinary Accessory - Any Class - Lv 5  -- e23 
-441 - Ancient Charm - Ordinary Accessory - Any Class - Lv 10  -- e27 
-442 - Cloak - Ordinary Accessory - Any Class - Lv 1  -- e6 
-443 - Cape - Ordinary Accessory - Any Class - Lv 10  -- e7 
-444 - Leather Boots - Ordinary Boots - Any Class - Lv 1 
-445 - Druid Boots - Ordinary Boots - Warden - Lv 7 
-446 - Ranger Boots - Ordinary Boots - Warden - Lv 15 
-447 - Plate Greaves - Ordinary Boots - Templar - Lv 1 
-448 - Silver Greaves - Ordinary Boots - Templar - Lv 7 
-449 - Gold Plate Greaves - Ordinary Boots - Templar - Lv 15 
-450 - Dark Slippers - Ordinary Boots - Warlock - Lv 1 
-451 - Arcane Slippers - Ordinary Boots - Warlock - Lv 7 
-452 - Mage Slippers - Ordinary Boots - Warlock - Lv 15 
-453 - Fighter Boots - Ordinary Boots - Berserker - Lv 1 
-454 - Bruiser Boots - Ordinary Boots - Berserker - Lv 7 
-455 - Brawler Boots - Ordinary Boots - Berserker - Lv 15 
-456 - Wooden Shield - Ordinary Shield (Offhand) - Templar - Lv 1  -- e96 e97 
-457 - Round Shield - Ordinary Shield (Offhand) - Templar - Lv 7  -- e96 e97 
-458 - Heater Shield - Ordinary Shield (Offhand) - Templar - Lv 15  -- e96 e97 
-459 - Knight Shield - Ordinary Shield (Offhand) - Templar - Lv 25  -- e96 e97 
-460 - Tower Shield - Ordinary Shield (Offhand) - Templar - Lv 35  -- e96 e97 
-461 - Book of Boils - Legendary Spellbook (Offhand) - Warlock - Lv 20  -- e1050 e41 
-462 - Book of Duplus - Legendary Spellbook (Offhand) - Warlock - Lv 20  -- e1051 e40 
-463 - Tome - Ordinary Tome (Offhand) - Templar - Lv 1 
-464 - Tome of Wrath - Legendary Tome (Offhand) - Templar - Lv 30  -- e1022 e42 
-465 - Tome of Vengeance - Legendary Tome (Offhand) - Templar - Lv 30  -- e1023 e46 
-466 - Tome of Condemnation - Legendary Tome (Offhand) - Templar - Lv 30  -- e1024 e39 
-467 - Tome of Redemption - Legendary Tome (Offhand) - Templar - Lv 30  -- e1025 e43 
-468 - Claws of Gluttony - Legendary Claw (Offhand) - Berserker - Lv 11  -- e1026 e44 
-469 - Amp Claw - Legendary Claw (Offhand) - Berserker - Lv 15  -- e1027 e42 
-470 - Wrath Claw - Legendary Claw (Offhand) - Berserker - Lv 15  -- e1028 e39 
-471 - Wyrmtooth - Legendary Claw (Offhand) - Berserker - Lv 20  -- e1029 e40 
-472 - Bastion - Unique Shield (Offhand) - Templar - Lv 5  -- e96 e97 e1 
-473 - Reflector - Unique Shield (Offhand) - Templar - Lv 5  -- e96 e97 e8 e47 
-474 - Vindicator - Legendary Shield (Offhand) - Templar - Lv 40  -- e1085 e96 e97 
-475 - Brisk Darts - Unique Arrow (Offhand) - Warden - Lv 1  -- e5 
-476 - Pain Bolts - Unique Arrow (Offhand) - Warden - Lv 10  -- e1082 e51 
-477 - Book of Gore - Unique Spellbook (Offhand) - Warlock - Lv 1  -- e66 
-478 - Book of Vampiris - Unique Spellbook (Offhand) - Warlock - Lv 1  -- e9 
-479 - Tome of Healing - Unique Tome (Offhand) - Templar - Lv 5  -- e71 e6 
-480 - Tome of Defiance - Unique Tome (Offhand) - Templar - Lv 5  -- e47 e3 
-481 - Obsidian Shield - Unique Shield (Offhand) - Templar - Lv 1  -- e96 e97 e47 
-482 - Flickerfang - Unique Accessory - Any Class - Lv 1  -- e107 e41 
-483 - Anxiety - Unique Accessory - Any Class - Lv 1  -- e9 e10 
-484 - Moreq's Cape - Unique Accessory - Any Class - Lv 1  -- e52 e82 
-485 - Brackenbow - Unique Bow - Warden - Lv 1  -- e51 e5 
-486 - Rosepack - Unique Bag - Any Class - Lv 1  -- e56 
-487 - Bewts - Unique Boots - Any Class - Lv 1  -- e76 e84 
-488 - Foul Schematics - Unique Accessory - Any Class - Lv 1  -- e21 e50 e26 
-489 - The Bugfix - Unique Accessory - Any Class - Lv 1  -- e115 e39 
-490 - Gilrad's Insight - Unique Amulet - Any Class - Lv 1  -- e21 e50 
-491 - Blessed Mantle - Unique Accessory - Any Class - Lv 1  -- e43 e111 
-492 - Thunderstompers - Unique Boots - Any Class - Lv 1  -- e42 e84 
-493 - The Darkstaff - Unique Staff - Warlock - Lv 1  -- e53 e66 
-494 - Thief's Hideaway - Unique Accessory - Any Class - Lv 1  -- e26 
-495 - Thief's Getaway - Unique Boots - Any Class - Lv 1  -- e4 
-496 - Obligation - Unique Amulet - Any Class - Lv 1  -- e46 
-497 - Union - Unique Ring - Any Class - Lv 1  -- e45 
-498 - Hoard - Unique Amulet - Any Class - Lv 1  -- e9 
-499 - Reap - Unique Ring - Any Class - Lv 1  -- e10 
-500 - Porthos - True Legendary Amulet - Any Class - Lv 100  -- e48 
-501 - Aramis - True Legendary Ring - Any Class - Lv 100  -- e48 
-502 - Athos - True Legendary Amulet - Any Class - Lv 100  -- e51 
-503 - D'Artagnan - True Legendary Ring - Any Class - Lv 100  -- e9 
-504 - Moon - Legendary Amulet - Any Class - Lv 1  -- e40 
-505 - Sun - Legendary Ring - Any Class - Lv 1  -- e39 
-506 - Retaliator's Choker - Legendary Amulet - Any Class - Lv 1  -- e1 
-507 - Retaliator's Bond - Legendary Ring - Any Class - Lv 1  -- e4 
-508 - Retaliator's Cloak - Legendary Accessory - Any Class - Lv 1  -- e6 
-509 - Retaliator's Striders - Legendary Boots - Any Class - Lv 1  -- e8 
-510 - Summoner's Hood - Legendary Helm - Any Class - Lv 1  -- e46 
-511 - Summoner's Robe - Legendary Armor - Any Class - Lv 1  -- e45 
-512 - Summoner's Charm - Legendary Accessory - Any Class - Lv 1  -- e46 
-513 - Summoner's Footwear - Legendary Boots - Any Class - Lv 1  -- e45 
-514 - Heartstone - True Legendary Accessory - Any Class - Lv 100  -- e1003 e6 
-515 - Boomring - True Legendary Ring - Any Class - Lv 100  -- e1000 e100 
-516 - Death Choker - True Legendary Amulet - Any Class - Lv 100  -- e1002 e22 
-517 - Pathmakers - True Legendary Boots - Any Class - Lv 100  -- e1004 e4 
-518 - Extra-Ordinary Cap - True Legendary Helm - Any Class - Lv 100  -- e1005 e48 
-519 - Jeopardy - True Legendary Ring - Any Class - Lv 100  -- e1001 e62 
-520 - Elementium Armor - True Legendary Armor - Any Class - Lv 100  -- e1006 
-521 - Phantoma - True Legendary Sword - Templar - Lv 100  -- e1105 e3 
-522 - Face Breakers - True Legendary Fists - Berserker - Lv 100  -- e1107 e19 
-523 - Death Speaker - True Legendary Staff - Warlock - Lv 100  -- e1106 e48 
-524 - Harp - True Legendary Bow - Warden - Lv 100  -- e1104 e100 
-525 - Hurtblocker - True Legendary Shield (Offhand) - Templar - Lv 100  -- e97 e96 e1007 e47 
-526 - Dodgeclaw - True Legendary Claw (Offhand) - Berserker - Lv 100  -- e1008 e121 
-527 - Book of Meteora - True Legendary Spellbook (Offhand) - Warlock - Lv 100  -- e1009 e5 
-528 - Tumblespike - True Legendary Arrow (Offhand) - Warden - Lv 100  -- e1010 e4 
-529 - Fleetstriders - True Legendary Boots - Any Class - Lv 100  -- e1011 e121 
-530 - Elixir of Advanced Anomaly - Rare Elixir - Any Class - Lv 1 
-531 - Elixir of Reversed Anomaly - Rare Elixir - Any Class - Lv 1 
-532 - Elixir of Scrambled Anomaly - Rare Elixir - Any Class - Lv 1 
-535 - Soulpurger's Crown - Legendary Helm - Templar - Lv 30  -- e43 
-536 - Soulpurger's Garment - Legendary Armor - Templar - Lv 30  -- e43 e101 
-537 - Soulpurger's Blade - Legendary Sword - Templar - Lv 30  -- e43 e100 
-538 - Soulpurger's Aegis - Legendary Shield (Offhand) - Templar - Lv 30  -- e96 e97 e8 
-539 - Thundering Will - Legendary Helm - Templar - Lv 30  -- e42 
-540 - Thundering Bastion - Legendary Armor - Templar - Lv 30  -- e42 e45 
-541 - Thundering Charge - Legendary Sword - Templar - Lv 30  -- e42 e46 
-542 - Thundering Guard - Legendary Shield (Offhand) - Templar - Lv 30  -- e96 e97 e45 
-543 - War God's Crown - Legendary Helm - Templar - Lv 30  -- e39 
-544 - War God's Plate - Legendary Armor - Templar - Lv 30  -- e39 e7 
-545 - War God's Blade - Legendary Sword - Templar - Lv 30  -- e39 e101 
-546 - War God's Opus - Legendary Tome (Offhand) - Templar - Lv 30  -- e39 e5 
-547 - Valkyrie Winged Helmet - Legendary Helm - Templar - Lv 30  -- e44 
-548 - Valkyrie Battleplate - Legendary Armor - Templar - Lv 30  -- e44 e5 
-549 - Valkyrie Blade - Legendary Sword - Templar - Lv 30  -- e44 e102 
-550 - Valkyrie Safeguard - Legendary Shield (Offhand) - Templar - Lv 30  -- e96 e97 e102 
-552 - Cataclysmic Helm - Legendary Helm - Berserker - Lv 30  -- e44 
-553 - Cataclysmic Armor - Legendary Armor - Berserker - Lv 30  -- e44 e100 
-554 - Cataclysmic Fists - Legendary Fists - Berserker - Lv 30  -- e44 e101 
-555 - Cataclysmic Claws - Legendary Claw (Offhand) - Berserker - Lv 30  -- e5 e19 
-556 - Bloodsoaked Ripper - Legendary Claw (Offhand) - Berserker - Lv 30  -- e5 e102 
-557 - Skysoul Helmet - Legendary Helm - Berserker - Lv 30  -- e42 
-558 - Skysoul Armor - Legendary Armor - Berserker - Lv 30  -- e42 e101 
-559 - Skysoul Pounders - Legendary Fists - Berserker - Lv 30  -- e42 e100 
-560 - Skysoul Claws - Legendary Claw (Offhand) - Berserker - Lv 30  -- e5 e4 
-561 - Dragonfire Claws - Legendary Claw (Offhand) - Berserker - Lv 30  -- e5 e100 
-562 - Volcanic Visage - Legendary Helm - Berserker - Lv 30  -- e39 
-563 - Volcanic Armor - Legendary Armor - Berserker - Lv 30  -- e39 e105 
-564 - Volcanic Fists - Legendary Fists - Berserker - Lv 30  -- e39 e8 
-565 - Volcanic Claws - Legendary Claw (Offhand) - Berserker - Lv 30  -- e5 e103 
-566 - Northern Rage Claws - Legendary Claw (Offhand) - Berserker - Lv 30  -- e5 e105 
-567 - Frostwyrm Visage - Legendary Helm - Berserker - Lv 30  -- e40 
-568 - Frostwyrm Armor - Legendary Armor - Berserker - Lv 30  -- e40 e21 
-569 - Frostwyrm Fists - Legendary Fists - Berserker - Lv 30  -- e40 e5 
-570 - Frostwyrm Claw - Legendary Claw (Offhand) - Berserker - Lv 30  -- e5 e103 
-571 - Amulet of Despair - True Legendary Amulet - Any Class - Lv 100  -- e1037 e76 
-572 - Quadruplets - True Legendary Accessory - Any Class - Lv 100  -- e1038 e48 
-573 - Skull Mask - True Legendary Helm - Any Class - Lv 100  -- e1039 e3 
-574 - Weyrick's Crown - True Legendary Helm - Any Class - Lv 100  -- e1040 e124 
-575 - Royal Armor - True Legendary Armor - Any Class - Lv 100  -- e1041 e9 
-576 - Windcaller's Guise - Legendary Helm - Warden - Lv 30  -- e44 
-577 - Windcaller's Armor - Legendary Armor - Warden - Lv 30  -- e44 e100 
-578 - Windcaller's Gust - Legendary Bow - Warden - Lv 30  -- e44 e5 
-579 - Windcaller's Needle - Legendary Arrow (Offhand) - Warden - Lv 30  -- e5 e101 
-580 - Stormcaller's Shock - Legendary Arrow (Offhand) - Warden - Lv 30  -- e5 e4 
-581 - Wispmother's Crown - Legendary Helm - Warden - Lv 30  -- e42 
-582 - Wispmother's Gown - Legendary Armor - Warden - Lv 30  -- e42 e46 
-583 - Wispmother's Bow - Legendary Bow - Warden - Lv 30  -- e42 e21 
-584 - Wispmother's Arrow - Legendary Arrow (Offhand) - Warden - Lv 30  -- e5 e45 
-585 - Shroom Tender's Hood - Legendary Helm - Warden - Lv 30  -- e41 
-586 - Shroom Tender's Armor - Legendary Armor - Warden - Lv 30  -- e41 e7 
-587 - Shroom Tender's Bow - Legendary Bow - Warden - Lv 30  -- e41 e5 
-588 - Shroom Tender's Arrow - Legendary Arrow (Offhand) - Warden - Lv 30  -- e3 e100 
-589 - Snowstorm Cut - Legendary Arrow (Offhand) - Warden - Lv 30  -- e3 e100 
-590 - Torrential Cowl - Legendary Helm - Warden - Lv 30  -- e40 
-591 - Torrential Garb - Legendary Armor - Warden - Lv 30  -- e40 e100 
-592 - Torrential Bow - Legendary Bow - Warden - Lv 30  -- e40 e5 
-593 - Torrential Arrow - Legendary Arrow (Offhand) - Warden - Lv 30  -- e3 e5 
-594 - Bloodbinder's Tome - Legendary Spellbook (Offhand) - Warlock - Lv 30  -- e7 e45 
-595 - Demon Lord's Tome - Legendary Spellbook (Offhand) - Warlock - Lv 30  -- e39 e4 
-596 - Lich's Manifesto - Legendary Spellbook (Offhand) - Warlock - Lv 30  -- e40 e1 
-597 - Desecrator's Work - Legendary Spellbook (Offhand) - Warlock - Lv 30  -- e53 e9 
-598 - Plague Mage's Helm - Legendary Helm - Warlock - Lv 30  -- e41 
-599 - Plague Mage's Robes - Legendary Armor - Warlock - Lv 30  -- e41 e100 
-600 - Plague Mage's Staff - Legendary Staff - Warlock - Lv 30  -- e41 e21 
-601 - Plague Mage's Spellbook - Legendary Spellbook (Offhand) - Warlock - Lv 30  -- e10 e5 
-602 - Burning Hell Crown - Legendary Helm - Warlock - Lv 30  -- e39 
-603 - Burning Hell Robes - Legendary Armor - Warlock - Lv 30  -- e39 e21 
-604 - Burning Hell Scepter - Legendary Staff - Warlock - Lv 30  -- e39 e51 
-605 - Burning Hell Opus - Legendary Spellbook (Offhand) - Warlock - Lv 30  -- e39 e45 
-606 - Deathbringer's Helm - Legendary Helm - Warlock - Lv 30  -- e40 
-607 - Deathbringer's Robes - Legendary Armor - Warlock - Lv 30  -- e40 e51 
-608 - Deathbringer's Staff - Legendary Staff - Warlock - Lv 30  -- e40 e101 
-609 - Deathbringer's Chronicle - Legendary Spellbook (Offhand) - Warlock - Lv 30  -- e40 e5 
-610 - Masochist's Helm - Legendary Helm - Warlock - Lv 30  -- e53 
-611 - Masochist's Robes - Legendary Armor - Warlock - Lv 30  -- e53 e47 
-612 - Masochist's Staff - Legendary Staff - Warlock - Lv 30  -- e53 e8 
-613 - Masochist's Journal - Legendary Spellbook (Offhand) - Warlock - Lv 30  -- e53 e8 
-614 - Putrid Pouch - Ordinary Bag - Any Class - Lv 1  -- e56 
-615 - Moore's Satchel - Enchanted Bag - Any Class - Lv 1  -- e56 
-616 - Unbreakable Bond - True Legendary Ring - Any Class - Lv 100  -- e1059 e46 
-617 - Life Guard - True Legendary Helm - Any Class - Lv 100  -- e1060 e87 
-620 - Rough Cube Charoite - Ordinary Cube Gem - Any Class - Lv 1  -- e500 e501 e502 
-621 - Cut Cube Charoite - Enchanted Cube Gem - Any Class - Lv 1  -- e500 e501 e502 
-622 - Polished Cube Charoite - Rare Cube Gem - Any Class - Lv 1  -- e500 e501 e502 
-623 - Rough Sphere Charoite - Ordinary Sphere Gem - Any Class - Lv 1  -- e503 e504 e505 
-624 - Cut Sphere Charoite - Enchanted Sphere Gem - Any Class - Lv 1  -- e503 e504 e505 
-625 - Polished Sphere Charoite - Rare Sphere Gem - Any Class - Lv 1  -- e503 e504 e505 
-626 - Rough Star Charoite - Ordinary Star Gem - Any Class - Lv 1  -- e506 e507 e508 
-627 - Cut Star Charoite - Enchanted Star Gem - Any Class - Lv 1  -- e506 e507 e508 
-628 - Polished Star Charoite - Rare Star Gem - Any Class - Lv 1  -- e506 e507 e508 
-629 - Rough Cube Chrysoberyl - Ordinary Cube Gem - Any Class - Lv 1  -- e509 e510 e511 
-630 - Cut Cube Chrysoberyl - Enchanted Cube Gem - Any Class - Lv 1  -- e509 e510 e511 
-631 - Polished Cube Chrysoberyl - Rare Cube Gem - Any Class - Lv 1  -- e509 e510 e511 
-632 - Rough Sphere Chrysoberyl - Ordinary Sphere Gem - Any Class - Lv 1  -- e512 e513 e514 
-633 - Cut Sphere Chrysoberyl - Enchanted Sphere Gem - Any Class - Lv 1  -- e512 e513 e514 
-634 - Polished Sphere Chrysoberyl - Rare Sphere Gem - Any Class - Lv 1  -- e512 e513 e514 
-635 - Rough Star Chrysoberyl - Ordinary Star Gem - Any Class - Lv 1  -- e515 e516 e517 
-636 - Cut Star Chrysoberyl - Enchanted Star Gem - Any Class - Lv 1  -- e515 e516 e517 
-637 - Polished Star Chrysoberyl - Rare Star Gem - Any Class - Lv 1  -- e515 e516 e517 
-638 - Rough Cube Hematite - Ordinary Cube Gem - Any Class - Lv 1  -- e518 e519 e520 
-639 - Cut Cube Hematite - Enchanted Cube Gem - Any Class - Lv 1  -- e518 e519 e520 
-640 - Polished Cube Hematite - Rare Cube Gem - Any Class - Lv 1  -- e518 e519 e520 
-641 - Rough Sphere Hematite - Ordinary Sphere Gem - Any Class - Lv 1  -- e521 e522 e523 
-642 - Cut Sphere Hematite - Enchanted Sphere Gem - Any Class - Lv 1  -- e521 e522 e523 
-643 - Polished Sphere Hematite - Rare Sphere Gem - Any Class - Lv 1  -- e521 e522 e523 
-644 - Rough Star Hematite - Ordinary Star Gem - Any Class - Lv 1  -- e524 e525 e526 
-645 - Cut Star Hematite - Enchanted Star Gem - Any Class - Lv 1  -- e524 e525 e526 
-646 - Polished Star Hematite - Rare Star Gem - Any Class - Lv 1  -- e524 e525 e526 
-647 - Rough Cube Orthoclase - Ordinary Cube Gem - Any Class - Lv 1  -- e527 e528 e529 
-648 - Cut Cube Orthoclase - Enchanted Cube Gem - Any Class - Lv 1  -- e527 e528 e529 
-649 - Polished Cube Orthoclase - Rare Cube Gem - Any Class - Lv 1  -- e527 e528 e529 
-650 - Rough Sphere Orthoclase - Ordinary Sphere Gem - Any Class - Lv 1  -- e530 e531 e532 
-651 - Cut Sphere Orthoclase - Enchanted Sphere Gem - Any Class - Lv 1  -- e530 e531 e532 
-652 - Polished Sphere Orthoclase - Rare Sphere Gem - Any Class - Lv 1  -- e530 e531 e532 
-653 - Rough Star Orthoclase - Ordinary Star Gem - Any Class - Lv 1  -- e533 e534 e535 
-654 - Cut Star Orthoclase - Enchanted Star Gem - Any Class - Lv 1  -- e533 e534 e535 
-655 - Polished Star Orthoclase - Rare Star Gem - Any Class - Lv 1  -- e533 e534 e535 
-656 - Rough Cube Citrine - Ordinary Cube Gem - Any Class - Lv 1  -- e536 e537 e538 
-657 - Cut Cube Citrine - Enchanted Cube Gem - Any Class - Lv 1  -- e536 e537 e538 
-658 - Polished Cube Citrine - Rare Cube Gem - Any Class - Lv 1  -- e536 e537 e538 
-659 - Rough Sphere Citrine - Ordinary Sphere Gem - Any Class - Lv 1  -- e539 e540 e541 
-660 - Cut Sphere Citrine - Enchanted Sphere Gem - Any Class - Lv 1  -- e539 e540 e541 
-661 - Polished Sphere Citrine - Rare Sphere Gem - Any Class - Lv 1  -- e539 e540 e541 
-662 - Rough Star Citrine - Ordinary Star Gem - Any Class - Lv 1  -- e542 e543 e544 
-663 - Cut Star Citrine - Enchanted Star Gem - Any Class - Lv 1  -- e542 e543 e544 
-664 - Polished Star Citrine - Rare Star Gem - Any Class - Lv 1  -- e542 e543 e544 
-665 - Rough Cube Kyanite - Ordinary Cube Gem - Any Class - Lv 1  -- e545 e546 e547 
-666 - Cut Cube Kyanite - Enchanted Cube Gem - Any Class - Lv 1  -- e545 e546 e547 
-667 - Polished Cube Kyanite - Rare Cube Gem - Any Class - Lv 1  -- e545 e546 e547 
-668 - Rough Sphere Kyanite - Ordinary Sphere Gem - Any Class - Lv 1  -- e548 e549 e550 
-669 - Cut Sphere Kyanite - Enchanted Sphere Gem - Any Class - Lv 1  -- e548 e549 e550 
-670 - Polished Sphere Kyanite - Rare Sphere Gem - Any Class - Lv 1  -- e548 e549 e550 
-671 - Rough Star Kyanite - Ordinary Star Gem - Any Class - Lv 1  -- e551 e552 e553 
-672 - Cut Star Kyanite - Enchanted Star Gem - Any Class - Lv 1  -- e551 e552 e553 
-673 - Polished Star Kyanite - Rare Star Gem - Any Class - Lv 1  -- e551 e552 e553 
-674 - Rough Cube Larimar - Ordinary Cube Gem - Any Class - Lv 1  -- e554 e555 e556 
-675 - Cut Cube Larimar - Enchanted Cube Gem - Any Class - Lv 1  -- e554 e555 e556 
-676 - Polished Cube Larimar - Rare Cube Gem - Any Class - Lv 1  -- e554 e555 e556 
-677 - Rough Sphere Larimar - Ordinary Sphere Gem - Any Class - Lv 1  -- e557 e558 e559 
-678 - Cut Sphere Larimar - Enchanted Sphere Gem - Any Class - Lv 1  -- e557 e558 e559 
-679 - Polished Sphere Larimar - Rare Sphere Gem - Any Class - Lv 1  -- e557 e558 e559 
-680 - Rough Star Larimar - Ordinary Star Gem - Any Class - Lv 1  -- e560 e561 e562 
-681 - Cut Star Larimar - Enchanted Star Gem - Any Class - Lv 1  -- e560 e561 e562 
-682 - Polished Star Larimar - Rare Star Gem - Any Class - Lv 1  -- e560 e561 e562 
-692 - Unknown Star Gem - Ordinary Star Gem - Any Class - Lv 1 
-693 - Ancient Tablet - Unique Quest Item - Any Class - Lv 1 
-694 - Scroll - Enchanted Scroll - Any Class - Lv 1 
-695 - Scroll - Rare Scroll - Any Class - Lv 1 
-696 - Scroll - Unique Scroll - Any Class - Lv 1 
-697 - Scroll - Legendary Scroll - Any Class - Lv 1 
-698 - Cackling bone - Unique Relic - Any Class - Lv 1 
-699 - Fin'ley's magical map - Unique Relic - Any Class - Lv 1 
-700 - The Ripper - Unique Claw (Offhand) - Berserker - Lv 1  -- e102 e110 
-701 - Windtalon's Charm - Unique Accessory - Any Class - Lv 1  -- e42 e4 
-702 - Skin of the Rock Worm - Unique Armor - Any Class - Lv 1  -- e120 
-703 - Skull of Grotesk - Unique Helm - Any Class - Lv 1  -- e41 e85 
-704 - Eye of Volkanum - Unique Amulet - Any Class - Lv 1  -- e39 e34 e86 
-705 - Ghostly Veil - Unique Helm - Any Class - Lv 1  -- e114 e121 
-706 - Howling Horn - Unique Accessory - Any Class - Lv 1  -- e40 e29 
-707 - Spectral Armor - True Legendary Armor - Any Class - Lv 100  -- e1087 e47 
-708 - Crown of Aerefthas - Unique Helm - Any Class - Lv 1  -- e43 e81 
-709 - Ravash's Bloodied Bone - Unique Accessory - Any Class - Lv 1  -- e102 e110 
-710 - Key to Pools of Eternity - Unique Quest Item - Any Class - Lv 1 
-711 - Brother's Ring - Unique Quest Item - Any Class - Lv 1 
-712 - Ring of Marvellous Gems - Legendary Ring - Any Class - Lv 1 
-713 - Weyrick's Finery - Legendary Armor - Any Class - Lv 15 
-714 - Jorgen's Key - Unique Quest Item - Any Class - Lv 1 
-715 - Holiday Sack - Legendary Bag - Any Class - Lv 1  -- e56 
-716 - Red Holiday Hat - Legendary Helm - Any Class - Lv 1  -- e24 e23 e13 
-717 - Soft Happy Holiday Mittens - Legendary Fists - Berserker - Lv 1 
-718 - Jolly Blade of Holiday Spirits - Legendary Sword - Templar - Lv 1 
-719 - Seasonal Bow of Shared Joy - Legendary Bow - Warden - Lv 1 
-720 - Not-So-Evil Candy Cane - Legendary Staff - Warlock - Lv 1 
-721 - The Hardcore - Legendary Armor - Any Class - Lv 30  -- e1089 
-722 - Ferocity - True Legendary Amulet - Any Class - Lv 100  -- e1090 e1 
-723 - Hydrascale Boots - True Legendary Boots - Any Class - Lv 100  -- e1091 e120 
-724 - Challenger's Charm - Legendary Accessory - Any Class - Lv 30  -- e1094 
-725 - Gravity - True Legendary Amulet - Any Class - Lv 100  -- e1097 e125 
-726 - Sublime Health Potion - Enchanted Potion - Any Class - Lv 100 
-727 - Sublime Mana Potion - Enchanted Potion - Any Class - Lv 100 
-728 - Health Injector Mk2 - True Legendary Accessory - Any Class - Lv 100  -- e1099 e1 
-729 - Mana Injector Mk2 - True Legendary Accessory - Any Class - Lv 100  -- e1100 e2 
-730 - Rahlence's Resolution - True Legendary Accessory - Any Class - Lv 100  -- e1101 e21 
-731 - Codex - Unique Relic - Any Class - Lv 1 
-732 - Champion's Crown - Legendary Crafting Material - Any Class - Lv 50 
-733 - Prismatic Sphere - Legendary Crafting Material - Any Class - Lv 50 
-734 - Prismatic Cube - Legendary Crafting Material - Any Class - Lv 50 
-735 - Prismatic Star - Legendary Crafting Material - Any Class - Lv 50 
-736 - Ring of Pure Energies - True Legendary Ring - Any Class - Lv 100  -- e1108 e49 
-737 - Unknown Scroll - Enchanted Unknown Item - Any Class - Lv 1 
-738 - Spell Codex - Legendary Crafting Material - Any Class - Lv 50 
-739 - Entity's Eccentricity - True Legendary Accessory - Any Class - Lv 100  -- e1109 e125 
-740 - Lesser Rune - Legendary Item - Any Class - Lv 100 
-741 - Runestone - Legendary Item - Any Class - Lv 100 
-742 - Greater Rune - Legendary Item - Any Class - Lv 100 
-743 - Battle Boots - True Legendary Boots - Any Class - Lv 100  -- e1111 e4 
-744 - Lusombra's Path - Legendary Boots - Templar - Lv 40  -- e1114 e52 
-745 - Boots of The Dancing Maiden - Legendary Boots - Templar - Lv 20  -- e1115 
-746 - Acrobat's Slippers - Legendary Boots - Warden - Lv 15  -- e1117 e4 
-747 - Boots of The Snow Elf - Legendary Boots - Warden - Lv 35  -- e1118 e4 
-748 - Blazing Striders - Legendary Boots - Templar - Lv 30  -- e1122 
-749 - Murmur - Legendary Helm - Warlock - Lv 35  -- e1123 
-750 - The Bone Spear - Legendary Staff - Warlock - Lv 25  -- e1125 e8 
-751 - Static Echoes - Legendary Amulet - Templar - Lv 30  -- e1129 
-752 - Jon's Book of Souls - True Legendary Spellbook (Offhand) - Warlock - Lv 100  -- e1130 
-753 - Art of Combat - True Legendary Tome (Offhand) - Templar - Lv 100  -- e1133 e5 
-754 - Staggering Boots - Legendary Boots - Any Class - Lv 30  -- e1135 e4 
-755 - Windflurry - Legendary Arrow (Offhand) - Warden - Lv 30  -- e1140 e44 
-756 - Finned Arrow - Legendary Arrow (Offhand) - Warden - Lv 30  -- e1141 e42 
-757 - Advancing Army - Legendary Boots - Any Class - Lv 30  -- e1142 e4 
-758 - Tear of The Arch Druid - True Legendary Amulet - Any Class - Lv 100  -- e1145 e48 
-759 - Star of The Pure - Legendary Amulet - Any Class - Lv 60  -- e1146 
-760 - Vestige of Lost Souls - True Legendary Armor - Any Class - Lv 100  -- e1150 e2 
-761 - Wolf Tooth Necklace - Legendary Amulet - Warden - Lv 25  -- e1151 
-762 - Loaded Bolts - Legendary Arrow (Offhand) - Warden - Lv 50  -- e1153 e5 
-763 - Call of the Wild - Legendary Accessory - Warden - Lv 30  -- e1154 e46 
-764 - Gaia - True Legendary Bow - Warden - Lv 100  -- e1155 e46 
-765 - Heart of the Forest - True Legendary Accessory - Any Class - Lv 100  -- e1156 e7 
-766 - Thistle Thorn - Legendary Arrow (Offhand) - Warden - Lv 25  -- e1157 e5 
-767 - Lucilla's Vision - True Legendary Helm - Any Class - Lv 100  -- e1158 e1 
-769 - Tenacious Defender - Legendary Sword - Templar - Lv 30  -- e1159 e96 e97 
-770 - Captain's Shield - Legendary Shield (Offhand) - Templar - Lv 40  -- e1160 e96 e97 
-771 - Nemesis - Legendary Shield (Offhand) - Templar - Lv 50  -- e1161 e96 e97 
-772 - Balgar's Binding - True Legendary Accessory - Any Class - Lv 100  -- e1165 e126 
-773 - Wraps of the Lone Ranger - True Legendary Accessory - Warden - Lv 100  -- e1173 e100 
-774 - Council's Gavel - True Legendary Accessory - Templar - Lv 100  -- e1166 e127 
-775 - Tongue of the Deceiver - True Legendary Accessory - Warlock - Lv 100  -- e1162 e10 
-776 - Unwavering Loyalty - True Legendary Amulet - Any Class - Lv 100  -- e1112 
-777 - Splinter Skull Amulet - Legendary Amulet - Warlock - Lv 30  -- e1163 e102 
-778 - Gritstone Amulet - Legendary Amulet - Berserker - Lv 30  -- e1164 e44 
-779 - Hallowed Helm - Legendary Helm - Any Class - Lv 1  -- e1167 e47 e48 
-780 - Pumpkin - Ordinary Quest Item - Any Class - Lv 1 
-781 - Ancient Sickle - Unique Quest Item - Any Class - Lv 1 
-782 - Unusual Pumpkin - Unique Relic - Any Class - Lv 1 
-783 - Dragonring - Legendary Ring - Berserker - Lv 40  -- e1168 e39 
-784 - Hydraloop - Legendary Ring - Any Class - Lv 20  -- e1169 
-785 - Ring of Blades - Legendary Ring - Templar - Lv 40  -- e1170 
-786 - Hammerblade - Legendary Sword - Templar - Lv 30  -- e1171 e5 
-787 - Wind Dancer's Elegance - True Legendary Armor - Any Class - Lv 100  -- e1172 e22 
-788 - The Thumper - Legendary Accessory - Any Class - Lv 1  -- e1175 
-789 - Skin of Terror - Unique Armor - Any Class - Lv 1 
-790 - Fang of Alucard - Unique Accessory - Any Class - Lv 1  -- e1176 e9 
-791 - Ancient Bone - Unique Accessory - Any Class - Lv 1  -- e1177 
-792 - Eye of Hazioxth - Unique Amulet - Any Class - Lv 1  -- e1179 e114 
-793 - Shizbuk's Tail - Unique Accessory - Any Class - Lv 1  -- e1182 
-794 - Ring of Hunger - Unique Ring - Any Class - Lv 1  -- e1181 
-795 - Skull of Harlon - Unique Helm - Any Class - Lv 1  -- e1178 
-796 - Skull of Grimm - Unique Relic - Any Class - Lv 1 
-797 - Wing of Sziirk - Unique Relic - Any Class - Lv 1 
-798 - Molten Skin Boots - Unique Boots - Any Class - Lv 1  -- e1180 
-799 - Sight Beyond - Unique Accessory - Any Class - Lv 1  -- e100 e26 e54 
-800 - Stone of Tephra - Unique Accessory - Any Class - Lv 1  -- e1183 
-801 - Boots of Hazard - Legendary Boots - Any Class - Lv 30  -- e1174 e9 
-802 - Fungimancer's Loop - Legendary Ring - Warden - Lv 30  -- e1184 e41 
-803 - Grimm - True Legendary Staff - Warlock - Lv 100  -- e1185 e100 
-804 - Simulacra - True Legendary Staff - Warlock - Lv 100  -- e1186 e19 
-805 - Haymaker - True Legendary Fists - Berserker - Lv 100  -- e1188 e5 
-806 - The Last Word - True Legendary Fists - Berserker - Lv 100  -- e1191 e100 
-807 - Aspect of the Ethereal - True Legendary Ring - Any Class - Lv 100  -- e1192 e60 e59 
-808 - Contra - True Legendary Shield (Offhand) - Templar - Lv 100  -- e97 e96 e1193 e100 
-809 - Venerata - True Legendary Sword - Templar - Lv 100  -- e1194 e49 
-810 - Ancient Claw of The Firstborn - True Legendary Claw (Offhand) - Berserker - Lv 100  -- e1195 e5 
-811 - Prayer Beads - True Legendary Accessory - Templar - Lv 100  -- e1196 e4 
-812 - Talisman of Spines - True Legendary Amulet - Any Class - Lv 100  -- e1197 e8 
-813 - Crown of Innate Probability - True Legendary Helm - Any Class - Lv 100  -- e1198 e120 
-814 - Mantle of the Dragonkin - True Legendary Accessory - Berserker - Lv 100  -- e1199 e72 
-817 - Cosmic Cape - True Legendary Accessory - Any Class - Lv 100  -- e1718 e2 
-818 - Primordial Rose - True Legendary Ring - Any Class - Lv 100  -- e1706 e47 
-819 - Rimeheart - Legendary Ring - Berserker - Lv 30  -- e1708 e40 
-820 - Frozen Anger - Legendary Accessory - Berserker - Lv 30  -- e1709 e105 
-821 - Paingrinder - Legendary Accessory - Berserker - Lv 30  -- e1710 e8 
-822 - Drakehoof - Legendary Boots - Berserker - Lv 20  -- e1711 e4 
-823 - Gemstone Tiara - Legendary Helm - Any Class - Lv 40  -- e1712 e124 
-824 - Stormchasers - True Legendary Boots - Any Class - Lv 100  -- e1713 e121 
-825 - Faith - Legendary Amulet - Templar - Lv 30  -- e1714 
-826 - Contender - Legendary Helm - Templar - Lv 30  -- e1715 
-827 - Sniper's Eye - Legendary Helm - Warden - Lv 30  -- e1716 e19 
-828 - Runelord's Remorse - Legendary Crafting Material - Any Class - Lv 100 
-829 - Prismatic Liquid - Legendary Crafting Material - Any Class - Lv 100 
-830 - Heart of The Community - Unique Accessory - Any Class - Lv 1  -- e1717 
-STAT CAPS
+1 - Leather Hood - Ordinary Helm - Any Class - Lv 1
+2 - Leather Armor - Ordinary Armor - Warden - Lv 1
+3 - Druid Hood - Ordinary Helm - Any Class - Lv 7
+4 - Druid Armor - Ordinary Armor - Warden - Lv 7
+5 - Ranger Hood - Ordinary Helm - Warden - Lv 15
+6 - Ranger Armor - Ordinary Armor - Warden - Lv 15
+7 - Plate Helmet - Ordinary Helm - Templar - Lv 1
+8 - Plate Armor - Ordinary Armor - Templar - Lv 1
+9 - Silver Helmet - Ordinary Helm - Templar - Lv 7
+10 - Silver Armor - Ordinary Armor - Templar - Lv 7
+11 - Gold Plate Helmet - Ordinary Helm - Templar - Lv 15
+12 - Gold Plate Armor - Ordinary Armor - Templar - Lv 15
+13 - Dark Hood - Ordinary Helm - Warlock - Lv 1
+14 - Dark Robes - Ordinary Armor - Warlock - Lv 1
+15 - Arcane Hood - Ordinary Helm - Warlock - Lv 7
+16 - Arcane Robes - Ordinary Armor - Warlock - Lv 7
+17 - Mage Hood - Ordinary Helm - Warlock - Lv 15
+18 - Mage Robes - Ordinary Armor - Warlock - Lv 15
+19 - Leather Cap - Ordinary Helm - Any Class - Lv 1
+20 - Fighter Harness - Ordinary Armor - Berserker - Lv 1
+21 - Bruiser Cap - Ordinary Helm - Berserker - Lv 7
+22 - Bruiser Armor - Ordinary Armor - Berserker - Lv 7
+23 - Brawler Cap - Ordinary Helm - Berserker - Lv 15
+24 - Brawler Harness - Ordinary Armor - Berserker - Lv 15
+25 - Bow - Ordinary Bow - Warden - Lv 1
+26 - Longbow - Ordinary Bow - Warden - Lv 1
+27 - Recurve Bow - Ordinary Bow - Warden - Lv 1
+28 - Sword - Ordinary Sword - Templar - Lv 1
+29 - Longsword - Ordinary Sword - Templar - Lv 1
+30 - Short Sword - Ordinary Sword - Templar - Lv 1
+31 - Staff - Ordinary Staff - Warlock - Lv 1
+32 - Crescent Staff - Ordinary Staff - Warlock - Lv 1
+33 - Orbed Staff - Ordinary Staff - Warlock - Lv 1
+34 - Fists - Ordinary Fists - Berserker - Lv 1
+35 - Pounders - Ordinary Fists - Berserker - Lv 1
+36 - Jabs - Ordinary Fists - Berserker - Lv 1
+37 - Leather Boots - Ordinary Boots - Any Class - Lv 1  -- e4
+38 - Crystal Heart - Ordinary Accessory - Any Class - Lv 1  -- e1
+39 - Mana Orb - Ordinary Accessory - Any Class - Lv 1  -- e2
+40 - Power Ring - Unique Ring - Any Class - Lv 10  -- e4
+41 - Thorn Ring - Unique Ring - Any Class - Lv 10  -- e1147
+42 - Amulet of Repulsion - Unique Amulet - Any Class - Lv 10  -- e79
+43 - Chimaera Band - Unique Ring - Any Class - Lv 10  -- e6 e7
+44 - Imp Claw - Rare Claw (Offhand) - Berserker - Lv 1  -- e5
+45 - The Anchor - Unique Accessory - Any Class - Lv 1  -- e33 e37
+46 - Golem Heart - Unique Accessory - Any Class - Lv 1  -- e63 e34
+47 - Treant Beads - Unique Accessory - Any Class - Lv 1  -- e77 e36
+48 - Nimble Boots - Unique Boots - Any Class - Lv 1  -- e1068 e4
+49 - Hydra Scales - Unique Accessory - Any Class - Lv 1  -- e1074
+50 - Demonband - Unique Ring - Any Class - Lv 10  -- e39
+51 - Meteorite Ring - Legendary Ring - Any Class - Lv 10  -- e1093
+52 - Sticky Fingers - Unique Accessory - Any Class - Lv 1  -- e13
+53 - Cloudrunners - Legendary Boots - Any Class - Lv 1  -- e84 e72
+54 - Hound Whistle - Unique Accessory - Any Class - Lv 15  -- e1136
+56 - Elixir of Life - Unique Accessory - Any Class - Lv 15  -- e36 e6
+57 - Boots of Hermes - Legendary Boots - Any Class - Lv 1  -- e1067 e4
+58 - Demon Claw - Unique Claw (Offhand) - Berserker - Lv 1  -- e19 e116
+59 - Chronicle of Knowledge - Legendary Accessory - Any Class - Lv 1  -- e1139
+61 - Ring - Enchanted Ring - Any Class - Lv 10
+62 - Loop - Enchanted Ring - Any Class - Lv 10
+63 - Iron Band - Enchanted Ring - Any Class - Lv 10
+64 - Circlet - Enchanted Ring - Any Class - Lv 10
+66 - Light's Blessing - Unique Amulet - Any Class - Lv 10  -- e81
+67 - Powergem - Unique Accessory - Any Class - Lv 1  -- e20
+68 - Wind Razor - Legendary Arrow (Offhand) - Warden - Lv 30  -- e1046 e44
+69 - Spellbook - Ordinary Spellbook (Offhand) - Warlock - Lv 1  -- e7
+70 - Spiked Shield - Enchanted Shield (Offhand) - Templar - Lv 1  -- e96 e97
+71 - Barbed Wire - Ordinary Offhand - Berserker - Lv 1  -- e3
+72 - Maddoc's Cure - Legendary Accessory - Any Class - Lv 1  -- e19 e107 e109
+73 - Terra Nova - Legendary Bow - Warden - Lv 30  -- e1042 e44
+74 - Stormcaller's Aim - Legendary Bow - Warden - Lv 30  -- e42 e5
+75 - Heartpiercer - Unique Bow - Warden - Lv 5  -- e44
+76 - Spiderbite - Unique Bow - Warden - Lv 5  -- e41
+77 - Serenity - Legendary Bow - Warden - Lv 10  -- e1086
+78 - Starfell - Legendary Sword - Templar - Lv 30  -- e1018 e39
+79 - Rolling Thunder - Legendary Sword - Templar - Lv 5  -- e109 e42
+80 - Iapetus - Legendary Sword - Templar - Lv 30  -- e1019 e44
+81 - Hallowed Blade - Unique Sword - Templar - Lv 5  -- e43 e9
+82 - Soulblade - Unique Sword - Templar - Lv 5  -- e1138 e42
+83 - Staff of Screaming Skulls - Unique Staff - Warlock - Lv 5  -- e1190
+84 - Frostborne - Legendary Staff - Warlock - Lv 30  -- e1054 e40
+85 - Brimstone Staff - Legendary Staff - Warlock - Lv 30  -- e1084
+86 - Boomstick - Unique Staff - Warlock - Lv 15  -- e1126 e21
+87 - Root of Evil - Unique Staff - Warlock - Lv 5  -- e41 e53
+88 - Bad Boys - Legendary Fists - Berserker - Lv 30  -- e1030 e44
+89 - Arsonists - Legendary Fists - Berserker - Lv 30  -- e1031 e39
+90 - Lightning Jabs - Unique Fists - Berserker - Lv 5  -- e42
+91 - Bloodsoaked Fists - Legendary Fists - Berserker - Lv 30  -- e44 e102
+92 - Nailers - Unique Fists - Berserker - Lv 5  -- e110
+93 - Key - Enchanted Key - Any Class - Lv 1
+100 - Bloodsoaked Armor - Legendary Armor - Berserker - Lv 30  -- e44 e21
+101 - Ragnarok Guard - Legendary Armor - Berserker - Lv 5  -- e1148 e21
+102 - Dragonfire Armor - Legendary Armor - Berserker - Lv 30  -- e39 e6
+103 - Flamebound Armor - Legendary Armor - Berserker - Lv 5  -- e1081 e39
+104 - Wrathborn Helmet - Legendary Helm - Berserker - Lv 10  -- e1034 e19
+105 - Helm of Might - Legendary Helm - Berserker - Lv 20  -- e1035
+106 - Firebreather - Legendary Helm - Berserker - Lv 15  -- e1062 e39
+107 - Molten Medallion - Legendary Amulet - Berserker - Lv 50  -- e1149 e8
+108 - Winged Striders - Unique Boots - Any Class - Lv 1  -- e4
+109 - Ring of Titans - True Legendary Ring - Any Class - Lv 100  -- e1036 e20
+110 - Helm o' War - Unique Helm - Berserker - Lv 1  -- e1080 e44
+111 - Vampire Lord's Cape - Legendary Armor - Any Class - Lv 5  -- e1095 e10
+112 - Demon Lord's Robes - Legendary Armor - Warlock - Lv 30  -- e39 e46
+113 - Lich's Armor - Legendary Armor - Warlock - Lv 30  -- e40 e100
+114 - Demonologist's Robes - Legendary Armor - Warlock - Lv 15  -- e1128 e116
+115 - Icecrown - Legendary Helm - Warlock - Lv 20  -- e1098 e29
+116 - Infernal Horns - Legendary Helm - Warlock - Lv 30  -- e1061 e39
+117 - Hood of the Master - Unique Helm - Warlock - Lv 20  -- e27
+118 - Demon Lord's Horns - Legendary Helm - Warlock - Lv 30  -- e39
+119 - Supernova - Legendary Ring - Any Class - Lv 10  -- e1144 e48
+120 - Hellstone Amulet - Legendary Amulet - Warlock - Lv 40  -- e1078 e34
+121 - Lich's Touch - Legendary Accessory - Warlock - Lv 20  -- e1076 e40
+122 - Iceheart - Legendary Accessory - Warlock - Lv 15  -- e1132
+123 - Thundercharged Raiment - Legendary Armor - Templar - Lv 30  -- e42 e28
+124 - Ayeela's Embrace - Legendary Armor - Templar - Lv 30  -- e43 e7
+125 - Blessed Raiment - Legendary Armor - Templar - Lv 10  -- e1013
+126 - Armor of Retribution - Legendary Armor - Templar - Lv 15  -- e1110 e54
+127 - Armor of the Shield Maiden - Legendary Armor - Templar - Lv 15  -- e1012
+128 - Crown of Justice - Legendary Helm - Templar - Lv 30  -- e1088 e98
+129 - Crown of Solitude - Legendary Helm - Any Class - Lv 20  -- e1705
+130 - Protectorae - Unique Helm - Any Class - Lv 5  -- e1 e27
+131 - Iactus - Legendary Shield (Offhand) - Templar - Lv 30  -- e1014 e96 e97
+132 - Aegis - Legendary Shield (Offhand) - Templar - Lv 30  -- e1015 e96 e97
+133 - Book of Purity - Unique Tome (Offhand) - Templar - Lv 20  -- e1016
+134 - Thundercharged Tome - Legendary Tome (Offhand) - Templar - Lv 30  -- e42 e8
+135 - Heart of Grace - Legendary Accessory - Templar - Lv 15  -- e1017
+136 - Forest Embrace - Legendary Armor - Warden - Lv 15  -- e1065 e41
+137 - Packleader's Vest - Legendary Armor - Warden - Lv 15  -- e1064 e45
+138 - Armor of the Elven Ranger - Legendary Armor - Warden - Lv 25  -- e1116
+139 - Stormcaller's Regalia - Legendary Armor - Warden - Lv 30  -- e42 e19
+140 - Stormcaller's Visage - Legendary Helm - Warden - Lv 30  -- e42
+141 - Crown of Storms - Legendary Helm - Any Class - Lv 5  -- e19 e108 e109
+142 - High Ranger's Vision - Legendary Helm - Warden - Lv 30  -- e44
+143 - Stormdweller Hood - Legendary Helm - Warden - Lv 30  -- e1083 e48
+144 - Saboteur's Hood - Unique Helm - Any Class - Lv 5  -- e1102
+145 - Band of Nature - Unique Ring - Warden - Lv 30  -- e1079 e7
+146 - Druid's Scroll of Storms - Legendary Accessory - Warden - Lv 30  -- e1121 e100
+147 - Storm Pendant - Legendary Amulet - Warden - Lv 15  -- e1066 e7
+148 - Trapper's Boots - Unique Boots - Warden - Lv 5  -- e1119 e4
+149 - Wrath Cage - Unique Armor - Any Class - Lv 1  -- e8 e19
+150 - Robe of Corruption - Legendary Armor - Warlock - Lv 25  -- e1131
+151 - Master Scout's Armor - Unique Armor - Any Class - Lv 1  -- e4 e19
+152 - Jotunhelm - Legendary Helm - Any Class - Lv 25  -- e1124
+153 - Dragonleech - Unique Helm - Any Class - Lv 1  -- e10 e41
+154 - Mindcage - Unique Helm - Any Class - Lv 1  -- e2 e7
+155 - Helm of the Fallen King - Unique Helm - Any Class - Lv 1  -- e19 e1
+156 - Golden Guard - Unique Helm - Any Class - Lv 1  -- e1058 e8
+157 - Smoldering Gemstone - Legendary Accessory - Any Class - Lv 1  -- e1072
+158 - Ring of Horror - Legendary Ring - Any Class - Lv 10  -- e78 e35 e36
+159 - The Skyshard - Legendary Accessory - Any Class - Lv 1  -- e1071
+180 - Elixir of Invisibility - Rare Elixir - Any Class - Lv 1
+181 - Elixir of The Steadfast - Enchanted Elixir - Any Class - Lv 1
+182 - Elixir of Fumes - Enchanted Elixir - Any Class - Lv 1
+183 - Elixir of Shock - Enchanted Elixir - Any Class - Lv 1
+184 - Elixir of Haste - Rare Elixir - Any Class - Lv 1
+185 - Elixir of Fortitude - Rare Elixir - Any Class - Lv 1
+193 - Icewind - Unique Bow - Warden - Lv 5  -- e40
+194 - Bolt - Unique Bow - Warden - Lv 5  -- e42
+195 - Cael'is' Aim - Unique Bow - Warden - Lv 5  -- e44
+196 - Stormdraw - Legendary Bow - Warden - Lv 30  -- e1045 e40
+197 - Thunderstring - Legendary Bow - Warden - Lv 30  -- e1044 e42
+198 - Marruu's Rose - Legendary Bow - Warden - Lv 30  -- e1043 e41
+199 - Vault Key - Unique Quest Item - Any Class - Lv 1
+200 - Treasury Key - Unique Special Item - Any Class - Lv 1
+201 - Ancient Coin - Rare Special Item - Any Class - Lv 1
+203 - Flamers - Unique Fists - Berserker - Lv 5  -- e39
+204 - Shatterfrost - Unique Staff - Warlock - Lv 5  -- e40
+205 - Firebug's Rod - Unique Staff - Warlock - Lv 5  -- e39
+206 - Hellstaff - Legendary Staff - Warlock - Lv 30  -- e1055 e39
+207 - The Kennerth - Legendary Staff - Warlock - Lv 30  -- e1056 e53
+208 - Bile Rod - Legendary Staff - Warlock - Lv 30  -- e1057 e41
+210 - Moore's Helmet - Rare Helm - Any Class - Lv 1  -- e47 e5
+211 - Refugee's Tattered Vest - Rare Armor - Any Class - Lv 1  -- e7 e24 e4
+212 - Amulet of the Apprentice - Rare Amulet - Any Class - Lv 1  -- e21 e6
+213 - Ring of Cleansing Fire - Legendary Ring - Any Class - Lv 1  -- e106 e39
+214 - Carapace of Mos'ag - Unique Armor - Any Class - Lv 1  -- e47 e3 e8
+215 - Druid's Gold - Unique Ring - Any Class - Lv 1  -- e48 e7
+216 - Bramblecrown - Legendary Helm - Any Class - Lv 1  -- e8 e2 e48
+217 - Floe Fist - Unique Fists - Berserker - Lv 5  -- e40
+218 - Thunder Claps - Legendary Fists - Berserker - Lv 30  -- e1032 e42
+219 - Icebergs - Legendary Fists - Berserker - Lv 30  -- e1033 e40
+220 - Family Heirloom - Unique Quest Item - Any Class - Lv 1
+221 - The Headmistress' Spectacles - Unique Quest Item - Any Class - Lv 1
+222 - Treant Key - Unique Quest Item - Any Class - Lv 1
+223 - Stag Key - Unique Quest Item - Any Class - Lv 1
+224 - Pixie Key - Unique Quest Item - Any Class - Lv 1
+225 - Atlas - Unique Sword - Templar - Lv 5  -- e44 e102
+226 - Helios - Unique Sword - Templar - Lv 5  -- e39 e7
+227 - Jupiter - Legendary Sword - Templar - Lv 30  -- e1020 e42
+228 - Illumine - Legendary Sword - Templar - Lv 30  -- e1021 e43
+229 - Student's Textbook - Unique Accessory - Any Class - Lv 1  -- e24 e4
+230 - Elixir of Flames - Rare Elixir - Any Class - Lv 1
+231 - Eastern Wing Key - Unique Quest Item - Any Class - Lv 1
+232 - Enchanter's Codex - Unique Quest Item - Any Class - Lv 1
+241 - Scroll of Testing 100M - Mythical Scroll - Any Class - Lv 1
+242 - Scroll of Testing 1,000M - Mythical Scroll - Any Class - Lv 1
+243 - Scroll of Dimensions - Unique Scroll - Any Class - Lv 1
+244 - Scroll of Challenge - Unique Scroll - Any Class - Lv 1
+245 - Scroll of Champions - Unique Scroll - Any Class - Lv 1
+247 - Elixir of the Mind - Rare Elixir - Any Class - Lv 1
+249 - Scroll of Return - Enchanted Scroll - Any Class - Lv 1
+250 - Minor Health Potion - Ordinary Potion - Any Class - Lv 1
+251 - Minor Mana Potion - Ordinary Potion - Any Class - Lv 1
+252 - Small Health Potion - Ordinary Potion - Any Class - Lv 10
+253 - Small Mana Potion - Ordinary Potion - Any Class - Lv 10
+254 - Health Potion - Ordinary Potion - Any Class - Lv 20
+255 - Mana Potion - Ordinary Potion - Any Class - Lv 20
+256 - Medium Health Potion - Ordinary Potion - Any Class - Lv 30
+257 - Medium Mana Potion - Ordinary Potion - Any Class - Lv 30
+258 - Great Health Potion - Ordinary Potion - Any Class - Lv 40
+259 - Great Mana Potion - Ordinary Potion - Any Class - Lv 40
+260 - Greater Health Potion - Ordinary Potion - Any Class - Lv 50
+261 - Greater Mana Potion - Ordinary Potion - Any Class - Lv 50
+262 - Grand Health Potion - Ordinary Potion - Any Class - Lv 60
+263 - Grand Mana Potion - Ordinary Potion - Any Class - Lv 60
+264 - Superior Health Potion - Ordinary Potion - Any Class - Lv 70
+265 - Superior Mana Potion - Ordinary Potion - Any Class - Lv 70
+266 - Supreme Health Potion - Ordinary Potion - Any Class - Lv 80
+267 - Supreme Mana Potion - Ordinary Potion - Any Class - Lv 80
+268 - Extreme Health Potion - Ordinary Potion - Any Class - Lv 90
+269 - Extreme Mana Potion - Ordinary Potion - Any Class - Lv 90
+270 - Soft Holiday Gift - Ordinary Container - Any Class - Lv 1
+271 - Badly Wrapped Holiday Gift - Enchanted Container - Any Class - Lv 1
+272 - Promising Holiday Gift - Rare Container - Any Class - Lv 1
+273 - Pretty Holiday Gift - Unique Container - Any Class - Lv 1
+274 - Exceptional Holiday Gift - Legendary Container - Any Class - Lv 1
+275 - Loot Container - Enchanted Container - Any Class - Lv 1
+276 - Ultimate Health Potion - Ordinary Potion - Any Class - Lv 100
+277 - Ultimate Mana Potion - Ordinary Potion - Any Class - Lv 100
+278 - Elixir of Mastery - Rare Elixir - Any Class - Lv 1
+280 - Amulet - Enchanted Amulet - Any Class - Lv 10
+281 - Necklace - Enchanted Amulet - Any Class - Lv 10
+282 - Medallion - Enchanted Amulet - Any Class - Lv 10
+283 - Miasmic Band - Unique Ring - Any Class - Lv 10  -- e41
+284 - Frostband - Unique Ring - Any Class - Lv 10  -- e40
+285 - Blasphemy - Unique Ring - Warlock - Lv 10  -- e53
+286 - Enforcer's Ring - Unique Ring - Any Class - Lv 10  -- e44
+287 - Righteous Circlet - Unique Ring - Templar - Lv 10  -- e43
+288 - Static Loop - Unique Ring - Any Class - Lv 10  -- e42
+289 - Terra's Binding - Legendary Ring - Any Class - Lv 10  -- e1707
+290 - Hoarfrost - Legendary Ring - Any Class - Lv 10  -- e40
+291 - Death's Bond - Legendary Ring - Warlock - Lv 50  -- e1187
+292 - Kingsrock - Legendary Ring - Any Class - Lv 10  -- e1092
+293 - Divine Link - Legendary Ring - Templar - Lv 10  -- e1719 e43
+294 - Ring of Thunder - Legendary Ring - Any Class - Lv 10  -- e42
+295 - Magic Essence - Enchanted Crafting Material - Any Class - Lv 1
+296 - Crystal Essence - Rare Crafting Material - Any Class - Lv 1
+297 - Soul Essence - Unique Crafting Material - Any Class - Lv 1
+298 - Memory Essence - Legendary Crafting Material - Any Class - Lv 1
+300 - Stormforce - Unique Ring - Any Class - Lv 10  -- e28
+301 - Wintertale - Unique Amulet - Any Class - Lv 10  -- e29
+302 - Demon's Guile - Unique Ring - Any Class - Lv 10  -- e30
+303 - Bad Voodoo - Unique Amulet - Any Class - Lv 10  -- e31
+304 - Ring of Hope - Unique Ring - Any Class - Lv 10  -- e32
+305 - Darkskitter's Hide - Unique Armor - Any Class - Lv 1  -- e41 e85
+306 - Mollug's One Ring - Unique Ring - Any Class - Lv 1  -- e1137 e34
+307 - Mary's Mirror - Unique Accessory - Any Class - Lv 1  -- e110 e102
+308 - Glod's Coins - Unique Accessory - Any Class - Lv 1  -- e23 e26
+309 - Eye of The Watcher - Unique Helm - Any Class - Lv 1  -- e9 e10
+310 - Bat Bat - Unique Staff - Warlock - Lv 1  -- e39 e30
+311 - Sleepwalker's Robe - Unique Armor - Any Class - Lv 1  -- e40 e80
+312 - The Woodwall - Unique Shield (Offhand) - Templar - Lv 1  -- e96 e97 e8
+313 - Bramblefists - Unique Fists - Berserker - Lv 1  -- e110 e9
+314 - Deadeye Hood - Unique Helm - Any Class - Lv 1  -- e19
+315 - Flamehorn - Unique Sword - Templar - Lv 1  -- e39 e63
+316 - So'eira's Needler - Unique Bow - Warden - Lv 1  -- e5 e4
+317 - Pixie Gem - Unique Accessory - Any Class - Lv 1  -- e24 e6
+318 - Thundercharged Blade - Legendary Sword - Templar - Lv 30  -- e42 e8
+319 - Demon Lord's Scepter - Legendary Staff - Warlock - Lv 30  -- e39 e45
+320 - Firelord's Amulet - Legendary Amulet - Warlock - Lv 30  -- e1152
+321 - Lich's Crown - Legendary Helm - Warlock - Lv 30  -- e40
+322 - Lich's Wand - Legendary Staff - Warlock - Lv 30  -- e40 e21
+323 - Ayeela's Wisdom - Legendary Tome (Offhand) - Templar - Lv 30  -- e43 e9
+324 - Ayeela's Will - Legendary Sword - Templar - Lv 30  -- e43 e9
+325 - Ayeela's Sight - Legendary Helm - Templar - Lv 30  -- e43
+326 - Thundercharged Crown - Legendary Helm - Templar - Lv 30  -- e42
+327 - Master Scout's Hood - Unique Helm - Any Class - Lv 1  -- e19
+328 - Master Scout's Boots - Unique Boots - Any Class - Lv 1  -- e4
+329 - Hate Crown - Unique Helm - Any Class - Lv 1  -- e8
+330 - Pain Lid - Unique Shield (Offhand) - Templar - Lv 1  -- e96 e97 e8
+331 - Seeker's Fortune - Unique Helm - Any Class - Lv 1  -- e23 e13
+332 - Seeker's Reach - Unique Armor - Any Class - Lv 1  -- e26 e23 e13
+333 - Seeker's Luck - Unique Accessory - Any Class - Lv 1  -- e13 e23
+334 - Challenger's Helm - Unique Helm - Any Class - Lv 1  -- e19
+335 - Challenger's Armor - Unique Armor - Any Class - Lv 1  -- e1 e6
+336 - Challenger's Boots - Unique Boots - Any Class - Lv 1  -- e4 e5
+337 - Bloodsoaked Helmet - Legendary Helm - Berserker - Lv 30  -- e44
+338 - Brutal Stompers - Legendary Boots - Berserker - Lv 20  -- e1063 e4
+339 - Dragonfire Visage - Legendary Helm - Berserker - Lv 30  -- e39
+340 - Dragonfire Fists - Legendary Fists - Berserker - Lv 30  -- e39 e101
+341 - High Ranger's Guard - Legendary Armor - Warden - Lv 30  -- e44 e19
+342 - High Ranger's Deadeye - Legendary Bow - Warden - Lv 30  -- e44 e102
+343 - High Ranger's Gift - Legendary Arrow (Offhand) - Warden - Lv 30  -- e5 e102
+344 - Elven Wisdom - Unique Staff - Warlock - Lv 1  -- e7 e6 e10
+345 - Unknown Warden Arrow - Enchanted Unknown Item - Warden - Lv 1
+346 - Unknown Templar Offhand - Enchanted Unknown Item - Templar - Lv 1
+347 - Unknown Warlock Spellbook - Enchanted Unknown Item - Warlock - Lv 1
+348 - Unknown Berserker Claw - Enchanted Unknown Item - Berserker - Lv 1
+350 - Unknown Helmet - Enchanted Unknown Item - Any Class - Lv 1
+351 - Unknown Armor - Enchanted Unknown Item - Any Class - Lv 1
+352 - Unknown Accessory - Enchanted Unknown Item - Any Class - Lv 1
+353 - Unknown Templar Weapon - Enchanted Unknown Item - Templar - Lv 1
+354 - Unknown Berserker Weapon - Enchanted Unknown Item - Berserker - Lv 1
+355 - Unknown Warden Weapon - Enchanted Unknown Item - Warden - Lv 1
+356 - Unknown Warlock Weapon - Enchanted Unknown Item - Warlock - Lv 1
+357 - Unknown Ring (level 10+) - Enchanted Unknown Item - Any Class - Lv 10
+358 - Unknown Amulet (level 10+) - Enchanted Unknown Item - Any Class - Lv 10
+359 - Unknown Boots - Enchanted Unknown Item - Any Class - Lv 1
+364 - Desecrator's Face - Legendary Helm - Warlock - Lv 30  -- e53
+365 - Desecrator's Cage - Legendary Armor - Warlock - Lv 30  -- e53 e100
+366 - Desecrator's Touch - Legendary Staff - Warlock - Lv 30  -- e53 e5
+367 - Death's List - Legendary Accessory - Warlock - Lv 30  -- e1075 e53
+368 - Bloodbinder's Helm - Legendary Helm - Warlock - Lv 30  -- e41
+369 - Bloodbinder's Robes - Legendary Armor - Warlock - Lv 30  -- e41 e21
+370 - Bloodbinder's Staff - Legendary Staff - Warlock - Lv 30  -- e41 e46
+371 - Pestilence - Legendary Ring - Warlock - Lv 20  -- e1077 e41
+372 - Caine's Vision - Legendary Helm - Templar - Lv 30  -- e39
+373 - Caine's Armor - Legendary Armor - Templar - Lv 30  -- e39 e4
+374 - Caine's Fire - Legendary Sword - Templar - Lv 30  -- e39 e100
+375 - Caine's Deflector - Legendary Shield (Offhand) - Templar - Lv 30  -- e96 e97 e4
+376 - Reckoning's Sight - Legendary Helm - Templar - Lv 30  -- e8
+377 - Reckoning's Cage - Legendary Armor - Templar - Lv 30  -- e44 e8
+378 - Reckoning's Instrument - Legendary Sword - Templar - Lv 30  -- e44 e8
+379 - Reckoning's Safeguard - Legendary Shield (Offhand) - Templar - Lv 30  -- e96 e97 e8
+380 - Spirit Visage - Legendary Helm - Berserker - Lv 30  -- e42
+381 - Spirit Vest - Legendary Armor - Berserker - Lv 30  -- e42 e21
+382 - Spirit Fist - Legendary Fists - Berserker - Lv 30  -- e42 e19
+383 - Spirit Carver - Legendary Claw (Offhand) - Berserker - Lv 30  -- e5 e100
+384 - Northern Rage Helm - Legendary Helm - Berserker - Lv 30  -- e40
+385 - Northern Rage Hide - Legendary Armor - Berserker - Lv 30  -- e40 e103
+386 - Northern Rage Fists - Legendary Fists - Berserker - Lv 30  -- e40 e100
+387 - Frostborn Heirloom - Legendary Amulet - Berserker - Lv 30  -- e1134
+388 - Everspring's Crown - Legendary Helm - Warden - Lv 30  -- e41
+389 - Everspring's Embrace - Legendary Armor - Warden - Lv 30  -- e41 e100
+390 - Everspring's Breeze - Legendary Bow - Warden - Lv 30  -- e41 e6
+391 - Everspring's Thorn - Legendary Arrow (Offhand) - Warden - Lv 30  -- e3 e21
+392 - Snowstorm Eye - Legendary Helm - Warden - Lv 30  -- e40
+393 - Snowstorm Grasp - Legendary Armor - Warden - Lv 30  -- e40 e51
+394 - Snowstorm Bite - Legendary Bow - Warden - Lv 30  -- e40 e4
+395 - Winter's Coming - Legendary Ring - Warden - Lv 30  -- e1120 e7
+396 - Pouch - Ordinary Bag - Any Class - Lv 1  -- e56
+397 - Satchel - Enchanted Bag - Any Class - Lv 1  -- e56
+398 - Gear Bag - Rare Bag - Any Class - Lv 1  -- e56
+399 - Backpack - Unique Bag - Any Class - Lv 1  -- e56
+400 - Bottomless Bag - Legendary Bag - Any Class - Lv 1  -- e56
+402 - Moe's Fury - Unique Fists - Berserker - Lv 5  -- e1189
+403 - Grasswalkers - Unique Boots - Any Class - Lv 1  -- e77
+404 - Escapists - Unique Boots - Any Class - Lv 1  -- e84
+405 - Kickers - Unique Boots - Any Class - Lv 1  -- e20
+406 - Sludge Treaders - Unique Boots - Any Class - Lv 1  -- e92 e41
+407 - Nightcap - Unique Helm - Any Class - Lv 1  -- e82
+408 - Lightcap - Unique Helm - Any Class - Lv 1  -- e81 e54
+409 - Blightcap - Unique Helm - Any Class - Lv 1  -- e85
+410 - Frightcap - Unique Helm - Any Class - Lv 1  -- e78
+411 - Mightcap - Legendary Helm - Any Class - Lv 1  -- e1103
+412 - Heart of Fire - Unique Amulet - Any Class - Lv 10  -- e63
+413 - Nova - Unique Amulet - Any Class - Lv 10  -- e80
+414 - Goreneck - Legendary Amulet - Any Class - Lv 10  -- e73 e74
+415 - Health Injector - True Legendary Accessory - Any Class - Lv 100  -- e1069
+416 - Mana Injector - True Legendary Accessory - Any Class - Lv 100  -- e1070
+417 - Dragon Claw - Unique Claw (Offhand) - Berserker - Lv 1  -- e63 e66
+418 - Claw - Ordinary Claw (Offhand) - Berserker - Lv 1  -- e3
+419 - Arrows - Ordinary Arrow (Offhand) - Warden - Lv 1
+420 - Snowpiercer - Legendary Arrow (Offhand) - Warden - Lv 30  -- e1049 e40
+421 - Nature's Barbs - Legendary Arrow (Offhand) - Warden - Lv 30  -- e1047 e8
+422 - Thunderpoint - Legendary Arrow (Offhand) - Warden - Lv 30  -- e1048 e42
+423 - Book of Destruction - Legendary Spellbook (Offhand) - Warlock - Lv 15  -- e1052 e39
+424 - Book of Desecration - Legendary Spellbook (Offhand) - Warlock - Lv 15  -- e1053 e53
+425 - Firestone - Unique Accessory - Any Class - Lv 1  -- e30 e35
+426 - Froststone - Unique Accessory - Any Class - Lv 1  -- e29 e34
+427 - Thunderstone - Unique Accessory - Any Class - Lv 1  -- e28 e36
+428 - Poisonstone - Unique Accessory - Any Class - Lv 1  -- e31 e37
+429 - Shadowstone - Unique Accessory - Any Class - Lv 1  -- e123 e38
+430 - Lightstone - Unique Accessory - Any Class - Lv 1  -- e32 e52
+431 - Elementium Stone - Legendary Accessory - Any Class - Lv 1  -- e1073 e48
+432 - Houndmaster's Vest - Legendary Armor - Berserker - Lv 5
+433 - Darkwalkers - Legendary Boots - Warlock - Lv 15  -- e1127
+438 - Lantern - Ordinary Accessory - Any Class - Lv 1  -- e54
+439 - Small Charm - Ordinary Accessory - Any Class - Lv 1
+440 - Charm - Ordinary Accessory - Any Class - Lv 5  -- e23
+441 - Ancient Charm - Ordinary Accessory - Any Class - Lv 10  -- e27
+442 - Cloak - Ordinary Accessory - Any Class - Lv 1  -- e6
+443 - Cape - Ordinary Accessory - Any Class - Lv 10  -- e7
+444 - Leather Boots - Ordinary Boots - Any Class - Lv 1
+445 - Druid Boots - Ordinary Boots - Warden - Lv 7
+446 - Ranger Boots - Ordinary Boots - Warden - Lv 15
+447 - Plate Greaves - Ordinary Boots - Templar - Lv 1
+448 - Silver Greaves - Ordinary Boots - Templar - Lv 7
+449 - Gold Plate Greaves - Ordinary Boots - Templar - Lv 15
+450 - Dark Slippers - Ordinary Boots - Warlock - Lv 1
+451 - Arcane Slippers - Ordinary Boots - Warlock - Lv 7
+452 - Mage Slippers - Ordinary Boots - Warlock - Lv 15
+453 - Fighter Boots - Ordinary Boots - Berserker - Lv 1
+454 - Bruiser Boots - Ordinary Boots - Berserker - Lv 7
+455 - Brawler Boots - Ordinary Boots - Berserker - Lv 15
+456 - Wooden Shield - Ordinary Shield (Offhand) - Templar - Lv 1  -- e96 e97
+457 - Round Shield - Ordinary Shield (Offhand) - Templar - Lv 7  -- e96 e97
+458 - Heater Shield - Ordinary Shield (Offhand) - Templar - Lv 15  -- e96 e97
+459 - Knight Shield - Ordinary Shield (Offhand) - Templar - Lv 25  -- e96 e97
+460 - Tower Shield - Ordinary Shield (Offhand) - Templar - Lv 35  -- e96 e97
+461 - Book of Boils - Legendary Spellbook (Offhand) - Warlock - Lv 20  -- e1050 e41
+462 - Book of Duplus - Legendary Spellbook (Offhand) - Warlock - Lv 20  -- e1051 e40
+463 - Tome - Ordinary Tome (Offhand) - Templar - Lv 1
+464 - Tome of Wrath - Legendary Tome (Offhand) - Templar - Lv 30  -- e1022 e42
+465 - Tome of Vengeance - Legendary Tome (Offhand) - Templar - Lv 30  -- e1023 e46
+466 - Tome of Condemnation - Legendary Tome (Offhand) - Templar - Lv 30  -- e1024 e39
+467 - Tome of Redemption - Legendary Tome (Offhand) - Templar - Lv 30  -- e1025 e43
+468 - Claws of Gluttony - Legendary Claw (Offhand) - Berserker - Lv 11  -- e1026 e44
+469 - Amp Claw - Legendary Claw (Offhand) - Berserker - Lv 15  -- e1027 e42
+470 - Wrath Claw - Legendary Claw (Offhand) - Berserker - Lv 15  -- e1028 e39
+471 - Wyrmtooth - Legendary Claw (Offhand) - Berserker - Lv 20  -- e1029 e40
+472 - Bastion - Unique Shield (Offhand) - Templar - Lv 5  -- e96 e97 e1
+473 - Reflector - Unique Shield (Offhand) - Templar - Lv 5  -- e96 e97 e8 e47
+474 - Vindicator - Legendary Shield (Offhand) - Templar - Lv 40  -- e1085 e96 e97
+475 - Brisk Darts - Unique Arrow (Offhand) - Warden - Lv 1  -- e5
+476 - Pain Bolts - Unique Arrow (Offhand) - Warden - Lv 10  -- e1082 e51
+477 - Book of Gore - Unique Spellbook (Offhand) - Warlock - Lv 1  -- e66
+478 - Book of Vampiris - Unique Spellbook (Offhand) - Warlock - Lv 1  -- e9
+479 - Tome of Healing - Unique Tome (Offhand) - Templar - Lv 5  -- e71 e6
+480 - Tome of Defiance - Unique Tome (Offhand) - Templar - Lv 5  -- e47 e3
+481 - Obsidian Shield - Unique Shield (Offhand) - Templar - Lv 1  -- e96 e97 e47
+482 - Flickerfang - Unique Accessory - Any Class - Lv 1  -- e107 e41
+483 - Anxiety - Unique Accessory - Any Class - Lv 1  -- e9 e10
+484 - Moreq's Cape - Unique Accessory - Any Class - Lv 1  -- e52 e82
+485 - Brackenbow - Unique Bow - Warden - Lv 1  -- e51 e5
+486 - Rosepack - Unique Bag - Any Class - Lv 1  -- e56
+487 - Bewts - Unique Boots - Any Class - Lv 1  -- e76 e84
+488 - Foul Schematics - Unique Accessory - Any Class - Lv 1  -- e21 e50 e26
+489 - The Bugfix - Unique Accessory - Any Class - Lv 1  -- e115 e39
+490 - Gilrad's Insight - Unique Amulet - Any Class - Lv 1  -- e21 e50
+491 - Blessed Mantle - Unique Accessory - Any Class - Lv 1  -- e43 e111
+492 - Thunderstompers - Unique Boots - Any Class - Lv 1  -- e42 e84
+493 - The Darkstaff - Unique Staff - Warlock - Lv 1  -- e53 e66
+494 - Thief's Hideaway - Unique Accessory - Any Class - Lv 1  -- e26
+495 - Thief's Getaway - Unique Boots - Any Class - Lv 1  -- e4
+496 - Obligation - Unique Amulet - Any Class - Lv 1  -- e46
+497 - Union - Unique Ring - Any Class - Lv 1  -- e45
+498 - Hoard - Unique Amulet - Any Class - Lv 1  -- e9
+499 - Reap - Unique Ring - Any Class - Lv 1  -- e10
+500 - Porthos - True Legendary Amulet - Any Class - Lv 100  -- e48
+501 - Aramis - True Legendary Ring - Any Class - Lv 100  -- e48
+502 - Athos - True Legendary Amulet - Any Class - Lv 100  -- e51
+503 - D'Artagnan - True Legendary Ring - Any Class - Lv 100  -- e9
+504 - Moon - Legendary Amulet - Any Class - Lv 1  -- e40
+505 - Sun - Legendary Ring - Any Class - Lv 1  -- e39
+506 - Retaliator's Choker - Legendary Amulet - Any Class - Lv 1  -- e1
+507 - Retaliator's Bond - Legendary Ring - Any Class - Lv 1  -- e4
+508 - Retaliator's Cloak - Legendary Accessory - Any Class - Lv 1  -- e6
+509 - Retaliator's Striders - Legendary Boots - Any Class - Lv 1  -- e8
+510 - Summoner's Hood - Legendary Helm - Any Class - Lv 1  -- e46
+511 - Summoner's Robe - Legendary Armor - Any Class - Lv 1  -- e45
+512 - Summoner's Charm - Legendary Accessory - Any Class - Lv 1  -- e46
+513 - Summoner's Footwear - Legendary Boots - Any Class - Lv 1  -- e45
+514 - Heartstone - True Legendary Accessory - Any Class - Lv 100  -- e1003 e6
+515 - Boomring - True Legendary Ring - Any Class - Lv 100  -- e1000 e100
+516 - Death Choker - True Legendary Amulet - Any Class - Lv 100  -- e1002 e22
+517 - Pathmakers - True Legendary Boots - Any Class - Lv 100  -- e1004 e4
+518 - Extra-Ordinary Cap - True Legendary Helm - Any Class - Lv 100  -- e1005 e48
+519 - Jeopardy - True Legendary Ring - Any Class - Lv 100  -- e1001 e62
+520 - Elementium Armor - True Legendary Armor - Any Class - Lv 100  -- e1006
+521 - Phantoma - True Legendary Sword - Templar - Lv 100  -- e1105 e3
+522 - Face Breakers - True Legendary Fists - Berserker - Lv 100  -- e1107 e19
+523 - Death Speaker - True Legendary Staff - Warlock - Lv 100  -- e1106 e48
+524 - Harp - True Legendary Bow - Warden - Lv 100  -- e1104 e100
+525 - Hurtblocker - True Legendary Shield (Offhand) - Templar - Lv 100  -- e97 e96 e1007 e47
+526 - Dodgeclaw - True Legendary Claw (Offhand) - Berserker - Lv 100  -- e1008 e121
+527 - Book of Meteora - True Legendary Spellbook (Offhand) - Warlock - Lv 100  -- e1009 e5
+528 - Tumblespike - True Legendary Arrow (Offhand) - Warden - Lv 100  -- e1010 e4
+529 - Fleetstriders - True Legendary Boots - Any Class - Lv 100  -- e1011 e121
+530 - Elixir of Advanced Anomaly - Rare Elixir - Any Class - Lv 1
+531 - Elixir of Reversed Anomaly - Rare Elixir - Any Class - Lv 1
+532 - Elixir of Scrambled Anomaly - Rare Elixir - Any Class - Lv 1
+535 - Soulpurger's Crown - Legendary Helm - Templar - Lv 30  -- e43
+536 - Soulpurger's Garment - Legendary Armor - Templar - Lv 30  -- e43 e101
+537 - Soulpurger's Blade - Legendary Sword - Templar - Lv 30  -- e43 e100
+538 - Soulpurger's Aegis - Legendary Shield (Offhand) - Templar - Lv 30  -- e96 e97 e8
+539 - Thundering Will - Legendary Helm - Templar - Lv 30  -- e42
+540 - Thundering Bastion - Legendary Armor - Templar - Lv 30  -- e42 e45
+541 - Thundering Charge - Legendary Sword - Templar - Lv 30  -- e42 e46
+542 - Thundering Guard - Legendary Shield (Offhand) - Templar - Lv 30  -- e96 e97 e45
+543 - War God's Crown - Legendary Helm - Templar - Lv 30  -- e39
+544 - War God's Plate - Legendary Armor - Templar - Lv 30  -- e39 e7
+545 - War God's Blade - Legendary Sword - Templar - Lv 30  -- e39 e101
+546 - War God's Opus - Legendary Tome (Offhand) - Templar - Lv 30  -- e39 e5
+547 - Valkyrie Winged Helmet - Legendary Helm - Templar - Lv 30  -- e44
+548 - Valkyrie Battleplate - Legendary Armor - Templar - Lv 30  -- e44 e5
+549 - Valkyrie Blade - Legendary Sword - Templar - Lv 30  -- e44 e102
+550 - Valkyrie Safeguard - Legendary Shield (Offhand) - Templar - Lv 30  -- e96 e97 e102
+552 - Cataclysmic Helm - Legendary Helm - Berserker - Lv 30  -- e44
+553 - Cataclysmic Armor - Legendary Armor - Berserker - Lv 30  -- e44 e100
+554 - Cataclysmic Fists - Legendary Fists - Berserker - Lv 30  -- e44 e101
+555 - Cataclysmic Claws - Legendary Claw (Offhand) - Berserker - Lv 30  -- e5 e19
+556 - Bloodsoaked Ripper - Legendary Claw (Offhand) - Berserker - Lv 30  -- e5 e102
+557 - Skysoul Helmet - Legendary Helm - Berserker - Lv 30  -- e42
+558 - Skysoul Armor - Legendary Armor - Berserker - Lv 30  -- e42 e101
+559 - Skysoul Pounders - Legendary Fists - Berserker - Lv 30  -- e42 e100
+560 - Skysoul Claws - Legendary Claw (Offhand) - Berserker - Lv 30  -- e5 e4
+561 - Dragonfire Claws - Legendary Claw (Offhand) - Berserker - Lv 30  -- e5 e100
+562 - Volcanic Visage - Legendary Helm - Berserker - Lv 30  -- e39
+563 - Volcanic Armor - Legendary Armor - Berserker - Lv 30  -- e39 e105
+564 - Volcanic Fists - Legendary Fists - Berserker - Lv 30  -- e39 e8
+565 - Volcanic Claws - Legendary Claw (Offhand) - Berserker - Lv 30  -- e5 e103
+566 - Northern Rage Claws - Legendary Claw (Offhand) - Berserker - Lv 30  -- e5 e105
+567 - Frostwyrm Visage - Legendary Helm - Berserker - Lv 30  -- e40
+568 - Frostwyrm Armor - Legendary Armor - Berserker - Lv 30  -- e40 e21
+569 - Frostwyrm Fists - Legendary Fists - Berserker - Lv 30  -- e40 e5
+570 - Frostwyrm Claw - Legendary Claw (Offhand) - Berserker - Lv 30  -- e5 e103
+571 - Amulet of Despair - True Legendary Amulet - Any Class - Lv 100  -- e1037 e76
+572 - Quadruplets - True Legendary Accessory - Any Class - Lv 100  -- e1038 e48
+573 - Skull Mask - True Legendary Helm - Any Class - Lv 100  -- e1039 e3
+574 - Weyrick's Crown - True Legendary Helm - Any Class - Lv 100  -- e1040 e124
+575 - Royal Armor - True Legendary Armor - Any Class - Lv 100  -- e1041 e9
+576 - Windcaller's Guise - Legendary Helm - Warden - Lv 30  -- e44
+577 - Windcaller's Armor - Legendary Armor - Warden - Lv 30  -- e44 e100
+578 - Windcaller's Gust - Legendary Bow - Warden - Lv 30  -- e44 e5
+579 - Windcaller's Needle - Legendary Arrow (Offhand) - Warden - Lv 30  -- e5 e101
+580 - Stormcaller's Shock - Legendary Arrow (Offhand) - Warden - Lv 30  -- e5 e4
+581 - Wispmother's Crown - Legendary Helm - Warden - Lv 30  -- e42
+582 - Wispmother's Gown - Legendary Armor - Warden - Lv 30  -- e42 e46
+583 - Wispmother's Bow - Legendary Bow - Warden - Lv 30  -- e42 e21
+584 - Wispmother's Arrow - Legendary Arrow (Offhand) - Warden - Lv 30  -- e5 e45
+585 - Shroom Tender's Hood - Legendary Helm - Warden - Lv 30  -- e41
+586 - Shroom Tender's Armor - Legendary Armor - Warden - Lv 30  -- e41 e7
+587 - Shroom Tender's Bow - Legendary Bow - Warden - Lv 30  -- e41 e5
+588 - Shroom Tender's Arrow - Legendary Arrow (Offhand) - Warden - Lv 30  -- e3 e100
+589 - Snowstorm Cut - Legendary Arrow (Offhand) - Warden - Lv 30  -- e3 e100
+590 - Torrential Cowl - Legendary Helm - Warden - Lv 30  -- e40
+591 - Torrential Garb - Legendary Armor - Warden - Lv 30  -- e40 e100
+592 - Torrential Bow - Legendary Bow - Warden - Lv 30  -- e40 e5
+593 - Torrential Arrow - Legendary Arrow (Offhand) - Warden - Lv 30  -- e3 e5
+594 - Bloodbinder's Tome - Legendary Spellbook (Offhand) - Warlock - Lv 30  -- e7 e45
+595 - Demon Lord's Tome - Legendary Spellbook (Offhand) - Warlock - Lv 30  -- e39 e4
+596 - Lich's Manifesto - Legendary Spellbook (Offhand) - Warlock - Lv 30  -- e40 e1
+597 - Desecrator's Work - Legendary Spellbook (Offhand) - Warlock - Lv 30  -- e53 e9
+598 - Plague Mage's Helm - Legendary Helm - Warlock - Lv 30  -- e41
+599 - Plague Mage's Robes - Legendary Armor - Warlock - Lv 30  -- e41 e100
+600 - Plague Mage's Staff - Legendary Staff - Warlock - Lv 30  -- e41 e21
+601 - Plague Mage's Spellbook - Legendary Spellbook (Offhand) - Warlock - Lv 30  -- e10 e5
+602 - Burning Hell Crown - Legendary Helm - Warlock - Lv 30  -- e39
+603 - Burning Hell Robes - Legendary Armor - Warlock - Lv 30  -- e39 e21
+604 - Burning Hell Scepter - Legendary Staff - Warlock - Lv 30  -- e39 e51
+605 - Burning Hell Opus - Legendary Spellbook (Offhand) - Warlock - Lv 30  -- e39 e45
+606 - Deathbringer's Helm - Legendary Helm - Warlock - Lv 30  -- e40
+607 - Deathbringer's Robes - Legendary Armor - Warlock - Lv 30  -- e40 e51
+608 - Deathbringer's Staff - Legendary Staff - Warlock - Lv 30  -- e40 e101
+609 - Deathbringer's Chronicle - Legendary Spellbook (Offhand) - Warlock - Lv 30  -- e40 e5
+610 - Masochist's Helm - Legendary Helm - Warlock - Lv 30  -- e53
+611 - Masochist's Robes - Legendary Armor - Warlock - Lv 30  -- e53 e47
+612 - Masochist's Staff - Legendary Staff - Warlock - Lv 30  -- e53 e8
+613 - Masochist's Journal - Legendary Spellbook (Offhand) - Warlock - Lv 30  -- e53 e8
+614 - Putrid Pouch - Ordinary Bag - Any Class - Lv 1  -- e56
+615 - Moore's Satchel - Enchanted Bag - Any Class - Lv 1  -- e56
+616 - Unbreakable Bond - True Legendary Ring - Any Class - Lv 100  -- e1059 e46
+617 - Life Guard - True Legendary Helm - Any Class - Lv 100  -- e1060 e87
+620 - Rough Cube Charoite - Ordinary Cube Gem - Any Class - Lv 1  -- e500 e501 e502
+621 - Cut Cube Charoite - Enchanted Cube Gem - Any Class - Lv 1  -- e500 e501 e502
+622 - Polished Cube Charoite - Rare Cube Gem - Any Class - Lv 1  -- e500 e501 e502
+623 - Rough Sphere Charoite - Ordinary Sphere Gem - Any Class - Lv 1  -- e503 e504 e505
+624 - Cut Sphere Charoite - Enchanted Sphere Gem - Any Class - Lv 1  -- e503 e504 e505
+625 - Polished Sphere Charoite - Rare Sphere Gem - Any Class - Lv 1  -- e503 e504 e505
+626 - Rough Star Charoite - Ordinary Star Gem - Any Class - Lv 1  -- e506 e507 e508
+627 - Cut Star Charoite - Enchanted Star Gem - Any Class - Lv 1  -- e506 e507 e508
+628 - Polished Star Charoite - Rare Star Gem - Any Class - Lv 1  -- e506 e507 e508
+629 - Rough Cube Chrysoberyl - Ordinary Cube Gem - Any Class - Lv 1  -- e509 e510 e511
+630 - Cut Cube Chrysoberyl - Enchanted Cube Gem - Any Class - Lv 1  -- e509 e510 e511
+631 - Polished Cube Chrysoberyl - Rare Cube Gem - Any Class - Lv 1  -- e509 e510 e511
+632 - Rough Sphere Chrysoberyl - Ordinary Sphere Gem - Any Class - Lv 1  -- e512 e513 e514
+633 - Cut Sphere Chrysoberyl - Enchanted Sphere Gem - Any Class - Lv 1  -- e512 e513 e514
+634 - Polished Sphere Chrysoberyl - Rare Sphere Gem - Any Class - Lv 1  -- e512 e513 e514
+635 - Rough Star Chrysoberyl - Ordinary Star Gem - Any Class - Lv 1  -- e515 e516 e517
+636 - Cut Star Chrysoberyl - Enchanted Star Gem - Any Class - Lv 1  -- e515 e516 e517
+637 - Polished Star Chrysoberyl - Rare Star Gem - Any Class - Lv 1  -- e515 e516 e517
+638 - Rough Cube Hematite - Ordinary Cube Gem - Any Class - Lv 1  -- e518 e519 e520
+639 - Cut Cube Hematite - Enchanted Cube Gem - Any Class - Lv 1  -- e518 e519 e520
+640 - Polished Cube Hematite - Rare Cube Gem - Any Class - Lv 1  -- e518 e519 e520
+641 - Rough Sphere Hematite - Ordinary Sphere Gem - Any Class - Lv 1  -- e521 e522 e523
+642 - Cut Sphere Hematite - Enchanted Sphere Gem - Any Class - Lv 1  -- e521 e522 e523
+643 - Polished Sphere Hematite - Rare Sphere Gem - Any Class - Lv 1  -- e521 e522 e523
+644 - Rough Star Hematite - Ordinary Star Gem - Any Class - Lv 1  -- e524 e525 e526
+645 - Cut Star Hematite - Enchanted Star Gem - Any Class - Lv 1  -- e524 e525 e526
+646 - Polished Star Hematite - Rare Star Gem - Any Class - Lv 1  -- e524 e525 e526
+647 - Rough Cube Orthoclase - Ordinary Cube Gem - Any Class - Lv 1  -- e527 e528 e529
+648 - Cut Cube Orthoclase - Enchanted Cube Gem - Any Class - Lv 1  -- e527 e528 e529
+649 - Polished Cube Orthoclase - Rare Cube Gem - Any Class - Lv 1  -- e527 e528 e529
+650 - Rough Sphere Orthoclase - Ordinary Sphere Gem - Any Class - Lv 1  -- e530 e531 e532
+651 - Cut Sphere Orthoclase - Enchanted Sphere Gem - Any Class - Lv 1  -- e530 e531 e532
+652 - Polished Sphere Orthoclase - Rare Sphere Gem - Any Class - Lv 1  -- e530 e531 e532
+653 - Rough Star Orthoclase - Ordinary Star Gem - Any Class - Lv 1  -- e533 e534 e535
+654 - Cut Star Orthoclase - Enchanted Star Gem - Any Class - Lv 1  -- e533 e534 e535
+655 - Polished Star Orthoclase - Rare Star Gem - Any Class - Lv 1  -- e533 e534 e535
+656 - Rough Cube Citrine - Ordinary Cube Gem - Any Class - Lv 1  -- e536 e537 e538
+657 - Cut Cube Citrine - Enchanted Cube Gem - Any Class - Lv 1  -- e536 e537 e538
+658 - Polished Cube Citrine - Rare Cube Gem - Any Class - Lv 1  -- e536 e537 e538
+659 - Rough Sphere Citrine - Ordinary Sphere Gem - Any Class - Lv 1  -- e539 e540 e541
+660 - Cut Sphere Citrine - Enchanted Sphere Gem - Any Class - Lv 1  -- e539 e540 e541
+661 - Polished Sphere Citrine - Rare Sphere Gem - Any Class - Lv 1  -- e539 e540 e541
+662 - Rough Star Citrine - Ordinary Star Gem - Any Class - Lv 1  -- e542 e543 e544
+663 - Cut Star Citrine - Enchanted Star Gem - Any Class - Lv 1  -- e542 e543 e544
+664 - Polished Star Citrine - Rare Star Gem - Any Class - Lv 1  -- e542 e543 e544
+665 - Rough Cube Kyanite - Ordinary Cube Gem - Any Class - Lv 1  -- e545 e546 e547
+666 - Cut Cube Kyanite - Enchanted Cube Gem - Any Class - Lv 1  -- e545 e546 e547
+667 - Polished Cube Kyanite - Rare Cube Gem - Any Class - Lv 1  -- e545 e546 e547
+668 - Rough Sphere Kyanite - Ordinary Sphere Gem - Any Class - Lv 1  -- e548 e549 e550
+669 - Cut Sphere Kyanite - Enchanted Sphere Gem - Any Class - Lv 1  -- e548 e549 e550
+670 - Polished Sphere Kyanite - Rare Sphere Gem - Any Class - Lv 1  -- e548 e549 e550
+671 - Rough Star Kyanite - Ordinary Star Gem - Any Class - Lv 1  -- e551 e552 e553
+672 - Cut Star Kyanite - Enchanted Star Gem - Any Class - Lv 1  -- e551 e552 e553
+673 - Polished Star Kyanite - Rare Star Gem - Any Class - Lv 1  -- e551 e552 e553
+674 - Rough Cube Larimar - Ordinary Cube Gem - Any Class - Lv 1  -- e554 e555 e556
+675 - Cut Cube Larimar - Enchanted Cube Gem - Any Class - Lv 1  -- e554 e555 e556
+676 - Polished Cube Larimar - Rare Cube Gem - Any Class - Lv 1  -- e554 e555 e556
+677 - Rough Sphere Larimar - Ordinary Sphere Gem - Any Class - Lv 1  -- e557 e558 e559
+678 - Cut Sphere Larimar - Enchanted Sphere Gem - Any Class - Lv 1  -- e557 e558 e559
+679 - Polished Sphere Larimar - Rare Sphere Gem - Any Class - Lv 1  -- e557 e558 e559
+680 - Rough Star Larimar - Ordinary Star Gem - Any Class - Lv 1  -- e560 e561 e562
+681 - Cut Star Larimar - Enchanted Star Gem - Any Class - Lv 1  -- e560 e561 e562
+682 - Polished Star Larimar - Rare Star Gem - Any Class - Lv 1  -- e560 e561 e562
+692 - Unknown Star Gem - Ordinary Star Gem - Any Class - Lv 1
+693 - Ancient Tablet - Unique Quest Item - Any Class - Lv 1
+694 - Scroll - Enchanted Scroll - Any Class - Lv 1
+695 - Scroll - Rare Scroll - Any Class - Lv 1
+696 - Scroll - Unique Scroll - Any Class - Lv 1
+697 - Scroll - Legendary Scroll - Any Class - Lv 1
+698 - Cackling bone - Unique Relic - Any Class - Lv 1
+699 - Fin'ley's magical map - Unique Relic - Any Class - Lv 1
+700 - The Ripper - Unique Claw (Offhand) - Berserker - Lv 1  -- e102 e110
+701 - Windtalon's Charm - Unique Accessory - Any Class - Lv 1  -- e42 e4
+702 - Skin of the Rock Worm - Unique Armor - Any Class - Lv 1  -- e120
+703 - Skull of Grotesk - Unique Helm - Any Class - Lv 1  -- e41 e85
+704 - Eye of Volkanum - Unique Amulet - Any Class - Lv 1  -- e39 e34 e86
+705 - Ghostly Veil - Unique Helm - Any Class - Lv 1  -- e114 e121
+706 - Howling Horn - Unique Accessory - Any Class - Lv 1  -- e40 e29
+707 - Spectral Armor - True Legendary Armor - Any Class - Lv 100  -- e1087 e47
+708 - Crown of Aerefthas - Unique Helm - Any Class - Lv 1  -- e43 e81
+709 - Ravash's Bloodied Bone - Unique Accessory - Any Class - Lv 1  -- e102 e110
+710 - Key to Pools of Eternity - Unique Quest Item - Any Class - Lv 1
+711 - Brother's Ring - Unique Quest Item - Any Class - Lv 1
+712 - Ring of Marvellous Gems - Legendary Ring - Any Class - Lv 1
+713 - Weyrick's Finery - Legendary Armor - Any Class - Lv 15
+714 - Jorgen's Key - Unique Quest Item - Any Class - Lv 1
+715 - Holiday Sack - Legendary Bag - Any Class - Lv 1  -- e56
+716 - Red Holiday Hat - Legendary Helm - Any Class - Lv 1  -- e24 e23 e13
+717 - Soft Happy Holiday Mittens - Legendary Fists - Berserker - Lv 1
+718 - Jolly Blade of Holiday Spirits - Legendary Sword - Templar - Lv 1
+719 - Seasonal Bow of Shared Joy - Legendary Bow - Warden - Lv 1
+720 - Not-So-Evil Candy Cane - Legendary Staff - Warlock - Lv 1
+721 - The Hardcore - Legendary Armor - Any Class - Lv 30  -- e1089
+722 - Ferocity - True Legendary Amulet - Any Class - Lv 100  -- e1090 e1
+723 - Hydrascale Boots - True Legendary Boots - Any Class - Lv 100  -- e1091 e120
+724 - Challenger's Charm - Legendary Accessory - Any Class - Lv 30  -- e1094
+725 - Gravity - True Legendary Amulet - Any Class - Lv 100  -- e1097 e125
+726 - Sublime Health Potion - Enchanted Potion - Any Class - Lv 100
+727 - Sublime Mana Potion - Enchanted Potion - Any Class - Lv 100
+728 - Health Injector Mk2 - True Legendary Accessory - Any Class - Lv 100  -- e1099 e1
+729 - Mana Injector Mk2 - True Legendary Accessory - Any Class - Lv 100  -- e1100 e2
+730 - Rahlence's Resolution - True Legendary Accessory - Any Class - Lv 100  -- e1101 e21
+731 - Codex - Unique Relic - Any Class - Lv 1
+732 - Champion's Crown - Legendary Crafting Material - Any Class - Lv 50
+733 - Prismatic Sphere - Legendary Crafting Material - Any Class - Lv 50
+734 - Prismatic Cube - Legendary Crafting Material - Any Class - Lv 50
+735 - Prismatic Star - Legendary Crafting Material - Any Class - Lv 50
+736 - Ring of Pure Energies - True Legendary Ring - Any Class - Lv 100  -- e1108 e49
+737 - Unknown Scroll - Enchanted Unknown Item - Any Class - Lv 1
+738 - Spell Codex - Legendary Crafting Material - Any Class - Lv 50
+739 - Entity's Eccentricity - True Legendary Accessory - Any Class - Lv 100  -- e1109 e125
+740 - Lesser Rune - Legendary Item - Any Class - Lv 100
+741 - Runestone - Legendary Item - Any Class - Lv 100
+742 - Greater Rune - Legendary Item - Any Class - Lv 100
+743 - Battle Boots - True Legendary Boots - Any Class - Lv 100  -- e1111 e4
+744 - Lusombra's Path - Legendary Boots - Templar - Lv 40  -- e1114 e52
+745 - Boots of The Dancing Maiden - Legendary Boots - Templar - Lv 20  -- e1115
+746 - Acrobat's Slippers - Legendary Boots - Warden - Lv 15  -- e1117 e4
+747 - Boots of The Snow Elf - Legendary Boots - Warden - Lv 35  -- e1118 e4
+748 - Blazing Striders - Legendary Boots - Templar - Lv 30  -- e1122
+749 - Murmur - Legendary Helm - Warlock - Lv 35  -- e1123
+750 - The Bone Spear - Legendary Staff - Warlock - Lv 25  -- e1125 e8
+751 - Static Echoes - Legendary Amulet - Templar - Lv 30  -- e1129
+752 - Jon's Book of Souls - True Legendary Spellbook (Offhand) - Warlock - Lv 100  -- e1130
+753 - Art of Combat - True Legendary Tome (Offhand) - Templar - Lv 100  -- e1133 e5
+754 - Staggering Boots - Legendary Boots - Any Class - Lv 30  -- e1135 e4
+755 - Windflurry - Legendary Arrow (Offhand) - Warden - Lv 30  -- e1140 e44
+756 - Finned Arrow - Legendary Arrow (Offhand) - Warden - Lv 30  -- e1141 e42
+757 - Advancing Army - Legendary Boots - Any Class - Lv 30  -- e1142 e4
+758 - Tear of The Arch Druid - True Legendary Amulet - Any Class - Lv 100  -- e1145 e48
+759 - Star of The Pure - Legendary Amulet - Any Class - Lv 60  -- e1146
+760 - Vestige of Lost Souls - True Legendary Armor - Any Class - Lv 100  -- e1150 e2
+761 - Wolf Tooth Necklace - Legendary Amulet - Warden - Lv 25  -- e1151
+762 - Loaded Bolts - Legendary Arrow (Offhand) - Warden - Lv 50  -- e1153 e5
+763 - Call of the Wild - Legendary Accessory - Warden - Lv 30  -- e1154 e46
+764 - Gaia - True Legendary Bow - Warden - Lv 100  -- e1155 e46
+765 - Heart of the Forest - True Legendary Accessory - Any Class - Lv 100  -- e1156 e7
+766 - Thistle Thorn - Legendary Arrow (Offhand) - Warden - Lv 25  -- e1157 e5
+767 - Lucilla's Vision - True Legendary Helm - Any Class - Lv 100  -- e1158 e1
+769 - Tenacious Defender - Legendary Sword - Templar - Lv 30  -- e1159 e96 e97
+770 - Captain's Shield - Legendary Shield (Offhand) - Templar - Lv 40  -- e1160 e96 e97
+771 - Nemesis - Legendary Shield (Offhand) - Templar - Lv 50  -- e1161 e96 e97
+772 - Balgar's Binding - True Legendary Accessory - Any Class - Lv 100  -- e1165 e126
+773 - Wraps of the Lone Ranger - True Legendary Accessory - Warden - Lv 100  -- e1173 e100
+774 - Council's Gavel - True Legendary Accessory - Templar - Lv 100  -- e1166 e127
+775 - Tongue of the Deceiver - True Legendary Accessory - Warlock - Lv 100  -- e1162 e10
+776 - Unwavering Loyalty - True Legendary Amulet - Any Class - Lv 100  -- e1112
+777 - Splinter Skull Amulet - Legendary Amulet - Warlock - Lv 30  -- e1163 e102
+778 - Gritstone Amulet - Legendary Amulet - Berserker - Lv 30  -- e1164 e44
+779 - Hallowed Helm - Legendary Helm - Any Class - Lv 1  -- e1167 e47 e48
+780 - Pumpkin - Ordinary Quest Item - Any Class - Lv 1
+781 - Ancient Sickle - Unique Quest Item - Any Class - Lv 1
+782 - Unusual Pumpkin - Unique Relic - Any Class - Lv 1
+783 - Dragonring - Legendary Ring - Berserker - Lv 40  -- e1168 e39
+784 - Hydraloop - Legendary Ring - Any Class - Lv 20  -- e1169
+785 - Ring of Blades - Legendary Ring - Templar - Lv 40  -- e1170
+786 - Hammerblade - Legendary Sword - Templar - Lv 30  -- e1171 e5
+787 - Wind Dancer's Elegance - True Legendary Armor - Any Class - Lv 100  -- e1172 e22
+788 - The Thumper - Legendary Accessory - Any Class - Lv 1  -- e1175
+789 - Skin of Terror - Unique Armor - Any Class - Lv 1
+790 - Fang of Alucard - Unique Accessory - Any Class - Lv 1  -- e1176 e9
+791 - Ancient Bone - Unique Accessory - Any Class - Lv 1  -- e1177
+792 - Eye of Hazioxth - Unique Amulet - Any Class - Lv 1  -- e1179 e114
+793 - Shizbuk's Tail - Unique Accessory - Any Class - Lv 1  -- e1182
+794 - Ring of Hunger - Unique Ring - Any Class - Lv 1  -- e1181
+795 - Skull of Harlon - Unique Helm - Any Class - Lv 1  -- e1178
+796 - Skull of Grimm - Unique Relic - Any Class - Lv 1
+797 - Wing of Sziirk - Unique Relic - Any Class - Lv 1
+798 - Molten Skin Boots - Unique Boots - Any Class - Lv 1  -- e1180
+799 - Sight Beyond - Unique Accessory - Any Class - Lv 1  -- e100 e26 e54
+800 - Stone of Tephra - Unique Accessory - Any Class - Lv 1  -- e1183
+801 - Boots of Hazard - Legendary Boots - Any Class - Lv 30  -- e1174 e9
+802 - Fungimancer's Loop - Legendary Ring - Warden - Lv 30  -- e1184 e41
+803 - Grimm - True Legendary Staff - Warlock - Lv 100  -- e1185 e100
+804 - Simulacra - True Legendary Staff - Warlock - Lv 100  -- e1186 e19
+805 - Haymaker - True Legendary Fists - Berserker - Lv 100  -- e1188 e5
+806 - The Last Word - True Legendary Fists - Berserker - Lv 100  -- e1191 e100
+807 - Aspect of the Ethereal - True Legendary Ring - Any Class - Lv 100  -- e1192 e60 e59
+808 - Contra - True Legendary Shield (Offhand) - Templar - Lv 100  -- e97 e96 e1193 e100
+809 - Venerata - True Legendary Sword - Templar - Lv 100  -- e1194 e49
+810 - Ancient Claw of The Firstborn - True Legendary Claw (Offhand) - Berserker - Lv 100  -- e1195 e5
+811 - Prayer Beads - True Legendary Accessory - Templar - Lv 100  -- e1196 e4
+812 - Talisman of Spines - True Legendary Amulet - Any Class - Lv 100  -- e1197 e8
+813 - Crown of Innate Probability - True Legendary Helm - Any Class - Lv 100  -- e1198 e120
+814 - Mantle of the Dragonkin - True Legendary Accessory - Berserker - Lv 100  -- e1199 e72
+817 - Cosmic Cape - True Legendary Accessory - Any Class - Lv 100  -- e1718 e2
+818 - Primordial Rose - True Legendary Ring - Any Class - Lv 100  -- e1706 e47
+819 - Rimeheart - Legendary Ring - Berserker - Lv 30  -- e1708 e40
+820 - Frozen Anger - Legendary Accessory - Berserker - Lv 30  -- e1709 e105
+821 - Paingrinder - Legendary Accessory - Berserker - Lv 30  -- e1710 e8
+822 - Drakehoof - Legendary Boots - Berserker - Lv 20  -- e1711 e4
+823 - Gemstone Tiara - Legendary Helm - Any Class - Lv 40  -- e1712 e124
+824 - Stormchasers - True Legendary Boots - Any Class - Lv 100  -- e1713 e121
+825 - Faith - Legendary Amulet - Templar - Lv 30  -- e1714
+826 - Contender - Legendary Helm - Templar - Lv 30  -- e1715
+827 - Sniper's Eye - Legendary Helm - Warden - Lv 30  -- e1716 e19
+828 - Runelord's Remorse - Legendary Crafting Material - Any Class - Lv 100
+829 - Prismatic Liquid - Legendary Crafting Material - Any Class - Lv 100
+830 - Heart of The Community - Unique Accessory - Any Class - Lv 1  -- e1717

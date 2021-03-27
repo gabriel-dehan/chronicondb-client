@@ -1,0 +1,4 @@
+@¿Qué son los compañeros?
+Los compañeros son cualquier seguidor, esbirro o mascota que se obtenga a través de objetos, mejoras o habilidades. Puedes identificarlos fácilmente porque tienen una barra de salud. Los encantamientos de Satélite, etc. no se consideran compañeros.
+@¿Qué estadísticas afectan a mis compañeros?
+El Daño de tu compañero se basa directamente en tu propia estadística de Daño, por los porcentajes indicados en la habilidad/objeto. Su Salud crece de manera similar a la del enemigo y aumenta con dificultad. Luego, esto se multiplica por las estadísticas de "Salud del Compañero" y "Daño del Compañero". Los compañeros también usan tus estadísticas de Daño Elemental, Resistencias, Probabilidad de Golpe Crítico, Daño de Golpe Crítico, Dominación, Reducción de Enfriamiento, Velocidad de Ataque y Velocidad de Movimiento.
