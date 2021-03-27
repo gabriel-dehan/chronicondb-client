@@ -68,6 +68,7 @@ export enum ItemType {
   Elixir = 'Elixir',
   QuestItem = 'Quest Item',
   SpecialItem = 'Special Item',
+  Dye = 'Dye',
   Scroll = 'Scroll',
   Potion = 'Potion',
   Container = 'Container',

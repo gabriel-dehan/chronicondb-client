@@ -1,0 +1,10 @@
+@¿Qué son las misiones?
+Las misiones son objetivos que debes realizar. Te darán un instrucciones sobre cómo lograrlo, y cuando lo hayas logrado, recibirás la recompensa que aparece en tu registro de misiones. Las misiones opcionales a menudo recompensan equipamientos y logros únicos.
+@¿Cómo consulto mi registro de misiones?
+Abre tu inventario (predeterminado "I" en el teclado o "atrás" en el gamepad) y navega hasta el signo de exclamación rojo en la parte superior derecha de la página de tu inventario.
+@¿Dónde encuentro misiones?
+La línea principal de misiones de la historia se obtiene de Korem en el Chronicon. Otras misiones se encuentran a menudo cerca de las entradas de varias áreas. Si un personaje tiene una misión para ti, aparecerá un "!" Naranja sobre su cabeza. Si ya tienes la misión, aparecerá un "?" Gris, y si la misión está lista para completarse, el "?" será naranja.
+@¿Cómo completo una misión?
+Algunas misiones se completarán automáticamente cuando se cumplan los objetivos, otras se actualizarán y requerirán que busque a alguien; esta suele ser la persona que te dio la misión. Si se actualiza una misión, recibirás un mensaje de texto en la pantalla, y el texto de la misión en tu registro de misiones se actualizará con información adicional.
+@¿Cómo sigo una misión?
+Las misiones recién obtenidas se rastrearán automáticamente, y puede cambiar manualmente cuál rastrear desde el Registro de Misiones. Puedes rastrear hasta 5 misiones a la vez.

@@ -1,0 +1,14 @@
+@¿Cómo interactúo con objetos, elementos o personajes?
+Simplemente párate cerca de ellos y presiona el botón de interacción (predeterminado "A" en el joystick) o si estás usando el mouse y el teclado, debes colocar el mouse sobre el elemento y hacer clic en él (el botón izquierdo predeterminado del mouse se puede cambiar a una tecla del teclado u otro botón del mouse, si se cambia a una tecla del teclado, no es necesario que coloque el cursor sobre el elemento e interactuará con el más cercano).
+@¿Cómo apunto mis hechizos?
+Al pasar el mouse sobre un enemigo, lo establecerás como objetivo para tu próximo hechizo o ataque, la mayoría de los hechizos y ataques también admiten la orientación gratuita, lo que significa que irán a donde está tu cursor. Si usas un mando, cambias la dirección con el joystick derecho apuntarás automáticamente al enemigo más cercano. También hay una opción para hacer que los objetivos del mouse sean fijados en el menú Opciones de Juego. Esto significa que el objetivo permanecerá si aleja el cursor del mouse.
+@¿Cómo me muevo?
+De forma predeterminada, mueves a tu personaje con las teclas WASD o el joystick izquierdo. Puede volver a enlazar las teclas del teclado desde el menú de opciones, pero no desde el mando. También hay una opción de hacer clic para mover.
+@¿Qué es hacer clic para mover?
+Esto te permite moverte sin usar el teclado, ya sea haciendo clic en una ubicación y tu personaje encontrará un camino allí, o manteniendo presionado el botón izquierdo del mouse y tu personaje correrá continuamente hacia el cursor e ignorará cualquier pared en su camino. Nota: los personajes actualmente no encuentran caminos alrededor de objetos como luces, cofres, objetos rompibles y otros detalles.
+@¿Cómo ataco e interactúo con hacer clic para mover?
+Simplemente haz clic en aquello con lo que deseas atacar o interactuar. Tus habilidades se utilizan normalmente con las teclas de acceso rápido de tus habilidades. Puedes mantener presionada la tecla MAYÚS para forzar los ataques mientras usas el clic para moverte, en caso de que te encuentres dando algunos pasos involuntarios durante una pelea.
+@¿Puedo apagar el retumbar/vibración?
+Sí, ve al menú Opciones, luego a Controles y a la Configuración del Controlador de juego del número de jugador para la configuración de cada jugador.
+@¿Puedo cambiar la sensibilidad de los joysticks analógicos en mi gamepad?
+Sí, igual que arriba.

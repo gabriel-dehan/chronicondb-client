@@ -6,6 +6,7 @@ import { readSourceFile, writeFile } from '../utils/fileUtils';
 
 type EnchantsPool = Record<ItemType, Record<EnchantType, number[]>>;
 
+// TODO: Should use the enchantpool with the values already inject
 export function parseEnchantsPool(version: string, verbose: false): EnchantsPool {
   const rawEnchants = compact(readSourceFile(version, 'enchantlist.txt').split(/\n|\r/));
   const rawEnchantsPool = compact(readSourceFile(version, 'enchantpool.txt').split(/\n|\r/));

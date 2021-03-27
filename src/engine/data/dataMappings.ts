@@ -130,6 +130,7 @@ export const ITEM_TYPES_BY_CATEGORIES: Record<ItemCategory, ItemType[]> = {
     ItemType.Key,
     ItemType.QuestItem,
     ItemType.SpecialItem,
+    ItemType.Dye,
     ItemType.Container,
     ItemType.UnknownItem,
     ItemType.Bag,

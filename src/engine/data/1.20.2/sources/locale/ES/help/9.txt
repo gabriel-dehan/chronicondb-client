@@ -1,0 +1,116 @@
+@Rendimientos Decrecientes
+Algunas estadísticas tienen rendimientos decrecientes; esto significa que cuanta más alta sea la estadística, menos se suma. Para aclarar con un ejemplo: con una estadística aditiva se vería así: 8% + 8% + 8% = 24%. Con una estadística decreciente, se vería así: 1- (0.92 * 0.92 * 0.92) = 22%. La pérdida es mayor cuanto más le agregas. Las siguientes estadísticas tienen rendimientos decrecientes:
+[list]
+*Reducción de Daño
+* Reducción de Daño de Compañeros
+*Evasión
+*Reducción de Enfriamiento
+*Reducción del Costo de Maná
+*Duración del Efecto
+*Alcance
+*Daño de Tambaleo
+*Escudo de Maná
+*Fuerza de voluntad (duración del efecto negativo)
+[/list]
+@Salud
+Cuánto daño puedes recibir antes de morir.
+@Maná
+Este es un recurso que se agota cuando usas habilidades.
+@Daño
+Este es tu daño base, las bonificaciones elementales se aplican además de este número.
+@Velocidad de Ataque
+Así de rápido podrás atacar. Afecta la velocidad de animación de tus ataques, por lo que las habilidades con bajo tiempo de enfríamiento se pueden realizar más rápido. También te permite moverte antes después de atacar, ya que la animación se completa más rápido.
+@Dominación
+Esta es una estadística de perforación de resistencia. Dominación, al igual que las Resistencias, solo afecta al daño directo, por lo que las Espinas y otros efectos que no activan los efectos de impacto no se ven afectados por las resistencias de Dominación y del enemigo. Ejemplo: un valor de Dominación del 50% ignorará el 50% de todas las resistencias de los enemigos. (Lo que significa que un enemigo con un 30% de resistencia al fuego será tratado como si tuviera un 15%)
+@Alcance
+Esta estadística aumenta el alcance, el radio y la distancia utilizada por todas las habilidades.
+@Ira (Solo Berserker)
+La Ira es una estadística única utilizada por el Berserker. Aumenta cuando recibes daño, infliges daño y matas enemigos. ¡Los enemigos agitadores también añaden más Ira! La Ira mejorará algunas habilidades pasivas y las habilidades especiales de "Herencia" del Berserker. La Ira se desvanece lentamente con el tiempo.
+@Almas (solo Brujo)
+Almas es una estadística única utilizada por el Brujo. Recolectas almas matando enemigos y puedes sacrificarlas para activar las habilidades de utilidad, o retenerlas para potenciar algunas habilidades pasivas. ¡Las almas se desvanecen con el tiempo!
+@Reducción del Daño
+Reduce el daño recibido de todas las fuentes, escala de forma multiplicativa en lugar de aditiva.
+@Evasión
+La evasión brinda la oportunidad de evitar por completo el daño de la mayoría de los golpes directos. Es usada principalmente por la Guardián y el Brujo. Escala de forma multiplicativa en lugar de aditiva.
+@Daño de Tambaleo
+Esta es una estadística especial que inflige parte del daño recibido durante 3 segundos en lugar de instantáneamente, lo que le brinda un mayor tiempo para recuperarse del daño. También tiene una reducción de daño base del 30%, por lo que el daño se escalona en el tiempo solo causa el 70% de lo que es. Escala de forma multiplicativa en lugar de aditiva. El daño de Tambaleo se aplica directamente a la Salud e ignorará cualquier barrera protectora, etc. ¡Asegúrate de escalar tu regeneración de Salud!
+@Tasa de Bloqueo y Daño Bloqueado (solo Templario)
+Estas estadísticas indican tu probabilidad de bloquear un ataque y, si lo bloqueas, cuánto se reduce el daño. ¡Cualquier ataque puede bloquearse siempre que tengas un escudo equipado!
+@Probabilidad de Golpe Crítico
+Esto indica qué tan alta es tu probabilidad de obtener un golpe crítico, causando daño adicional.
+@Daño de Golpe Crítico
+Esto indica cuánto daño harán tus golpes críticos en comparación con los golpes regulares.
+@Velocidad de Movimiento
+Así de rápido puedes correr.
+@Estadísticas de daño elemental (físico, fuego, escarcha, etc.)
+Estas estadísticas muestran cuánto daño adicional haces con las habilidades de ciertos elementos.
+@¿Qué es el "daño etéreo"?
+Este es un tipo de daño especial que normalmente se encuentra en los poderes especiales de los objetos legendarios. Ignora todas las resistencias enemigas y se beneficia de todas las estadísticas de daño elemental sumadas. ¡Esto significa que funciona para casi cualquier personaje y puede ser muy, muy poderoso!
+Nota: el daño por sangrado se considera etéreo en el sentido de que no es resistible, aunque no se beneficia de los poderes elementales y tiene su propia estadística de escala en su lugar (ver % de sangrado).
+@Espinas
+Esta es una estadística de daño especial que se inflige a los enemigos cuando te golpean. Las espinas se consideran daños físicos a menos que se especifique lo contrario. El daño de las espinas puede ser crítico, pero se considera daño indirecto y no necesita Dominar para escalar las resistencias enemigas.
+@Salud por Segundo
+Cuánta Salud recuperas por segundo
+@Maná por Segundo
+Cuánto Maná recuperas por segundo
+@Salud por Golpe
+Cuánta Salud recuperas con un golpe, mínimo. Cuanto mayor sea tu daño, más restaurarás. Ten en cuenta que la Salud por Golpe tiene un tiempo de reutilización de 0,1 segundos.
+@Maná por Golpe
+Cuánto Maná recuperas con un golpe, mínimo. Cuanto mayor sea tu daño, más restaurarás. Tenga en cuenta que Maná por Golpe tiene un tiempo de reutilización de 0,1 segundos.
+@Efectividad de la Poción
+Qué tan efectivas son tus pociones de Salud y Maná. ¡Aumenta este número y te curarán más!
+@Oportunidad de Derribo
+Cuán alta es tu probabilidad por golpe de derribar enemigos.
+@Resistencias (Físico, Fuego, Escarcha, etc.)
+Estas estadísticas muestran cuánto menos daño recibes de todas las fuentes del elemento correspondiente. Ten en cuenta que todas las resistencias están limitadas al 80%.
+@Reducción de Enfriamiento
+Cuánto tiempo se elimina de los tiempos de enfríamiento de tus habilidades. Escala hasta el al 90%. Escala de forma multiplicativa en lugar de aditiva.
+@Reducción del Costo de Maná
+Cuánto del costo de maná se elimina del uso de tu habilidad. Escala de forma multiplicativa en lugar de aditiva.
+@Duración del Efecto
+Cuánto tiempo durarán las mejoras (efectos positivos) y los hechizos. Sin límite, pero escala de forma multiplicativa en lugar de aditiva.
+@Fuerza de Recogida
+Esta estadística afecta la cantidad de salud y maná que te curarán.
+@Radio de Recogida
+Esta estadística afecta la distancia a la que se tomarán automáticamente las recolecciones de salud, maná y cristal. ¡Tus compañeros también usan esta estadística al recoger recolecciones!
+Esta estadística también aumenta el rango de radial de botín (tecla predeterminada: Q)
+@Cristales Encontrados
+Esta estadística aumenta la cantidad de cristales que obtienes de todas las fuentes excepto de los proveedores.
+@Descubrimiento Mágico
+Esta estadística aumenta la probabilidad de que encuentres más objetos raros y objetos que se ajusten a su clase. Escala hasta 999%.
+@Radio de Luz
+Esta estadística afecta la Luz que rodea a tu personaje.
+@Experiencia Adquirida
+Esta estadística afecta la experiencia que obtienes de todas las fuentes. Esto afecta tanto a los niveles regulares como a los niveles de maestría.
+@Salud del Compañero
+Esta estadística aumenta directamente la Salud de todos tus compañeros.
+@Daño del Compañero
+Esta estadística afecta directamente a la estadística de daño de todos tus compañeros.
+@Efecto Pasivo y de Uso de tu Compañero
+Esta estadística aumenta el efecto de cualquier bonificación pasiva otorgada por compañeros, como aumentos de estadísticas y auras. También aumenta el efecto de "Uso" de todas las habilidades de los compañeros. Por ejemplo, un compañero que tiene un hechizo listado como su efecto de "Uso" infligirá un daño mayor con ese hechizo proporcional a esta estadística.
+@Daño de Quemadura
+Esta estadística es una estadística de daño especial para los elementos que pueden causar un efecto de daño por quemadura en los enemigos. Se considera daño de fuego y también aumenta con la estadística de daño de fuego. NOTA: Esta estadística no afecta las habilidades que causan efectos de Quemadura.
+@Daño de Sangrado
+Una estadística de daño especial para los elementos que pueden causar un efecto de daño por sangrado en los enemigos. Se considera daño etéreo pero NO mejora con ninguna estadística elemental. NOTA: esta estadística no afecta las habilidades que causan efectos de sangrado.
+@Aumento de los Efectos de Sangrado en %
+Esta es una estadística de escala especial que afecta a todos los tipos de efectos de sangrado al aumentar sus valores de daño base en un cierto porcentaje.
+@Daño de Escarcha
+Una estadística de daño especial para elementos que pueden causar daño de Escarcha adicional a los enemigos al instante. También aumenta con la estadística de daño de Escarcha. NOTA: Esta estadística no afecta las habilidades que causan efectos de Frío.
+@Daño de Veneno por Segundo
+Esta estadística es una estadística de daño especial para los elementos que pueden causar un efecto de daño de Veneno en los enemigos. Se considera daño de veneno y también aumenta con la estadística de daño de veneno. NOTA: esta estadística no afecta las habilidades que causan efectos de Veneno.
+@Daño de Cadena Relámpago
+Una estadística de daño especial para elementos que pueden causar daño adicional Eléctrico a los enemigos al instante. También aumenta con la estadística de daño Eléctrico.
+@Castigo
+Una estadística de daño especial para elementos que pueden causar daño Sagrado adicional a los enemigos al instante. También aumenta con la estadística de daño sagrado.
+@Plaga
+Una estadística de daño especial para los elementos que pueden causar un efecto de daño de las Sombras en los enemigos. Se considera daño de las Sombras y también aumenta con la estadística de Daño de las Sombras.
+@Daño de Satélite
+Aumenta el daño de todos los encantamientos de tipo satélite.
+@Fuerza de Gema
+Aumenta la fuerza de todas las gemas engarzadas en tu equipo.
+@Fuerza de Voluntad
+Reduce la duración de los efectos negativos en el jugador, como perjuicios dañinos.
+@ Resistencia al Efecto de Suelo
+Reduce el daño recibido específicamente por los efectos del suelo, como el suelo en llamas, los charcos de veneno y cosas por el estilo.
+@Resistencia al Daño Indirecto
+Reduce el daño recibido por cualquier daño indirecto, como hemorragias, quemaduras, venenos y otros efectos de perjuicio. Esto también afecta al daño recibido de Thorns, ¡ya que Thorns es daño indirecto!
