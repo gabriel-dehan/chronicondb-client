@@ -1,0 +1,924 @@
+[h1]Helm[/h1]
+[list]
+[b]Epic[/b]
+[list]
+[/list]
+[b]Major[/b]
+[list]
+[*]1 - Health - +450/500/575/725/900, 475/550/650/850/1050, 500/700/901/1100/1500, 2000 Health
+[*]2 - Mana - +90/100/115/145/180, 95/111/130/170/210, 100/200/300/450/600, 800 Mana
+[*]6 - Health Regeneration - +10/11/13/16/20, 11/13/15/19/24, 20/40/70/100/150, 200 Health Regeneration
+[*]7 - Mana Regeneration - +7/7/9/11/13, 7/8/10/12/15, 7/10/18/30/50, 110 Mana Regeneration
+[*]10 - Leech - +10/15/15/15/15, 15/15/15/15/16, 10/20/35/50/80, 100 Mana On Hit
+[*]19 - Critical Hit Chance - +2/3/4/5/6, 4/5/6/7/8, 5/8/10/12/15, 20% Critical Hit Chance
+[*]27 - Physical Resistance - +4/5/6/7/9, 7/8/9/10/12, 8/10/12/15/20, 30% Physical Resistance
+[*]39 - Fire Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Fire Damage
+[*]40 - Frost Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Frost Damage
+[*]42 - Lightning Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Lightning Damage
+[*]41 - Poison Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Poison Damage
+[*]53 - Shadow Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Shadow Damage
+[*]43 - Holy Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Holy Damage
+[*]44 - Physical Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Physical Damage
+[*]134 - Healing from all sources - 5/6/8/12/20, 8/9/12/18/30, 12/15/20/30/50, 70% increased Healing from all sources
+[*]51 - Critical Hit Damage - +5/7/9/11/13, 8/12/14/16/18, 8/12/15/20/25, 35% Critical Hit Damage
+[*]126 - Damage Stagger - 4/5/6/8/11, 4/5/7/10/12, 4/6/8/12/15, 20% of damage taken is staggered and dealt over 3 seconds, at a 30% damage reduction
+[/list]
+[b]Minor[/b]
+[list]
+[*]133 - Indirect Damage Resistance - 4/5/6/8/8, 6/8/9/11/12, 10/12/15/18/20, 25% reduced damage from indirect sources and debuffs
+[*]8 - Thorns - +405/450/518/653/810, 428/496/585/765/945, 500/800/950/1250/1800, 2500 Thorns
+[*]13 - Magic Find - +4/4/6/8/10, 8/10/12/13/14, 8/10/15/20/25, 50% Magic find
+[*]21 - Effect Duration - +2/2/3/5/7, 3/3/4/8/10, 4/5/8/12/15, 17% Effect Duration
+[*]50 - Cooldown Reduction - +2/2/3/5/7, 3/3/4/8/10, 4/5/8/12/15, 17% Cooldown Reduction
+[*]100 - Reach - +2/2/3/5/7, 3/3/4/8/10, 4/5/8/12/15, 17% Reach
+[*]23 - Bonus Crystals - +5/7/9/11/13, 10/13/16/19/22, 10/16/20/25/33, 50% Bonus Crystals
+[*]24 - Experience - +5/6/7/8/9, 5/7/9/11/13, 10/16/20/25/33, 50% Bonus Experience
+[*]34 - Fire Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Fire Resistance
+[*]35 - Frost Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Frost Resistance
+[*]37 - Lightning Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Lightning Resistance
+[*]36 - Poison Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Poison Resistance
+[*]38 - Holy Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Holy Resistance
+[*]52 - Shadow Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Shadow Resistance
+[*]46 - Companion Damage - +5/7/9/11/13, 8/12/14/16/18, 8/12/15/20/35, 50% Companion Damage
+[*]54 - Light Radius - +10/12/14/16/18, 15/20/25/30/35, 15/20/28/35/45, 60% Light Radius
+[*]125 - Satellite Strength - +4/5/6/8/11, 4/5/7/10/12, 4/6/8/12/15, 20% increased damage of all Satellite enchants
+[/list]
+[/list]
+[h1]Armor[/h1]
+[list]
+[b]Epic[/b]
+[list]
+[*]120 - Damage Reduction - 2/2/4/5/6, 3/3/4/5/7, 5/6/8/10/15, 20% reduced damage from all direct sources
+[*]121 - Evasion - +1/1/2/3/5, 2/2/3/4/6, 5/6/7/8/10, 15% Evasion
+[*]69 - Kill Restoration - 15% chance to increase Health Regeneration by 1/4/7/10/13, 3/7/11/15/19, 10/10/15/25/40, 60% for 10 seconds after killing a foe. This effect may stack up to 5 times
+[*]70 - Kill Recharge - 15% chance to increase Mana Regeneration by 1/4/7/10/13, 3/7/11/15/19, 10/10/15/25/40, 60% for 10 seconds after killing a foe. This effect may stack up to 5 times
+[*]71 - Kill Healing - 5% chance to heal for 0/1/2/3/4, 0/1/2/3/4, 4/4/5/6/7, 8% of Maximum Health after killing a foe
+[*]78 - Hurt Fear - 4/6/8/10/12, 7/9/11/13/15, 10/15/20/25/30, 35% chance to cause attackers to run away in fear for up to 3 seconds when struck
+[*]79 - Hurt Knockback - 4/6/8/10/12, 7/9/11/13/15, 10/15/20/25/30, 35% chance to knock away attackers up to 3 meters when struck
+[*]80 - Frost Nova - 5% chance to release a Frost Nova dealing 25/25/45/75/110, 35/35/65/110/150, 40/40/80/140/200, 380% Frost damage when struck
+[*]81 - Holy Nova - 5% chance to release a Holy Nova dealing 25/25/45/75/110, 35/35/65/110/150, 40/40/80/140/200, 380% Holy damage when struck
+[*]82 - Death Nova - 5% chance to release a nova of Deathblasts dealing 15/15/25/35/70, 25/25/35/45/90, 30/30/40/75/120, 250% Shadow damage when struck
+[*]83 - Discharge - 5% chance to release an electric orb dealing 15/15/25/35/70, 25/25/35/45/90, 30/30/40/75/120, 220% Lightning damage when struck
+[/list]
+[b]Major[/b]
+[list]
+[*]1 - Health - +450/500/575/725/900, 475/550/650/850/1050, 500/700/901/1100/1500, 2000 Health
+[*]2 - Mana - +90/100/115/145/180, 95/111/130/170/210, 100/200/300/450/600, 800 Mana
+[*]6 - Health Regeneration - +10/11/13/16/20, 11/13/15/19/24, 20/40/70/100/150, 200 Health Regeneration
+[*]7 - Mana Regeneration - +7/7/9/11/13, 7/8/10/12/15, 7/10/18/30/50, 110 Mana Regeneration
+[*]27 - Physical Resistance - +4/5/6/7/9, 7/8/9/10/12, 8/10/12/15/20, 30% Physical Resistance
+[*]134 - Healing from all sources - 5/6/8/12/20, 8/9/12/18/30, 12/15/20/30/50, 70% increased Healing from all sources
+[*]47 - Resist All - +5/5/6/8/10, 5/5/7/9/12, 6/8/10/12/15, 20% to all Resistances
+[*]48 - Power All - +5/6/7/8/9, 8/10/12/13/14, 8/10/12/15/20, 25% to all Elements
+[*]126 - Damage Stagger - 4/5/6/8/11, 4/5/7/10/12, 4/6/8/12/15, 20% of damage taken is staggered and dealt over 3 seconds, at a 30% damage reduction
+[/list]
+[b]Minor[/b]
+[list]
+[*]8 - Thorns - +405/450/518/653/810, 428/496/585/765/945, 500/800/950/1250/1800, 2500 Thorns
+[*]49 - Mana Cost Reduction - +1/2/3/4/5, 5/6/7/8/9, 5/7/8/10/12, 18% Mana Cost Reduction
+[*]22 - Pickup Strength - +5/8/11/14/17, 7/10/13/16/19, 8/10/15/20/25, 50% Pickup Strength
+[*]26 - Pickup Radius - +10/12/14/16/18, 15/19/23/27/31, 15/20/25/35/40, 60% Pickup Radius
+[*]34 - Fire Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Fire Resistance
+[*]35 - Frost Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Frost Resistance
+[*]37 - Lightning Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Lightning Resistance
+[*]36 - Poison Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Poison Resistance
+[*]38 - Holy Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Holy Resistance
+[*]52 - Shadow Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Shadow Resistance
+[*]45 - Companion Health - +5/7/9/11/13, 8/12/14/16/18, 8/12/15/20/35, 50% Companion Health
+[*]124 - Gem Strength - +4/5/6/8/11, 4/5/7/10/12, 4/6/8/12/15, 20% increased effect of all Gems
+[/list]
+[/list]
+[h1]Amulet[/h1]
+[list]
+[b]Epic[/b]
+[list]
+[*]119 - Crown Slaying - +5/6/7/8/9, 8/10/12/13/14, 8/10/12/15/20, 25% damage vs. Crowned foes
+[*]120 - Damage Reduction - 2/2/4/5/6, 3/3/4/5/7, 5/6/8/10/15, 20% reduced damage from all direct sources
+[*]28 - Lightning Orb - Satellite: An orb of lightning circles the player, casting Chain Lightning every second, dealing 5/5/15/25/60, 10/10/20/30/65, 15/15/25/50/100, 150% Lightning damage
+[*]29 - Frost Orb - Satellite: A frost orb circles the player, casting a Frost Spear every second, dealing 10/10/20/40/75, 15/15/25/50/95, 20/20/35/65/115, 180% Frost damage
+[*]30 - Molten Orb - Satellite: A molten orb circles the player, casting Firebomb every second, dealing 10/10/18/25/65, 15/15/25/38/85, 20/20/30/50/110, 165% Fire damage
+[*]31 - Poison Orb - Satellite: A poison orb circles the player, poisoning nearby enemies for 10/10/20/30/70, 15/15/25/40/90, 20/20/30/55/120, 180% Poison damage per second
+[*]32 - Holy Orb - Satellite: A holy orb circles the player, casting Holy Bolt twice per second, each dealing 10/10/20/40/75, 15/15/25/50/95, 20/20/35/65/125, 200% Holy damage
+[*]122 - Spiked Orb - Satellite: A spiked orb circles the player, hitting nearby foes, dealing 8/8/12/20/33, 10/12/16/26/45, 10/12/20/33/65, 100% Physical damage two times per second
+[*]123 - Shadow Orb - Satellite: A shadow orb circles the player, defiling nearby foes, dealing 8/8/12/20/33, 10/12/16/26/45, 10/12/20/33/65, 100% Shadow damage two times per second
+[*]65 - Kill Hoarder - 4/4/5/6/8, 5/6/8/9/12, 8/10/12/15/20, 25% chance for foes to burst out extra crystals upon death
+[*]66 - Kill Explode - 4/4/5/6/8, 5/6/8/9/12, 8/10/12/15/20, 25% chance to explode foes upon their death, dealing up to 30% of their maximum health as Ethereal damage to other nearby foes
+[*]67 - Kill Pickups - 4/4/5/6/8, 5/6/8/9/12, 8/10/12/15/20, 25% chance to spawn additional health and mana pickups on kill
+[*]68 - Kill Damage - 15% chance to increase Damage by 4/4/5/6/8, 5/6/8/9/12, 8/10/12/15/20, 25% for 10 seconds after killing a foe. This effect may stack up to 5 times
+[*]69 - Kill Restoration - 15% chance to increase Health Regeneration by 1/4/7/10/13, 3/7/11/15/19, 10/10/15/25/40, 60% for 10 seconds after killing a foe. This effect may stack up to 5 times
+[*]70 - Kill Recharge - 15% chance to increase Mana Regeneration by 1/4/7/10/13, 3/7/11/15/19, 10/10/15/25/40, 60% for 10 seconds after killing a foe. This effect may stack up to 5 times
+[*]71 - Kill Healing - 5% chance to heal for 0/1/2/3/4, 0/1/2/3/4, 4/4/5/6/7, 8% of Maximum Health after killing a foe
+[*]72 - Kill Haste - 15% chance to increase Movement Speed by 2/4/4/5/6, 2/4/6/8/10, 5/8/10/12/15, 20% for 10 seconds after killing a foe. This effect may stack up to 5 times
+[*]76 - Hurt Slow - 4/6/8/10/12, 7/9/11/13/15, 10/15/20/25/30, 35% chance to slow attacker by 50% for 5 seconds when struck
+[*]77 - Hurt Root - 4/6/8/10/12, 7/9/11/13/15, 10/15/20/25/30, 35% chance to root and immobilize attacker for 3 seconds when struck
+[*]78 - Hurt Fear - 4/6/8/10/12, 7/9/11/13/15, 10/15/20/25/30, 35% chance to cause attackers to run away in fear for up to 3 seconds when struck
+[*]79 - Hurt Knockback - 4/6/8/10/12, 7/9/11/13/15, 10/15/20/25/30, 35% chance to knock away attackers up to 3 meters when struck
+[*]80 - Frost Nova - 5% chance to release a Frost Nova dealing 25/25/45/75/110, 35/35/65/110/150, 40/40/80/140/200, 380% Frost damage when struck
+[*]81 - Holy Nova - 5% chance to release a Holy Nova dealing 25/25/45/75/110, 35/35/65/110/150, 40/40/80/140/200, 380% Holy damage when struck
+[*]82 - Death Nova - 5% chance to release a nova of Deathblasts dealing 15/15/25/35/70, 25/25/35/45/90, 30/30/40/75/120, 250% Shadow damage when struck
+[*]83 - Discharge - 5% chance to release an electric orb dealing 15/15/25/35/70, 25/25/35/45/90, 30/30/40/75/120, 220% Lightning damage when struck
+[*]87 - Low Health Heal - Any attack that brings you below 30% Maximum Health instantly restores 900/1000/1150/1450/1800, 950/1100/1300/1700/2100, 1000/1200/1500/2000/2500, 4000 Health. 30 Second cooldown
+[*]33 - Sturdy - Makes you immune to all knockback and pull effects
+[/list]
+[b]Major[/b]
+[list]
+[*]101 - Overpower - +0/2/3/4/6, 1/3/5/7/9, 5/8/11/15/18, 22% Overpower
+[*]1 - Health - +450/500/575/725/900, 475/550/650/850/1050, 500/700/901/1100/1500, 2000 Health
+[*]2 - Mana - +90/100/115/145/180, 95/111/130/170/210, 100/200/300/450/600, 800 Mana
+[*]6 - Health Regeneration - +10/11/13/16/20, 11/13/15/19/24, 20/40/70/100/150, 200 Health Regeneration
+[*]7 - Mana Regeneration - +7/7/9/11/13, 7/8/10/12/15, 7/10/18/30/50, 110 Mana Regeneration
+[*]4 - Movement Speed - +2/4/4/5/6, 5/8/10/12/15, 5/8/10/12/15, 20% Movement Speed
+[*]5 - Attack Speed - +3/4/4/6/6, 6/8/10/10/10, 6/8/10/13/15, 20% Attack Speed
+[*]9 - Vampire - +10/13/13/13/13, 15/15/15/15/16, 10/20/31/40/55, 65 Health On Hit
+[*]19 - Critical Hit Chance - +2/3/4/5/6, 4/5/6/7/8, 5/8/10/12/15, 20% Critical Hit Chance
+[*]27 - Physical Resistance - +4/5/6/7/9, 7/8/9/10/12, 8/10/12/15/20, 30% Physical Resistance
+[*]39 - Fire Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Fire Damage
+[*]40 - Frost Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Frost Damage
+[*]42 - Lightning Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Lightning Damage
+[*]41 - Poison Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Poison Damage
+[*]53 - Shadow Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Shadow Damage
+[*]43 - Holy Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Holy Damage
+[*]44 - Physical Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Physical Damage
+[*]113 - Undead Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Undead
+[*]114 - Spectral Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Spectral
+[*]115 - Arachnid Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Arachnids
+[*]116 - Demon Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Demons
+[*]117 - Beast Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Beasts
+[*]118 - Fae Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Fae
+[*]130 - Humanoid Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Humanoids
+[*]131 - Mechanical Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Mechanicals
+[*]129 - Elemental Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Elementals
+[*]47 - Resist All - +5/5/6/8/10, 5/5/7/9/12, 6/8/10/12/15, 20% to all Resistances
+[*]48 - Power All - +5/6/7/8/9, 8/10/12/13/14, 8/10/12/15/20, 25% to all Elements
+[*]51 - Critical Hit Damage - +5/7/9/11/13, 8/12/14/16/18, 8/12/15/20/25, 35% Critical Hit Damage
+[/list]
+[b]Minor[/b]
+[list]
+[*]133 - Indirect Damage Resistance - 4/5/6/8/8, 6/8/9/11/12, 10/12/15/18/20, 25% reduced damage from indirect sources and debuffs
+[*]13 - Magic Find - +4/4/6/8/10, 8/10/12/13/14, 8/10/15/20/25, 50% Magic find
+[*]49 - Mana Cost Reduction - +1/2/3/4/5, 5/6/7/8/9, 5/7/8/10/12, 18% Mana Cost Reduction
+[*]21 - Effect Duration - +2/2/3/5/7, 3/3/4/8/10, 4/5/8/12/15, 17% Effect Duration
+[*]50 - Cooldown Reduction - +2/2/3/5/7, 3/3/4/8/10, 4/5/8/12/15, 17% Cooldown Reduction
+[*]100 - Reach - +2/2/3/5/7, 3/3/4/8/10, 4/5/8/12/15, 17% Reach
+[*]22 - Pickup Strength - +5/8/11/14/17, 7/10/13/16/19, 8/10/15/20/25, 50% Pickup Strength
+[*]23 - Bonus Crystals - +5/7/9/11/13, 10/13/16/19/22, 10/16/20/25/33, 50% Bonus Crystals
+[*]24 - Experience - +5/6/7/8/9, 5/7/9/11/13, 10/16/20/25/33, 50% Bonus Experience
+[*]34 - Fire Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Fire Resistance
+[*]35 - Frost Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Frost Resistance
+[*]37 - Lightning Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Lightning Resistance
+[*]36 - Poison Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Poison Resistance
+[*]38 - Holy Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Holy Resistance
+[*]52 - Shadow Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Shadow Resistance
+[*]45 - Companion Health - +5/7/9/11/13, 8/12/14/16/18, 8/12/15/20/35, 50% Companion Health
+[*]46 - Companion Damage - +5/7/9/11/13, 8/12/14/16/18, 8/12/15/20/35, 50% Companion Damage
+[*]54 - Light Radius - +10/12/14/16/18, 15/20/25/30/35, 15/20/28/35/45, 60% Light Radius
+[*]55 - Potion Effectiveness - +5/7/9/11/13, 10/13/16/19/22, 12/16/22/30/35, 50% Potion Effectiveness
+[*]124 - Gem Strength - +4/5/6/8/11, 4/5/7/10/12, 4/6/8/12/15, 20% increased effect of all Gems
+[/list]
+[/list]
+[h1]Ring[/h1]
+[list]
+[b]Epic[/b]
+[list]
+[*]121 - Evasion - +1/1/2/3/5, 2/2/3/4/6, 5/6/7/8/10, 15% Evasion
+[*]127 - Stun - 1/1/2/2/2, 2/2/2/3/3, 2/2/3/4/5, 7% chance to stun foes hit for up to 3 seconds
+[*]28 - Lightning Orb - Satellite: An orb of lightning circles the player, casting Chain Lightning every second, dealing 5/5/15/25/60, 10/10/20/30/65, 15/15/25/50/100, 150% Lightning damage
+[*]29 - Frost Orb - Satellite: A frost orb circles the player, casting a Frost Spear every second, dealing 10/10/20/40/75, 15/15/25/50/95, 20/20/35/65/115, 180% Frost damage
+[*]30 - Molten Orb - Satellite: A molten orb circles the player, casting Firebomb every second, dealing 10/10/18/25/65, 15/15/25/38/85, 20/20/30/50/110, 165% Fire damage
+[*]31 - Poison Orb - Satellite: A poison orb circles the player, poisoning nearby enemies for 10/10/20/30/70, 15/15/25/40/90, 20/20/30/55/120, 180% Poison damage per second
+[*]32 - Holy Orb - Satellite: A holy orb circles the player, casting Holy Bolt twice per second, each dealing 10/10/20/40/75, 15/15/25/50/95, 20/20/35/65/125, 200% Holy damage
+[*]122 - Spiked Orb - Satellite: A spiked orb circles the player, hitting nearby foes, dealing 8/8/12/20/33, 10/12/16/26/45, 10/12/20/33/65, 100% Physical damage two times per second
+[*]123 - Shadow Orb - Satellite: A shadow orb circles the player, defiling nearby foes, dealing 8/8/12/20/33, 10/12/16/26/45, 10/12/20/33/65, 100% Shadow damage two times per second
+[*]65 - Kill Hoarder - 4/4/5/6/8, 5/6/8/9/12, 8/10/12/15/20, 25% chance for foes to burst out extra crystals upon death
+[*]66 - Kill Explode - 4/4/5/6/8, 5/6/8/9/12, 8/10/12/15/20, 25% chance to explode foes upon their death, dealing up to 30% of their maximum health as Ethereal damage to other nearby foes
+[*]67 - Kill Pickups - 4/4/5/6/8, 5/6/8/9/12, 8/10/12/15/20, 25% chance to spawn additional health and mana pickups on kill
+[*]68 - Kill Damage - 15% chance to increase Damage by 4/4/5/6/8, 5/6/8/9/12, 8/10/12/15/20, 25% for 10 seconds after killing a foe. This effect may stack up to 5 times
+[*]69 - Kill Restoration - 15% chance to increase Health Regeneration by 1/4/7/10/13, 3/7/11/15/19, 10/10/15/25/40, 60% for 10 seconds after killing a foe. This effect may stack up to 5 times
+[*]70 - Kill Recharge - 15% chance to increase Mana Regeneration by 1/4/7/10/13, 3/7/11/15/19, 10/10/15/25/40, 60% for 10 seconds after killing a foe. This effect may stack up to 5 times
+[*]71 - Kill Healing - 5% chance to heal for 0/1/2/3/4, 0/1/2/3/4, 4/4/5/6/7, 8% of Maximum Health after killing a foe
+[*]72 - Kill Haste - 15% chance to increase Movement Speed by 2/4/4/5/6, 2/4/6/8/10, 5/8/10/12/15, 20% for 10 seconds after killing a foe. This effect may stack up to 5 times
+[*]76 - Hurt Slow - 4/6/8/10/12, 7/9/11/13/15, 10/15/20/25/30, 35% chance to slow attacker by 50% for 5 seconds when struck
+[*]77 - Hurt Root - 4/6/8/10/12, 7/9/11/13/15, 10/15/20/25/30, 35% chance to root and immobilize attacker for 3 seconds when struck
+[*]78 - Hurt Fear - 4/6/8/10/12, 7/9/11/13/15, 10/15/20/25/30, 35% chance to cause attackers to run away in fear for up to 3 seconds when struck
+[*]79 - Hurt Knockback - 4/6/8/10/12, 7/9/11/13/15, 10/15/20/25/30, 35% chance to knock away attackers up to 3 meters when struck
+[*]84 - Hurt Movement Speed - 3/6/9/12/15, 8/11/13/15/20, 10/12/13/15/20, 30% chance to increase Movement Speed by 3/6/9/12/15, 8/11/13/15/20, 10/12/13/15/20, 30% for 5 seconds when struck
+[*]85 - Hurt Poison - 5% chance to poison attackers for 15/15/25/35/70, 25/25/35/45/90, 30/30/45/60/120, 200% Poison damage per second for 3 seconds when struck
+[*]86 - Hurt Burn - On hurt: 5% chance to burn attackers for 15/15/25/35/70, 25/25/35/45/90, 30/30/45/60/120, 200% Fire damage per second for 3 seconds when struck
+[*]88 - Low Health Damage - Any attack that brings you below 30% Maximum Health increases your Damage by 0/2/3/5/6, 0/3/6/9/12, 10/12/15/20/25, 30% for 5 seconds
+[*]89 - Low Health Explode - Any attack that brings you below 30% Maximum Health cause a series of explosions dealing 40/40/65/80/170, 50/50/85/110/210, 60/60/100/150/300, 500% Ethereal damage to any nearby foes
+[/list]
+[b]Major[/b]
+[list]
+[*]101 - Overpower - +0/2/3/4/6, 1/3/5/7/9, 5/8/11/15/18, 22% Overpower
+[*]1 - Health - +450/500/575/725/900, 475/550/650/850/1050, 500/700/901/1100/1500, 2000 Health
+[*]2 - Mana - +90/100/115/145/180, 95/111/130/170/210, 100/200/300/450/600, 800 Mana
+[*]6 - Health Regeneration - +10/11/13/16/20, 11/13/15/19/24, 20/40/70/100/150, 200 Health Regeneration
+[*]7 - Mana Regeneration - +7/7/9/11/13, 7/8/10/12/15, 7/10/18/30/50, 110 Mana Regeneration
+[*]3 - Damage - +200/300/345/435/540, 285/330/390/510/630, 200/400/600/800/1000, 1500 Damage
+[*]4 - Movement Speed - +2/4/4/5/6, 5/8/10/12/15, 5/8/10/12/15, 20% Movement Speed
+[*]5 - Attack Speed - +3/4/4/6/6, 6/8/10/10/10, 6/8/10/13/15, 20% Attack Speed
+[*]10 - Leech - +10/15/15/15/15, 15/15/15/15/16, 10/20/35/50/80, 100 Mana On Hit
+[*]106 - Burn - On hit: Deal 20/20/33/50/70, 35/35/50/75/100, 55/55/75/105/150, 250% Fire damage instantly and per second, for 3 seconds
+[*]108 - Chill - On hit: Deal 15/15/25/40/50, 25/25/35/65/80, 40/40/60/90/120, 200% Frost damage instantly
+[*]111 - Holy Smite - On hit: Deal 15/15/25/40/50, 25/25/35/65/80, 40/40/60/90/120, 200% Holy damage instantly
+[*]107 - Poison - On hit: Deal 20/20/33/50/70, 35/35/50/75/100, 55/55/75/105/150, 250% Poison damage instantly and per second, for 5 seconds
+[*]112 - Blight - On hit: Deal 20/20/33/50/70, 35/35/50/75/100, 55/55/75/105/150, 250% Shadow damage instantly and per second, for 5 seconds
+[*]110 - Bleed - On hit: Deal 20/20/33/50/70, 35/35/50/75/100, 55/55/75/105/150, 250% Bleed damage instantly and per second, for 3 seconds
+[*]109 - Chain Lightning - On hit: 25% chance to cause Chain Lightning for 15/15/25/40/50, 25/25/35/65/80, 40/40/60/90/120, 200% Lightning damage
+[*]19 - Critical Hit Chance - +2/3/4/5/6, 4/5/6/7/8, 5/8/10/12/15, 20% Critical Hit Chance
+[*]39 - Fire Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Fire Damage
+[*]40 - Frost Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Frost Damage
+[*]42 - Lightning Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Lightning Damage
+[*]41 - Poison Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Poison Damage
+[*]53 - Shadow Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Shadow Damage
+[*]43 - Holy Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Holy Damage
+[*]44 - Physical Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Physical Damage
+[*]102 - Bleed Damage - +10/13/16/19/22, 15/19/23/27/31, 15/20/30/40/60, 80% Bleed Damage
+[*]47 - Resist All - +5/5/6/8/10, 5/5/7/9/12, 6/8/10/12/15, 20% to all Resistances
+[*]48 - Power All - +5/6/7/8/9, 8/10/12/13/14, 8/10/12/15/20, 25% to all Elements
+[*]51 - Critical Hit Damage - +5/7/9/11/13, 8/12/14/16/18, 8/12/15/20/25, 35% Critical Hit Damage
+[/list]
+[b]Minor[/b]
+[list]
+[*]13 - Magic Find - +4/4/6/8/10, 8/10/12/13/14, 8/10/15/20/25, 50% Magic find
+[*]49 - Mana Cost Reduction - +1/2/3/4/5, 5/6/7/8/9, 5/7/8/10/12, 18% Mana Cost Reduction
+[*]21 - Effect Duration - +2/2/3/5/7, 3/3/4/8/10, 4/5/8/12/15, 17% Effect Duration
+[*]50 - Cooldown Reduction - +2/2/3/5/7, 3/3/4/8/10, 4/5/8/12/15, 17% Cooldown Reduction
+[*]22 - Pickup Strength - +5/8/11/14/17, 7/10/13/16/19, 8/10/15/20/25, 50% Pickup Strength
+[*]23 - Bonus Crystals - +5/7/9/11/13, 10/13/16/19/22, 10/16/20/25/33, 50% Bonus Crystals
+[*]24 - Experience - +5/6/7/8/9, 5/7/9/11/13, 10/16/20/25/33, 50% Bonus Experience
+[*]34 - Fire Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Fire Resistance
+[*]35 - Frost Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Frost Resistance
+[*]37 - Lightning Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Lightning Resistance
+[*]36 - Poison Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Poison Resistance
+[*]38 - Holy Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Holy Resistance
+[*]52 - Shadow Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Shadow Resistance
+[*]45 - Companion Health - +5/7/9/11/13, 8/12/14/16/18, 8/12/15/20/35, 50% Companion Health
+[*]46 - Companion Damage - +5/7/9/11/13, 8/12/14/16/18, 8/12/15/20/35, 50% Companion Damage
+[*]54 - Light Radius - +10/12/14/16/18, 15/20/25/30/35, 15/20/28/35/45, 60% Light Radius
+[*]55 - Potion Effectiveness - +5/7/9/11/13, 10/13/16/19/22, 12/16/22/30/35, 50% Potion Effectiveness
+[*]125 - Satellite Strength - +4/5/6/8/11, 4/5/7/10/12, 4/6/8/12/15, 20% increased damage of all Satellite enchants
+[*]124 - Gem Strength - +4/5/6/8/11, 4/5/7/10/12, 4/6/8/12/15, 20% increased effect of all Gems
+[/list]
+[/list]
+[h1]Boots[/h1]
+[list]
+[b]Epic[/b]
+[list]
+[*]127 - Stun - 1/1/2/2/2, 2/2/2/3/3, 2/2/3/4/5, 7% chance to stun foes hit for up to 3 seconds
+[*]128 - Interrupt - 1/1/1/2/2, 1/2/2/2/3, 1/2/2/3/4, 5% chance to interrupt attacks of foes hit
+[*]72 - Kill Haste - 15% chance to increase Movement Speed by 2/4/4/5/6, 2/4/6/8/10, 5/8/10/12/15, 20% for 10 seconds after killing a foe. This effect may stack up to 5 times
+[*]76 - Hurt Slow - 4/6/8/10/12, 7/9/11/13/15, 10/15/20/25/30, 35% chance to slow attacker by 50% for 5 seconds when struck
+[*]77 - Hurt Root - 4/6/8/10/12, 7/9/11/13/15, 10/15/20/25/30, 35% chance to root and immobilize attacker for 3 seconds when struck
+[*]84 - Hurt Movement Speed - 3/6/9/12/15, 8/11/13/15/20, 10/12/13/15/20, 30% chance to increase Movement Speed by 3/6/9/12/15, 8/11/13/15/20, 10/12/13/15/20, 30% for 5 seconds when struck
+[*]85 - Hurt Poison - 5% chance to poison attackers for 15/15/25/35/70, 25/25/35/45/90, 30/30/45/60/120, 200% Poison damage per second for 3 seconds when struck
+[*]86 - Hurt Burn - On hurt: 5% chance to burn attackers for 15/15/25/35/70, 25/25/35/45/90, 30/30/45/60/120, 200% Fire damage per second for 3 seconds when struck
+[*]93 - Phasewalk - You are no longer affected by collisions and can walk through objects and enemies
+[*]94 - Ironsole - Makes you immune to damage from spike traps
+[*]92 - Sludge Treads - Creates a trail of poison as you walk, dealing 15/15/25/40/60, 25/25/40/60/90, 30/30/50/80/140, 220% Poison damage per second, for 3 seconds
+[*]33 - Sturdy - Makes you immune to all knockback and pull effects
+[/list]
+[b]Major[/b]
+[list]
+[*]1 - Health - +450/500/575/725/900, 475/550/650/850/1050, 500/700/901/1100/1500, 2000 Health
+[*]2 - Mana - +90/100/115/145/180, 95/111/130/170/210, 100/200/300/450/600, 800 Mana
+[*]6 - Health Regeneration - +10/11/13/16/20, 11/13/15/19/24, 20/40/70/100/150, 200 Health Regeneration
+[*]7 - Mana Regeneration - +7/7/9/11/13, 7/8/10/12/15, 7/10/18/30/50, 110 Mana Regeneration
+[*]4 - Movement Speed - +2/4/4/5/6, 5/8/10/12/15, 5/8/10/12/15, 20% Movement Speed
+[*]9 - Vampire - +10/13/13/13/13, 15/15/15/15/16, 10/20/31/40/55, 65 Health On Hit
+[*]20 - Knockback - +5/7/9/11/13, 10/12/14/16/18, 12/15/17/21/25, 30% Knockback Chance
+[*]27 - Physical Resistance - +4/5/6/7/9, 7/8/9/10/12, 8/10/12/15/20, 30% Physical Resistance
+[*]134 - Healing from all sources - 5/6/8/12/20, 8/9/12/18/30, 12/15/20/30/50, 70% increased Healing from all sources
+[*]47 - Resist All - +5/5/6/8/10, 5/5/7/9/12, 6/8/10/12/15, 20% to all Resistances
+[/list]
+[b]Minor[/b]
+[list]
+[*]132 - Ground Effect Resistance - 4/5/6/8/8, 6/8/9/11/12, 10/12/15/18/20, 25% reduced damage from harmful ground effects
+[*]8 - Thorns - +405/450/518/653/810, 428/496/585/765/945, 500/800/950/1250/1800, 2500 Thorns
+[*]13 - Magic Find - +4/4/6/8/10, 8/10/12/13/14, 8/10/15/20/25, 50% Magic find
+[*]22 - Pickup Strength - +5/8/11/14/17, 7/10/13/16/19, 8/10/15/20/25, 50% Pickup Strength
+[*]26 - Pickup Radius - +10/12/14/16/18, 15/19/23/27/31, 15/20/25/35/40, 60% Pickup Radius
+[*]23 - Bonus Crystals - +5/7/9/11/13, 10/13/16/19/22, 10/16/20/25/33, 50% Bonus Crystals
+[*]34 - Fire Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Fire Resistance
+[*]35 - Frost Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Frost Resistance
+[*]37 - Lightning Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Lightning Resistance
+[*]36 - Poison Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Poison Resistance
+[*]38 - Holy Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Holy Resistance
+[*]52 - Shadow Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Shadow Resistance
+[*]46 - Companion Damage - +5/7/9/11/13, 8/12/14/16/18, 8/12/15/20/35, 50% Companion Damage
+[*]55 - Potion Effectiveness - +5/7/9/11/13, 10/13/16/19/22, 12/16/22/30/35, 50% Potion Effectiveness
+[/list]
+[/list]
+[h1]Accessory[/h1]
+[list]
+[b]Epic[/b]
+[list]
+[/list]
+[b]Major[/b]
+[list]
+[*]101 - Overpower - +0/2/3/4/6, 1/3/5/7/9, 5/8/11/15/18, 22% Overpower
+[*]1 - Health - +450/500/575/725/900, 475/550/650/850/1050, 500/700/901/1100/1500, 2000 Health
+[*]2 - Mana - +90/100/115/145/180, 95/111/130/170/210, 100/200/300/450/600, 800 Mana
+[*]6 - Health Regeneration - +10/11/13/16/20, 11/13/15/19/24, 20/40/70/100/150, 200 Health Regeneration
+[*]7 - Mana Regeneration - +7/7/9/11/13, 7/8/10/12/15, 7/10/18/30/50, 110 Mana Regeneration
+[*]4 - Movement Speed - +2/4/4/5/6, 5/8/10/12/15, 5/8/10/12/15, 20% Movement Speed
+[*]5 - Attack Speed - +3/4/4/6/6, 6/8/10/10/10, 6/8/10/13/15, 20% Attack Speed
+[*]106 - Burn - On hit: Deal 20/20/33/50/70, 35/35/50/75/100, 55/55/75/105/150, 250% Fire damage instantly and per second, for 3 seconds
+[*]108 - Chill - On hit: Deal 15/15/25/40/50, 25/25/35/65/80, 40/40/60/90/120, 200% Frost damage instantly
+[*]111 - Holy Smite - On hit: Deal 15/15/25/40/50, 25/25/35/65/80, 40/40/60/90/120, 200% Holy damage instantly
+[*]107 - Poison - On hit: Deal 20/20/33/50/70, 35/35/50/75/100, 55/55/75/105/150, 250% Poison damage instantly and per second, for 5 seconds
+[*]112 - Blight - On hit: Deal 20/20/33/50/70, 35/35/50/75/100, 55/55/75/105/150, 250% Shadow damage instantly and per second, for 5 seconds
+[*]110 - Bleed - On hit: Deal 20/20/33/50/70, 35/35/50/75/100, 55/55/75/105/150, 250% Bleed damage instantly and per second, for 3 seconds
+[*]109 - Chain Lightning - On hit: 25% chance to cause Chain Lightning for 15/15/25/40/50, 25/25/35/65/80, 40/40/60/90/120, 200% Lightning damage
+[*]19 - Critical Hit Chance - +2/3/4/5/6, 4/5/6/7/8, 5/8/10/12/15, 20% Critical Hit Chance
+[*]20 - Knockback - +5/7/9/11/13, 10/12/14/16/18, 12/15/17/21/25, 30% Knockback Chance
+[*]39 - Fire Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Fire Damage
+[*]40 - Frost Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Frost Damage
+[*]42 - Lightning Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Lightning Damage
+[*]41 - Poison Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Poison Damage
+[*]53 - Shadow Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Shadow Damage
+[*]43 - Holy Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Holy Damage
+[*]44 - Physical Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Physical Damage
+[*]113 - Undead Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Undead
+[*]114 - Spectral Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Spectral
+[*]115 - Arachnid Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Arachnids
+[*]116 - Demon Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Demons
+[*]117 - Beast Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Beasts
+[*]118 - Fae Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Fae
+[*]130 - Humanoid Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Humanoids
+[*]131 - Mechanical Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Mechanicals
+[*]129 - Elemental Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Elementals
+[*]47 - Resist All - +5/5/6/8/10, 5/5/7/9/12, 6/8/10/12/15, 20% to all Resistances
+[/list]
+[b]Minor[/b]
+[list]
+[*]132 - Ground Effect Resistance - 4/5/6/8/8, 6/8/9/11/12, 10/12/15/18/20, 25% reduced damage from harmful ground effects
+[*]8 - Thorns - +405/450/518/653/810, 428/496/585/765/945, 500/800/950/1250/1800, 2500 Thorns
+[*]13 - Magic Find - +4/4/6/8/10, 8/10/12/13/14, 8/10/15/20/25, 50% Magic find
+[*]49 - Mana Cost Reduction - +1/2/3/4/5, 5/6/7/8/9, 5/7/8/10/12, 18% Mana Cost Reduction
+[*]50 - Cooldown Reduction - +2/2/3/5/7, 3/3/4/8/10, 4/5/8/12/15, 17% Cooldown Reduction
+[*]100 - Reach - +2/2/3/5/7, 3/3/4/8/10, 4/5/8/12/15, 17% Reach
+[*]22 - Pickup Strength - +5/8/11/14/17, 7/10/13/16/19, 8/10/15/20/25, 50% Pickup Strength
+[*]26 - Pickup Radius - +10/12/14/16/18, 15/19/23/27/31, 15/20/25/35/40, 60% Pickup Radius
+[*]23 - Bonus Crystals - +5/7/9/11/13, 10/13/16/19/22, 10/16/20/25/33, 50% Bonus Crystals
+[*]24 - Experience - +5/6/7/8/9, 5/7/9/11/13, 10/16/20/25/33, 50% Bonus Experience
+[*]45 - Companion Health - +5/7/9/11/13, 8/12/14/16/18, 8/12/15/20/35, 50% Companion Health
+[*]46 - Companion Damage - +5/7/9/11/13, 8/12/14/16/18, 8/12/15/20/35, 50% Companion Damage
+[*]55 - Potion Effectiveness - +5/7/9/11/13, 10/13/16/19/22, 12/16/22/30/35, 50% Potion Effectiveness
+[*]125 - Satellite Strength - +4/5/6/8/11, 4/5/7/10/12, 4/6/8/12/15, 20% increased damage of all Satellite enchants
+[*]124 - Gem Strength - +4/5/6/8/11, 4/5/7/10/12, 4/6/8/12/15, 20% increased effect of all Gems
+[/list]
+[/list]
+[h1]Spellbook (Offhand)[/h1]
+[list]
+[b]Epic[/b]
+[list]
+[/list]
+[b]Major[/b]
+[list]
+[*]101 - Overpower - +0/2/3/4/6, 1/3/5/7/9, 5/8/11/15/18, 22% Overpower
+[*]2 - Mana - +90/100/115/145/180, 95/111/130/170/210, 100/200/300/450/600, 800 Mana
+[*]6 - Health Regeneration - +10/11/13/16/20, 11/13/15/19/24, 20/40/70/100/150, 200 Health Regeneration
+[*]7 - Mana Regeneration - +7/7/9/11/13, 7/8/10/12/15, 7/10/18/30/50, 110 Mana Regeneration
+[*]3 - Damage - +200/300/345/435/540, 285/330/390/510/630, 200/400/600/800/1000, 1500 Damage
+[*]5 - Attack Speed - +3/4/4/6/6, 6/8/10/10/10, 6/8/10/13/15, 20% Attack Speed
+[*]9 - Vampire - +10/13/13/13/13, 15/15/15/15/16, 10/20/31/40/55, 65 Health On Hit
+[*]10 - Leech - +10/15/15/15/15, 15/15/15/15/16, 10/20/35/50/80, 100 Mana On Hit
+[*]106 - Burn - On hit: Deal 20/20/33/50/70, 35/35/50/75/100, 55/55/75/105/150, 250% Fire damage instantly and per second, for 3 seconds
+[*]108 - Chill - On hit: Deal 15/15/25/40/50, 25/25/35/65/80, 40/40/60/90/120, 200% Frost damage instantly
+[*]111 - Holy Smite - On hit: Deal 15/15/25/40/50, 25/25/35/65/80, 40/40/60/90/120, 200% Holy damage instantly
+[*]107 - Poison - On hit: Deal 20/20/33/50/70, 35/35/50/75/100, 55/55/75/105/150, 250% Poison damage instantly and per second, for 5 seconds
+[*]112 - Blight - On hit: Deal 20/20/33/50/70, 35/35/50/75/100, 55/55/75/105/150, 250% Shadow damage instantly and per second, for 5 seconds
+[*]110 - Bleed - On hit: Deal 20/20/33/50/70, 35/35/50/75/100, 55/55/75/105/150, 250% Bleed damage instantly and per second, for 3 seconds
+[*]109 - Chain Lightning - On hit: 25% chance to cause Chain Lightning for 15/15/25/40/50, 25/25/35/65/80, 40/40/60/90/120, 200% Lightning damage
+[*]19 - Critical Hit Chance - +2/3/4/5/6, 4/5/6/7/8, 5/8/10/12/15, 20% Critical Hit Chance
+[*]20 - Knockback - +5/7/9/11/13, 10/12/14/16/18, 12/15/17/21/25, 30% Knockback Chance
+[*]39 - Fire Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Fire Damage
+[*]40 - Frost Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Frost Damage
+[*]41 - Poison Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Poison Damage
+[*]53 - Shadow Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Shadow Damage
+[*]113 - Undead Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Undead
+[*]114 - Spectral Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Spectral
+[*]115 - Arachnid Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Arachnids
+[*]116 - Demon Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Demons
+[*]117 - Beast Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Beasts
+[*]118 - Fae Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Fae
+[*]130 - Humanoid Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Humanoids
+[*]131 - Mechanical Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Mechanicals
+[*]129 - Elemental Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Elementals
+[*]48 - Power All - +5/6/7/8/9, 8/10/12/13/14, 8/10/12/15/20, 25% to all Elements
+[*]51 - Critical Hit Damage - +5/7/9/11/13, 8/12/14/16/18, 8/12/15/20/25, 35% Critical Hit Damage
+[*]126 - Damage Stagger - 4/5/6/8/11, 4/5/7/10/12, 4/6/8/12/15, 20% of damage taken is staggered and dealt over 3 seconds, at a 30% damage reduction
+[/list]
+[b]Minor[/b]
+[list]
+[*]8 - Thorns - +405/450/518/653/810, 428/496/585/765/945, 500/800/950/1250/1800, 2500 Thorns
+[*]13 - Magic Find - +4/4/6/8/10, 8/10/12/13/14, 8/10/15/20/25, 50% Magic find
+[*]49 - Mana Cost Reduction - +1/2/3/4/5, 5/6/7/8/9, 5/7/8/10/12, 18% Mana Cost Reduction
+[*]21 - Effect Duration - +2/2/3/5/7, 3/3/4/8/10, 4/5/8/12/15, 17% Effect Duration
+[*]100 - Reach - +2/2/3/5/7, 3/3/4/8/10, 4/5/8/12/15, 17% Reach
+[*]22 - Pickup Strength - +5/8/11/14/17, 7/10/13/16/19, 8/10/15/20/25, 50% Pickup Strength
+[*]24 - Experience - +5/6/7/8/9, 5/7/9/11/13, 10/16/20/25/33, 50% Bonus Experience
+[*]34 - Fire Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Fire Resistance
+[*]35 - Frost Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Frost Resistance
+[*]37 - Lightning Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Lightning Resistance
+[*]36 - Poison Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Poison Resistance
+[*]38 - Holy Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Holy Resistance
+[*]52 - Shadow Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Shadow Resistance
+[*]45 - Companion Health - +5/7/9/11/13, 8/12/14/16/18, 8/12/15/20/35, 50% Companion Health
+[*]55 - Potion Effectiveness - +5/7/9/11/13, 10/13/16/19/22, 12/16/22/30/35, 50% Potion Effectiveness
+[/list]
+[/list]
+[h1]Claw (Offhand)[/h1]
+[list]
+[b]Epic[/b]
+[list]
+[/list]
+[b]Major[/b]
+[list]
+[*]103 - Minimum Rage - +2/3/3/3/4, 1/2/2/2/3, 3/4/5/6/7, 10 Minimum Rage
+[*]104 - Maximum Rage - +3/4/4/4/5, 2/3/4/5/6, 10/10/14/18/22, 25 Maximum Rage
+[*]101 - Overpower - +0/2/3/4/6, 1/3/5/7/9, 5/8/11/15/18, 22% Overpower
+[*]6 - Health Regeneration - +10/11/13/16/20, 11/13/15/19/24, 20/40/70/100/150, 200 Health Regeneration
+[*]7 - Mana Regeneration - +7/7/9/11/13, 7/8/10/12/15, 7/10/18/30/50, 110 Mana Regeneration
+[*]3 - Damage - +200/300/345/435/540, 285/330/390/510/630, 200/400/600/800/1000, 1500 Damage
+[*]4 - Movement Speed - +2/4/4/5/6, 5/8/10/12/15, 5/8/10/12/15, 20% Movement Speed
+[*]5 - Attack Speed - +3/4/4/6/6, 6/8/10/10/10, 6/8/10/13/15, 20% Attack Speed
+[*]9 - Vampire - +10/13/13/13/13, 15/15/15/15/16, 10/20/31/40/55, 65 Health On Hit
+[*]10 - Leech - +10/15/15/15/15, 15/15/15/15/16, 10/20/35/50/80, 100 Mana On Hit
+[*]106 - Burn - On hit: Deal 20/20/33/50/70, 35/35/50/75/100, 55/55/75/105/150, 250% Fire damage instantly and per second, for 3 seconds
+[*]108 - Chill - On hit: Deal 15/15/25/40/50, 25/25/35/65/80, 40/40/60/90/120, 200% Frost damage instantly
+[*]111 - Holy Smite - On hit: Deal 15/15/25/40/50, 25/25/35/65/80, 40/40/60/90/120, 200% Holy damage instantly
+[*]107 - Poison - On hit: Deal 20/20/33/50/70, 35/35/50/75/100, 55/55/75/105/150, 250% Poison damage instantly and per second, for 5 seconds
+[*]112 - Blight - On hit: Deal 20/20/33/50/70, 35/35/50/75/100, 55/55/75/105/150, 250% Shadow damage instantly and per second, for 5 seconds
+[*]110 - Bleed - On hit: Deal 20/20/33/50/70, 35/35/50/75/100, 55/55/75/105/150, 250% Bleed damage instantly and per second, for 3 seconds
+[*]109 - Chain Lightning - On hit: 25% chance to cause Chain Lightning for 15/15/25/40/50, 25/25/35/65/80, 40/40/60/90/120, 200% Lightning damage
+[*]19 - Critical Hit Chance - +2/3/4/5/6, 4/5/6/7/8, 5/8/10/12/15, 20% Critical Hit Chance
+[*]20 - Knockback - +5/7/9/11/13, 10/12/14/16/18, 12/15/17/21/25, 30% Knockback Chance
+[*]39 - Fire Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Fire Damage
+[*]40 - Frost Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Frost Damage
+[*]42 - Lightning Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Lightning Damage
+[*]44 - Physical Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Physical Damage
+[*]113 - Undead Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Undead
+[*]114 - Spectral Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Spectral
+[*]115 - Arachnid Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Arachnids
+[*]116 - Demon Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Demons
+[*]117 - Beast Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Beasts
+[*]118 - Fae Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Fae
+[*]130 - Humanoid Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Humanoids
+[*]131 - Mechanical Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Mechanicals
+[*]129 - Elemental Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Elementals
+[*]102 - Bleed Damage - +10/13/16/19/22, 15/19/23/27/31, 15/20/30/40/60, 80% Bleed Damage
+[*]48 - Power All - +5/6/7/8/9, 8/10/12/13/14, 8/10/12/15/20, 25% to all Elements
+[*]51 - Critical Hit Damage - +5/7/9/11/13, 8/12/14/16/18, 8/12/15/20/25, 35% Critical Hit Damage
+[*]126 - Damage Stagger - 4/5/6/8/11, 4/5/7/10/12, 4/6/8/12/15, 20% of damage taken is staggered and dealt over 3 seconds, at a 30% damage reduction
+[/list]
+[b]Minor[/b]
+[list]
+[*]105 - Rage Generation - +6/7/8/9/10, 10/12/13/15/16, 10/15/20/30/40, 50% Rage Generation
+[*]8 - Thorns - +405/450/518/653/810, 428/496/585/765/945, 500/800/950/1250/1800, 2500 Thorns
+[*]13 - Magic Find - +4/4/6/8/10, 8/10/12/13/14, 8/10/15/20/25, 50% Magic find
+[*]49 - Mana Cost Reduction - +1/2/3/4/5, 5/6/7/8/9, 5/7/8/10/12, 18% Mana Cost Reduction
+[*]21 - Effect Duration - +2/2/3/5/7, 3/3/4/8/10, 4/5/8/12/15, 17% Effect Duration
+[*]100 - Reach - +2/2/3/5/7, 3/3/4/8/10, 4/5/8/12/15, 17% Reach
+[*]22 - Pickup Strength - +5/8/11/14/17, 7/10/13/16/19, 8/10/15/20/25, 50% Pickup Strength
+[*]24 - Experience - +5/6/7/8/9, 5/7/9/11/13, 10/16/20/25/33, 50% Bonus Experience
+[*]34 - Fire Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Fire Resistance
+[*]35 - Frost Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Frost Resistance
+[*]37 - Lightning Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Lightning Resistance
+[*]36 - Poison Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Poison Resistance
+[*]38 - Holy Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Holy Resistance
+[*]52 - Shadow Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Shadow Resistance
+[*]45 - Companion Health - +5/7/9/11/13, 8/12/14/16/18, 8/12/15/20/35, 50% Companion Health
+[/list]
+[/list]
+[h1]Shield (Offhand)[/h1]
+[list]
+[b]Epic[/b]
+[list]
+[/list]
+[b]Major[/b]
+[list]
+[*]98 - Bonus Block Rate - +5/6/7/8/9, 7/9/11/13/15, 12/15/17/20/23, 25% Extra Block Chance (Templar Only)
+[*]99 - Bonus Block Damage - +5/6/7/8/9, 7/9/11/13/15, 12/15/17/20/25, 30% Extra Damage Blocked (Templar Only)
+[*]1 - Health - +450/500/575/725/900, 475/550/650/850/1050, 500/700/901/1100/1500, 2000 Health
+[*]2 - Mana - +90/100/115/145/180, 95/111/130/170/210, 100/200/300/450/600, 800 Mana
+[*]6 - Health Regeneration - +10/11/13/16/20, 11/13/15/19/24, 20/40/70/100/150, 200 Health Regeneration
+[*]7 - Mana Regeneration - +7/7/9/11/13, 7/8/10/12/15, 7/10/18/30/50, 110 Mana Regeneration
+[*]3 - Damage - +200/300/345/435/540, 285/330/390/510/630, 200/400/600/800/1000, 1500 Damage
+[*]9 - Vampire - +10/13/13/13/13, 15/15/15/15/16, 10/20/31/40/55, 65 Health On Hit
+[*]10 - Leech - +10/15/15/15/15, 15/15/15/15/16, 10/20/35/50/80, 100 Mana On Hit
+[*]20 - Knockback - +5/7/9/11/13, 10/12/14/16/18, 12/15/17/21/25, 30% Knockback Chance
+[*]27 - Physical Resistance - +4/5/6/7/9, 7/8/9/10/12, 8/10/12/15/20, 30% Physical Resistance
+[*]39 - Fire Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Fire Damage
+[*]42 - Lightning Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Lightning Damage
+[*]43 - Holy Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Holy Damage
+[*]44 - Physical Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Physical Damage
+[*]113 - Undead Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Undead
+[*]114 - Spectral Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Spectral
+[*]115 - Arachnid Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Arachnids
+[*]116 - Demon Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Demons
+[*]117 - Beast Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Beasts
+[*]118 - Fae Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Fae
+[*]130 - Humanoid Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Humanoids
+[*]131 - Mechanical Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Mechanicals
+[*]129 - Elemental Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Elementals
+[*]102 - Bleed Damage - +10/13/16/19/22, 15/19/23/27/31, 15/20/30/40/60, 80% Bleed Damage
+[*]47 - Resist All - +5/5/6/8/10, 5/5/7/9/12, 6/8/10/12/15, 20% to all Resistances
+[*]48 - Power All - +5/6/7/8/9, 8/10/12/13/14, 8/10/12/15/20, 25% to all Elements
+[*]51 - Critical Hit Damage - +5/7/9/11/13, 8/12/14/16/18, 8/12/15/20/25, 35% Critical Hit Damage
+[*]126 - Damage Stagger - 4/5/6/8/11, 4/5/7/10/12, 4/6/8/12/15, 20% of damage taken is staggered and dealt over 3 seconds, at a 30% damage reduction
+[/list]
+[b]Minor[/b]
+[list]
+[*]8 - Thorns - +405/450/518/653/810, 428/496/585/765/945, 500/800/950/1250/1800, 2500 Thorns
+[*]13 - Magic Find - +4/4/6/8/10, 8/10/12/13/14, 8/10/15/20/25, 50% Magic find
+[*]49 - Mana Cost Reduction - +1/2/3/4/5, 5/6/7/8/9, 5/7/8/10/12, 18% Mana Cost Reduction
+[*]21 - Effect Duration - +2/2/3/5/7, 3/3/4/8/10, 4/5/8/12/15, 17% Effect Duration
+[*]100 - Reach - +2/2/3/5/7, 3/3/4/8/10, 4/5/8/12/15, 17% Reach
+[*]22 - Pickup Strength - +5/8/11/14/17, 7/10/13/16/19, 8/10/15/20/25, 50% Pickup Strength
+[*]24 - Experience - +5/6/7/8/9, 5/7/9/11/13, 10/16/20/25/33, 50% Bonus Experience
+[*]34 - Fire Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Fire Resistance
+[*]35 - Frost Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Frost Resistance
+[*]37 - Lightning Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Lightning Resistance
+[*]36 - Poison Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Poison Resistance
+[*]38 - Holy Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Holy Resistance
+[*]52 - Shadow Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Shadow Resistance
+[*]45 - Companion Health - +5/7/9/11/13, 8/12/14/16/18, 8/12/15/20/35, 50% Companion Health
+[/list]
+[/list]
+[h1]Tome (Offhand)[/h1]
+[list]
+[b]Epic[/b]
+[list]
+[/list]
+[b]Major[/b]
+[list]
+[*]101 - Overpower - +0/2/3/4/6, 1/3/5/7/9, 5/8/11/15/18, 22% Overpower
+[*]2 - Mana - +90/100/115/145/180, 95/111/130/170/210, 100/200/300/450/600, 800 Mana
+[*]6 - Health Regeneration - +10/11/13/16/20, 11/13/15/19/24, 20/40/70/100/150, 200 Health Regeneration
+[*]7 - Mana Regeneration - +7/7/9/11/13, 7/8/10/12/15, 7/10/18/30/50, 110 Mana Regeneration
+[*]3 - Damage - +200/300/345/435/540, 285/330/390/510/630, 200/400/600/800/1000, 1500 Damage
+[*]5 - Attack Speed - +3/4/4/6/6, 6/8/10/10/10, 6/8/10/13/15, 20% Attack Speed
+[*]9 - Vampire - +10/13/13/13/13, 15/15/15/15/16, 10/20/31/40/55, 65 Health On Hit
+[*]10 - Leech - +10/15/15/15/15, 15/15/15/15/16, 10/20/35/50/80, 100 Mana On Hit
+[*]106 - Burn - On hit: Deal 20/20/33/50/70, 35/35/50/75/100, 55/55/75/105/150, 250% Fire damage instantly and per second, for 3 seconds
+[*]108 - Chill - On hit: Deal 15/15/25/40/50, 25/25/35/65/80, 40/40/60/90/120, 200% Frost damage instantly
+[*]111 - Holy Smite - On hit: Deal 15/15/25/40/50, 25/25/35/65/80, 40/40/60/90/120, 200% Holy damage instantly
+[*]107 - Poison - On hit: Deal 20/20/33/50/70, 35/35/50/75/100, 55/55/75/105/150, 250% Poison damage instantly and per second, for 5 seconds
+[*]112 - Blight - On hit: Deal 20/20/33/50/70, 35/35/50/75/100, 55/55/75/105/150, 250% Shadow damage instantly and per second, for 5 seconds
+[*]110 - Bleed - On hit: Deal 20/20/33/50/70, 35/35/50/75/100, 55/55/75/105/150, 250% Bleed damage instantly and per second, for 3 seconds
+[*]109 - Chain Lightning - On hit: 25% chance to cause Chain Lightning for 15/15/25/40/50, 25/25/35/65/80, 40/40/60/90/120, 200% Lightning damage
+[*]19 - Critical Hit Chance - +2/3/4/5/6, 4/5/6/7/8, 5/8/10/12/15, 20% Critical Hit Chance
+[*]20 - Knockback - +5/7/9/11/13, 10/12/14/16/18, 12/15/17/21/25, 30% Knockback Chance
+[*]39 - Fire Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Fire Damage
+[*]42 - Lightning Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Lightning Damage
+[*]43 - Holy Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Holy Damage
+[*]44 - Physical Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Physical Damage
+[*]113 - Undead Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Undead
+[*]114 - Spectral Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Spectral
+[*]115 - Arachnid Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Arachnids
+[*]116 - Demon Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Demons
+[*]117 - Beast Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Beasts
+[*]118 - Fae Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Fae
+[*]130 - Humanoid Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Humanoids
+[*]131 - Mechanical Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Mechanicals
+[*]129 - Elemental Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Elementals
+[*]102 - Bleed Damage - +10/13/16/19/22, 15/19/23/27/31, 15/20/30/40/60, 80% Bleed Damage
+[*]48 - Power All - +5/6/7/8/9, 8/10/12/13/14, 8/10/12/15/20, 25% to all Elements
+[*]51 - Critical Hit Damage - +5/7/9/11/13, 8/12/14/16/18, 8/12/15/20/25, 35% Critical Hit Damage
+[*]126 - Damage Stagger - 4/5/6/8/11, 4/5/7/10/12, 4/6/8/12/15, 20% of damage taken is staggered and dealt over 3 seconds, at a 30% damage reduction
+[/list]
+[b]Minor[/b]
+[list]
+[*]8 - Thorns - +405/450/518/653/810, 428/496/585/765/945, 500/800/950/1250/1800, 2500 Thorns
+[*]13 - Magic Find - +4/4/6/8/10, 8/10/12/13/14, 8/10/15/20/25, 50% Magic find
+[*]49 - Mana Cost Reduction - +1/2/3/4/5, 5/6/7/8/9, 5/7/8/10/12, 18% Mana Cost Reduction
+[*]21 - Effect Duration - +2/2/3/5/7, 3/3/4/8/10, 4/5/8/12/15, 17% Effect Duration
+[*]100 - Reach - +2/2/3/5/7, 3/3/4/8/10, 4/5/8/12/15, 17% Reach
+[*]22 - Pickup Strength - +5/8/11/14/17, 7/10/13/16/19, 8/10/15/20/25, 50% Pickup Strength
+[*]24 - Experience - +5/6/7/8/9, 5/7/9/11/13, 10/16/20/25/33, 50% Bonus Experience
+[*]34 - Fire Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Fire Resistance
+[*]35 - Frost Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Frost Resistance
+[*]37 - Lightning Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Lightning Resistance
+[*]36 - Poison Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Poison Resistance
+[*]38 - Holy Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Holy Resistance
+[*]52 - Shadow Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Shadow Resistance
+[*]45 - Companion Health - +5/7/9/11/13, 8/12/14/16/18, 8/12/15/20/35, 50% Companion Health
+[*]55 - Potion Effectiveness - +5/7/9/11/13, 10/13/16/19/22, 12/16/22/30/35, 50% Potion Effectiveness
+[/list]
+[/list]
+[h1]Arrow (Offhand)[/h1]
+[list]
+[b]Epic[/b]
+[list]
+[/list]
+[b]Major[/b]
+[list]
+[*]101 - Overpower - +0/2/3/4/6, 1/3/5/7/9, 5/8/11/15/18, 22% Overpower
+[*]6 - Health Regeneration - +10/11/13/16/20, 11/13/15/19/24, 20/40/70/100/150, 200 Health Regeneration
+[*]7 - Mana Regeneration - +7/7/9/11/13, 7/8/10/12/15, 7/10/18/30/50, 110 Mana Regeneration
+[*]3 - Damage - +200/300/345/435/540, 285/330/390/510/630, 200/400/600/800/1000, 1500 Damage
+[*]4 - Movement Speed - +2/4/4/5/6, 5/8/10/12/15, 5/8/10/12/15, 20% Movement Speed
+[*]5 - Attack Speed - +3/4/4/6/6, 6/8/10/10/10, 6/8/10/13/15, 20% Attack Speed
+[*]9 - Vampire - +10/13/13/13/13, 15/15/15/15/16, 10/20/31/40/55, 65 Health On Hit
+[*]10 - Leech - +10/15/15/15/15, 15/15/15/15/16, 10/20/35/50/80, 100 Mana On Hit
+[*]106 - Burn - On hit: Deal 20/20/33/50/70, 35/35/50/75/100, 55/55/75/105/150, 250% Fire damage instantly and per second, for 3 seconds
+[*]108 - Chill - On hit: Deal 15/15/25/40/50, 25/25/35/65/80, 40/40/60/90/120, 200% Frost damage instantly
+[*]111 - Holy Smite - On hit: Deal 15/15/25/40/50, 25/25/35/65/80, 40/40/60/90/120, 200% Holy damage instantly
+[*]107 - Poison - On hit: Deal 20/20/33/50/70, 35/35/50/75/100, 55/55/75/105/150, 250% Poison damage instantly and per second, for 5 seconds
+[*]112 - Blight - On hit: Deal 20/20/33/50/70, 35/35/50/75/100, 55/55/75/105/150, 250% Shadow damage instantly and per second, for 5 seconds
+[*]110 - Bleed - On hit: Deal 20/20/33/50/70, 35/35/50/75/100, 55/55/75/105/150, 250% Bleed damage instantly and per second, for 3 seconds
+[*]109 - Chain Lightning - On hit: 25% chance to cause Chain Lightning for 15/15/25/40/50, 25/25/35/65/80, 40/40/60/90/120, 200% Lightning damage
+[*]19 - Critical Hit Chance - +2/3/4/5/6, 4/5/6/7/8, 5/8/10/12/15, 20% Critical Hit Chance
+[*]20 - Knockback - +5/7/9/11/13, 10/12/14/16/18, 12/15/17/21/25, 30% Knockback Chance
+[*]40 - Frost Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Frost Damage
+[*]42 - Lightning Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Lightning Damage
+[*]41 - Poison Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Poison Damage
+[*]44 - Physical Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Physical Damage
+[*]113 - Undead Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Undead
+[*]114 - Spectral Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Spectral
+[*]115 - Arachnid Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Arachnids
+[*]116 - Demon Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Demons
+[*]117 - Beast Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Beasts
+[*]118 - Fae Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Fae
+[*]130 - Humanoid Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Humanoids
+[*]131 - Mechanical Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Mechanicals
+[*]129 - Elemental Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Elementals
+[*]102 - Bleed Damage - +10/13/16/19/22, 15/19/23/27/31, 15/20/30/40/60, 80% Bleed Damage
+[*]48 - Power All - +5/6/7/8/9, 8/10/12/13/14, 8/10/12/15/20, 25% to all Elements
+[*]51 - Critical Hit Damage - +5/7/9/11/13, 8/12/14/16/18, 8/12/15/20/25, 35% Critical Hit Damage
+[*]126 - Damage Stagger - 4/5/6/8/11, 4/5/7/10/12, 4/6/8/12/15, 20% of damage taken is staggered and dealt over 3 seconds, at a 30% damage reduction
+[/list]
+[b]Minor[/b]
+[list]
+[*]8 - Thorns - +405/450/518/653/810, 428/496/585/765/945, 500/800/950/1250/1800, 2500 Thorns
+[*]13 - Magic Find - +4/4/6/8/10, 8/10/12/13/14, 8/10/15/20/25, 50% Magic find
+[*]49 - Mana Cost Reduction - +1/2/3/4/5, 5/6/7/8/9, 5/7/8/10/12, 18% Mana Cost Reduction
+[*]21 - Effect Duration - +2/2/3/5/7, 3/3/4/8/10, 4/5/8/12/15, 17% Effect Duration
+[*]100 - Reach - +2/2/3/5/7, 3/3/4/8/10, 4/5/8/12/15, 17% Reach
+[*]22 - Pickup Strength - +5/8/11/14/17, 7/10/13/16/19, 8/10/15/20/25, 50% Pickup Strength
+[*]24 - Experience - +5/6/7/8/9, 5/7/9/11/13, 10/16/20/25/33, 50% Bonus Experience
+[*]34 - Fire Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Fire Resistance
+[*]35 - Frost Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Frost Resistance
+[*]37 - Lightning Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Lightning Resistance
+[*]36 - Poison Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Poison Resistance
+[*]38 - Holy Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Holy Resistance
+[*]52 - Shadow Resistance - +0/2/4/6/8, 1/4/7/10/13, 8/10/12/15/20, 30% Shadow Resistance
+[*]45 - Companion Health - +5/7/9/11/13, 8/12/14/16/18, 8/12/15/20/35, 50% Companion Health
+[/list]
+[/list]
+[h1]Bow[/h1]
+[list]
+[b]Epic[/b]
+[list]
+[*]119 - Crown Slaying - +5/6/7/8/9, 8/10/12/13/14, 8/10/12/15/20, 25% damage vs. Crowned foes
+[*]128 - Interrupt - 1/1/1/2/2, 1/2/2/2/3, 1/2/2/3/4, 5% chance to interrupt attacks of foes hit
+[*]58 - Grip - 2/3/4/5/6, 4/5/6/7/8, 8/10/12/15/20, 25% chance on hit to pull all enemies within 3 meters of the foe closer to it
+[*]59 - Twister - 15% Chance on critical hit to summon a Twister that seeks out nearby foes, dealing 15/15/25/45/85, 20/20/35/55/100, 25/25/45/75/150, 220% Ethereal damage per second as direct damage but may not crit.
+[*]60 - Hellfire - 15% Chance on critical hit to summon Hellfire over your foe, dealing up to 15/15/35/50/100, 25/25/45/70/125, 30/30/55/90/180, 260% Ethereal damage per strike. Deals direct damage but may not crit.
+[*]62 - Enrage - 5% chance on critical hits to increase the base Attack Speed of all skills by 4/4/6/8/12, 5/6/9/12/18, 8/10/15/20/30, 40% for 5 seconds
+[*]63 - Burst - 35% chance on critical hits to cause an explosion dealing 12/12/20/30/40, 18/18/30/45/60, 30/30/50/75/100, 150% Ethereal damage
+[*]73 - Gib Regeneration - +10/30/50/70/90, 30/50/70/90/110, 50/70/90/125/150, 200% Health- and Mana Regeneration for 5 seconds after gibbing a foe
+[*]74 - Gib Damage - +4/4/5/6/8, 0/2/4/6/8, 8/10/12/15/20, 25% Damage for 5 seconds after gibbing a foe
+[*]75 - Gib Heal - 5% chance to heal for 0/1/2/3/4, 0/1/2/3/4, 4/4/5/6/7, 8% of Maximum Health after gibbing a foe
+[/list]
+[b]Major[/b]
+[list]
+[*]1 - Health - +450/500/575/725/900, 475/550/650/850/1050, 500/700/901/1100/1500, 2000 Health
+[*]2 - Mana - +90/100/115/145/180, 95/111/130/170/210, 100/200/300/450/600, 800 Mana
+[*]3 - Damage - +200/300/345/435/540, 285/330/390/510/630, 200/400/600/800/1000, 1500 Damage
+[*]5 - Attack Speed - +3/4/4/6/6, 6/8/10/10/10, 6/8/10/13/15, 20% Attack Speed
+[*]9 - Vampire - +10/13/13/13/13, 15/15/15/15/16, 10/20/31/40/55, 65 Health On Hit
+[*]10 - Leech - +10/15/15/15/15, 15/15/15/15/16, 10/20/35/50/80, 100 Mana On Hit
+[*]106 - Burn - On hit: Deal 20/20/33/50/70, 35/35/50/75/100, 55/55/75/105/150, 250% Fire damage instantly and per second, for 3 seconds
+[*]108 - Chill - On hit: Deal 15/15/25/40/50, 25/25/35/65/80, 40/40/60/90/120, 200% Frost damage instantly
+[*]111 - Holy Smite - On hit: Deal 15/15/25/40/50, 25/25/35/65/80, 40/40/60/90/120, 200% Holy damage instantly
+[*]107 - Poison - On hit: Deal 20/20/33/50/70, 35/35/50/75/100, 55/55/75/105/150, 250% Poison damage instantly and per second, for 5 seconds
+[*]112 - Blight - On hit: Deal 20/20/33/50/70, 35/35/50/75/100, 55/55/75/105/150, 250% Shadow damage instantly and per second, for 5 seconds
+[*]110 - Bleed - On hit: Deal 20/20/33/50/70, 35/35/50/75/100, 55/55/75/105/150, 250% Bleed damage instantly and per second, for 3 seconds
+[*]109 - Chain Lightning - On hit: 25% chance to cause Chain Lightning for 15/15/25/40/50, 25/25/35/65/80, 40/40/60/90/120, 200% Lightning damage
+[*]19 - Critical Hit Chance - +2/3/4/5/6, 4/5/6/7/8, 5/8/10/12/15, 20% Critical Hit Chance
+[*]20 - Knockback - +5/7/9/11/13, 10/12/14/16/18, 12/15/17/21/25, 30% Knockback Chance
+[*]40 - Frost Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Frost Damage
+[*]42 - Lightning Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Lightning Damage
+[*]41 - Poison Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Poison Damage
+[*]44 - Physical Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Physical Damage
+[*]113 - Undead Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Undead
+[*]114 - Spectral Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Spectral
+[*]115 - Arachnid Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Arachnids
+[*]116 - Demon Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Demons
+[*]117 - Beast Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Beasts
+[*]118 - Fae Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Fae
+[*]130 - Humanoid Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Humanoids
+[*]131 - Mechanical Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Mechanicals
+[*]129 - Elemental Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Elementals
+[*]102 - Bleed Damage - +10/13/16/19/22, 15/19/23/27/31, 15/20/30/40/60, 80% Bleed Damage
+[*]48 - Power All - +5/6/7/8/9, 8/10/12/13/14, 8/10/12/15/20, 25% to all Elements
+[*]51 - Critical Hit Damage - +5/7/9/11/13, 8/12/14/16/18, 8/12/15/20/25, 35% Critical Hit Damage
+[/list]
+[b]Minor[/b]
+[list]
+[*]8 - Thorns - +405/450/518/653/810, 428/496/585/765/945, 500/800/950/1250/1800, 2500 Thorns
+[*]13 - Magic Find - +4/4/6/8/10, 8/10/12/13/14, 8/10/15/20/25, 50% Magic find
+[*]49 - Mana Cost Reduction - +1/2/3/4/5, 5/6/7/8/9, 5/7/8/10/12, 18% Mana Cost Reduction
+[*]21 - Effect Duration - +2/2/3/5/7, 3/3/4/8/10, 4/5/8/12/15, 17% Effect Duration
+[*]50 - Cooldown Reduction - +2/2/3/5/7, 3/3/4/8/10, 4/5/8/12/15, 17% Cooldown Reduction
+[*]100 - Reach - +2/2/3/5/7, 3/3/4/8/10, 4/5/8/12/15, 17% Reach
+[*]26 - Pickup Radius - +10/12/14/16/18, 15/19/23/27/31, 15/20/25/35/40, 60% Pickup Radius
+[*]24 - Experience - +5/6/7/8/9, 5/7/9/11/13, 10/16/20/25/33, 50% Bonus Experience
+[*]46 - Companion Damage - +5/7/9/11/13, 8/12/14/16/18, 8/12/15/20/35, 50% Companion Damage
+[*]125 - Satellite Strength - +4/5/6/8/11, 4/5/7/10/12, 4/6/8/12/15, 20% increased damage of all Satellite enchants
+[/list]
+[/list]
+[h1]Sword[/h1]
+[list]
+[b]Epic[/b]
+[list]
+[*]119 - Crown Slaying - +5/6/7/8/9, 8/10/12/13/14, 8/10/12/15/20, 25% damage vs. Crowned foes
+[*]128 - Interrupt - 1/1/1/2/2, 1/2/2/2/3, 1/2/2/3/4, 5% chance to interrupt attacks of foes hit
+[*]58 - Grip - 2/3/4/5/6, 4/5/6/7/8, 8/10/12/15/20, 25% chance on hit to pull all enemies within 3 meters of the foe closer to it
+[*]59 - Twister - 15% Chance on critical hit to summon a Twister that seeks out nearby foes, dealing 15/15/25/45/85, 20/20/35/55/100, 25/25/45/75/150, 220% Ethereal damage per second as direct damage but may not crit.
+[*]60 - Hellfire - 15% Chance on critical hit to summon Hellfire over your foe, dealing up to 15/15/35/50/100, 25/25/45/70/125, 30/30/55/90/180, 260% Ethereal damage per strike. Deals direct damage but may not crit.
+[*]62 - Enrage - 5% chance on critical hits to increase the base Attack Speed of all skills by 4/4/6/8/12, 5/6/9/12/18, 8/10/15/20/30, 40% for 5 seconds
+[*]63 - Burst - 35% chance on critical hits to cause an explosion dealing 12/12/20/30/40, 18/18/30/45/60, 30/30/50/75/100, 150% Ethereal damage
+[*]73 - Gib Regeneration - +10/30/50/70/90, 30/50/70/90/110, 50/70/90/125/150, 200% Health- and Mana Regeneration for 5 seconds after gibbing a foe
+[*]74 - Gib Damage - +4/4/5/6/8, 0/2/4/6/8, 8/10/12/15/20, 25% Damage for 5 seconds after gibbing a foe
+[*]75 - Gib Heal - 5% chance to heal for 0/1/2/3/4, 0/1/2/3/4, 4/4/5/6/7, 8% of Maximum Health after gibbing a foe
+[/list]
+[b]Major[/b]
+[list]
+[*]1 - Health - +450/500/575/725/900, 475/550/650/850/1050, 500/700/901/1100/1500, 2000 Health
+[*]2 - Mana - +90/100/115/145/180, 95/111/130/170/210, 100/200/300/450/600, 800 Mana
+[*]3 - Damage - +200/300/345/435/540, 285/330/390/510/630, 200/400/600/800/1000, 1500 Damage
+[*]5 - Attack Speed - +3/4/4/6/6, 6/8/10/10/10, 6/8/10/13/15, 20% Attack Speed
+[*]9 - Vampire - +10/13/13/13/13, 15/15/15/15/16, 10/20/31/40/55, 65 Health On Hit
+[*]10 - Leech - +10/15/15/15/15, 15/15/15/15/16, 10/20/35/50/80, 100 Mana On Hit
+[*]106 - Burn - On hit: Deal 20/20/33/50/70, 35/35/50/75/100, 55/55/75/105/150, 250% Fire damage instantly and per second, for 3 seconds
+[*]108 - Chill - On hit: Deal 15/15/25/40/50, 25/25/35/65/80, 40/40/60/90/120, 200% Frost damage instantly
+[*]111 - Holy Smite - On hit: Deal 15/15/25/40/50, 25/25/35/65/80, 40/40/60/90/120, 200% Holy damage instantly
+[*]107 - Poison - On hit: Deal 20/20/33/50/70, 35/35/50/75/100, 55/55/75/105/150, 250% Poison damage instantly and per second, for 5 seconds
+[*]112 - Blight - On hit: Deal 20/20/33/50/70, 35/35/50/75/100, 55/55/75/105/150, 250% Shadow damage instantly and per second, for 5 seconds
+[*]110 - Bleed - On hit: Deal 20/20/33/50/70, 35/35/50/75/100, 55/55/75/105/150, 250% Bleed damage instantly and per second, for 3 seconds
+[*]109 - Chain Lightning - On hit: 25% chance to cause Chain Lightning for 15/15/25/40/50, 25/25/35/65/80, 40/40/60/90/120, 200% Lightning damage
+[*]19 - Critical Hit Chance - +2/3/4/5/6, 4/5/6/7/8, 5/8/10/12/15, 20% Critical Hit Chance
+[*]39 - Fire Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Fire Damage
+[*]42 - Lightning Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Lightning Damage
+[*]43 - Holy Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Holy Damage
+[*]44 - Physical Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Physical Damage
+[*]113 - Undead Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Undead
+[*]114 - Spectral Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Spectral
+[*]115 - Arachnid Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Arachnids
+[*]116 - Demon Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Demons
+[*]117 - Beast Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Beasts
+[*]118 - Fae Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Fae
+[*]130 - Humanoid Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Humanoids
+[*]131 - Mechanical Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Mechanicals
+[*]129 - Elemental Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Elementals
+[*]102 - Bleed Damage - +10/13/16/19/22, 15/19/23/27/31, 15/20/30/40/60, 80% Bleed Damage
+[*]48 - Power All - +5/6/7/8/9, 8/10/12/13/14, 8/10/12/15/20, 25% to all Elements
+[*]51 - Critical Hit Damage - +5/7/9/11/13, 8/12/14/16/18, 8/12/15/20/25, 35% Critical Hit Damage
+[/list]
+[b]Minor[/b]
+[list]
+[*]8 - Thorns - +405/450/518/653/810, 428/496/585/765/945, 500/800/950/1250/1800, 2500 Thorns
+[*]13 - Magic Find - +4/4/6/8/10, 8/10/12/13/14, 8/10/15/20/25, 50% Magic find
+[*]49 - Mana Cost Reduction - +1/2/3/4/5, 5/6/7/8/9, 5/7/8/10/12, 18% Mana Cost Reduction
+[*]21 - Effect Duration - +2/2/3/5/7, 3/3/4/8/10, 4/5/8/12/15, 17% Effect Duration
+[*]50 - Cooldown Reduction - +2/2/3/5/7, 3/3/4/8/10, 4/5/8/12/15, 17% Cooldown Reduction
+[*]100 - Reach - +2/2/3/5/7, 3/3/4/8/10, 4/5/8/12/15, 17% Reach
+[*]26 - Pickup Radius - +10/12/14/16/18, 15/19/23/27/31, 15/20/25/35/40, 60% Pickup Radius
+[*]24 - Experience - +5/6/7/8/9, 5/7/9/11/13, 10/16/20/25/33, 50% Bonus Experience
+[*]46 - Companion Damage - +5/7/9/11/13, 8/12/14/16/18, 8/12/15/20/35, 50% Companion Damage
+[*]125 - Satellite Strength - +4/5/6/8/11, 4/5/7/10/12, 4/6/8/12/15, 20% increased damage of all Satellite enchants
+[/list]
+[/list]
+[h1]Fists[/h1]
+[list]
+[b]Epic[/b]
+[list]
+[*]119 - Crown Slaying - +5/6/7/8/9, 8/10/12/13/14, 8/10/12/15/20, 25% damage vs. Crowned foes
+[*]128 - Interrupt - 1/1/1/2/2, 1/2/2/2/3, 1/2/2/3/4, 5% chance to interrupt attacks of foes hit
+[*]58 - Grip - 2/3/4/5/6, 4/5/6/7/8, 8/10/12/15/20, 25% chance on hit to pull all enemies within 3 meters of the foe closer to it
+[*]59 - Twister - 15% Chance on critical hit to summon a Twister that seeks out nearby foes, dealing 15/15/25/45/85, 20/20/35/55/100, 25/25/45/75/150, 220% Ethereal damage per second as direct damage but may not crit.
+[*]60 - Hellfire - 15% Chance on critical hit to summon Hellfire over your foe, dealing up to 15/15/35/50/100, 25/25/45/70/125, 30/30/55/90/180, 260% Ethereal damage per strike. Deals direct damage but may not crit.
+[*]62 - Enrage - 5% chance on critical hits to increase the base Attack Speed of all skills by 4/4/6/8/12, 5/6/9/12/18, 8/10/15/20/30, 40% for 5 seconds
+[*]63 - Burst - 35% chance on critical hits to cause an explosion dealing 12/12/20/30/40, 18/18/30/45/60, 30/30/50/75/100, 150% Ethereal damage
+[*]73 - Gib Regeneration - +10/30/50/70/90, 30/50/70/90/110, 50/70/90/125/150, 200% Health- and Mana Regeneration for 5 seconds after gibbing a foe
+[*]74 - Gib Damage - +4/4/5/6/8, 0/2/4/6/8, 8/10/12/15/20, 25% Damage for 5 seconds after gibbing a foe
+[*]75 - Gib Heal - 5% chance to heal for 0/1/2/3/4, 0/1/2/3/4, 4/4/5/6/7, 8% of Maximum Health after gibbing a foe
+[/list]
+[b]Major[/b]
+[list]
+[*]103 - Minimum Rage - +2/3/3/3/4, 1/2/2/2/3, 3/4/5/6/7, 10 Minimum Rage
+[*]104 - Maximum Rage - +3/4/4/4/5, 2/3/4/5/6, 10/10/14/18/22, 25 Maximum Rage
+[*]101 - Overpower - +0/2/3/4/6, 1/3/5/7/9, 5/8/11/15/18, 22% Overpower
+[*]1 - Health - +450/500/575/725/900, 475/550/650/850/1050, 500/700/901/1100/1500, 2000 Health
+[*]2 - Mana - +90/100/115/145/180, 95/111/130/170/210, 100/200/300/450/600, 800 Mana
+[*]3 - Damage - +200/300/345/435/540, 285/330/390/510/630, 200/400/600/800/1000, 1500 Damage
+[*]5 - Attack Speed - +3/4/4/6/6, 6/8/10/10/10, 6/8/10/13/15, 20% Attack Speed
+[*]9 - Vampire - +10/13/13/13/13, 15/15/15/15/16, 10/20/31/40/55, 65 Health On Hit
+[*]10 - Leech - +10/15/15/15/15, 15/15/15/15/16, 10/20/35/50/80, 100 Mana On Hit
+[*]106 - Burn - On hit: Deal 20/20/33/50/70, 35/35/50/75/100, 55/55/75/105/150, 250% Fire damage instantly and per second, for 3 seconds
+[*]108 - Chill - On hit: Deal 15/15/25/40/50, 25/25/35/65/80, 40/40/60/90/120, 200% Frost damage instantly
+[*]111 - Holy Smite - On hit: Deal 15/15/25/40/50, 25/25/35/65/80, 40/40/60/90/120, 200% Holy damage instantly
+[*]107 - Poison - On hit: Deal 20/20/33/50/70, 35/35/50/75/100, 55/55/75/105/150, 250% Poison damage instantly and per second, for 5 seconds
+[*]112 - Blight - On hit: Deal 20/20/33/50/70, 35/35/50/75/100, 55/55/75/105/150, 250% Shadow damage instantly and per second, for 5 seconds
+[*]110 - Bleed - On hit: Deal 20/20/33/50/70, 35/35/50/75/100, 55/55/75/105/150, 250% Bleed damage instantly and per second, for 3 seconds
+[*]109 - Chain Lightning - On hit: 25% chance to cause Chain Lightning for 15/15/25/40/50, 25/25/35/65/80, 40/40/60/90/120, 200% Lightning damage
+[*]19 - Critical Hit Chance - +2/3/4/5/6, 4/5/6/7/8, 5/8/10/12/15, 20% Critical Hit Chance
+[*]39 - Fire Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Fire Damage
+[*]40 - Frost Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Frost Damage
+[*]42 - Lightning Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Lightning Damage
+[*]44 - Physical Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Physical Damage
+[*]113 - Undead Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Undead
+[*]114 - Spectral Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Spectral
+[*]115 - Arachnid Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Arachnids
+[*]116 - Demon Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Demons
+[*]117 - Beast Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Beasts
+[*]118 - Fae Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Fae
+[*]130 - Humanoid Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Humanoids
+[*]131 - Mechanical Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Mechanicals
+[*]129 - Elemental Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Elementals
+[*]102 - Bleed Damage - +10/13/16/19/22, 15/19/23/27/31, 15/20/30/40/60, 80% Bleed Damage
+[*]48 - Power All - +5/6/7/8/9, 8/10/12/13/14, 8/10/12/15/20, 25% to all Elements
+[*]51 - Critical Hit Damage - +5/7/9/11/13, 8/12/14/16/18, 8/12/15/20/25, 35% Critical Hit Damage
+[/list]
+[b]Minor[/b]
+[list]
+[*]105 - Rage Generation - +6/7/8/9/10, 10/12/13/15/16, 10/15/20/30/40, 50% Rage Generation
+[*]8 - Thorns - +405/450/518/653/810, 428/496/585/765/945, 500/800/950/1250/1800, 2500 Thorns
+[*]13 - Magic Find - +4/4/6/8/10, 8/10/12/13/14, 8/10/15/20/25, 50% Magic find
+[*]49 - Mana Cost Reduction - +1/2/3/4/5, 5/6/7/8/9, 5/7/8/10/12, 18% Mana Cost Reduction
+[*]21 - Effect Duration - +2/2/3/5/7, 3/3/4/8/10, 4/5/8/12/15, 17% Effect Duration
+[*]50 - Cooldown Reduction - +2/2/3/5/7, 3/3/4/8/10, 4/5/8/12/15, 17% Cooldown Reduction
+[*]100 - Reach - +2/2/3/5/7, 3/3/4/8/10, 4/5/8/12/15, 17% Reach
+[*]26 - Pickup Radius - +10/12/14/16/18, 15/19/23/27/31, 15/20/25/35/40, 60% Pickup Radius
+[*]24 - Experience - +5/6/7/8/9, 5/7/9/11/13, 10/16/20/25/33, 50% Bonus Experience
+[*]46 - Companion Damage - +5/7/9/11/13, 8/12/14/16/18, 8/12/15/20/35, 50% Companion Damage
+[*]125 - Satellite Strength - +4/5/6/8/11, 4/5/7/10/12, 4/6/8/12/15, 20% increased damage of all Satellite enchants
+[/list]
+[/list]
+[h1]Staff[/h1]
+[list]
+[b]Epic[/b]
+[list]
+[*]119 - Crown Slaying - +5/6/7/8/9, 8/10/12/13/14, 8/10/12/15/20, 25% damage vs. Crowned foes
+[*]128 - Interrupt - 1/1/1/2/2, 1/2/2/2/3, 1/2/2/3/4, 5% chance to interrupt attacks of foes hit
+[*]58 - Grip - 2/3/4/5/6, 4/5/6/7/8, 8/10/12/15/20, 25% chance on hit to pull all enemies within 3 meters of the foe closer to it
+[*]59 - Twister - 15% Chance on critical hit to summon a Twister that seeks out nearby foes, dealing 15/15/25/45/85, 20/20/35/55/100, 25/25/45/75/150, 220% Ethereal damage per second as direct damage but may not crit.
+[*]60 - Hellfire - 15% Chance on critical hit to summon Hellfire over your foe, dealing up to 15/15/35/50/100, 25/25/45/70/125, 30/30/55/90/180, 260% Ethereal damage per strike. Deals direct damage but may not crit.
+[*]62 - Enrage - 5% chance on critical hits to increase the base Attack Speed of all skills by 4/4/6/8/12, 5/6/9/12/18, 8/10/15/20/30, 40% for 5 seconds
+[*]63 - Burst - 35% chance on critical hits to cause an explosion dealing 12/12/20/30/40, 18/18/30/45/60, 30/30/50/75/100, 150% Ethereal damage
+[*]73 - Gib Regeneration - +10/30/50/70/90, 30/50/70/90/110, 50/70/90/125/150, 200% Health- and Mana Regeneration for 5 seconds after gibbing a foe
+[*]74 - Gib Damage - +4/4/5/6/8, 0/2/4/6/8, 8/10/12/15/20, 25% Damage for 5 seconds after gibbing a foe
+[*]75 - Gib Heal - 5% chance to heal for 0/1/2/3/4, 0/1/2/3/4, 4/4/5/6/7, 8% of Maximum Health after gibbing a foe
+[/list]
+[b]Major[/b]
+[list]
+[*]1 - Health - +450/500/575/725/900, 475/550/650/850/1050, 500/700/901/1100/1500, 2000 Health
+[*]2 - Mana - +90/100/115/145/180, 95/111/130/170/210, 100/200/300/450/600, 800 Mana
+[*]3 - Damage - +200/300/345/435/540, 285/330/390/510/630, 200/400/600/800/1000, 1500 Damage
+[*]5 - Attack Speed - +3/4/4/6/6, 6/8/10/10/10, 6/8/10/13/15, 20% Attack Speed
+[*]9 - Vampire - +10/13/13/13/13, 15/15/15/15/16, 10/20/31/40/55, 65 Health On Hit
+[*]10 - Leech - +10/15/15/15/15, 15/15/15/15/16, 10/20/35/50/80, 100 Mana On Hit
+[*]106 - Burn - On hit: Deal 20/20/33/50/70, 35/35/50/75/100, 55/55/75/105/150, 250% Fire damage instantly and per second, for 3 seconds
+[*]108 - Chill - On hit: Deal 15/15/25/40/50, 25/25/35/65/80, 40/40/60/90/120, 200% Frost damage instantly
+[*]111 - Holy Smite - On hit: Deal 15/15/25/40/50, 25/25/35/65/80, 40/40/60/90/120, 200% Holy damage instantly
+[*]107 - Poison - On hit: Deal 20/20/33/50/70, 35/35/50/75/100, 55/55/75/105/150, 250% Poison damage instantly and per second, for 5 seconds
+[*]112 - Blight - On hit: Deal 20/20/33/50/70, 35/35/50/75/100, 55/55/75/105/150, 250% Shadow damage instantly and per second, for 5 seconds
+[*]110 - Bleed - On hit: Deal 20/20/33/50/70, 35/35/50/75/100, 55/55/75/105/150, 250% Bleed damage instantly and per second, for 3 seconds
+[*]109 - Chain Lightning - On hit: 25% chance to cause Chain Lightning for 15/15/25/40/50, 25/25/35/65/80, 40/40/60/90/120, 200% Lightning damage
+[*]19 - Critical Hit Chance - +2/3/4/5/6, 4/5/6/7/8, 5/8/10/12/15, 20% Critical Hit Chance
+[*]20 - Knockback - +5/7/9/11/13, 10/12/14/16/18, 12/15/17/21/25, 30% Knockback Chance
+[*]39 - Fire Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Fire Damage
+[*]40 - Frost Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Frost Damage
+[*]41 - Poison Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Poison Damage
+[*]53 - Shadow Damage - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% Shadow Damage
+[*]113 - Undead Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Undead
+[*]114 - Spectral Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Spectral
+[*]115 - Arachnid Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Arachnids
+[*]116 - Demon Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Demons
+[*]117 - Beast Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Beasts
+[*]118 - Fae Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Fae
+[*]130 - Humanoid Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Humanoids
+[*]131 - Mechanical Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Mechanicals
+[*]129 - Elemental Slaying - +4/6/7/8/10, 6/9/11/12/15, 10/14/17/20/25, 35% damage vs. Elementals
+[*]102 - Bleed Damage - +10/13/16/19/22, 15/19/23/27/31, 15/20/30/40/60, 80% Bleed Damage
+[*]48 - Power All - +5/6/7/8/9, 8/10/12/13/14, 8/10/12/15/20, 25% to all Elements
+[*]51 - Critical Hit Damage - +5/7/9/11/13, 8/12/14/16/18, 8/12/15/20/25, 35% Critical Hit Damage
+[/list]
+[b]Minor[/b]
+[list]
+[*]8 - Thorns - +405/450/518/653/810, 428/496/585/765/945, 500/800/950/1250/1800, 2500 Thorns
+[*]13 - Magic Find - +4/4/6/8/10, 8/10/12/13/14, 8/10/15/20/25, 50% Magic find
+[*]49 - Mana Cost Reduction - +1/2/3/4/5, 5/6/7/8/9, 5/7/8/10/12, 18% Mana Cost Reduction
+[*]21 - Effect Duration - +2/2/3/5/7, 3/3/4/8/10, 4/5/8/12/15, 17% Effect Duration
+[*]50 - Cooldown Reduction - +2/2/3/5/7, 3/3/4/8/10, 4/5/8/12/15, 17% Cooldown Reduction
+[*]100 - Reach - +2/2/3/5/7, 3/3/4/8/10, 4/5/8/12/15, 17% Reach
+[*]26 - Pickup Radius - +10/12/14/16/18, 15/19/23/27/31, 15/20/25/35/40, 60% Pickup Radius
+[*]24 - Experience - +5/6/7/8/9, 5/7/9/11/13, 10/16/20/25/33, 50% Bonus Experience
+[*]46 - Companion Damage - +5/7/9/11/13, 8/12/14/16/18, 8/12/15/20/35, 50% Companion Damage
+[*]125 - Satellite Strength - +4/5/6/8/11, 4/5/7/10/12, 4/6/8/12/15, 20% increased damage of all Satellite enchants
+[/list]
+[/list]

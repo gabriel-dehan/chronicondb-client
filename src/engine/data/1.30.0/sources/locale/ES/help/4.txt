@@ -1,0 +1,16 @@
+@¿Por qué no puedo equipar algunos objetos?
+Pueden ser de un nivel demasiado alto para su uso o pueden estar bloqueados en una clase diferente. Normalmente, recibirás un mensaje que explica por qué no puedes equipar un objeto al intentarlo.
+@¿Por qué encuentro objetos para otras clases?
+Solo encuentras objetos de rarezas más bajas para otras clases. Los objetos de alta rareza son siempre para tu propia clase (únicos y superiores), con algunas excepciones de misiones y caídas garantizadas específicas de monstruos. Puedes reducir tus posibilidades de obtener objetos para otras clases mejorando tu estadística de Hallazgo Mágico.
+@¿Qué son los encantamientos?
+Los encantamientos son efectos especiales que a veces se aplican a los objetos que caen. Los encantamientos pueden otorgarte bonificaciones especiales o aumentar las estadísticas. Estos se pueden mejorar o reemplazar en el área de Chronicon, cuando hayas completado la misión de Chantie.
+@¿Por qué hay algunos encantamientos en color naranja y otros en blanco?
+Los encantamientos de color naranja son estáticos, lo que significa que siempre serán de ese elemento específico. ¡Esto significa que el objeto tendrá una mayor cantidad total de encantamientos!
+@¿Por qué algunos textos especiales están en color rojo?
+Estos son encantamientos épicos. Son efectos muy poderosos únicos para ese elemento específico, por lo que no puede encontrarlos en ningún otro elemento.
+@¿Qué son los conjuntos?
+Los conjuntos son piezas de equipo que se unen. Al equipar varias piezas de un conjunto, desbloquearás las bonificaciones del conjunto.
+@¿Qué son las bonificaciones de conjunto?
+Las bonificaciones de conjunto son efectos especiales o estadísticas que se otorgan al usar partes iguales de un conjunto. Estos pueden ser básicos, como mejorar un determinado elemento, o muy poderosos, como eliminar el tiempo de enfríamiento de una habilidad, mejorar drásticamente el daño de una habilidad o cambiar el funcionamiento de una mecánica por completo.
+@ ¿Qué objetos forman parte de los conjuntos?
+Los objetos de conjunto comienzan a aparecer primero en la rareza única. Estos se pueden encontrar desde el nivel 10 en adelante. Los conjuntos de clases legendarias se pueden encontrar desde el nivel 30 en adelante. ¡Aunque los objetos de conjunto son bastante raros!

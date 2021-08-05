@@ -1,0 +1,12 @@
+@¡Está demasiado oscuro!
+¡Aumenta la configuración de "Luz ambiental adicional" en la configuración de Video en el menú Opciones!
+@No me gusta toda esta sangre, ¿puedo sacarla?
+Por supuesto, encontrarás una opción para desactivar "Sangre y Gibs" en la configuración del juego en el menú de opciones.
+@Estas capturas de pantalla son molestas, ¿puedo rechazarlas o apagarlas?
+Sí, encontrarás una configuración de "Intensidad de captura de pantalla" en la configuración del juego en el menú Opciones.
+@¿Puedo agrandar el texto?
+Sí, dirígete al menú Opciones, luego Interfaz. Encontrará muchas opciones para cambiar varios tipos de tamaños de texto.
+@¿Puedo mover el minimapa?
+Sí, dirígete al menú Opciones y luego a Interfaz para ver las alternativas.
+@¡Ayuda! ¡Hay demasiados números en la pantalla!
+Estos se pueden activar o desactivar de muchas formas diferentes desde el menú Opciones. Ve al menú Interfaz para encontrarlo.

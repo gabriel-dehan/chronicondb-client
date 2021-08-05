@@ -62,6 +62,7 @@ function parseSkill(skill: Record<string, string>, skillTree: string, characterC
   const cost = skill.cost1 ? parseInt(skill.cost1) : undefined;
   const cost100 = skill.cost100 ? parseInt(skill.cost100) : undefined;
   const tree = skillTree as SkillTree;
+  const tags = skill.tags ? skill.tags.split(',').filter(str => !isEmpty(str)) : [];
   let icon = null;
 
   if (tree === SkillTree.Mastery) {
@@ -99,5 +100,6 @@ function parseSkill(skill: Record<string, string>, skillTree: string, characterC
     range2,
     value,
     proc,
+    tags,
   };
 }
