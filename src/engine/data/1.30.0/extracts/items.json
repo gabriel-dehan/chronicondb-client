@@ -13733,7 +13733,7 @@
   {
     "uuid": 831,
     "name": "COL Dye",
-    "icon": null,
+    "icon": "spr_itemicons_831",
     "description": "Use: Unlock this dye for your Wardrobe.",
     "category": "Misc",
     "type": "Dye",
@@ -13746,7 +13746,7 @@
   {
     "uuid": 832,
     "name": "Heatwall",
-    "icon": null,
+    "icon": "spr_itemicons_832",
     "flavor": "Keep away from flammable objects.",
     "category": "Offhand",
     "type": "Shield",
@@ -13767,7 +13767,7 @@
   {
     "uuid": 833,
     "name": "Tarot Card",
-    "icon": null,
+    "icon": "spr_itemicons_833",
     "flavor": "Bring these to Tarot for great rewards.",
     "category": "Craft",
     "type": "Crafting Material",
@@ -13780,7 +13780,7 @@
   {
     "uuid": 834,
     "name": "Tainted Blood",
-    "icon": null,
+    "icon": "spr_itemicons_834",
     "flavor": "Used for Mythical crafting.",
     "category": "Craft",
     "type": "Crafting Material",
@@ -13793,7 +13793,7 @@
   {
     "uuid": 835,
     "name": "Enchanted Leaf",
-    "icon": null,
+    "icon": "spr_itemicons_835",
     "flavor": "Used for Mythical crafting.",
     "category": "Craft",
     "type": "Crafting Material",
@@ -13806,7 +13806,7 @@
   {
     "uuid": 836,
     "name": "Electrified Hair",
-    "icon": null,
+    "icon": "spr_itemicons_836",
     "flavor": "Used for Mythical crafting.",
     "category": "Craft",
     "type": "Crafting Material",
@@ -13819,7 +13819,7 @@
   {
     "uuid": 837,
     "name": "Giant Tooth",
-    "icon": null,
+    "icon": "spr_itemicons_837",
     "flavor": "Used for Mythical crafting.",
     "category": "Craft",
     "type": "Crafting Material",
@@ -13832,7 +13832,7 @@
   {
     "uuid": 838,
     "name": "Evil Eye",
-    "icon": null,
+    "icon": "spr_itemicons_838",
     "flavor": "Used for Mythical crafting.",
     "category": "Craft",
     "type": "Crafting Material",
@@ -13845,7 +13845,7 @@
   {
     "uuid": 839,
     "name": "Ancient Hilt",
-    "icon": null,
+    "icon": "spr_itemicons_839",
     "flavor": "Used for Mythical crafting.",
     "category": "Craft",
     "type": "Crafting Material",
@@ -13858,7 +13858,7 @@
   {
     "uuid": 840,
     "name": "Ancient Blade",
-    "icon": null,
+    "icon": "spr_itemicons_840",
     "flavor": "Used for Mythical crafting.",
     "category": "Craft",
     "type": "Crafting Material",
@@ -13871,7 +13871,7 @@
   {
     "uuid": 841,
     "name": "Ancient Straps",
-    "icon": null,
+    "icon": "spr_itemicons_841",
     "flavor": "Used for Mythical crafting.",
     "category": "Craft",
     "type": "Crafting Material",
@@ -13884,7 +13884,7 @@
   {
     "uuid": 842,
     "name": "Ancient Gloves",
-    "icon": null,
+    "icon": "spr_itemicons_842",
     "flavor": "Used for Mythical crafting.",
     "category": "Craft",
     "type": "Crafting Material",
@@ -13897,7 +13897,7 @@
   {
     "uuid": 843,
     "name": "Ancient String",
-    "icon": null,
+    "icon": "spr_itemicons_843",
     "flavor": "Used for Mythical crafting.",
     "category": "Craft",
     "type": "Crafting Material",
@@ -13910,7 +13910,7 @@
   {
     "uuid": 844,
     "name": "Ancient Bow",
-    "icon": null,
+    "icon": "spr_itemicons_844",
     "flavor": "Used for Mythical crafting.",
     "category": "Craft",
     "type": "Crafting Material",
@@ -13923,7 +13923,7 @@
   {
     "uuid": 845,
     "name": "Ancient Power Crystal",
-    "icon": null,
+    "icon": "spr_itemicons_845",
     "flavor": "Used for Mythical crafting.",
     "category": "Craft",
     "type": "Crafting Material",
@@ -13936,7 +13936,7 @@
   {
     "uuid": 846,
     "name": "Ancient Staff",
-    "icon": null,
+    "icon": "spr_itemicons_846",
     "flavor": "Used for Mythical crafting.",
     "category": "Craft",
     "type": "Crafting Material",
@@ -13949,7 +13949,7 @@
   {
     "uuid": 847,
     "name": "Treant Bark",
-    "icon": null,
+    "icon": "spr_itemicons_847",
     "flavor": "Used to grow Ancient Beasts.",
     "category": "Craft",
     "type": "Crafting Material",
@@ -13962,7 +13962,7 @@
   {
     "uuid": 848,
     "name": "Fae Dust",
-    "icon": null,
+    "icon": "spr_itemicons_848",
     "flavor": "Used to grow Ancient Beasts.",
     "category": "Craft",
     "type": "Crafting Material",
@@ -13975,7 +13975,7 @@
   {
     "uuid": 849,
     "name": "Fresh Foliage",
-    "icon": null,
+    "icon": "spr_itemicons_849",
     "flavor": "Used to grow Ancient Beasts.",
     "category": "Craft",
     "type": "Crafting Material",
@@ -13988,7 +13988,7 @@
   {
     "uuid": 850,
     "name": "Sandworm Meat",
-    "icon": null,
+    "icon": "spr_itemicons_850",
     "flavor": "Used to grow Ancient Beasts.",
     "category": "Craft",
     "type": "Crafting Material",
@@ -14001,7 +14001,7 @@
   {
     "uuid": 851,
     "name": "Beast Chunk",
-    "icon": null,
+    "icon": "spr_itemicons_851",
     "flavor": "Used to grow Ancient Beasts.",
     "category": "Craft",
     "type": "Crafting Material",
@@ -14014,7 +14014,7 @@
   {
     "uuid": 852,
     "name": "Clear Ice",
-    "icon": null,
+    "icon": "spr_itemicons_852",
     "flavor": "Used to grow Ancient Beasts.",
     "category": "Craft",
     "type": "Crafting Material",
@@ -14027,7 +14027,7 @@
   {
     "uuid": 853,
     "name": "Gargoyle Gravel",
-    "icon": null,
+    "icon": "spr_itemicons_853",
     "flavor": "Used to grow Ancient Beasts.",
     "category": "Craft",
     "type": "Crafting Material",
@@ -14040,7 +14040,7 @@
   {
     "uuid": 854,
     "name": "Elemental Energy",
-    "icon": null,
+    "icon": "spr_itemicons_854",
     "flavor": "Used to grow Ancient Beasts.",
     "category": "Craft",
     "type": "Crafting Material",
@@ -14053,7 +14053,7 @@
   {
     "uuid": 855,
     "name": "Crunchy Rock",
-    "icon": null,
+    "icon": "spr_itemicons_855",
     "flavor": "Used to grow Ancient Beasts.",
     "category": "Craft",
     "type": "Crafting Material",
@@ -14066,7 +14066,7 @@
   {
     "uuid": 856,
     "name": "Golem Bits",
-    "icon": null,
+    "icon": "spr_itemicons_856",
     "flavor": "Used to grow Ancient Beasts.",
     "category": "Craft",
     "type": "Crafting Material",
@@ -14079,7 +14079,7 @@
   {
     "uuid": 857,
     "name": "Undead Bones",
-    "icon": null,
+    "icon": "spr_itemicons_857",
     "flavor": "Used to grow Ancient Beasts.",
     "category": "Craft",
     "type": "Crafting Material",
@@ -14092,7 +14092,7 @@
   {
     "uuid": 858,
     "name": "Nutritious Ash",
-    "icon": null,
+    "icon": "spr_itemicons_858",
     "flavor": "Used to grow Ancient Beasts.",
     "category": "Craft",
     "type": "Crafting Material",
@@ -14105,7 +14105,7 @@
   {
     "uuid": 859,
     "name": "Spirit Guard",
-    "icon": null,
+    "icon": "spr_itemicons_859",
     "flavor": "Those strong in spirit shall overcome.",
     "category": "Armor",
     "type": "Armor",
