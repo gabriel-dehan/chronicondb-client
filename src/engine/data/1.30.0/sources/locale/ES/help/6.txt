@@ -1,0 +1,19 @@
+@¿Cómo juego multijugador?
+Simplemente haz clic en Multijugador en el menú principal y haz que tus amigos presionen "A" en sus gamepads.
+¡Esto también funciona en Steam Remote Play Together!
+@¿Puedo jugar online o vía LAN?
+Solo a través de Steam Remote Play Together.
+@¿Cuántos controles necesito para el modo multijugador?
+Uno por persona adicional, como jugador uno puede usar el teclado y el mouse. El jugador uno puede cambiar a gamepad desde el menú de Opciones, o usándolo para navegar por el menú principal.
+@¿Con cuántos amigos puedo jugar en multijugador?
+Hasta 3, haciendo un total de 4 jugadores.
+@¿Puedo usar mi personaje de un jugador en juegos multijugador?
+Si. Aunque se recomienda que uses un personaje específico para multijugador y uno para un solo jugador, para mantenerte sincronizado con tus amigos. Pero eres libre de hacer lo que quieras.
+@¿Pueden varios jugadores usar el mismo personaje?
+No. Esto causaría problemas al guardar, ya que todos tendrían diferentes objetos, diferentes habilidades asignadas, etc.
+@Si completo una misión en un jugador, ¿puedo hacerlo en multijugador y viceversa?
+No, una misión completada permanecerá completa en ambos modos. Ten esto en cuenta cuando juegues con personajes con diferentes avances, ya que podrías perder la sincronización con la trama.
+@¿Qué pasa si juego con personajes con una gran diferencia de nivel?
+La pasarás mal. Los enemigos y el botín no podrán escalar correctamente, así que intenta usar personajes que estén entre 1 y 2 niveles entre sí.
+@¿Se comparten los puntos de experiencia en el modo multijugador?
+Todos obtienen la misma cantidad de puntos de experiencia y no se reduce de ninguna manera con más jugadores. Esto se aplica tanto a las misiones como a las muertes. Tenga en cuenta que el jugador tiene que estar vivo para ganar experiencia. Lo único que puede afectar tu ganancia de experiencia es la diferencia de nivel entre jugadores y monstruos, y los posibles modificadores de estadísticas de "experiencia adicional" en el equipo.

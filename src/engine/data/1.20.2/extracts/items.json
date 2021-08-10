@@ -13714,7 +13714,7 @@
   {
     "uuid": 831,
     "name": "COL Dye",
-    "icon": null,
+    "icon": "spr_itemicons_831",
     "description": "Use: Unlock this dye for your Wardrobe.",
     "category": "Misc",
     "type": "Dye",
@@ -13727,7 +13727,7 @@
   {
     "uuid": 832,
     "name": "Heatwall",
-    "icon": null,
+    "icon": "spr_itemicons_832",
     "flavor": "Keep away from flammable objects.",
     "category": "Offhand",
     "type": "Shield",

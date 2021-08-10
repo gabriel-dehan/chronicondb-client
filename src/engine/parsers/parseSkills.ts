@@ -43,6 +43,7 @@ export function parseSkills(version: string, verbose = false) {
 
 function parseSkill(skill: Record<string, string>, skillTree: string, characterClass: string): Skill {
   const { id, name, type, element, description } = skill;
+  const parsedName = name.indexOf("_") == -1 ? name : name.split("_")[-1];
   const uuid = parseInt(id);
   const family = skill.family === 'None' ? undefined : skill.family;
   const minLevel = skill.min_level ? parseInt(skill.min_level) : 0;
@@ -62,6 +63,7 @@ function parseSkill(skill: Record<string, string>, skillTree: string, characterC
   const cost = skill.cost1 ? parseInt(skill.cost1) : undefined;
   const cost100 = skill.cost100 ? parseInt(skill.cost100) : undefined;
   const tree = skillTree as SkillTree;
+  const tags = skill.tags ? skill.tags.split(',').filter(str => !isEmpty(str)) : [];
   let icon = null;
 
   if (tree === SkillTree.Mastery) {
@@ -77,7 +79,7 @@ function parseSkill(skill: Record<string, string>, skillTree: string, characterC
     uuid,
     class: characterClass as CharacterClass,
     tree,
-    name,
+    name: parsedName,
     icon,
     type: type as SkillType,
     family: family as SkillFamily,
@@ -99,5 +101,6 @@ function parseSkill(skill: Record<string, string>, skillTree: string, characterC
     range2,
     value,
     proc,
+    tags,
   };
 }

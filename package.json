@@ -55,9 +55,9 @@
     "eject": "react-scripts eject",
     "lint": "eslint src/**/*.{ts,tsx}",
     "lint:fix": "eslint --fix src/**/*.{ts,tsx}",
-    "build:sitemap": "ts-node -O '{ \"module\":\"commonjs\" }' src/sitemap-builder.jsx",
-    "parse:all": "ts-node -O '{ \"module\":\"commonjs\" }' src/engine/parsers/parseAll.ts --version",
-    "parse:all:debug": "ts-node -O '{ \"module\":\"commonjs\" }' src/engine/parsers/parseAll.ts --verbose --version"
+    "build:sitemap": "ts-node -O \"{ \\\"module\\\":\\\"commonjs\\\" }\" src/sitemap-builder.jsx",
+    "parse:all": "ts-node -O \"{ \\\"module\\\":\\\"commonjs\\\" }\" src/engine/parsers/parseAll.ts --version",
+    "parse:all:debug": "ts-node -O \"{ \\\"module\\\":\\\"commonjs\\\" }\" src/engine/parsers/parseAll.ts --verbose --version"
   },
   "eslintConfig": {
     "extends": [

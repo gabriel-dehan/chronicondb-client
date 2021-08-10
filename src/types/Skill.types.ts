@@ -26,6 +26,7 @@ export interface Skill {
   description_next?: string;
   cost?: number;
   cost100?: number;
+  tags: string[];
 }
 
 export enum DamageElement {

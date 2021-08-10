@@ -109,9 +109,9 @@ function parseRanges(ranges: string, category: EnchantCategory): EnchantRanges {
 
     return {
       minimum: minimumByRarity[rarityIndex],
-      maximum: maximumByRarity[rarityIndex],
-      cap: capByRarity[rarityIndex],
-      greaterCap: greaterCap[0],
+      maximum: maximumByRarity == null ? minimumByRarity[rarityIndex] : maximumByRarity[rarityIndex],
+      cap: capByRarity == null ? minimumByRarity[rarityIndex] : capByRarity[rarityIndex],
+      greaterCap: greaterCap == null ? minimumByRarity[rarityIndex] : greaterCap[0],
     };
   };
 
