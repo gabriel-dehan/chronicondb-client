@@ -1,12 +1,11 @@
 import React, { FunctionComponent } from 'react';
+import './SortSelect.scss';
 
 interface Props {
   currentOrder: 'asc' | 'desc' | null;
   label: string;
   onChange: () => void;
 }
-
-import './SortSelect.scss';
 
 const SortSelect: FunctionComponent<Props> = ({
   currentOrder,

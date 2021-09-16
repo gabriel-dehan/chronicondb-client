@@ -41,7 +41,7 @@ export function parseEnchants(version: string, verbose = false): Enchant[] {
     const ranges = parseRanges(rawRanges, category);
     const type = capitalize(rawType.replace(/\(|\)/g, '')) as EnchantType;
     const affixes = getAffixes(uuid, locale);
-    const description = locale[uuid].txt;
+    const description = locale[uuid]?.txt;
     const items = findItems(uuid, itemsData);
     const itemTypes = findItemTypes(uuid, type, category, version);
     const skills = findSkills(description);
@@ -140,7 +140,7 @@ function parseRanges(ranges: string, category: EnchantCategory): EnchantRanges {
 }
 
 function getAffixes(uuid: number, locale: LocaleData): string[] | undefined {
-  const affixes = compact([locale[uuid].fix1, locale[uuid].fix1]);
+  const affixes = compact([locale[uuid]?.fix1, locale[uuid]?.fix1]);
 
   return affixes.length > 0 ? affixes : undefined;
 }
@@ -181,16 +181,19 @@ function findItemTypes(uuid: number, type: EnchantType, category: EnchantCategor
 }
 
 function findSkills(description: string): number[] | undefined {
+  if (!description) {
+    return undefined;
+  }
   const skillsMatches = [...description.matchAll(/<SKILL_(\d+)>/g)].map(m => parseInt(m[1]));
   return skillsMatches.length > 0 ? uniq(skillsMatches) : undefined;
 }
 
 function parseLocale(version: string): EnchantsLocaleData {
   const parser = /^enchant_(\d+)_(\w+)$/;
-  const localePowerData = getLocaleSection(version, 'locale/EN/enchants', 'power');
-  const localeEnchantData = getLocaleSection(version, 'locale/EN/enchants', 'enchant');
-  const localeGemsData = getLocaleSection(version, 'locale/EN/enchants', 'gems');
-  const localeRunesData = getLocaleSection(version, 'locale/EN/enchants', 'runes');
+  const localePowerData = getLocaleSection(version, 'locale/CN/enchants', 'power');
+  const localeEnchantData = getLocaleSection(version, 'locale/CN/enchants', 'enchant');
+  const localeGemsData = getLocaleSection(version, 'locale/CN/enchants', 'gems');
+  const localeRunesData = getLocaleSection(version, 'locale/CN/enchants', 'runes');
 
   const powerLocales = parseLocaleData(localePowerData, parser);
   const enchantLocales = parseLocaleData(localeEnchantData, parser);

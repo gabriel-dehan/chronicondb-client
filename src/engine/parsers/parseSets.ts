@@ -45,7 +45,7 @@ export function parseSets(version: string, verbose = false): ItemSet[] {
 }
 
 function parseLocale(version: string): SetLocaleData {
-  const localeData = getLocaleSection(version, 'locale/EN/items', 'sets');
+  const localeData = getLocaleSection(version, 'locale/CN/items', 'sets');
 
   return reduce(localeData, (setData: SetLocaleData, value, key) => {
     const matches = key.match(/^(\w+)_(\w+)$/);
