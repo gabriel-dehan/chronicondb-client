@@ -14125,7 +14125,7 @@
   {
     "uuid": 860,
     "name": "Artifact Fragments",
-    "icon": null,
+    "icon": "spr_itemicons_860",
     "flavor": "Bring these to Diana Jones for great rewards.",
     "category": "Craft",
     "type": "Crafting Material",
@@ -14138,7 +14138,7 @@
   {
     "uuid": 861,
     "name": "Golden Crystals",
-    "icon": null,
+    "icon": "spr_itemicons_861",
     "category": "Craft",
     "type": "Crafting Material",
     "rarity": "Legendary",
