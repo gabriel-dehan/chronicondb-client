@@ -1,0 +1,654 @@
+[
+  {
+    "uuid": "sunandmoon",
+    "name": "Sun & Moon",
+    "bonuses": {
+      "2": "When casting a Frost skill, bonus Fire damage is multiplied by 3. When casting a Fire skill, bonus Frost damage is multiplied by 3. This effect lasts 7 seconds."
+    },
+    "itemIds": [
+      504,
+      505
+    ]
+  },
+  {
+    "uuid": "seeker",
+    "name": "Seeker's Gambit",
+    "bonuses": {
+      "2": "+50% Pickup Radius.",
+      "3": "+50% Magic Find."
+    },
+    "itemIds": [
+      331,
+      332,
+      333
+    ]
+  },
+  {
+    "uuid": "bond",
+    "name": "The Bond",
+    "bonuses": {
+      "2": "+30% Companion Health and Damage."
+    },
+    "itemIds": [
+      496,
+      497
+    ]
+  },
+  {
+    "uuid": "element1",
+    "name": "All For One",
+    "bonuses": {
+      "2": "All your bonus Damage Element stats are added to the Damage Element of the skill in your first skill slot."
+    },
+    "itemIds": [
+      502,
+      503
+    ]
+  },
+  {
+    "uuid": "element2",
+    "name": "One For All",
+    "bonuses": {
+      "2": "Your highest Resistance stat, multiplied by 3, is now added to all Damage Element stats."
+    },
+    "itemIds": [
+      500,
+      501
+    ]
+  },
+  {
+    "uuid": "masters",
+    "name": "Master's Command",
+    "bonuses": {
+      "2": "All companions become Elite, granting them an additional special attack, multiplying their base health by 2, and their base damage by 5. In addition, the Companion Damage stat is 25% more effective."
+    },
+    "itemIds": [
+      776,
+      616
+    ]
+  },
+  {
+    "uuid": "scout",
+    "name": "Master Scout's Gear",
+    "bonuses": {
+      "2": "+20% Movement Speed.",
+      "3": "Become invisible if you don't attack or get hurt for 5 seconds."
+    },
+    "itemIds": [
+      151,
+      327,
+      328
+    ]
+  },
+  {
+    "uuid": "summoner",
+    "name": "Summoner's Garb",
+    "bonuses": {
+      "2": "+250% Companion Health & Companion Damage.",
+      "3": "+50% to all Damage Elements per active Companion skill."
+    },
+    "itemIds": [
+      510,
+      511,
+      512,
+      513
+    ]
+  },
+  {
+    "uuid": "thiefs",
+    "name": "Thief's Gamble",
+    "bonuses": {
+      "2": "Picking up Crystals increases Movement Speed by 2% for 5 seconds. Stacks 20 times."
+    },
+    "itemIds": [
+      494,
+      495
+    ]
+  },
+  {
+    "uuid": "harvest",
+    "name": "The Harvest",
+    "bonuses": {
+      "2": "+50% Pickup Strength and Pickup Radius."
+    },
+    "itemIds": [
+      498,
+      499
+    ]
+  },
+  {
+    "uuid": "thorns",
+    "name": "Wrathful Revenge",
+    "bonuses": {
+      "2": "Thorns increased by 25% of Damage stat.",
+      "3": "Thorns increased by an additional 50% of Damage stat."
+    },
+    "itemIds": [
+      329,
+      330,
+      149
+    ]
+  },
+  {
+    "uuid": "thorns2",
+    "name": "Furious Retaliation",
+    "bonuses": {
+      "2": "Adds 50% of your Maximum Health to Thorns.",
+      "3": "Adds 30% of your damage to Thorns.",
+      "4": "Periodically taunts all nearby foes."
+    },
+    "itemIds": [
+      506,
+      507,
+      508,
+      509
+    ]
+  },
+  {
+    "uuid": "challenger",
+    "name": "Challenger's Determination",
+    "bonuses": {
+      "2": "Shrines will always spawn a champion monster.",
+      "3": "Twice as likely to encounter Unstable Dimensions and Challenge Scrolls."
+    },
+    "itemIds": [
+      334,
+      335,
+      336
+    ]
+  },
+  {
+    "uuid": "valkyrie",
+    "name": "Valkyrie Battlegear",
+    "bonuses": {
+      "2": "Sword skills attack with 100% increased attack speed, and Sharp Steel now stacks infinitely.",
+      "3": "Phantom Shield always triggers, and Shield skills have their base damage increased by the Templar's block chance.",
+      "4": "+30% Damage Reduction, +10% Block Chance, +10% Damage Blocked."
+    },
+    "itemIds": [
+      547,
+      548,
+      549,
+      550
+    ]
+  },
+  {
+    "uuid": "reckoning",
+    "name": "The Reckoning",
+    "bonuses": {
+      "2": "Taking damage grants the Templar Reckoning, increasing Thorns 50% per stack, stacking 10 times and lasting 10 seconds.",
+      "3": "Reckoning also increases attack speed by 3% per stack. Thorns damage is dealt on hit.",
+      "4": "Reckoning increases Damage Reduction by 40% while active."
+    },
+    "itemIds": [
+      376,
+      377,
+      378,
+      379
+    ]
+  },
+  {
+    "uuid": "thunderingarmy",
+    "name": "The Thundering Army",
+    "bonuses": {
+      "2": "Soul Replication and Soul Avatar last until death, and their base health and damage is doubled.",
+      "3": "Soul Replication also summons an Avatar, and Soul Avatar also summons the Replicas. Each hit by these companions weaken the foe, increasing the damage they take by 15%, stacking infinitely.",
+      "4": "40% of the damage taken by the Templar is redirected and shared evenly between any active Soul Avatar and Soul Replicas."
+    },
+    "itemIds": [
+      539,
+      540,
+      541,
+      542
+    ]
+  },
+  {
+    "uuid": "thundercharge",
+    "name": "Thundercharged Battlegear",
+    "bonuses": {
+      "2": "Using Lightning skills charges your armor, adding 1 stack of Charged Armor. Each stack of Charged Armor increases the damage of Avenger by 35%. Max 10 stacks, lasts 7 seconds.",
+      "3": "Avenger now triggers on-hit effects and is also automatically triggered on each Lightning Satellite every 1.5 seconds, affected by attack speed. Avenger triggered from the satellites is also affected by Satellite Strength. However Lightning Satellites no longer attack normally.",
+      "4": "Charged Armor now also adds 40% Damage Reduction while active."
+    },
+    "itemIds": [
+      123,
+      134,
+      318,
+      326
+    ]
+  },
+  {
+    "uuid": "caines",
+    "name": "Caine's Battlegear",
+    "bonuses": {
+      "2": "Flare has 100% chance to trigger and allows the Templar to move unhindered through foes and objects. Holy Fire (Aura) now deals the same damage as Blaze while Flare is active, and the damage of Blaze is now improved by Aura Effect.",
+      "3": "While Flare is active each strike of Holy Fire weakens the foe, increasing the damage it takes from Holy Fire by 100%, stacking infinitely.",
+      "4": "Flare adds 40% Damage Reduction while active."
+    },
+    "itemIds": [
+      372,
+      373,
+      374,
+      375
+    ]
+  },
+  {
+    "uuid": "wargod",
+    "name": "War God Armor",
+    "bonuses": {
+      "2": "Burning Conviction now stacks infinitely, and slows foes by 30%.",
+      "3": "Foes affected by Burning Conviction receive a burst of fire damage when hit, dealing damage equal to 30% of the total remaining damage of Burning Conviction.",
+      "4": "+40% Damage Reduction."
+    },
+    "itemIds": [
+      543,
+      544,
+      545,
+      546
+    ]
+  },
+  {
+    "uuid": "soulpurger",
+    "name": "Soulpurger's Regalia",
+    "bonuses": {
+      "2": "Foes struck by Expulsion are set on fire, dealing 50% of the damage dealt per second, for 7 seconds. The burn stacks infinitely.",
+      "3": "Expulsion now has a 100% chance to trigger, and each trigger of Expulsion adds Radiance to the Templar, increasing attack speed and movement speed by 5%, stacking up to 10 times. Effect lasts 5 seconds.",
+      "4": "Radiance adds 40% Damage Reduction."
+    },
+    "itemIds": [
+      535,
+      536,
+      537,
+      538
+    ]
+  },
+  {
+    "uuid": "ayeela",
+    "name": "Avatar of Ayeela",
+    "bonuses": {
+      "2": "All Holy skills trigger Hallowed on hit, using the damage dealt as a base for the skill. Hallowed deals 100% increased damage.",
+      "3": "Hallowed also applies Judgment to foes struck by it, dealing the damage of Hallowed per second, for 7 seconds. Stacks infinitely.",
+      "4": "Receiving any form of healing blesses the Templar with 40% Damage Reduction for 5 seconds."
+    },
+    "itemIds": [
+      124,
+      323,
+      324,
+      325
+    ]
+  },
+  {
+    "uuid": "bloodsoak",
+    "name": "Bloodsoaked Garb",
+    "bonuses": {
+      "2": "Internal Hemorrhage now stacks infinitely, and Bloodbath increases all Bleed Damage by 15% per stack.",
+      "3": "Internal Hemorrhage is twice as effective when applied by non-Stone skills. Foes who die under the effect of Internal Hemorrhage erupt in an explosion of blood, dealing 250% of the total remaining damage of the effect to all foes within 3 meters.",
+      "4": "Bloodbath reduces damage taken by 40% while active."
+    },
+    "itemIds": [
+      91,
+      100,
+      337,
+      556
+    ]
+  },
+  {
+    "uuid": "cataclysm",
+    "name": "Cataclysmic Battlegear",
+    "bonuses": {
+      "2": "Quake has 100% chance to trigger, and all Stone Skills deal 30% increased damage.",
+      "3": "Stalagmites instead form in a nova around the Berserker, releasing after 2 seconds to deal 300% of the total built up damage of all Stalagmites. Each hit of Quake increases the damage the Stalagmite nova deals by 15% to that target. //Stalagmites deal 200% increased damage, always triggers on Quake, and deals 15% increased damage each strike.",
+      "4": "All Stone Skills grants the Berserker Earth Ward for 10 seconds. Earth Ward lowers damage taken by 40%."
+    },
+    "itemIds": [
+      552,
+      553,
+      554,
+      555
+    ]
+  },
+  {
+    "uuid": "soulsky",
+    "name": "Skysoul Fragments",
+    "bonuses": {
+      "2": "Dragon Soul applies a debuff dealing 150% of the damage dealt as damage per second for 5 seconds to all foes struck, stacking infinitely.",
+      "3": "Dragon Spirit and Dragon Soul have 100% chance to trigger and Dragon's Grace now deals damage in a 2 meter radius, and applies the damaging debuff.",
+      "4": "Dragon Spirit adds 40% Damage Reduction while active."
+    },
+    "itemIds": [
+      557,
+      558,
+      559,
+      560
+    ]
+  },
+  {
+    "uuid": "spiritgarb",
+    "name": "Spiritual Garb",
+    "bonuses": {
+      "2": "Spirit Link now connects up to 6 foes to the host, and all foes affected take 20% increased damage from all sources.",
+      "3": "Soul Link now deals the damage in a 2 meter radius. When a Spirit Link host is struck, it suffers 100% increased damage from the attack for each missing link. In addition, a Soul Burn effect is applied to the host, dealing 100% of the damage taken, per second, for 5 seconds. The Soul Burn stacks infinitely.",
+      "4": "Spirit Link now also links with the Berserker, redirecting 40% of the damage received to all foes affected by Spirit Link."
+    },
+    "itemIds": [
+      380,
+      381,
+      382,
+      383
+    ]
+  },
+  {
+    "uuid": "volcano",
+    "name": "Volcanic Garb",
+    "bonuses": {
+      "2": "Molten Veins has a 2 meter wider radius and is now also triggered on attacks, and Lava Blood now stacks infinitely.",
+      "3": "Thorns damage is increased by 10% for each point of Rage, and Lava Blood has 100% chance to trigger.",
+      "4": "Every 3 points of Rage adds 1% Damage Reduction to the Berserker."
+    },
+    "itemIds": [
+      562,
+      563,
+      564,
+      565
+    ]
+  },
+  {
+    "uuid": "dragonfire",
+    "name": "Dragonfire Garb",
+    "bonuses": {
+      "2": "Explosive Manoeuvres always triggers on hit, and Destructive Manoeuvres deal 200% increased damage.",
+      "3": "Explosive Manoeuvres and Destructive Manoeuvres adds Rampage to the Berserker when triggered. Rampage stacks up to 20 times and increases the damage of Explosive Manoeuvres by 10% per stack for 5 seconds.",
+      "4": "Rampage adds 40% Damage Reduction while active."
+    },
+    "itemIds": [
+      102,
+      339,
+      340,
+      561
+    ]
+  },
+  {
+    "uuid": "northernrage",
+    "name": "Northern Rage",
+    "bonuses": {
+      "2": "+300% Rage Generation.",
+      "3": "Frost skills also apply Frostbound to foes, storing the damage dealt to the foe, and adds it to the next hit of Rage Release, multiplied by the damage percentage of Rage Release. Effect lasts for 5 seconds and stacks infinitely.",
+      "4": "Rage Release now grants the Berserker 40% Damage Reduction for 5 seconds when triggered."
+    },
+    "itemIds": [
+      384,
+      385,
+      386,
+      566
+    ]
+  },
+  {
+    "uuid": "frostwyrm",
+    "name": "Gust of the Frost Wyrms",
+    "bonuses": {
+      "2": "Frost Winds has 100% chance to trigger, and Frostbite stacks infinitely.",
+      "3": "Frost Winds now always triggers twisters 3 at a time, and the maximum amount of active twisters is increased by 5.",
+      "4": "Frost Winds adds 40% Damage Reduction to the Berserker when triggered. Effect lasts 5 seconds."
+    },
+    "itemIds": [
+      567,
+      568,
+      569,
+      570
+    ]
+  },
+  {
+    "uuid": "bloodbinder",
+    "name": "Blood Binder's Raiment",
+    "bonuses": {
+      "2": "If there are no Clots alive and 3 or more Living Blood, they will merge into a large Clot, adding up their stats. When the Clot dies, it deals 500% of its damage as Poison damage in a 3 meter radius. Lasts 10 seconds.",
+      "3": "Clots will absorb nearby Living Bloods, adding their Health and Damage to itself. Clots and Living Blood will apply an infinitely stacking poison debuff on foes hurt by their attacks and their death explosion, dealing the damage of the attack each second, for 5 seconds.",
+      "4": "The Warlock gains 5% Damage Reduction each time a Living Blood or Clot is formed, stacking up to 40%. Effect lasts 7 seconds."
+    },
+    "itemIds": [
+      368,
+      369,
+      370,
+      594
+    ]
+  },
+  {
+    "uuid": "plaguemage",
+    "name": "Plague Mage Raiment",
+    "bonuses": {
+      "2": "Infection stacks infinitely.",
+      "3": "Contagion has 100% chance to trigger.",
+      "4": "The Warlock gains a Shield for 50% of his Maximum Health when Contagion triggers, however the Shield will weaken the Warlock if destroyed, preventing it from being re-applied for 5 seconds."
+    },
+    "itemIds": [
+      598,
+      599,
+      600,
+      601
+    ]
+  },
+  {
+    "uuid": "coldhearted",
+    "name": "Coldhearted Lich",
+    "bonuses": {
+      "2": "Spirit of Torment now deals 100% increased damage and deals its damage a 2 meter radius around itself.",
+      "3": "Spirit of Torment will now merge with other nearby Spirits, adding their damage up and refreshing their duration.",
+      "4": "Frozen Veil shields for an additional 3% of the Warlock's Maximum Health per stack, and the cooldown is removed."
+    },
+    "itemIds": [
+      113,
+      321,
+      322,
+      596
+    ]
+  },
+  {
+    "uuid": "deathbringers",
+    "name": "Deathbringer's Raiment",
+    "bonuses": {
+      "2": "Every time a foe is affected by Cold Death, the damage of Cold Death on that foe is increased by 10%. Stacks infinitely.",
+      "3": "Corpse Shatter is twice as likely to trigger and will spread any Cold Death bonus damage stacks to all foes hit.",
+      "4": "Each trigger of Bone Chill adds 10% Damage Reduction to the Warlock, stacking up to 40% and lasting 7 seconds."
+    },
+    "itemIds": [
+      606,
+      607,
+      608,
+      609
+    ]
+  },
+  {
+    "uuid": "demonlord",
+    "name": "Demon Lord's Regalia",
+    "bonuses": {
+      "2": "Summons a permanent Infernal Demon. Casting Hell Pit now also teleports the Infernal Demon to the location of the Hell Pit. The Infernal Demon will taunt nearby foes after teleporting. Can only teleport once every 3 seconds.",
+      "3": "When the Warlock lands a hit with a fire spell the Infernal Demon becomes Empowered, increasing its damage stat by the damage dealt by the Warlock. This effect is multiplied by the current amount of souls held by the Warlock, and lasts for 10 seconds and can be refreshed. However, the Infernal Demon can no longer crit.",
+      "4": "50% of the damage taken by the Warlock is redirected to the Infernal Demon."
+    },
+    "itemIds": [
+      112,
+      118,
+      319,
+      595
+    ]
+  },
+  {
+    "uuid": "burninghell",
+    "name": "Regalia of Burning Hells",
+    "bonuses": {
+      "2": "Flaming Hells stacks infinitely.",
+      "3": "Demonic Fury is also cast on all companions. If the Warlock has no companion skills, Flaming Hells is instead applied 5 stacks at a time.",
+      "4": "The Warlock and their companions gain 40% Damage Reduction for 6 seconds after triggering Demonic Fury."
+    },
+    "itemIds": [
+      602,
+      603,
+      604,
+      605
+    ]
+  },
+  {
+    "uuid": "desecrators",
+    "name": "Desecrator's Raiment",
+    "bonuses": {
+      "2": "Desecration also spawns a Skull, which will store damage from all nearby Desecration triggers. After 1.5 seconds, the Skull deals 300% of the total damage absorbed to all foes within 5 meters.",
+      "3": "Foes struck by Desecration receive 50% increased damage from Desecration and the Skull. This effect stacks infinitely. In addition, Desecration slows foes hit by 50% for 2 seconds.",
+      "4": "The Warlock is healed for 1% Health each time Desecration strikes a foe. Overhealing from any source is turned into a Shield, absorbing up to 30% of the Warlock's Maximum Health."
+    },
+    "itemIds": [
+      364,
+      365,
+      366,
+      597
+    ]
+  },
+  {
+    "uuid": "masochists",
+    "name": "Masochist's Garb",
+    "bonuses": {
+      "2": "Death Knight (Ultimate) lasts until death. Masochism has one stack added per second and stacks 10 more times. All Bone skills have their damage increased by 25% of Thorns.",
+      "3": "Bane skills weaken enemies on hit, increasing the damage they take from Bane skills by 30%. This effect stacks infinitely. Bone Splinters also stack infinitely. In addition, Masochism adds 30% increased Thorns per stack.",
+      "4": "Each stack of Masochism reduces the damage taken by the Warlock by 5%, up to 40%."
+    },
+    "itemIds": [
+      610,
+      611,
+      612,
+      613
+    ]
+  },
+  {
+    "uuid": "highranger",
+    "name": "High Ranger's Gear",
+    "bonuses": {
+      "2": "Overdraw and Double Draw have a 100% chance to trigger. Razor tips deal 100% increased damage.",
+      "3": "Razor Tips bleed stack infinitely, and Double Draw deals an additional 100% of the triggering skill's damage.",
+      "4": "The Warden gains 40% Damage Reduction."
+    },
+    "itemIds": [
+      142,
+      341,
+      342,
+      343
+    ]
+  },
+  {
+    "uuid": "windcaller",
+    "name": "Windcaller's Regalia",
+    "bonuses": {
+      "2": "All Physical skills spawn small Whirlwinds on the foe on hit. The Whirlwinds deal equal damage to the skill that triggered them, per second, and lasts 3 seconds. 2 meter damage radius. If Whirlwinds collide they will merge, refreshing their duration and combining their damage. When a Whirlwind is about to expire it will automatically seek out other Whirlwinds to merge with.",
+      "3": "Whirlwinds now last 7 seconds and are twice as strong. Windwalker (Ultimate) now lasts until death, and will cast Gale rank 5 every 5 seconds. ",
+      "4": "The Warden gains 40% Damage Reduction."
+    },
+    "itemIds": [
+      576,
+      577,
+      578,
+      579
+    ]
+  },
+  {
+    "uuid": "shroomtender",
+    "name": "Shroom Tender's Garb",
+    "bonuses": {
+      "2": "Spores always trigger on cast, and all mushrooms spawned from Spores are twice as strong.",
+      "3": "Mushrooms now grow from each foe hit by the Spores. Mushrooms now also weaken nearby foes when popping, causing them to take 10% increased damage from all mushrooms. This effect stacks infinitely. Mushrooms empowered by Sporelings adds three additional stacks per empowerment.",
+      "4": "The Warden gains 40% Damage Reduction."
+    },
+    "itemIds": [
+      585,
+      586,
+      587,
+      588
+    ]
+  },
+  {
+    "uuid": "everspring",
+    "name": "Everspring Raiment",
+    "bonuses": {
+      "2": "Pods stack infinitely, and Bloom is twice as likely to trigger",
+      "3": "Pods have an increased 20% chance to burst, and when bursting they spawn small twisters, dealing the same amount of damage per second, for 3 seconds. In addition, all poison skills always apply 3 stacks of Pods per hit.",
+      "4": "The Warden gains 40% Damage Reduction."
+    },
+    "itemIds": [
+      388,
+      389,
+      390,
+      391
+    ]
+  },
+  {
+    "uuid": "stormcaller",
+    "name": "Stormcaller's Regalia",
+    "bonuses": {
+      "2": "Lightning Rod applies a burn to foes struck, dealing the same amount of damage per second, for 5 seconds. This burn stacks.",
+      "3": "When Static gains a charge, it considers the total remaining Lightning Rod burn damage on the foe as part of the triggering skill. Lightning Rod and Static also gain an additional 40% chance to trigger.",
+      "4": "The Warden gains 40% Damage Reduction."
+    },
+    "itemIds": [
+      74,
+      139,
+      140,
+      580
+    ]
+  },
+  {
+    "uuid": "wispmother",
+    "name": "Armor of The Wispmother",
+    "bonuses": {
+      "2": "Lightning skills apply Wisp Spark to foes, increasing the damage they take from Wisps by 5% of the damage percentage of the used skill, and makes the Wisps target the foe. Wisp Spark both lasts and stacks infinitely.",
+      "3": "Spawns an additional 3 Wisps, and the Wisp's Chain Lightning attack is replaced with Thunder Orb, dealing increased damage to a concentrated location.",
+      "4": "The Warden gains 40% Damage Reduction."
+    },
+    "itemIds": [
+      581,
+      582,
+      583,
+      584
+    ]
+  },
+  {
+    "uuid": "torrent",
+    "name": "Torrential Raiment",
+    "bonuses": {
+      "2": "Pummel stacks infinitely and adds an additional 15% damage increase per stack, and Pelted strikes twice as fast.",
+      "3": "Pelted lasts forever, and Torrent always triggers and additionally restores 1% mana.",
+      "4": "The Warden gains 40% Damage Reduction."
+    },
+    "itemIds": [
+      590,
+      591,
+      592,
+      593
+    ]
+  },
+  {
+    "uuid": "snowstorm",
+    "name": "Snowstorm Armor",
+    "bonuses": {
+      "2": "Foes affected by Winter's Chill take 15% increased damage from Snow Blast. This effect stacks infinitely.",
+      "3": "When triggered, Snow Blast now also summons a Snow Ball which will hover above the target foe, building up damage based on the Snow Blast triggers. After 3 seconds, a pause in Snow Blast procs, or if the foe dies, the Snow Ball strikes the ground dealing 120% of the stored up damage to all foes within 7 meters.",
+      "4": "The Warden gains 40% damage reduction."
+    },
+    "itemIds": [
+      392,
+      393,
+      394,
+      589
+    ]
+  },
+  {
+    "uuid": "xmas",
+    "name": "'Tis The Season",
+    "bonuses": {
+      "2": "Let it snow!"
+    },
+    "itemIds": [
+      716,
+      717,
+      718,
+      719,
+      720
+    ]
+  }
+]
