@@ -508,136 +508,136 @@
     "name": "Health",
     "category": "Enchant",
     "description": " Health",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Helm, Armor, Bow, Sword, Staff, Fists, Boots, Accessory, Ring, Amulet, Shield",
+    "itemCategories": "Helmet, Armor, Weapon, Boots, Accessory, Ring, Amulet, Offhand"
   },
   {
     "uuid": 2,
     "name": "Mana",
     "category": "Enchant",
     "description": " Mana",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Helm, Armor, Bow, Sword, Staff, Fists, Boots, Accessory, Ring, Amulet, Spellbook, Shield, Tome",
+    "itemCategories": "Helmet, Armor, Weapon, Boots, Accessory, Ring, Amulet, Offhand"
   },
   {
     "uuid": 3,
     "name": "Damage",
     "category": "Enchant",
     "description": " Damage",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Bow, Sword, Staff, Fists, Ring, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Weapon, Ring, Offhand"
   },
   {
     "uuid": 4,
     "name": "Movement Speed",
     "category": "Enchant",
     "description": " Movement Speed",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Boots, Accessory, Ring, Amulet, Claw, Arrow",
+    "itemCategories": "Boots, Accessory, Ring, Amulet, Offhand"
   },
   {
     "uuid": 5,
     "name": "Attack Speed",
     "category": "Enchant",
     "description": " Attack Speed",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Ring, Amulet, Claw, Arrow, Spellbook, Tome",
+    "itemCategories": "Weapon, Accessory, Ring, Amulet, Offhand"
   },
   {
     "uuid": 6,
     "name": "Health Regeneration",
     "category": "Enchant",
     "description": " Health Regeneration",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Helm, Armor, Boots, Accessory, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Helmet, Armor, Boots, Accessory, Ring, Amulet, Offhand"
   },
   {
     "uuid": 7,
     "name": "Mana Regeneration",
     "category": "Enchant",
     "description": " Mana Regeneration",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Helm, Armor, Boots, Accessory, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Helmet, Armor, Boots, Accessory, Ring, Amulet, Offhand"
   },
   {
     "uuid": 8,
     "name": "Thorns",
     "category": "Enchant",
     "description": " Thorns",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Helm, Armor, Bow, Sword, Staff, Fists, Boots, Accessory, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Helmet, Armor, Weapon, Boots, Accessory, Offhand"
   },
   {
     "uuid": 9,
     "name": "Vampire",
     "category": "Enchant",
     "description": " Health On Hit",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Bow, Sword, Staff, Fists, Boots, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Weapon, Boots, Amulet, Offhand"
   },
   {
     "uuid": 10,
     "name": "Leech",
     "category": "Enchant",
     "description": " Mana On Hit",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Helm, Bow, Sword, Staff, Fists, Ring, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Helmet, Weapon, Ring, Offhand"
   },
   {
     "uuid": 13,
     "name": "Magic Find",
     "category": "Enchant",
     "description": " Magic find",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Helm, Bow, Sword, Staff, Fists, Boots, Accessory, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Helmet, Weapon, Boots, Accessory, Ring, Amulet, Offhand"
   },
   {
     "uuid": 19,
     "name": "Critical Hit Chance",
     "category": "Enchant",
     "description": " Critical Hit Chance",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Helm, Bow, Sword, Staff, Fists, Accessory, Ring, Amulet, Claw, Arrow, Spellbook, Tome",
+    "itemCategories": "Helmet, Weapon, Accessory, Ring, Amulet, Offhand"
   },
   {
     "uuid": 20,
     "name": "Knockback",
     "category": "Enchant",
     "description": " Knockback Chance",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Bow, Staff, Boots, Accessory, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Weapon, Boots, Accessory, Offhand"
   },
   {
     "uuid": 21,
     "name": "Effect Duration",
     "category": "Enchant",
     "description": " Effect Duration",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Helm, Bow, Sword, Staff, Fists, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Helmet, Weapon, Ring, Amulet, Offhand"
   },
   {
     "uuid": 22,
     "name": "Pickup Strength",
     "category": "Enchant",
     "description": " Pickup Strength",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Armor, Boots, Accessory, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Armor, Boots, Accessory, Ring, Amulet, Offhand"
   },
   {
     "uuid": 23,
     "name": "Bonus Crystals",
     "category": "Enchant",
     "description": " Bonus Crystals",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Helm, Boots, Accessory, Ring, Amulet",
+    "itemCategories": "Helmet, Boots, Accessory, Ring, Amulet"
   },
   {
     "uuid": 24,
     "name": "Experience",
     "category": "Enchant",
     "description": " Bonus Experience",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Helm, Bow, Sword, Staff, Fists, Accessory, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Helmet, Weapon, Accessory, Ring, Amulet, Offhand"
   },
   {
     "uuid": 25,
@@ -652,240 +652,240 @@
     "name": "Pickup Radius",
     "category": "Enchant",
     "description": " Pickup Radius",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Armor, Bow, Sword, Staff, Fists, Boots, Accessory",
+    "itemCategories": "Armor, Weapon, Boots, Accessory"
   },
   {
     "uuid": 27,
     "name": "Physical Resistance",
     "category": "Enchant",
     "description": " Physical Resistance",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Helm, Armor, Boots, Amulet, Shield",
+    "itemCategories": "Helmet, Armor, Boots, Amulet, Offhand"
   },
   {
     "uuid": 28,
     "name": "Lightning Orb",
     "category": "Enchant",
     "description": "Satellite: An orb of lightning circles the player, casting Chain Lightning every second, dealing  Lightning damage",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Ring, Amulet",
+    "itemCategories": "Ring, Amulet"
   },
   {
     "uuid": 29,
     "name": "Frost Orb",
     "category": "Enchant",
     "description": "Satellite: A frost orb circles the player, casting a Frost Spear every second, dealing  Frost damage",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Ring, Amulet",
+    "itemCategories": "Ring, Amulet"
   },
   {
     "uuid": 30,
     "name": "Molten Orb",
     "category": "Enchant",
     "description": "Satellite: A molten orb circles the player, casting Firebomb every second, dealing  Fire damage",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Ring, Amulet",
+    "itemCategories": "Ring, Amulet"
   },
   {
     "uuid": 31,
     "name": "Poison Orb",
     "category": "Enchant",
     "description": "Satellite: A poison orb circles the player, poisoning nearby enemies for  Poison damage per second",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Ring, Amulet",
+    "itemCategories": "Ring, Amulet"
   },
   {
     "uuid": 32,
     "name": "Holy Orb",
     "category": "Enchant",
     "description": "Satellite: A holy orb circles the player, casting Holy Bolt twice per second, each dealing  Holy damage",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Ring, Amulet",
+    "itemCategories": "Ring, Amulet"
   },
   {
     "uuid": 33,
     "name": "Sturdy",
     "category": "Enchant",
     "description": "Makes you immune to all knockback and pull effects",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Boots, Amulet",
+    "itemCategories": "Boots, Amulet"
   },
   {
     "uuid": 34,
     "name": "Fire Resistance",
     "category": "Enchant",
     "description": " Fire Resistance",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Helm, Armor, Boots, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Helmet, Armor, Boots, Ring, Amulet, Offhand"
   },
   {
     "uuid": 35,
     "name": "Frost Resistance",
     "category": "Enchant",
     "description": " Frost Resistance",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Helm, Armor, Boots, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Helmet, Armor, Boots, Ring, Amulet, Offhand"
   },
   {
     "uuid": 36,
     "name": "Poison Resistance",
     "category": "Enchant",
     "description": " Poison Resistance",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Helm, Armor, Boots, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Helmet, Armor, Boots, Ring, Amulet, Offhand"
   },
   {
     "uuid": 37,
     "name": "Lightning Resistance",
     "category": "Enchant",
     "description": " Lightning Resistance",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Helm, Armor, Boots, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Helmet, Armor, Boots, Ring, Amulet, Offhand"
   },
   {
     "uuid": 38,
     "name": "Holy Resistance",
     "category": "Enchant",
     "description": " Holy Resistance",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Helm, Armor, Boots, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Helmet, Armor, Boots, Ring, Amulet, Offhand"
   },
   {
     "uuid": 39,
     "name": "Fire Damage",
     "category": "Enchant",
     "description": " Fire Damage",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Helm, Sword, Staff, Fists, Accessory, Ring, Amulet, Claw, Spellbook, Shield, Tome",
+    "itemCategories": "Helmet, Weapon, Accessory, Ring, Amulet, Offhand"
   },
   {
     "uuid": 40,
     "name": "Frost Damage",
     "category": "Enchant",
     "description": " Frost Damage",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Helm, Bow, Staff, Fists, Accessory, Ring, Amulet, Claw, Arrow, Spellbook",
+    "itemCategories": "Helmet, Weapon, Accessory, Ring, Amulet, Offhand"
   },
   {
     "uuid": 41,
     "name": "Poison Damage",
     "category": "Enchant",
     "description": " Poison Damage",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Helm, Bow, Staff, Accessory, Ring, Amulet, Arrow, Spellbook",
+    "itemCategories": "Helmet, Weapon, Accessory, Ring, Amulet, Offhand"
   },
   {
     "uuid": 42,
     "name": "Lightning Damage",
     "category": "Enchant",
     "description": " Lightning Damage",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Helm, Bow, Sword, Fists, Accessory, Ring, Amulet, Claw, Arrow, Shield, Tome",
+    "itemCategories": "Helmet, Weapon, Accessory, Ring, Amulet, Offhand"
   },
   {
     "uuid": 43,
     "name": "Holy Damage",
     "category": "Enchant",
     "description": " Holy Damage",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Helm, Sword, Accessory, Ring, Amulet, Shield, Tome",
+    "itemCategories": "Helmet, Weapon, Accessory, Ring, Amulet, Offhand"
   },
   {
     "uuid": 44,
     "name": "Physical Damage",
     "category": "Enchant",
     "description": " Physical Damage",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Helm, Bow, Sword, Fists, Accessory, Ring, Amulet, Claw, Arrow, Shield, Tome",
+    "itemCategories": "Helmet, Weapon, Accessory, Ring, Amulet, Offhand"
   },
   {
     "uuid": 45,
     "name": "Companion Health",
     "category": "Enchant",
     "description": " Companion Health",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Armor, Accessory, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Armor, Accessory, Ring, Amulet, Offhand"
   },
   {
     "uuid": 46,
     "name": "Companion Damage",
     "category": "Enchant",
     "description": " Companion Damage",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Helm, Bow, Sword, Staff, Fists, Boots, Accessory, Ring, Amulet",
+    "itemCategories": "Helmet, Weapon, Boots, Accessory, Ring, Amulet"
   },
   {
     "uuid": 47,
     "name": "Resist All",
     "category": "Enchant",
     "description": " to all Resistances",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Armor, Boots, Accessory, Ring, Amulet, Shield",
+    "itemCategories": "Armor, Boots, Accessory, Ring, Amulet, Offhand"
   },
   {
     "uuid": 48,
     "name": "Power All",
     "category": "Enchant",
     "description": " to all Elements",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Armor, Bow, Sword, Staff, Fists, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Armor, Weapon, Ring, Amulet, Offhand"
   },
   {
     "uuid": 49,
     "name": "Mana Cost Reduction",
     "category": "Enchant",
     "description": " Mana Cost Reduction",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Armor, Bow, Sword, Staff, Fists, Accessory, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Armor, Weapon, Accessory, Ring, Amulet, Offhand"
   },
   {
     "uuid": 50,
     "name": "Cooldown Reduction",
     "category": "Enchant",
     "description": " Cooldown Reduction",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Helm, Bow, Sword, Staff, Fists, Accessory, Ring, Amulet",
+    "itemCategories": "Helmet, Weapon, Accessory, Ring, Amulet"
   },
   {
     "uuid": 51,
     "name": "Critical Hit Damage",
     "category": "Enchant",
     "description": " Critical Hit Damage",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Helm, Bow, Sword, Staff, Fists, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Helmet, Weapon, Ring, Amulet, Offhand"
   },
   {
     "uuid": 52,
     "name": "Shadow Resistance",
     "category": "Enchant",
     "description": " Shadow Resistance",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Helm, Armor, Boots, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Helmet, Armor, Boots, Ring, Amulet, Offhand"
   },
   {
     "uuid": 53,
     "name": "Shadow Damage",
     "category": "Enchant",
     "description": " Shadow Damage",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Helm, Staff, Accessory, Ring, Amulet, Spellbook",
+    "itemCategories": "Helmet, Weapon, Accessory, Ring, Amulet, Offhand"
   },
   {
     "uuid": 54,
     "name": "Light Radius",
     "category": "Enchant",
     "description": " Light Radius",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Helm, Ring, Amulet",
+    "itemCategories": "Helmet, Ring, Amulet"
   },
   {
     "uuid": 55,
     "name": "Potion Effectiveness",
     "category": "Enchant",
     "description": " Potion Effectiveness",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Boots, Accessory, Ring, Amulet, Spellbook, Tome",
+    "itemCategories": "Boots, Accessory, Ring, Amulet, Offhand"
   },
   {
     "uuid": 56,
@@ -908,24 +908,24 @@
     "name": "Grip",
     "category": "Enchant",
     "description": " chance on hit to pull all enemies within 3 meters of the foe closer to it",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Bow, Sword, Staff, Fists",
+    "itemCategories": "Weapon"
   },
   {
     "uuid": 59,
     "name": "Twister",
     "category": "Enchant",
     "description": "15% Chance on critical hit to summon a Twister that seeks out nearby foes, dealing  Ethereal damage per second as direct damage but may not crit.",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Bow, Sword, Staff, Fists",
+    "itemCategories": "Weapon"
   },
   {
     "uuid": 60,
     "name": "Hellfire",
     "category": "Enchant",
     "description": "15% Chance on critical hit to summon Hellfire over your foe, dealing up to  Ethereal damage per strike. Deals direct damage but may not crit.",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Bow, Sword, Staff, Fists",
+    "itemCategories": "Weapon"
   },
   {
     "uuid": 61,
@@ -940,240 +940,240 @@
     "name": "Enrage",
     "category": "Enchant",
     "description": "5% chance on critical hits to increase the base Attack Speed of all skills by  for 5 seconds",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Bow, Sword, Staff, Fists",
+    "itemCategories": "Weapon"
   },
   {
     "uuid": 63,
     "name": "Burst",
     "category": "Enchant",
     "description": "35% chance on critical hits to cause an explosion dealing  Ethereal damage",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Bow, Sword, Staff, Fists",
+    "itemCategories": "Weapon"
   },
   {
     "uuid": 65,
     "name": "Kill Hoarder",
     "category": "Enchant",
     "description": " chance for foes to burst out extra crystals upon death",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Ring, Amulet",
+    "itemCategories": "Ring, Amulet"
   },
   {
     "uuid": 66,
     "name": "Kill Explode",
     "category": "Enchant",
     "description": " chance to explode foes upon their death, dealing up to 30% of their maximum health as Ethereal damage to other nearby foes",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Ring, Amulet",
+    "itemCategories": "Ring, Amulet"
   },
   {
     "uuid": 67,
     "name": "Kill Pickups",
     "category": "Enchant",
     "description": " chance to spawn additional health and mana pickups on kill",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Ring, Amulet",
+    "itemCategories": "Ring, Amulet"
   },
   {
     "uuid": 68,
     "name": "Kill Damage",
     "category": "Enchant",
     "description": "15% chance to increase Damage by  for 10 seconds after killing a foe. This effect may stack up to 5 times",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Ring, Amulet",
+    "itemCategories": "Ring, Amulet"
   },
   {
     "uuid": 69,
     "name": "Kill Restoration",
     "category": "Enchant",
     "description": "15% chance to increase Health Regeneration by  for 10 seconds after killing a foe. This effect may stack up to 5 times",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Armor, Ring, Amulet",
+    "itemCategories": "Armor, Ring, Amulet"
   },
   {
     "uuid": 70,
     "name": "Kill Recharge",
     "category": "Enchant",
     "description": "15% chance to increase Mana Regeneration by  for 10 seconds after killing a foe. This effect may stack up to 5 times",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Armor, Ring, Amulet",
+    "itemCategories": "Armor, Ring, Amulet"
   },
   {
     "uuid": 71,
     "name": "Kill Healing",
     "category": "Enchant",
     "description": "5% chance to heal for  of Maximum Health after killing a foe",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Armor, Ring, Amulet",
+    "itemCategories": "Armor, Ring, Amulet"
   },
   {
     "uuid": 72,
     "name": "Kill Haste",
     "category": "Enchant",
     "description": "15% chance to increase Movement Speed by  for 10 seconds after killing a foe. This effect may stack up to 5 times",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Boots, Ring, Amulet",
+    "itemCategories": "Boots, Ring, Amulet"
   },
   {
     "uuid": 73,
     "name": "Gib Regeneration",
     "category": "Enchant",
     "description": " Health- and Mana Regeneration for 5 seconds after gibbing a foe",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Bow, Sword, Staff, Fists",
+    "itemCategories": "Weapon"
   },
   {
     "uuid": 74,
     "name": "Gib Damage",
     "category": "Enchant",
     "description": " Damage for 5 seconds after gibbing a foe",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Bow, Sword, Staff, Fists",
+    "itemCategories": "Weapon"
   },
   {
     "uuid": 75,
     "name": "Gib Heal",
     "category": "Enchant",
     "description": "5% chance to heal for  of Maximum Health after gibbing a foe",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Bow, Sword, Staff, Fists",
+    "itemCategories": "Weapon"
   },
   {
     "uuid": 76,
     "name": "Hurt Slow",
     "category": "Enchant",
     "description": " chance to slow attacker by 50% for 5 seconds when struck",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Boots, Ring, Amulet",
+    "itemCategories": "Boots, Ring, Amulet"
   },
   {
     "uuid": 77,
     "name": "Hurt Root",
     "category": "Enchant",
     "description": " chance to root and immobilize attacker for 3 seconds when struck",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Boots, Ring, Amulet",
+    "itemCategories": "Boots, Ring, Amulet"
   },
   {
     "uuid": 78,
     "name": "Hurt Fear",
     "category": "Enchant",
     "description": " chance to cause attackers to run away in fear for up to 3 seconds when struck",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Armor, Ring, Amulet",
+    "itemCategories": "Armor, Ring, Amulet"
   },
   {
     "uuid": 79,
     "name": "Hurt Knockback",
     "category": "Enchant",
     "description": " chance to knock away attackers up to 3 meters when struck",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Armor, Ring, Amulet",
+    "itemCategories": "Armor, Ring, Amulet"
   },
   {
     "uuid": 80,
     "name": "Frost Nova",
     "category": "Enchant",
     "description": "5% chance to release a Frost Nova dealing  Frost damage when struck",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Armor, Amulet",
+    "itemCategories": "Armor, Amulet"
   },
   {
     "uuid": 81,
     "name": "Holy Nova",
     "category": "Enchant",
     "description": "5% chance to release a Holy Nova dealing  Holy damage when struck",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Armor, Amulet",
+    "itemCategories": "Armor, Amulet"
   },
   {
     "uuid": 82,
     "name": "Death Nova",
     "category": "Enchant",
     "description": "5% chance to release a nova of Deathblasts dealing  Shadow damage when struck",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Armor, Amulet",
+    "itemCategories": "Armor, Amulet"
   },
   {
     "uuid": 83,
     "name": "Discharge",
     "category": "Enchant",
     "description": "5% chance to release an electric orb dealing  Lightning damage when struck",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Armor, Amulet",
+    "itemCategories": "Armor, Amulet"
   },
   {
     "uuid": 84,
     "name": "Hurt Movement Speed",
     "category": "Enchant",
     "description": " chance to increase Movement Speed by  for 5 seconds when struck",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Boots, Ring",
+    "itemCategories": "Boots, Ring"
   },
   {
     "uuid": 85,
     "name": "Hurt Poison",
     "category": "Enchant",
     "description": "5% chance to poison attackers for  Poison damage per second for 3 seconds when struck",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Boots, Ring",
+    "itemCategories": "Boots, Ring"
   },
   {
     "uuid": 86,
     "name": "Hurt Burn",
     "category": "Enchant",
     "description": "On hurt: 5% chance to burn attackers for  Fire damage per second for 3 seconds when struck",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Boots, Ring",
+    "itemCategories": "Boots, Ring"
   },
   {
     "uuid": 87,
     "name": "Low Health Heal",
     "category": "Enchant",
     "description": "Any attack that brings you below 30% Maximum Health instantly restores  Health. 30 Second cooldown",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Amulet",
+    "itemCategories": "Amulet"
   },
   {
     "uuid": 88,
     "name": "Low Health Damage",
     "category": "Enchant",
     "description": "Any attack that brings you below 30% Maximum Health increases your Damage by  for 5 seconds",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Ring",
+    "itemCategories": "Ring"
   },
   {
     "uuid": 89,
     "name": "Low Health Explode",
     "category": "Enchant",
     "description": "Any attack that brings you below 30% Maximum Health cause a series of explosions dealing  Ethereal damage to any nearby foes",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Ring",
+    "itemCategories": "Ring"
   },
   {
     "uuid": 92,
     "name": "Sludge Treads",
     "category": "Enchant",
     "description": "Creates a trail of poison as you walk, dealing  Poison damage per second, for 3 seconds",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Boots",
+    "itemCategories": "Boots"
   },
   {
     "uuid": 93,
     "name": "Phasewalk",
     "category": "Enchant",
     "description": "You are no longer affected by collisions and can walk through objects and enemies",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Boots",
+    "itemCategories": "Boots"
   },
   {
     "uuid": 94,
     "name": "Ironsole",
     "category": "Enchant",
     "description": "Makes you immune to damage from spike traps",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Boots",
+    "itemCategories": "Boots"
   },
   {
     "uuid": 96,
@@ -1196,296 +1196,296 @@
     "name": "Bonus Block Rate",
     "category": "Enchant",
     "description": " Extra Block Chance (Templar Only)",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Shield",
+    "itemCategories": "Offhand"
   },
   {
     "uuid": 99,
     "name": "Bonus Block Damage",
     "category": "Enchant",
     "description": " Extra Damage Blocked (Templar Only)",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Shield",
+    "itemCategories": "Offhand"
   },
   {
     "uuid": 100,
     "name": "Reach",
     "category": "Enchant",
     "description": " Reach",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Helm, Bow, Sword, Staff, Fists, Accessory, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Helmet, Weapon, Accessory, Amulet, Offhand"
   },
   {
     "uuid": 101,
     "name": "Overpower",
     "category": "Enchant",
     "description": " Overpower",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Fists, Accessory, Ring, Amulet, Claw, Arrow, Spellbook, Tome",
+    "itemCategories": "Weapon, Accessory, Ring, Amulet, Offhand"
   },
   {
     "uuid": 102,
     "name": "Bleed Damage",
     "category": "Enchant",
     "description": " Bleed Damage",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Bow, Sword, Staff, Fists, Ring, Claw, Arrow, Shield, Tome",
+    "itemCategories": "Weapon, Ring, Offhand"
   },
   {
     "uuid": 103,
     "name": "Minimum Rage",
     "category": "Enchant",
     "description": " Minimum Rage",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Fists, Claw",
+    "itemCategories": "Weapon, Offhand"
   },
   {
     "uuid": 104,
     "name": "Maximum Rage",
     "category": "Enchant",
     "description": " Maximum Rage",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Fists, Claw",
+    "itemCategories": "Weapon, Offhand"
   },
   {
     "uuid": 105,
     "name": "Rage Generation",
     "category": "Enchant",
     "description": " Rage Generation",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Fists, Claw",
+    "itemCategories": "Weapon, Offhand"
   },
   {
     "uuid": 106,
     "name": "Burn",
     "category": "Enchant",
     "description": "On hit: Deal  Fire damage instantly and per second, for 3 seconds",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Ring, Claw, Arrow, Spellbook, Tome",
+    "itemCategories": "Weapon, Accessory, Ring, Offhand"
   },
   {
     "uuid": 107,
     "name": "Poison",
     "category": "Enchant",
     "description": "On hit: Deal  Poison damage instantly and per second, for 5 seconds",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Ring, Claw, Arrow, Spellbook, Tome",
+    "itemCategories": "Weapon, Accessory, Ring, Offhand"
   },
   {
     "uuid": 108,
     "name": "Chill",
     "category": "Enchant",
     "description": "On hit: Deal  Frost damage instantly",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Ring, Claw, Arrow, Spellbook, Tome",
+    "itemCategories": "Weapon, Accessory, Ring, Offhand"
   },
   {
     "uuid": 109,
     "name": "Chain Lightning",
     "category": "Enchant",
     "description": "On hit: 25% chance to cause Chain Lightning for  Lightning damage",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Ring, Claw, Arrow, Spellbook, Tome",
+    "itemCategories": "Weapon, Accessory, Ring, Offhand"
   },
   {
     "uuid": 110,
     "name": "Bleed",
     "category": "Enchant",
     "description": "On hit: Deal  Bleed damage instantly and per second, for 3 seconds",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Ring, Claw, Arrow, Spellbook, Tome",
+    "itemCategories": "Weapon, Accessory, Ring, Offhand"
   },
   {
     "uuid": 111,
     "name": "Holy Smite",
     "category": "Enchant",
     "description": "On hit: Deal  Holy damage instantly",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Ring, Claw, Arrow, Spellbook, Tome",
+    "itemCategories": "Weapon, Accessory, Ring, Offhand"
   },
   {
     "uuid": 112,
     "name": "Blight",
     "category": "Enchant",
     "description": "On hit: Deal  Shadow damage instantly and per second, for 5 seconds",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Ring, Claw, Arrow, Spellbook, Tome",
+    "itemCategories": "Weapon, Accessory, Ring, Offhand"
   },
   {
     "uuid": 113,
     "name": "Undead Slaying",
     "category": "Enchant",
     "description": " damage vs. Undead",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Weapon, Accessory, Amulet, Offhand"
   },
   {
     "uuid": 114,
     "name": "Spectral Slaying",
     "category": "Enchant",
     "description": " damage vs. Spectral",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Weapon, Accessory, Amulet, Offhand"
   },
   {
     "uuid": 115,
     "name": "Arachnid Slaying",
     "category": "Enchant",
     "description": " damage vs. Arachnids",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Weapon, Accessory, Amulet, Offhand"
   },
   {
     "uuid": 116,
     "name": "Demon Slaying",
     "category": "Enchant",
     "description": " damage vs. Demons",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Weapon, Accessory, Amulet, Offhand"
   },
   {
     "uuid": 117,
     "name": "Beast Slaying",
     "category": "Enchant",
     "description": " damage vs. Beasts",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Weapon, Accessory, Amulet, Offhand"
   },
   {
     "uuid": 118,
     "name": "Fae Slaying",
     "category": "Enchant",
     "description": " damage vs. Fae",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Weapon, Accessory, Amulet, Offhand"
   },
   {
     "uuid": 119,
     "name": "Crown Slaying",
     "category": "Enchant",
     "description": " damage vs. Crowned foes",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Bow, Sword, Staff, Fists, Amulet",
+    "itemCategories": "Weapon, Amulet"
   },
   {
     "uuid": 120,
     "name": "Damage Reduction",
     "category": "Enchant",
     "description": " reduced damage from all direct sources",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Armor, Amulet",
+    "itemCategories": "Armor, Amulet"
   },
   {
     "uuid": 121,
     "name": "Evasion",
     "category": "Enchant",
     "description": " Evasion",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Armor, Ring",
+    "itemCategories": "Armor, Ring"
   },
   {
     "uuid": 122,
     "name": "Spiked Orb",
     "category": "Enchant",
     "description": "Satellite: A spiked orb circles the player, hitting nearby foes, dealing  Physical damage two times per second",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Ring, Amulet",
+    "itemCategories": "Ring, Amulet"
   },
   {
     "uuid": 123,
     "name": "Shadow Orb",
     "category": "Enchant",
     "description": "Satellite: A shadow orb circles the player, defiling nearby foes, dealing  Shadow damage two times per second",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Ring, Amulet",
+    "itemCategories": "Ring, Amulet"
   },
   {
     "uuid": 124,
     "name": "Gem Strength",
     "category": "Enchant",
     "description": " increased effect of all Gems",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Armor, Accessory, Ring, Amulet",
+    "itemCategories": "Armor, Accessory, Ring, Amulet"
   },
   {
     "uuid": 125,
     "name": "Satellite Strength",
     "category": "Enchant",
     "description": " increased damage of all Satellite enchants",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Helm, Bow, Sword, Staff, Fists, Accessory, Ring",
+    "itemCategories": "Helmet, Weapon, Accessory, Ring"
   },
   {
     "uuid": 126,
     "name": "Damage Stagger",
     "category": "Enchant",
     "description": " of damage taken is staggered and dealt over 3 seconds, at a 30% damage reduction",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Helm, Armor, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Helmet, Armor, Offhand"
   },
   {
     "uuid": 127,
     "name": "Stun",
     "category": "Enchant",
     "description": " chance to stun foes hit for up to 3 seconds",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Boots, Ring",
+    "itemCategories": "Boots, Ring"
   },
   {
     "uuid": 128,
     "name": "Interrupt",
     "category": "Enchant",
     "description": " chance to interrupt attacks of foes hit",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Bow, Sword, Staff, Fists, Boots",
+    "itemCategories": "Weapon, Boots"
   },
   {
     "uuid": 129,
     "name": "Elemental Slaying",
     "category": "Enchant",
     "description": " damage vs. Elementals",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Weapon, Accessory, Amulet, Offhand"
   },
   {
     "uuid": 130,
     "name": "Humanoid Slaying",
     "category": "Enchant",
     "description": " damage vs. Humanoids",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Weapon, Accessory, Amulet, Offhand"
   },
   {
     "uuid": 131,
     "name": "Mechanical Slaying",
     "category": "Enchant",
     "description": " damage vs. Mechanicals",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Weapon, Accessory, Amulet, Offhand"
   },
   {
     "uuid": 132,
     "name": "Ground Effect Resistance",
     "category": "Enchant",
     "description": " reduced damage from harmful ground effects",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Boots, Accessory",
+    "itemCategories": "Boots, Accessory"
   },
   {
     "uuid": 133,
     "name": "Indirect Damage Resistance",
     "category": "Enchant",
     "description": " reduced damage from indirect sources and debuffs",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Helm, Amulet",
+    "itemCategories": "Helmet, Amulet"
   },
   {
     "uuid": 134,
     "name": "Healing from all sources",
     "category": "Enchant",
     "description": " increased Healing from all sources",
-    "itemTypes": "",
-    "itemCategories": ""
+    "itemTypes": "Helm, Armor, Boots",
+    "itemCategories": "Helmet, Armor, Boots"
   },
   {
     "uuid": 500,
