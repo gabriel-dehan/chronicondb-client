@@ -41,7 +41,13 @@ export function parseEnchantsPool(version: string, verbose: false): EnchantsPool
     if (currentItemCategory && currentEnchantType) {
       const [isEnchant, currentEnchant] = line.match(/^\[\*\]((?:\w|\s)+)\s-/) || [];
       if (isEnchant) {
-        enchantsPool[currentItemCategory][currentEnchantType].push(enchantsIdsByName[currentEnchant]);
+        if (currentEnchant.match(/^\d+$/)) {
+          // new format: ID in front
+          enchantsPool[currentItemCategory][currentEnchantType].push(Number.parseInt(currentEnchant));
+        } else {
+          // old format: name in front
+          enchantsPool[currentItemCategory][currentEnchantType].push(enchantsIdsByName[currentEnchant]);
+        }
       }
     }
   });
