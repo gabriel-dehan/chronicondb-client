@@ -32,10 +32,10 @@ export function parseItems(version: string, verbose = false): Item[] {
 
     const item = {
       uuid,
-      name,
+      name: itemLocales[uuid]?.name,
       icon,
-      flavor: itemLocales[uuid].flavor,
-      description: itemLocales[uuid].txt,
+      flavor: itemLocales[uuid]?.flavor,
+      description: itemLocales[uuid]?.txt,
       category,
       type,
       rarity,
@@ -139,6 +139,6 @@ function findSet(uuid: number): SetUuid | null {
 }
 
 function parseLocale(version: string): LocaleData  {
-  const localeData = getLocaleSection(version, 'locale/EN/items', 'items');
+  const localeData = getLocaleSection(version, 'locale/CN/items', 'items');
   return parseLocaleData(localeData, /^item_(\d+)_(\w+)$/);
 }

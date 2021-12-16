@@ -1,4 +1,5 @@
 import React, { FunctionComponent } from 'react';
+import './SkillsTemplate.scss';
 
 import { observer } from 'mobx-react';
 
@@ -13,8 +14,6 @@ import { DataStore } from 'types/DataStore.types';
 interface Stores {
   [DataStore.Filters]: FiltersStore;
 }
-
-import './SkillsTemplate.scss';
 
 const SkillsTemplate: FunctionComponent = () => {
   const { filtersStore } = useStores<Stores>(DataStore.Filters);

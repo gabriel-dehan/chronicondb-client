@@ -32,7 +32,7 @@ export class FiltersStore {
 
   // A bit ugly but gets the job done
   constructor() {
-    const query = qs.parse(location.search) as unknown as QueryFiltersInterface;
+    const query = qs.parse(window.location.search) as unknown as QueryFiltersInterface;
 
     const latestPatch = patches[patches.length - 1];
     /* Make sure the patch in the query string exists,
