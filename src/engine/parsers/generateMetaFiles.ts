@@ -24,9 +24,12 @@ function updatePatches(version: string): string[] {
 }
 
 function generateVersionIndex(version: string) {
+  const hasDlc = compare(version, '1.40.1', '>=');
   const TEMPLATE = `
-${compare(version, '1.40.1', '>=') ? "import artifacts from './artifacts.json';" : ''}
-${compare(version, '1.40.1', '>=') ? "import artifactsSearchIndex from './artifactsSearchIndex.json';" : ''}
+<%if (hasDlc) { %>
+import artifacts from './artifacts.json';
+import artifactsSearchIndex from './artifactsSearchIndex.json';
+<% } %>
 import enchants from './enchants.json';
 import enchantsPool from './enchantsPool.json';
 import enchantsSearchIndex from './enchantsSearchIndex.json';
@@ -38,8 +41,10 @@ import skillsByClass from './skillsByClass.json';
 import skillsSearchIndex from './skillsSearchIndex.json';
 
 export default {
-  ${compare(version, '1.40.1', '>=') ? "artifacts," : ''}
-  ${compare(version, '1.40.1', '>=') ? "artifactsSearchIndex," : ''}
+  <%if (hasDlc) { %>
+  artifacts,
+  artifactsSearchIndex,
+  <% } %>
   items,
   enchants,
   enchantsPool,
@@ -52,7 +57,7 @@ export default {
 };`;
 
   const indexFilePath = path.resolve(__dirname, `../data/${version}/extracts/index.ts`);
-  const indexFile = ejs.render(TEMPLATE);
+  const indexFile = ejs.render(TEMPLATE, { hasDlc });
 
   fs.writeFileSync(indexFilePath, indexFile);
 }
