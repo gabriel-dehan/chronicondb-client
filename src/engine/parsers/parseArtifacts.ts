@@ -2,10 +2,11 @@ import { compact } from 'lodash';
 
 import { ArtifactInterface } from '../../types/Artifact.types';
 import { readSourceFile, writeFile } from '../utils/fileUtils';
-import { getLocaleSection, LocaleData, parseLocaleData } from './parseLocale';
+import { getLocaleSection, parseLocaleData } from './parseLocale';
 
 export function parseArtifacts(version: string, verbose: false) {
-  const rawArtifacts = compact(readSourceFile(version, `artifactdata_${version}.json`).split(/\n|\r/)).slice(1).join('\n');
+  const fileName = `artifactdata_${version}.json`;
+  const rawArtifacts = compact(readSourceFile(version, fileName).split(/\n|\r/)).slice(1).join('\n');
   const artifactData = JSON.parse(rawArtifacts);
 
   const locales = parseLocale(version);
@@ -13,7 +14,7 @@ export function parseArtifacts(version: string, verbose: false) {
     const { name, shape, class: classRestriction, id: uuid, description, val } = artifact;
     const localeName = locales?.[uuid]?.nm ?? name;
     const localeDesc = locales?.[uuid]?.txt ?? description;
-    return {
+    const artifactObject = {
       uuid,
       name: localeName,
       class: classRestriction,
@@ -21,6 +22,12 @@ export function parseArtifacts(version: string, verbose: false) {
       description: localeDesc,
       value: val,
     };
+
+    if (verbose) {
+      console.log(artifactObject);
+    }
+
+    return artifactObject;
   });
 
   artifacts = artifacts.filter(({ name }) => name !== 'MISSING TEXT');

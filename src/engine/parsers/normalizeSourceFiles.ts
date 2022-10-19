@@ -10,6 +10,9 @@ export const normalizeSourceFiles = (version: string, verbose: boolean) => {
     verbose && console.log('Normalizing skills file...');
     normalizeSkillsFile(version, sourcePath, distPath);
 
+    verbose && console.log('Normalizing artifacts file...');
+    normalizeArtifactsFile(version, sourcePath, distPath);
+
     verbose && console.log('Normalizing items file...');
     normalizeItemsFile(version, sourcePath, distPath);
 
@@ -26,6 +29,12 @@ export const normalizeSourceFiles = (version: string, verbose: boolean) => {
   }
 
   verbose && console.log('Every source has been normalized!');
+};
+
+const normalizeArtifactsFile = (version: string, sourcePath: string, distPath: string) => {
+  const skillsFileSource = path.resolve(sourcePath, `artifactdata_${version}.txt`);
+  const skillsFileDist = path.resolve(distPath, `artifactdata_${version}.json`);
+  fs.copyFileSync(skillsFileSource, skillsFileDist);
 };
 
 const normalizeSkillsFile = (version: string, sourcePath: string, distPath: string) => {

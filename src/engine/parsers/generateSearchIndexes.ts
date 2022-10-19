@@ -7,6 +7,7 @@ import { Item, ItemSet, ItemType, ItemCategory } from '../../types/Item.types';
 import { Skill } from '../../types/Skill.types';
 import { ITEM_TYPES_BY_CATEGORIES } from '../data/dataMappings';
 import { readExtractFile, writeFile } from '../utils/fileUtils';
+import {compare} from "compare-versions";
 
 interface Data {
   items: Item[];
@@ -21,13 +22,18 @@ export function generateSearchIndexes(version: string) {
   const sets = JSON.parse(readExtractFile(version, 'sets')) as ItemSet[];
   const enchants = JSON.parse(readExtractFile(version, 'enchants')) as Enchant[];
   const skills = JSON.parse(readExtractFile(version, 'skills')) as Skill[];
-  const artifacts = JSON.parse(readExtractFile(version, 'artifacts')) as ArtifactInterface[];
+  let artifacts = [] as ArtifactInterface[];
+  if (compare(version, '1.40.1', '>=')) {
+    artifacts = JSON.parse(readExtractFile(version, 'artifacts')) as ArtifactInterface[];
+  }
   const data: Data = { items, sets, enchants, skills, artifacts };
 
   generateItemsSearchIndex(version, data);
   generateEnchantsSearchIndex(version, data);
   generateSkillsSearchIndex(version, data);
-  generateArtifactsSearchIndex(version, data);
+  if (compare(version, '1.40.1', '>=')) {
+    generateArtifactsSearchIndex(version, data);
+  }
 }
 
 function generateItemsSearchIndex(version: string, data: Data) {

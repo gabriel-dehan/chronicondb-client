@@ -1,3 +1,5 @@
+import { compare } from 'compare-versions';
+
 import { CharacterClass } from 'types/Character.types';
 import { Enchant, EnchantsPool } from 'types/Enchant.types';
 import { Item, ItemSet } from 'types/Item.types';
@@ -13,6 +15,7 @@ type Version = string;
 
 export interface DataInterface {
   artifacts: ArtifactInterface[];
+  artifactsSearchIndex: Record<string, string | number>[];
   items: Item[];
   enchants: Enchant[];
   enchantsPool: EnchantsPool;
@@ -22,7 +25,6 @@ export interface DataInterface {
   itemsSearchIndex: Record<string, string | number>[];
   enchantsSearchIndex: Record<string, string | number>[];
   skillsSearchIndex: Record<string, string | number>[];
-  artifactsSearchIndex: Record<string, string | number>[];
 }
 
 /* Singleton */
@@ -60,7 +62,9 @@ export default class Engine {
     this.Items.onDataLoaded();
     this.Enchants.onDataLoaded();
     this.Skills.onDataLoaded();
-    this.Artifacts.onDataLoaded();
+    if (compare(this.version, '1.40.1', '>=')) {
+      this.Artifacts.onDataLoaded();
+    }
 
     // console.log('Enchants', this.data?.enchants.length);
     // console.log('Skills', this.data?.skills.length);

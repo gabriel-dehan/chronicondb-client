@@ -4,6 +4,7 @@ import { uniq } from 'lodash';
 import * as path from 'path';
 
 import VERSIONS from '../data/patches.json';
+import {compare} from "compare-versions";
 
 export function generateMetaFiles(version: string) {
   const versions = updatePatches(version);
@@ -24,8 +25,8 @@ function updatePatches(version: string): string[] {
 
 function generateVersionIndex(version: string) {
   const TEMPLATE = `
-import artifacts from './artifacts.json';
-import artifactsSearchIndex from './artifactsSearchIndex.json';
+${compare(version, '1.40.1', '>=') ? "import artifacts from './artifacts.json';" : ''}
+${compare(version, '1.40.1', '>=') ? "import artifactsSearchIndex from './artifactsSearchIndex.json';" : ''}
 import enchants from './enchants.json';
 import enchantsPool from './enchantsPool.json';
 import enchantsSearchIndex from './enchantsSearchIndex.json';
@@ -37,8 +38,8 @@ import skillsByClass from './skillsByClass.json';
 import skillsSearchIndex from './skillsSearchIndex.json';
 
 export default {
-  artifacts,
-  artifactsSearchIndex,
+  ${compare(version, '1.40.1', '>=') ? "artifacts," : ''}
+  ${compare(version, '1.40.1', '>=') ? "artifactsSearchIndex," : ''}
   items,
   enchants,
   enchantsPool,

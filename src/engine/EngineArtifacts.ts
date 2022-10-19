@@ -39,7 +39,7 @@ export default class EngineArtifacts {
   }
 
   public all(filters: ArtifactsFilters): ArtifactInterface[] {
-    let artifacts = this.artifacts;
+    let artifacts = this.artifacts ?? [];
     artifacts = this.filterBySearch(artifacts, filters);
     artifacts = this.filterByType(artifacts, filters);
     artifacts.sort((a, b) => a.uuid - b.uuid);

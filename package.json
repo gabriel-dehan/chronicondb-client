@@ -18,6 +18,7 @@
     "@types/react-router-dom": "^5.1.6",
     "@types/react-sticky-el": "^1.0.2",
     "camelcase-keys": "^6.2.2",
+    "compare-versions": "^5.0.1",
     "dotenv": "^8.2.0",
     "eslint-import-resolver-typescript": "^2.3.0",
     "file-saver": "^2.0.5",
