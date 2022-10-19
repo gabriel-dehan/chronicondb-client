@@ -7,10 +7,11 @@ export enum GameIconType {
   Enchant = 'enchant',
   SkillSpell = 'skillSpell',
   SkillMastery = 'skillMastery',
-  SkillTree =  'skillTree',
-  ClassProfile =  'classProfile',
-  ClassHeader =  'classHeader',
-  ClassBanner =  'classBanner'
+  SkillTree = 'skillTree',
+  ClassProfile = 'classProfile',
+  ClassHeader = 'classHeader',
+  ClassBanner = 'classBanner',
+  Artifact = 'artifact',
 }
 
 const BASE_PATH = 'assets/images/game';
@@ -26,6 +27,7 @@ const ICONS_PATH: Record<GameIconType, string> = {
   [GameIconType.ClassProfile]: `${BASE_PATH}/classes/profiles/`,
   [GameIconType.ClassHeader]: `${BASE_PATH}/classes/headers/`,
   [GameIconType.ClassBanner]: `${BASE_PATH}/classes/banners/`,
+  [GameIconType.Artifact]: `${BASE_PATH}/artifacts/`,
 };
 
 export interface Props {
@@ -44,7 +46,7 @@ const GameIcon: FunctionComponent<Props> = ({
   name,
   width,
   height,
-}) =>  (
+}) => (
   <img
     aria-label={name}
     src={`/${ICONS_PATH[type]}/${name.toLowerCase()}.png`}

@@ -1,6 +1,7 @@
 import { compact, findKey, uniq } from 'lodash';
 
 import { allEnumValues } from '../../helpers/typeUtils';
+import { ArtifactInterface } from '../../types/Artifact.types';
 import { Enchant } from '../../types/Enchant.types';
 import { Item, ItemSet, ItemType, ItemCategory } from '../../types/Item.types';
 import { Skill } from '../../types/Skill.types';
@@ -12,6 +13,7 @@ interface Data {
   sets: ItemSet[];
   enchants: Enchant[];
   skills: Skill[];
+  artifacts: ArtifactInterface[];
 }
 
 export function generateSearchIndexes(version: string) {
@@ -19,11 +21,13 @@ export function generateSearchIndexes(version: string) {
   const sets = JSON.parse(readExtractFile(version, 'sets')) as ItemSet[];
   const enchants = JSON.parse(readExtractFile(version, 'enchants')) as Enchant[];
   const skills = JSON.parse(readExtractFile(version, 'skills')) as Skill[];
-  const data: Data = { items, sets, enchants, skills };
+  const artifacts = JSON.parse(readExtractFile(version, 'artifacts')) as ArtifactInterface[];
+  const data: Data = { items, sets, enchants, skills, artifacts };
 
   generateItemsSearchIndex(version, data);
   generateEnchantsSearchIndex(version, data);
   generateSkillsSearchIndex(version, data);
+  generateArtifactsSearchIndex(version, data);
 }
 
 function generateItemsSearchIndex(version: string, data: Data) {
@@ -124,4 +128,29 @@ function generateSkillsSearchIndex(version: string, data: Data) {
   });
 
   writeFile(index, version, 'skillsSearchIndex');
+}
+
+function generateArtifactsSearchIndex(version: string, data: Data) {
+  const index: Record<string, string | number>[] = [];
+
+  const { artifacts } = data;
+
+  artifacts.forEach((artifacts) => {
+    const indexedArtifact: Record<string, string | number> = {
+      uuid: artifacts.uuid,
+      class: artifacts.class,
+      name: artifacts.name,
+      type: artifacts.type || '',
+      description: artifacts.description
+        .replace(/\+?PROC%?/g, '')
+        .replace(/\+?DAMAGE%?/g, '')
+        .replace(/\+?DURATION%?/g, '')
+        .replace(/\+?EFFECT%?/g, '')
+        .replace(/\+?VALUE%?/g, ''),
+    };
+
+    index.push(indexedArtifact);
+  });
+
+  writeFile(index, version, 'artifactsSearchIndex');
 }

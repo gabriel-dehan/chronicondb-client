@@ -4,6 +4,7 @@ import { createExtractsFolder } from '../utils/fileUtils';
 import { generateMetaFiles } from './generateMetaFiles';
 import { generateSearchIndexes } from './generateSearchIndexes';
 import { normalizeSourceFiles } from './normalizeSourceFiles';
+import { parseArtifacts } from './parseArtifacts';
 import { parseEnchants } from './parseEnchants';
 import { parseEnchantsPool } from './parseEnchantsPool';
 import { parseItems } from './parseItems';
@@ -29,6 +30,7 @@ function parseAll(opts: CommandLineOptions) {
   parseEnchantsPool(version, verbose);
   parseEnchants(version, verbose);
   parseSkills(version, verbose);
+  parseArtifacts(version, verbose);
 
   generateSearchIndexes(version);
   generateMetaFiles(version);

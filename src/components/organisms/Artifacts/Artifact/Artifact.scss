@@ -1,0 +1,91 @@
+@import "src/assets/styles/responsive.scss";
+
+.o-artifact {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  min-height: 50px;
+  width: 100%;
+
+  border-bottom: 1px solid var(--color-element-darkest-blue);
+  background: var(--color-background-darkest-brown);
+  color: var(--color-element-beige);
+
+  padding: 18px;
+  &__icon {
+    text-align: center;
+    width: 32px;
+  }
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    &-content {
+      display: flex;
+    }
+
+    &-title {
+      margin-left: 18px;
+      color: var(--color-element-light-beige);
+
+      &-link {
+        color: inherit;
+        border-bottom: 1px solid transparent;
+
+        &:hover {
+          color: inherit;
+          border-color: var(--color-element-beige);
+        }
+      }
+    }
+
+    &-name {
+      font-size: var(--font-big);
+      font-family: 'Philosopher';
+      margin: 0 0 4px 0;
+      display: inline-flex;
+    }
+
+    &-meta {
+      display: flex;
+      flex-direction: column;
+
+      &-category {
+        display: flex;
+      }
+
+      &-tree {
+        margin-left: 12px;
+        img {
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(51, 44, 29, 0.5);
+    margin: 18px 10px 18px 50px;
+    padding: 18px 0 0 0;
+
+    @include mediaUpToSmallTablet {
+      flex-direction: column;
+    }
+
+    &-main {
+      width: 70%;
+      margin-right: 60px;
+
+      @include mediaUpToSmallTablet {
+        width: 100%;
+      }
+    }
+  }
+
+  &__description {
+    font-weight: normal;
+  }
+}

@@ -1,0 +1,14 @@
+@Pourquoi est-il impossible d’équiper certains objets ?
+Ils peuvent être d’un niveau trop élevé pour vous, ou être exclusifs à une classe différente de la vôtre. Vous verrez normalement un message expliquant la raison pour laquelle vous ne pouvez pas vous équiper d’un objet lorsque vous essayez.
+@Pourquoi est-il possible de trouver des objets pour des classes différentes ?
+Il n’est possible de trouver que des objets de rareté inférieure pour d’autres classes. Les objets de rareté supérieure sont toujours pour votre propre classe (Unique et supérieur), à l’exception des butins de quête et ceux spécifiques à des monstres. Vous pouvez réduire vos chances de trouver des objets d’autres classes en améliorant votre statistique de Trouvaille Magique.
+@Que sont les enchantements ?
+Les enchantements sont des effets spéciaux parfois appliqués à des objets récupérés. Les enchantements peuvent vous octroyer des bonus spéciaux pour augmenter vos statistiques. Ils peuvent être renforcés ou remplacés dans la zone du Chronicon une fois que vous aurez complété la quête de Chantie.
+@Pourquoi certains enchantements ont un texte de couleur orange, et d’autres blanche ?
+Les enchantements de couleur orange sont statiques, ce qui veut dire qu’ils fonctionneront toujours sur cet objet spécifique. Cela signifie que cet objet pourra supporter une quantité plus élevée d’enchantements !
+@Pourquoi certains textes sont de couleur rouge ?
+Il s’agit des Enchantements Épiques. Ils offrent des effets puissants et uniques à leur objet spécifique que vous ne pourrez trouver nulle part ailleurs !
+@Que sont les ensembles ?
+Les bonus d’ensemble sont des effets spéciaux ou des bonus de statistiques octroyés en portant des parties complémentaires d’ensembles. Ils peuvent être basiques, comme une amélioration d’un certain élément, ou très puissants, comme retirer le délai de récupération d’une compétence, améliorer drastiquement les dégâts d’une attaque ou changer totalement le fonctionnement d’une mécanique particulière.
+@Quels objets font partie d’un ensemble ?
+Les objets d’un ensemble commencent par afficher le niveau de rareté Unique. Ils peuvent être trouvés dès le niveau 10. Les ensembles de classe Légendaires peuvent être trouvés à partir du niveau 30. Mais les ensembles d’objets restent très rares !

@@ -1,7 +1,7 @@
-@import "responsive.scss";
+@import "src/assets/styles/responsive.scss";
 
 .p-layout {
-  background-image: url('../assets/images/textures/body_background.png');
+  background-image: url('/assets/images/textures/body_background.png');
   background-repeat: no-repeat;
   background-size: 100%;
 
@@ -15,7 +15,7 @@
 }
 
 .p-content {
-  background-image: url('../assets/images/textures/content_background.png');
+  background-image: url('/assets/images/textures/content_background.png');
   background-repeat: repeat;
   margin: 15px 35px;
   min-height: calc(100vh - 115px);

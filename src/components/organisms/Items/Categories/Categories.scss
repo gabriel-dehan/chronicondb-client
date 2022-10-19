@@ -1,7 +1,7 @@
-@import "responsive.scss";
+@import "src/assets/styles/responsive.scss";
 
 .o-itemCategories {
-  background-image: url('../../../../assets/images/textures/sidebar.png');
+  background-image: url('/assets/images/textures/sidebar.png');
   width: 240px;
   color: var(--color-element-brown);
   border-right: 1px solid var(--color-element-transparent-blue);

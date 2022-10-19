@@ -15,7 +15,7 @@ import {
   ItemsFilters,
   EnchantsFilters,
   SkillsFilters,
-  FiltersType,
+  FiltersType, ArtifactsFilters,
 } from 'types/Filters.types';
 
 interface Stores {
@@ -30,11 +30,12 @@ const AVAILABLE_FILTERS_FOR_ROUTES: Record<RoutePath, FiltersType[]> = {
   [RoutePath.Enchants]: [FiltersType.General, FiltersType.Enchants],
   [RoutePath.Skills]: [FiltersType.General, FiltersType.Skills],
   [RoutePath.Skill]: [],
+  [RoutePath.Artifacts]: [FiltersType.General, FiltersType.Artifacts],
   [RoutePath.Developers]: [FiltersType.General],
 };
 
 export default function useFilters
-  <T extends GeneralFilters | ItemsFilters | EnchantsFilters | SkillsFilters>(filtersType: FiltersType)
+  <T extends GeneralFilters | ItemsFilters | EnchantsFilters | SkillsFilters | ArtifactsFilters>(filtersType: FiltersType)
   : useFiltersInterface<T>  {
   const routes = allEnumValues(RoutePath);
   const { filtersStore } = useStores<Stores>(DataStore.Filters);
@@ -51,7 +52,7 @@ export default function useFilters
     autorun(() => {
       const filtersForPath = AVAILABLE_FILTERS_FOR_ROUTES[path];
 
-      if (filtersForPath.length > 0) {
+      if (filtersForPath?.length > 0) {
         history.replace({
           search: filtersStore.toQueryString(filtersForPath || []),
         });

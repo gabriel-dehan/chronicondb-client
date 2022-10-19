@@ -10,11 +10,11 @@ import { useStores } from 'hooks/useStores';
 import { FiltersStore } from 'stores/FiltersStore';
 import { DataStore } from 'types/DataStore.types';
 
+import './ItemsTemplate.scss';
+
 interface Stores {
   [DataStore.Filters]: FiltersStore;
 }
-
-import './ItemsTemplate.scss';
 
 const ItemsTemplate: FunctionComponent = () => {
   const { filtersStore } = useStores<Stores>(DataStore.Filters);

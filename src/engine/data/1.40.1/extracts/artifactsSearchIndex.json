@@ -1,0 +1,303 @@
+[
+  {
+    "uuid": "10041",
+    "class": "Any Class",
+    "name": "Blessed Health",
+    "type": "Star",
+    "description": "Become immune to all negative effects (debuffs), except cooldown-related effects."
+  },
+  {
+    "uuid": "10026",
+    "class": "Warden",
+    "name": "Companion's Calling",
+    "type": "Rhombus",
+    "description": "+1 rank to all Companion skills."
+  },
+  {
+    "uuid": "10047",
+    "class": "Any Class",
+    "name": "Eternal Servitude",
+    "type": "Star",
+    "description": "When a companion dies, their Use effect cooldown is reset and no longer require any Mana or other resources to be cast for the next 5 seconds."
+  },
+  {
+    "uuid": "10044",
+    "class": "Any Class",
+    "name": "Life Bond",
+    "type": "Star",
+    "description": "Player Maximum Health is added to Companion base health."
+  },
+  {
+    "uuid": "10049",
+    "class": "Any Class",
+    "name": "Crystalized Life",
+    "type": "Star",
+    "description": "+AMOUNT Health."
+  },
+  {
+    "uuid": "10053",
+    "class": "Any Class",
+    "name": "Entity's Inclination",
+    "type": "Star",
+    "description": "Satellites apply a Weaken effect to foes hit, increasing the damage they take by AMOUNT%. This effect stacks infinitely."
+  },
+  {
+    "uuid": "10040",
+    "class": "Any Class",
+    "name": "Time Unwound",
+    "type": "Star",
+    "description": "Damage over time effects deal AMOUNT% increased damage, but have 30% less duration."
+  },
+  {
+    "uuid": "10055",
+    "class": "Any Class",
+    "name": "Myggen's Fang",
+    "type": "Star",
+    "description": "+AMOUNT% increased Health on Hit and Mana on Hit. Restore twice as much when landing a Critical Hit."
+  },
+  {
+    "uuid": "10025",
+    "class": "Warden",
+    "name": "Companion's Favor",
+    "type": "Rhombus",
+    "description": "+AMOUNT% to Companion Passive and Use Effect."
+  },
+  {
+    "uuid": "10051",
+    "class": "Any Class",
+    "name": "Rose Eternal",
+    "type": "Star",
+    "description": "+AMOUNT Thorns."
+  },
+  {
+    "uuid": "10020",
+    "class": "Any Class",
+    "name": "Ancient Focus",
+    "type": "Rhombus",
+    "description": "Indirect Damage Enchants are AMOUNT% stronger."
+  },
+  {
+    "uuid": "10017",
+    "class": "Any Class",
+    "name": "Conviction's Balance",
+    "type": "Rhombus",
+    "description": "+AMOUNT% Holy Damage and Shadow Damage."
+  },
+  {
+    "uuid": "10003",
+    "class": "Any Class",
+    "name": "Havoc",
+    "type": "Triangle",
+    "description": "Continously break all breakable objects within AMOUNT meters."
+  },
+  {
+    "uuid": "10021",
+    "class": "Templar",
+    "name": "Shield Adornment",
+    "type": "Rhombus",
+    "description": "+AMOUNT% to the maximum cap of Block Chance and Damage Blocked."
+  },
+  {
+    "uuid": "10052",
+    "class": "Any Class",
+    "name": "Elementalist's Boon",
+    "type": "Star",
+    "description": "Adds AMOUNT% of Damage Vs. Elemental stat to all Damage Element stat, but no longer deal bonus damage to Elemental foes."
+  },
+  {
+    "uuid": "10019",
+    "class": "Any Class",
+    "name": "Astral Power",
+    "type": "Rhombus",
+    "description": "+AMOUNT% Satellite Damage."
+  },
+  {
+    "uuid": "10029",
+    "class": "Warlock",
+    "name": "Ritual Stone",
+    "type": "Rhombus",
+    "description": "+1 rank to all Ritual skills."
+  },
+  {
+    "uuid": "10006",
+    "class": "Any Class",
+    "name": "The Twins",
+    "type": "Triangle",
+    "description": "Health and Mana pickups always drop in pairs."
+  },
+  {
+    "uuid": "10046",
+    "class": "Any Class",
+    "name": "Megan's Spark",
+    "type": "Star",
+    "description": "For each unspent skillpoint, all Minor stats are increased by AMOUNT%."
+  },
+  {
+    "uuid": "10011",
+    "class": "Any Class",
+    "name": "Death's Decay",
+    "type": "Rhombus",
+    "description": "All enemies within 5 meters are slowed by AMOUNT%."
+  },
+  {
+    "uuid": "10005",
+    "class": "Any Class",
+    "name": "Battle Lust",
+    "type": "Triangle",
+    "description": "Killstreaks last AMOUNT% longer."
+  },
+  {
+    "uuid": "10023",
+    "class": "Berserker",
+    "name": "Essence of Burning Rage",
+    "type": "Rhombus",
+    "description": "+AMOUNT Maximum Rage and Minimum Rage."
+  },
+  {
+    "uuid": "10007",
+    "class": "Any Class",
+    "name": "Imbiber's Stone",
+    "type": "Triangle",
+    "description": "Health Potions and Mana Potions have a AMOUNT% chance to critically hit, restoring double the amount."
+  },
+  {
+    "uuid": "10013",
+    "class": "Any Class",
+    "name": "Focused Knowledge",
+    "type": "Rhombus",
+    "description": "The base passive node in each skill tree is now AMOUNTx as strong. Does not affect Mastery base nodes."
+  },
+  {
+    "uuid": "10018",
+    "class": "Any Class",
+    "name": "Nature's Decree",
+    "type": "Rhombus",
+    "description": "+AMOUNT% Fire Damage and Lightning Damage."
+  },
+  {
+    "uuid": "10002",
+    "class": "Any Class",
+    "name": "Magnetic Device",
+    "type": "Triangle",
+    "description": "+AMOUNT% Pickup Radius."
+  },
+  {
+    "uuid": "10048",
+    "class": "Any Class",
+    "name": "Ancient Retort",
+    "type": "Star",
+    "description": "When hurt, Weaken the attacking foe, increasing the damage it suffers by AMOUNT%. Stacks infinitely."
+  },
+  {
+    "uuid": "10042",
+    "class": "Any Class",
+    "name": "Grip of Death",
+    "type": "Star",
+    "description": "Adds a 25% chance on hit to pull the foe towards the player. Foes pulled are Weakened, suffering AMOUNT% increased damage taken for 7 seconds."
+  },
+  {
+    "uuid": "10015",
+    "class": "Any Class",
+    "name": "Force of Will",
+    "type": "Rhombus",
+    "description": "+AMOUNT% Physical Damage."
+  },
+  {
+    "uuid": "10012",
+    "class": "Any Class",
+    "name": "Battle Glory",
+    "type": "Rhombus",
+    "description": "Killstreak bonus attacks now match the player's strongest Damage Element and are improved in every aspect."
+  },
+  {
+    "uuid": "10010",
+    "class": "Any Class",
+    "name": "Element of Surprise",
+    "type": "Rhombus",
+    "description": "Companions gain the Invisibility affix, and have their damage stat increased by AMOUNT% on any attacks made from Invisibility."
+  },
+  {
+    "uuid": "10056",
+    "class": "Any Class",
+    "name": "Red Wail",
+    "type": "",
+    "description": "Triggering a Bleed effect has a AMOUNT% chance to summon a Wailing Ghost which will strike up to 3 foes for the Bleed effect's damage tick."
+  },
+  {
+    "uuid": "10022",
+    "class": "Templar",
+    "name": "Symbol of Hope",
+    "type": "Rhombus",
+    "description": "+1 rank to all Aura skills."
+  },
+  {
+    "uuid": "10004",
+    "class": "Any Class",
+    "name": "Gladiator's Allure",
+    "type": "Triangle",
+    "description": "Experience gained from Killstreaks is increased by AMOUNT%."
+  },
+  {
+    "uuid": "10043",
+    "class": "Any Class",
+    "name": "Rahlence's Resurrection",
+    "type": "Star",
+    "description": "On-kill enchants and powers have a AMOUNT% chance to be triggered on hit. Does not affect any passive skills, or any effects using a foe's health as damage."
+  },
+  {
+    "uuid": "10014",
+    "class": "Any Class",
+    "name": "Battle Haze",
+    "type": "Rhombus",
+    "description": "-25% Attack Speed, +25% Movement Speed, +10% Evasion."
+  },
+  {
+    "uuid": "10024",
+    "class": "Berserker",
+    "name": "Ancient Bead",
+    "type": "Rhombus",
+    "description": "+1 rank to all Heritage skills."
+  },
+  {
+    "uuid": "10016",
+    "class": "Any Class",
+    "name": "Attrition's Yield",
+    "type": "Rhombus",
+    "description": "+AMOUNT% Poison Damage and Frost Damage."
+  },
+  {
+    "uuid": "10050",
+    "class": "Any Class",
+    "name": "Crystalized Mana",
+    "type": "Star",
+    "description": "+AMOUNT Mana."
+  },
+  {
+    "uuid": "10054",
+    "class": "Any Class",
+    "name": "Aphrodite's Cue",
+    "type": "Star",
+    "description": "The delay between staggered damage ticks is increased by AMOUNT% of the Willpower stat. Meaning the damage is dealt at slower intervals and held onto longer."
+  },
+  {
+    "uuid": "10045",
+    "class": "Any Class",
+    "name": "Tales of Victory",
+    "type": "Star",
+    "description": "Crowned foes count as AMOUNT foes for Killstreaks."
+  },
+  {
+    "uuid": "10001",
+    "class": "Any Class",
+    "name": "Finder's Keep",
+    "type": "Triangle",
+    "description": "All chests and secrets are now marked and revealed on the map when entering any zone."
+  },
+  {
+    "uuid": "10028",
+    "class": "Warlock",
+    "name": "Soul Gem",
+    "type": "Rhombus",
+    "description": "+1 Maximum Souls."
+  }
+]

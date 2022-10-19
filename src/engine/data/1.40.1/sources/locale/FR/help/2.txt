@@ -1,0 +1,14 @@
+@Comment interagir avec les objets ou les personnages ?
+Tenez-vous simplement près d’eux et utilisez la touche d’interaction (par défaut « A » sur la manette) ou, si vous utilisez un clavier et une souris, passez le curseur sur l’objet et cliquez dessus (par défaut clic gauche de la souris, mais vous pouvez opter pour une touche du clavier ou un autre bouton de la souris. Si vous changez pour une touche du clavier, vous n’aurez pas besoin de passer la souris sur l’objet pour interagir avec celui le plus proche de vous).
+@Comment viser avec les sorts ?
+En passant la souris sur un ennemi, vous le désignerez comme cible pour votre prochain sort ou votre prochaine attaque. La plupart des sorts et attaques permettent également de ne pas avoir de cible précise, ce qui veut dire qu’ils se lanceront dans la direction indiquée. Si vous utilisez une manette, vous pouvez changer la direction de votre visée avec le stick droit, ce qui vous permettra de cibler automatiquement l’ennemi le plus proche.
+@Comment se déplacer ?
+Par défaut, vous déplacez votre personnage avec les touches WASD ou le stick gauche de la manette. Vous pouvez modifier les touches du clavier dans le menu des options, mais vous ne pourrez pas modifier les touches de la manette. Vous avez également une option cliquer-pour-déplacer.
+@Qu’est-ce que le cliquer-pour-déplacer ?
+Cette option vous permet de vous déplacer sans avoir à utiliser le clavier, soit en cliquant sur le sol pour y déplacer votre personnage, soit en maintenant le clic gauche pour constamment faire courir votre personnage vers le curseur en ignorant tous les obstacles sur le chemin.
+@Comment attaquer et interagir avec l’option cliquer-pour-déplacer ?
+Cliquez simplement sur ce que voulez attaquer ou ce avec quoi vous voulez interagir. Vos compétences seront utilisées classiquement, via les touches que vous leur aurez assignées. Vous pouvez maintenir la touche MAJ pour forcer les attaques si vous utilisez le cliquer-pour-déplacer, dans le cas où vous retrouvez souvent à vous déplacer sans le vouloir pendant un combat. Vous pouvez également maintenir ou appuyer sur ESPACE pour forcer le mouvement vers votre curseur, sans interagir avec ou attaquer ce que vous survolez.
+@Comment désactiver les vibrations de la manette ?
+Vous pouvez aller dans le menu Paramètres, puis Contrôles, et Paramètres de la manette pour modifier les paramètres de chaque joueur.
+@Est-il possible de changer la sensibilité des sticks analogiques de la manette ?
+Ces paramètres se modifient de la même façon que ceux concernant la vibration de la manette.

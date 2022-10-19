@@ -18,7 +18,7 @@ export function useStores<StoresData extends Partial<Stores>>(...storeNames: (ke
     storeNames.forEach((storeName) => {
       const store = allStores[storeName];
       if (!store) {
-        throw new Error(`Attempting to get an in-existant MobX store: ${storeName}`);
+        throw new Error(`Attempting to get an in-existant MobX store: ${String(storeName)}`);
       }
 
       stores[storeName] = store;

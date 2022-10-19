@@ -1,4 +1,4 @@
-@import "responsive.scss";
+@import "src/assets/styles/responsive.scss";
 
 .o-header {
   background-color: var(--color-background-black);
@@ -60,10 +60,21 @@
     padding: 20px 45px 14px 0;
     padding-left: 45px;
 
+    // Temporary solution (good for 4 items on header)
+    @media (max-width: 1000px){
+      padding: 20px 20px 14px 0;
+      padding-left: 20px;
+    }
+
     &-item {
       height: 100%;
       display: inline-block;
       margin: 0 15px;
+
+      // Temporary solution (good for 4 items on header)
+      @media (max-width: 1000px){
+        margin: 0 8px;
+      }
 
       font-family: "Kufam";
       font-size: var(--font-normal);
@@ -97,6 +108,7 @@
   &__sub-menu {
     height: 100%;
     display: inline-block;
+    margin-right: 15px;
 
     &-item {
       position: relative;

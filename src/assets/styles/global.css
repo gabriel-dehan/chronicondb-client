@@ -10,7 +10,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   color: var(--color-element-light-beige);
-  background-image: url('../images/textures/body.png');
+  background-image: url('/assets/images/textures/body.png');
   background-color: var(--colorbackground-light-brown);
   background-repeat: repeat;
 }

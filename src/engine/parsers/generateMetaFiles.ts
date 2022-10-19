@@ -24,6 +24,8 @@ function updatePatches(version: string): string[] {
 
 function generateVersionIndex(version: string) {
   const TEMPLATE = `
+import artifacts from './artifacts.json';
+import artifactsSearchIndex from './artifactsSearchIndex.json';
 import enchants from './enchants.json';
 import enchantsPool from './enchantsPool.json';
 import enchantsSearchIndex from './enchantsSearchIndex.json';
@@ -35,6 +37,8 @@ import skillsByClass from './skillsByClass.json';
 import skillsSearchIndex from './skillsSearchIndex.json';
 
 export default {
+  artifacts,
+  artifactsSearchIndex,
   items,
   enchants,
   enchantsPool,

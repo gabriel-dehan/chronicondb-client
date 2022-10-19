@@ -65,7 +65,7 @@ export function parseEnchants(version: string, verbose = false): Enchant[] {
 
     return enchant;
   });
-
+  // enchants = enchants.filter(({ name }) => name.includes('GEM'));
   writeFile(enchants, version, 'enchants');
 
   return enchants;

@@ -5,34 +5,28 @@ import { observable, action, computed } from 'mobx';
 import qs from 'query-string';
 
 import patches from 'engine/data/patches.json';
-import {
-  GeneralFilters,
-  ItemsFilters,
-  EnchantsFilters,
-  SkillsFilters,
-  Filters,
-  FiltersType,
-  QueryFiltersInterface,
-  SortOrder,
-} from 'types/Filters.types';
+import * as FiltersTypes from 'types/Filters.types';
 
 // Has a dependency on query params, not very clean but it works. See `useFilters`
 export class FiltersStore {
   @observable
-  public general: GeneralFilters;
+  public general: FiltersTypes.GeneralFilters;
 
   @observable
-  public items: ItemsFilters;
+  public items: FiltersTypes.ItemsFilters;
 
   @observable
-  public enchants: EnchantsFilters;
+  public enchants: FiltersTypes.EnchantsFilters;
 
   @observable
-  public skills: SkillsFilters;
+  public skills: FiltersTypes.SkillsFilters;
+
+  @observable
+  public artifacts: FiltersTypes.ArtifactsFilters;
 
   // A bit ugly but gets the job done
   constructor() {
-    const query = qs.parse(location.search) as unknown as QueryFiltersInterface;
+    const query = qs.parse(location.search) as unknown as FiltersTypes.QueryFiltersInterface;
 
     const latestPatch = patches[patches.length - 1];
     /* Make sure the patch in the query string exists,
@@ -54,7 +48,7 @@ export class FiltersStore {
       type: query.itemsType,
       characterClass: query.itemsCharacterClass,
       rarities: query.itemsRarities,
-      orderBy: query.itemsOrderBy as SortOrder,
+      orderBy: query.itemsOrderBy as FiltersTypes.SortOrder,
       onlySet: query.itemsOnlySet ? query.itemsOnlySet === 'true' : undefined, // typecast
     };
 
@@ -71,15 +65,20 @@ export class FiltersStore {
       types: query.skillsTypes,
       family: query.skillsFamily,
     };
+
+    this.artifacts = {
+      search: query.artifactSearch,
+      type: query.artifactType,
+    };
   }
 
   @action
-  public setGeneralFilters(filters: Partial<GeneralFilters>) {
+  public setGeneralFilters(filters: Partial<FiltersTypes.GeneralFilters>) {
     this.general = merge(this.general, filters);
   }
 
   @action
-  public setItemsFilters(filters: Partial<ItemsFilters>) {
+  public setItemsFilters(filters: Partial<FiltersTypes.ItemsFilters>) {
     this.items = merge(this.items, filters);
 
     // Override rarities instead of merge as it is an array of unique toggleable values
@@ -94,7 +93,7 @@ export class FiltersStore {
   }
 
   @action
-  public setEnchantsFilters(filters: Partial<EnchantsFilters>) {
+  public setEnchantsFilters(filters: Partial<FiltersTypes.EnchantsFilters>) {
     this.enchants = merge(this.enchants, filters);
 
     // Allow undefined value for search
@@ -104,7 +103,7 @@ export class FiltersStore {
   }
 
   @action
-  public setSkillsFilters(filters: Partial<SkillsFilters>) {
+  public setSkillsFilters(filters: Partial<FiltersTypes.SkillsFilters>) {
     this.skills = merge(this.skills, filters);
 
     // Allow undefined value for search
@@ -113,13 +112,24 @@ export class FiltersStore {
     }
   }
 
+  @action
+  public setArtifactsFilters(filters: Partial<FiltersTypes.ArtifactsFilters>) {
+    this.artifacts = merge(this.artifacts, filters);
+
+    // Allow undefined value for search
+    if (has(filters, 'search') && isEmpty(filters.search)) {
+      this.artifacts.search = undefined;
+    }
+  }
+
   @computed
-  get filters(): Filters {
+  get filters(): FiltersTypes.Filters {
     return {
       general: this.general,
       items: this.items,
       enchants: this.enchants,
       skills: this.skills,
+      artifacts: this.artifacts,
     };
   }
 
@@ -128,17 +138,17 @@ export class FiltersStore {
     return this.general.patch;
   }
 
-  public toQueryString(filtersTypes: FiltersType[]): string {
+  public toQueryString(filtersTypes: FiltersTypes.FiltersType[]): string {
     const query = camelCaseKeys(
       flatten(pick(this.filters, filtersTypes), 1)
     ) as Record<string, string>;
 
     // Rename patch key so it is less intrusive
-    if (filtersTypes.includes(FiltersType.General)) {
+    if (filtersTypes.includes(FiltersTypes.FiltersType.General)) {
       query.patch = query.generalPatch;
       delete query.generalPatch;
     }
 
-    return qs.stringify(query as unknown as QueryFiltersInterface);
+    return qs.stringify(query as unknown as FiltersTypes.QueryFiltersInterface);
   }
 }
