@@ -25,6 +25,12 @@ export interface EnchantsFilters {
   category?: string;
 }
 
+export interface ArtifactsFilters {
+  search?: string;
+  type?: string;
+  category?: string;
+}
+
 export interface SkillsFilters {
   search?: string;
   characterClass?: string;
@@ -38,6 +44,7 @@ export interface Filters {
   items: ItemsFilters;
   enchants: EnchantsFilters;
   skills: SkillsFilters;
+  artifacts: ArtifactsFilters;
 }
 
 /* Flattened filters */
@@ -58,11 +65,14 @@ export type QueryFiltersInterface = {
   skillsTree: string;
   skillsTypes: string[];
   skillsFamily: string;
+  artifactSearch: string;
+  artifactType: string;
 }
 
 export enum FiltersType {
   General = 'general',
   Items = 'items',
   Enchants = 'enchants',
-  Skills = 'skills'
+  Skills = 'skills',
+  Artifacts = 'artifacts'
 }

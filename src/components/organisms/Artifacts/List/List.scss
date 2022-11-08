@@ -1,0 +1,30 @@
+@import "src/assets/styles/responsive.scss";
+
+.o-artifactsList {
+  position: relative;
+  width: 100%;
+
+  &__container {
+    display: flex;
+  }
+
+  &__artifacts {
+    width: 100%;
+  }
+
+  .o-skill__container {
+    background: var(--color-background-darkest-brown);
+    min-height: 50px;
+    border-bottom: 1px solid var(--color-element-darkest-blue);
+
+    &:nth-child(2n) {
+      background: var(--color-background-darker-brown);
+    }
+  }
+
+  &__noArtifact {
+    font-size: var(--font-big);
+    padding: 34px;
+    text-align: center;
+  }
+}

@@ -43,7 +43,7 @@ export function parseSkills(version: string, verbose = false) {
 
 function parseSkill(skill: Record<string, string>, skillTree: string, characterClass: string): Skill {
   const { id, name, type, element, description } = skill;
-  const parsedName = name.indexOf("_") == -1 ? name : name.split("_")[-1];
+  const parsedName = name.indexOf('_') == -1 ? name : name.split('_')[-1];
   const uuid = parseInt(id);
   const family = skill.family === 'None' ? undefined : skill.family;
   const minLevel = skill.min_level ? parseInt(skill.min_level) : 0;

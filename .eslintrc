@@ -17,13 +17,13 @@
   "root": true,
   "env": {
     "node": true,
-    "jest": true,
+    "jest": true
   },
   "rules": {
     "indent": ["error", 2, {
       "SwitchCase": 1
     }],
-    "linebreak-style": ["error", "unix"],
+    "linebreak-style": 0,
     "space-before-blocks": [ "error", "always"],
 
     "quotes": [ "error",  "single", {
@@ -87,7 +87,7 @@
 
     "no-fallthrough": "off",
     "camelcase": "off",
-
+    "react-hooks/exhaustive-deps": "off",
     "react/jsx-uses-react": "error",
     "react/jsx-uses-vars": "error",
     "react/prefer-stateless-function": "warn",

@@ -1,8 +1,12 @@
+import { compare } from 'compare-versions';
+
 import { CharacterClass } from 'types/Character.types';
 import { Enchant, EnchantsPool } from 'types/Enchant.types';
 import { Item, ItemSet } from 'types/Item.types';
 import { Skill, SkillTree } from 'types/Skill.types';
 
+import { ArtifactInterface } from '../types/Artifact.types';
+import EngineArtifacts from './EngineArtifacts';
 import EngineEnchants from './EngineEnchants';
 import EngineItems from './EngineItems';
 import EngineSkills from './EngineSkills';
@@ -10,6 +14,8 @@ import EngineSkills from './EngineSkills';
 type Version = string;
 
 export interface DataInterface {
+  artifacts: ArtifactInterface[];
+  artifactsSearchIndex: Record<string, string | number>[];
   items: Item[];
   enchants: Enchant[];
   enchantsPool: EnchantsPool;
@@ -29,12 +35,14 @@ export default class Engine {
   public readonly Items!: EngineItems;
   public readonly Enchants!: EngineEnchants;
   public readonly Skills!: EngineSkills;
+  public readonly Artifacts!: EngineArtifacts;
 
   constructor(version: Version) {
     this.version = version;
     this.Items = new EngineItems(this);
     this.Enchants = new EngineEnchants(this);
     this.Skills = new EngineSkills(this);
+    this.Artifacts = new EngineArtifacts(this);
   }
 
   public get loaded(): boolean {
@@ -54,6 +62,9 @@ export default class Engine {
     this.Items.onDataLoaded();
     this.Enchants.onDataLoaded();
     this.Skills.onDataLoaded();
+    if (compare(this.version, '1.40.1', '>=')) {
+      this.Artifacts.onDataLoaded();
+    }
 
     // console.log('Enchants', this.data?.enchants.length);
     // console.log('Skills', this.data?.skills.length);

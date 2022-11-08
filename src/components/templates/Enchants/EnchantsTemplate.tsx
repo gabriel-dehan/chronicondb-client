@@ -10,16 +10,15 @@ import { useStores } from 'hooks/useStores';
 import { FiltersStore } from 'stores/FiltersStore';
 import { DataStore } from 'types/DataStore.types';
 
+import './EnchantsTemplate.scss';
+
 interface Stores {
   [DataStore.Filters]: FiltersStore;
 }
 
-import './EnchantsTemplate.scss';
-
 const EnchantsTemplate: FunctionComponent = () => {
   const { filtersStore } = useStores<Stores>(DataStore.Filters);
   const Engine = useEngine();
-
   const enchants = getFilteredEnchants();
 
   return (

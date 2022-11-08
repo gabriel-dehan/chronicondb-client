@@ -88,8 +88,8 @@ const Categories: FunctionComponent = () => {
                 <GameIcon
                   className="o-enchantTypes__typeName-icon"
                   type={GameIconType.EnchantType}
-                  name={type}
-                  width={28}
+                  name={type.includes('/') ? 'gem' : type}
+                  width={type.includes('/') ? 20 : 28}
                 />
               </span>
               {renderCategories(type, enchantTypes)}

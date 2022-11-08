@@ -1,0 +1,98 @@
+@import "src/assets/styles/responsive.scss";
+
+.o-artifactClasses {
+  background-image: url('/assets/images/textures/sidebar.png');
+  width: 240px;
+  color: var(--color-element-brown);
+  border-right: 1px solid var(--color-element-transparent-blue);
+
+  @include mediaUpToSmallTablet {
+    width: 100%;
+    height: 100%;
+  }
+
+  &__class {
+    cursor: pointer;
+    list-style: none;
+
+    .o-artifactClasses__className {
+      display: flex;
+      align-items: center;
+      height: 52px;
+      padding-left: 18px;
+      opacity: 0.8;
+
+      background-color: var(--color-background-dark-brown);
+      color: var(--color-element-light-beige);
+      border-bottom: 1px solid var(--color-element-mid-brown);
+
+      font-family: Philosopher;
+      font-size: var(--font-big);
+      font-weight: 700;
+      text-transform: uppercase;
+
+      &-arrow {
+        margin-right: 10px;
+        opacity: 0.6;
+      }
+
+      &-icon {
+        margin-left: auto;
+        margin-right: 12px;
+      }
+
+      &:hover {
+        opacity: 1;
+        color: var(--color-element-light-beige);
+        text-shadow: 0 0 6px rgba(172, 140, 87, 0.54), 0 0 10px rgba(172, 140, 87, 0.57);
+      }
+    }
+
+    &.selected {
+      .o-artifactClasses__className {
+        opacity: 1;
+        color: var(--color-element-light-beige);
+        text-shadow: 0 0 6px rgba(172, 140, 87, 0.54), 0 0 10px rgba(172, 140, 87, 0.57);
+      }
+    }
+  }
+
+  &__menuMobile {
+    .drawer-handle {
+      opacity: 0.8;
+      top: 130px;
+      top: 50px;
+
+      right: -48px !important;
+      width: 50px;
+      height: 48px;
+      background-color: var(--color-background-mid-brown);
+      border: 1px solid var(--color-element-mid-beige);
+
+      &::after {
+        content: '';
+        display: block;
+        background-image: url(/assets/images/game/artifacts/triangle.png);
+        background-repeat: no-repeat;
+        background-position: 100%;
+        background-size: 100%;
+        width: 68%;
+        height: 68%;
+      }
+
+      .drawer-handle-icon {
+        display: none
+      }
+    }
+
+    &.triangle .drawer-handle::after {
+      background-image: url(/assets/images/game/artifacts/triangle.png);
+    }
+    &.rhombus .drawer-handle::after {
+      background-image: url(/assets/images/game/artifacts/rhombus.png);
+    }
+    &.star .drawer-handle::after {
+      background-image: url(/assets/images/game/artifacts/star.png);
+    }
+  }
+}

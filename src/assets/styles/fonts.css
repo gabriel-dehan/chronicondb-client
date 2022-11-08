@@ -1,137 +1,7 @@
-/* Kufam */
-/*
 @font-face {
   font-family: 'Kufam';
-  src: url('../fonts/Kufam/Kufam-BlackItalic.woff2') format('woff2'),
-      url('../fonts/Kufam/Kufam-BlackItalic.woff') format('woff');
-  font-weight: 900;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Kufam';
-  src: url('../fonts/Kufam/Kufam-Black.woff2') format('woff2'),
-      url('../fonts/Kufam/Kufam-Black.woff') format('woff');
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Kufam';
-  src: url('../fonts/Kufam/Kufam-ExtraBoldItalic.woff2') format('woff2'),
-      url('../fonts/Kufam/Kufam-ExtraBoldItalic.woff') format('woff');
-  font-weight: 800;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Kufam';
-  src: url('../fonts/Kufam/Kufam-ExtraBold.woff2') format('woff2'),
-      url('../fonts/Kufam/Kufam-ExtraBold.woff') format('woff');
-  font-weight: 800;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Kufam';
-  src: url('../fonts/Kufam/Kufam-SemiBold.woff2') format('woff2'),
-      url('../fonts/Kufam/Kufam-SemiBold.woff') format('woff');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Kufam';
-  src: url('../fonts/Kufam/Kufam-SemiBoldItalic.woff2') format('woff2'),
-      url('../fonts/Kufam/Kufam-SemiBoldItalic.woff') format('woff');
-  font-weight: 600;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Nunito Sans';
-  src: url('NunitoSans-BlackItalic.woff2') format('woff2'),
-      url('NunitoSans-BlackItalic.woff') format('woff');
-  font-weight: 900;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Nunito Sans';
-  src: url('NunitoSans-Black.woff2') format('woff2'),
-      url('NunitoSans-Black.woff') format('woff');
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Nunito Sans';
-  src: url('NunitoSans-ExtraBold.woff2') format('woff2'),
-      url('NunitoSans-ExtraBold.woff') format('woff');
-  font-weight: 800;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Nunito Sans';
-  src: url('NunitoSans-ExtraLight.woff2') format('woff2'),
-      url('NunitoSans-ExtraLight.woff') format('woff');
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Nunito Sans';
-  src: url('NunitoSans-ExtraBoldItalic.woff2') format('woff2'),
-      url('NunitoSans-ExtraBoldItalic.woff') format('woff');
-  font-weight: 800;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Nunito Sans';
-  src: url('../fonts/NunitoSans/NunitoSans-Light.woff2') format('woff2'),
-      url('../fonts/NunitoSans/NunitoSans-Light.woff') format('woff');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Nunito Sans';
-  src: url('../fonts/NunitoSans/NunitoSans-ExtraLightItalic.woff2') format('woff2'),
-      url('../fonts/NunitoSans/NunitoSans-ExtraLightItalic.woff') format('woff');
-  font-weight: 200;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Nunito Sans';
-  src: url('../fonts/NunitoSans/NunitoSans-LightItalic.woff2') format('woff2'),
-      url('../fonts/NunitoSans/NunitoSans-LightItalic.woff') format('woff');
-  font-weight: 300;
-  font-style: italic;
-  font-display: swap;
-}
-
-*/
-
-@font-face {
-  font-family: 'Kufam';
-  src: url('../fonts/Kufam/Kufam-Bold.woff2') format('woff2'),
-      url('../fonts/Kufam/Kufam-Bold.woff') format('woff');
+  src: url('/assets/fonts/Kufam/Kufam-Bold.woff2') format('woff2'),
+  url('/assets/fonts/Kufam/Kufam-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -139,8 +9,8 @@
 
 @font-face {
   font-family: 'Kufam';
-  src: url('../fonts/Kufam/Kufam-BoldItalic.woff2') format('woff2'),
-      url('../fonts/Kufam/Kufam-BoldItalic.woff') format('woff');
+  src: url('/assets/fonts/Kufam/Kufam-BoldItalic.woff2') format('woff2'),
+  url('/assets/fonts/Kufam/Kufam-BoldItalic.woff') format('woff');
   font-weight: bold;
   font-style: italic;
   font-display: swap;
@@ -148,8 +18,8 @@
 
 @font-face {
   font-family: 'Kufam';
-  src: url('../fonts/Kufam/Kufam-Italic.woff2') format('woff2'),
-      url('../fonts/Kufam/Kufam-Italic.woff') format('woff');
+  src: url('/assets/fonts/Kufam/Kufam-Italic.woff2') format('woff2'),
+  url('/assets/fonts/Kufam/Kufam-Italic.woff') format('woff');
   font-weight: normal;
   font-style: italic;
   font-display: swap;
@@ -157,8 +27,8 @@
 
 @font-face {
   font-family: 'Kufam';
-  src: url('../fonts/Kufam/Kufam-MediumItalic.woff2') format('woff2'),
-      url('../fonts/Kufam/Kufam-MediumItalic.woff') format('woff');
+  src: url('/assets/fonts/Kufam/Kufam-MediumItalic.woff2') format('woff2'),
+  url('/assets/fonts/Kufam/Kufam-MediumItalic.woff') format('woff');
   font-weight: 500;
   font-style: italic;
   font-display: swap;
@@ -166,8 +36,8 @@
 
 @font-face {
   font-family: 'Kufam';
-  src: url('../fonts/Kufam/Kufam-Medium.woff2') format('woff2'),
-      url('../fonts/Kufam/Kufam-Medium.woff') format('woff');
+  src: url('/assets/fonts/Kufam/Kufam-Medium.woff2') format('woff2'),
+  url('/assets/fonts/Kufam/Kufam-Medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -175,8 +45,8 @@
 
 @font-face {
   font-family: 'Kufam';
-  src: url('../fonts/Kufam/Kufam-Regular.woff2') format('woff2'),
-      url('../fonts/Kufam/Kufam-Regular.woff') format('woff');
+  src: url('/assets/fonts/Kufam/Kufam-Regular.woff2') format('woff2'),
+  url('/assets/fonts/Kufam/Kufam-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -186,8 +56,8 @@
 
 @font-face {
   font-family: 'Philosopher';
-  src: url('../fonts/Philosopher/Philosopher-Bold.woff2') format('woff2'),
-      url('../fonts/Philosopher/Philosopher-Bold.woff') format('woff');
+  src: url('/assets/fonts/Philosopher/Philosopher-Bold.woff2') format('woff2'),
+  url('/assets/fonts/Philosopher/Philosopher-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -195,8 +65,8 @@
 
 @font-face {
   font-family: 'Philosopher';
-  src: url('../fonts/Philosopher/Philosopher-Italic.woff2') format('woff2'),
-      url('../fonts/Philosopher/Philosopher-Italic.woff') format('woff');
+  src: url('/assets/fonts/Philosopher/Philosopher-Italic.woff2') format('woff2'),
+  url('/assets/fonts/Philosopher/Philosopher-Italic.woff') format('woff');
   font-weight: normal;
   font-style: italic;
   font-display: swap;
@@ -204,8 +74,8 @@
 
 @font-face {
   font-family: 'Philosopher';
-  src: url('../fonts/Philosopher/Philosopher-BoldItalic.woff2') format('woff2'),
-      url('../fonts/Philosopher/Philosopher-BoldItalic.woff') format('woff');
+  src: url('/assets/fonts/Philosopher/Philosopher-BoldItalic.woff2') format('woff2'),
+  url('/assets/fonts/Philosopher/Philosopher-BoldItalic.woff') format('woff');
   font-weight: bold;
   font-style: italic;
   font-display: swap;
@@ -213,8 +83,8 @@
 
 @font-face {
   font-family: 'Philosopher';
-  src: url('../fonts/Philosopher/Philosopher-Regular.woff2') format('woff2'),
-      url('../fonts/Philosopher/Philosopher-Regular.woff') format('woff');
+  src: url('/assets/fonts/Philosopher/Philosopher-Regular.woff2') format('woff2'),
+  url('/assets/fonts/Philosopher/Philosopher-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -224,8 +94,8 @@
 
 @font-face {
   font-family: 'Nunito Sans';
-  src: url('../fonts/NunitoSans/NunitoSans-BoldItalic.woff2') format('woff2'),
-      url('../fonts/NunitoSans/NunitoSans-BoldItalic.woff') format('woff');
+  src: url('/assets/fonts/NunitoSans/NunitoSans-BoldItalic.woff2') format('woff2'),
+      url('/assets/fonts/NunitoSans/NunitoSans-BoldItalic.woff') format('woff');
   font-weight: bold;
   font-style: italic;
   font-display: swap;
@@ -233,8 +103,8 @@
 
 @font-face {
   font-family: 'Nunito Sans';
-  src: url('../fonts/NunitoSans/NunitoSans-Bold.woff2') format('woff2'),
-      url('../fonts/NunitoSans/NunitoSans-Bold.woff') format('woff');
+  src: url('/assets/fonts/NunitoSans/NunitoSans-Bold.woff2') format('woff2'),
+  url('/assets/fonts/NunitoSans/NunitoSans-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -242,8 +112,8 @@
 
 @font-face {
   font-family: 'Nunito Sans';
-  src: url('../fonts/NunitoSans/NunitoSans-SemiBold.woff2') format('woff2'),
-      url('../fonts/NunitoSans/NunitoSans-SemiBold.woff') format('woff');
+  src: url('/assets/fonts/NunitoSans/NunitoSans-SemiBold.woff2') format('woff2'),
+  url('/assets/fonts/NunitoSans/NunitoSans-SemiBold.woff') format('woff');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -251,8 +121,8 @@
 
 @font-face {
   font-family: 'Nunito Sans';
-  src: url('../fonts/NunitoSans/NunitoSans-SemiBoldItalic.woff2') format('woff2'),
-      url('../fonts/NunitoSans/NunitoSans-SemiBoldItalic.woff') format('woff');
+  src: url('/assets/fonts/NunitoSans/NunitoSans-SemiBoldItalic.woff2') format('woff2'),
+  url('/assets/fonts/NunitoSans/NunitoSans-SemiBoldItalic.woff') format('woff');
   font-weight: 600;
   font-style: italic;
   font-display: swap;
@@ -260,8 +130,8 @@
 
 @font-face {
   font-family: 'Nunito Sans';
-  src: url('../fonts/NunitoSans/NunitoSans-Regular.woff2') format('woff2'),
-      url('../fonts/NunitoSans/NunitoSans-Regular.woff') format('woff');
+  src: url('/assets/fonts/NunitoSans/NunitoSans-Regular.woff2') format('woff2'),
+  url('/assets/fonts/NunitoSans/NunitoSans-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -269,8 +139,8 @@
 
 @font-face {
   font-family: 'Nunito Sans';
-  src: url('../fonts/NunitoSans/NunitoSans-Italic.woff2') format('woff2'),
-      url('../fonts/NunitoSans/NunitoSans-Italic.woff') format('woff');
+  src: url('/assets/fonts/NunitoSans/NunitoSans-Italic.woff2') format('woff2'),
+  url('/assets/fonts/NunitoSans/NunitoSans-Italic.woff') format('woff');
   font-weight: normal;
   font-style: italic;
   font-display: swap;
@@ -280,8 +150,8 @@
 
 @font-face {
   font-family: 'VP Pixel';
-  src: url('../fonts/VPPixel/VPPixel-Simplified.woff2') format('woff2'),
-      url('../fonts/VPPixel/VPPixel-Simplified.woff') format('woff');
+  src: url('/assets/fonts/VPPixel/VPPixel-Simplified.woff2') format('woff2'),
+  url('/assets/fonts/VPPixel/VPPixel-Simplified.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;

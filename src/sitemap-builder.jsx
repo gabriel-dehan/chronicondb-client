@@ -22,6 +22,7 @@ const paramsConfig = {
       <Route exact path={RoutePath.Enchants} />
       <Route exact path={RoutePath.Skills} />
       <Route exact path={RoutePath.Skill} />
+      <Route exact path={RoutePath.Artifacts} />
       <Route exact path={RoutePath.Developers} />
     </Switch>
   )

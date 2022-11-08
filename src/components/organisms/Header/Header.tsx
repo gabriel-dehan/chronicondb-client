@@ -23,6 +23,7 @@ const MAIN_MENU_ITEMS: MenuItem[] = [
   { path: RoutePath.Items },
   { path: RoutePath.Enchants },
   { path: RoutePath.Skills },
+  { path: RoutePath.Artifacts },
 ];
 
 const Header: FunctionComponent = () => {

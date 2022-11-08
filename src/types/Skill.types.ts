@@ -1,5 +1,6 @@
 import { CharacterClass } from './Character.types';
 
+
 export interface Skill {
   uuid: number;
   name: string;
