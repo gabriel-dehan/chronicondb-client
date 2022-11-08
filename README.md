@@ -4,17 +4,19 @@ Official website: [ChroniconDB](https://chronicondb.com)
 
 ## Table of Contents
 
-- [Acknowledgement](#acknowledgement)
-- [Starting up](#starting-up)
-- [How to get up to date item and skills data](#how-to-get-up-to-date-item-and-skills-data)
-- [Developers](#developers)
-  * [I want your data for my own projects](#i-want-your-data-for-my-own-projects)
-  * [Contributing](#contributing)
-  * [Notes](#notes)
-- [Roadmap](#roadmap)
-  * [Post release](#post-release)
-  * [Release](#release)
-- [License](#license)
+- [Chronicon DB](#chronicon-db)
+  - [Table of Contents](#table-of-contents)
+  - [Acknowledgement](#acknowledgement)
+  - [Starting up](#starting-up)
+  - [How to get up to date item and skills data](#how-to-get-up-to-date-item-and-skills-data)
+  - [Developers](#developers)
+    - [I want your data for my own projects](#i-want-your-data-for-my-own-projects)
+    - [Contributing](#contributing)
+    - [Notes](#notes)
+  - [Roadmap](#roadmap)
+    - [Post release](#post-release)
+    - [Release](#release)
+  - [License](#license)
 
 ## Acknowledgement
 
@@ -99,7 +101,8 @@ If you are unfamiliar with the fork - branch - MR workflow, [read this guide](ht
 
 ### Post release
 
-- [x] Update to 1.10.6
+- [ ] Handle enchant category : gem
+- [x] Update to 1.40+
 - [x] Fix enchant slot pools that are sometimes incorrect for epic enchants
 - [x] Fix title and metas for the SPA Redirect page
 - [ ] Fix multiword search (currently searches words separately)

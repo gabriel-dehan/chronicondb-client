@@ -18,7 +18,7 @@ import { ItemRarity, Item, ItemType } from 'types/Item.types';
 
 import Engine, { DataInterface } from './Engine';
 
-type HydratedPoolType = Record<CraftableEnchantTypes, Enchant[]>
+type HydratedPoolType = Record<CraftableEnchantTypes, Enchant[]>;
 type HydratedEnchantsPool = Record<ItemType, HydratedPoolType>;
 
 export default class EngineEnchants {
@@ -35,7 +35,13 @@ export default class EngineEnchants {
     this.types = allEnumValues(EnchantType);
     this.searchEngine = new Minisearch({
       idField: 'uuid',
-      fields: ['name', 'category', 'description', 'itemTypes', 'itemCategories'],
+      fields: [
+        'name',
+        'category',
+        'description',
+        'itemTypes',
+        'itemCategories',
+      ],
       storeFields: ['uuid'],
     });
   }
@@ -60,16 +66,28 @@ export default class EngineEnchants {
   }
 
   public getRunesEnchantsPool(): Enchant[] {
-    return this.enchants.filter(enchant => enchant.category === EnchantCategory.Rune);
+    return this.enchants.filter(
+      (enchant) => enchant.category === EnchantCategory.Rune
+    );
   }
 
   public getItemEnchantsSlots(item: Item): ItemEnchantSlots | null {
     if (this.engine.loaded && ![ItemRarity.Mythical].includes(item.rarity)) {
       const enchantSlots = ENCHANT_SLOTS_BY_RARITY[item.rarity];
-      const fixedEnchants = this.enchantsToRawEnchants(item.rarity, item.fixedEnchants);
-      const baseEnchants = this.enchantsToRawEnchants(item.rarity, item.baseEnchants);
+      const fixedEnchants = this.enchantsToRawEnchants(
+        item.rarity,
+        item.fixedEnchants
+      );
+      const baseEnchants = this.enchantsToRawEnchants(
+        item.rarity,
+        item.baseEnchants
+      );
 
-      if (isEmpty(enchantSlots) && isEmpty(fixedEnchants) && isEmpty(baseEnchants)) {
+      if (
+        isEmpty(enchantSlots) &&
+        isEmpty(fixedEnchants) &&
+        isEmpty(baseEnchants)
+      ) {
         return null;
       } else {
         return {
@@ -107,26 +125,33 @@ export default class EngineEnchants {
   // TODO: Move this to a parser ?
   public get categoriesByTypes(): Record<EnchantType, EnchantCategory[]> {
     if (!this._categoriesByTypes) {
-      const enchants = this.enchants.reduce((memo: Record<string, string[]>, enchant: Enchant) => {
-        if (enchant.type === 'Gem' as EnchantType) {
+      const enchants = this.enchants.reduce(
+        (memo: Record<string, string[]>, enchant: Enchant) => {
+          if (
+            enchant.type !== ('Gem' as EnchantType) &&
+            enchant.category === EnchantCategory.Gem
+          ) {
+            return memo;
+          }
+
+          if (memo[enchant.type]) {
+            memo[enchant.type].push(enchant.category);
+            memo[enchant.type] = uniq(memo[enchant.type]);
+          } else {
+            memo[enchant.type] = [];
+          }
+
           return memo;
-        }
+        },
+        {}
+      );
 
-        if (memo[enchant.type]) {
-          memo[enchant.type].push(enchant.category);
-          memo[enchant.type] = uniq(memo[enchant.type]);
-        } else {
-          memo[enchant.type] = [];
-        }
-
-        return memo;
-      }, {});
-
-      enchants[EnchantType.Major].push(EnchantCategory.Gem);
-      this._categoriesByTypes = sortObject(enchants, (a) => {
-        if (a === EnchantType.Minor) {
+      // enchants[EnchantType.Major].push(EnchantCategory.Gem);
+      this._categoriesByTypes = sortObject(enchants, (a, b) => {
+        if (a === EnchantType.Minor || b === EnchantType.Gem) {
           return 1;
         }
+
         return -1;
       }) as Record<EnchantType, EnchantCategory[]>;
     }
@@ -137,34 +162,53 @@ export default class EngineEnchants {
   /* Private */
   private filterBySearch(enchants: Enchant[], filters: EnchantsFilters) {
     if (filters.search) {
-      const resultingUuids = this.searchEngine.search(filters.search, {
-        prefix: true,
-        fuzzy: 0.2,
-      }).map(r => r.uuid);
+      const resultingUuids = this.searchEngine
+        .search(filters.search, {
+          prefix: true,
+          fuzzy: 0.2,
+        })
+        .map((r) => r.uuid);
 
-      return enchants.filter(enchant => resultingUuids.includes(enchant.uuid));
+      return enchants.filter((enchant) =>
+        resultingUuids.includes(enchant.uuid)
+      );
     }
 
     return enchants;
   }
 
-  private filterByTypeAndCategory(enchants: Enchant[], filters: EnchantsFilters) {
+  private filterByTypeAndCategory(
+    enchants: Enchant[],
+    filters: EnchantsFilters
+  ) {
     if (filters.category === 'Any' || filters.type === 'Any') {
       return enchants;
     } else {
-      const category = (filters.category || this.defaultCategory) as EnchantCategory;
-      const type = (category === EnchantCategory.Gem ? 'Gem' : (filters.type || this.defaultType)) as EnchantType;
+      const category = (filters.category ||
+        this.defaultCategory) as EnchantCategory;
+      const type = (
+        category === EnchantCategory.Gem
+          ? 'Gem'
+          : filters.type || this.defaultType
+      ) as EnchantType;
 
-      return enchants.filter(enchant => enchant.type === type && enchant.category === category);
+      return enchants.filter(
+        (enchant) => enchant.type === type && enchant.category === category
+      );
     }
   }
 
   /* Private utils */
-  private enchantsToRawEnchants(rarity: ItemRarity, enchantsIds: number[]): SimpleEnchant[] {
+  private enchantsToRawEnchants(
+    rarity: ItemRarity,
+    enchantsIds: number[]
+  ): SimpleEnchant[] {
     const { skills } = this.data;
 
     return compact(
-      enchantsIds.map(enchantId => this.enchants.find(e => e.uuid === enchantId))
+      enchantsIds.map((enchantId) =>
+        this.enchants.find((e) => e.uuid === enchantId)
+      )
     ).map((enchant) => {
       const ranges = enchant.ranges[rarity];
 
@@ -174,11 +218,14 @@ export default class EngineEnchants {
         description: enchant.description,
         min: ranges.minimum,
         max: ranges.cap,
-        skills: enchant.skills?.reduce((memo: Record<number, string>, skillId) => {
-          const skill = skills.find(s => s.uuid === skillId);
-          memo[skillId] = skill?.name || 'Unknown Skill';
-          return memo;
-        }, {}),
+        skills: enchant.skills?.reduce(
+          (memo: Record<number, string>, skillId) => {
+            const skill = skills.find((s) => s.uuid === skillId);
+            memo[skillId] = skill?.name || 'Unknown Skill';
+            return memo;
+          },
+          {}
+        ),
       };
     });
   }
@@ -187,13 +234,33 @@ export default class EngineEnchants {
     const enchantsPool = this.data.enchantsPool;
 
     // @ts-ignore
-    return reduce(enchantsPool, (hydratedPool: HydratedEnchantsPool, poolByEnchantType: EnchantPoolType, itemType: ItemType) => {
-      hydratedPool[itemType] = {
-        [EnchantType.Epic]: compact(poolByEnchantType[EnchantType.Epic].map(uuid => this.enchants.find(e => e.uuid === uuid))),
-        [EnchantType.Major]: compact(poolByEnchantType[EnchantType.Major].map(uuid => this.enchants.find(e => e.uuid === uuid))),
-        [EnchantType.Minor]: compact(poolByEnchantType[EnchantType.Minor].map(uuid => this.enchants.find(e => e.uuid === uuid))),
-      };
-      return hydratedPool;
-    }, {});
+    return reduce(
+      enchantsPool,
+      (
+        hydratedPool: HydratedEnchantsPool,
+        poolByEnchantType: EnchantPoolType,
+        itemType: ItemType
+      ) => {
+        hydratedPool[itemType] = {
+          [EnchantType.Epic]: compact(
+            poolByEnchantType[EnchantType.Epic].map((uuid) =>
+              this.enchants.find((e) => e.uuid === uuid)
+            )
+          ),
+          [EnchantType.Major]: compact(
+            poolByEnchantType[EnchantType.Major].map((uuid) =>
+              this.enchants.find((e) => e.uuid === uuid)
+            )
+          ),
+          [EnchantType.Minor]: compact(
+            poolByEnchantType[EnchantType.Minor].map((uuid) =>
+              this.enchants.find((e) => e.uuid === uuid)
+            )
+          ),
+        };
+        return hydratedPool;
+      },
+      {}
+    );
   }
 }

@@ -34,14 +34,15 @@ export enum EnchantType {
   Minor = 'Minor',
   Major = 'Major',
   Epic = 'Epic',
-  Legendary = 'Legendary'
+  Legendary = 'Legendary',
+  Gem = 'Gem',
 }
 
 export enum EnchantCategory {
   Power = 'Power',
   Enchant = 'Enchant',
   Gem = 'Gem',
-  Rune = 'Rune'
+  Rune = 'Rune',
 }
 
 export interface SimpleEnchant {
@@ -53,7 +54,7 @@ export interface SimpleEnchant {
   skills?: Record<number, string>;
 }
 
-export interface ItemEnchantSlot{
+export interface ItemEnchantSlot {
   count: number;
   types: EnchantType[]; // If multiple element it's an OR
   categoriesRestriction?: ItemCategory[];
@@ -65,6 +66,9 @@ export interface ItemEnchantSlots {
   enchantSlots?: ItemEnchantSlot[];
 }
 
-export type CraftableEnchantTypes = EnchantType.Epic | EnchantType.Major | EnchantType.Minor;
+export type CraftableEnchantTypes =
+  | EnchantType.Epic
+  | EnchantType.Major
+  | EnchantType.Minor;
 export type EnchantPoolType = Record<CraftableEnchantTypes, number[]>;
-export type EnchantsPool = Record<ItemType, EnchantPoolType>
+export type EnchantsPool = Record<ItemType, EnchantPoolType>;
