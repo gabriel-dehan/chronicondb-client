@@ -1,0 +1,201 @@
+Feinde sind mit einer Reihe von Effekten ausgestattet, den sogenannten Affixen. Diese werden unter ihrem Namensschild angezeigt, wenn sie angegriffen werden. Elite- und Championfeinde würfeln zusätzliche Affixe. Im Folgenden findest du eine vollständige Übersicht über alle Affixe im Spiel.
+@Greifer
+Wenn du von einem Greifer getroffen wirst, wirst du stark verlangsamt.
+@Ausweichend
+Besitzt erhöhte Ausweichen-Werte.
+@Rückstöße
+Besitzt die Chance, dich bei ihren Angriffen zurückzustoßen.
+@Mana Sauger
+Entzieht dein Mana bei Angriffen.
+@Vampirisch
+Entzieht dir bei Angriffen Gesundheit (und heilt sich selbst).
+@Regenerierend
+Stellt langsam die eigene Gesundheit wieder her.
+@Heiler
+Besitzt verschiedene Heilzauber, die regelmäßig auf sich selbst und andere Freunde in der Nähe angewendet werden.
+@Heilungsaura
+Heilt regelmäßig automatisch andere Freunde in der Nähe.
+@Abschirmend
+Errichtet regelmäßig eine schützende Barriere.
+@Unsichtbar
+Wird unsichtbar, wodurch du und deine Begleiter sie als Ziel verlieren. Wenn du einem unsichtbaren Feind Schaden zufügst, wird er wieder sichtbar.
+@Explosiv
+Explodiert beim Sterben, wodurch hoher Schaden ausgeteilt wird.
+@Steinhaut
+Resistent gegen physischen Schaden.
+@Feuer Resistent
+Resistent gegen Feuerschaden.
+@Kälte Resistent
+Resistent gegen Kälteschaden.
+@Blitz Resistent
+Resistent gegen Bltzschaden.
+@Gift Resistent
+Resistent gegen Giftschaden.
+@Heilige Resistenz
+Resistent gegen heiligen Schaden.
+@Schatten Resistent
+Resistent gegen Schattenschaden.
+@Robust
+Kann nicht zurückgestoßen oder herangezogen werden.
+@Dornen
+Verursacht bei Angreifern bei einem Treffer indirekten "Dornen"-Schaden.
+@Dickflüssig
+Bringen kleine Schleimlinge hervor, wenn sie getroffen und getötet werden.
+@Erschütternd
+Chance, Blitzkugeln freizusetzen, wenn sie getroffen werden, die Blitzschaden verursachen.
+@Höllisch
+Ersetzt die meisten Basisangriffe durch eine Feuervariante und erhält eine Chance, Ziele zu verbrennen, wodurch Feuerschaden über Zeit verursacht wird.
+@Gefroren
+Ersetzt die meisten Basisangriffe durch eine Frostvariante und erhält eine Chance, Ziele zu unterkühlen, wodurch die Bewegungsgeschwindigkeit und das Angriffstempo verringert wird.
+@Vergiftet
+Ersetzt die meisten Basisangriffe durch eine Giftvariante und erhält eine Chance, Ziele zu vergiften und mit der Zeit Giftschaden zu verursachen.
+@Gequält
+Greift mit Schattenangriffen an, hat eine Chance, Ziele zu vergiften, und setzt beim Sterben eine Pestwolke frei, die zusätzlichen Giftschaden verursacht.
+@Bluter
+Fügt ihren Angriffen einen Blutungseffekt hinzu.
+@Zieher
+Zieht dich zu ihnen heran.
+@Warping
+Teleportiert sich weg, wenn du aus der Ferne angreifst, und heran, wenn du im Nahkampf bist.
+@Schneesturm
+Beschwört eine weitere Frostkugel, die sich spiralförmig dreht und Frostspeere verschießt, sowie Frostschaden verursacht.
+@Schreiende Schädel
+Schießt regelmäßig spiralförmige Schädel um sich herum, die Schattenschaden verursachen.
+@Meteor
+Wirkt einen mächtigen Meteor-Zauber, der Feuerschaden verursacht.
+@Donnernd
+Wirkt einen mächtigen Donnerzauber, der Blitzschaden verursacht.
+@Slamcross
+Wirkt einen Flächenangriff mit mehreren Explosionen in Kreuzform, der Feuerschaden verursacht.
+@Bernsteinschuss
+Verschießt gelegentlich einen Feuerpfeil, der in einem kleinen Bereich Schaden verursacht.
+@Zauberer
+Besitzt sowohl Feuer- als auch Frostzauber und wird sie häufig einsetzen.
+@Wütend
+Je niedriger die Gesundheit dieses Gegners ist, desto schneller bewegt er sich und greift an.
+@Extra Schaden
+Erhöhter Schaden.
+@Super Schaden
+Erhöht den Schaden weiter.
+@Extra Gesundheit
+Erhöhte Gesundheit.
+@Super Gesundheit
+Erhöht die Gesundheit weiter.
+@Riese
+Größer, mehr Gesundheit und Schaden.
+@Schnell
+Schnellere Bewegungsgeschwindigkeit.
+@Hastig
+Schnelleres Bewegungs- und Angriffstempo.
+@Verstärker
+Stärkt Freunde in der Nähe.
+@Feigling
+Flieht aus fast jedem Grund.
+@Schattenklon
+Erzeugt schwächere Klone von sich selbst, die dich bekämpfen werden.
+@Mysteriös
+Besitzt mehrere geheimnisvolle Spezialangriffe und Fähigkeiten.
+@Kritisch
+Hat eine erhöhte Chance, kritische Treffer zu erzielen.
+@Fallensteller
+Legt Fallen aus, die körperlichen Schaden verursachen und getroffene Ziele verlangsamen.
+@Bomber
+Lässt eine Nova von Feuerbomben los, die abprallen und Feuerschaden verursachen.
+@Nova
+Setzt in regelmäßigen Abständen sowie beim Sterben Feuer- und Frostnovas frei.
+@Schlitzer
+Wirkt Schattensensen, die in einem kleinen Bereich für kurze Zeit Schattenschaden verursachen.
+@Chirurg
+Wirkt sich zufällig bewegende Blitzkugeln, die an allem, was sie berühren, Blitzschaden verursachen.
+@Giftbombe
+Wirft sich langsam bewegende Giftbomben, die in einem kleinen Bereich Giftschaden verursachen.
+@Quäker
+Erzeugt ein Beben auf dem Zielgebiet, das in einem kleinen Bereich zusätzlichen körperlichen Schaden verursacht.
+@Kälteblitz
+Wirkt einen Kälteblitz-Zauber, der Eissplitter aus dem Boden in alle Richtungen verschießt und Frostschaden verursacht.
+@Blutnova
+Wirkt einen Blutnova Zauber, der Schattenschaden verursacht.
+@Eruption
+Verschießt zufällig abprallende Feuerbälle, die Feuerschaden verursachen.
+@Verbessert
+Verbessert alle ihre Angriffe und erhält manchmal sogar verwandte legendäre Kräfte, die normalerweise nur dem Spieler zur Verfügung stehen.
+@Wirbelwind
+Beschwört Wirbelstürme, die umherwandern und Ziele suchen, um physischen Schaden zu verursachen.
+@Verwickler
+Besitzt die Chance, den Spieler am Boden zu verwurzeln und bewegungsunfähig zu machen.
+@Springer
+Kann auf sein Ziel zuspringen und zusätzlichen Schaden verursachen.
+@Ausweicher
+Kann vor Angriffen oder Spielern wegspringen.
+@Giftwolke
+Lässt kontinuierlich eine Giftwolke um sich herum entstehen, die Giftschaden verursacht.
+@Vorstürmer
+Stürmt mit einem explosiven Angriff auf sein Ziel zu, der Feuerschaden verursacht.
+@Untergebener
+Ein schwächerer Gegner, der normalerweise in größeren Gruppen auftreten kann.
+@Brutal
+Halbe Geschwindigkeit, aber doppelter Grundschaden.
+@Untot
+Geringer Widerstand gegen Frost- und Schattenschaden.
+Geringe Schwäche gegen Feuer- und Heilig-Schaden.
+Verursacht erhöhten Schatten- und Giftschaden.
+@Geisterhaft
+Geringer Widerstand gegen physischen, Frost- und Schattenschaden.
+Geringe Schwäche gegen Heilig- und Blitzschaden.
+Verursacht erhöhten Schattenschaden.
+Erhält einen Boost auf Ausweichen.
+@Arachnid
+Geringer Widerstand gegen Giftschaden.
+Geringe Schwäche gegen Frost- und Feuerschaden.
+Verursacht erhöhten Giftschaden.
+@Dämon
+Geringer Widerstand gegen Feuer- und Schattenschaden.
+Geringe Schwäche gegen Frost- und Heilig-Schaden.
+Verursacht erhöhten Feuer- und Schattenschaden.
+@Feenwesen
+Geringer Widerstand gegen Heilig- und Blitzschaden.
+Geringe Schwäche gegen Schatten- und Giftschaden.
+Verursacht erhöhten Heilig- und Blitzschaden.
+@Mechanisch
+Geringer Widerstand gegen physischen, heiligen, Schatten- und Giftschaden.
+Geringe Schwäche gegen Frost- und Blitzschaden.
+Verursacht erhöhten physischen- und Blitzschaden.
+@Bestie
+Keine Widerstandsboni.
+Geringe Schwäche gegen physischen-, Gift- und Schattenschaden.
+Verursacht erhöhten physischen und giftigen Schaden.
+@Humanoid
+Keine Widerstandsboni, Schwächen oder Bonusschaden.
+@Elementar
+Geringer Widerstand gegen alle Elemente außer physischen.
+Geringe Schwäche gegen physischen Schaden.
+@Beschwörer
+Beschwört Feinde herbei, um im Kampf zu helfen. Die beschworenen Kreaturen hängen davon ab, welcher Art der Beschwörer selbst ist.
+@Um sich schlagend
+Hält zufällig an, um für kurze Zeit sehr schnell in alle Richtungen anzugreifen.
+@Zurückschlagend
+Stößt gelegentlich alle Ziele um sich herum zurück.
+@Giftspur
+Hinterlässt beim Bewegen eine Giftspur auf dem Boden.
+@Eingräber
+Gräbt sich unter der Erde ein und taucht an zufälligen Stellen auf. Kann nicht getroffen werden, wenn es sich eingegraben hat.
+@Hirschkommando
+Befiehlt Hirschen in der Nähe, sich auf ihr Ziel zu konzentrieren.
+@Hyänenkommando
+Befiehlt Hyänen in der Nähe, sich auf ihr Ziel zu konzentrieren.
+@Niedrigeren Kommando
+Befiehlt schwächeren Feinden in der Nähe, sich auf ihr Ziel zu konzentrieren.
+@Schatzmeister
+Besitzt zusätzliche Beute, die beim Tod fallen gelassen wird.
+@Kristallhorter
+Besitzt zusätzliche Kristalle, die beim Tod fallen gelassen werden.
+@Sammler
+Besitzt zusätzliche Handwerksmaterialien, die beim Tod fallen gelassen werden.
+@Edelsteinhorter
+Besitzt zusätzliche Edelsteine, die beim Tod fallen gelassen werden.
+@Herausforderer
+Besitzt eine Herausforderungsschriftrolle, die beim Tod fallen gelassen wird.
+@Runenlord
+Besitzt zufällige Anomalien-Runen (die sonst nur über Dungeon-Anomalien erhältlich sind), die beim Tod fallen gelassen werden.
+@Geheimnis
+Versteckt alle Affixe.

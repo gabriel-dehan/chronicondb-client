@@ -1,0 +1,5 @@
+@Was sind Begleiter?
+Begleiter sind jegliche Getreue, Lakaien oder Haustiere, die man durch Gegenstände, Stärkungen oder Fähigkeiten erhält. Du kannst sie ganz einfach daran erkennen, dass sie einen eigenen Gesundheitsbalken haben. Durch Verzauberungen erhaltene Satelliten etc. werden nicht als Begleiter angesehen.
+@Welche Werte beeinflussen meine Begleiter?
+Der ausgeteilte Schaden deines Begleiters basiert direkt auf deinem eigenen Schadenswert bzw. auf den angezeigten Prozenten der Fähigkeit/des Gegenstands. Ihre Gesundheit wächst analog zur Gesundheit der Feinde und skaliert mit dem Schwierigkeitsgrad. Dies wird dann mittels der "Begleiter Gesundheit" und "Begleiter Schaden" Werten multipliziert. Begleiter nutzen zudem deine Elementarschaden-, Widerstands-, Krit Chance-, Krit Schaden-, Overpower-, Abklingzeit-, Angriffsgeschwindigkeits- und Bewegungsgeschwindigkeitswerte.
+Außerdem haben Gefährten lange Abklingzeiten für ihre Angriffe, also ist es am besten, wenn du viel Abklingzeitreduzierung bekommst, damit sie häufiger angreifen, bevor du auf Angriffsgeschwindigkeit setzt.

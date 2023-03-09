@@ -1,0 +1,19 @@
+@How do I play Multiplayer?
+Simply click Multiplayer on the main menu and have your friend(s) hit "A" on their gamepads. 
+This works over Steam Remote Play Together too!
+@Can I play online or via LAN?
+Only via Steam Remote Play Together.
+@How many gamepads do I need for multiplayer?
+One per additional person, as player one may use keyboard & mouse. Player one can change to gamepad from the Options menu, or by using it to navigate the main menu.
+@How many friends can I play with in multiplayer?
+Up to 3, making a total of 4 players.
+@Can I use my singleplayer character in multiplayer games?
+Yes. Though it is recommended you use a specific character for multiplayer and one for singleplayer, to stay synced with your friends. But you're free to do as you wish.
+@Can several players use the same character?
+No. This would cause problems with saving as everyone would have different items on them, different skills assigned, etc.
+@If I complete a quest in singleplayer, can I do it in multiplayer, and vice versa?
+No, a completed quest will remain completed through both modes. Bear this in mind when playing with characters with varying progress, as you might get out of sync with the story line.
+@What happens if I play using characters with a large level gap?
+You're gonna have a bad time. Enemies and loot won't be able to scale properly, so try to use characters within 1-2 levels of each other.
+@Is experience points shared in multiplayer?
+Everybody gets the same amount of experience points and it isn't in any way lowered with more players. This applies to both quests and kills. Do note that the player has to be alive to gain experience. The only thing that may affect your experience gain is the level difference between players and monsters, and potential "bonus experience" stat modifiers on equipment.

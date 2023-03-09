@@ -1,0 +1,16 @@
+@Warum kann ich manche Gegenstände nicht ausrüsten?
+Sie könnten eine zu hohe Stufe besitzen oder nur für eine bestimmte Klasse zugänglich sein. Du bekommst normalerweise einen Hinweis, der erklärt, warum du einen Gegenstand nicht ausrüsten kannst.
+@Warum finde ich Gegenstände für andere Klassen?
+Du findest nur Gegenstände von geringer Seltenheit für andere Klassen. Sehr seltene Gegenstände findest du immer nur für deine eigene Klasse (einzigartig und höher), mit wenigen Ausnahmen bei manchen Quests sowie monsterspezifischer, garantierter Beute. Du kannst die Wahrscheinlichkeit Gegenstände anderer Klassen zu finden verringern, indem du deinen "Magie finden" Wert verbesserst.
+@Was sind Verzauberungen?
+Verzauberungen sind Spezialeffekte, die manchmal auf gefundenen Gegenständen enthalten sind. Verzauberungen können dir Spezialboni verleihen oder deine Werte erhöhen. Diese können im Chronicon Bereich verbessert oder ersetzt werden, sobald du Chantie's Quest absolviert hast.
+@Warum sind manche Verzauberungen in orangenem Text und manche in weißem Text gehalten?
+Verzauberungen in orangener Farbe sind fix, d.h. sie kommen auf diesem speziellen Gegenstand immer zum Tragen. Das bedeutet auch, dass der Gegenstand eine höhere Anzahl an Verzauberungen haben kann!
+@Warum sind manche Texte in roter Farbe gehalten?
+Dies sind epische Verzauberungen. Sie sind sehr mächtige Effekte, die einzigartig für den speziellen Gegenstand sind und man kann sie nicht auf einem anderen Gegenstand finden!
+@Was sind Sets?
+Sets sind Teile einer Ausrüstung, die zusammen gehören. Durch Anlegen mehrerer oder aller Teile eines Sets kann man deren Boni freischalten.
+@Was sind Set-Boni?
+Set-Boni sind spezielle Effekte oder Werte, die dir gewährt werden, wenn du passende Teile eines Sets trägst. Dies können einfache Boni wie z.B. das Verbessern eines bestimmten Elements sein oder auch sehr mächtige, wie z.B. das Entfallen von Rücksetzzeiten einer Fähigkeit, womit der Schaden der Fähigkeit drastisch zunimmt oder sogar deren Mechanik komplett verändert.
+@Welche Gegenstände sind Teil eines Sets?
+Set Gegenstände fangen mit der Seltenheitsstufe "einzigartig" an aufzutauchen. Diese können ab Stufe 10 gefunden werden. Klassen Sets der Stufe "legendär" können ab Stufe 30 gefunden werden. Jedoch sind Set Gegenstände sehr selten...!

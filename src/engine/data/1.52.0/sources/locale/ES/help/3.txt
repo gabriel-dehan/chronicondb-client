@@ -1,0 +1,25 @@
+@Daño Directo
+El daño directo es el daño que inflige una habilidad al impactar, que a su vez puede activar todos tus encantamientos, habilidades pasivas, etc.
+Las siguientes estadísticas defensivas afectarán el daño directo:
+[list]
+Resistencias
+Reducción del Daño
+Barreras/Escudos
+Escudo de Maná
+Daño de Tambaleo
+Bloqueo
+Evasión
+[/list]
+@Daño Indirecto
+El daño indirecto proviene de un encantamiento lanzado, pasivo, etc. El daño indirecto no lanza ningún efecto.
+Los siguientes afectarán el daño indirecto:
+[list]
+Escudo de Maná
+Resistencia al Daño Indirecto
+Resistencia a Efectos de Suelo (la mayoría de los efectos de suelo enemigos, como los caminos, son daño indirecto)
+[/list]
+@Escudo de Maná
+Hay efectos que drenan Maná en lugar de Salud al recibir daño. Estos efectos son únicos en la forma en que se desencadenan por daños directos e indirectos.
+No debe confundirse con las barreras/escudos regulares, que brindan Salud adicional temporal y se muestran como una barra azul claro en su barra de salud.
+@Gibbing
+Gibbing es cuando los enemigos muertos explotan en trozos carnosos. Esto sucede cuando el golpe mortal sobre un enemigo alcanza más de la mitad de su salud máxima. Algunos encantamientos, pasivos y poderes de objetos también pueden hacer que los enemigos hagan gib sin importar el daño infligido.

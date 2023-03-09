@@ -1,0 +1,201 @@
+Enemies come with a number of effects on them, called Affixes. These are labeled under their name tags when targeted. Elites and Champions roll extra Affixes. Below is a complete index over all Affixes in the game.
+@Grappler
+You will be heavily slowed when struck by a Grappler.
+@Evasive
+Has increased Evasion stat.
+@Knockbacks
+Has a chance to knock you away from them on attacks.
+@Mana Leecher
+Drains your mana on attacks.
+@Vampiric
+Drains your health (and heals self) on attacks.
+@Regenerates
+Slowly restores own health.
+@Healer
+Gains various healing spells which are used periodically on both self and other nearby friends.
+@Healing Aura
+Periodically heals other nearby friends automatically.
+@Shielding
+Casts a protective Barrier periodically.
+@Invisible
+Will turn invisible, causing you and companions to lose them as a target. Damaging an invisible enemy will reveal it.
+@Explosive
+Explodes on death, dealing high damage.
+@Stoneskin
+Resistant to Physical damage.
+@Fire Resistant
+Resistant to Fire damage.
+@Frost Resistant
+Resistant to Frost damage.
+@Lightning Resistant
+Resistant to Lightning damage.
+@Poison Resistant
+Resistant to Poison damage.
+@Holy Resistant
+Resistant to Holy damage.
+@Shadow Resistant
+Resistant to Shadow damage.
+@Sturdy
+Cannot be knocked or pulled.
+@Thorns
+Deals indirect "Thorns" damage to attackers when hit.
+@Gooey
+Spawn small Slimelings when struck and when killed.
+@Shocking
+Chance to release lightning orbs when struck, dealing lightning damage.
+@Infernal
+Replaces most base attacks with a fire variety, and gains a chance to burn targets, dealing fire damage over time.
+@Frozen
+Replaces most base attacks with a frost variety, and gains a chance to chill targets, lowering movement speed and attack speed.
+@Poisoned
+Replaces most base attacks with a poison variety, and gains a chance to poison targets, dealing poison damage over time.
+@Plagued
+Attacks with Shadow attacks, has a chance to poison targets, and will release a plague cloud dealing extra poison damage on death.
+@Bleeder
+Adds a bleed effect to their attacks.
+@Puller
+Pulls you towards them.
+@Warping
+Teleports away if ranged, teleports closer if melee.
+@Blizzard
+Summons one more more frost orbs that spirals and shoots frost spears, dealing frost damage.
+@Screaming Skulls
+Shoots spiraling skulls outward around them frequently, dealing Shadow damage.
+@Meteor
+Casts a powerful Meteor spell that deals fire damage.
+@Thunderous
+Casts a powerful Thunder spell that deals lightning damage.
+@Slamcross
+Casts an aoe attack with several explosions in a cross shape, dealing fire damage.
+@Embershot
+Occasionally fires a fire arrow, dealing damage to a small area.
+@Sorcerer
+Gains both fire and frost spells, and will use them frequently.
+@Enrages
+The lower the health of this enemy, the faster it will move and attack.
+@Extra Damage
+Increased damage.
+@Super Damage
+Further increased damage.
+@Extra Health
+Increased health.
+@Super Health
+Further increased health.
+@Giant
+Larger, and increased health and damage.
+@Fast
+Faster movement speed.
+@Hasty
+Faster movement speed and attack speed.
+@Enforcer
+Strengthens nearby friends.
+@Coward
+Will flee for almost any reason.
+@Shadowclone
+Makes weaker clones of itself which will fight you.
+@Mysterious
+Gains several mysterious special attacks and abilities.
+@Critical
+Has an increased chance to score critical hits.
+@Trapper
+Lays traps which deal physical damage and slows targets hit.
+@Bomber
+Releases a nova of Firebombs, bouncing and dealing fire damage.
+@Nova
+Releases Fire and Frost novas periodically and upon death.
+@Reaper
+Casts shadow Scythes dealing Shadow damage to a small area for a short duration.
+@Surger
+Casts randomly moving lightning orbs dealing Lightning damage to anything they touch.
+@Poison Bomb
+Throws out slowly moving poison bombs, dealing Poison damage to a small area.
+@Quaker
+Casts a quake on their target, dealing extra Physical damage to a small area.
+@Frost Blitz
+Casts a Frost Blitz spell, shooting Ice Shards out of the ground in all directions around them, dealing Frost damage.
+@Blood Nova
+Casts a Blood Nova spell dealing Shadow damage.
+@Eruption
+Randomly shoots out bouncing fireballs, dealing Fire damage.
+@Enhanced
+Improves all their attacks, sometimes even gaining related Legendar Powers normally only available to the player.
+@Twister
+Summons Twisters that move around seeking out targets to deal physical damage.
+@Entangler
+Has a chance to root the player to the ground, immobilizing them.
+@Leaper
+Can leap towards its target, dealing extra damage.
+@Dodger
+Can leap away from attacks or players.
+@Poison Cloud
+Continously releases a Poison cloud around them, dealing poison damage.
+@Charger
+Charges their target with an explosive attack, dealing fire damage.
+@Minion
+A weaker enemy, which generally spawn in larger groups.
+@Brute
+Half speed, but double base damage.
+@Undead
+Small resistance to Frost and Shadow damage.
+Small weakness to Fire and Holy damage.
+Deals increased Shadow and Poison damage.
+@Spectral
+Small resistance to Physical, Frost, and Shadow damage.
+Small weakness to Holy and Lightning damage.
+Deals increased Shadow damage.
+Gains a boost to Evasion.
+@Arachnid
+Small resistance to Poison damage.
+Small weakness to Frost and Fire damage.
+Deals increased Poison damage.
+@Demon
+Small resistance to Fire and Shadow damage.
+Small weakness to Frost and Holy damage.
+Deals increased Fire and Shadow damage.
+@Fae
+Small resistance to Holy and Lightning damage.
+Small weakness to Shadow and Poison damage.
+Deals increased Holy and Lightning damage.
+@Mechanical
+Small resistance to Physical, Holy, Shadow, and Poison damage.
+Small weakness to Frost and Lightning damage.
+Deals increased Physical and Lightning damage.
+@Beast
+No resistance bonuses.
+Small weakness to Phyiscal, Poison and Shadow damage.
+Deals increased Physical and Poison damage.
+@Humanoid
+No resistance bonuses, weaknesses, or bonus damage.
+@Elemental
+Small resistance to all elements except Physical.
+Small weakness to Physical damage.
+@Summoner
+Summons enemies to help them in combat. Summon creatures vary depending on what kind the Summoner itself is.
+@Flailing
+Randomly stops to very rapidly attack in all directions for a short while.
+@Repulse
+Occasionally knockbacks all targets around them.
+@Poison Trail
+Leaves a trail of poison on the ground as they move.
+@Burrower
+Burrows themselves below ground, appearing at random locations. Cannot be hit while burrowed.
+@Commands Stags
+Orders nearby Stags to focus on their target.
+@Commands Hyenas
+Orders nearby Hyenas to focus on their target.
+@Commands Lesser
+Orders nearby weaker enemies to focus on their target.
+@Treasurer
+Holds extra loot which is dropped on death.
+@Crystal Hoarder
+Holds extra Crystals which are dropped on death.
+@Collector
+Holds extra Crafting Materials which are dropped on death.
+@Gem Hoarder
+Holds extra Gems which are dropped on death.
+@Challenger
+Will drop a Challenge Scroll on death.
+@Runelord
+Drops random Anomalous Runes (otherwise only obtainable via Dungeon Anomalies).
+@Secret
+Hides all Affixes.

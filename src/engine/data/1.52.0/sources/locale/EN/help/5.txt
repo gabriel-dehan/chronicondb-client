@@ -1,0 +1,12 @@
+@It's too damn dark!
+Increase the "Extra Ambient Light" setting in the Video settings in the Options menu!
+@I don't like all this blood, can I remove it?
+Of course, you'll find an option to turn off "Blood and Gibs" in the Gameplay settings in the Options menu!
+@These screenshakes are annoying, can I turn them down, or off?
+Yup, you'll find a "Screenshake Intensity" setting in the Gameplay settings in the Options menu!
+@Can I make the text larger?
+Yes, head to the Options menu, then Interface. You will find many options to change various types of text sizes.
+@Can I move the minimap?
+Yes, head to the Options menu and then Interface to see the alternatives.
+@Help! There are too many numbers on the screen!
+These can be toggled on or off in many different ways from the Options menu. Go to the Interface menu to find it.

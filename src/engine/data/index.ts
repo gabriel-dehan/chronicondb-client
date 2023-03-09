@@ -9,6 +9,7 @@ import V1202 from './1.20.2/extracts';
 import V1300 from './1.30.0/extracts';
 import V1311 from './1.31.1/extracts';
 import V1401 from './1.40.1/extracts';
+import V1520 from './1.52.0/extracts';
 
 export default {
   '1.10.2': V1102,
@@ -21,4 +22,5 @@ export default {
   '1.30.0': V1300,
   '1.31.1': V1311,
   '1.40.1': V1401,
+  '1.52.0': V1520,
 };
