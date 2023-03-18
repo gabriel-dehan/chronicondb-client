@@ -1,0 +1,25 @@
+@Direkter Schaden
+Direkter Schaden umfasst den Schaden, den eine Fähigkeit bei einem direkten Treffer anrichtet. Dabei können alle deine Verzauberungen, passiven Fähigkeiten o.ä. für direkte Treffer ausgelöst werden. 
+Die folgenden Defensivwerte beeinflussen den direkten Schaden:
+[list]
+Widerstände
+Schadensreduzierung
+Barrieren/Schilde
+Mana Schild
+Schadenskalierung
+Abwehr
+Ausweichen
+[/list]
+@Indirekter Schaden
+Indirekter Schaden umfasst den Schaden, der durch das Auslösen einer Verzauberung, einer passiven Fähigkeit o.ä. entsteht. Indirekter Schaden kann u.U. auch gar keine Effekte auslösen.
+Die folgenden Defensivwerte beeinflussen den indirekten Schaden:
+[list]
+Mana Schild
+Widerstand gegen indirekten Schaden
+Widerstände durch Bodeneffekte (die meisten feindlichen Bodeneffekte, wie z.B. Pfade, umfassen indirekten Schaden)
+[/list]
+@Mana Schild
+Es gibt Effekte, die Mana anstatt Gesundheit abziehen, wenn man Schaden nimmt. Diese Effekte sind in ihrer Form einzigartig, da sie durch direkten und indirekten Schaden ausgelöst werden.
+Nicht zu verwechseln ist dies mit regulären Barrieren/Schilden, welche kurzzeitig zusätzliche Gesundheit verleihen, die durch eine hellblaue Leiste auf dem Gesundheitsbalken angezeigt wird.
+@Zerstören
+Zerstören umfasst den Begriff, wenn getötete Feinde in kleine Fleischstücke zerlegt werden. Dies passiert dann, wenn der Todestreffer auf einen Feind mehr als die Hälfte seines maximalen Gesundheitsbalkens umfasst. Einige Verzauberungen, passive Fähigkeiten und Gegenstände können diesen Effekt unabhängig vom ausgeteilten Schaden ebenfalls hervorrufen.

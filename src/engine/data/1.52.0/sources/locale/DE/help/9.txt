@@ -1,0 +1,116 @@
+@Sinkende Erträge
+Manche Werte haben abnehmende Erträge - das heißt, je mehr Instanzen du von dem Wert hast, desto weniger summiert er sich. Um es an einem Beispiel zu verdeutlichen: Bei einem additiven Wert würde es so aussehen: 8%+8%+8% = 24%. Bei einem abnehmenden Wert sähe es so aus: 1-(0.92 * 0.92 * 0.92) = 22%. Der Verlust ist umso größer, je mehr du dazuzählst. Die folgenden Werte haben abnehmende Erträge:
+[list]
+*Schadenreduzierung
+*Begleiter Schadenreduzierung
+*Ausweichen
+*Rücksetzungsreduzierung
+*Manakosten Reduzierung
+*Effekt Dauer
+*Reichweite
+*Schadenskalierung 
+*Mana Schild
+*Willenskraft (Dauer negative Effekte)
+[/list]
+@Gesundheit
+Der Schaden, den du einstecken kannst, bevor du stirbst.
+@Mana
+Dies ist eine Ressource, die verbraucht wird, wenn du Fähigkeiten benutzt.
+@Schaden
+Dies ist dein Grundschaden. Elementarboni werden dem Wert hinzuaddiert.
+@Angriffsgeschwindigkeit
+Der Wert, wie schnell du angreifen kannst. Er beeinflusst die Animationsgeschwindigkeit deiner Angriffe, also können Fähigkeiten mit geringer Rücksetzungszeit schneller ausgeführt werden. Es erlaubt dir zudem dich nach dem Angriff schneller zu bewegen, da die Animation schneller vollendet ist.
+@Overpower
+Dies ist ein widerstandsdurchdringender Wert. Overpower wirkt sich wie die Widerstände nur auf den direkten Schaden aus. Dornen und andere Effekte, die keine Treffereffekte auslösen, werden also weder von Overpower noch von den gegnerischen Widerständen beeinträchtigt. Beispiel: Ein Overpowerwert von 50% ignoriert 50% aller gegnerischen Widerstände. (Das bedeutet, dass ein Feind mit 30% Feuerwiderstand so behandelt wird, als hätte er 15%)
+@Reichweite
+Dieser Wert erhöht die effektive Reichweite, Radius und Entfernung aller Fähigkeiten.
+@Wut (nur für Berserker)
+Wut ist ein einzigartiger Wert, der nur von Berserkern benutzt wird. Er erhöht sich, wenn du Schaden erleidest, Schaden austeilst und Feinde tötest. Zerlegte Feinde geben zuätzliche Wut! Wut verbessert einige passive Fähigkeiten und die Spezialfähigkeit "Erbe" des Berserkers. Mit der Zeit verschwindet Wut langsam.
+@Seelen (nur für Hexer)
+Seelen ist ein einzigartiger Wert, der nur von Hexern benutzt wird. Du sammelst Seelen duch das Töten von Feinden und kannst sie opfern, um nützliche Fähigkeiten zu aktivieren oder sie behalten, um einige passive Fähigkeiten zu verstärken. Seelen verschwinden mit der Zeit!
+@Schadenreduzierung
+Reduziert Schaden aus allen Quellen, skaliert eher multiplikativ als additiv.
+@Ausweichen
+Ausweichen gibt dir die Möglichkeit, Schaden der meisten direkten Treffer zu entgehen. Er wird hauptsächlich von der Wächterin und dem Hexer genutzt. Skaliert eher multiplikativ als additiv.
+@Schadenskalierung
+Dies ist ein spezieller Wert, der einigen erlittenen Schaden über 3 Sekunden verteilt anstatt ihn sofort abzuziehen und dir damit etwas mehr Zeit verschafft, dich vom Schaden zu erholen. Er besitzt zudem eine Grundschadenreduzierung von 30%, so dass der über Zeit skalierende erlittende Schaden am Ende nur 70% seines Wertes beträgt. Skaliert eher multiplikativ als additiv. Der skalierende Schaden wird direkt auf die Gesundheit berechnet und ignoriert jegliche Schutzbarrieren etc. Stelle sicher, dass deine Gesundheitsregeneration entsprechend gut skaliert!
+@Blockierrate und Schadenblockierung (nur für Tempelritterin)
+Diese Werte kennzeichnen deine Chance, einen Angriff zu blockieren und wenn du ihn blockst, um wieviel der Schaden reduziert wird. Jeder Angriff kann geblockt werden, solange du einen Schild trägst!
+@Kritische Trefferchance
+Dieser Wert zeigt an, wie hoch deine Chance ist, einen kritischen Treffer zu landen, der extra Schaden austeilt.
+@Kritischer Trefferschaden
+Dieser Wert zeigt an, wieviel Schaden deine kritischen Treffer im Gegensatz zu normalen Treffern erzielen.
+@Bewegungsgeschwindigkeit
+Dieser Wert zeigt an, wie schnell du dich bewegen kannst.
+@Elementarschaden Werte (Physisch, Feuer, Kälte, etc..)
+Diese Werte zeigen an, wieviel extra Schaden du mit Fähigkeiten bestimmter Elemente austeilst.
+@Was bedeutet "Ätherischer Schaden"?
+Dies ist eine Art von Spezialschaden, der typischerweise auf mächtigen legendären Gegenständen gefunden werden kann. Er ignoriert jegliche feindlichen Widerstände und profitiert von all deinen Elementarschadenswerten zusammengerechnet. Das bedeutet, er funktioniert für jeden Charakter und kann sehr, sehr mächtig sein!
+Bemerkung: Blutungsschaden wird in dem Sinn als ätherisch betrachtet, als das man nicht dagegen widerstandsfähig ist, obwohl er nicht von den Elementarkräften profitiert und stattdessen seine eigene Skalierung hat (siehe Blutung%).
+@Dornen
+Dies ist eine spezielle Schadensart, die Gegnern Schaden zufügt, wenn sie dich angreifen. Dornen werden als physischer Schaden angesehen, sofern nicht anders spezifiziert. Dornen können kritisch treffen, werden aber als indirekter Schaden betrachtet und benötigen kein Overpower, um gegnerische Widerstände zu umgehen.
+@Gesundheit pro Sekunde
+Wieviel Gesundheit du pro Sekunde wieder herstellst.
+@Mana pro Sekunde
+Wieviel Mana du pro Sekunde wieder herstellst.
+@Gesundheit pro Treffer
+Wieviel Gesundheit du pro Treffer minimal wiederherstellst. Je größer dein Treffer, desto mehr stellst du wieder her. Bedenke, dass Gesundheit pro Treffer eine Rücksetzzeit von 0.1 Sekunden hat.
+@Mana pro Treffer
+Wieviel Mana du pro Treffer minimal wiederherstellst. Je größer dein Treffer, desto mehr stellst du wieder her. Bedenke, dass Mana pro Treffer eine Rücksetzzeit von 0.1 Sekunden hat.
+@Trank Effektivität
+Wie effektiv deine Heil- und Manatränke sind. Erhöhe diesen Wert und sie heilen dich umso mehr!
+@Chance auf Rückstoß
+Wie hoch deine Chance ist, pro Treffer einen Feind zurückzustoßen.
+@Widerstände (Physisch, Feuer, Kälte, etc.)
+Diese Werte zeigen, um wieviel dein erlittener Schaden des jeweiligen Elementes reduziert wird. Bedenke, dass alle Widerstände eine Obergrenze von 80% haben.
+@Abklingzeit Reduzierung
+Wieviel Zeit von der Abklingzeit deiner Fähigkeiten abgezogen wird. Die Obergrenze liegt bei 90%. Skaliert eher multiplikativ als additiv.
+@Manakosten Reduzierung
+Wieviel der Manakosten von der Nutzung deiner Fähigkeiten abgezogen wird. Skaliert eher multiplikativ als additiv.
+@Effektdauer
+Wie lange Stärkungen (positive Effekte) und Zauber anhalten. Keine Obergrenze, aber skaliert eher multiplikativ als additiv.
+@Auffrischungsstärke
+Dieser Wert bestimmt, um wieviel aufgenommene Gesundheits- und Manatränke dich heilen.
+@Auffrischungsradius
+Dieser Wert bestimmt die Distanz, bei welcher Gesundheits- und Manatränke sowie Kristalle automatisch eingesammelt werden. Deine Begleiter nutzen diesen Wert ebenfalls zum Einsammeln der Gegenstände!
+Dieser Wert erhöht ebenfalls die Reichweite von Radialer Beute (Standard Taste: Q)
+@Finden von Kristallen
+Dieser Wert erhöht die Anzahl an Kristallen, die du aus allen Quellen erhälst, mit Ausnahme von Verkäufern.
+@Finden magischer Dinge
+Dieser Wert erhöht die Wahrscheinlichkeit, dass du häufiger seltene Gegenstände und Dinge findest, du zu deiner Klasse passen. Die Obergrenze liegt bei 99%.
+@Lichtradius
+Dieser Wert beeinflusst das Licht, dass deinen Charakter umgibt.
+@Erhaltene Erfahrung 
+Dieser Wert beeinflusst, wieviel Erfahrung du aus allen Quellen erhälst. Dies betrifft sowohl reguläre als auch Meisterstufen.
+@Begleiter Gesundheit
+Dieser Wert beeinflusst direkt die Gesundheit aller deiner Begleiter.
+@Schaden durch Begleiter
+Dieser Wert beeinflusst den Schadenswert aller deiner Begleiter.
+@Begleiter Passiv- und Fähigkeitseffekte
+Dieser Wert erhöht die Effekte jeglicher passiver Boni, die durch Begleiter gewährt werden, wie z.B. Werteerhöhungen oder Auren. Es erhöht ausserdem den Nutzungseffekt jeglicher Begleiterfähigkeiten. Zum Beispiel: Hat ein Begleiter eine Fähigkeit, die man nutzen kann, erhöht sich der damit angerichtete Schaden proportional zu diesem Wert.
+@Verbrennungsschaden
+Dieser Wert stellt einen Spezialschaden dar, der durch Gegenstände hervorgerufen wird, die Brandschaden an Feinden verursachen. Er wird als Feuerschaden angesehen und wird auch durch den Feuerschadenswert erhöht. BEMERKUNG: Dieser Wert betrifft keine Fähigkeiten, die Brandeffekte hervorrufen.
+@Blutungsschaden
+Dieser Wert stellt einen Spezialschaden dar, der durch Gegenstände hervorgerufen wird, die Blutungsschaden an Feinden verursachen. Er wird als ätherischer Schaden angesehen, wird aber NICHT durch jegliche Elementarwerte verbessert. BEMERKUNG: Dieser Wert beeinflusst keine Fähigkeiten, die Blutungseffekte hervorrufen.
+@Blutungs% Verstärkung / erhöhte Werte auf Blutungseffekte
+Dies ist ein Spezialskalierungswert, der alle Blutungseffekte betrifft, indem er ihren Grundschaden um einen bestimmten Prozentwert erhöht.
+@Kälteschaden
+Dieser Wert stellt einen Spezialschaden dar, der durch Gegenstände hervorgerufen wird, die zusätzlichen Kälteschaden an Feinden verursachen können. Er wird auch durch den Kälteschadenswert erhöht. BEMERKUNG: Dieser Wert beeinflusst keine Fähigkeiten, die Kälteeffekte hervorrufen.
+@Giftschaden
+Dieser Wert stellt einen Spezialschaden dar, der durch Gegenstände hervorgerufen wird, die Giftschaden an Feinden verursachen. Er wird als Giftschaden angesehen und wird auch durch den Giftschadenwert erhöht. BEMERKUNG: Dieser Wert beeinflusst keine Fähigkeiten, die Gifteffekte hervorrufen.
+@Kettenblitzschaden
+Dieser Wert stellt einen Spezialschaden dar, der durch Gegenstände hervorgerufen wird, die Kettenblitzschaden an Feinden verursachen. Er wird auch durch den Kettenblitzschadenswert erhöht.
+@Zerschmettern
+Dieser Wert stellt einen Spezialschaden dar, der durch Gegenstände hervorgerufen wird, die Heiligen Schaden an Feinden verursachen. Er wird auch durch den Heiligen Schaden Wert erhöht.
+@Fäule
+Dieser Wert stellt einen Spezialschaden dar, der durch Gegenstände hervorgerufen wird, die Schattenschaden an Feinden verursachen. Er wird als Schattenschaden angesehen und wird auch durch den Schattenschadenwert erhöht.
+@Schaden durch Satelliten
+Erhöht den Schaden jeglicher Art von Satellitenverzauberungen. 
+@Edelstein Stärke
+Erhöht die Stärke aller Edelsteine, die in deiner Ausrüstung eingesetzt sind.
+@Willenskraft
+Verringert die Dauer von negativen Effekten, die auf den Spieler wirken, wie z.B. Schadensschwächungen.
+@Bodenbeschaffenheitswiderstand
+Verringert den Schaden, der speziell durch Bodeneffekte hervorgerufen wird, wie z.B. brennender Untergrund, vergiftete Becken und Ähnliches.
+@Indirekter Schadenwiderstand
+Verringert den Schaden, der durch jeglichen indirekten Schaden erlitten wird, wie z.B. Blutungen, Verbrennungen, Vergiftungen und andere Schwächungseffekte. Dies beinhaltet auch Schaden, der von Dornen erlitten wird, da Dornen indirekten Schaden verursachen!

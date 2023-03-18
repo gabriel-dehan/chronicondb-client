@@ -1,0 +1,21 @@
+Spieler können niemals die Kontrolle über ihren Charakter verlieren, ausser sie werden weggestoßen/herangezogen oder verlangsamt/bewegungsunfähig gemacht.
+Feinde können zusätzlich zu den oben genannten Effekten betäubt, verängstigt, eingefroren und unterbrochen werden.
+Robuste Feinde und Bosse widerstehen im allgemeinen diesen Effekten.
+@Zurückwerfen: 
+Wirft einen Feind zurück. Während sie zurückgeworfen sind, versuchen Feinde nicht anzugreifen, es sei denn, sie hatten bereits einen Angriff begonnen.
+@Heranziehen: 
+Das Gegenteil von Zurückwerfen; die gleichen Regeln kommen zur Geltung.
+@Verlangsamt/Bewegungsunfähig: 
+Verlangsamt die Bewegung um einen Prozentsatz. Bewegungsunfähigkeit ist ein Verlangsamungseffekt von 100%. 
+@Kälte/Eingefroren:
+Technisch das Gleiche wie Verlangsamung und Unbeweglichkeit, nur das es für gewöhnlich einige zusätzliche kältebasierte Mechaniken beinhaltet.
+@Gelähmt: 
+Verhindert die Ausführung von Aktionen und hält alle Abklingzeiten für die Dauer der Betäubung an. Wiederholte Betäubungen haben eine abnehmende Wirkung!
+@Unterbrechungen: 
+Unterbricht eine Angriffsanimation und setzt die unterbrochene Fähigkeit wieder auf maximale Abklingzeit.
+@Furcht: 
+Bewirkt, dass der Gegner unberechenbar herumläuft, aber direkter Schaden kann den Effekt aufheben.
+@Blutung:
+Im Gegensatz zu direkt ausgeteiltem Schaden können Blutungseffekte die Gesundheitsregeneration von Feinden verhindern.
+@Brennen:
+Im Gegensatz zu direkt ausgeteiltem Schaden können Verbrennungen aller Art zwischen Feinden, Begleitern und Mitspielern im Koop hin- und her springen. Sie breiten sich einmal pro Schadenstick auf ein zufälliges Ziel innerhalb von 1,8 Metern aus. Die sich ausbreitende Verbrennung hat nur einen Wirkungsgrad von 80 % und wirkt nur auf nicht brennende Ziele, d.h. sie wird nicht aufgefrischt und breitet sich nicht unendlich aus.

@@ -50,7 +50,7 @@ export default class EngineArtifacts {
     if (filters.search) {
       const resultingUuids = this.searchEngine.search(filters.search, {
         prefix: true,
-        fuzzy: 0.2,
+        combineWith: 'AND',
       }).map(r => r.uuid);
 
       return artifacts.filter(skill => resultingUuids.includes(skill.uuid));

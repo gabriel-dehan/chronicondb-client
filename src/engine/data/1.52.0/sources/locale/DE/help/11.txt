@@ -1,0 +1,17 @@
+Die Mechanikerin bietet neue Möglichkeiten, deinen Charakter zu erstellen. Es gibt also einige neue Dinge zu beachten, wie z.B. die Interaktion verschiedener Mechaniken sowie neue Werte.
+@Munitionsfund
+Die Mechanikerin besitzt die Wahrscheinlichkeit, bei Tötungen Munition zu finden, eine einzigartige Ressource, die viele Fähigkeiten unterstützt. Dieser Wert erhöht die Chance, dass Munition gefunden wird.
+@+Max Munition
+Erhöht die maximale Munition, die die Mechanikerin tragen kann.
+@Parieren
+Dies ist ein defensiver Wert, den nur die Mechanikerin besitzt. Er funktioniert genau wie Ausweichen und gibt dir die Chance, Schaden komplett zu vermeiden.
+Parieren wird vor Ausweichen geprüft, sodass du beide Werte sicher nutzen kannst und trotzdem zuverlässig passive oder andere Effekte einsetzen kannst, die bei erfolgreichem Parieren ausgelöst werden.
+@Drohnen
+Drohnen sind eine neue Mechanik, die bestehende Satelliten (die du durch passive Fähigkeiten, Kräfte oder Verzauberungen erhältst) in mächtigere und thematische Drohnen verwandelt.
+Drohnen sind keine Begleiter und erben oder kopieren keine der Eigenschaften der Mechanikerin - sie funktionieren genauso wie normale Satelliten plus das, was in der Beschreibung der entsprechenden Fähigkeit steht.
+Sowohl die "Drohneneffekt" als auch die "Tech-Effekt"-Werte erhöhen die Stärke der Drohnen - dies wird direkt in ihren Tooltips angezeigt.
+Außerdem wirkt sich die "Satellitenstärke" auch auf die Drohnen aus (mit Ausnahme von Power-Bots und Bomben-Bots), da der Schaden der Drohnen auf den Satelliten basiert, aus denen sie konvertieren.
+Drohnen verursachen standardmäßig indirekten Schaden.
+@Türme
+Geschütztürme sind eine Fähigkeit wie jede andere und interagieren mit nichts Besonderem - sie sind keine Begleiter, erben keine Werte und die Angriffsgeschwindigkeit lässt sie nicht schneller schießen.
+Sie funktionieren in der Regel wie eine normale Wachfähigkeit (stationäre Fähigkeit, die wiederholt angreift/trifft).

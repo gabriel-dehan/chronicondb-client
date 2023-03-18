@@ -1,0 +1,17 @@
+The Mechanist offers new ways to build your character so there are some new things to be aware of, such as mechanic interactions and new stats.
+@Ammo Find
+The Mechanist has a chance to find Ammo, a unique resource which fuels many abilities, on kills. This stat increases the chance for Ammo to drop.
+@+Max Ammo
+Increaes the maximum Ammo the Mechanist can hold.
+@Parry
+This is a defensive stat unique to the Mechanist. It works just like Evasion - giving you a chance to completely avoid damage.
+Parry is checked before Evasion, so you can safely utilize both these stats and still reliably use passives or other effects that trigger on successful parries.
+@Drones
+Drones are a new mechanic, which changes existing Satellites (gained from passive skills, powers, or enchants) into more powerful and thematic Drones.
+Drones are not companions, and do not inherit or copy any of the Mechanist's stats - they work just like regular Satellites do + whatever the related skill description reads.
+Both "Drone Effect" and "Tech Effect" stats will increase the strength of the Drones - this is directly reflected in their tooltips.
+In addition, "Satellite Strength" also affects the Drones (with the exception for Power Bots and Bomb Bots), as the Drones base their damage on the Sateliites they convert from.
+Drones deal indirect damage by default.
+@Turrets
+Turrets are a skill like any other, and do not interact with anything in any special way - they are not companions, don't inherit stats, and attack speed does not make them shoot faster.
+They generally work like any regular Sentry skill (stationary skill that attacks/hits repeatedly).

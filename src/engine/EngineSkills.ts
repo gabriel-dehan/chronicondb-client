@@ -92,7 +92,7 @@ export default class EngineEnchants {
     if (filters.search) {
       const resultingUuids = this.searchEngine.search(filters.search, {
         prefix: true,
-        fuzzy: 0.2,
+        combineWith: 'AND',
       }).map(r => r.uuid);
 
       return skills.filter(skill => resultingUuids.includes(skill.uuid));

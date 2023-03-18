@@ -1,0 +1,26 @@
+@Dégâts Directs
+Les dégâts directs sont les dégâts qu’une compétence inflige à l’impact, qui en retour peuvent déclencher tous vos enchantements à l’impact, vos compétences passives, etc.
+Les statistiques défensives suivantes affectent les dégâts directs :
+[list]
+Résistances
+Réduction de Dégâts
+Barrières/Boucliers
+Bouclier de Mana
+Dégâts sur le Temps
+Blocage
+Esquive
+[/list]
+@Dégâts Indirects
+Les dégâts indirects sont les dégâts provenant de tous les enchantements déclenchés, compétences passives, etc. Les dégâts indirects ne peuvent pas déclencher d’effet. 
+Les statistiques défensives suivantes affectent les dégâts indirects :
+[list]
+Bouclier de Mana
+Résistance aux Dégâts Indirects
+Résistance aux Effets de Terrain (la plupart des effets de terrain ennemis comme les traînées sont considérés comme des dégâts indirects)
+[/list]
+@Bouclier de Mana
+Certains effets drainent du Mana plutôt que de la santé lorsque vous subissez des dégâts. Ces effets sont uniques dans le sens où ils sont déclenchés à la fois par les dégâts directs et indirects.
+Il ne doivent pas être confondus avec les boucliers et barrières classiques, qui offrent de la santé additionnelle et temporaire et sont représentés par une barre bleue sur votre barre de santé.
+@Explosions de corps
+Certains ennemis explosent en plusieurs morceaux. Cela se produit lorsque le coup fatal porté à un ennemi inflige des dégâts supérieurs à plus de la moitié de leur santé maximum. Certains enchantements, compétences passives et pouvoirs d’objets peuvent également faire exploser les ennemis sans tenir compte des dégâts infligés.
+

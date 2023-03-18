@@ -1,0 +1,12 @@
+@What are skills?
+Skills are attacks, heals, buffs, companions, auras, and passive effects that benefit your character.
+@It says on screen that I have a skill point available, what do I do?
+Open your inventory (default "I" or "back/select" on gamepads) and then go to your skill page, it's the icon in the top left of your inventory with the flashing "+" sign on it. Spend the point on whatever skill you want! Remember that you can spend points across all available trees in any way you like. Mix and match!
+@How do I use a skill after putting points in it?
+Passive (round) skills are used automatically. But all others need to be bound to a slot. To do this, right click the skill icon in the skill page (or navigate to it with your gamepad and hit Y), and then select what button/slot to bind it to from the context menu. Now close the skill page and you'll see the skill on your display. Simply press the button you have bound it to to use it.
+@I cannot bind a skill.
+Make sure you have points spent in it, and that it is not a passive skill. Passive skills are always active and does not need to be bound.
+@Can I change what buttons are used for skills?
+Yes, simply go into the Options menu, then into the Controls menu and finally into the Keybindings menu.
+@Can I replace a selected active skill in the blank slots?
+Yes, simply bring up the bind menu (right-click or press (Y) on gamepad) and select Swap in the menu. You can now swap the skill to any of the options, and the skill points spent are transferred to the new skill.

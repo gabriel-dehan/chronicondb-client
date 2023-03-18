@@ -1,0 +1,5042 @@
+[
+  {
+    "uuid": 562,
+    "name": "Gem Block Chance",
+    "category": "Gem",
+    "description": " Extra Block Chance (Templar Only)",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 561,
+    "name": "Gem Evasion",
+    "category": "Gem",
+    "description": " Evasion",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 560,
+    "name": "Gem Chain Lightning",
+    "category": "Gem",
+    "description": "On hit: 25% chance to cause Chain Lightning for  Lightning damage",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 559,
+    "name": "Gem Pickup Radius",
+    "category": "Gem",
+    "description": " Pickup Radius",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 558,
+    "name": "Gem Lightning Resistance",
+    "category": "Gem",
+    "description": " Lightning Resistance",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 557,
+    "name": "Gem Attack Speed",
+    "category": "Gem",
+    "description": " Attack Speed",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 556,
+    "name": "Gem Lightning Damage",
+    "category": "Gem",
+    "description": " Lightning Damage",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 555,
+    "name": "Gem Movement Speed",
+    "category": "Gem",
+    "description": " Movement Speed",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 554,
+    "name": "Gem Cooldown Reduction",
+    "category": "Gem",
+    "description": " Cooldown Reduction",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 553,
+    "name": "Gem Minimum Rage",
+    "category": "Gem",
+    "description": " minimum Rage (Berserker Only)",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 552,
+    "name": "Gem Chill when hurt",
+    "category": "Gem",
+    "description": " Absorption Barrier Effect",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 551,
+    "name": "Gem Frost damage on Hit",
+    "category": "Gem",
+    "description": "Damage foes hit for  Frost damage instantly",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 550,
+    "name": "Gem Mana Regeneration",
+    "category": "Gem",
+    "description": " Mana Regeneration",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 549,
+    "name": "Gem Frost Resistance",
+    "category": "Gem",
+    "description": " Frost Resistance",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 548,
+    "name": "Gem Chill on Hit",
+    "category": "Gem",
+    "description": "On hit:  chance to apply a Chill effect, slowing foes by 50% for up to 3 seconds",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 547,
+    "name": "Gem Frost Damage",
+    "category": "Gem",
+    "description": " Frost Damage",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 546,
+    "name": "Gem Mana",
+    "category": "Gem",
+    "description": " Mana",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 545,
+    "name": "Gem Mana on Hit",
+    "category": "Gem",
+    "description": " increased Mana on hit",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 544,
+    "name": "Gem Maximum Rage",
+    "category": "Gem",
+    "description": " maximum Rage (Berserker Only)",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 543,
+    "name": "Gem Burn when hurt",
+    "category": "Gem",
+    "description": " increased Healing from all sources",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 542,
+    "name": "Gem Fire on hit",
+    "category": "Gem",
+    "description": "On hit: Deal  Fire damage instantly and per second, for 3 seconds",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 541,
+    "name": "Gem Health Regeneration",
+    "category": "Gem",
+    "description": " Health Regeneration",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 540,
+    "name": "Gem Fire Resistance",
+    "category": "Gem",
+    "description": " Fire Resistance",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 539,
+    "name": "Gem Critical Hit Chance",
+    "category": "Gem",
+    "description": " Critical Hit Chance",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 538,
+    "name": "Gem Fire Damage",
+    "category": "Gem",
+    "description": " Fire Damage",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 537,
+    "name": "Gem Maximum Health",
+    "category": "Gem",
+    "description": " Maximum Health",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 536,
+    "name": "Gem Health on Hit",
+    "category": "Gem",
+    "description": " increased Health on hit",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 535,
+    "name": "Gem Magic Find",
+    "category": "Gem",
+    "description": " Magic find",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 534,
+    "name": "Gem Companion Damage",
+    "category": "Gem",
+    "description": " Companion Damage",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 533,
+    "name": "Gem Holy on Hit",
+    "category": "Gem",
+    "description": "On hit: Deal  Holy damage instantly",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 532,
+    "name": "Gem Light Radius",
+    "category": "Gem",
+    "description": " Light Radius",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 531,
+    "name": "Gem Holy Resistance",
+    "category": "Gem",
+    "description": " Holy Resistance",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 530,
+    "name": "Gem Stun on Hit",
+    "category": "Gem",
+    "description": "On hit:  chance to Stun for up to 3 seconds",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 529,
+    "name": "Gem Holy Damage",
+    "category": "Gem",
+    "description": " Holy Damage",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 528,
+    "name": "Gem Pickup Strength",
+    "category": "Gem",
+    "description": " Pickup Strength",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 527,
+    "name": "Gem Reach",
+    "category": "Gem",
+    "description": " Reach",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 526,
+    "name": "Gem Bleed Damage",
+    "category": "Gem",
+    "description": " Bleed Damage",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 525,
+    "name": "Gem Soul Duration",
+    "category": "Gem",
+    "description": " Soul Duration (Warlock Only)",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 524,
+    "name": "Gem Bleed on Hit",
+    "category": "Gem",
+    "description": "On hit: Deal  Bleed damage instantly and per second, for 3 seconds",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 523,
+    "name": "Gem Companion Health",
+    "category": "Gem",
+    "description": " Companion Health",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 522,
+    "name": "Gem Physical Resistance",
+    "category": "Gem",
+    "description": " Physical Resistance",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 521,
+    "name": "Gem Knockback Chance",
+    "category": "Gem",
+    "description": " Knockback Chance",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 520,
+    "name": "Gem Physical Damage",
+    "category": "Gem",
+    "description": " Physical Damage",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 519,
+    "name": "Gem Thorns",
+    "category": "Gem",
+    "description": " Thorns",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 518,
+    "name": "Gem Damage",
+    "category": "Gem",
+    "description": " Damage",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 517,
+    "name": "Gem Damage Blocked",
+    "category": "Gem",
+    "description": " Extra Damage Blocked (Templar Only)",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 516,
+    "name": "Gem Poison when hurt",
+    "category": "Gem",
+    "description": " Willpower",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 515,
+    "name": "Gem Poison on Hit",
+    "category": "Gem",
+    "description": "On hit: Deal  Poison damage instantly and per second, for 5 seconds",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 514,
+    "name": "Gem Bonus Experience",
+    "category": "Gem",
+    "description": " Bonus Experience",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 513,
+    "name": "Gem Poison Resistance",
+    "category": "Gem",
+    "description": " Poison Resistance",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 512,
+    "name": "Gem Mana Cost Reduction",
+    "category": "Gem",
+    "description": " Mana Cost Reduction",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 511,
+    "name": "Gem Poison Damage",
+    "category": "Gem",
+    "description": " Poison Damage",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 510,
+    "name": "Gem Effect Duration",
+    "category": "Gem",
+    "description": " Effect Duration",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 509,
+    "name": "Gem Overpower",
+    "category": "Gem",
+    "description": " Overpower",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 508,
+    "name": "Gem Chance to steal Souls",
+    "category": "Gem",
+    "description": " chance to steal Souls (Warlock Only)",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 507,
+    "name": "Gem Fear when hurt",
+    "category": "Gem",
+    "description": " Elixir Effectiveness",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 506,
+    "name": "Gem Shadow on Hit",
+    "category": "Gem",
+    "description": "On hit: Deal  Shadow damage instantly and per second, for 5 seconds",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 505,
+    "name": "Gem Potion Effectiveness",
+    "category": "Gem",
+    "description": " Potion Effectiveness",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 504,
+    "name": "Gem Shadow Resistance",
+    "category": "Gem",
+    "description": " Shadow Resistance",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 503,
+    "name": "Gem Fear on Hit",
+    "category": "Gem",
+    "description": "On hit:  chance to cause foes to run away in Fear for up to 3 seconds",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 502,
+    "name": "Gem Shadow Damage",
+    "category": "Gem",
+    "description": " Shadow Damage",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 501,
+    "name": "Gem Bonus Crystals",
+    "category": "Gem",
+    "description": " Bonus Crystals",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 500,
+    "name": "Gem Critical Hit Damage",
+    "category": "Gem",
+    "description": " Critical Hit Damage",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 1,
+    "name": "Health",
+    "category": "Enchant",
+    "description": " Health",
+    "itemTypes": "Helm, Armor, Bow, Sword, Staff, Fists, Boots, Accessory, Ring, Amulet, Shield",
+    "itemCategories": "Helmet, Armor, Weapon, Boots, Accessory, Ring, Amulet, Offhand"
+  },
+  {
+    "uuid": 2,
+    "name": "Mana",
+    "category": "Enchant",
+    "description": " Mana",
+    "itemTypes": "Helm, Armor, Bow, Sword, Staff, Fists, Boots, Accessory, Ring, Amulet, Spellbook, Shield, Tome",
+    "itemCategories": "Helmet, Armor, Weapon, Boots, Accessory, Ring, Amulet, Offhand"
+  },
+  {
+    "uuid": 3,
+    "name": "Damage",
+    "category": "Enchant",
+    "description": " Damage",
+    "itemTypes": "Bow, Sword, Staff, Fists, Ring, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Weapon, Ring, Offhand"
+  },
+  {
+    "uuid": 4,
+    "name": "Movement Speed",
+    "category": "Enchant",
+    "description": " Movement Speed",
+    "itemTypes": "Boots, Accessory, Ring, Amulet, Claw, Arrow",
+    "itemCategories": "Boots, Accessory, Ring, Amulet, Offhand"
+  },
+  {
+    "uuid": 5,
+    "name": "Attack Speed",
+    "category": "Enchant",
+    "description": " Attack Speed",
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Ring, Amulet, Claw, Arrow, Spellbook, Tome",
+    "itemCategories": "Weapon, Accessory, Ring, Amulet, Offhand"
+  },
+  {
+    "uuid": 6,
+    "name": "Health Regeneration",
+    "category": "Enchant",
+    "description": " Health Regeneration",
+    "itemTypes": "Helm, Armor, Boots, Accessory, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Helmet, Armor, Boots, Accessory, Ring, Amulet, Offhand"
+  },
+  {
+    "uuid": 7,
+    "name": "Mana Regeneration",
+    "category": "Enchant",
+    "description": " Mana Regeneration",
+    "itemTypes": "Helm, Armor, Boots, Accessory, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Helmet, Armor, Boots, Accessory, Ring, Amulet, Offhand"
+  },
+  {
+    "uuid": 8,
+    "name": "Thorns",
+    "category": "Enchant",
+    "description": " Thorns",
+    "itemTypes": "Helm, Armor, Bow, Sword, Staff, Fists, Boots, Accessory, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Helmet, Armor, Weapon, Boots, Accessory, Offhand"
+  },
+  {
+    "uuid": 9,
+    "name": "Vampire",
+    "category": "Enchant",
+    "description": " Health On Hit",
+    "itemTypes": "Bow, Sword, Staff, Fists, Boots, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Weapon, Boots, Amulet, Offhand"
+  },
+  {
+    "uuid": 10,
+    "name": "Leech",
+    "category": "Enchant",
+    "description": " Mana On Hit",
+    "itemTypes": "Helm, Bow, Sword, Staff, Fists, Ring, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Helmet, Weapon, Ring, Offhand"
+  },
+  {
+    "uuid": 13,
+    "name": "Magic Find",
+    "category": "Enchant",
+    "description": " Magic find",
+    "itemTypes": "Helm, Bow, Sword, Staff, Fists, Boots, Accessory, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Helmet, Weapon, Boots, Accessory, Ring, Amulet, Offhand"
+  },
+  {
+    "uuid": 19,
+    "name": "Critical Hit Chance",
+    "category": "Enchant",
+    "description": " Critical Hit Chance",
+    "itemTypes": "Helm, Bow, Sword, Staff, Fists, Accessory, Ring, Amulet, Claw, Arrow, Spellbook, Tome",
+    "itemCategories": "Helmet, Weapon, Accessory, Ring, Amulet, Offhand"
+  },
+  {
+    "uuid": 20,
+    "name": "Knockback",
+    "category": "Enchant",
+    "description": " Knockback Chance",
+    "itemTypes": "Bow, Staff, Boots, Accessory, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Weapon, Boots, Accessory, Offhand"
+  },
+  {
+    "uuid": 21,
+    "name": "Effect Duration",
+    "category": "Enchant",
+    "description": " Effect Duration",
+    "itemTypes": "Helm, Bow, Sword, Staff, Fists, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Helmet, Weapon, Ring, Amulet, Offhand"
+  },
+  {
+    "uuid": 22,
+    "name": "Pickup Strength",
+    "category": "Enchant",
+    "description": " Pickup Strength",
+    "itemTypes": "Armor, Boots, Accessory, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Armor, Boots, Accessory, Ring, Amulet, Offhand"
+  },
+  {
+    "uuid": 23,
+    "name": "Bonus Crystals",
+    "category": "Enchant",
+    "description": " Bonus Crystals",
+    "itemTypes": "Helm, Boots, Accessory, Ring, Amulet",
+    "itemCategories": "Helmet, Boots, Accessory, Ring, Amulet"
+  },
+  {
+    "uuid": 24,
+    "name": "Experience",
+    "category": "Enchant",
+    "description": " Bonus Experience",
+    "itemTypes": "Helm, Bow, Sword, Staff, Fists, Accessory, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Helmet, Weapon, Accessory, Ring, Amulet, Offhand"
+  },
+  {
+    "uuid": 25,
+    "name": "Supporter",
+    "category": "Enchant",
+    "description": " Crystals found and Experience gained from all sources. Thanks for being awesome! (Early Access special item)",
+    "itemTypes": "",
+    "itemCategories": ""
+  },
+  {
+    "uuid": 26,
+    "name": "Pickup Radius",
+    "category": "Enchant",
+    "description": " Pickup Radius",
+    "itemTypes": "Armor, Bow, Sword, Staff, Fists, Boots, Accessory",
+    "itemCategories": "Armor, Weapon, Boots, Accessory"
+  },
+  {
+    "uuid": 27,
+    "name": "Physical Resistance",
+    "category": "Enchant",
+    "description": " Physical Resistance",
+    "itemTypes": "Helm, Armor, Boots, Amulet, Shield",
+    "itemCategories": "Helmet, Armor, Boots, Amulet, Offhand"
+  },
+  {
+    "uuid": 28,
+    "name": "Lightning Orb",
+    "category": "Enchant",
+    "description": "Satellite: An orb of lightning circles the player, casting a Chain Lightning every second, dealing  Lightning damage",
+    "itemTypes": "Ring, Amulet",
+    "itemCategories": "Ring, Amulet"
+  },
+  {
+    "uuid": 29,
+    "name": "Frost Orb",
+    "category": "Enchant",
+    "description": "Satellite: A frost orb circles the player, casting a Frost Spear every second, dealing  Frost damage",
+    "itemTypes": "Ring, Amulet",
+    "itemCategories": "Ring, Amulet"
+  },
+  {
+    "uuid": 30,
+    "name": "Molten Orb",
+    "category": "Enchant",
+    "description": "Satellite: A molten orb circles the player, casting a Firebomb every second, dealing  Fire damage",
+    "itemTypes": "Ring, Amulet",
+    "itemCategories": "Ring, Amulet"
+  },
+  {
+    "uuid": 31,
+    "name": "Poison Orb",
+    "category": "Enchant",
+    "description": "Satellite: A poison orb circles the player, poisoning nearby enemies for  Poison damage per second",
+    "itemTypes": "Ring, Amulet",
+    "itemCategories": "Ring, Amulet"
+  },
+  {
+    "uuid": 32,
+    "name": "Holy Orb",
+    "category": "Enchant",
+    "description": "Satellite: A holy orb circles the player, casting a Holy Bolt twice per second, each dealing  Holy damage",
+    "itemTypes": "Ring, Amulet",
+    "itemCategories": "Ring, Amulet"
+  },
+  {
+    "uuid": 33,
+    "name": "Sturdy",
+    "category": "Enchant",
+    "description": "Makes you immune to all knockback and pull effects",
+    "itemTypes": "Boots, Amulet",
+    "itemCategories": "Boots, Amulet"
+  },
+  {
+    "uuid": 34,
+    "name": "Fire Resistance",
+    "category": "Enchant",
+    "description": " Fire Resistance",
+    "itemTypes": "Helm, Armor, Boots, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Helmet, Armor, Boots, Ring, Amulet, Offhand"
+  },
+  {
+    "uuid": 35,
+    "name": "Frost Resistance",
+    "category": "Enchant",
+    "description": " Frost Resistance",
+    "itemTypes": "Helm, Armor, Boots, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Helmet, Armor, Boots, Ring, Amulet, Offhand"
+  },
+  {
+    "uuid": 36,
+    "name": "Poison Resistance",
+    "category": "Enchant",
+    "description": " Poison Resistance",
+    "itemTypes": "Helm, Armor, Boots, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Helmet, Armor, Boots, Ring, Amulet, Offhand"
+  },
+  {
+    "uuid": 37,
+    "name": "Lightning Resistance",
+    "category": "Enchant",
+    "description": " Lightning Resistance",
+    "itemTypes": "Helm, Armor, Boots, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Helmet, Armor, Boots, Ring, Amulet, Offhand"
+  },
+  {
+    "uuid": 38,
+    "name": "Holy Resistance",
+    "category": "Enchant",
+    "description": " Holy Resistance",
+    "itemTypes": "Helm, Armor, Boots, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Helmet, Armor, Boots, Ring, Amulet, Offhand"
+  },
+  {
+    "uuid": 39,
+    "name": "Fire Damage",
+    "category": "Enchant",
+    "description": " Fire Damage",
+    "itemTypes": "Helm, Sword, Staff, Fists, Accessory, Ring, Amulet, Claw, Spellbook, Shield, Tome",
+    "itemCategories": "Helmet, Weapon, Accessory, Ring, Amulet, Offhand"
+  },
+  {
+    "uuid": 40,
+    "name": "Frost Damage",
+    "category": "Enchant",
+    "description": " Frost Damage",
+    "itemTypes": "Helm, Bow, Staff, Fists, Accessory, Ring, Amulet, Claw, Arrow, Spellbook",
+    "itemCategories": "Helmet, Weapon, Accessory, Ring, Amulet, Offhand"
+  },
+  {
+    "uuid": 41,
+    "name": "Poison Damage",
+    "category": "Enchant",
+    "description": " Poison Damage",
+    "itemTypes": "Helm, Bow, Staff, Accessory, Ring, Amulet, Arrow, Spellbook",
+    "itemCategories": "Helmet, Weapon, Accessory, Ring, Amulet, Offhand"
+  },
+  {
+    "uuid": 42,
+    "name": "Lightning Damage",
+    "category": "Enchant",
+    "description": " Lightning Damage",
+    "itemTypes": "Helm, Bow, Sword, Fists, Accessory, Ring, Amulet, Claw, Arrow, Shield, Tome",
+    "itemCategories": "Helmet, Weapon, Accessory, Ring, Amulet, Offhand"
+  },
+  {
+    "uuid": 43,
+    "name": "Holy Damage",
+    "category": "Enchant",
+    "description": " Holy Damage",
+    "itemTypes": "Helm, Sword, Accessory, Ring, Amulet, Shield, Tome",
+    "itemCategories": "Helmet, Weapon, Accessory, Ring, Amulet, Offhand"
+  },
+  {
+    "uuid": 44,
+    "name": "Physical Damage",
+    "category": "Enchant",
+    "description": " Physical Damage",
+    "itemTypes": "Helm, Bow, Sword, Fists, Accessory, Ring, Amulet, Claw, Arrow, Shield, Tome",
+    "itemCategories": "Helmet, Weapon, Accessory, Ring, Amulet, Offhand"
+  },
+  {
+    "uuid": 45,
+    "name": "Companion Health",
+    "category": "Enchant",
+    "description": " Companion Health",
+    "itemTypes": "Armor, Accessory, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Armor, Accessory, Ring, Amulet, Offhand"
+  },
+  {
+    "uuid": 46,
+    "name": "Companion Damage",
+    "category": "Enchant",
+    "description": " Companion Damage",
+    "itemTypes": "Helm, Bow, Sword, Staff, Fists, Boots, Accessory, Ring, Amulet",
+    "itemCategories": "Helmet, Weapon, Boots, Accessory, Ring, Amulet"
+  },
+  {
+    "uuid": 47,
+    "name": "Resist All",
+    "category": "Enchant",
+    "description": " to all Resistances",
+    "itemTypes": "Armor, Boots, Accessory, Ring, Amulet, Shield",
+    "itemCategories": "Armor, Boots, Accessory, Ring, Amulet, Offhand"
+  },
+  {
+    "uuid": 48,
+    "name": "Power All",
+    "category": "Enchant",
+    "description": " to all Elements",
+    "itemTypes": "Armor, Bow, Sword, Staff, Fists, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Armor, Weapon, Ring, Amulet, Offhand"
+  },
+  {
+    "uuid": 49,
+    "name": "Mana Cost Reduction",
+    "category": "Enchant",
+    "description": " Mana Cost Reduction",
+    "itemTypes": "Armor, Bow, Sword, Staff, Fists, Accessory, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Armor, Weapon, Accessory, Ring, Amulet, Offhand"
+  },
+  {
+    "uuid": 50,
+    "name": "Cooldown Reduction",
+    "category": "Enchant",
+    "description": " Cooldown Reduction",
+    "itemTypes": "Helm, Bow, Sword, Staff, Fists, Accessory, Ring, Amulet",
+    "itemCategories": "Helmet, Weapon, Accessory, Ring, Amulet"
+  },
+  {
+    "uuid": 51,
+    "name": "Critical Hit Damage",
+    "category": "Enchant",
+    "description": " Critical Hit Damage",
+    "itemTypes": "Helm, Bow, Sword, Staff, Fists, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Helmet, Weapon, Ring, Amulet, Offhand"
+  },
+  {
+    "uuid": 52,
+    "name": "Shadow Resistance",
+    "category": "Enchant",
+    "description": " Shadow Resistance",
+    "itemTypes": "Helm, Armor, Boots, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Helmet, Armor, Boots, Ring, Amulet, Offhand"
+  },
+  {
+    "uuid": 53,
+    "name": "Shadow Damage",
+    "category": "Enchant",
+    "description": " Shadow Damage",
+    "itemTypes": "Helm, Staff, Accessory, Ring, Amulet, Spellbook",
+    "itemCategories": "Helmet, Weapon, Accessory, Ring, Amulet, Offhand"
+  },
+  {
+    "uuid": 54,
+    "name": "Light Radius",
+    "category": "Enchant",
+    "description": " Light Radius",
+    "itemTypes": "Helm, Ring, Amulet",
+    "itemCategories": "Helmet, Ring, Amulet"
+  },
+  {
+    "uuid": 55,
+    "name": "Potion Effectiveness",
+    "category": "Enchant",
+    "description": " Potion Effectiveness",
+    "itemTypes": "Boots, Accessory, Ring, Amulet, Spellbook, Tome",
+    "itemCategories": "Boots, Accessory, Ring, Amulet, Offhand"
+  },
+  {
+    "uuid": 56,
+    "name": "Slot",
+    "category": "Enchant",
+    "description": " Slots",
+    "itemTypes": "",
+    "itemCategories": ""
+  },
+  {
+    "uuid": 57,
+    "name": "Extra Slots",
+    "category": "Enchant",
+    "description": " Extra slots",
+    "itemTypes": "",
+    "itemCategories": ""
+  },
+  {
+    "uuid": 58,
+    "name": "Grip",
+    "category": "Enchant",
+    "description": " chance on hit to pull all enemies within 3 meters of the foe closer to it",
+    "itemTypes": "Bow, Sword, Staff, Fists",
+    "itemCategories": "Weapon"
+  },
+  {
+    "uuid": 59,
+    "name": "Twister",
+    "category": "Enchant",
+    "description": "15% Chance on critical hit to summon a Twister that seeks out nearby foes, dealing  Ethereal damage per second as direct damage but may not crit.",
+    "itemTypes": "Bow, Sword, Staff, Fists",
+    "itemCategories": "Weapon"
+  },
+  {
+    "uuid": 60,
+    "name": "Hellfire",
+    "category": "Enchant",
+    "description": "15% Chance on critical hit to summon Hellfire over your foe, dealing up to  Ethereal damage per strike. Deals direct damage but may not crit.",
+    "itemTypes": "Bow, Sword, Staff, Fists",
+    "itemCategories": "Weapon"
+  },
+  {
+    "uuid": 61,
+    "name": "Crit Heal",
+    "category": "Enchant",
+    "description": "5% chance on critical hits to restore  health",
+    "itemTypes": "",
+    "itemCategories": ""
+  },
+  {
+    "uuid": 62,
+    "name": "Enrage",
+    "category": "Enchant",
+    "description": "5% chance on critical hits to increase the base Attack Speed of all skills by  for 5 seconds",
+    "itemTypes": "Bow, Sword, Staff, Fists",
+    "itemCategories": "Weapon"
+  },
+  {
+    "uuid": 63,
+    "name": "Burst",
+    "category": "Enchant",
+    "description": "35% chance on critical hits to cause an explosion dealing  Ethereal damage",
+    "itemTypes": "Bow, Sword, Staff, Fists",
+    "itemCategories": "Weapon"
+  },
+  {
+    "uuid": 65,
+    "name": "Kill Hoarder",
+    "category": "Enchant",
+    "description": " chance for foes to burst out extra crystals upon death",
+    "itemTypes": "Ring, Amulet",
+    "itemCategories": "Ring, Amulet"
+  },
+  {
+    "uuid": 66,
+    "name": "Kill Explode",
+    "category": "Enchant",
+    "description": " chance to explode foes upon their death, dealing up to 30% of their maximum health as Ethereal damage to other nearby foes",
+    "itemTypes": "Ring, Amulet",
+    "itemCategories": "Ring, Amulet"
+  },
+  {
+    "uuid": 67,
+    "name": "Kill Pickups",
+    "category": "Enchant",
+    "description": " chance to spawn additional health and mana pickups on kill",
+    "itemTypes": "Ring, Amulet",
+    "itemCategories": "Ring, Amulet"
+  },
+  {
+    "uuid": 68,
+    "name": "Kill Damage",
+    "category": "Enchant",
+    "description": "15% chance to increase Damage by  for 10 seconds after killing a foe. This effect may stack up to 5 times",
+    "itemTypes": "Ring, Amulet",
+    "itemCategories": "Ring, Amulet"
+  },
+  {
+    "uuid": 69,
+    "name": "Kill Restoration",
+    "category": "Enchant",
+    "description": "15% chance to increase Health Regeneration by  for 10 seconds after killing a foe. This effect may stack up to 5 times",
+    "itemTypes": "Armor, Ring, Amulet",
+    "itemCategories": "Armor, Ring, Amulet"
+  },
+  {
+    "uuid": 70,
+    "name": "Kill Recharge",
+    "category": "Enchant",
+    "description": "15% chance to increase Mana Regeneration by  for 10 seconds after killing a foe. This effect may stack up to 5 times",
+    "itemTypes": "Armor, Ring, Amulet",
+    "itemCategories": "Armor, Ring, Amulet"
+  },
+  {
+    "uuid": 71,
+    "name": "Kill Healing",
+    "category": "Enchant",
+    "description": "5% chance to heal for  of Maximum Health after killing a foe",
+    "itemTypes": "Armor, Ring, Amulet",
+    "itemCategories": "Armor, Ring, Amulet"
+  },
+  {
+    "uuid": 72,
+    "name": "Kill Haste",
+    "category": "Enchant",
+    "description": "15% chance to increase Movement Speed by  for 10 seconds after killing a foe. This effect may stack up to 5 times",
+    "itemTypes": "Boots, Ring, Amulet",
+    "itemCategories": "Boots, Ring, Amulet"
+  },
+  {
+    "uuid": 73,
+    "name": "Gib Regeneration",
+    "category": "Enchant",
+    "description": " Health- and Mana Regeneration for 5 seconds after gibbing a foe",
+    "itemTypes": "Bow, Sword, Staff, Fists",
+    "itemCategories": "Weapon"
+  },
+  {
+    "uuid": 74,
+    "name": "Gib Damage",
+    "category": "Enchant",
+    "description": " Damage for 5 seconds after gibbing a foe",
+    "itemTypes": "Bow, Sword, Staff, Fists",
+    "itemCategories": "Weapon"
+  },
+  {
+    "uuid": 75,
+    "name": "Gib Heal",
+    "category": "Enchant",
+    "description": "5% chance to heal for  of Maximum Health after gibbing a foe",
+    "itemTypes": "Bow, Sword, Staff, Fists",
+    "itemCategories": "Weapon"
+  },
+  {
+    "uuid": 76,
+    "name": "Hurt Slow",
+    "category": "Enchant",
+    "description": " chance to slow attacker by 50% for 5 seconds when struck",
+    "itemTypes": "Boots, Ring, Amulet",
+    "itemCategories": "Boots, Ring, Amulet"
+  },
+  {
+    "uuid": 77,
+    "name": "Hurt Root",
+    "category": "Enchant",
+    "description": " chance to root and immobilize attacker for 3 seconds when struck",
+    "itemTypes": "Boots, Ring, Amulet",
+    "itemCategories": "Boots, Ring, Amulet"
+  },
+  {
+    "uuid": 78,
+    "name": "Hurt Fear",
+    "category": "Enchant",
+    "description": " chance to cause attackers to run away in fear for up to 3 seconds when struck",
+    "itemTypes": "Armor, Ring, Amulet",
+    "itemCategories": "Armor, Ring, Amulet"
+  },
+  {
+    "uuid": 79,
+    "name": "Hurt Knockback",
+    "category": "Enchant",
+    "description": " chance to knock away attackers up to 3 meters when struck",
+    "itemTypes": "Armor, Ring, Amulet",
+    "itemCategories": "Armor, Ring, Amulet"
+  },
+  {
+    "uuid": 80,
+    "name": "Frost Nova",
+    "category": "Enchant",
+    "description": "5% chance to release a Frost Nova dealing  Frost damage when struck",
+    "itemTypes": "Armor, Amulet",
+    "itemCategories": "Armor, Amulet"
+  },
+  {
+    "uuid": 81,
+    "name": "Holy Nova",
+    "category": "Enchant",
+    "description": "5% chance to release a Holy Nova dealing  Holy damage when struck",
+    "itemTypes": "Armor, Amulet",
+    "itemCategories": "Armor, Amulet"
+  },
+  {
+    "uuid": 82,
+    "name": "Death Nova",
+    "category": "Enchant",
+    "description": "5% chance to release a nova of Deathblasts dealing  Shadow damage when struck",
+    "itemTypes": "Armor, Amulet",
+    "itemCategories": "Armor, Amulet"
+  },
+  {
+    "uuid": 83,
+    "name": "Discharge",
+    "category": "Enchant",
+    "description": "5% chance to release an electric orb dealing  Lightning damage when struck",
+    "itemTypes": "Armor, Amulet",
+    "itemCategories": "Armor, Amulet"
+  },
+  {
+    "uuid": 84,
+    "name": "Hurt Movement Speed",
+    "category": "Enchant",
+    "description": " chance to increase Movement Speed by  for 5 seconds when struck",
+    "itemTypes": "Boots, Ring",
+    "itemCategories": "Boots, Ring"
+  },
+  {
+    "uuid": 85,
+    "name": "Hurt Poison",
+    "category": "Enchant",
+    "description": "5% chance to poison attackers for  Poison damage per second for 3 seconds when struck",
+    "itemTypes": "Boots, Ring",
+    "itemCategories": "Boots, Ring"
+  },
+  {
+    "uuid": 86,
+    "name": "Hurt Burn",
+    "category": "Enchant",
+    "description": "On hurt: 5% chance to burn attackers for  Fire damage per second for 3 seconds when struck",
+    "itemTypes": "Boots, Ring",
+    "itemCategories": "Boots, Ring"
+  },
+  {
+    "uuid": 87,
+    "name": "Low Health Heal",
+    "category": "Enchant",
+    "description": "Any attack that brings you below 30% Maximum Health instantly restores  Health. 30 Second cooldown",
+    "itemTypes": "Amulet",
+    "itemCategories": "Amulet"
+  },
+  {
+    "uuid": 88,
+    "name": "Low Health Damage",
+    "category": "Enchant",
+    "description": "Any attack that brings you below 30% Maximum Health increases your Damage by  for 5 seconds",
+    "itemTypes": "Ring",
+    "itemCategories": "Ring"
+  },
+  {
+    "uuid": 89,
+    "name": "Low Health Explode",
+    "category": "Enchant",
+    "description": "Any attack that brings you below 30% Maximum Health cause a series of explosions dealing  Ethereal damage to any nearby foes",
+    "itemTypes": "Ring",
+    "itemCategories": "Ring"
+  },
+  {
+    "uuid": 92,
+    "name": "Sludge Treads",
+    "category": "Enchant",
+    "description": "Creates a trail of poison as you walk, dealing  Poison damage per second, for 3 seconds",
+    "itemTypes": "Boots",
+    "itemCategories": "Boots"
+  },
+  {
+    "uuid": 93,
+    "name": "Phasewalk",
+    "category": "Enchant",
+    "description": "You are no longer affected by collisions and can walk through objects and enemies",
+    "itemTypes": "Boots",
+    "itemCategories": "Boots"
+  },
+  {
+    "uuid": 94,
+    "name": "Ironsole",
+    "category": "Enchant",
+    "description": "Makes you immune to damage from spike traps",
+    "itemTypes": "Boots",
+    "itemCategories": "Boots"
+  },
+  {
+    "uuid": 96,
+    "name": "Block Rate",
+    "category": "Enchant",
+    "description": " Block Chance",
+    "itemTypes": "",
+    "itemCategories": ""
+  },
+  {
+    "uuid": 97,
+    "name": "Block Damage",
+    "category": "Enchant",
+    "description": " Damage Blocked",
+    "itemTypes": "",
+    "itemCategories": ""
+  },
+  {
+    "uuid": 98,
+    "name": "Bonus Block Rate",
+    "category": "Enchant",
+    "description": " Extra Block Chance (Templar Only)",
+    "itemTypes": "Shield",
+    "itemCategories": "Offhand"
+  },
+  {
+    "uuid": 99,
+    "name": "Bonus Block Damage",
+    "category": "Enchant",
+    "description": " Extra Damage Blocked (Templar Only)",
+    "itemTypes": "Shield",
+    "itemCategories": "Offhand"
+  },
+  {
+    "uuid": 100,
+    "name": "Reach",
+    "category": "Enchant",
+    "description": " Reach",
+    "itemTypes": "Helm, Bow, Sword, Staff, Fists, Accessory, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Helmet, Weapon, Accessory, Amulet, Offhand"
+  },
+  {
+    "uuid": 101,
+    "name": "Overpower",
+    "category": "Enchant",
+    "description": " Overpower",
+    "itemTypes": "Fists, Accessory, Ring, Amulet, Claw, Arrow, Spellbook, Tome",
+    "itemCategories": "Weapon, Accessory, Ring, Amulet, Offhand"
+  },
+  {
+    "uuid": 102,
+    "name": "Bleed Damage",
+    "category": "Enchant",
+    "description": " Bleed Damage",
+    "itemTypes": "Bow, Sword, Staff, Fists, Ring, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Weapon, Ring, Offhand"
+  },
+  {
+    "uuid": 103,
+    "name": "Minimum Rage",
+    "category": "Enchant",
+    "description": " Minimum Rage",
+    "itemTypes": "Fists, Claw",
+    "itemCategories": "Weapon, Offhand"
+  },
+  {
+    "uuid": 104,
+    "name": "Maximum Rage",
+    "category": "Enchant",
+    "description": " Maximum Rage",
+    "itemTypes": "Fists, Claw",
+    "itemCategories": "Weapon, Offhand"
+  },
+  {
+    "uuid": 105,
+    "name": "Rage Generation",
+    "category": "Enchant",
+    "description": " Rage Generation",
+    "itemTypes": "Fists, Claw",
+    "itemCategories": "Weapon, Offhand"
+  },
+  {
+    "uuid": 106,
+    "name": "Burn",
+    "category": "Enchant",
+    "description": "On hit: Deal  Fire damage instantly and per second, for 3 seconds",
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Ring, Claw, Arrow, Spellbook, Tome",
+    "itemCategories": "Weapon, Accessory, Ring, Offhand"
+  },
+  {
+    "uuid": 107,
+    "name": "Poison",
+    "category": "Enchant",
+    "description": "On hit: Deal  Poison damage instantly and per second, for 5 seconds",
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Ring, Claw, Arrow, Spellbook, Tome",
+    "itemCategories": "Weapon, Accessory, Ring, Offhand"
+  },
+  {
+    "uuid": 108,
+    "name": "Chill",
+    "category": "Enchant",
+    "description": "On hit: Deal  Frost damage instantly",
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Ring, Claw, Arrow, Spellbook, Tome",
+    "itemCategories": "Weapon, Accessory, Ring, Offhand"
+  },
+  {
+    "uuid": 109,
+    "name": "Chain Lightning",
+    "category": "Enchant",
+    "description": "On hit: 25% chance to cause Chain Lightning for  Lightning damage",
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Ring, Claw, Arrow, Spellbook, Tome",
+    "itemCategories": "Weapon, Accessory, Ring, Offhand"
+  },
+  {
+    "uuid": 110,
+    "name": "Bleed",
+    "category": "Enchant",
+    "description": "On hit: Deal  Bleed damage instantly and per second, for 3 seconds",
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Ring, Claw, Arrow, Spellbook, Tome",
+    "itemCategories": "Weapon, Accessory, Ring, Offhand"
+  },
+  {
+    "uuid": 111,
+    "name": "Holy Smite",
+    "category": "Enchant",
+    "description": "On hit: Deal  Holy damage instantly",
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Ring, Claw, Arrow, Spellbook, Tome",
+    "itemCategories": "Weapon, Accessory, Ring, Offhand"
+  },
+  {
+    "uuid": 112,
+    "name": "Blight",
+    "category": "Enchant",
+    "description": "On hit: Deal  Shadow damage instantly and per second, for 5 seconds",
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Ring, Claw, Arrow, Spellbook, Tome",
+    "itemCategories": "Weapon, Accessory, Ring, Offhand"
+  },
+  {
+    "uuid": 113,
+    "name": "Undead Slaying",
+    "category": "Enchant",
+    "description": " damage vs. Undead",
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Weapon, Accessory, Amulet, Offhand"
+  },
+  {
+    "uuid": 114,
+    "name": "Spectral Slaying",
+    "category": "Enchant",
+    "description": " damage vs. Spectral",
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Weapon, Accessory, Amulet, Offhand"
+  },
+  {
+    "uuid": 115,
+    "name": "Arachnid Slaying",
+    "category": "Enchant",
+    "description": " damage vs. Arachnids",
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Weapon, Accessory, Amulet, Offhand"
+  },
+  {
+    "uuid": 116,
+    "name": "Demon Slaying",
+    "category": "Enchant",
+    "description": " damage vs. Demons",
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Weapon, Accessory, Amulet, Offhand"
+  },
+  {
+    "uuid": 117,
+    "name": "Beast Slaying",
+    "category": "Enchant",
+    "description": " damage vs. Beasts",
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Weapon, Accessory, Amulet, Offhand"
+  },
+  {
+    "uuid": 118,
+    "name": "Fae Slaying",
+    "category": "Enchant",
+    "description": " damage vs. Fae",
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Weapon, Accessory, Amulet, Offhand"
+  },
+  {
+    "uuid": 119,
+    "name": "Crown Slaying",
+    "category": "Enchant",
+    "description": " damage vs. Crowned foes",
+    "itemTypes": "Bow, Sword, Staff, Fists, Amulet",
+    "itemCategories": "Weapon, Amulet"
+  },
+  {
+    "uuid": 120,
+    "name": "Damage Reduction",
+    "category": "Enchant",
+    "description": " reduced damage from all direct sources",
+    "itemTypes": "Armor, Amulet",
+    "itemCategories": "Armor, Amulet"
+  },
+  {
+    "uuid": 121,
+    "name": "Evasion",
+    "category": "Enchant",
+    "description": " Evasion",
+    "itemTypes": "Armor, Ring",
+    "itemCategories": "Armor, Ring"
+  },
+  {
+    "uuid": 122,
+    "name": "Spiked Orb",
+    "category": "Enchant",
+    "description": "Satellite: A spiked orb circles the player, hitting nearby foes, dealing  Physical damage two times per second",
+    "itemTypes": "Ring, Amulet",
+    "itemCategories": "Ring, Amulet"
+  },
+  {
+    "uuid": 123,
+    "name": "Shadow Orb",
+    "category": "Enchant",
+    "description": "Satellite: A shadow orb circles the player, defiling nearby foes, dealing  Shadow damage two times per second",
+    "itemTypes": "Ring, Amulet",
+    "itemCategories": "Ring, Amulet"
+  },
+  {
+    "uuid": 124,
+    "name": "Gem Strength",
+    "category": "Enchant",
+    "description": " increased effect of all Gems",
+    "itemTypes": "Armor, Accessory, Ring, Amulet",
+    "itemCategories": "Armor, Accessory, Ring, Amulet"
+  },
+  {
+    "uuid": 125,
+    "name": "Satellite Strength",
+    "category": "Enchant",
+    "description": " increased damage of all Satellite enchants",
+    "itemTypes": "Helm, Bow, Sword, Staff, Fists, Accessory, Ring",
+    "itemCategories": "Helmet, Weapon, Accessory, Ring"
+  },
+  {
+    "uuid": 126,
+    "name": "Damage Stagger",
+    "category": "Enchant",
+    "description": " of damage taken is staggered and dealt over 3 seconds, at a 30% damage reduction",
+    "itemTypes": "Helm, Armor, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Helmet, Armor, Offhand"
+  },
+  {
+    "uuid": 127,
+    "name": "Stun",
+    "category": "Enchant",
+    "description": " chance to stun foes hit for up to 3 seconds",
+    "itemTypes": "Boots, Ring",
+    "itemCategories": "Boots, Ring"
+  },
+  {
+    "uuid": 128,
+    "name": "Interrupt",
+    "category": "Enchant",
+    "description": " chance to interrupt attacks of foes hit",
+    "itemTypes": "Bow, Sword, Staff, Fists, Boots",
+    "itemCategories": "Weapon, Boots"
+  },
+  {
+    "uuid": 129,
+    "name": "Elemental Slaying",
+    "category": "Enchant",
+    "description": " damage vs. Elementals",
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Weapon, Accessory, Amulet, Offhand"
+  },
+  {
+    "uuid": 130,
+    "name": "Humanoid Slaying",
+    "category": "Enchant",
+    "description": " damage vs. Humanoids",
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Weapon, Accessory, Amulet, Offhand"
+  },
+  {
+    "uuid": 131,
+    "name": "Mechanical Slaying",
+    "category": "Enchant",
+    "description": " damage vs. Mechanicals",
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemCategories": "Weapon, Accessory, Amulet, Offhand"
+  },
+  {
+    "uuid": 132,
+    "name": "Ground Effect Resistance",
+    "category": "Enchant",
+    "description": " reduced damage from harmful ground effects",
+    "itemTypes": "Boots, Accessory",
+    "itemCategories": "Boots, Accessory"
+  },
+  {
+    "uuid": 133,
+    "name": "Indirect Damage Resistance",
+    "category": "Enchant",
+    "description": " reduced damage from indirect sources and debuffs",
+    "itemTypes": "Helm, Amulet",
+    "itemCategories": "Helmet, Amulet"
+  },
+  {
+    "uuid": 134,
+    "name": "Healing from all sources",
+    "category": "Enchant",
+    "description": " increased Healing from all sources",
+    "itemTypes": "Helm, Armor, Boots",
+    "itemCategories": "Helmet, Armor, Boots"
+  },
+  {
+    "uuid": 135,
+    "name": "Max Ammo",
+    "category": "Enchant",
+    "description": " Max Ammo",
+    "itemTypes": "Armor",
+    "itemCategories": "Armor"
+  },
+  {
+    "uuid": 136,
+    "name": "Ammo Find",
+    "category": "Enchant",
+    "description": " increased chance to find Ammo",
+    "itemTypes": "Helm, Armor, Accessory",
+    "itemCategories": "Helmet, Armor, Accessory"
+  },
+  {
+    "uuid": 500,
+    "name": "GEM 620",
+    "category": "Gem",
+    "description": " Critical Hit Damage",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 501,
+    "name": "GEM 620",
+    "category": "Gem",
+    "description": " Bonus Crystals",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 502,
+    "name": "GEM 620",
+    "category": "Gem",
+    "description": " Shadow Damage",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 503,
+    "name": "GEM 623",
+    "category": "Gem",
+    "description": "On hit:  chance to cause foes to run away in Fear for up to 3 seconds",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 504,
+    "name": "GEM 623",
+    "category": "Gem",
+    "description": " Shadow Resistance",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 505,
+    "name": "GEM 623",
+    "category": "Gem",
+    "description": " Potion Effectiveness",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 506,
+    "name": "GEM 626",
+    "category": "Gem",
+    "description": "On hit: Deal  Shadow damage instantly and per second, for 5 seconds",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 507,
+    "name": "GEM 626",
+    "category": "Gem",
+    "description": " Elixir Effectiveness",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 508,
+    "name": "GEM 626",
+    "category": "Gem",
+    "description": " chance to steal Souls (Warlock Only)",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 509,
+    "name": "GEM 629",
+    "category": "Gem",
+    "description": " Overpower",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 510,
+    "name": "GEM 629",
+    "category": "Gem",
+    "description": " Effect Duration",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 511,
+    "name": "GEM 629",
+    "category": "Gem",
+    "description": " Poison Damage",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 512,
+    "name": "GEM 632",
+    "category": "Gem",
+    "description": " Mana Cost Reduction",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 513,
+    "name": "GEM 632",
+    "category": "Gem",
+    "description": " Poison Resistance",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 514,
+    "name": "GEM 632",
+    "category": "Gem",
+    "description": " Bonus Experience",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 515,
+    "name": "GEM 635",
+    "category": "Gem",
+    "description": "On hit: Deal  Poison damage instantly and per second, for 5 seconds",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 516,
+    "name": "GEM 635",
+    "category": "Gem",
+    "description": " Willpower",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 517,
+    "name": "GEM 635",
+    "category": "Gem",
+    "description": " Extra Damage Blocked (Templar Only)",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 518,
+    "name": "GEM 638",
+    "category": "Gem",
+    "description": " Damage",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 519,
+    "name": "GEM 638",
+    "category": "Gem",
+    "description": " Thorns",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 520,
+    "name": "GEM 638",
+    "category": "Gem",
+    "description": " Physical Damage",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 521,
+    "name": "GEM 641",
+    "category": "Gem",
+    "description": " Knockback Chance",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 522,
+    "name": "GEM 641",
+    "category": "Gem",
+    "description": " Physical Resistance",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 523,
+    "name": "GEM 641",
+    "category": "Gem",
+    "description": " Companion Health",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 524,
+    "name": "GEM 644",
+    "category": "Gem",
+    "description": "On hit: Deal  Bleed damage instantly and per second, for 3 seconds",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 525,
+    "name": "GEM 644",
+    "category": "Gem",
+    "description": " Soul Duration (Warlock Only)",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 526,
+    "name": "GEM 644",
+    "category": "Gem",
+    "description": " Bleed Damage",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 527,
+    "name": "GEM 647",
+    "category": "Gem",
+    "description": " Reach",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 528,
+    "name": "GEM 647",
+    "category": "Gem",
+    "description": " Pickup Strength",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 529,
+    "name": "GEM 647",
+    "category": "Gem",
+    "description": " Holy Damage",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 530,
+    "name": "GEM 650",
+    "category": "Gem",
+    "description": "On hit:  chance to Stun for up to 3 seconds",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 531,
+    "name": "GEM 650",
+    "category": "Gem",
+    "description": " Holy Resistance",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 532,
+    "name": "GEM 650",
+    "category": "Gem",
+    "description": " Light Radius",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 533,
+    "name": "GEM 653",
+    "category": "Gem",
+    "description": "On hit: Deal  Holy damage instantly",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 534,
+    "name": "GEM 653",
+    "category": "Gem",
+    "description": " Companion Damage",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 535,
+    "name": "GEM 653",
+    "category": "Gem",
+    "description": " Magic find",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 536,
+    "name": "GEM 656",
+    "category": "Gem",
+    "description": " increased Health on hit",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 537,
+    "name": "GEM 656",
+    "category": "Gem",
+    "description": " Maximum Health",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 538,
+    "name": "GEM 656",
+    "category": "Gem",
+    "description": " Fire Damage",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 539,
+    "name": "GEM 659",
+    "category": "Gem",
+    "description": " Critical Hit Chance",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 540,
+    "name": "GEM 659",
+    "category": "Gem",
+    "description": " Fire Resistance",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 541,
+    "name": "GEM 659",
+    "category": "Gem",
+    "description": " Health Regeneration",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 542,
+    "name": "GEM 662",
+    "category": "Gem",
+    "description": "On hit: Deal  Fire damage instantly and per second, for 3 seconds",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 543,
+    "name": "GEM 662",
+    "category": "Gem",
+    "description": " increased Healing from all sources",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 544,
+    "name": "GEM 662",
+    "category": "Gem",
+    "description": " maximum Rage (Berserker Only)",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 545,
+    "name": "GEM 665",
+    "category": "Gem",
+    "description": " increased Mana on hit",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 546,
+    "name": "GEM 665",
+    "category": "Gem",
+    "description": " Mana",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 547,
+    "name": "GEM 665",
+    "category": "Gem",
+    "description": " Frost Damage",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 548,
+    "name": "GEM 668",
+    "category": "Gem",
+    "description": "On hit:  chance to apply a Chill effect, slowing foes by 50% for up to 3 seconds",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 549,
+    "name": "GEM 668",
+    "category": "Gem",
+    "description": " Frost Resistance",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 550,
+    "name": "GEM 668",
+    "category": "Gem",
+    "description": " Mana Regeneration",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 551,
+    "name": "GEM 671",
+    "category": "Gem",
+    "description": "Damage foes hit for  Frost damage instantly",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 552,
+    "name": "GEM 671",
+    "category": "Gem",
+    "description": " Absorption Barrier Effect",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 553,
+    "name": "GEM 671",
+    "category": "Gem",
+    "description": " minimum Rage (Berserker Only)",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 554,
+    "name": "GEM 674",
+    "category": "Gem",
+    "description": " Cooldown Reduction",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 555,
+    "name": "GEM 674",
+    "category": "Gem",
+    "description": " Movement Speed",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 556,
+    "name": "GEM 674",
+    "category": "Gem",
+    "description": " Lightning Damage",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 557,
+    "name": "GEM 677",
+    "category": "Gem",
+    "description": " Attack Speed",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 558,
+    "name": "GEM 677",
+    "category": "Gem",
+    "description": " Lightning Resistance",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 559,
+    "name": "GEM 677",
+    "category": "Gem",
+    "description": " Pickup Radius",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 560,
+    "name": "GEM 680",
+    "category": "Gem",
+    "description": "On hit: 25% chance to cause Chain Lightning for  Lightning damage",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 561,
+    "name": "GEM 680",
+    "category": "Gem",
+    "description": " Evasion",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 562,
+    "name": "GEM 680",
+    "category": "Gem",
+    "description": " Extra Block Chance (Templar Only)",
+    "itemTypes": "Cube Gem, Sphere Gem, Star Gem",
+    "itemCategories": "Gem"
+  },
+  {
+    "uuid": 1000,
+    "name": "Boomring",
+    "category": "Power",
+    "description": "Foes explode upon death, dealing  of their Maximum Health as Ethereal damage to all foes within 3 meters.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1001,
+    "name": "Jeopardy",
+    "category": "Power",
+    "description": "Your Critical Hit Chance is locked to 5%, and for each attack that lands a hit you gain  Critical Hit Damage for 3 seconds, until you reach 10 stacks. After reaching 10 stacks, your Critical Hit Chance is locked to 100% for 3 seconds, after which it resets.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1002,
+    "name": "Choker",
+    "category": "Power",
+    "description": "Health and Mana pickups no longer instantly restore Health and Mana. Instead each pickup increases Health Regeneration, Mana Regeneration, Health on Hit, and Mana on Hit by  for 10 seconds. Stacks 5 times and is affected by Pickup Strength.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1003,
+    "name": "Heartstone",
+    "category": "Power",
+    "description": "Increases Health by  of total Resistances, and sets all Resistances to 0.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1004,
+    "name": "Pathmakers",
+    "category": "Power",
+    "description": "Your Health Regeneration and Mana Regeneration are increased by  of your Movement Speed.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1005,
+    "name": "Extra-Ordinary",
+    "category": "Power",
+    "description": "For each item of Rare quality or lower, all your Damage Element stats are increased by .",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1006,
+    "name": "Elementium",
+    "category": "Power",
+    "description": "All your Resistances except your highest Resistance are increased by  of your highest Resistance.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1007,
+    "name": "Hurtblocker",
+    "category": "Power",
+    "description": "Using any Utility skill other than Shield Dance will also trigger Shield Dance. In addition, the effect of Shield Dance is  stronger.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1008,
+    "name": "Dodgeclaw",
+    "category": "Power",
+    "description": "Utility skills also restore  of Maximum Health and Mana.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1009,
+    "name": "Meteora",
+    "category": "Power",
+    "description": "Casting Soul Warp now pulls all nearby enemies together at your initial position and casts Meteor on them, dealing  increased damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1010,
+    "name": "Tumblespike",
+    "category": "Power",
+    "description": "Tumble, Escape, and Trapflip increase all Resistances by  for 5 seconds.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1011,
+    "name": "Fleetstride",
+    "category": "Power",
+    "description": "You become immune to spike traps, can walk through objects and foes, and cannot be slowed or immobilized.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1012,
+    "name": "Shield Maiden",
+    "category": "Power",
+    "description": "Adds  of your Block Chance to Shield skill damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1013,
+    "name": "Blessed Raiment",
+    "category": "Power",
+    "description": " damage with all Magic skills.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1014,
+    "name": "Iactus",
+    "category": "Power",
+    "description": "Shield Throw, Shield Spiral, and Shield Boomerang now has a  chance to cast Shield Spiral on hit.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1015,
+    "name": "Aegis",
+    "category": "Power",
+    "description": " chance to cast rank 5 Blessing when you block an attack. 1 second cooldown.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1016,
+    "name": "Book of Purity",
+    "category": "Power",
+    "description": "Blessing and Healing Touch also cast rank 5 Purify when cast.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1017,
+    "name": "Heart of Grace",
+    "category": "Power",
+    "description": "Grace shields for  increased health.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1018,
+    "name": "Starfell",
+    "category": "Power",
+    "description": "Reduces the cooldown of Star Fall, Shattering Shield, and Shooting Stars by .",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1019,
+    "name": "Iapetus",
+    "category": "Power",
+    "description": "Adds  increased chance for Celerity to trigger.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1020,
+    "name": "Jupiter",
+    "category": "Power",
+    "description": "Increases the range of Magnetic Orbs, Magnetic Field, and Blade Overload by .",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1021,
+    "name": "Illumine",
+    "category": "Power",
+    "description": "Holy Light, Open Heavens, and Divine Salvo deal  increased damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1022,
+    "name": "Tome of Wrath",
+    "category": "Power",
+    "description": "Avenger deals  additional damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1023,
+    "name": "Tome of Vengeance",
+    "category": "Power",
+    "description": "Wearing this Tome grants permanent Dancing Blades at max rank. In addition, the Dancing Blades may now trigger Sharp Steel on hit, based on  of damage inflicted.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1024,
+    "name": "Tome of Condemnation",
+    "category": "Power",
+    "description": "Condemnation has a  chance to cast Ember when triggered. Ember deals the same damage as the triggering Condemnation did.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1025,
+    "name": "Tome of Redemption",
+    "category": "Power",
+    "description": "Blinding Light has a  additional chance to stun.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1026,
+    "name": "Claws of Gluttony",
+    "category": "Power",
+    "description": "Hunger triggers on foes with  more Health.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1027,
+    "name": "Amp Claw",
+    "category": "Power",
+    "description": "Amplified deals  additional damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1028,
+    "name": "Wrath Claw",
+    "category": "Power",
+    "description": "Explosive Punch, Flame Roll, and Dragon Breath reset their cooldown when Explosive Manoeuvres triggers.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1029,
+    "name": "Wyrmtooth",
+    "category": "Power",
+    "description": "Frost Winds and Cooling Off have an additional  chance to trigger.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1030,
+    "name": "Bad Boys",
+    "category": "Power",
+    "description": "Boulder, Rock Pound, and Shattering Roar have an additional  range.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1031,
+    "name": "Flamers",
+    "category": "Power",
+    "description": "Dragon Burn deals an additional  of the initial damage dealt.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1032,
+    "name": "Thunder Claps",
+    "category": "Power",
+    "description": "Blessing of The Skies now also increases Lightning Damage by .",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1033,
+    "name": "Icebergs",
+    "category": "Power",
+    "description": "Shattering Cold instead releases large ice chunks dealing  increased damage and in a 2 meter radius.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1034,
+    "name": "Wrathborn",
+    "category": "Power",
+    "description": "Generate  rage per second at all times. Rage never fades.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1035,
+    "name": "Helm of Might",
+    "category": "Power",
+    "description": "Rage based passive skills are now  stronger.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1036,
+    "name": "Titan Ring",
+    "category": "Power",
+    "description": "The Knockback Chance stat increases Damage by the same percentage, but will no longer trigger knockbacks. In addition, active skills with a knockback effect no longer cause knockback, and have their base damage increased by  for each meter of knockback they normally do. Does not affect Utility skills.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1037,
+    "name": "Despair",
+    "category": "Power",
+    "description": "All attacks deal  increased damage to foes who are slowed or immobilized.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1038,
+    "name": "Quadruplets",
+    "category": "Power",
+    "description": "Summons four skull companions, each skull representing one of the four elements available in the skill trees. The skulls have  damage of their chosen element and their attacks will trigger player on-hit effects.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1039,
+    "name": "Skull Mask",
+    "category": "Power",
+    "description": "For each non-set item, Damage is increased by .",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1040,
+    "name": "Weyrick's Crown",
+    "category": "Power",
+    "description": "For each Gem socketed into worn equipment, base Health, Mana, and Damage is increased by .",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1041,
+    "name": "Royal Armor",
+    "category": "Power",
+    "description": " of your Health on Hit and Mana on Hit are now added to Health Regeneration and Mana Regeneration respectively, however both Health on Hit and Mana on Hit are removed.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1042,
+    "name": "Terra Nova",
+    "category": "Power",
+    "description": "Reduces the cooldown of Arrow Hail, Empowered Shot, and Tornado by .",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1043,
+    "name": "Marruu's Rose",
+    "category": "Power",
+    "description": "Symbiosis has a  increased effect.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1044,
+    "name": "Thunderstring",
+    "category": "Power",
+    "description": "Lightning Burns deals an additional  damage per second.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1045,
+    "name": "Stormdraw",
+    "category": "Power",
+    "description": "Hail Storm, Air Freeze, and Blast Arrow have a  increased radius.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1046,
+    "name": "Wind Razor",
+    "category": "Power",
+    "description": "Splinter deals an additional  damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1047,
+    "name": "Nature's Barbs",
+    "category": "Power",
+    "description": "The damage of Vine Shot, Bramble Vine, Bramble Storm, and Vine Blast is increased by  of the Warden's Thorns stat, and Thorns damage turns into Poison.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1048,
+    "name": "Thunderpoint",
+    "category": "Power",
+    "description": "Static jumps to up to  additional targets.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1049,
+    "name": "Snowpiercer",
+    "category": "Power",
+    "description": "Snow Blast and Hail have an additional  chance to trigger.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1050,
+    "name": "Book of Boils",
+    "category": "Power",
+    "description": "Bursting Boils has an additional  meter range.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1051,
+    "name": "Book of Duplus",
+    "category": "Power",
+    "description": "Doublecast has a  extra chance to trigger.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1052,
+    "name": "Book of Destruction",
+    "category": "Power",
+    "description": "Combustion has a  extra chance to trigger.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1053,
+    "name": "Book of Desecration",
+    "category": "Power",
+    "description": "Desecration has  increased range.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1054,
+    "name": "Frostborne",
+    "category": "Power",
+    "description": "Cold Embrace lowers the cooldown by an additional .",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1055,
+    "name": "Hellstaff",
+    "category": "Power",
+    "description": "Inferno, Meteor, and Fire Storm have  increased radius.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1056,
+    "name": "Kennerth",
+    "category": "Power",
+    "description": "Bone Splinters deals an additional  damage per second.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1057,
+    "name": "Bile Rod",
+    "category": "Power",
+    "description": "Soul Power adds an additional  damage per Soul.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1058,
+    "name": "Golden Guard",
+    "category": "Power",
+    "description": "10% chance when hit to release 3 Holy Bolts, each dealing  of your Thorns damage as Holy damage to random nearby foes.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1059,
+    "name": "Unbreakable Bond",
+    "category": "Power",
+    "description": "Reduces all damage taken by Companions by .",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1060,
+    "name": "Life Guard",
+    "category": "Power",
+    "description": "Reduces damage taken from all sources, including indirect, by .",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1061,
+    "name": "Infernal Horns",
+    "category": "Power",
+    "description": "Infernal Demon summons  additional demons.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1062,
+    "name": "Firebreather",
+    "category": "Power",
+    "description": "Dragon Breath now summons  dragons circling the Berserker.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1063,
+    "name": "Brutal Stompers",
+    "category": "Power",
+    "description": "Removes the cooldown and mana cost from Leap, Dragon Leap, Arctic Leap, and Hop.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1064,
+    "name": "Packleader",
+    "category": "Power",
+    "description": "Wolfpack also summons an Alpha Wolf of the same rank. In addition, all wolves deal  increased damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1065,
+    "name": "Forest Embrace",
+    "category": "Power",
+    "description": "Bloom reduces all damage taken by  for 5 seconds when triggered.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1066,
+    "name": "Storm Pendant",
+    "category": "Power",
+    "description": "Lightning Arrow and Thunder Orb spawns a rank  Nimbus on impact.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1067,
+    "name": "Hermes",
+    "category": "Power",
+    "description": "You become immune to both knockback and movement impairing effects.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1068,
+    "name": "Nimble",
+    "category": "Power",
+    "description": "You become immune to movement impairing effects.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1069,
+    "name": "Health Injection",
+    "category": "Power",
+    "description": "Restores  Health instantly when falling below 30% Maximum Health. 10 second cooldown.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1070,
+    "name": "Mana Injection",
+    "category": "Power",
+    "description": "Restores  Mana instantly when falling below 30% Maximum Mana. 10 second cooldown.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1071,
+    "name": "Skyshard",
+    "category": "Power",
+    "description": "Adds a 5% chance on hit to strike the foe for  of the damage dealt as Lightning damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1072,
+    "name": "Smolder",
+    "category": "Power",
+    "description": "Foes killed burn the ground, dealing  Fire damage per second for 3 seconds in a small radius.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1073,
+    "name": "Elementium Stone",
+    "category": "Power",
+    "description": "Dealing direct damage to a foe places an Elemental Attunement on them, increasing the direct damage they take by . Each element used places a separate Attunement. Lasts 7 seconds.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1074,
+    "name": "Hydra Scale",
+    "category": "Power",
+    "description": "Adds a 5% chance on being hit to increase Health Regeneration by  for 3 seconds.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1075,
+    "name": "Death List",
+    "category": "Power",
+    "description": "Adds a 10% chance on kill to raise a Skeleton Warrior that will fight for the Warlock for up to 1 minute. A maximum of  Skeletons can be controlled, and each Skeleton has 50% of the Warlock's Health, and 30% of his Shadow Damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1076,
+    "name": "Lich's Touch",
+    "category": "Power",
+    "description": "All Frost skills have a  chance on cast to also cast Curse of Doom over your target.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1077,
+    "name": "Pestilence",
+    "category": "Power",
+    "description": "Bursting Boils has an additional  chance to trigger, and the Pestilence passive skill now applies Infection instead, as if applied by the Warlock, however at 25% efficiency.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1078,
+    "name": "Hellstone",
+    "category": "Power",
+    "description": "The Warlock now has a  chance to steal Souls on hit. 0.5 seconds cooldown.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1079,
+    "name": "Band of Nature",
+    "category": "Power",
+    "description": " damage with all Nature skills.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1080,
+    "name": "Helm o' War",
+    "category": "Power",
+    "description": "All Shout skills also cast War Cry.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1081,
+    "name": "Flamebound",
+    "category": "Power",
+    "description": "All Fire skills also cast Embershield. Embershield increases Health Regeneration by  while active. This effect is tripled if the Berserker is on fire.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1082,
+    "name": "Pain Bolts",
+    "category": "Power",
+    "description": "Each time any Arrow passes through a foe because of Overdraw, the damage of the Arrow is increased by .",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1083,
+    "name": "Stormdweller",
+    "category": "Power",
+    "description": "Storm skills cost  less mana.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1084,
+    "name": "Brimstone",
+    "category": "Power",
+    "description": " damage with all Sorcery skills.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1085,
+    "name": "Vindicator",
+    "category": "Power",
+    "description": "Thorns damage is dealt as a nova, dealing  increased damage in a 2.5 meter radius. Each hit of the nova increases the damage of this effect by 3% to the foe hit, stacking infinitely.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1086,
+    "name": "Serenity",
+    "category": "Power",
+    "description": "All Archery skills attack with  increased Attack Speed.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1087,
+    "name": "Spectral Armor",
+    "category": "Power",
+    "description": " increased Evasion and Damage Reduction.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1088,
+    "name": "Crown of Justice",
+    "category": "Power",
+    "description": " increased range and effectiveness of all Auras.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1089,
+    "name": "Hardcore",
+    "category": "Power",
+    "description": "Any attack that would kill the wearer will instead restore them to  Maximum Health. This effect can only occur once per 90 seconds.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1090,
+    "name": "Ferocity",
+    "category": "Power",
+    "description": "When using any skill, there's a chance equal to  of the current missing Health percentage to instantly reset the cooldown of the skill. This chance never goes below 10%.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1091,
+    "name": "Hydrascale Boots",
+    "category": "Power",
+    "description": "Health Regeneration is increased by  of missing Health percentage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1092,
+    "name": "Kingsrock",
+    "category": "Power",
+    "description": " increased effect of all Gems.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1093,
+    "name": "Meteorite Ring",
+    "category": "Power",
+    "description": " increased damage of all Satellite enchants.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1094,
+    "name": "Challenger's Charm",
+    "category": "Power",
+    "description": "Shrine effects are doubled, but they also always spawn a Champion.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1095,
+    "name": "Vampire Lord's Cape",
+    "category": "Power",
+    "description": "The wearer is healed for  of all mana spent or drained by enemies. Not affected by Mana Shield effects that drain Mana instead of Health.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1097,
+    "name": "Gravity",
+    "category": "Power",
+    "description": "All satellites spawn in pairs and deal  increased damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1098,
+    "name": "Icecrown",
+    "category": "Power",
+    "description": "Frost Spear is also fired from any active Frost Satellite enchants when cast. All Frost Spear Skills are now affected by Satellite Strength.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1099,
+    "name": "Health Injection Mk2",
+    "category": "Power",
+    "description": "Restores  Health instantly when falling below 30% Maximum Health. 10 second cooldown.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1100,
+    "name": "Mana Injection Mk2",
+    "category": "Power",
+    "description": "Restores  Mana instantly when falling below 30% Maximum Mana. 10 second cooldown.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1101,
+    "name": "Rahlence's Resolution",
+    "category": "Power",
+    "description": "Adds a  chance on kill to grant a random Shrine buff that lasts for 15 seconds.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1102,
+    "name": "Saboteur",
+    "category": "Power",
+    "description": "Breaking breakable objects increases Movement Speed by 1%, stacking up to  times. Effect lasts 10 seconds.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1103,
+    "name": "Mightcap",
+    "category": "Power",
+    "description": "You can now equip 2 Ultimate skills, and all Ultimate skills are  stronger.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1104,
+    "name": "Harp",
+    "category": "Power",
+    "description": "Rapid Shot, Charged Arrow, Poison Shot, and Frost Arrow shoot  arrows in a cone, and deal double damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1105,
+    "name": "Phantom",
+    "category": "Power",
+    "description": "Sword skills launch a Phantom Blade on attack, dealing  of the used skill's damage to all foes in a straight line. The Blade is of the same element as the skill used, and may trigger other on-hit effects.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1106,
+    "name": "Death Speaker",
+    "category": "Power",
+    "description": "All Curses that do not have a damage over time effect now deal an additional  of the total remaining damage of all curse damage over time effects on that foe. Hand of Death, Blood Curse, and Flesh Rot now stack infinitely.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1107,
+    "name": "Face Breakers",
+    "category": "Power",
+    "description": "Each attack adds a stack of Face Breaking, storing 40% of the damage of the attack. At  stacks, the total damage is added to all attacks for 3 seconds.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1108,
+    "name": "Pure Energy",
+    "category": "Power",
+    "description": "Maximum Mana is increased by .",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1109,
+    "name": "Entity's Eccentricity",
+    "category": "Power",
+    "description": "Satellites now deal direct damage, triggering on-hit effects. In addition, satellite damage is increased by .",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1110,
+    "name": "Armor of Retribution",
+    "category": "Power",
+    "description": "The damage of Soul Purge is multiplied by Light Radius.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1111,
+    "name": "Battle Boots",
+    "category": "Power",
+    "description": "Mobility Skills increase Damage Reduction by  for 7 seconds when used.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1112,
+    "name": "Unwavering Loyalty",
+    "category": "Power",
+    "description": "Companions gain  increased Evasion and Attack Speed.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1114,
+    "name": "Lusombra's Path",
+    "category": "Power",
+    "description": " of Shadow Resistance is added to Holy Damage, however this bonus does not interact with other elements.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1115,
+    "name": "The Dancing Maiden",
+    "category": "Power",
+    "description": "Hearty Dance also casts War Dance and Shield Dance.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1116,
+    "name": "The Elven Ranger",
+    "category": "Power",
+    "description": "Archery Skills cost  less mana, have  less cooldown, and deal  increased damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1117,
+    "name": "Acrobat's Slippers",
+    "category": "Power",
+    "description": "Tumble, Escape, Agility, and Sprint have their cooldown and mana cost reduced by .",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1118,
+    "name": "Boots of The Snow Elf",
+    "category": "Power",
+    "description": "Winter Blast no longer has a knockback effect, and casts Flash Freeze when landing.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1119,
+    "name": "Trapper's Boots",
+    "category": "Power",
+    "description": "Trapflip and Lay Traps deal  increased damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1120,
+    "name": "Winter's Coming",
+    "category": "Power",
+    "description": "Winter increases Frost damage by an additional  and applies Winter's Chill to all foes within 5 meters when triggered.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1121,
+    "name": "Druid's Scroll of Storms",
+    "category": "Power",
+    "description": "Storm Skills attack with  increased Attack Speed.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1122,
+    "name": "Blazing Stride",
+    "category": "Power",
+    "description": "While moving, increases the damage of Blaze by  of Movement Speed every half second, stacking 10 times. Fades away slowly while not moving.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1123,
+    "name": "Murmur",
+    "category": "Power",
+    "description": "10% chance on being hurt to cast a random Curse at the attacker, and all Curses last  longer.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1124,
+    "name": "Jotunhelm",
+    "category": "Power",
+    "description": " of Health Regeneration is converted into Damage, however all Health Regeneration is removed.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1125,
+    "name": "The Bone Spear",
+    "category": "Power",
+    "description": "Bone Spears instead fires  piercing Bone Spears in a cone forwards, dealing Thorns damage as direct damage, but no longer pulling foes towards the Warlock. In addition, it no longer has a cooldown.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1126,
+    "name": "The Boomstick",
+    "category": "Power",
+    "description": "Combustion deals  increased damage for each remaining second of Flaming Hells. ",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1127,
+    "name": "The Darkwalkers",
+    "category": "Power",
+    "description": "Soul Warp no longer consumes any Souls, and always acts as if consuming the max amount. ",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1128,
+    "name": "Demonology",
+    "category": "Power",
+    "description": "Imps, Little Devils, and Infernal Demon have their base damage increased by  of the Warlock's bonus damage to Demons. ",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1129,
+    "name": "Static Echoes",
+    "category": "Power",
+    "description": "Soul Avatar and Soul Replication deal  increased damage for each active Static Overload orb. ",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1130,
+    "name": "Jon's Book of Souls",
+    "category": "Power",
+    "description": " Maximum Souls. Souls stolen while already at Maximum Souls will now hover around the Warlock until the Warlock has room to hold more Souls or there are 5 Souls hovering. ",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1131,
+    "name": "Robe of Corruption",
+    "category": "Power",
+    "description": "Health Regeneration is increased by  for each application of Infection on all foes within 7 meters. ",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1132,
+    "name": "Iceheart",
+    "category": "Power",
+    "description": "Frozen Veil can stack one more time per Soul held.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1133,
+    "name": "The Art of Combat",
+    "category": "Power",
+    "description": "All Base Skills attack in  directions.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1134,
+    "name": "Frostborn Heirloom",
+    "category": "Power",
+    "description": "Rage Release no longer deals damage and instead provides a protective barrier, shielding the Berserker for 1% of his Maximum Health for every 3 Rage consumed by the skill. Barrier lasts  seconds or until broken.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1135,
+    "name": "Staggering Boots",
+    "category": "Power",
+    "description": " of damage taken is staggered and dealt over 3 seconds, at a 30% damage reduction.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1136,
+    "name": "Hound Whistle",
+    "category": "Power",
+    "description": "Grants a friendly Hellhound companion with  Fire damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1137,
+    "name": "Mollug's One Ring",
+    "category": "Power",
+    "description": "Grants an annoying Goblin companion (whether you like it or not) with  Physical damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1138,
+    "name": "Soulblade",
+    "category": "Power",
+    "description": "Adds a 5% chance on attack to summon a random Ghost companion with  Lightning damage. Companion lasts for 15 seconds.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1139,
+    "name": "Knowledge",
+    "category": "Power",
+    "description": "Adds  Bonus Experience on each kill, stacking up to 100 times and lasts until an item of Unique or higher quality drops.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1140,
+    "name": "Windflurry",
+    "category": "Power",
+    "description": "Double Draw now triggers from Storm skills, shooting Gusts instead of arrows. Double Draw also has a  additional chance to trigger.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1141,
+    "name": "Finned Arrow",
+    "category": "Power",
+    "description": "Seeking Arrow strikes an addtional  times and deals 40% increased damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1142,
+    "name": "Advancing Army",
+    "category": "Power",
+    "description": " of Movement Speed is added to Companion Damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1144,
+    "name": "Supernova",
+    "category": "Power",
+    "description": "All Nova skills deal  increased damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1145,
+    "name": "Tear of The Arch Druid",
+    "category": "Power",
+    "description": "All on hit: damage enchants such as Chain Lightning, Burn, Smite, etc. deal  increased damage. Does not affect passive skills.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1146,
+    "name": "Star of The Pure",
+    "category": "Power",
+    "description": " Absorption Barrier Effect",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1147,
+    "name": "Thorn Ring",
+    "category": "Power",
+    "description": " Thorns.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1148,
+    "name": "Ragnarok Guard",
+    "category": "Power",
+    "description": "Stoneskin also applies Dragonscales, and the effect of both skills is increased by ",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1149,
+    "name": "Molten Medallion",
+    "category": "Power",
+    "description": "Lava Blood deals  increased damage for every 16 points of Mana Regeneration.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1150,
+    "name": "Vestige of Lost Souls",
+    "category": "Power",
+    "description": "Drains 15% of Maximum Mana every 5 seconds to create a protective barrier absorbing damage equal to  times the mana drained. A new barrier is only created if it is stronger than the current one.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1151,
+    "name": "Wolf Tooth Necklace",
+    "category": "Power",
+    "description": "Alpha Wolf and Wolfpack now cause a stacking bleed effect when dealing damage. The bleed damages for 100% of the damage dealt, per second, for 5 seconds. In addition, Alpha Wolf and Wolfpack deal  increased damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1152,
+    "name": "Firelord's Amulet",
+    "category": "Power",
+    "description": "Hell Caller can now be triggered by any fire skill, and Demonic Appetite is  stronger if not having any active Companion Skills.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1153,
+    "name": "Loaded Bolts",
+    "category": "Power",
+    "description": "Splinter triggered from Double Draw now deal triple damage. Double Draw also deals  increased damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1154,
+    "name": "Call of the Wild",
+    "category": "Power",
+    "description": "All of the Warden's companion skills that summon 2 or more companions summon  additional companions.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1155,
+    "name": "Gaia",
+    "category": "Power",
+    "description": "For each active companion, Damage is increased by .",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1156,
+    "name": "Heart of the Forest",
+    "category": "Power",
+    "description": "Reduces the base cooldown of all skills by , and increases their base cost by twice as much.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1157,
+    "name": "Thistle Thorn",
+    "category": "Power",
+    "description": "Nature Skills attack with  increased Attack Speed.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1158,
+    "name": "Lucilla's Vision",
+    "category": "Power",
+    "description": "100% of overhealing received from Health on Hit is turned into damage. The effect lasts 7 seconds and stacks up to  of Maximum Health.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1159,
+    "name": "Tenacious Defender",
+    "category": "Power",
+    "description": "Every third Cleave attack also casts rank 5 Shield Spiral. In addition, the radius of Cleave is increased by . This sword also counts as a shield and allows blocking.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1160,
+    "name": "Captain's Shield",
+    "category": "Power",
+    "description": "Phantom Shield deals  increased damage when triggered from a Shield skill cast.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1161,
+    "name": "Nemesis",
+    "category": "Power",
+    "description": "Adds 0. to Thorns for every point of Health, Mana, and Damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1162,
+    "name": "Deceiver's Tongue",
+    "category": "Power",
+    "description": "Curse skills attack  faster, cost  less mana, and deal  increased base damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1163,
+    "name": "Splinter Skull",
+    "category": "Power",
+    "description": "Bone Splinters may now be triggered from any Bone skill. In addition, all Bone skills deal  increased damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1164,
+    "name": "Gritstone",
+    "category": "Power",
+    "description": "Stoneskin now provides immunity to poison and bleed effects while active. In addition, all Stone skills deal  increased damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1165,
+    "name": "Balgar's Binding",
+    "category": "Power",
+    "description": "Damage is increased by  of the currently held Staggered Damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1166,
+    "name": "Council's Gavel",
+    "category": "Power",
+    "description": "Blade Conjuration skills now count as Hammer skills and will conjure great hammers instead of blades. In addition, all Hammer skills deal an increased  damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1167,
+    "name": "Spooky",
+    "category": "Power",
+    "description": "Spooky",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1168,
+    "name": "Dragonring",
+    "category": "Power",
+    "description": "Damage taken from burn effects now triggers Molten Veins. Molten Veins' damage is increased by  for each percentage of health lost from any damage taken that triggers the effect.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1169,
+    "name": "Hydraloop",
+    "category": "Power",
+    "description": " chance on attack to cast rank 5 Magma Hydra, dealing fire damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1170,
+    "name": "Ring of Blades",
+    "category": "Power",
+    "description": "Dancing Blades now attack the target of any Blade Conjuration skills used by the Templar by mimicking the skill at  efficiency in addition to their own attacks. The mimicked skills use the companions' own stats and bonuses instead of the Templar's.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1171,
+    "name": "Hammerblade",
+    "category": "Power",
+    "description": "5% chance on attack to cast rank 5 Hammer Storm in the element of the triggering skill. In addition, Hammer skills deal  increased damage and attack  faster.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1172,
+    "name": "Elegance",
+    "category": "Power",
+    "description": "When evading an attack, there is a 10% chance to spawn a Health or Mana pickup. Adds  to Evasion.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1173,
+    "name": "Lone Ranger",
+    "category": "Power",
+    "description": "Archery, Storm, and Nature skills deal  increased damage per meter distance to the foe hit, however this requires that the Warden has no active companions.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1174,
+    "name": "Hazard",
+    "category": "Power",
+    "description": "Standing in hostile ground effects triggers Health on Hit. Take  less damage from Ground Effects.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1175,
+    "name": "The Thumper",
+    "category": "Power",
+    "description": "Grants a Sandworm companion with  Physical damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1176,
+    "name": "Fang of Alucard",
+    "category": "Power",
+    "description": "Health on Hit is  more effective.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1177,
+    "name": "Ancient Bone",
+    "category": "Power",
+    "description": "Bone Skills deal  increased damage. (Warlock only)",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1178,
+    "name": "Skull of Harlon",
+    "category": "Power",
+    "description": "Projectile skills have  increased range and damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1179,
+    "name": "Eye of Hazioxth",
+    "category": "Power",
+    "description": "Reveal all invisible foes within  meters.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1180,
+    "name": "Molten Skin Boots",
+    "category": "Power",
+    "description": "Ground Effect Skills deal  increased damage and last  longer.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1181,
+    "name": "Ring of Hunger",
+    "category": "Power",
+    "description": "Mana Regeneration is increased by  for each foe within 7 meters. Bosses count as 15 foes.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1182,
+    "name": "Shizbuk's Tail",
+    "category": "Power",
+    "description": "Provoke and pull a random nearby foe when attacking.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1183,
+    "name": "Stone of Tephra",
+    "category": "Power",
+    "description": "Thrown skills and Stone (Berserker) skills deal  increased damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1184,
+    "name": "Fungimancer's Loop",
+    "category": "Power",
+    "description": "Fungi skills deal  increased damage. Spores spawned from Fungi skills are twice as strong.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1185,
+    "name": "Grimm",
+    "category": "Power",
+    "description": "Bane spells deal  increased damage for every 5% Reach.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1186,
+    "name": "Simulacra",
+    "category": "Power",
+    "description": "Sorcery spells are sometimes duplicated by a magical clone of the Warlock, casting from a random nearby location towards the same target, for  increased damage. 25% chance to cast.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1187,
+    "name": "Death's Bond",
+    "category": "Power",
+    "description": "Curse of Woe, Curse of Terror, and Curse of Reckoning are now all cast once per second at the Warlock's location. The Warlock only needs to equip one of these skills to gain the effect of all of them. In addition, these skills deal  increased damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1188,
+    "name": "Haymaker",
+    "category": "Power",
+    "description": "Brawl skills have a 50% chance to strike up to 2 additional times at random nearby enemies for  increased damage. Mobility skills are unaffected.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1189,
+    "name": "Moe's Fury",
+    "category": "Power",
+    "description": "Fists of Fury now throws fists, traveling up to 7 meters. Fists of Fury also deals  increased damage and is considered a Thrown skill.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1190,
+    "name": "Screaming Skull",
+    "category": "Power",
+    "description": "Screaming Skull no longer spirals the Warlock and instead bounces up to  times between foes.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1191,
+    "name": "The Last Word",
+    "category": "Power",
+    "description": "Shout skills deal up to  increased damage the closer the foes are to the Berserker. In addition, Shout skills have 50% increased range.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1192,
+    "name": "Aspect of the Ethereal",
+    "category": "Power",
+    "description": "All on hit: damage enchants such as Chain Lightning, Burn, Smite, etc. apply a debuff dealing the same amount of damage per second as Ethereal, stacking infinitely and lasting 7 seconds. This does not affect passive skills or thorns.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1193,
+    "name": "Contra",
+    "category": "Power",
+    "description": "Each time a foe is struck by a Shield skill they suffer  increased damage from all Shield skills, stacking infinitely.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1194,
+    "name": "Venerata",
+    "category": "Power",
+    "description": "Magic skills attack  faster and have 25% chance to doublecast.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1195,
+    "name": "Ancient Claw of The Firstborn",
+    "category": "Power",
+    "description": "Dragon skills attack  faster, have  less cooldown, and last  longer.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1196,
+    "name": "Prayer Beads",
+    "category": "Power",
+    "description": "While still, Auras have  increased range. While moving, Auras have  increased effect & damage. These effects fade over 3 seconds and may overlap.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1197,
+    "name": "Talisman of Spines",
+    "category": "Power",
+    "description": "For each assigned skill that is Utility, Ultimate, Companion, Aura, Heritage, Ritual, or Tech, thorns is increased by .",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1198,
+    "name": "Crown of Innate Probability",
+    "category": "Power",
+    "description": "All Skills with any chance effects, proc rates, etc, have a  increased chance to trigger.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1199,
+    "name": "Mantle of the Dragonkin",
+    "category": "Power",
+    "description": "For each nearby foe, maximum rage is increased by 3. Rage-based passive skills are  stronger. Bosses count as 15 foes.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1200,
+    "name": "Multishot",
+    "category": "Rune",
+    "description": "Multi Shot, Scatter Shot, and Volley fire  additional arrows/fragments.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1201,
+    "name": "Slicing",
+    "category": "Rune",
+    "description": "Slice, Charge, and Tackle, moves only half the distance, and mana cost and cooldown is reduced by .",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1202,
+    "name": "Rage Smash",
+    "category": "Rune",
+    "description": "Rock Smash consumes up to  Rage when used, increasing its base damage by 2% per point of Rage consumed.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1203,
+    "name": "Cursed Blood",
+    "category": "Rune",
+    "description": "Living Blood is  stronger when spawned from foes affected by Blood Curse.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1204,
+    "name": "Magnetic Flurry",
+    "category": "Rune",
+    "description": "While Flurry is active in a slot, Magnetic Blades, Magnetic Orbs, and Magnetic Field have their tick rate increased by  of Attack Speed.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1205,
+    "name": "Mega Charged",
+    "category": "Rune",
+    "description": "Charged Up increases Damage by an additional .",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1206,
+    "name": "Boomspore",
+    "category": "Rune",
+    "description": "Boom Shrooms will instantly burst any Shrooms spawned from Spores when cast. The Shrooms will burst regardless of growth stage and deal  increased damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1207,
+    "name": "Infinite Ruin",
+    "category": "Rune",
+    "description": "Ruin now stacks infinitely. Foes affected by Ruin also suffer  increased damage from Cold Death.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1208,
+    "name": "Scorching Blaze",
+    "category": "Rune",
+    "description": "Scorch now always triggers Flare, and Blaze is  stronger when triggered from Scorch.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1209,
+    "name": "Dragon Stomp",
+    "category": "Rune",
+    "description": "Dragon Stomp now interrupts attacks and stuns foes for up to  seconds.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1210,
+    "name": "Chained Focus",
+    "category": "Rune",
+    "description": "All Chained skills now deal  of the total remaining damage spread across all foes struck if the effect ends before performing all jumps.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1211,
+    "name": "Demonic Fury",
+    "category": "Rune",
+    "description": "Demonic Fury has a  additional base damage and increased chance to trigger for each active companion.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1212,
+    "name": "Storming Hammers",
+    "category": "Rune",
+    "description": "Hammer Storm has a  chance on each foe hit to spawn an additional hammer.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1213,
+    "name": "Infinite Rolls",
+    "category": "Rune",
+    "description": "The cooldown of Dive, Flame Roll, and Glacial Roll is reduced by .",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1214,
+    "name": "Shardstorm",
+    "category": "Rune",
+    "description": "Ice Shard has a  chance to also cast Winter Storm on itself.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1215,
+    "name": "Reaping",
+    "category": "Rune",
+    "description": "Life Reap no longer has a cooldown and deals  increased damage for each Curse of Woe, Curse of Terror, or Curse of Reckoning the foe is affected by.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1216,
+    "name": "Blazing Hammers",
+    "category": "Rune",
+    "description": "Holy Fire now casts  fire versions of Hammer Storm on each tick instead of dealing damage in a radius. Holy Fire is now also considered a Hammer skill.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1217,
+    "name": "Phantom Shield",
+    "category": "Rune",
+    "description": "Phantom Shield bounces up to  additional times.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1218,
+    "name": "Barbed Revenge",
+    "category": "Rune",
+    "description": "Revenge now bases the damage of Phantom Shield on Thorns rather than the damage blocked, and will always deal the damage as Physical, regardless of thorns element.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1219,
+    "name": "Static Repulse",
+    "category": "Rune",
+    "description": "Repulse, Revert, and Magnetic Lock now also destroy all Static Overload orbs when used, causing them to burst, dealing  of their damage to all foes within twice their damage radius.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1220,
+    "name": "The Living Forest",
+    "category": "Rune",
+    "description": "Treant Guard also summons Treant Strider, and the other way around. In addition, both companions have their damage and thorns stats increased by .",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1221,
+    "name": "Bramble Burst",
+    "category": "Rune",
+    "description": "Vine Blast, Vine Shot, Bramble Storm, and Bramble Vine have a  chance to cause any Pods on foes hit to burst.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1222,
+    "name": "Thorn Veil",
+    "category": "Rune",
+    "description": "Root Veil also increases Thorns by  while active.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1223,
+    "name": "Split Thunder",
+    "category": "Rune",
+    "description": "Thunder Orb now splits into 3 smaller orbs on impact, each dealing  of the orb's damage in half of its radius. One of the orbs will attempt to target a random nearby foe, whereas the others will move randomly.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1226,
+    "name": "Poison Trees",
+    "category": "Rune",
+    "description": "Treant Guard and Treant Strider may now trigger the Unknown Skill Mastery Perk at  efficiency on themselves, provided that they also have the Thorny passive skill.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1227,
+    "name": "Light's Aura",
+    "category": "Rune",
+    "description": "Prayer, Hymn, and Plea now restore 1% of Maximum Health per second and increase Light Radius by .",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1228,
+    "name": "Hallowed Grace",
+    "category": "Rune",
+    "description": "Grace may now be triggered when receiving Healing. The effect of the Grace barrier is also increased by Healing Taken. Adds x the strength of the Templar's current barriers to the base damage of Hallowed.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1229,
+    "name": "Hydrarage",
+    "category": "Rune",
+    "description": "Magma Hydra now attaches itself to the back of the Berserker, and deals 1% increased damage for each point of Rage. Magma Hydra also has its duration increased by  seconds, but is limited to a single instance.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1230,
+    "name": "Embershield",
+    "category": "Rune",
+    "description": "Embershield may now trigger on-hit effects and increases Mana Regeneration by  while active.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1231,
+    "name": "Companion Mobility",
+    "category": "Rune",
+    "description": "All companions gain the Warping affix.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1232,
+    "name": "Lethal Mobility",
+    "category": "Rune",
+    "description": "Mobility Skills increase the damage of all non-Mobility Skills used in the next 7 seconds by .",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1233,
+    "name": "Shattering Impact",
+    "category": "Rune",
+    "description": "Leap and Take Down cause Earthshatter of the same rank on impact.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1234,
+    "name": "Dragonthorn",
+    "category": "Rune",
+    "description": "Thorns damage turns into Lightning, and taking damage spawns a Dragon Soul using  of Thorns as its base damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1235,
+    "name": "Hard Knocks",
+    "category": "Rune",
+    "description": "The cooldown of Take Down, Explosive Punch, and Thunder Punch is reduced by .",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1236,
+    "name": "Released Heritage",
+    "category": "Rune",
+    "description": "Rage Release increases Heritage Effect by 5% for 5 seconds after triggering, stacking up to  times.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1237,
+    "name": "Ravenous Winds",
+    "category": "Rune",
+    "description": "Increases the tick rate of Frost Winds by  of Attack Speed.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1238,
+    "name": "The Fierce Avenger",
+    "category": "Rune",
+    "description": "Avenger always lands a critical hit, and deals  increased damage while the Templar is moving.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1239,
+    "name": "Critical Thorns",
+    "category": "Rune",
+    "description": "Critical hits increase Thorns by  for 7 seconds, stacking 15 times.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1240,
+    "name": "Chilled Blood",
+    "category": "Rune",
+    "description": "Chilled foes suffer  increased damage from bleed effects.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1241,
+    "name": "Infected Wounds",
+    "category": "Rune",
+    "description": "Bleeding foes suffer  increased damage from poison effects.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1242,
+    "name": "Winter's Chill",
+    "category": "Rune",
+    "description": "Winter's Chill is applied to all foes within  meters when casting any Frost skill.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1243,
+    "name": "Ritual of Desecration",
+    "category": "Rune",
+    "description": "Ritual of Souls increases the damage of Desecration by  while active in a slot.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1244,
+    "name": "Exoskeleton",
+    "category": "Rune",
+    "description": "Exoskeleton also adds  Thorns for each stack of Masochism, and Thorns damage is now dealt as a bone nova to all foes within 7 meters while Exoskeleton is active.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1245,
+    "name": "The Reckoning Hand",
+    "category": "Rune",
+    "description": "Hand of Death applies Curse of Reckoning to all foes hit, and foes afflicted by Curse of Reckoning instead suffer  increased Thorns damage from the Warlock.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1246,
+    "name": "Warped Banes",
+    "category": "Rune",
+    "description": "Soul Warp also casts either Bane of the Dead, Fire Nova, Frost Nova, or Bone Spears at max rank when landing. The Warlock's highest Elemental damage decides the skill cast.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1247,
+    "name": "Foul Demon",
+    "category": "Rune",
+    "description": "All active Imps and Little Devils are sacrificed, adding  of their total combined Health and Damage to Infernal Demon.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1248,
+    "name": "Rapid Plague",
+    "category": "Rune",
+    "description": "Plague now strikes faster, based on  of the Warlock's attack speed, but is limited to a single instance.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1249,
+    "name": "Shattered Spirits",
+    "category": "Rune",
+    "description": "When triggered, Corpse Shatter spawns  Spirit of Torment based on its damage. ",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1250,
+    "name": "Wisp Blast",
+    "category": "Rune",
+    "description": "Shock Orb and Storm Orbs are also fired from any active Wisp when cast. The skill will target what the Wisp targets. ",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1251,
+    "name": "Burning Lightning",
+    "category": "Rune",
+    "description": "Burning foes suffer  increased damage from Lightning attacks ",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1252,
+    "name": "Greater Hail",
+    "category": "Rune",
+    "description": "Hail has a  chance to create a Greater Hail, dealing damage in a 2 meter radius. ",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1253,
+    "name": "Trap Throw",
+    "category": "Rune",
+    "description": "Lay Traps now throws a single trap at the target foe rather than laying them on the ground. The trap deals  increased damage to a  wider radius. In addition, the element of the trap matches the highest bonus element stat. Lay Traps now counts as a Thrown skill.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1254,
+    "name": "Advanced Toxicology",
+    "category": "Rune",
+    "description": "Mushrooms spawned from Fairy Ring and Toxicology now stack their poison effects infinitely and the effects last  longer.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1255,
+    "name": "Pulverize",
+    "category": "Rune",
+    "description": "Stonefist deals  increased damage. If a Crowned foe is within its damage radius, Stonefist will strike for triple damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1256,
+    "name": "Boulderfist",
+    "category": "Rune",
+    "description": "Boulder now fires a rapid moving fist rather than rolling a slow boulder. The fist deals the combined damage of Boulder and Stonefist and no longer cause knockback. In addition, the base cooldown of Boulder is reduced by .",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1257,
+    "name": "Retaliating Companions",
+    "category": "Rune",
+    "description": "Companions are granted Thorns equal to  of their Maximum Health.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1258,
+    "name": "Rapid Pyre",
+    "category": "Rune",
+    "description": "Pyre now lasts 1.5 seconds but spews as many Embers as if lasting  seconds.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1259,
+    "name": "Bloodscent",
+    "category": "Rune",
+    "description": "Companions deal  increased damage to bleeding foes.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1260,
+    "name": "Warp Echo",
+    "category": "Rune",
+    "description": "Dragon Warp creates a Warp Echo when used, which has a  chance to replicate any Shout Skills used by the Berserker. The Warp Echo lasts until Dragon Warp is used again.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1261,
+    "name": "Great Storms",
+    "category": "Rune",
+    "description": "Tornado, Toxic Storm, Thunder Storm, and Hail Storm have their tick rates increased by  of the Warden's Attack Speed.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1262,
+    "name": "Assertion",
+    "category": "Rune",
+    "description": "All doublecast passive skills have a  increased chance to trigger.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1263,
+    "name": "Simplicity",
+    "category": "Rune",
+    "description": "All Base Skills deal  increased damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1264,
+    "name": "Grand Reprisal",
+    "category": "Rune",
+    "description": "The passive effect of Reprisal, Retribution and Retaliation is increased by .",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1265,
+    "name": "The Dragon Flame",
+    "category": "Rune",
+    "description": "Embershield, Flame Roll, and Flamewrath deal  increased damage and have no cooldown. However, these skills apply a burn effect to the Berserker, dealing 1% of his total health per second, stacking 10 times. Burn lasts 7 seconds.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1266,
+    "name": "Potency",
+    "category": "Rune",
+    "description": "All Active skills deal  increased damage for each percentage of Mana they cost to cast.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1267,
+    "name": "Frozen Graves",
+    "category": "Rune",
+    "description": "Foes affected by Frozen Fate with less than 30% remaining health have a 0. chance per missing health percentage to instantly die and cause Corpse Shatter when struck by a frost skill.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1268,
+    "name": "The Devouring Star",
+    "category": "Rune",
+    "description": "Deathly Barrage now only spawns a single powerful star with the damage of the original number of stars combined. This new star periodically absorbs any Frigid Star within 4 meters, refreshing its own duration and gaining  of the absorbed spell's damage. In addition, Deathly Barrage lasts 3 seconds longer.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1269,
+    "name": "Wolfcaster",
+    "category": "Rune",
+    "description": "Air Freeze and Ice Shard now summon charging wolves instead. Ice Shard summons a single charging Alpha Wolf, and Air Freeze summons multiple charging Wolfpack wolves. The Wolves dissolve after charging a short distance and will damage anything they touch. Their damage is based on  of Alpha Wolf and Wolfpack's listed damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1270,
+    "name": "Swelling Pods",
+    "category": "Rune",
+    "description": "Pods no longer deal damage in a radius when bursting, and instead adds  stacks to itself. The base damage of Pods is also doubled.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1271,
+    "name": "Norla's Gale",
+    "category": "Rune",
+    "description": "Gale now orbits the Warden and lasts for 7 seconds. Each cast refreshes the duration. Any Gust or Tornado cast will also spawn from each Gale, and deal  increased damage. Any Tornado cast beyond its cap will increase the damage of all active Tornado by 10% and refresh their duration.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1272,
+    "name": "Barraging Acrobatics",
+    "category": "Rune",
+    "description": "Volley is now automatically performed when using Tumble or Escape, and deals  increased damage. However, it is no longer nearly as accurate and will spread arrows in all directions.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1273,
+    "name": "Mega Wisp",
+    "category": "Rune",
+    "description": "Unknown Skill is  stronger and Empowered Wisp stacks 10 more times.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1274,
+    "name": "Sparking Static",
+    "category": "Rune",
+    "description": "For each active Sparkies, Static deals  increased total damage, including Stormcaller's Regalia Set bonuses.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1275,
+    "name": "The Bombardier",
+    "category": "Rune",
+    "description": "Bombardment skills deal  increased damage for each second of duration, however their base durations are halved. Bombardment skills without any duration are treated as if having a 3 second duration for this effect.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1276,
+    "name": "Relentless Assault",
+    "category": "Rune",
+    "description": "Assault skills no longer cost any mana, restore 3% mana on use, and have their cooldowns reduced by .",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1277,
+    "name": "The Sentry",
+    "category": "Rune",
+    "description": "Sentry skills deal  increased damage and last  longer, but have their damage radius halved.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1278,
+    "name": "Total Armageddon",
+    "category": "Rune",
+    "description": "Armageddon has  additional chance to trigger.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1279,
+    "name": "Instant Combustion",
+    "category": "Rune",
+    "description": "Detonation no longer deals damage and instead triggers Combustion on all foes affected by Flaming Hells. In addition, Combustion deals  increased damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1280,
+    "name": "Putrefying Poisons",
+    "category": "Rune",
+    "description": "All Corruptor skills now apply both Blood Curse and Flesh Rot at max rank to all foes struck. These effects also deal  increased damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1281,
+    "name": "Blood Explosion",
+    "category": "Rune",
+    "description": "Casting Poison Nova will make any Living Blood (or Clots) instantly explode for  increased damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1282,
+    "name": "Rage Peak",
+    "category": "Rune",
+    "description": "Glacier now exhausts all rage when cast, increasing its damage by  per 5 points of rage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1283,
+    "name": "Winter Rage",
+    "category": "Rune",
+    "description": "Glacial Roll, Arctic Leap, and Frigid Roar generate twice as much rage on hit, and deal  increased damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1284,
+    "name": "The Blue Bolt",
+    "category": "Rune",
+    "description": "Dive and Hop casts Dragon Storm at rank 5 when used. Dragon Storm deals  increased damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1285,
+    "name": "Soulstorm",
+    "category": "Rune",
+    "description": "Dragon Soul spawned from Dragon Storm or Storm Fists deal  increased damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1286,
+    "name": "Bouncing Throws",
+    "category": "Rune",
+    "description": "Thrown skills that are thrown in an arc and hit the ground may now bounce up to  times, moving a short distance and dealing damage on each bounce.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1287,
+    "name": "Splitting Throws",
+    "category": "Rune",
+    "description": "Thrown skills that are not thrown in an arc may now split, throwing up to  additional copies of themselves in random directions.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1288,
+    "name": "Ancestral Rage",
+    "category": "Rune",
+    "description": "All rage-based passive skills & Heritage effects now always give a minimum of  of the effect, regardless of current rage level.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1289,
+    "name": "Targeted Destruction",
+    "category": "Rune",
+    "description": "Destructive Manoeuvres now attempts to target a random enemy within range, and will apply a stacking burn effect to all foes struck, dealing  of the damage dealt, per second, for 5 seconds.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1290,
+    "name": "Holy Chains",
+    "category": "Rune",
+    "description": "Cinderblast and Holy Bolt are now Chained skills, dealing  increased damage and jumping up to 4 times.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1291,
+    "name": "Provocation",
+    "category": "Rune",
+    "description": "Foes affected by Taunt take  increased damage from the Templar.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1292,
+    "name": "Polished Gems",
+    "category": "Rune",
+    "description": "All gems provide  to elemental damage in their respective elements, regardless of shape or quality.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1293,
+    "name": "Holy Expulsion",
+    "category": "Rune",
+    "description": "Expulsion deals  increased damage when triggered from Holy Nova hits.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1294,
+    "name": "Thundering Avatars",
+    "category": "Rune",
+    "description": "Soul Avatar has  increased Attack Speed and Cooldown Reduction on its attacks, and summons an additional Avatar.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1295,
+    "name": "Brutal Attacks",
+    "category": "Rune",
+    "description": "Damage is increased by  for each percentage Attack Speed below 150%. Any percentage below 100% Attack Speed grants twice this bonus.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1296,
+    "name": "Greatness",
+    "category": "Rune",
+    "description": "Greater Rune cap is increased by 1.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1297,
+    "name": "The Storm Killer",
+    "category": "Rune",
+    "description": "When Razor Wind is cast on Tornado, the Tornado explodes dealing  of the total remaning damage instantly in a 5 meter radius. This consumes the Tornado.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1298,
+    "name": "Blade Celerity",
+    "category": "Rune",
+    "description": "Each trigger of Celerity summons a single Dancing Blades which lasts 7 seconds. Max  blades can be summoned from this effect.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1299,
+    "name": "Molten Nova",
+    "category": "Rune",
+    "description": "Molten Fragmentations is now a Nova skill and deals  increased damage in all directions.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1300,
+    "name": "Blocking",
+    "category": "Rune",
+    "description": " Block Chance & Damage Blocked. The item this rune is attached to is also considered being a Shield.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1301,
+    "name": "Mega Horde",
+    "category": "Rune",
+    "description": "Horde is  more effective.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1302,
+    "name": "Perforation",
+    "category": "Rune",
+    "description": "Ritual of Perforation also increases the damage of all Projectile skills by  while active in a slot.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1303,
+    "name": "Demonkin",
+    "category": "Rune",
+    "description": "While there is a living Infernal Demon, Demon Spawn (ultimate) is also active.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1304,
+    "name": "Rune Slot",
+    "category": "Rune",
+    "description": "This slot can be replaced with any fitting Rune.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1305,
+    "name": "Improved Ammo",
+    "category": "Rune",
+    "description": "Skills that consume Ammo are  stronger.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1306,
+    "name": "Whirligig",
+    "category": "Rune",
+    "description": "Flame Whirl, Poison Whirl, and Vortex Strike move  shorter, allowing more frequent hits.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1307,
+    "name": "MAD Protocols",
+    "category": "Rune",
+    "description": "When Summon Killbot dies or despawns, it triggers a MOAB on itself rather than its default explosion.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1308,
+    "name": "Ammo Regeneration",
+    "category": "Rune",
+    "description": "Turret Skills have a  chance to generate Ammo when firing.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1309,
+    "name": "Flammable Gas",
+    "category": "Rune",
+    "description": "Using any damaging fire skill now detonates all foes within range of an active Poison Gas, dealing  of Poison Gas' damage in a 3 meter radius around the foe.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1310,
+    "name": "Over-engineering",
+    "category": "Rune",
+    "description": "Tech skills are  stronger.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1311,
+    "name": "Pandora's Turret",
+    "category": "Rune",
+    "description": "Using any Turret skill will also cast a random other Turret skill of the same rank.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1312,
+    "name": "Loaded Bombs",
+    "category": "Rune",
+    "description": "Bomb skills are loaded with Ammo, consuming up to 2 Ammo and increasing the damage of the skill by  per Ammo consumed.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1313,
+    "name": "Prevention Mechanics",
+    "category": "Rune",
+    "description": "Panic Button is now automatically activated when the Mechanist falls below 30% health. Can only occur once every 3 minutes. Does not require points spent in Panic Button to function.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1314,
+    "name": "T-342",
+    "category": "Rune",
+    "description": "MOAB deals  increased damage for each active Rocket Drone, and no longer has any cooldown.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1315,
+    "name": "Improved Production",
+    "category": "Rune",
+    "description": "Bomb Bots are replaced 100% faster and deal  increased damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1316,
+    "name": "Rocketeer Bots",
+    "category": "Rune",
+    "description": "Rocket Drone now fires Rocketeer rockets instead of their regular rockets, and benefit and interact with all Rocketeer related things.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1317,
+    "name": "Focal Lens",
+    "category": "Rune",
+    "description": "Light Lance now pierces all foes in a line, rather than stopping at the first it hits. In addition, each foe hit by Light Lance suffers  increased damage from Light Lance, stacking infinitely.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1318,
+    "name": "Synchronized Blade Ejection",
+    "category": "Rune",
+    "description": "Loose Blades has a  chance to send out another blade from each active Saw Drones.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1319,
+    "name": "Extreme Precision",
+    "category": "Rune",
+    "description": "The damage radius of Precision Shot is halved and the damage is increased by .",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1320,
+    "name": "Rake",
+    "category": "Rune",
+    "description": "Rake Shot fires an additional projectile per Ammo consumed. Consumes up to  additional Ammo.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1321,
+    "name": "Parry",
+    "category": "Rune",
+    "description": " Parry.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1322,
+    "name": "Split Blades",
+    "category": "Rune",
+    "description": "Tear It Up has a  chance on hit to spawn a Rip Blade.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1323,
+    "name": "Bouncing Barrels",
+    "category": "Rune",
+    "description": "Barrels from Barrel Barrage may now bounce up to  times, dealing damage on each bounce.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1324,
+    "name": "Emergency",
+    "category": "Rune",
+    "description": "Casting Smoke Bomb also casts Backdraft and Repair Protocols.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1701,
+    "name": "Battlemaster's Cape",
+    "category": "Power",
+    "description": "All Minor Stats are increased by 1% for each foe within  meters. Bosses count as 15 foes.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1705,
+    "name": "Crown of Solitude",
+    "category": "Power",
+    "description": " damage vs. Crowned foes.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1706,
+    "name": "Primordial Rose",
+    "category": "Power",
+    "description": "Every 3 seconds, resistance to a random element is increased by  for 3 seconds.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1707,
+    "name": "Terra's Binding",
+    "category": "Power",
+    "description": " to all Resistances and all Elements.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1708,
+    "name": "Rimeheart",
+    "category": "Power",
+    "description": "Rime deals  increased damage and has 2 meters increased base range.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1709,
+    "name": "Frozen Anger",
+    "category": "Power",
+    "description": " Minimum Rage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1710,
+    "name": "Paingrinder",
+    "category": "Power",
+    "description": "Thorns and Bleed damage increased by .",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1711,
+    "name": "Drakehoof",
+    "category": "Power",
+    "description": "Dragon Stomp, Earthshatter, and Icicles deal  increased damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1712,
+    "name": "Gemstone Tiara",
+    "category": "Power",
+    "description": "Any gem socketed into this helm also provides the bonuses from being socketed into a weapon and jewelry slot.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1713,
+    "name": "Stormchasers",
+    "category": "Power",
+    "description": "Damage increased by  for each twister, gust, whirlwind and similar type of effect within 5 meters. Effect stacks up to 15 times.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1714,
+    "name": "Faith",
+    "category": "Power",
+    "description": "Using an Aura will cause a nova dealing  damage in the element of the Aura. This damage is multiplied by Aura Effect. May trigger on-hit effects.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1715,
+    "name": "Contender",
+    "category": "Power",
+    "description": "While within 5 meters of any Crowned foe, Damage Reduction, Block Chance, and Damage is increased by . ",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1716,
+    "name": "Sniper Eye",
+    "category": "Power",
+    "description": "Foes struck by Archery skills become weakened, increasing the damage they take by .",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1717,
+    "name": "Community",
+    "category": "Power",
+    "description": " Crystals found and Experience gained from all sources.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1718,
+    "name": "Cosmic",
+    "category": "Power",
+    "description": " of Maximum Mana is converted into 1.5x Damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1719,
+    "name": "Divine Link",
+    "category": "Power",
+    "description": " increased Healing from all sources.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1720,
+    "name": "Rolling Thunder",
+    "category": "Power",
+    "description": "Rolling Thunder has a  additional chance to trigger.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1721,
+    "name": "Heatwall",
+    "category": "Power",
+    "description": "Molten Shield and Shattering Shield have  less cooldown, deal  increased damage, and also casts Singe.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1722,
+    "name": "Spirit Guard",
+    "category": "Power",
+    "description": " of Damage taken is subtracted from Mana instead of Health, draining 1 Mana per 2 points of Damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1723,
+    "name": "Hallowed Blade",
+    "category": "Power",
+    "description": "Healing Taken is multiplied by Holy Damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1724,
+    "name": "Lightning Jabs",
+    "category": "Power",
+    "description": "Lightning Jab, Arc Punch, Thunder Punch, and Storm Fists deal  increased damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1725,
+    "name": "Arsonists",
+    "category": "Power",
+    "description": "Lava Blood deals  increased damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1726,
+    "name": "Heartpiercer",
+    "category": "Power",
+    "description": "Razor Tips deals  increased damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1727,
+    "name": "Elementium Point",
+    "category": "Power",
+    "description": "Quickdraw, Gardener, and Overcast now affects all Archery, Nature, and Storm skills respectively, and have a  increased chance to trigger the doublecast effect regardless of cooldown. Does not affect Mobility or Base skills.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1728,
+    "name": "Freyja",
+    "category": "Power",
+    "description": "15% chance to cast Leaf Wind on attack. While affected by Leaf Wind, Nature & Storm skills deal  increased damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1730,
+    "name": "Edge of Desperation",
+    "category": "Power",
+    "description": "Desperate Measures now considers any held Staggered Damage as lost Health. Desperate Measures is also  stronger.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1731,
+    "name": "Daredevil",
+    "category": "Power",
+    "description": "Danger Close is  stronger.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1732,
+    "name": "Bio Hack",
+    "category": "Power",
+    "description": "Chemical Fuel reduces cooldowns by  more.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1733,
+    "name": "Goblin Motivator",
+    "category": "Power",
+    "description": "Production is  more likely to trigger, and when triggered is more likely to produce the larger value listed.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1734,
+    "name": "Ripblade",
+    "category": "Power",
+    "description": " Saw Blade skill damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1735,
+    "name": "Cog",
+    "category": "Power",
+    "description": "Brass Cog and Area Clear deal  increased damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1736,
+    "name": "Tenderizer",
+    "category": "Power",
+    "description": " of Damage is added to Thorns. This effect is multiplied by Max Ammo.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1737,
+    "name": "Meat Grinder",
+    "category": "Power",
+    "description": "All Axe Skills deal  increased damage, have  increased range, and have a 25% chance to doublecast.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1738,
+    "name": "Machine March",
+    "category": "Power",
+    "description": " to Machinery Skill Damage for each active companion, and half as much for each active Drone.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1739,
+    "name": "Boomer",
+    "category": "Power",
+    "description": " Bomb Skill Damage & radius.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1740,
+    "name": "Flare Gun",
+    "category": "Power",
+    "description": "Flare is automatically used for free whenever Hunker Down! is used.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1741,
+    "name": "Splashback",
+    "category": "Power",
+    "description": "Misfire adds  of Thorns to the damage dealt.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1742,
+    "name": "Shredder",
+    "category": "Power",
+    "description": "Puncture deals  increased damage and Damage Limbs have a 50% increased chance to trigger.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1743,
+    "name": "Rocketman",
+    "category": "Power",
+    "description": "Rocketeer consumes up to 3 Ammo when triggering and deals  increased damage for each Ammo consumed.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1744,
+    "name": "Fumigator",
+    "category": "Power",
+    "description": "Gas Drones and Poison Drones are  stronger.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1745,
+    "name": "Lancer",
+    "category": "Power",
+    "description": "Light Lance has  increased chance to trigger and deal  increased damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1746,
+    "name": "Peephole",
+    "category": "Power",
+    "description": "Gun skills deal up to  increased damage the closer a foe is. Gun skills attack 30% faster.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1747,
+    "name": "Tinka's Heirloom",
+    "category": "Power",
+    "description": "Tinker skills attack  faster, last  longer, and deal  increased damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1748,
+    "name": "Mechpriest's Visor",
+    "category": "Power",
+    "description": "Having either M3D1C or P4L4D-N active spawns the other. Both companions also spawn in pairs.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1749,
+    "name": "Technoscout's Goggles",
+    "category": "Power",
+    "description": "S3N7RY also provides Gun Drones at max rank while active in a slot.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1750,
+    "name": "Clockwork Armor",
+    "category": "Power",
+    "description": " Parry & Damage Reduction.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1751,
+    "name": "Mana-Tech Armor",
+    "category": "Power",
+    "description": "Defensive Protocols is twice as likely to trigger.  Barrier Strength",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1752,
+    "name": "Nitrous Tank",
+    "category": "Power",
+    "description": "All Jetpack skills have  lowered cooldown and mana cost.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1753,
+    "name": "Machine Master's Cog",
+    "category": "Power",
+    "description": "Drones and Companions now benefit from Machinery Skill Damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1754,
+    "name": "Gunner's Toolbox",
+    "category": "Power",
+    "description": "Turret Skills spawn in pairs and deal  increased damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1755,
+    "name": "Drone Controller",
+    "category": "Power",
+    "description": "Each Tech skill that converts Satellites into Drones also spawns an additional Drone of the same type while active in a slot. This additional Drone matches the damage of a maximized Satellite enchant of the corresponding type.  Drone Effect.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1756,
+    "name": "Oil Slick Boots",
+    "category": "Power",
+    "description": " Movevement Speed for 7 seconds after using any Tinker skill.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1757,
+    "name": "Combatant",
+    "category": "Power",
+    "description": " to Combat Skill Damage for each nearby foe. Bosses count as 15 foes.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1758,
+    "name": "Bionic Feet",
+    "category": "Power",
+    "description": " Machinery Skill Damage.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1759,
+    "name": "Launch Assistors",
+    "category": "Power",
+    "description": "Jetpack skills attack  faster.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1760,
+    "name": "Mine Layer Boots",
+    "category": "Power",
+    "description": "Ground Effect Skills deal  increased damage. Mine and Poison Mine benefit twice from Ground Effect Skill damage bonuses.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1761,
+    "name": "Tinkering",
+    "category": "Power",
+    "description": " to Tinker Skill Damage",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1762,
+    "name": "Engineer's Signet",
+    "category": "Power",
+    "description": " to all of the Mechanist's known Tech & Companion skills.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  },
+  {
+    "uuid": 1763,
+    "name": "Bullet Necklace",
+    "category": "Power",
+    "description": "Can never drop below 1 Ammo.",
+    "itemTypes": "Item",
+    "itemCategories": "Craft"
+  }
+]

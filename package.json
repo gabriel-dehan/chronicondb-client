@@ -49,12 +49,12 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "predeploy": "craco build",
+    "predeploy": "craco --openssl-legacy-provider build",
     "deploy": "gh-pages -d build",
-    "start": "craco start",
-    "build": "craco build",
-    "test": "craco test",
-    "eject": "craco eject",
+    "start": "craco --openssl-legacy-provider start",
+    "build": "craco --openssl-legacy-provider build",
+    "test": "craco --openssl-legacy-provider test",
+    "eject": "craco --openssl-legacy-provider eject",
     "lint": "eslint src/**/*.{ts,tsx}",
     "lint:fix": "eslint --fix src/**/*.{ts,tsx}",
     "build:sitemap": "ts-node -O \"{ \\\"module\\\":\\\"commonjs\\\" }\" src/sitemap-builder.jsx",
