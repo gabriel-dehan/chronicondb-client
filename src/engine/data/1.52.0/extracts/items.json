@@ -14153,7 +14153,7 @@
   {
     "uuid": 862,
     "name": "MISSING TEXT",
-    "icon": null,
+    "icon": "spr_itemicons_862",
     "category": "Consumables",
     "type": "Elixir",
     "rarity": "Enchanted",
@@ -14165,7 +14165,7 @@
   {
     "uuid": 863,
     "name": "MISSING TEXT",
-    "icon": null,
+    "icon": "spr_itemicons_863",
     "category": "Consumables",
     "type": "Elixir",
     "rarity": "Rare",
@@ -14177,7 +14177,7 @@
   {
     "uuid": 864,
     "name": "MISSING TEXT",
-    "icon": null,
+    "icon": "spr_itemicons_864",
     "category": "Consumables",
     "type": "Elixir",
     "rarity": "Unique",
@@ -14189,7 +14189,7 @@
   {
     "uuid": 865,
     "name": "MISSING TEXT",
-    "icon": null,
+    "icon": "spr_itemicons_865",
     "category": "Misc",
     "type": "Vial",
     "rarity": "Enchanted",
@@ -14201,7 +14201,7 @@
   {
     "uuid": 866,
     "name": "MISSING TEXT",
-    "icon": null,
+    "icon": "spr_itemicons_866",
     "category": "Misc",
     "type": "Vial",
     "rarity": "Rare",
@@ -14213,7 +14213,7 @@
   {
     "uuid": 867,
     "name": "MISSING TEXT",
-    "icon": null,
+    "icon": "spr_itemicons_867",
     "category": "Misc",
     "type": "Vial",
     "rarity": "Unique",
@@ -14225,7 +14225,7 @@
   {
     "uuid": 868,
     "name": "MK 1 Injector",
-    "icon": null,
+    "icon": "spr_itemicons_868",
     "category": "Consumables",
     "type": "Relic",
     "rarity": "Ordinary",
@@ -14237,7 +14237,7 @@
   {
     "uuid": 869,
     "name": "MK 2 Injector",
-    "icon": null,
+    "icon": "spr_itemicons_869",
     "category": "Consumables",
     "type": "Relic",
     "rarity": "Enchanted",
@@ -14249,7 +14249,7 @@
   {
     "uuid": 870,
     "name": "MK 3 Rapid Injector",
-    "icon": null,
+    "icon": "spr_itemicons_870",
     "category": "Consumables",
     "type": "Relic",
     "rarity": "Rare",
@@ -14261,7 +14261,7 @@
   {
     "uuid": 871,
     "name": "MK 3 Enhanced Injector",
-    "icon": null,
+    "icon": "spr_itemicons_871",
     "category": "Consumables",
     "type": "Relic",
     "rarity": "Rare",
@@ -14273,7 +14273,7 @@
   {
     "uuid": 872,
     "name": "MK 3 Potion Injector",
-    "icon": null,
+    "icon": "spr_itemicons_872",
     "category": "Consumables",
     "type": "Relic",
     "rarity": "Rare",
@@ -14285,7 +14285,7 @@
   {
     "uuid": 873,
     "name": "MK 4 Elixir Injector",
-    "icon": null,
+    "icon": "spr_itemicons_873",
     "category": "Consumables",
     "type": "Relic",
     "rarity": "Unique",
@@ -14297,7 +14297,7 @@
   {
     "uuid": 874,
     "name": "MK 4 Health Injector",
-    "icon": null,
+    "icon": "spr_itemicons_874",
     "category": "Consumables",
     "type": "Relic",
     "rarity": "Unique",
@@ -14309,7 +14309,7 @@
   {
     "uuid": 875,
     "name": "MK 4 Mana Injector",
-    "icon": null,
+    "icon": "spr_itemicons_875",
     "category": "Consumables",
     "type": "Relic",
     "rarity": "Unique",
@@ -14321,7 +14321,7 @@
   {
     "uuid": 876,
     "name": "MK 5 Super Injector",
-    "icon": null,
+    "icon": "spr_itemicons_876",
     "category": "Consumables",
     "type": "Relic",
     "rarity": "Legendary",
@@ -14333,7 +14333,7 @@
   {
     "uuid": 877,
     "name": "MK 1 Launcher",
-    "icon": null,
+    "icon": "spr_itemicons_877",
     "category": "Consumables",
     "type": "Relic",
     "rarity": "Ordinary",
@@ -14345,7 +14345,7 @@
   {
     "uuid": 878,
     "name": "MK 2 Launcher",
-    "icon": null,
+    "icon": "spr_itemicons_878",
     "category": "Consumables",
     "type": "Relic",
     "rarity": "Enchanted",
@@ -14357,7 +14357,7 @@
   {
     "uuid": 879,
     "name": "MK 3 Rapid Launcher",
-    "icon": null,
+    "icon": "spr_itemicons_879",
     "category": "Consumables",
     "type": "Relic",
     "rarity": "Rare",
@@ -14369,7 +14369,7 @@
   {
     "uuid": 880,
     "name": "MK 3 Catapult Launcher",
-    "icon": null,
+    "icon": "spr_itemicons_880",
     "category": "Consumables",
     "type": "Relic",
     "rarity": "Rare",
@@ -14381,7 +14381,7 @@
   {
     "uuid": 881,
     "name": "MK 3 Scatter Launcher",
-    "icon": null,
+    "icon": "spr_itemicons_881",
     "category": "Consumables",
     "type": "Relic",
     "rarity": "Rare",
@@ -14393,7 +14393,7 @@
   {
     "uuid": 882,
     "name": "MK 4 Rapid Catapult Launcher",
-    "icon": null,
+    "icon": "spr_itemicons_882",
     "category": "Consumables",
     "type": "Relic",
     "rarity": "Unique",
@@ -14405,7 +14405,7 @@
   {
     "uuid": 883,
     "name": "MK 4 Rapid Scatter Launcher",
-    "icon": null,
+    "icon": "spr_itemicons_883",
     "category": "Consumables",
     "type": "Relic",
     "rarity": "Unique",
@@ -14417,7 +14417,7 @@
   {
     "uuid": 884,
     "name": "MK 4 Scatterpult Launcher",
-    "icon": null,
+    "icon": "spr_itemicons_884",
     "category": "Consumables",
     "type": "Relic",
     "rarity": "Unique",
@@ -14429,7 +14429,7 @@
   {
     "uuid": 885,
     "name": "MK 5 Super Launcher",
-    "icon": null,
+    "icon": "spr_itemicons_885",
     "category": "Consumables",
     "type": "Relic",
     "rarity": "Legendary",
@@ -14441,7 +14441,7 @@
   {
     "uuid": 886,
     "name": "Freyja",
-    "icon": null,
+    "icon": "spr_itemicons_886",
     "category": "Weapon",
     "type": "Bow",
     "rarity": "True Legendary",
@@ -14462,7 +14462,7 @@
   {
     "uuid": 887,
     "name": "Elementium Point",
-    "icon": null,
+    "icon": "spr_itemicons_887",
     "category": "Offhand",
     "type": "Arrow",
     "rarity": "True Legendary",
@@ -14481,7 +14481,7 @@
   {
     "uuid": 888,
     "name": "Face Guard",
-    "icon": null,
+    "icon": "spr_itemicons_888",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Ordinary",
@@ -14497,7 +14497,7 @@
   {
     "uuid": 889,
     "name": "Overalls",
-    "icon": null,
+    "icon": "spr_itemicons_889",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Ordinary",
@@ -14513,7 +14513,7 @@
   {
     "uuid": 890,
     "name": "Rough Boots",
-    "icon": null,
+    "icon": "spr_itemicons_890",
     "category": "Boots",
     "type": "Boots",
     "rarity": "Ordinary",
@@ -14529,7 +14529,7 @@
   {
     "uuid": 891,
     "name": "Goggles",
-    "icon": null,
+    "icon": "spr_itemicons_891",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Ordinary",
@@ -14545,7 +14545,7 @@
   {
     "uuid": 892,
     "name": "Apron",
-    "icon": null,
+    "icon": "spr_itemicons_892",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Ordinary",
@@ -14561,7 +14561,7 @@
   {
     "uuid": 893,
     "name": "Mech Boots",
-    "icon": null,
+    "icon": "spr_itemicons_893",
     "category": "Boots",
     "type": "Boots",
     "rarity": "Ordinary",
@@ -14577,7 +14577,7 @@
   {
     "uuid": 894,
     "name": "Visor",
-    "icon": null,
+    "icon": "spr_itemicons_894",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Ordinary",
@@ -14593,7 +14593,7 @@
   {
     "uuid": 895,
     "name": "Padded Suit",
-    "icon": null,
+    "icon": "spr_itemicons_895",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Ordinary",
@@ -14609,7 +14609,7 @@
   {
     "uuid": 896,
     "name": "Padded Boots",
-    "icon": null,
+    "icon": "spr_itemicons_896",
     "category": "Boots",
     "type": "Boots",
     "rarity": "Ordinary",
@@ -14625,43 +14625,61 @@
   {
     "uuid": 897,
     "name": "Axe",
-    "icon": null,
-    "category": "Misc",
+    "icon": "spr_itemicons_897",
+    "category": "Weapon",
     "type": "Axe",
     "rarity": "Ordinary",
     "classRestriction": "Mechanist",
     "minLevel": 1,
-    "baseEnchants": [],
+    "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
     "fixedEnchants": []
   },
   {
     "uuid": 898,
     "name": "Chopper",
-    "icon": null,
-    "category": "Misc",
+    "icon": "spr_itemicons_898",
+    "category": "Weapon",
     "type": "Axe",
     "rarity": "Ordinary",
     "classRestriction": "Mechanist",
     "minLevel": 1,
-    "baseEnchants": [],
+    "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
     "fixedEnchants": []
   },
   {
     "uuid": 899,
     "name": "Hack",
-    "icon": null,
-    "category": "Misc",
+    "icon": "spr_itemicons_899",
+    "category": "Weapon",
     "type": "Axe",
     "rarity": "Ordinary",
     "classRestriction": "Mechanist",
     "minLevel": 1,
-    "baseEnchants": [],
+    "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
     "fixedEnchants": []
   },
   {
     "uuid": 900,
     "name": "Slugger",
-    "icon": null,
+    "icon": "spr_itemicons_900",
     "category": "Offhand",
     "type": "Gun",
     "rarity": "Ordinary",
@@ -14679,7 +14697,7 @@
   {
     "uuid": 901,
     "name": "Blaster",
-    "icon": null,
+    "icon": "spr_itemicons_901",
     "category": "Offhand",
     "type": "Gun",
     "rarity": "Ordinary",
@@ -14697,7 +14715,7 @@
   {
     "uuid": 902,
     "name": "Repeater",
-    "icon": null,
+    "icon": "spr_itemicons_902",
     "category": "Offhand",
     "type": "Gun",
     "rarity": "Ordinary",
@@ -14715,7 +14733,7 @@
   {
     "uuid": 903,
     "name": "Unknown Mechanist Weapon",
-    "icon": null,
+    "icon": "spr_itemicons_903",
     "description": "When purchased, provides you with a random Mechanist weapon of any quality up to Legendary...",
     "category": "Misc",
     "type": "Unknown Item",
@@ -14728,7 +14746,7 @@
   {
     "uuid": 904,
     "name": "Unknown Mechanist Gun",
-    "icon": null,
+    "icon": "spr_itemicons_904",
     "description": "When purchased, provides you with a random offhand for the Mechanist (Gun) of any quality up to Legendary...",
     "category": "Misc",
     "type": "Unknown Item",
@@ -14741,7 +14759,7 @@
   {
     "uuid": 905,
     "name": "Saw Master's Face Guard",
-    "icon": null,
+    "icon": "spr_itemicons_905",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
@@ -14754,12 +14772,13 @@
     ],
     "fixedEnchants": [
       44
-    ]
+    ],
+    "set": "sawmaster"
   },
   {
     "uuid": 906,
     "name": "Saw Master's Apron",
-    "icon": null,
+    "icon": "spr_itemicons_906",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Legendary",
@@ -14773,27 +14792,35 @@
     "fixedEnchants": [
       44,
       122
-    ]
+    ],
+    "set": "sawmaster"
   },
   {
     "uuid": 907,
     "name": "Saw Master's Axe",
-    "icon": null,
-    "category": "Misc",
+    "icon": "spr_itemicons_907",
+    "category": "Weapon",
     "type": "Axe",
     "rarity": "Legendary",
     "classRestriction": "Mechanist",
     "minLevel": 30,
-    "baseEnchants": [],
+    "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
     "fixedEnchants": [
       44,
       102
-    ]
+    ],
+    "set": "sawmaster"
   },
   {
     "uuid": 908,
     "name": "Saw Master's Slugger",
-    "icon": null,
+    "icon": "spr_itemicons_908",
     "category": "Offhand",
     "type": "Gun",
     "rarity": "Legendary",
@@ -14807,12 +14834,13 @@
     "fixedEnchants": [
       44,
       102
-    ]
+    ],
+    "set": "sawmaster"
   },
   {
     "uuid": 909,
     "name": "Drone Pilot's Visor",
-    "icon": null,
+    "icon": "spr_itemicons_909",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
@@ -14825,12 +14853,13 @@
     ],
     "fixedEnchants": [
       44
-    ]
+    ],
+    "set": "dronepilot"
   },
   {
     "uuid": 910,
     "name": "Drone Pilot's Suit",
-    "icon": null,
+    "icon": "spr_itemicons_910",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Legendary",
@@ -14844,27 +14873,35 @@
     "fixedEnchants": [
       44,
       122
-    ]
+    ],
+    "set": "dronepilot"
   },
   {
     "uuid": 911,
     "name": "Drone Pilot's Hack",
-    "icon": null,
-    "category": "Misc",
+    "icon": "spr_itemicons_911",
+    "category": "Weapon",
     "type": "Axe",
     "rarity": "Legendary",
     "classRestriction": "Mechanist",
     "minLevel": 30,
-    "baseEnchants": [],
+    "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
     "fixedEnchants": [
       44,
       125
-    ]
+    ],
+    "set": "dronepilot"
   },
   {
     "uuid": 912,
     "name": "Drone Pilot's Repeater",
-    "icon": null,
+    "icon": "spr_itemicons_912",
     "category": "Offhand",
     "type": "Gun",
     "rarity": "Legendary",
@@ -14878,18 +14915,25 @@
     "fixedEnchants": [
       44,
       5
-    ]
+    ],
+    "set": "dronepilot"
   },
   {
     "uuid": 913,
     "name": "Ripblade",
-    "icon": null,
-    "category": "Misc",
+    "icon": "spr_itemicons_913",
+    "category": "Weapon",
     "type": "Axe",
     "rarity": "Legendary",
     "classRestriction": "Mechanist",
     "minLevel": 10,
-    "baseEnchants": [],
+    "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
     "fixedEnchants": [
       1734,
       102
@@ -14898,13 +14942,19 @@
   {
     "uuid": 914,
     "name": "Edge of Desperation",
-    "icon": null,
-    "category": "Misc",
+    "icon": "spr_itemicons_914",
+    "category": "Weapon",
     "type": "Axe",
     "rarity": "Legendary",
     "classRestriction": "Mechanist",
     "minLevel": 30,
-    "baseEnchants": [],
+    "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
     "fixedEnchants": [
       1730,
       126
@@ -14913,7 +14963,7 @@
   {
     "uuid": 915,
     "name": "Shredder",
-    "icon": null,
+    "icon": "spr_itemicons_915",
     "category": "Offhand",
     "type": "Gun",
     "rarity": "Legendary",
@@ -14932,7 +14982,7 @@
   {
     "uuid": 916,
     "name": "Technoscout's Goggles",
-    "icon": null,
+    "icon": "spr_itemicons_916",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
@@ -14951,7 +15001,7 @@
   {
     "uuid": 917,
     "name": "Clockwork Armor",
-    "icon": null,
+    "icon": "spr_itemicons_917",
     "flavor": "Tick, Tock.",
     "category": "Armor",
     "type": "Armor",
@@ -14971,7 +15021,7 @@
   {
     "uuid": 918,
     "name": "Ammo Belt",
-    "icon": null,
+    "icon": "spr_itemicons_918",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Unique",
@@ -14990,7 +15040,7 @@
   {
     "uuid": 919,
     "name": "Bionic Feet",
-    "icon": null,
+    "icon": "spr_itemicons_919",
     "category": "Boots",
     "type": "Boots",
     "rarity": "Legendary",
@@ -15009,7 +15059,7 @@
   {
     "uuid": 920,
     "name": "Bullet Necklace",
-    "icon": null,
+    "icon": "spr_itemicons_920",
     "category": "Amulet",
     "type": "Amulet",
     "rarity": "Legendary",
@@ -15028,7 +15078,7 @@
   {
     "uuid": 921,
     "name": "Engineer's Signet",
-    "icon": null,
+    "icon": "spr_itemicons_921",
     "category": "Ring",
     "type": "Ring",
     "rarity": "Legendary",
@@ -15048,7 +15098,7 @@
   {
     "uuid": 922,
     "name": "Rocketeer's Visor",
-    "icon": null,
+    "icon": "spr_itemicons_922",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
@@ -15061,12 +15111,13 @@
     ],
     "fixedEnchants": [
       39
-    ]
+    ],
+    "set": "rocketeer"
   },
   {
     "uuid": 923,
     "name": "Rocketeer's Armor",
-    "icon": null,
+    "icon": "spr_itemicons_923",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Legendary",
@@ -15080,27 +15131,35 @@
     "fixedEnchants": [
       39,
       4
-    ]
+    ],
+    "set": "rocketeer"
   },
   {
     "uuid": 924,
     "name": "Rocketeer's Chopper",
-    "icon": null,
-    "category": "Misc",
+    "icon": "spr_itemicons_924",
+    "category": "Weapon",
     "type": "Axe",
     "rarity": "Legendary",
     "classRestriction": "Mechanist",
     "minLevel": 30,
-    "baseEnchants": [],
+    "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
     "fixedEnchants": [
       39,
       5
-    ]
+    ],
+    "set": "rocketeer"
   },
   {
     "uuid": 925,
     "name": "Rocketeer's Blaster",
-    "icon": null,
+    "icon": "spr_itemicons_925",
     "category": "Offhand",
     "type": "Gun",
     "rarity": "Legendary",
@@ -15114,12 +15173,13 @@
     "fixedEnchants": [
       39,
       3
-    ]
+    ],
+    "set": "rocketeer"
   },
   {
     "uuid": 926,
     "name": "Pyromaniac's Face Guard",
-    "icon": null,
+    "icon": "spr_itemicons_926",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
@@ -15132,12 +15192,13 @@
     ],
     "fixedEnchants": [
       39
-    ]
+    ],
+    "set": "pyromaniac"
   },
   {
     "uuid": 927,
     "name": "Pyromaniac's Suit",
-    "icon": null,
+    "icon": "spr_itemicons_927",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Legendary",
@@ -15151,27 +15212,35 @@
     "fixedEnchants": [
       39,
       100
-    ]
+    ],
+    "set": "pyromaniac"
   },
   {
     "uuid": 928,
     "name": "Pyromaniac's Hack",
-    "icon": null,
-    "category": "Misc",
+    "icon": "spr_itemicons_928",
+    "category": "Weapon",
     "type": "Axe",
     "rarity": "Legendary",
     "classRestriction": "Mechanist",
     "minLevel": 30,
-    "baseEnchants": [],
+    "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
     "fixedEnchants": [
       39,
       21
-    ]
+    ],
+    "set": "pyromaniac"
   },
   {
     "uuid": 929,
     "name": "Pyromaniac's Firestarter",
-    "icon": null,
+    "icon": "spr_itemicons_929",
     "category": "Offhand",
     "type": "Gun",
     "rarity": "Legendary",
@@ -15185,18 +15254,25 @@
     "fixedEnchants": [
       39,
       5
-    ]
+    ],
+    "set": "pyromaniac"
   },
   {
     "uuid": 930,
     "name": "Daredevil",
-    "icon": null,
-    "category": "Misc",
+    "icon": "spr_itemicons_930",
+    "category": "Weapon",
     "type": "Axe",
     "rarity": "Legendary",
     "classRestriction": "Mechanist",
     "minLevel": 30,
-    "baseEnchants": [],
+    "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
     "fixedEnchants": [
       1731,
       100
@@ -15205,13 +15281,19 @@
   {
     "uuid": 931,
     "name": "Tenderizer",
-    "icon": null,
-    "category": "Misc",
+    "icon": "spr_itemicons_931",
+    "category": "Weapon",
     "type": "Axe",
     "rarity": "Legendary",
     "classRestriction": "Mechanist",
     "minLevel": 15,
-    "baseEnchants": [],
+    "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
     "fixedEnchants": [
       1736,
       135
@@ -15220,7 +15302,7 @@
   {
     "uuid": 932,
     "name": "Boomer",
-    "icon": null,
+    "icon": "spr_itemicons_932",
     "flavor": "OK.",
     "category": "Offhand",
     "type": "Gun",
@@ -15240,7 +15322,7 @@
   {
     "uuid": 933,
     "name": "Flare Gun",
-    "icon": null,
+    "icon": "spr_itemicons_933",
     "category": "Offhand",
     "type": "Gun",
     "rarity": "Unique",
@@ -15259,7 +15341,7 @@
   {
     "uuid": 934,
     "name": "Splashback",
-    "icon": null,
+    "icon": "spr_itemicons_934",
     "category": "Offhand",
     "type": "Gun",
     "rarity": "Legendary",
@@ -15278,7 +15360,7 @@
   {
     "uuid": 935,
     "name": "Rocketman",
-    "icon": null,
+    "icon": "spr_itemicons_935",
     "category": "Offhand",
     "type": "Gun",
     "rarity": "Legendary",
@@ -15297,7 +15379,7 @@
   {
     "uuid": 936,
     "name": "Nitrous Tank",
-    "icon": null,
+    "icon": "spr_itemicons_936",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Legendary",
@@ -15316,7 +15398,7 @@
   {
     "uuid": 937,
     "name": "Machine Master's Cog",
-    "icon": null,
+    "icon": "spr_itemicons_937",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "Legendary",
@@ -15335,7 +15417,7 @@
   {
     "uuid": 938,
     "name": "Oil Slick Boots",
-    "icon": null,
+    "icon": "spr_itemicons_938",
     "category": "Boots",
     "type": "Boots",
     "rarity": "Unique",
@@ -15353,7 +15435,7 @@
   {
     "uuid": 939,
     "name": "Launch Assistors",
-    "icon": null,
+    "icon": "spr_itemicons_939",
     "category": "Boots",
     "type": "Boots",
     "rarity": "Legendary",
@@ -15372,7 +15454,7 @@
   {
     "uuid": 940,
     "name": "Mine Layer Boots",
-    "icon": null,
+    "icon": "spr_itemicons_940",
     "category": "Boots",
     "type": "Boots",
     "rarity": "Legendary",
@@ -15391,7 +15473,7 @@
   {
     "uuid": 941,
     "name": "Tinkering",
-    "icon": null,
+    "icon": "spr_itemicons_941",
     "category": "Ring",
     "type": "Ring",
     "rarity": "Unique",
@@ -15409,7 +15491,7 @@
   {
     "uuid": 942,
     "name": "Death Trooper Helmet",
-    "icon": null,
+    "icon": "spr_itemicons_942",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
@@ -15422,12 +15504,13 @@
     ],
     "fixedEnchants": [
       41
-    ]
+    ],
+    "set": "deathtrooper"
   },
   {
     "uuid": 943,
     "name": "Death Trooper Armor",
-    "icon": null,
+    "icon": "spr_itemicons_943",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Legendary",
@@ -15441,27 +15524,35 @@
     "fixedEnchants": [
       41,
       36
-    ]
+    ],
+    "set": "deathtrooper"
   },
   {
     "uuid": 944,
     "name": "Death Trooper Hacker",
-    "icon": null,
-    "category": "Misc",
+    "icon": "spr_itemicons_944",
+    "category": "Weapon",
     "type": "Axe",
     "rarity": "Legendary",
     "classRestriction": "Mechanist",
     "minLevel": 30,
-    "baseEnchants": [],
+    "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
     "fixedEnchants": [
       41,
       100
-    ]
+    ],
+    "set": "deathtrooper"
   },
   {
     "uuid": 945,
     "name": "Death Trooper Slugger",
-    "icon": null,
+    "icon": "spr_itemicons_945",
     "category": "Offhand",
     "type": "Gun",
     "rarity": "Legendary",
@@ -15475,12 +15566,13 @@
     "fixedEnchants": [
       41,
       8
-    ]
+    ],
+    "set": "deathtrooper"
   },
   {
     "uuid": 946,
     "name": "Master Chemist's Visor",
-    "icon": null,
+    "icon": "spr_itemicons_946",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
@@ -15493,12 +15585,13 @@
     ],
     "fixedEnchants": [
       41
-    ]
+    ],
+    "set": "masterchemist"
   },
   {
     "uuid": 947,
     "name": "Master Chemist's Suit",
-    "icon": null,
+    "icon": "spr_itemicons_947",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Legendary",
@@ -15512,27 +15605,35 @@
     "fixedEnchants": [
       41,
       125
-    ]
+    ],
+    "set": "masterchemist"
   },
   {
     "uuid": 948,
     "name": "Master Chemist's Axe",
-    "icon": null,
-    "category": "Misc",
+    "icon": "spr_itemicons_948",
+    "category": "Weapon",
     "type": "Axe",
     "rarity": "Legendary",
     "classRestriction": "Mechanist",
     "minLevel": 30,
-    "baseEnchants": [],
+    "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
     "fixedEnchants": [
       41,
       21
-    ]
+    ],
+    "set": "masterchemist"
   },
   {
     "uuid": 949,
     "name": "Master Chemist's Blaster",
-    "icon": null,
+    "icon": "spr_itemicons_949",
     "category": "Offhand",
     "type": "Gun",
     "rarity": "Legendary",
@@ -15546,18 +15647,25 @@
     "fixedEnchants": [
       41,
       5
-    ]
+    ],
+    "set": "masterchemist"
   },
   {
     "uuid": 950,
     "name": "Bio Hack",
-    "icon": null,
-    "category": "Misc",
+    "icon": "spr_itemicons_950",
+    "category": "Weapon",
     "type": "Axe",
     "rarity": "Legendary",
     "classRestriction": "Mechanist",
     "minLevel": 30,
-    "baseEnchants": [],
+    "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
     "fixedEnchants": [
       1732,
       5
@@ -15566,7 +15674,7 @@
   {
     "uuid": 951,
     "name": "Fumigator",
-    "icon": null,
+    "icon": "spr_itemicons_951",
     "category": "Offhand",
     "type": "Gun",
     "rarity": "Legendary",
@@ -15585,13 +15693,19 @@
   {
     "uuid": 952,
     "name": "Hackjob",
-    "icon": null,
-    "category": "Misc",
+    "icon": "spr_itemicons_952",
+    "category": "Weapon",
     "type": "Axe",
     "rarity": "Unique",
     "classRestriction": "Mechanist",
     "minLevel": 5,
-    "baseEnchants": [],
+    "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
     "fixedEnchants": [
       44,
       102
@@ -15600,13 +15714,19 @@
   {
     "uuid": 953,
     "name": "Singe Hew",
-    "icon": null,
-    "category": "Misc",
+    "icon": "spr_itemicons_953",
+    "category": "Weapon",
     "type": "Axe",
     "rarity": "Unique",
     "classRestriction": "Mechanist",
     "minLevel": 5,
-    "baseEnchants": [],
+    "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
     "fixedEnchants": [
       39
     ]
@@ -15614,13 +15734,19 @@
   {
     "uuid": 954,
     "name": "Chopspew",
-    "icon": null,
-    "category": "Misc",
+    "icon": "spr_itemicons_954",
+    "category": "Weapon",
     "type": "Axe",
     "rarity": "Unique",
     "classRestriction": "Mechanist",
     "minLevel": 5,
-    "baseEnchants": [],
+    "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
     "fixedEnchants": [
       41
     ]
@@ -15628,13 +15754,19 @@
   {
     "uuid": 955,
     "name": "Holy Divider",
-    "icon": null,
-    "category": "Misc",
+    "icon": "spr_itemicons_955",
+    "category": "Weapon",
     "type": "Axe",
     "rarity": "Unique",
     "classRestriction": "Mechanist",
     "minLevel": 5,
-    "baseEnchants": [],
+    "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
     "fixedEnchants": [
       43
     ]
@@ -15642,7 +15774,7 @@
   {
     "uuid": 956,
     "name": "Scrap Gun",
-    "icon": null,
+    "icon": "spr_itemicons_956",
     "category": "Offhand",
     "type": "Gun",
     "rarity": "Unique",
@@ -15661,7 +15793,7 @@
   {
     "uuid": 957,
     "name": "Needler",
-    "icon": null,
+    "icon": "spr_itemicons_957",
     "category": "Offhand",
     "type": "Gun",
     "rarity": "Unique",
@@ -15680,7 +15812,7 @@
   {
     "uuid": 958,
     "name": "Weakspot Finder",
-    "icon": null,
+    "icon": "spr_itemicons_958",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Unique",
@@ -15699,7 +15831,7 @@
   {
     "uuid": 959,
     "name": "Mechalord's Visor",
-    "icon": null,
+    "icon": "spr_itemicons_959",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
@@ -15712,12 +15844,13 @@
     ],
     "fixedEnchants": [
       43
-    ]
+    ],
+    "set": "mechalord"
   },
   {
     "uuid": 960,
     "name": "Mechalord's Armor",
-    "icon": null,
+    "icon": "spr_itemicons_960",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Legendary",
@@ -15731,27 +15864,35 @@
     "fixedEnchants": [
       43,
       50
-    ]
+    ],
+    "set": "mechalord"
   },
   {
     "uuid": 961,
     "name": "Mechalord's Axe",
-    "icon": null,
-    "category": "Misc",
+    "icon": "spr_itemicons_961",
+    "category": "Weapon",
     "type": "Axe",
     "rarity": "Legendary",
     "classRestriction": "Mechanist",
     "minLevel": 30,
-    "baseEnchants": [],
+    "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
     "fixedEnchants": [
       43,
       100
-    ]
+    ],
+    "set": "mechalord"
   },
   {
     "uuid": 962,
     "name": "Mechalord's Blaster",
-    "icon": null,
+    "icon": "spr_itemicons_962",
     "category": "Offhand",
     "type": "Gun",
     "rarity": "Legendary",
@@ -15765,12 +15906,13 @@
     "fixedEnchants": [
       43,
       46
-    ]
+    ],
+    "set": "mechalord"
   },
   {
     "uuid": 963,
     "name": "Destructive Guard",
-    "icon": null,
+    "icon": "spr_itemicons_963",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
@@ -15783,12 +15925,13 @@
     ],
     "fixedEnchants": [
       43
-    ]
+    ],
+    "set": "destructive"
   },
   {
     "uuid": 964,
     "name": "Destructive Suit",
-    "icon": null,
+    "icon": "spr_itemicons_964",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Legendary",
@@ -15802,27 +15945,35 @@
     "fixedEnchants": [
       43,
       100
-    ]
+    ],
+    "set": "destructive"
   },
   {
     "uuid": 965,
     "name": "Destructive Chopper",
-    "icon": null,
-    "category": "Misc",
+    "icon": "spr_itemicons_965",
+    "category": "Weapon",
     "type": "Axe",
     "rarity": "Legendary",
     "classRestriction": "Mechanist",
     "minLevel": 30,
-    "baseEnchants": [],
+    "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
     "fixedEnchants": [
       43,
       5
-    ]
+    ],
+    "set": "destructive"
   },
   {
     "uuid": 966,
     "name": "Destructive Slugger",
-    "icon": null,
+    "icon": "spr_itemicons_966",
     "category": "Offhand",
     "type": "Gun",
     "rarity": "Legendary",
@@ -15836,18 +15987,25 @@
     "fixedEnchants": [
       43,
       8
-    ]
+    ],
+    "set": "destructive"
   },
   {
     "uuid": 967,
     "name": "Goblin Motivator",
-    "icon": null,
-    "category": "Misc",
+    "icon": "spr_itemicons_967",
+    "category": "Weapon",
     "type": "Axe",
     "rarity": "Legendary",
     "classRestriction": "Mechanist",
     "minLevel": 30,
-    "baseEnchants": [],
+    "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
     "fixedEnchants": [
       1733,
       43
@@ -15856,13 +16014,19 @@
   {
     "uuid": 968,
     "name": "Cog",
-    "icon": null,
-    "category": "Misc",
+    "icon": "spr_itemicons_968",
+    "category": "Weapon",
     "type": "Axe",
     "rarity": "Legendary",
     "classRestriction": "Mechanist",
     "minLevel": 15,
-    "baseEnchants": [],
+    "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
     "fixedEnchants": [
       1735,
       43
@@ -15871,7 +16035,7 @@
   {
     "uuid": 969,
     "name": "Lancer",
-    "icon": null,
+    "icon": "spr_itemicons_969",
     "category": "Offhand",
     "type": "Gun",
     "rarity": "Legendary",
@@ -15890,7 +16054,7 @@
   {
     "uuid": 970,
     "name": "Mechpriest's Visor",
-    "icon": null,
+    "icon": "spr_itemicons_970",
     "category": "Helmet",
     "type": "Helm",
     "rarity": "Legendary",
@@ -15909,7 +16073,7 @@
   {
     "uuid": 971,
     "name": "Mana-Tech Armor",
-    "icon": null,
+    "icon": "spr_itemicons_971",
     "category": "Armor",
     "type": "Armor",
     "rarity": "Legendary",
@@ -15928,13 +16092,19 @@
   {
     "uuid": 972,
     "name": "Machine March",
-    "icon": null,
-    "category": "Misc",
+    "icon": "spr_itemicons_972",
+    "category": "Weapon",
     "type": "Axe",
     "rarity": "True Legendary",
     "classRestriction": "Mechanist",
     "minLevel": 100,
-    "baseEnchants": [],
+    "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
     "fixedEnchants": [
       1738,
       3
@@ -15943,13 +16113,19 @@
   {
     "uuid": 973,
     "name": "Meat Grinder",
-    "icon": null,
-    "category": "Misc",
+    "icon": "spr_itemicons_973",
+    "category": "Weapon",
     "type": "Axe",
     "rarity": "True Legendary",
     "classRestriction": "Mechanist",
     "minLevel": 100,
-    "baseEnchants": [],
+    "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
     "fixedEnchants": [
       1737,
       19
@@ -15958,13 +16134,19 @@
   {
     "uuid": 974,
     "name": "Combatant",
-    "icon": null,
-    "category": "Misc",
+    "icon": "spr_itemicons_974",
+    "category": "Weapon",
     "type": "Axe",
     "rarity": "True Legendary",
     "classRestriction": "Mechanist",
     "minLevel": 100,
-    "baseEnchants": [],
+    "baseEnchants": [
+      1,
+      2,
+      3,
+      5,
+      19
+    ],
     "fixedEnchants": [
       1757,
       1
@@ -15973,7 +16155,7 @@
   {
     "uuid": 975,
     "name": "Tinka's Heirloom",
-    "icon": null,
+    "icon": "spr_itemicons_975",
     "category": "Offhand",
     "type": "Gun",
     "rarity": "True Legendary",
@@ -15992,7 +16174,7 @@
   {
     "uuid": 976,
     "name": "Peephole",
-    "icon": null,
+    "icon": "spr_itemicons_976",
     "flavor": "Come take a look",
     "category": "Offhand",
     "type": "Gun",
@@ -16012,7 +16194,7 @@
   {
     "uuid": 977,
     "name": "Gunner's Toolbox",
-    "icon": null,
+    "icon": "spr_itemicons_977",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "True Legendary",
@@ -16031,7 +16213,7 @@
   {
     "uuid": 978,
     "name": "Drone Controller",
-    "icon": null,
+    "icon": "spr_itemicons_978",
     "category": "Accessory",
     "type": "Accessory",
     "rarity": "True Legendary",
@@ -16050,7 +16232,7 @@
   {
     "uuid": 979,
     "name": "Ancient Shaft",
-    "icon": null,
+    "icon": "spr_itemicons_979",
     "flavor": "Used for Mythical crafting.",
     "category": "Craft",
     "type": "Crafting Material",
@@ -16063,7 +16245,7 @@
   {
     "uuid": 980,
     "name": "Ancient Axe Blade",
-    "icon": null,
+    "icon": "spr_itemicons_980",
     "flavor": "Used for Mythical crafting.",
     "category": "Craft",
     "type": "Crafting Material",

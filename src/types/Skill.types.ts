@@ -45,8 +45,10 @@ export enum SkillFamily {
   Archery = 'Archery',
   Bane = 'Bane',
   Brawl = 'Brawl',
+  Combat = 'Combat',
   Curse = 'Curse',
   Dragon = 'Dragon',
+  Machinery = 'Machinery',
   Magic = 'Magic',
   Nature = 'Nature',
   Shield = 'Shield',
@@ -54,6 +56,7 @@ export enum SkillFamily {
   Sorcery = 'Sorcery',
   Storm = 'Storm',
   Sword = 'Sword',
+  Tinker = 'Tinker',
   Utility = 'Utility'
   // None = 'None',
 }
@@ -85,5 +88,9 @@ export enum SkillTree {
   Vengeance = 'Vengeance',
   WindRanger = 'Wind Ranger',
   WinterHerald = 'Winter Herald',
-  Wrath = 'Wrath'
+  Wrath = 'Wrath',
+  Frontliner = 'Frontliner',
+  Pyrotechnics = 'Pyrotechnics',
+  BioTech = 'Bio-Tech',
+  Mechpriest = 'Mechpriest'
 }

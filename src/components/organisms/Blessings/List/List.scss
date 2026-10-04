@@ -1,0 +1,10 @@
+.o-blessingsList {
+  position: relative;
+  width: 100%;
+
+  &__empty {
+    font-size: var(--font-big);
+    padding: 34px;
+    text-align: center;
+  }
+}

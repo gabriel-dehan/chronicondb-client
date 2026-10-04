@@ -2,6 +2,7 @@ import { compact, findKey, uniq } from 'lodash';
 
 import { allEnumValues } from '../../helpers/typeUtils';
 import { ArtifactInterface } from '../../types/Artifact.types';
+import { Blessing, Curse } from '../../types/Blessing.types';
 import { Enchant } from '../../types/Enchant.types';
 import { Item, ItemSet, ItemType, ItemCategory } from '../../types/Item.types';
 import { Skill } from '../../types/Skill.types';
@@ -15,6 +16,8 @@ interface Data {
   enchants: Enchant[];
   skills: Skill[];
   artifacts: ArtifactInterface[];
+  blessings: Blessing[];
+  curses: Curse[];
 }
 
 export function generateSearchIndexes(version: string) {
@@ -26,13 +29,23 @@ export function generateSearchIndexes(version: string) {
   if (compare(version, '1.40.1', '>=')) {
     artifacts = JSON.parse(readExtractFile(version, 'artifacts')) as ArtifactInterface[];
   }
-  const data: Data = { items, sets, enchants, skills, artifacts };
+  let blessings = [] as Blessing[];
+  let curses = [] as Curse[];
+  if (compare(version, '1.60.0', '>=')) {
+    blessings = JSON.parse(readExtractFile(version, 'blessings')) as Blessing[];
+    curses = JSON.parse(readExtractFile(version, 'curses')) as Curse[];
+  }
+  const data: Data = { items, sets, enchants, skills, artifacts, blessings, curses };
 
   generateItemsSearchIndex(version, data);
   generateEnchantsSearchIndex(version, data);
   generateSkillsSearchIndex(version, data);
   if (compare(version, '1.40.1', '>=')) {
     generateArtifactsSearchIndex(version, data);
+  }
+  if (compare(version, '1.60.0', '>=')) {
+    generateBlessingsSearchIndex(version, data);
+    generateCursesSearchIndex(version, data);
   }
 }
 
@@ -159,4 +172,44 @@ function generateArtifactsSearchIndex(version: string, data: Data) {
   });
 
   writeFile(index, version, 'artifactsSearchIndex');
+}
+
+function generateBlessingsSearchIndex(version: string, data: Data) {
+  const index: Record<string, string | number>[] = [];
+
+  const { blessings } = data;
+
+  blessings.forEach((blessing) => {
+    const indexedBlessing: Record<string, string | number> = {
+      uuid: blessing.uuid,
+      name: blessing.name,
+      slot: blessing.slot || '',
+      classes: blessing.classes.join(', '),
+      description: blessing.description.replace(/\+?AMOUNT%?/g, ''),
+    };
+
+    index.push(indexedBlessing);
+  });
+
+  writeFile(index, version, 'blessingsSearchIndex');
+}
+
+function generateCursesSearchIndex(version: string, data: Data) {
+  const index: Record<string, string | number>[] = [];
+
+  const { curses } = data;
+
+  curses.forEach((curse) => {
+    const indexedCurse: Record<string, string | number> = {
+      uuid: curse.uuid,
+      name: curse.name,
+      slots: curse.slots.join(', '),
+      purifyAction: curse.purifyAction.replace(/:?\s*MAX/g, ''),
+      description: curse.description.replace(/\+?NUM%?/g, ''),
+    };
+
+    index.push(indexedCurse);
+  });
+
+  writeFile(index, version, 'cursesSearchIndex');
 }

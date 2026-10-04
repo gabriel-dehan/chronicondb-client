@@ -4,4 +4,5 @@ export enum CharacterClass {
   Berserker = 'Berserker',
   Warden = 'Warden',
   Warlock = 'Warlock',
+  Mechanist = 'Mechanist',
 }

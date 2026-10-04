@@ -1,0 +1,17 @@
+La Mécanicienne propose de nouvelles façons de façonner votre personnage pour avoir de nouveaux aspects à prendre en compte comme les interactions mécaniques et de nouvelles stats.
+@Trouvaille de Munitions
+La Mécanicienne a une chance de trouver des Munitions, une ressource unique utile à de nombreuses capacités, lorsqu’elle tue des ennemis. Cette statistique augmente les chances d’apparition des Munitions.
+@+Munitions Max
+Augmente les Munitions Max que la Mécanicienne peut transporter.
+@Parade
+Une stat défensive unique à la Mécanicienne. Elle fonctionne comme l’Esquive, vous donnant une chance d’éviter totalement les dégâts.
+La Parade est calculée avant l’Esquive pour que vous puissiez utiliser ces deux stats et toujours vous reposer sur des effets passifs ou d’autres se déclenchant lors de parades réussies.
+@Drones
+Les Drones sont de nouveaux mécanismes changeant les Satellites existants (gagnés à partir de passifs, de pouvoirs ou d’enchantements) en des Drones plus puissants et plus thématiques.
+Les Drones ne sont pas des compagnons et n’héritent ou ne copient aucune des stats de la Mécanicienne : ils fonctionnent simplement comme des Satellites classiques + ce qu’explique la description associée.
+Les stats "Effets de Drone" et "Effets Tech" augmenteront l’efficacité des Drones : cela est directement reflété dans leurs bulles d’aide.
+De plus, "Force de Satellite" affecte également les Drones (à l’exception des Bots de Puissance et des Bots Bombe), étant donné que les Drones basent leurs dégâts sur les Satellites dont ils sont la conversion.
+Les Drones infligent des dégâts indirects par défaut.
+@Tourelles
+Les Tourelles sont des compétences comme les autres, et n’interagissent avec rien de spécial : elles ne sont pas des compagnons, n’héritent pas de statistiques et la vitesse d’attaque ne les fait pas tirer plus vite.
+Elles fonctionnent généralement comme n’importe quelle compétence Sentinelle (une compétence immobile qui attaque/frappe de façon répétée).

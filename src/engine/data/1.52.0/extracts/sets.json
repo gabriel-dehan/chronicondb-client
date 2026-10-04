@@ -644,7 +644,13 @@
       "2": "Puncture stacks infinitely. Axe, Gun, and Saw Blade skills deal 30% increased damage.",
       "3": "Loose Blades are guaranteed to trigger, spawn in pairs, and deal 50% increased damage. When a foe affected by Puncture dies, a Loose Blade is spawned from it, dealing the total remaining damage of Puncture.",
       "4": "The Mechanist gains 3% Damage Reduction for each nearby foe. Bosses count as 15 foes."
-    }
+    },
+    "itemIds": [
+      905,
+      906,
+      907,
+      908
+    ]
   },
   {
     "uuid": "dronepilot",
@@ -653,7 +659,13 @@
       "2": "Mega Drones (Ultimate) is always active, and Turret skills gain the Drone tag, benefitting from this Ultimate. Automated Targeting (passive) can now stack the targeting marks infinitely.",
       "3": "When reaching Maximum Ammo, all Ammo is consumed, increasing the damage of Turrets and Drones by 100% for each Ammo consumed, for 7 seconds.",
       "4": "The Mechanist gains 5% Damage Reduction for each Drone."
-    }
+    },
+    "itemIds": [
+      909,
+      910,
+      911,
+      912
+    ]
   },
   {
     "uuid": "rocketeer",
@@ -662,7 +674,13 @@
       "2": "Rocketeer Rockets weaken foes hit, increasing the damage they take from Rocketeer Rockets by 100%, stacking infinitely.",
       "3": "Rocketeer Rockets fire 3 at a time.",
       "4": "The Mechanist gains 40% Damage Reduction."
-    }
+    },
+    "itemIds": [
+      922,
+      923,
+      924,
+      925
+    ]
   },
   {
     "uuid": "pyromaniac",
@@ -671,7 +689,13 @@
       "2": "Incendiary Technology now stacks infinitely. Foes affected by Panic suffer double damage from Incendiary Technology.",
       "3": "Incendiary Technology is guaranteed to trigger. For each stack of Incendiary Technology, foes are weakened, increasing the damage they take from all direct damage by 10%.",
       "4": "The Mechanist gains 40% Damage Reduction."
-    }
+    },
+    "itemIds": [
+      926,
+      927,
+      928,
+      929
+    ]
   },
   {
     "uuid": "deathtrooper",
@@ -680,7 +704,13 @@
       "2": "Foes suffer 100% increased damage from Poison Gas each time they are struck by it, stacking infinitely.",
       "3": "Thorns is now added to the base damage of Poison Gas, and Thorns is now Poison element. Poison Gas gains 1 meter increased base radius.",
       "4": "Poison Gas also grants 30% Parry while active."
-    }
+    },
+    "itemIds": [
+      942,
+      943,
+      944,
+      945
+    ]
   },
   {
     "uuid": "masterchemist",
@@ -689,7 +719,13 @@
       "2": "Engineered Poisons now stacks infinitely.",
       "3": "Poison Drones and Gas Drones now also increase Poison Damage by 30% for each active Drone.",
       "4": "The Mechanist gains 40% Damage Reduction."
-    }
+    },
+    "itemIds": [
+      946,
+      947,
+      948,
+      949
+    ]
   },
   {
     "uuid": "mechalord",
@@ -698,7 +734,13 @@
       "2": "Killbot (Ultimate) no longer has any cooldown. Casting Killbot while one is active will immediately detonate it.",
       "3": "Whenever the Killbot is healed by a M3D1C companion, its damage stat is doubled, but its max Health is reduced by 10%. This effect stacks up to 20 times.",
       "4": "50% of damage taken is shared with the Killbot."
-    }
+    },
+    "itemIds": [
+      959,
+      960,
+      961,
+      962
+    ]
   },
   {
     "uuid": "destructive",
@@ -707,7 +749,13 @@
       "2": "Thorns is now added to the base damage of Light Lance.",
       "3": "Offensive Protocols now also releases 5 Light Lances when triggered, and Light Lance may doublecast from Feedback Loops.",
       "4": "Defensive Protocols is 100% stronger and can refresh every 3 seconds regardless of existing barriers."
-    }
+    },
+    "itemIds": [
+      963,
+      964,
+      965,
+      966
+    ]
   },
   {
     "uuid": "xmas",

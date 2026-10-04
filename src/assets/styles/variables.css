@@ -43,8 +43,9 @@
   /* == CLASSES */
   --color-class-warlock: #511d7d;
   --color-class-templar: #0b5485;
-  --color-class-berserker:#85230b;
+  --color-class-berserker: #85230b;
   --color-class-warden: #3d7114;
+  --color-class-mechanist: #1b746b;
   --color-class-anyClass: #544039;
 
   /* == ITEMS == */
@@ -56,14 +57,14 @@
   --color-item-legendary: #AA2D2D;
   --color-item-trueLegendary: #AA2D2D;
   --color-item-set: #f7c200;
-  --color-item-mythical: #FFEEDE;
+  --color-item-mythical: #FFC800;
 
   /* == ENCHANTS == */
   /* -- Category -- */
   --color-enchant-minor: #FFEEDE;
   --color-enchant-major: #637793;
   --color-enchant-epic: #8833d0;
-  --color-enchant-legendary:#cd7f3c;
+  --color-enchant-legendary: #cd7f3c;
 
   --color-enchant-dim-minor: rgba(222, 207, 176, 0.25);
   --color-enchant-dim-major: rgba(99, 119, 147, 0.45);

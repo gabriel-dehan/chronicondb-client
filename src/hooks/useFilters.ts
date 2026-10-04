@@ -16,6 +16,7 @@ import {
   EnchantsFilters,
   SkillsFilters,
   FiltersType, ArtifactsFilters,
+  BlessingsFilters,
 } from 'types/Filters.types';
 
 interface Stores {
@@ -31,11 +32,12 @@ const AVAILABLE_FILTERS_FOR_ROUTES: Record<RoutePath, FiltersType[]> = {
   [RoutePath.Skills]: [FiltersType.General, FiltersType.Skills],
   [RoutePath.Skill]: [],
   [RoutePath.Artifacts]: [FiltersType.General, FiltersType.Artifacts],
+  [RoutePath.Blessings]: [FiltersType.General, FiltersType.Blessings],
   [RoutePath.Developers]: [FiltersType.General],
 };
 
 export default function useFilters
-  <T extends GeneralFilters | ItemsFilters | EnchantsFilters | SkillsFilters | ArtifactsFilters>(filtersType: FiltersType)
+  <T extends GeneralFilters | ItemsFilters | EnchantsFilters | SkillsFilters | ArtifactsFilters | BlessingsFilters>(filtersType: FiltersType)
   : useFiltersInterface<T>  {
   const routes = allEnumValues(RoutePath);
   const { filtersStore } = useStores<Stores>(DataStore.Filters);

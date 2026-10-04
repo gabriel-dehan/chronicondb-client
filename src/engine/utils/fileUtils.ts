@@ -14,6 +14,10 @@ export function readSourceFile(version: string, fileName: string): string {
   return fs.readFileSync(absolutePath).toString();
 }
 
+export function sourceFileExists(version: string, fileName: string): boolean {
+  return fs.existsSync(path.resolve(__dirname, `../data/${version}/sources/${fileName}`));
+}
+
 export function readInjectedSourceFile(version: string, fileName: string): string {
   const absolutePath = path.resolve(__dirname, `../data/injected/${fileName}`);
   return fs.readFileSync(absolutePath).toString();

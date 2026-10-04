@@ -23,12 +23,22 @@ export interface EnchantsFilters {
   search?: string;
   type?: string;
   category?: string;
+  // only used for runes
+  slot?: string;
+  characterClass?: string;
 }
 
 export interface ArtifactsFilters {
   search?: string;
   type?: string;
   category?: string;
+}
+
+export interface BlessingsFilters {
+  search?: string;
+  kind?: string;
+  slot?: string;
+  characterClass?: string;
 }
 
 export interface SkillsFilters {
@@ -45,6 +55,7 @@ export interface Filters {
   enchants: EnchantsFilters;
   skills: SkillsFilters;
   artifacts: ArtifactsFilters;
+  blessings: BlessingsFilters;
 }
 
 /* Flattened filters */
@@ -60,6 +71,8 @@ export type QueryFiltersInterface = {
   enchantsSearch?: string;
   enchantsType?: string;
   enchantsCategory?: string;
+  enchantsSlot?: string;
+  enchantsCharacterClass?: string;
   skillsSearch?: string;
   skillsCharacterClass: string;
   skillsTree: string;
@@ -67,6 +80,10 @@ export type QueryFiltersInterface = {
   skillsFamily: string;
   artifactSearch: string;
   artifactType: string;
+  blessingsSearch?: string;
+  blessingsKind?: string;
+  blessingsSlot?: string;
+  blessingsCharacterClass?: string;
 }
 
 export enum FiltersType {
@@ -74,5 +91,6 @@ export enum FiltersType {
   Items = 'items',
   Enchants = 'enchants',
   Skills = 'skills',
-  Artifacts = 'artifacts'
+  Artifacts = 'artifacts',
+  Blessings = 'blessings',
 }

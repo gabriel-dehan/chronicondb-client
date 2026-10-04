@@ -1,0 +1,12 @@
+@Que sont les compétences ?
+Les compétences sont des attaques, des soins, des bonus, des compagnons, des auras et d’autres effets passifs dont peut bénéficier votre personnage.
+@La fenêtre indique que des points de compétence sont disponibles : que faire ?
+Ouvrez votre inventaire (par défaut « I » au clavier ou « retour/select » sur manette) puis allez sur la page de compétences : il s’agit de l’icône dans le coin supérieur gauche de la page d’inventaire comportant un petit « + ». Dépensez le point dans la compétence que vous souhaitez ! Souvenez-vous que vous pouvez dépenser des points dans tous les arbres disponibles, de la façon que vous souhaitez ! Soyez créatifs !
+@Comment utiliser une compétence après avoir dépensé des points dedans ?
+Les compétences passives (rondes) sont utilisées automatiquement, mais les autres doivent être liées à un emplacement. Pour ce faire, cliquez droit sur l’icône de la compétence dans la page des compétences (ou naviguez jusqu’à elle avec la manette et appuyez sur « Y ») puis sélectionnez à quel bouton/emplacement vous souhaitez la lier dans le menu contextuel. Vous pouvez maintenant fermer la fenêtre de compétences pour voir s’afficher la compétence liée. Appuyez simplement sur le bouton que vous avez assigné pour utiliser la compétence.
+@Il est impossible de lier une compétence.
+Assurez-vous d’y avoir dépensé des points et qu’il ne s’agit pas d’une compétence passive : ces dernières sont toujours actives et n’ont pas besoin d’être liées.
+@Est-il possible de changer les boutons assignés aux compétences ?
+Oui : vous pouvez simplement aller dans le menu Paramètres, puis dans le menu Contrôles et enfin le menu Contrôles clavier.
+@Est-il possible de remplacer une compétence active dans un emplacement vide ?
+Oui : il vous suffit de faire apparaître le menu de liaison (clic droit ou appuyez sur « Y » sur la manette) et sélectionnez Échanger dans le menu. Vous pouvez maintenant échanger la compétence de n’importe quelle compétence avec n’importe quelle option, et les points de compétences dépensés seront transférés à la nouvelle compétence.

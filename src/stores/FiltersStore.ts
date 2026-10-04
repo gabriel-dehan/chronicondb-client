@@ -24,6 +24,9 @@ export class FiltersStore {
   @observable
   public artifacts: FiltersTypes.ArtifactsFilters;
 
+  @observable
+  public blessings: FiltersTypes.BlessingsFilters;
+
   // A bit ugly but gets the job done
   constructor() {
     const query = qs.parse(
@@ -58,6 +61,8 @@ export class FiltersStore {
       search: query.enchantsSearch,
       type: query.enchantsType,
       category: query.enchantsCategory,
+      slot: query.enchantsSlot,
+      characterClass: query.enchantsCharacterClass,
     };
 
     this.skills = {
@@ -71,6 +76,13 @@ export class FiltersStore {
     this.artifacts = {
       search: query.artifactSearch,
       type: query.artifactType,
+    };
+
+    this.blessings = {
+      search: query.blessingsSearch,
+      kind: query.blessingsKind,
+      slot: query.blessingsSlot,
+      characterClass: query.blessingsCharacterClass,
     };
   }
 
@@ -124,6 +136,16 @@ export class FiltersStore {
     }
   }
 
+  @action
+  public setBlessingsFilters(filters: Partial<FiltersTypes.BlessingsFilters>) {
+    this.blessings = merge(this.blessings, filters);
+
+    // Allow undefined value for search
+    if (has(filters, 'search') && isEmpty(filters.search)) {
+      this.blessings.search = undefined;
+    }
+  }
+
   @computed
   get filters(): FiltersTypes.Filters {
     return {
@@ -132,6 +154,7 @@ export class FiltersStore {
       enchants: this.enchants,
       skills: this.skills,
       artifacts: this.artifacts,
+      blessings: this.blessings,
     };
   }
 

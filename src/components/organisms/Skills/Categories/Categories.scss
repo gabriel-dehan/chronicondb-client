@@ -148,5 +148,8 @@
     &.class-warden .drawer-handle::after {
       background-image: url(/assets/images/game/classes/profiles/warden.png);
     }
+    &.class-mechanist .drawer-handle::after {
+      background-image: url(/assets/images/game/classes/profiles/mechanist.png);
+    }
   }
 }

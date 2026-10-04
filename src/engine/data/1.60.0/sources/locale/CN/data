@@ -1,0 +1,6 @@
+﻿[DATA]
+name="Chinese"
+font_align="left"
+font_type="chinese"
+only_suffixes="0"
+no_suffix_of_separator="0"

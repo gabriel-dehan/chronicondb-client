@@ -92,7 +92,18 @@ export const ENCHANT_SLOTS_BY_RARITY: Record<ItemRarity, ItemEnchantSlot[]> = {
       categoriesRestriction: EpicEnchantableCategories,
     },
   ],
-  [ItemRarity.Mythical]: [],
+  [ItemRarity.Mythical]: [
+    {
+      count: 3,
+      types: [EnchantType.Minor],
+      categoriesRestriction: EnchantableCategories,
+    },
+    {
+      count: 3,
+      types: [EnchantType.Major],
+      categoriesRestriction: EnchantableCategories,
+    },
+  ],
 };
 
 export const ITEM_TYPES_BY_CATEGORIES: Record<ItemCategory, ItemType[]> = {
@@ -104,6 +115,7 @@ export const ITEM_TYPES_BY_CATEGORIES: Record<ItemCategory, ItemType[]> = {
     ItemType.Sword,
     ItemType.Staff,
     ItemType.Fists,
+    ItemType.Axe,
   ],
   [ItemCategory.Offhand]: [
     ItemType.Spellbook,
@@ -111,6 +123,7 @@ export const ITEM_TYPES_BY_CATEGORIES: Record<ItemCategory, ItemType[]> = {
     ItemType.Tome,
     ItemType.Claw,
     ItemType.Arrow,
+    ItemType.Gun,
   ],
   [ItemCategory.Ring]: [ItemType.Ring],
   [ItemCategory.Amulet]: [ItemType.Amulet],
@@ -134,6 +147,8 @@ export const ITEM_TYPES_BY_CATEGORIES: Record<ItemCategory, ItemType[]> = {
     ItemType.Container,
     ItemType.UnknownItem,
     ItemType.Bag,
+    ItemType.Vial,
+    ItemType.ShipUpgrade,
   ],
   [ItemCategory.Craft]: [
     ItemType.CraftingMaterial,
@@ -196,6 +211,16 @@ export const SETS_BY_CLASS: Record<CharacterClass, SetUuid[]> = {
     SetUuid.Desecrator,
     SetUuid.Masochist,
   ],
+  [CharacterClass.Mechanist]: [
+    SetUuid.SawMaster,
+    SetUuid.DronePilot,
+    SetUuid.Rocketeer,
+    SetUuid.Pyromaniac,
+    SetUuid.DeathTrooper,
+    SetUuid.MasterChemist,
+    SetUuid.Mechalord,
+    SetUuid.Destructive,
+  ],
 };
 
 export const ITEM_ID_BY_SETS: Record<SetUuid, number[]> = {
@@ -245,6 +270,14 @@ export const ITEM_ID_BY_SETS: Record<SetUuid, number[]> = {
   [SetUuid.Snowstorm]: [392, 393, 394, 589],
   [SetUuid.Christmas]: [716, 717, 718, 719, 720],
   [SetUuid.Master]: [776, 616],
+  [SetUuid.SawMaster]: [905, 906, 907, 908],
+  [SetUuid.DronePilot]: [909, 910, 911, 912],
+  [SetUuid.Rocketeer]: [922, 923, 924, 925],
+  [SetUuid.Pyromaniac]: [926, 927, 928, 929],
+  [SetUuid.DeathTrooper]: [942, 943, 944, 945],
+  [SetUuid.MasterChemist]: [946, 947, 948, 949],
+  [SetUuid.Mechalord]: [959, 960, 961, 962],
+  [SetUuid.Destructive]: [963, 964, 965, 966],
 };
 
 export const SKILLTREES_BY_CLASSES: Partial<Record<CharacterClass, SkillTree[]>> = {
@@ -274,6 +307,13 @@ export const SKILLTREES_BY_CLASSES: Partial<Record<CharacterClass, SkillTree[]>>
     SkillTree.Lich,
     SkillTree.Demonologist,
     SkillTree.Reaper,
+    SkillTree.Mastery,
+  ],
+  [CharacterClass.Mechanist]: [
+    SkillTree.Frontliner,
+    SkillTree.Pyrotechnics,
+    SkillTree.BioTech,
+    SkillTree.Mechpriest,
     SkillTree.Mastery,
   ],
 };

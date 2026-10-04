@@ -1,0 +1,286 @@
+[
+  {
+    "uuid": 0,
+    "name": "Darkness",
+    "description": "Light Radius Reduced by NUM%",
+    "value": 90,
+    "slots": [
+      "Helm",
+      "Accessory"
+    ],
+    "shieldOnly": false,
+    "purifyAction": "Light sources lit: MAX",
+    "purifyRequired": 150
+  },
+  {
+    "uuid": 1,
+    "name": "Stumbling",
+    "description": "Occasionally stumble in your step",
+    "slots": [
+      "Boots"
+    ],
+    "shieldOnly": false,
+    "purifyAction": "Steps walked: MAX",
+    "purifyRequired": 1000
+  },
+  {
+    "uuid": 2,
+    "name": "Slippery",
+    "description": "All immunities to knockback and pull effects are inneffective",
+    "slots": [
+      "Boots"
+    ],
+    "shieldOnly": false,
+    "purifyAction": "Crowned Foes defeated: MAX",
+    "purifyRequired": 200
+  },
+  {
+    "uuid": 3,
+    "name": "Misfortune",
+    "description": "Find NUM% less Crystals",
+    "value": 30,
+    "slots": [
+      "Amulet"
+    ],
+    "shieldOnly": false,
+    "purifyAction": "Chests Opened: MAX",
+    "purifyRequired": 30
+  },
+  {
+    "uuid": 4,
+    "name": "Unlucky",
+    "description": "Magic Find halved",
+    "slots": [
+      "Accessory",
+      "Amulet"
+    ],
+    "shieldOnly": false,
+    "purifyAction": "Unique or better items looted: MAX",
+    "purifyRequired": 30
+  },
+  {
+    "uuid": 5,
+    "name": "Warping",
+    "description": "Occasionally Warps you in a random direction",
+    "slots": [
+      "Ring"
+    ],
+    "shieldOnly": false,
+    "purifyAction": "Material Pickups taken: MAX",
+    "purifyRequired": 100
+  },
+  {
+    "uuid": 6,
+    "name": "Clumsy",
+    "description": "Evasion halved",
+    "slots": [
+      "Boots",
+      "Ring"
+    ],
+    "shieldOnly": false,
+    "purifyAction": "Attacks Evaded: MAX",
+    "purifyRequired": 90
+  },
+  {
+    "uuid": 7,
+    "name": "Glancing",
+    "description": "Critical Hit Chance set to 0%",
+    "slots": [
+      "Offhand",
+      "Weapon"
+    ],
+    "shieldOnly": false,
+    "purifyAction": "Hits landed: MAX",
+    "purifyRequired": 3000
+  },
+  {
+    "uuid": 8,
+    "name": "Sickly",
+    "description": "Lose NUM% Health per second while over 50% Health",
+    "value": 1,
+    "slots": [
+      "Helm",
+      "Offhand",
+      "Armor"
+    ],
+    "shieldOnly": false,
+    "purifyAction": "Times Healed: MAX",
+    "purifyRequired": 100
+  },
+  {
+    "uuid": 9,
+    "name": "Slowing",
+    "description": "Movement Speed halved",
+    "slots": [
+      "Offhand",
+      "Accessory",
+      "Boots"
+    ],
+    "shieldOnly": false,
+    "purifyAction": "Steps walked: MAX",
+    "purifyRequired": 1000
+  },
+  {
+    "uuid": 10,
+    "name": "Loudness",
+    "description": "Cooldown Reduction reduced by NUM%",
+    "value": 30,
+    "slots": [
+      "Helm",
+      "Amulet"
+    ],
+    "shieldOnly": false,
+    "purifyAction": "Minions defeated: MAX",
+    "purifyRequired": 1000
+  },
+  {
+    "uuid": 12,
+    "name": "Brittle",
+    "description": "Can no longer block",
+    "slots": [
+      "Offhand"
+    ],
+    "shieldOnly": true,
+    "purifyAction": "Times hit by foes: MAX",
+    "purifyRequired": 200
+  },
+  {
+    "uuid": 14,
+    "name": "Draining",
+    "description": "Lose NUM% Mana per second",
+    "value": 1,
+    "slots": [
+      "Accessory"
+    ],
+    "shieldOnly": false,
+    "purifyAction": "MANA Potions consumed: MAX",
+    "purifyRequired": 100
+  },
+  {
+    "uuid": 15,
+    "name": "Equalizer",
+    "description": "Lose NUM% Health on kill",
+    "value": 1,
+    "slots": [
+      "Amulet"
+    ],
+    "shieldOnly": false,
+    "purifyAction": "Foes defeated: MAX",
+    "purifyRequired": 1500
+  },
+  {
+    "uuid": 16,
+    "name": "Abstinence",
+    "description": "Spending Mana also drains equal amounts of Health",
+    "slots": [
+      "Weapon",
+      "Ring"
+    ],
+    "shieldOnly": false,
+    "purifyAction": "Health Potions consumed: MAX",
+    "purifyRequired": 100
+  },
+  {
+    "uuid": 17,
+    "name": "Afflicted",
+    "description": "Get afflicted by random negative effects",
+    "slots": [
+      "Weapon",
+      "Ring"
+    ],
+    "shieldOnly": false,
+    "purifyAction": "Times Buffed: MAX",
+    "purifyRequired": 40
+  },
+  {
+    "uuid": 18,
+    "name": "Pocket Holes",
+    "description": "Lose Crystals equal to damage taken",
+    "slots": [
+      "Armor"
+    ],
+    "shieldOnly": false,
+    "purifyAction": "Crystal Pickups taken: MAX",
+    "purifyRequired": 100
+  },
+  {
+    "uuid": 19,
+    "name": "Gooey",
+    "description": "Chance on being hurt to spawn hostile Slimes",
+    "slots": [
+      "Armor"
+    ],
+    "shieldOnly": false,
+    "purifyAction": "Enemies gibbed: MAX",
+    "purifyRequired": 1000
+  },
+  {
+    "uuid": 20,
+    "name": "Nearsighted",
+    "description": "Reach reduced by NUM%",
+    "value": 50,
+    "slots": [
+      "Helm"
+    ],
+    "shieldOnly": false,
+    "purifyAction": "Gem Pickups taken: MAX",
+    "purifyRequired": 100
+  },
+  {
+    "uuid": 21,
+    "name": "Aversion",
+    "description": "-NUM% to all Resistances",
+    "value": 30,
+    "slots": [
+      "Armor"
+    ],
+    "shieldOnly": false,
+    "purifyAction": "Bosses defeated: MAX",
+    "purifyRequired": 10
+  },
+  {
+    "uuid": 22,
+    "name": "Lethargy",
+    "description": "Attack Speed reduced by NUM%",
+    "value": 50,
+    "slots": [
+      "Weapon"
+    ],
+    "shieldOnly": false,
+    "purifyAction": "Attacks performed: MAX",
+    "purifyRequired": 300
+  },
+  {
+    "uuid": 23,
+    "name": "Champions",
+    "description": "Enemy Champions roll one extra modifier",
+    "slots": [
+      "Offhand"
+    ],
+    "shieldOnly": false,
+    "purifyAction": "Crowned Foes defeated: MAX",
+    "purifyRequired": 200
+  },
+  {
+    "uuid": 24,
+    "name": "Crowns",
+    "description": "Crowned enemies are much more likely to spawn",
+    "slots": [
+      "Ring"
+    ],
+    "shieldOnly": false,
+    "purifyAction": "Minions defeated: MAX",
+    "purifyRequired": 1000
+  },
+  {
+    "uuid": 25,
+    "name": "Pickups",
+    "description": "Health and Mana Pickups no longer drop",
+    "slots": [
+      "Armor"
+    ],
+    "shieldOnly": false,
+    "purifyAction": "Times Healed: MAX",
+    "purifyRequired": 100
+  }
+]

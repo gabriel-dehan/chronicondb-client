@@ -5,6 +5,7 @@ import { observer } from 'mobx-react';
 import Categories from 'components/organisms/Items/Categories/Categories';
 import Filters from 'components/organisms/Items/Filters/Filters';
 import List from 'components/organisms/Items/List/List';
+import { ALL_ITEMS_CATEGORY } from 'engine/EngineItems';
 import useEngine from 'hooks/useEngine';
 import { useStores } from 'hooks/useStores';
 import { FiltersStore } from 'stores/FiltersStore';
@@ -21,6 +22,7 @@ const ItemsTemplate: FunctionComponent = () => {
   const Engine = useEngine();
 
   const items = getFilteredItems();
+  const isAllCategory = filtersStore.items.category === ALL_ITEMS_CATEGORY;
 
   return (
     <>
@@ -28,7 +30,7 @@ const ItemsTemplate: FunctionComponent = () => {
       <div className="t-items__wrapper">
         <Categories />
         <div className="t-items__list">
-          <List items={items} />
+          <List items={items} showEnchantsPool={!isAllCategory} />
         </div>
       </div>
     </>

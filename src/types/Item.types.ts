@@ -79,7 +79,11 @@ export enum ItemType {
   SphereGem = 'Sphere Gem',
   StarGem = 'Star Gem',
   Relic = 'Relic',
-  Rune = 'Item'
+  Rune = 'Item',
+  Axe = 'Axe',
+  Gun = 'Gun',
+  Vial = 'Vial',
+  ShipUpgrade = 'Ship Upgrade'
 }
 
 export enum SetUuid {
@@ -129,4 +133,12 @@ export enum SetUuid {
   Snowstorm = 'snowstorm',
   Christmas = 'xmas',
   Master = 'masters',
+  SawMaster = 'sawmaster',
+  DronePilot = 'dronepilot',
+  Rocketeer = 'rocketeer',
+  Pyromaniac = 'pyromaniac',
+  DeathTrooper = 'deathtrooper',
+  MasterChemist = 'masterchemist',
+  Mechalord = 'mechalord',
+  Destructive = 'destructive',
 }

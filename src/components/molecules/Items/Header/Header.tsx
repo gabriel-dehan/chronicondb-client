@@ -8,7 +8,11 @@ import { ItemsFilters, FiltersType, SortOrder } from 'types/Filters.types';
 
 import './Header.scss';
 
-const Header: FunctionComponent = () => {
+interface Props {
+  showEnchantsPool?: boolean;
+}
+
+const Header: FunctionComponent<Props> = ({ showEnchantsPool = true }) => {
   const [filters, setFilters] = useFilters<ItemsFilters>(FiltersType.Items);
   let nameSortOrder: 'asc' | 'desc' | null = null;
   let levelSortOrder: 'asc' | 'desc' | null = null;
@@ -23,7 +27,7 @@ const Header: FunctionComponent = () => {
 
   return (
     <div className="m-header">
-      <div className="m-header__items">
+      <div className={`m-header__items ${showEnchantsPool ? '' : 'fullWidth'}`}>
         <h3 className="m-header__thead">
           <SortSelect
             label="Item"
@@ -39,9 +43,11 @@ const Header: FunctionComponent = () => {
           />
         </h3>
       </div>
-      <div className="m-header__enchants">
-        <h3 className="m-header__thead">Possible Enchants</h3>
-      </div>
+      {showEnchantsPool && (
+        <div className="m-header__enchants">
+          <h3 className="m-header__thead">Possible Enchants</h3>
+        </div>
+      )}
     </div>
   );
 

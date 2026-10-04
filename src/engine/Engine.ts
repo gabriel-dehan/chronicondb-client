@@ -6,7 +6,9 @@ import { Item, ItemSet } from 'types/Item.types';
 import { Skill, SkillTree } from 'types/Skill.types';
 
 import { ArtifactInterface } from '../types/Artifact.types';
+import { Blessing, Curse } from '../types/Blessing.types';
 import EngineArtifacts from './EngineArtifacts';
+import EngineBlessings from './EngineBlessings';
 import EngineEnchants from './EngineEnchants';
 import EngineItems from './EngineItems';
 import EngineSkills from './EngineSkills';
@@ -16,6 +18,10 @@ type Version = string;
 export interface DataInterface {
   artifacts: ArtifactInterface[];
   artifactsSearchIndex: Record<string, string | number>[];
+  blessings?: Blessing[];
+  blessingsSearchIndex?: Record<string, string | number>[];
+  curses?: Curse[];
+  cursesSearchIndex?: Record<string, string | number>[];
   items: Item[];
   enchants: Enchant[];
   enchantsPool: EnchantsPool;
@@ -36,6 +42,7 @@ export default class Engine {
   public readonly Enchants!: EngineEnchants;
   public readonly Skills!: EngineSkills;
   public readonly Artifacts!: EngineArtifacts;
+  public readonly Blessings!: EngineBlessings;
 
   constructor(version: Version) {
     this.version = version;
@@ -43,6 +50,7 @@ export default class Engine {
     this.Enchants = new EngineEnchants(this);
     this.Skills = new EngineSkills(this);
     this.Artifacts = new EngineArtifacts(this);
+    this.Blessings = new EngineBlessings(this);
   }
 
   public get loaded(): boolean {
@@ -64,6 +72,9 @@ export default class Engine {
     this.Skills.onDataLoaded();
     if (compare(this.version, '1.40.1', '>=')) {
       this.Artifacts.onDataLoaded();
+    }
+    if (compare(this.version, '1.60.0', '>=')) {
+      this.Blessings.onDataLoaded();
     }
 
     // console.log('Enchants', this.data?.enchants.length);

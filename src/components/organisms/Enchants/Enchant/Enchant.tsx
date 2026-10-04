@@ -8,7 +8,7 @@ import Badge from 'components/atoms/Badge/Badge';
 import GameIcon, { GameIconType } from 'components/atoms/GameIcon/GameIcon';
 import useEngine from 'hooks/useEngine';
 import { RoutePath } from 'routes';
-import { Enchant as EnchantInterfacee, EnchantCategory, EnchantType } from 'types/Enchant.types';
+import { Enchant as EnchantInterfacee, EnchantCategory, EnchantType, RuneRestrictions } from 'types/Enchant.types';
 import { ItemRarity, ItemType } from 'types/Item.types';
 
 import './Enchant.scss';
@@ -88,10 +88,50 @@ const Enchant: FunctionComponent<Props> = ({
               </li>
             ))}
           </ul>
+          {enchant.rune && renderRuneRestrictions(enchant.rune)}
         </div>
       </div>
     </div>
   );
+
+  function renderRuneRestrictions(rune: RuneRestrictions) {
+    return (
+      <>
+        <h3 className="o-enchant__itemTypes-title o-enchant__runeTitle">
+          Slots:
+        </h3>
+        <ul>
+          {rune.categories.map(category => (
+            <li
+              key={`enchant-${enchant.uuid}-runeSlot-${category}`}
+              className="o-enchant__itemType o-enchant__runeRestriction"
+            >
+              <GameIcon type={GameIconType.ItemCategory} name={category.toLowerCase()} width={20} />
+              <Link to={{
+                pathname: '/items',
+                search: `?itemsCategory=${category}`,
+              }}>
+                {category}
+              </Link>
+            </li>
+          ))}
+        </ul>
+        <h3 className="o-enchant__itemTypes-title o-enchant__runeTitle">
+          Class:
+        </h3>
+        <ul>
+          <li className="o-enchant__itemType o-enchant__runeRestriction">
+            {rune.characterClass ? (
+              <>
+                <GameIcon type={GameIconType.ClassProfile} name={rune.characterClass.toLowerCase()} height={24} />
+                {rune.characterClass}
+              </>
+            ) : 'Any class'}
+          </li>
+        </ul>
+      </>
+    );
+  }
 
   function renderRanges() {
     if (isGem) {

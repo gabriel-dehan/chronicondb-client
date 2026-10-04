@@ -20,8 +20,9 @@ export const DEFAULT_RARITIES_FILTERS = [
   ItemRarity.TrueLegendary,
 ];
 
-const FILTER_UNAFFECTED_CATEGORIES = [
-  'Any',
+export const ALL_ITEMS_CATEGORY = 'Any';
+
+const FILTER_UNAFFECTED_CATEGORIES: string[] = [
   ItemCategory.Consumables,
   ItemCategory.Craft,
   ItemCategory.Gem,
@@ -35,6 +36,7 @@ export const ITEM_TYPES_WITH_EPIC_REPLACEMENT_CHANCE = [
   ItemType.Sword,
   ItemType.Fists,
   ItemType.Staff,
+  ItemType.Axe,
   ItemType.Accessory,
 ];
 
@@ -135,8 +137,9 @@ export default class EngineItems {
   }
 
   private filterByTypeAndCategory(items: Item[], filters: ItemsFilters) {
-    if (filters.category === 'Any' || filters.type === 'Any') {
-      return items;
+    if (filters.category === ALL_ITEMS_CATEGORY || filters.type === ALL_ITEMS_CATEGORY) {
+      // The "All" tab only lists equipment
+      return items.filter(item => !FILTER_UNAFFECTED_CATEGORIES.includes(item.category));
     } else {
       const category = (filters.category || this.defaultCategory) as ItemCategory;
       const type = (filters.type || this.defaultType) as ItemType;

@@ -1,0 +1,651 @@
+[
+  {
+    "uuid": 0,
+    "name": "Greater Vitality",
+    "description": "+AMOUNT Health.",
+    "value": 10000,
+    "slot": "Helm",
+    "classes": [
+      "Templar",
+      "Berserker",
+      "Warden",
+      "Warlock",
+      "Mechanist"
+    ]
+  },
+  {
+    "uuid": 1,
+    "name": "Greater Energy",
+    "description": "+AMOUNT Mana.",
+    "value": 5000,
+    "slot": "Helm",
+    "classes": [
+      "Templar",
+      "Berserker",
+      "Warden",
+      "Warlock",
+      "Mechanist"
+    ]
+  },
+  {
+    "uuid": 2,
+    "name": "Greater Might",
+    "description": "+AMOUNT Damage.",
+    "value": 4000,
+    "slot": "Helm",
+    "classes": [
+      "Templar",
+      "Berserker",
+      "Warden",
+      "Warlock",
+      "Mechanist"
+    ]
+  },
+  {
+    "uuid": 3,
+    "name": "Greater Protection",
+    "description": "+AMOUNT% to all Resistances.",
+    "value": 35,
+    "slot": "Helm",
+    "classes": [
+      "Templar",
+      "Berserker",
+      "Warden",
+      "Warlock",
+      "Mechanist"
+    ]
+  },
+  {
+    "uuid": 4,
+    "name": "Greater Auras",
+    "description": "+AMOUNT to all known Aura skills.",
+    "value": 2,
+    "slot": "Offhand",
+    "classes": [
+      "Templar"
+    ]
+  },
+  {
+    "uuid": 5,
+    "name": "Greater Rituals",
+    "description": "+AMOUNT to all known Ritual skills.",
+    "value": 2,
+    "slot": "Offhand",
+    "classes": [
+      "Warlock"
+    ]
+  },
+  {
+    "uuid": 6,
+    "name": "Greater Heritage",
+    "description": "+AMOUNT to all known Heritage skills.",
+    "value": 2,
+    "slot": "Offhand",
+    "classes": [
+      "Berserker"
+    ]
+  },
+  {
+    "uuid": 7,
+    "name": "Greater Companions",
+    "description": "+AMOUNT to all known Companion skills.",
+    "value": 2,
+    "slot": "Offhand",
+    "classes": [
+      "Warden",
+      "Warlock",
+      "Mechanist"
+    ]
+  },
+  {
+    "uuid": 8,
+    "name": "Greater Tech",
+    "description": "+AMOUNT to all known Tech skills.",
+    "value": 2,
+    "slot": "Offhand",
+    "classes": [
+      "Mechanist"
+    ]
+  },
+  {
+    "uuid": 10,
+    "name": "Greater Utility",
+    "description": "+AMOUNT to all known Utility skills.",
+    "value": 3,
+    "slot": "Offhand",
+    "classes": [
+      "Templar",
+      "Berserker",
+      "Warden",
+      "Warlock",
+      "Mechanist"
+    ]
+  },
+  {
+    "uuid": 11,
+    "name": "Greater Ultimate",
+    "description": "+AMOUNT to all known Ultimate skills.",
+    "value": 1,
+    "slot": "Offhand",
+    "classes": [
+      "Templar",
+      "Berserker",
+      "Warden",
+      "Warlock",
+      "Mechanist"
+    ]
+  },
+  {
+    "uuid": 12,
+    "name": "Greater Fire",
+    "description": "AMOUNT% chance to doublecast any offensive non-mobility Fire skill.",
+    "value": 15,
+    "slot": "Weapon",
+    "classes": [
+      "Templar",
+      "Berserker",
+      "Warlock",
+      "Mechanist"
+    ]
+  },
+  {
+    "uuid": 13,
+    "name": "Greater Frost",
+    "description": "AMOUNT% chance to doublecast any offensive non-mobility Frost skill.",
+    "value": 15,
+    "slot": "Weapon",
+    "classes": [
+      "Berserker",
+      "Warden",
+      "Warlock"
+    ]
+  },
+  {
+    "uuid": 14,
+    "name": "Greater Lightning",
+    "description": "AMOUNT% chance to doublecast any offensive non-mobility Lightning skill.",
+    "value": 15,
+    "slot": "Weapon",
+    "classes": [
+      "Templar",
+      "Berserker",
+      "Warden"
+    ]
+  },
+  {
+    "uuid": 15,
+    "name": "Greater Poison",
+    "description": "AMOUNT% chance to doublecast any offensive non-mobility Poison skill.",
+    "value": 15,
+    "slot": "Weapon",
+    "classes": [
+      "Warden",
+      "Warlock",
+      "Mechanist"
+    ]
+  },
+  {
+    "uuid": 16,
+    "name": "Greater Physical",
+    "description": "AMOUNT% chance to doublecast any offensive non-mobility Physical skill.",
+    "value": 15,
+    "slot": "Weapon",
+    "classes": [
+      "Templar",
+      "Berserker",
+      "Warden",
+      "Mechanist"
+    ]
+  },
+  {
+    "uuid": 17,
+    "name": "Greater Holy",
+    "description": "AMOUNT% chance to doublecast any offensive non-mobility Holy skill.",
+    "value": 15,
+    "slot": "Weapon",
+    "classes": [
+      "Templar",
+      "Mechanist"
+    ]
+  },
+  {
+    "uuid": 18,
+    "name": "Greater Shadow",
+    "description": "AMOUNT% chance to doublecast any offensive non-mobility Shadow skill.",
+    "value": 15,
+    "slot": "Weapon",
+    "classes": [
+      "Warlock"
+    ]
+  },
+  {
+    "uuid": 19,
+    "name": "Greater Swords",
+    "description": "+AMOUNT to all known Sword skills.",
+    "value": 2,
+    "slot": "Accessory",
+    "classes": [
+      "Templar"
+    ]
+  },
+  {
+    "uuid": 20,
+    "name": "Greater Shields",
+    "description": "+AMOUNT to all known Shield skills.",
+    "value": 2,
+    "slot": "Accessory",
+    "classes": [
+      "Templar"
+    ]
+  },
+  {
+    "uuid": 21,
+    "name": "Greater Magic",
+    "description": "+AMOUNT to all known Magic skills.",
+    "value": 2,
+    "slot": "Accessory",
+    "classes": [
+      "Templar"
+    ]
+  },
+  {
+    "uuid": 22,
+    "name": "Greater Dragons",
+    "description": "+AMOUNT to all known Dragon skills.",
+    "value": 2,
+    "slot": "Accessory",
+    "classes": [
+      "Berserker"
+    ]
+  },
+  {
+    "uuid": 23,
+    "name": "Greater Shouts",
+    "description": "+AMOUNT to all known Shout skills.",
+    "value": 2,
+    "slot": "Accessory",
+    "classes": [
+      "Berserker"
+    ]
+  },
+  {
+    "uuid": 24,
+    "name": "Greater Brawl",
+    "description": "+AMOUNT to all known Brawl skills.",
+    "value": 2,
+    "slot": "Accessory",
+    "classes": [
+      "Berserker"
+    ]
+  },
+  {
+    "uuid": 25,
+    "name": "Greater Archery",
+    "description": "+AMOUNT to all known Archery skills.",
+    "value": 2,
+    "slot": "Accessory",
+    "classes": [
+      "Warden"
+    ]
+  },
+  {
+    "uuid": 26,
+    "name": "Greater Nature",
+    "description": "+AMOUNT to all known nature skills.",
+    "value": 2,
+    "slot": "Accessory",
+    "classes": [
+      "Warden"
+    ]
+  },
+  {
+    "uuid": 27,
+    "name": "Greater Storms",
+    "description": "+AMOUNT to all known Storm skills.",
+    "value": 2,
+    "slot": "Accessory",
+    "classes": [
+      "Warden"
+    ]
+  },
+  {
+    "uuid": 28,
+    "name": "Greater Sorcery",
+    "description": "+AMOUNT to all known Sorcery skills.",
+    "value": 2,
+    "slot": "Accessory",
+    "classes": [
+      "Warlock"
+    ]
+  },
+  {
+    "uuid": 29,
+    "name": "Greater Banes",
+    "description": "+AMOUNT to all known Bane skills.",
+    "value": 2,
+    "slot": "Accessory",
+    "classes": [
+      "Warlock"
+    ]
+  },
+  {
+    "uuid": 30,
+    "name": "Greater Curses",
+    "description": "+AMOUNT to all known Curse skills.",
+    "value": 2,
+    "slot": "Accessory",
+    "classes": [
+      "Warlock"
+    ]
+  },
+  {
+    "uuid": 31,
+    "name": "Greater Combat",
+    "description": "+AMOUNT to all known Combat skills.",
+    "value": 2,
+    "slot": "Accessory",
+    "classes": [
+      "Mechanist"
+    ]
+  },
+  {
+    "uuid": 32,
+    "name": "Greater Machinery",
+    "description": "+AMOUNT to all known Machinery skills.",
+    "value": 2,
+    "slot": "Accessory",
+    "classes": [
+      "Mechanist"
+    ]
+  },
+  {
+    "uuid": 33,
+    "name": "Greater Tinker",
+    "description": "+AMOUNT to all known Tinker skills.",
+    "value": 2,
+    "slot": "Accessory",
+    "classes": [
+      "Mechanist"
+    ]
+  },
+  {
+    "uuid": 34,
+    "name": "Greater Enhancement",
+    "description": "AMOUNT% Chance on Evade, Block, and Parry  to gain a random buff.",
+    "value": 5,
+    "slot": "Armor",
+    "classes": [
+      "Templar",
+      "Berserker",
+      "Warden",
+      "Warlock",
+      "Mechanist"
+    ]
+  },
+  {
+    "uuid": 35,
+    "name": "Greater Refresh",
+    "description": "AMOUNT% Chance on Evade, Block, and Parry to lower all active cooldowns by 1 second.",
+    "value": 5,
+    "slot": "Armor",
+    "classes": [
+      "Templar",
+      "Berserker",
+      "Warden",
+      "Warlock",
+      "Mechanist"
+    ]
+  },
+  {
+    "uuid": 36,
+    "name": "Greater Requital",
+    "description": "AMOUNT% Chance on Evade, Block, and Parry to cast a high tier damaging skill of your highest damage element.",
+    "value": 5,
+    "slot": "Armor",
+    "classes": [
+      "Templar",
+      "Berserker",
+      "Warden",
+      "Warlock",
+      "Mechanist"
+    ]
+  },
+  {
+    "uuid": 37,
+    "name": "Greater Overhealing",
+    "description": "AMOUNT% of Overhealing done is subtracted from Staggered damage held.",
+    "value": 15,
+    "slot": "Armor",
+    "classes": [
+      "Templar",
+      "Berserker",
+      "Warden",
+      "Warlock",
+      "Mechanist"
+    ]
+  },
+  {
+    "uuid": 38,
+    "name": "Greater Beasts",
+    "description": "Companion Damage is multiplied by Damage Vs. Beasts.",
+    "value": 1,
+    "slot": "Amulet",
+    "classes": [
+      "Templar",
+      "Berserker",
+      "Warden",
+      "Warlock",
+      "Mechanist"
+    ]
+  },
+  {
+    "uuid": 39,
+    "name": "Greater Tyranny",
+    "description": "Passive Skills that grant Weaken effects are AMOUNT% stronger.",
+    "value": 100,
+    "slot": "Ring",
+    "classes": [
+      "Templar",
+      "Berserker",
+      "Warden",
+      "Warlock",
+      "Mechanist"
+    ]
+  },
+  {
+    "uuid": 40,
+    "name": "Greater Bling",
+    "description": "All Gems socketed into this item become AMOUNT% stronger.",
+    "value": 250,
+    "slot": "Ring",
+    "classes": [
+      "Templar",
+      "Berserker",
+      "Warden",
+      "Warlock",
+      "Mechanist"
+    ]
+  },
+  {
+    "uuid": 41,
+    "name": "Greater Satellites",
+    "description": "Adds AMOUNT Satellites matching your highest damage element.",
+    "value": 2,
+    "slot": "Amulet",
+    "classes": [
+      "Templar",
+      "Berserker",
+      "Warden",
+      "Warlock",
+      "Mechanist"
+    ]
+  },
+  {
+    "uuid": 42,
+    "name": "Greater Artifacts",
+    "description": "All Artifacts carried by your Ancient Beast are AMOUNT% stronger.",
+    "value": 30,
+    "slot": "Amulet",
+    "classes": [
+      "Templar",
+      "Berserker",
+      "Warden",
+      "Warlock",
+      "Mechanist"
+    ]
+  },
+  {
+    "uuid": 43,
+    "name": "Greater Buffs",
+    "description": "All Buff skills last forever",
+    "value": 1,
+    "slot": "Amulet",
+    "classes": [
+      "Templar",
+      "Berserker",
+      "Warden",
+      "Warlock",
+      "Mechanist"
+    ]
+  },
+  {
+    "uuid": 44,
+    "name": "Greater Infraction",
+    "description": "Damaging Mobility skills also release a nova of its element, dealing its listed damage in a AMOUNT meter radius. This nova may trigger on-hit effects.",
+    "value": 3,
+    "slot": "Boots",
+    "classes": [
+      "Templar",
+      "Berserker",
+      "Warden",
+      "Warlock",
+      "Mechanist"
+    ]
+  },
+  {
+    "uuid": 45,
+    "name": "Greater Stomps",
+    "description": "Each step has a AMOUNT% chance to also cast any equipped Ground Effect Skills regardless of their cooldown state.",
+    "value": 5,
+    "slot": "Boots",
+    "classes": [
+      "Templar",
+      "Berserker",
+      "Warden",
+      "Warlock",
+      "Mechanist"
+    ]
+  },
+  {
+    "uuid": 46,
+    "name": "Greater Trample",
+    "description": "Each step has a AMOUNT% chance to stagger, slow, or stun nearby enemies.",
+    "value": 5,
+    "slot": "Boots",
+    "classes": [
+      "Templar",
+      "Berserker",
+      "Warden",
+      "Warlock",
+      "Mechanist"
+    ]
+  },
+  {
+    "uuid": 47,
+    "name": "Greater Zeal",
+    "description": "This weapon is a lot faster, however it deals significantly lower damage.",
+    "value": 1,
+    "slot": "Weapon",
+    "classes": [
+      "Templar",
+      "Berserker",
+      "Warden",
+      "Warlock",
+      "Mechanist"
+    ]
+  },
+  {
+    "uuid": 48,
+    "name": "Greater Heft",
+    "description": "This weapon is considerably slower, but deals a lot more damage.",
+    "value": 1,
+    "slot": "Weapon",
+    "classes": [
+      "Templar",
+      "Berserker",
+      "Warden",
+      "Warlock",
+      "Mechanist"
+    ]
+  },
+  {
+    "uuid": 49,
+    "name": "Greater Dazzle",
+    "description": "When any Barrier breaks, stun all foes within 6 meters for AMOUNT seconds.",
+    "value": 3,
+    "slot": "Armor",
+    "classes": [
+      "Templar",
+      "Berserker",
+      "Warden",
+      "Warlock",
+      "Mechanist"
+    ]
+  },
+  {
+    "uuid": 50,
+    "name": "Greater Momentum",
+    "description": "For each 1% of Movement Speed, Mobility Skills deal AMOUNT% increased damage.",
+    "value": 1,
+    "slot": "Boots",
+    "classes": [
+      "Templar",
+      "Berserker",
+      "Warden",
+      "Warlock",
+      "Mechanist"
+    ]
+  },
+  {
+    "uuid": 51,
+    "name": "Greater Gems",
+    "description": "For each Gem socketed into your equipment, all Minor Stats are increased by AMOUNT%.",
+    "value": 1,
+    "slot": "Ring",
+    "classes": [
+      "Templar",
+      "Berserker",
+      "Warden",
+      "Warlock",
+      "Mechanist"
+    ]
+  },
+  {
+    "uuid": 52,
+    "name": "Greater Thorns",
+    "description": "Thorns is now Ethereal Damage and benefit from all Elemental Damage Bonuses. This effect overrides any other Thorn element changes.",
+    "value": 1,
+    "slot": "Amulet",
+    "classes": [
+      "Templar",
+      "Berserker",
+      "Warden",
+      "Warlock",
+      "Mechanist"
+    ]
+  },
+  {
+    "uuid": 53,
+    "name": "Greater Malice",
+    "description": "Increases the damage of Damage Over Time effects by AMOUNT% of Willpower.",
+    "value": 30,
+    "slot": "Ring",
+    "classes": [
+      "Templar",
+      "Berserker",
+      "Warden",
+      "Warlock",
+      "Mechanist"
+    ]
+  }
+]

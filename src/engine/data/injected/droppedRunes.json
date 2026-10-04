@@ -1,0 +1,1036 @@
+[
+  {
+    "uuid": 1262,
+    "class": null,
+    "categories": [
+      "Accessory",
+      "Amulet",
+      "Ring"
+    ]
+  },
+  {
+    "uuid": 1259,
+    "class": null,
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1286,
+    "class": null,
+    "categories": [
+      "Accessory",
+      "Amulet",
+      "Ring"
+    ]
+  },
+  {
+    "uuid": 1295,
+    "class": null,
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1251,
+    "class": null,
+    "categories": [
+      "Accessory",
+      "Amulet",
+      "Ring"
+    ]
+  },
+  {
+    "uuid": 1210,
+    "class": null,
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1240,
+    "class": null,
+    "categories": [
+      "Accessory",
+      "Amulet",
+      "Ring"
+    ]
+  },
+  {
+    "uuid": 1231,
+    "class": null,
+    "categories": [
+      "Helmet",
+      "Boots",
+      "Armor"
+    ]
+  },
+  {
+    "uuid": 1239,
+    "class": null,
+    "categories": [
+      "Helmet",
+      "Boots",
+      "Armor"
+    ]
+  },
+  {
+    "uuid": 1296,
+    "class": null,
+    "categories": [
+      "Accessory",
+      "Amulet",
+      "Ring",
+      "Weapon",
+      "Offhand",
+      "Helmet",
+      "Boots",
+      "Armor"
+    ]
+  },
+  {
+    "uuid": 1241,
+    "class": null,
+    "categories": [
+      "Accessory",
+      "Amulet",
+      "Ring"
+    ]
+  },
+  {
+    "uuid": 1232,
+    "class": null,
+    "categories": [
+      "Accessory",
+      "Amulet",
+      "Ring"
+    ]
+  },
+  {
+    "uuid": 1292,
+    "class": null,
+    "categories": [
+      "Helmet",
+      "Boots",
+      "Armor"
+    ]
+  },
+  {
+    "uuid": 1266,
+    "class": null,
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1276,
+    "class": null,
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1257,
+    "class": null,
+    "categories": [
+      "Accessory",
+      "Amulet",
+      "Ring"
+    ]
+  },
+  {
+    "uuid": 1263,
+    "class": null,
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1287,
+    "class": null,
+    "categories": [
+      "Accessory",
+      "Amulet",
+      "Ring"
+    ]
+  },
+  {
+    "uuid": 1275,
+    "class": null,
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1277,
+    "class": null,
+    "categories": [
+      "Helmet",
+      "Boots",
+      "Armor"
+    ]
+  },
+  {
+    "uuid": 1218,
+    "class": "Templar",
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1216,
+    "class": "Templar",
+    "categories": [
+      "Accessory",
+      "Amulet",
+      "Ring"
+    ]
+  },
+  {
+    "uuid": 1264,
+    "class": "Templar",
+    "categories": [
+      "Helmet",
+      "Boots",
+      "Armor"
+    ]
+  },
+  {
+    "uuid": 1228,
+    "class": "Templar",
+    "categories": [
+      "Accessory",
+      "Amulet",
+      "Ring"
+    ]
+  },
+  {
+    "uuid": 1290,
+    "class": "Templar",
+    "categories": [
+      "Accessory",
+      "Amulet",
+      "Ring"
+    ]
+  },
+  {
+    "uuid": 1293,
+    "class": "Templar",
+    "categories": [
+      "Accessory",
+      "Amulet",
+      "Ring"
+    ]
+  },
+  {
+    "uuid": 1227,
+    "class": "Templar",
+    "categories": [
+      "Helmet",
+      "Boots",
+      "Armor"
+    ]
+  },
+  {
+    "uuid": 1217,
+    "class": "Templar",
+    "categories": [
+      "Accessory",
+      "Amulet",
+      "Ring"
+    ]
+  },
+  {
+    "uuid": 1291,
+    "class": "Templar",
+    "categories": [
+      "Accessory",
+      "Amulet",
+      "Ring"
+    ]
+  },
+  {
+    "uuid": 1258,
+    "class": "Templar",
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1204,
+    "class": "Templar",
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1208,
+    "class": "Templar",
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1201,
+    "class": "Templar",
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1219,
+    "class": "Templar",
+    "categories": [
+      "Helmet",
+      "Boots",
+      "Armor"
+    ]
+  },
+  {
+    "uuid": 1212,
+    "class": "Templar",
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1238,
+    "class": "Templar",
+    "categories": [
+      "Accessory",
+      "Amulet",
+      "Ring"
+    ]
+  },
+  {
+    "uuid": 1294,
+    "class": "Templar",
+    "categories": [
+      "Helmet",
+      "Boots",
+      "Armor"
+    ]
+  },
+  {
+    "uuid": 1288,
+    "class": "Berserker",
+    "categories": [
+      "Helmet",
+      "Boots",
+      "Armor"
+    ]
+  },
+  {
+    "uuid": 1256,
+    "class": "Berserker",
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1234,
+    "class": "Berserker",
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1230,
+    "class": "Berserker",
+    "categories": [
+      "Helmet",
+      "Boots",
+      "Armor"
+    ]
+  },
+  {
+    "uuid": 1235,
+    "class": "Berserker",
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1229,
+    "class": "Berserker",
+    "categories": [
+      "Accessory",
+      "Amulet",
+      "Ring"
+    ]
+  },
+  {
+    "uuid": 1213,
+    "class": "Berserker",
+    "categories": [
+      "Helmet",
+      "Boots",
+      "Armor"
+    ]
+  },
+  {
+    "uuid": 1205,
+    "class": "Berserker",
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1255,
+    "class": "Berserker",
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1282,
+    "class": "Berserker",
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1202,
+    "class": "Berserker",
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1237,
+    "class": "Berserker",
+    "categories": [
+      "Accessory",
+      "Amulet",
+      "Ring"
+    ]
+  },
+  {
+    "uuid": 1236,
+    "class": "Berserker",
+    "categories": [
+      "Accessory",
+      "Amulet",
+      "Ring"
+    ]
+  },
+  {
+    "uuid": 1233,
+    "class": "Berserker",
+    "categories": [
+      "Helmet",
+      "Boots",
+      "Armor"
+    ]
+  },
+  {
+    "uuid": 1285,
+    "class": "Berserker",
+    "categories": [
+      "Accessory",
+      "Amulet",
+      "Ring"
+    ]
+  },
+  {
+    "uuid": 1289,
+    "class": "Berserker",
+    "categories": [
+      "Helmet",
+      "Boots",
+      "Armor"
+    ]
+  },
+  {
+    "uuid": 1284,
+    "class": "Berserker",
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1265,
+    "class": "Berserker",
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1260,
+    "class": "Berserker",
+    "categories": [
+      "Helmet",
+      "Boots",
+      "Armor"
+    ]
+  },
+  {
+    "uuid": 1283,
+    "class": "Berserker",
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1254,
+    "class": "Warden",
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1272,
+    "class": "Warden",
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1206,
+    "class": "Warden",
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1221,
+    "class": "Warden",
+    "categories": [
+      "Accessory",
+      "Amulet",
+      "Ring"
+    ]
+  },
+  {
+    "uuid": 1261,
+    "class": "Warden",
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1252,
+    "class": "Warden",
+    "categories": [
+      "Accessory",
+      "Amulet",
+      "Ring"
+    ]
+  },
+  {
+    "uuid": 1273,
+    "class": "Warden",
+    "categories": [
+      "Accessory",
+      "Amulet",
+      "Ring"
+    ]
+  },
+  {
+    "uuid": 1200,
+    "class": "Warden",
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1271,
+    "class": "Warden",
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1226,
+    "class": "Warden",
+    "categories": [
+      "Accessory",
+      "Amulet",
+      "Ring"
+    ]
+  },
+  {
+    "uuid": 1274,
+    "class": "Warden",
+    "categories": [
+      "Accessory",
+      "Amulet",
+      "Ring"
+    ]
+  },
+  {
+    "uuid": 1223,
+    "class": "Warden",
+    "categories": [
+      "Accessory",
+      "Amulet",
+      "Ring"
+    ]
+  },
+  {
+    "uuid": 1270,
+    "class": "Warden",
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1220,
+    "class": "Warden",
+    "categories": [
+      "Helmet",
+      "Boots",
+      "Armor"
+    ]
+  },
+  {
+    "uuid": 1222,
+    "class": "Warden",
+    "categories": [
+      "Helmet",
+      "Boots",
+      "Armor"
+    ]
+  },
+  {
+    "uuid": 1253,
+    "class": "Warden",
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1242,
+    "class": "Warden",
+    "categories": [
+      "Accessory",
+      "Amulet",
+      "Ring"
+    ]
+  },
+  {
+    "uuid": 1250,
+    "class": "Warden",
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1269,
+    "class": "Warden",
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1281,
+    "class": "Warlock",
+    "categories": [
+      "Accessory",
+      "Amulet",
+      "Ring"
+    ]
+  },
+  {
+    "uuid": 1243,
+    "class": "Warlock",
+    "categories": [
+      "Accessory",
+      "Amulet",
+      "Ring"
+    ]
+  },
+  {
+    "uuid": 1203,
+    "class": "Warlock",
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1211,
+    "class": "Warlock",
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1244,
+    "class": "Warlock",
+    "categories": [
+      "Helmet",
+      "Boots",
+      "Armor"
+    ]
+  },
+  {
+    "uuid": 1247,
+    "class": "Warlock",
+    "categories": [
+      "Accessory",
+      "Amulet",
+      "Ring"
+    ]
+  },
+  {
+    "uuid": 1267,
+    "class": "Warlock",
+    "categories": [
+      "Helmet",
+      "Boots",
+      "Armor"
+    ]
+  },
+  {
+    "uuid": 1207,
+    "class": "Warlock",
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1279,
+    "class": "Warlock",
+    "categories": [
+      "Accessory",
+      "Amulet",
+      "Ring"
+    ]
+  },
+  {
+    "uuid": 1280,
+    "class": "Warlock",
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1248,
+    "class": "Warlock",
+    "categories": [
+      "Accessory",
+      "Amulet",
+      "Ring"
+    ]
+  },
+  {
+    "uuid": 1215,
+    "class": "Warlock",
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1249,
+    "class": "Warlock",
+    "categories": [
+      "Accessory",
+      "Amulet",
+      "Ring"
+    ]
+  },
+  {
+    "uuid": 1268,
+    "class": "Warlock",
+    "categories": [
+      "Accessory",
+      "Amulet",
+      "Ring"
+    ]
+  },
+  {
+    "uuid": 1245,
+    "class": "Warlock",
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1278,
+    "class": "Warlock",
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1246,
+    "class": "Warlock",
+    "categories": [
+      "Helmet",
+      "Boots",
+      "Armor"
+    ]
+  },
+  {
+    "uuid": 1300,
+    "class": "Templar",
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1299,
+    "class": "Templar",
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1298,
+    "class": "Templar",
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1297,
+    "class": "Warden",
+    "categories": [
+      "Armor",
+      "Boots",
+      "Helmet"
+    ]
+  },
+  {
+    "uuid": 1303,
+    "class": "Warlock",
+    "categories": [
+      "Accessory",
+      "Amulet",
+      "Ring"
+    ]
+  },
+  {
+    "uuid": 1302,
+    "class": "Warlock",
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1301,
+    "class": "Warlock",
+    "categories": [
+      "Armor",
+      "Boots",
+      "Helmet"
+    ]
+  },
+  {
+    "uuid": 1305,
+    "class": "Mechanist",
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1306,
+    "class": "Mechanist",
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1307,
+    "class": "Mechanist",
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1308,
+    "class": "Mechanist",
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1309,
+    "class": "Mechanist",
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1310,
+    "class": "Mechanist",
+    "categories": [
+      "Armor",
+      "Boots",
+      "Helmet"
+    ]
+  },
+  {
+    "uuid": 1311,
+    "class": "Mechanist",
+    "categories": [
+      "Armor",
+      "Boots",
+      "Helmet"
+    ]
+  },
+  {
+    "uuid": 1312,
+    "class": "Mechanist",
+    "categories": [
+      "Armor",
+      "Boots",
+      "Helmet"
+    ]
+  },
+  {
+    "uuid": 1313,
+    "class": "Mechanist",
+    "categories": [
+      "Armor",
+      "Boots",
+      "Helmet"
+    ]
+  },
+  {
+    "uuid": 1314,
+    "class": "Mechanist",
+    "categories": [
+      "Armor",
+      "Boots",
+      "Helmet"
+    ]
+  },
+  {
+    "uuid": 1315,
+    "class": "Mechanist",
+    "categories": [
+      "Accessory",
+      "Amulet",
+      "Ring"
+    ]
+  },
+  {
+    "uuid": 1316,
+    "class": "Mechanist",
+    "categories": [
+      "Accessory",
+      "Amulet",
+      "Ring"
+    ]
+  },
+  {
+    "uuid": 1317,
+    "class": "Mechanist",
+    "categories": [
+      "Accessory",
+      "Amulet",
+      "Ring"
+    ]
+  },
+  {
+    "uuid": 1318,
+    "class": "Mechanist",
+    "categories": [
+      "Accessory",
+      "Amulet",
+      "Ring"
+    ]
+  },
+  {
+    "uuid": 1319,
+    "class": "Mechanist",
+    "categories": [
+      "Accessory",
+      "Amulet",
+      "Ring"
+    ]
+  },
+  {
+    "uuid": 1320,
+    "class": "Mechanist",
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1321,
+    "class": "Mechanist",
+    "categories": [
+      "Weapon",
+      "Offhand"
+    ]
+  },
+  {
+    "uuid": 1322,
+    "class": "Mechanist",
+    "categories": [
+      "Accessory",
+      "Amulet",
+      "Ring"
+    ]
+  },
+  {
+    "uuid": 1323,
+    "class": "Mechanist",
+    "categories": [
+      "Accessory",
+      "Amulet",
+      "Ring"
+    ]
+  },
+  {
+    "uuid": 1324,
+    "class": "Mechanist",
+    "categories": [
+      "Armor",
+      "Boots",
+      "Helmet"
+    ]
+  }
+]

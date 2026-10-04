@@ -119,7 +119,7 @@ const Item: FunctionComponent<Props> = ({
           offset={0}
           size="small"
         >
-          {[CharacterClass.Templar, CharacterClass.Berserker, CharacterClass.Warlock, CharacterClass.Warden].map(charClass => (
+          {[CharacterClass.Templar, CharacterClass.Berserker, CharacterClass.Warlock, CharacterClass.Warden, CharacterClass.Mechanist].map(charClass => (
             <GameIcon
               key={`item-${item.uuid}-req-class-${charClass.toLowerCase()}`}
               type={GameIconType.ClassProfile}

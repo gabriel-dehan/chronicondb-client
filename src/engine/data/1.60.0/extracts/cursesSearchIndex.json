@@ -1,0 +1,170 @@
+[
+  {
+    "uuid": 0,
+    "name": "Darkness",
+    "slots": "Helm, Accessory",
+    "purifyAction": "Light sources lit",
+    "description": "Light Radius Reduced by "
+  },
+  {
+    "uuid": 1,
+    "name": "Stumbling",
+    "slots": "Boots",
+    "purifyAction": "Steps walked",
+    "description": "Occasionally stumble in your step"
+  },
+  {
+    "uuid": 2,
+    "name": "Slippery",
+    "slots": "Boots",
+    "purifyAction": "Crowned Foes defeated",
+    "description": "All immunities to knockback and pull effects are inneffective"
+  },
+  {
+    "uuid": 3,
+    "name": "Misfortune",
+    "slots": "Amulet",
+    "purifyAction": "Chests Opened",
+    "description": "Find  less Crystals"
+  },
+  {
+    "uuid": 4,
+    "name": "Unlucky",
+    "slots": "Accessory, Amulet",
+    "purifyAction": "Unique or better items looted",
+    "description": "Magic Find halved"
+  },
+  {
+    "uuid": 5,
+    "name": "Warping",
+    "slots": "Ring",
+    "purifyAction": "Material Pickups taken",
+    "description": "Occasionally Warps you in a random direction"
+  },
+  {
+    "uuid": 6,
+    "name": "Clumsy",
+    "slots": "Boots, Ring",
+    "purifyAction": "Attacks Evaded",
+    "description": "Evasion halved"
+  },
+  {
+    "uuid": 7,
+    "name": "Glancing",
+    "slots": "Offhand, Weapon",
+    "purifyAction": "Hits landed",
+    "description": "Critical Hit Chance set to 0%"
+  },
+  {
+    "uuid": 8,
+    "name": "Sickly",
+    "slots": "Helm, Offhand, Armor",
+    "purifyAction": "Times Healed",
+    "description": "Lose  Health per second while over 50% Health"
+  },
+  {
+    "uuid": 9,
+    "name": "Slowing",
+    "slots": "Offhand, Accessory, Boots",
+    "purifyAction": "Steps walked",
+    "description": "Movement Speed halved"
+  },
+  {
+    "uuid": 10,
+    "name": "Loudness",
+    "slots": "Helm, Amulet",
+    "purifyAction": "Minions defeated",
+    "description": "Cooldown Reduction reduced by "
+  },
+  {
+    "uuid": 12,
+    "name": "Brittle",
+    "slots": "Offhand",
+    "purifyAction": "Times hit by foes",
+    "description": "Can no longer block"
+  },
+  {
+    "uuid": 14,
+    "name": "Draining",
+    "slots": "Accessory",
+    "purifyAction": "MANA Potions consumed",
+    "description": "Lose  Mana per second"
+  },
+  {
+    "uuid": 15,
+    "name": "Equalizer",
+    "slots": "Amulet",
+    "purifyAction": "Foes defeated",
+    "description": "Lose  Health on kill"
+  },
+  {
+    "uuid": 16,
+    "name": "Abstinence",
+    "slots": "Weapon, Ring",
+    "purifyAction": "Health Potions consumed",
+    "description": "Spending Mana also drains equal amounts of Health"
+  },
+  {
+    "uuid": 17,
+    "name": "Afflicted",
+    "slots": "Weapon, Ring",
+    "purifyAction": "Times Buffed",
+    "description": "Get afflicted by random negative effects"
+  },
+  {
+    "uuid": 18,
+    "name": "Pocket Holes",
+    "slots": "Armor",
+    "purifyAction": "Crystal Pickups taken",
+    "description": "Lose Crystals equal to damage taken"
+  },
+  {
+    "uuid": 19,
+    "name": "Gooey",
+    "slots": "Armor",
+    "purifyAction": "Enemies gibbed",
+    "description": "Chance on being hurt to spawn hostile Slimes"
+  },
+  {
+    "uuid": 20,
+    "name": "Nearsighted",
+    "slots": "Helm",
+    "purifyAction": "Gem Pickups taken",
+    "description": "Reach reduced by "
+  },
+  {
+    "uuid": 21,
+    "name": "Aversion",
+    "slots": "Armor",
+    "purifyAction": "Bosses defeated",
+    "description": "- to all Resistances"
+  },
+  {
+    "uuid": 22,
+    "name": "Lethargy",
+    "slots": "Weapon",
+    "purifyAction": "Attacks performed",
+    "description": "Attack Speed reduced by "
+  },
+  {
+    "uuid": 23,
+    "name": "Champions",
+    "slots": "Offhand",
+    "purifyAction": "Crowned Foes defeated",
+    "description": "Enemy Champions roll one extra modifier"
+  },
+  {
+    "uuid": 24,
+    "name": "Crowns",
+    "slots": "Ring",
+    "purifyAction": "Minions defeated",
+    "description": "Crowned enemies are much more likely to spawn"
+  },
+  {
+    "uuid": 25,
+    "name": "Pickups",
+    "slots": "Armor",
+    "purifyAction": "Times Healed",
+    "description": "Health and Mana Pickups no longer drop"
+  }
+]

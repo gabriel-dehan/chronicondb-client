@@ -20,4 +20,18 @@
       width: 100%;
     }
   }
+
+  &__dropdown {
+    font-size: var(--font-normal);
+    font-family: "Kufam";
+    margin-left: 24px;
+    max-width: 136px;
+    color: var(--color-element-beige);
+  }
+
+  @include mediaMobile {
+    .o-enchantFilters__dropdown {
+      display: none;
+    }
+  }
 }

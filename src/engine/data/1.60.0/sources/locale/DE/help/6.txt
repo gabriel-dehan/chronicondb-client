@@ -1,0 +1,19 @@
+@Wie kann ich im Multiplayer spielen?
+Klicke einfach im Hauptmenü auf Multiplayer und lasse deine(n) Freund(e) "A" auf ihrem Gamepad drücken. 
+Das funktioniert auch über Steam Remote Play Together!
+@Kann ich online oder über LAN spielen?
+Nein, nur über Steam Remote Play Together.
+@Wie viele Gamepads benötige ich für Multiplayer?
+Eines für jeden zusätzlichen Spieler, da Spieler Eins auch Tastatur + Maus benutzen kann. Spieler Eins kann über das Options Menü zum Gamepad wechseln oder es nutzen, um durch das Hauptmenü zu navigieren.
+@Mit wievielen Freunden kann ich im Multiplayer spielen?
+Bis zu 3, also insgesamt mit 4 Spielern.
+@Kann ich meinen Charakter aus dem Solospiel im Multiplayer benutzen?
+Ja. Obwohl es empfohlen wird, einen speziellen Charakter für Multiplayer und einen für das Solospiel zu benutzen, damit man auf Augenhöhe mit seinen Freunden bleibt. Aber natürlich steht es dir frei, zu tun, was du möchtest.
+@Können mehrere Spieler den gleichen Charakter benutzen?
+Nein. Dies würde zu Problemen beim Speichern führen, da jeder Spieler für den Charakter unterschiedliche Gegenstände besitzt, verschiedene Fähigkeiten erlernt usw.
+@Wenn ich eine Quest im Solospiel abschließe, kann ich diese dann im Multiplayer spielen und umgekehrt?
+Nein, eine beendete Quest bleibt abgeschlossen in beiden Modi. Behaltet dies im Kopf, wenn man mit Charakteren unterschiedlichen Fortschritts spielt, da man dadurch evtl. den Zusammenhang der Geschichte verliert.
+@Was passiert, wenn ich Charaktere benutze, die einen großen Stufenunterschied aufweisen?
+Ihr werdet wenig Spaß haben. Feinde und Beute skalieren nicht korrekt, also benutzt Charaktere die in etwa nur 1-2 Stufen auseinanderliegen.
+@Werden Erfahrungspunkte im Multiplayer geteilt?
+Jeder bekommt die gleiche Anzahl an Erfahrungspunkten und diese werden auch durch mehrere Spieler in keinster Weise verringert. Dies gilt sowohl für Quests als auch Tötungen. Bitte nimm zur Kenntnis, dass der Spieler am Leben sein muss, um Erfahrung zu erhalten. Die einzige Sache, die die Erfahrungspunktevergabe beeinflusst, ist der Stufenunterschied der Charaktere und Monster sowie eventuelle "Bonus Erfahrung" Modifikatoren auf der Ausrüstung.

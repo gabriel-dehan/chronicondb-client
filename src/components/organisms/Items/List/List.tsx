@@ -10,9 +10,10 @@ import './List.scss';
 
 interface Props {
   items: ItemInterface[];
+  showEnchantsPool?: boolean;
 }
 
-const List: FunctionComponent<Props> = ({ items }) => {
+const List: FunctionComponent<Props> = ({ items, showEnchantsPool = true }) => {
   const currentType = items[0]?.type;
   const { paginatedData, InfiniteScroll } =  useInfiniteScroll<ItemInterface>(items, 10);
 
@@ -20,16 +21,16 @@ const List: FunctionComponent<Props> = ({ items }) => {
     <div className="o-itemsList">
       {items.length > 0 ? (
         <>
-          <Header />
+          <Header showEnchantsPool={showEnchantsPool} />
           <div className="o-itemsList__container">
-            <div className="o-itemsList__items">
+            <div className={`o-itemsList__items ${showEnchantsPool ? '' : 'fullWidth'}`}>
               <InfiniteScroll>
                 {paginatedData.map(item => (
                   <Item key={`item-${item.uuid}`} item={item} />
                 ))}
               </InfiniteScroll>
             </div>
-            <EnchantsPool itemType={currentType} />
+            {showEnchantsPool && <EnchantsPool itemType={currentType} />}
           </div>
         </>
       ) : (

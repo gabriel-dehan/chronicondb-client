@@ -16,6 +16,10 @@
     @include mediaUpToSmallTablet {
       width: 100%;
     }
+
+    &.fullWidth {
+      width: 100%;
+    }
   }
 
   &__enchants {

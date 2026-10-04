@@ -5,6 +5,7 @@ export enum RouteId {
   Skills = 'skills',
   Skill = 'skill',
   Artifacts = 'artifacts',
+  Blessings = 'blessings',
   Developers = 'developers',
 }
 
@@ -15,6 +16,7 @@ export enum RoutePath {
   Skills = '/skills',
   Skill = '/skill/:uuid',
   Artifacts = '/artifacts',
+  Blessings = '/blessings',
   Developers = '/developers',
 }
 
@@ -29,5 +31,6 @@ export const ROUTES_ID_MAPPING: RoutesMapping = {
   [RoutePath.Skills]: RouteId.Skills,
   [RoutePath.Skill]: RouteId.Skill,
   [RoutePath.Artifacts]: RouteId.Artifacts,
+  [RoutePath.Blessings]: RouteId.Blessings,
   [RoutePath.Developers]: RouteId.Developers,
 };

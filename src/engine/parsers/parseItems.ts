@@ -3,7 +3,7 @@ import { compact, findKey } from 'lodash';
 import { CharacterClass } from '../../types/Character.types';
 import { Item, ItemCategory, ItemRarity, ItemType, SetUuid } from '../../types/Item.types';
 import { ITEM_TYPES_BY_CATEGORIES, ITEM_ID_BY_SETS } from '../data/dataMappings';
-import { readSourceFile, writeFile, assetExists } from '../utils/fileUtils';
+import { readSourceFile, sourceFileExists, writeFile, assetExists } from '../utils/fileUtils';
 import { getLocaleSection, parseLocaleData, LocaleData } from './parseLocale';
 
 interface ItemMetaData {
@@ -15,6 +15,7 @@ interface ItemMetaData {
 export function parseItems(version: string, verbose = false): Item[] {
   const rawItems = compact(readSourceFile(version, 'itemlist.txt').split(/\n|\r/));
   const itemLocales = parseLocale(version);
+  const potionAmounts = parsePotionAmounts(version);
 
   const items: Item[] = rawItems.map((rawItem): Item => {
     const [itemData, enchantsData] = rawItem.split(' -- ');
@@ -35,7 +36,7 @@ export function parseItems(version: string, verbose = false): Item[] {
       name,
       icon,
       flavor: itemLocales[uuid]?.flavor,
-      description: itemLocales[uuid]?.txt,
+      description: fillAmount(itemLocales[uuid]?.txt, potionAmounts[uuid]),
       category,
       type,
       rarity,
@@ -136,6 +137,21 @@ function findSet(uuid: number): SetUuid | null {
   }) as SetUuid;
 
   return set;
+}
+
+// Since 1.60.0 potion descriptions have an AMOUNT placeholder, filled in game from
+// values in the executable (see tools/chronicon-re/potions.py, not versioned)
+function parsePotionAmounts(version: string): Record<number, number> {
+  const fileName = `potions_${version}.json`;
+  return sourceFileExists(version, fileName) ? JSON.parse(readSourceFile(version, fileName)) : {};
+}
+
+function fillAmount(description: string | undefined, amount: number | undefined): string | undefined {
+  if (!description || amount === undefined) {
+    return description;
+  }
+
+  return description.replace(/AMOUNT/g, amount.toLocaleString('en-US'));
 }
 
 function parseLocale(version: string): LocaleData  {

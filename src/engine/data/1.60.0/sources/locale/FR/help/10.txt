@@ -1,0 +1,21 @@
+Les joueurs ne peuvent pas perdre le contrôle de leur personnage, à moins qu’ils ne soient poussés ou tirés, ou ralentis ou immobilisés.
+Les ennemis peuvent être étourdis, terrifiés, gelés et interrompus en plus des effets ci-dessus.
+Les ennemis les plus massifs et les Boss résistent généralement à ces effets.
+@Repousser :
+Repousse les ennemis. Pendant le déplacement forcé, les cibles ne peuvent pas attaquer, à moins qu’une animation d’attaque ne soit déjà en cours.
+@Tirer :
+Inverse de Repousser, applique les mêmes règles.
+@Ralentissement/Immobilisation :
+Ralentit les déplacements d’un certain pourcentage. L’Immobilisation est un Ralentissement de 100%.
+@Froid/Gelé :
+Techniquement identique au Ralentissement et à l’Immobilisation, ajoute en revanche quelques effets liés au froid.
+@Étourdissement :
+Empêche toute action et met tous les délais de récupération en pause pendant la durée d’étourdissement. Les étourdissement successifs ont des effets amoindris !
+@Interruption :
+Interrompt une animation d’attaque et fait repartir le délai de récupération de ladite attaque de zéro.
+@Terreur :
+Force l’ennemi à courir de façon erratique, mais les dégâts directs interrompent généralement cet effet.
+@Saignement :
+En plus d’infliger des dégâts, les effets de saignement empêchent également la régénération de santé des ennemis.
+@Brûlure :
+En plus d’infliger des dégâts, les divers effets de Brûlure peuvent se transmettre entre les ennemis, les compagnons ou même les joueurs en mode coop. Ils se transmettent une fois par tic de dégâts à une cible aléatoire dans un rayon de 1.8 mètre. La brûlure transmise n’a un effet que de 80% de l’effet initial et n’affecte que les cibles non-atteintes : il est donc impossible de rafraîchir la brûlure ou de la transmettre indéfiniment.

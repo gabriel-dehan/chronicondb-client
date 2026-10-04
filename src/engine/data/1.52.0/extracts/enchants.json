@@ -3921,7 +3921,8 @@
       "Accessory",
       "Ring",
       "Amulet",
-      "Shield"
+      "Shield",
+      "Axe"
     ]
   },
   {
@@ -4000,7 +4001,9 @@
       "Amulet",
       "Spellbook",
       "Shield",
-      "Tome"
+      "Tome",
+      "Axe",
+      "Gun"
     ]
   },
   {
@@ -4082,7 +4085,9 @@
       "Arrow",
       "Spellbook",
       "Shield",
-      "Tome"
+      "Tome",
+      "Axe",
+      "Gun"
     ]
   },
   {
@@ -4181,7 +4186,8 @@
       "Ring",
       "Amulet",
       "Claw",
-      "Arrow"
+      "Arrow",
+      "Gun"
     ]
   },
   {
@@ -4301,7 +4307,9 @@
       "Claw",
       "Arrow",
       "Spellbook",
-      "Tome"
+      "Tome",
+      "Axe",
+      "Gun"
     ]
   },
   {
@@ -4382,7 +4390,8 @@
       "Arrow",
       "Spellbook",
       "Shield",
-      "Tome"
+      "Tome",
+      "Gun"
     ]
   },
   {
@@ -4467,7 +4476,8 @@
       "Arrow",
       "Spellbook",
       "Shield",
-      "Tome"
+      "Tome",
+      "Gun"
     ]
   },
   {
@@ -4569,7 +4579,9 @@
       "Arrow",
       "Spellbook",
       "Shield",
-      "Tome"
+      "Tome",
+      "Axe",
+      "Gun"
     ]
   },
   {
@@ -4652,7 +4664,9 @@
       "Arrow",
       "Spellbook",
       "Shield",
-      "Tome"
+      "Tome",
+      "Axe",
+      "Gun"
     ]
   },
   {
@@ -4730,7 +4744,9 @@
       "Arrow",
       "Spellbook",
       "Shield",
-      "Tome"
+      "Tome",
+      "Axe",
+      "Gun"
     ]
   },
   {
@@ -4808,7 +4824,9 @@
       "Arrow",
       "Spellbook",
       "Shield",
-      "Tome"
+      "Tome",
+      "Axe",
+      "Gun"
     ]
   },
   {
@@ -4898,7 +4916,9 @@
       "Claw",
       "Arrow",
       "Spellbook",
-      "Tome"
+      "Tome",
+      "Axe",
+      "Gun"
     ]
   },
   {
@@ -4969,7 +4989,8 @@
       "Arrow",
       "Spellbook",
       "Shield",
-      "Tome"
+      "Tome",
+      "Gun"
     ]
   },
   {
@@ -5058,7 +5079,9 @@
       "Arrow",
       "Spellbook",
       "Shield",
-      "Tome"
+      "Tome",
+      "Axe",
+      "Gun"
     ]
   },
   {
@@ -5129,7 +5152,8 @@
       "Arrow",
       "Spellbook",
       "Shield",
-      "Tome"
+      "Tome",
+      "Gun"
     ]
   },
   {
@@ -5275,7 +5299,9 @@
       "Arrow",
       "Spellbook",
       "Shield",
-      "Tome"
+      "Tome",
+      "Axe",
+      "Gun"
     ]
   },
   {
@@ -5403,7 +5429,8 @@
       "Staff",
       "Fists",
       "Boots",
-      "Accessory"
+      "Accessory",
+      "Axe"
     ]
   },
   {
@@ -5925,7 +5952,8 @@
       "Arrow",
       "Spellbook",
       "Shield",
-      "Tome"
+      "Tome",
+      "Gun"
     ]
   },
   {
@@ -5996,7 +6024,8 @@
       "Arrow",
       "Spellbook",
       "Shield",
-      "Tome"
+      "Tome",
+      "Gun"
     ]
   },
   {
@@ -6070,7 +6099,8 @@
       "Arrow",
       "Spellbook",
       "Shield",
-      "Tome"
+      "Tome",
+      "Gun"
     ]
   },
   {
@@ -6141,7 +6171,8 @@
       "Arrow",
       "Spellbook",
       "Shield",
-      "Tome"
+      "Tome",
+      "Gun"
     ]
   },
   {
@@ -6211,7 +6242,8 @@
       "Arrow",
       "Spellbook",
       "Shield",
-      "Tome"
+      "Tome",
+      "Gun"
     ]
   },
   {
@@ -6330,7 +6362,9 @@
       "Claw",
       "Spellbook",
       "Shield",
-      "Tome"
+      "Tome",
+      "Axe",
+      "Gun"
     ]
   },
   {
@@ -6537,7 +6571,9 @@
       "Ring",
       "Amulet",
       "Arrow",
-      "Spellbook"
+      "Spellbook",
+      "Axe",
+      "Gun"
     ]
   },
   {
@@ -6731,7 +6767,9 @@
       "Ring",
       "Amulet",
       "Shield",
-      "Tome"
+      "Tome",
+      "Axe",
+      "Gun"
     ]
   },
   {
@@ -6838,7 +6876,9 @@
       "Claw",
       "Arrow",
       "Shield",
-      "Tome"
+      "Tome",
+      "Axe",
+      "Gun"
     ]
   },
   {
@@ -6916,7 +6956,8 @@
       "Arrow",
       "Spellbook",
       "Shield",
-      "Tome"
+      "Tome",
+      "Gun"
     ]
   },
   {
@@ -7000,7 +7041,8 @@
       "Boots",
       "Accessory",
       "Ring",
-      "Amulet"
+      "Amulet",
+      "Axe"
     ]
   },
   {
@@ -7159,7 +7201,9 @@
       "Arrow",
       "Spellbook",
       "Shield",
-      "Tome"
+      "Tome",
+      "Axe",
+      "Gun"
     ]
   },
   {
@@ -7233,7 +7277,9 @@
       "Arrow",
       "Spellbook",
       "Shield",
-      "Tome"
+      "Tome",
+      "Axe",
+      "Gun"
     ]
   },
   {
@@ -7304,7 +7350,8 @@
       "Fists",
       "Accessory",
       "Ring",
-      "Amulet"
+      "Amulet",
+      "Axe"
     ]
   },
   {
@@ -7382,7 +7429,9 @@
       "Arrow",
       "Spellbook",
       "Shield",
-      "Tome"
+      "Tome",
+      "Axe",
+      "Gun"
     ]
   },
   {
@@ -7454,7 +7503,8 @@
       "Arrow",
       "Spellbook",
       "Shield",
-      "Tome"
+      "Tome",
+      "Gun"
     ]
   },
   {
@@ -7841,7 +7891,8 @@
       "Bow",
       "Sword",
       "Staff",
-      "Fists"
+      "Fists",
+      "Axe"
     ]
   },
   {
@@ -7905,7 +7956,8 @@
       "Bow",
       "Sword",
       "Staff",
-      "Fists"
+      "Fists",
+      "Axe"
     ]
   },
   {
@@ -7969,7 +8021,8 @@
       "Bow",
       "Sword",
       "Staff",
-      "Fists"
+      "Fists",
+      "Axe"
     ]
   },
   {
@@ -8090,7 +8143,8 @@
       "Bow",
       "Sword",
       "Staff",
-      "Fists"
+      "Fists",
+      "Axe"
     ]
   },
   {
@@ -8157,7 +8211,8 @@
       "Bow",
       "Sword",
       "Staff",
-      "Fists"
+      "Fists",
+      "Axe"
     ]
   },
   {
@@ -8714,7 +8769,8 @@
       "Bow",
       "Sword",
       "Staff",
-      "Fists"
+      "Fists",
+      "Axe"
     ]
   },
   {
@@ -8778,7 +8834,8 @@
       "Bow",
       "Sword",
       "Staff",
-      "Fists"
+      "Fists",
+      "Axe"
     ]
   },
   {
@@ -8840,7 +8897,8 @@
       "Bow",
       "Sword",
       "Staff",
-      "Fists"
+      "Fists",
+      "Axe"
     ]
   },
   {
@@ -10283,7 +10341,9 @@
       "Arrow",
       "Spellbook",
       "Shield",
-      "Tome"
+      "Tome",
+      "Axe",
+      "Gun"
     ]
   },
   {
@@ -10357,7 +10417,8 @@
       "Claw",
       "Arrow",
       "Spellbook",
-      "Tome"
+      "Tome",
+      "Gun"
     ]
   },
   {
@@ -10442,7 +10503,9 @@
       "Arrow",
       "Spellbook",
       "Shield",
-      "Tome"
+      "Tome",
+      "Axe",
+      "Gun"
     ]
   },
   {
@@ -10700,7 +10763,9 @@
       "Claw",
       "Arrow",
       "Spellbook",
-      "Tome"
+      "Tome",
+      "Axe",
+      "Gun"
     ]
   },
   {
@@ -10771,7 +10836,9 @@
       "Claw",
       "Arrow",
       "Spellbook",
-      "Tome"
+      "Tome",
+      "Axe",
+      "Gun"
     ]
   },
   {
@@ -10841,7 +10908,9 @@
       "Claw",
       "Arrow",
       "Spellbook",
-      "Tome"
+      "Tome",
+      "Axe",
+      "Gun"
     ]
   },
   {
@@ -10912,7 +10981,9 @@
       "Claw",
       "Arrow",
       "Spellbook",
-      "Tome"
+      "Tome",
+      "Axe",
+      "Gun"
     ]
   },
   {
@@ -10986,7 +11057,9 @@
       "Claw",
       "Arrow",
       "Spellbook",
-      "Tome"
+      "Tome",
+      "Axe",
+      "Gun"
     ]
   },
   {
@@ -11056,7 +11129,9 @@
       "Claw",
       "Arrow",
       "Spellbook",
-      "Tome"
+      "Tome",
+      "Axe",
+      "Gun"
     ]
   },
   {
@@ -11124,7 +11199,9 @@
       "Claw",
       "Arrow",
       "Spellbook",
-      "Tome"
+      "Tome",
+      "Axe",
+      "Gun"
     ]
   },
   {
@@ -11193,7 +11270,9 @@
       "Arrow",
       "Spellbook",
       "Shield",
-      "Tome"
+      "Tome",
+      "Axe",
+      "Gun"
     ]
   },
   {
@@ -11265,7 +11344,9 @@
       "Arrow",
       "Spellbook",
       "Shield",
-      "Tome"
+      "Tome",
+      "Axe",
+      "Gun"
     ]
   },
   {
@@ -11336,7 +11417,9 @@
       "Arrow",
       "Spellbook",
       "Shield",
-      "Tome"
+      "Tome",
+      "Axe",
+      "Gun"
     ]
   },
   {
@@ -11408,7 +11491,9 @@
       "Arrow",
       "Spellbook",
       "Shield",
-      "Tome"
+      "Tome",
+      "Axe",
+      "Gun"
     ]
   },
   {
@@ -11477,7 +11562,9 @@
       "Arrow",
       "Spellbook",
       "Shield",
-      "Tome"
+      "Tome",
+      "Axe",
+      "Gun"
     ]
   },
   {
@@ -11546,7 +11633,9 @@
       "Arrow",
       "Spellbook",
       "Shield",
-      "Tome"
+      "Tome",
+      "Axe",
+      "Gun"
     ]
   },
   {
@@ -11609,7 +11698,8 @@
       "Sword",
       "Staff",
       "Fists",
-      "Amulet"
+      "Amulet",
+      "Axe"
     ]
   },
   {
@@ -12003,7 +12093,8 @@
       "Staff",
       "Fists",
       "Accessory",
-      "Ring"
+      "Ring",
+      "Axe"
     ]
   },
   {
@@ -12071,7 +12162,8 @@
       "Arrow",
       "Spellbook",
       "Shield",
-      "Tome"
+      "Tome",
+      "Gun"
     ]
   },
   {
@@ -12196,7 +12288,8 @@
       "Sword",
       "Staff",
       "Fists",
-      "Boots"
+      "Boots",
+      "Axe"
     ]
   },
   {
@@ -12265,7 +12358,9 @@
       "Arrow",
       "Spellbook",
       "Shield",
-      "Tome"
+      "Tome",
+      "Axe",
+      "Gun"
     ]
   },
   {
@@ -12334,7 +12429,9 @@
       "Arrow",
       "Spellbook",
       "Shield",
-      "Tome"
+      "Tome",
+      "Axe",
+      "Gun"
     ]
   },
   {
@@ -12403,7 +12500,9 @@
       "Arrow",
       "Spellbook",
       "Shield",
-      "Tome"
+      "Tome",
+      "Axe",
+      "Gun"
     ]
   },
   {
@@ -12650,7 +12749,8 @@
       976
     ],
     "itemTypes": [
-      "Armor"
+      "Armor",
+      "Gun"
     ]
   },
   {
@@ -12714,7 +12814,8 @@
     "itemTypes": [
       "Helm",
       "Armor",
-      "Accessory"
+      "Accessory",
+      "Gun"
     ]
   },
   {

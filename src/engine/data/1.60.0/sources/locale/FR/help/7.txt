@@ -1,0 +1,10 @@
+@Que sont les quêtes ?
+Les quêtes sont des missions qui vous sont confiées. Elles vous donneront un objectif et des instructions pour les atteindre. Lorsque vous l’aurez rempli, vous recevrez la récompense indiquée dans votre journal de quêtes. Les quêtes optionnelles vous récompensent souvent avec des équipement uniques et des succès.
+@Comment afficher le journal de quêtes ?
+Ouvrez votre inventaire (par défaut « I » sur le clavier ou « retour » sur la manette) et naviguez jusqu’au point d’exclamation rouge dans le coin supérieur droit de la fenêtre.
+@Comment trouver des quêtes ?
+La suite de quêtes de l’Histoire principale est obtenue de Korem dans le Chronicon. D’autres quêtes peuvent aussi être récupérées près de l’entrée de zones diverses. Si un personnage a une quête à vous proposer, il affichera un « ! » orange au-dessus de sa tête. Si vous avez déjà accepté la quête, il s’agira alors d’un « ? » gris, et si la quête est prête à être rendue, le « ? » sera orange.
+@Comment compléter une quête ?
+Certaines quêtes seront automatiquement rendues une fois les objectifs atteints, tandis que d’autres se mettront à jour et vous demanderont de chercher quelqu’un, généralement la personne vous ayant donné la quête en premier lieu. Si une quête se voit mise à jour, vous verrez un message apparaître à l’écran, et le texte de la quête dans votre journal sera annoté de nouvelles informations.
+@Comment suivre une quête ?
+Les quêtes nouvellement obtenues seront automatiquement suivies, mais vous pouvez changer manuellement quelle quête se retrouve suivie dans le Journal de Quêtes. Vous pouvez suivre jusqu’à 5 quêtes en même temps.

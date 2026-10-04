@@ -9,6 +9,7 @@ import useEngine from 'hooks/useEngine';
 import { useStores } from 'hooks/useStores';
 import { FiltersStore } from 'stores/FiltersStore';
 import { DataStore } from 'types/DataStore.types';
+import { EnchantCategory } from 'types/Enchant.types';
 
 import './EnchantsTemplate.scss';
 
@@ -20,10 +21,12 @@ const EnchantsTemplate: FunctionComponent = () => {
   const { filtersStore } = useStores<Stores>(DataStore.Filters);
   const Engine = useEngine();
   const enchants = getFilteredEnchants();
+  const category = filtersStore.enchants.category ?? Engine.Enchants.defaultCategory;
+  const showRuneFilters = category === EnchantCategory.Rune && Engine.Enchants.hasRuneRestrictions;
 
   return (
     <>
-      <Filters />
+      <Filters showRuneFilters={showRuneFilters} />
       <div className="t-enchants__wrapper">
         <Categories />
         <div className="t-enchants__list">
@@ -38,6 +41,8 @@ const EnchantsTemplate: FunctionComponent = () => {
       search: filtersStore.enchants.search,
       type: filtersStore.enchants.type,
       category: filtersStore.enchants.category,
+      slot: filtersStore.enchants.slot,
+      characterClass: filtersStore.enchants.characterClass,
     });
   }
 };

@@ -21,7 +21,7 @@ export default class EngineEnchants {
 
   constructor(engine: Engine) {
     this.engine = engine;
-    this.classes = [CharacterClass.Templar, CharacterClass.Berserker, CharacterClass.Warden, CharacterClass.Warlock];
+    this.classes = [CharacterClass.Templar, CharacterClass.Berserker, CharacterClass.Warden, CharacterClass.Warlock, CharacterClass.Mechanist];
     this.trees = allEnumValues(SkillTree);
     this.treesByClasses = SKILLTREES_BY_CLASSES;
     this.searchEngine = new Minisearch({

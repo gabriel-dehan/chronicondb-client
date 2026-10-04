@@ -1,0 +1,118 @@
+@Rendements décroissants
+Certaines statistiques ont des retours décroissants : cela signifie que plus vous avez investi dans la compétence, moins elle évolue vite. Pour clarifier cela avec un exemple : avec une statistique additive, cela ressemblerait à ce qui suit : 8% + 8% + 8% + 8% = 24%. Avec une statistique au rendement décroissant, cela ressemblerait à cela : 1 – (0.92 x 0.92 x 0.92) = 22%. La perte devient de plus en plus grande à mesure que vous ajoutez des points. Les statistiques suivantes ont des rendements décroissants :
+[list]
+*Réduction de Dégâts
+*Réduction de Dégâts des Compagnons
+*Esquive
+*Réduction des Délais de Récupération
+*Réduction des Coûts en Mana
+*Durée d’Effet
+*Portée
+*Dégâts sur le Temps
+*Bouclier de Mana
+*Volonté (durée des effets négatifs)
+[/list]
+@Santé
+La quantité de dégâts que vous pouvez subir avant de mourir.
+@Mana
+La ressource drainée pour utiliser vos compétences.
+@Dégâts
+Vos dégâts de base. Les bonus élémentaires sont appliqués en plus de ce nombre.
+@Vitesse d’Attaque
+La vitesse à laquelle vous attaquez. Elle affecte la vitesse d’animation de vos attaques, ce qui a pour résultat que vos compétences avec des faibles délais de récupération peuvent être lancées plus vite. Elle permet également de se déplacer plus vite après avoir attaqué, vu que l’animation se termine plus rapidement.
+@Surpuissance
+Statistique de résistance à la pénétration. La Surpuissance, comme les Résistances, n’affecte que les dégâts directs : les Épines et d’autres effets ne déclenchant pas d’effets à l’impact ne sont pas affectés par la Surpuissance et les résistances ennemies.
+Exemple : une valeur de Surpuissance de 50% ignorera 50% de toutes les résistances ennemies. (Ce qui signifie qu’un ennemi avec 30% de Résistance au Feu sera traité comme en ayant 15%.)
+@Portée
+Cette statistique affecte la portée effective, le rayon et la distance couverte par toutes les compétences.
+@Rage (Berserker uniquement)
+La Rage est une statistique unique utilisée par le Berserker. Elle augmente lorsque vous subissez des dégâts, infligez des dégâts et tuez des ennemis. Les ennemis qui explosent font également gagner de la Rage bonus !
+La Rage améliore certaines compétences passives et les compétences « Héritage » uniques au Berserker. La Rage disparaît lentement au fil du temps.
+@Âmes (Sorcier uniquement)
+Les Âmes sont une statistique unique utilisée par le Sorcier. Vous collectez des Âmes en tuant des ennemis et pouvez les sacrifier pour activer des compétences Utilitaires ou les accumuler pour améliorer certaines compétences passives. Les Âmes disparaissent au fil du temps !
+@Réduction de dégâts
+Réduit les dégâts subis de toutes les sources. Progresse par multiplicateur plutôt qu’addition.
+@Esquive
+L’Esquive augmente les chances de totalement éviter les dégâts d’une attaque directe. Elle est plus utilisée par le Gardien et le Sorcier. Progresse par multiplicateur plutôt qu’addition.
+@Dégâts sur le Temps
+Cette statistique spéciale inflige une partie des dégâts reçus sur 3 secondes plutôt qu’instantanément, vous donnant ainsi plus de temps pour vous remettre des dégâts subis. Elle vient également avec une réduction de base des dégâts de 30%, ce qui fait que les dégâts subis sur 3 secondes représentent en réalité 70% du total de base. Progresse par multiplicateur plutôt qu’addition. Les Dégâts sur le Temps sont appliqués directement sur la santé et ignorent toute barrière. Assurez-vous d’améliorer votre régénération de santé en conséquence !
+@Chances de Blocage et Dégâts Bloqués (Templier uniquement)
+Ces statistiques indiquent les chances de bloquer une attaque et si blocage il y a, la quantité de dégâts réduits. N’importe quelle attaque peut être bloquée, à condition d’avoir un Bouclier d’équipé.
+@Chances de Critique
+Cette statistique indique quelles sont les chances de réaliser un Coup Critique infligeant des dégâts supplémentaires.
+@Dégâts Critiques
+Cette statistique indique combien de dégâts infligent les Coups Critiques en comparaison des coups classiques.
+@Vitesse de Déplacement
+Cette statistique détermine à quelle vitesse le personnage se déplace.
+@Statistiques de Dégâts Élémentaires (Physique, Feu, Gel, etc.)
+Ces statistiques indiquent combien de dégâts supplémentaires sont infligés avec les compétences des éléments concernés.
+@Que sont les « Dégâts Éthérés » ?
+Il s’agit d’un type de dégâts spécial généralement trouvé avec les pouvoirs des objets de rang Légendaire. Il ignore toutes les résistances ennemies et bénéficie de tous les bonus liés aux statistiques de Dégâts Élémentaires. Cela signifie que cela fonctionne pour à peu près tous les personnages et peut se révéler incroyablement puissant !
+NOTE : les dégâts de Saignement sont considérés comme Éthérés dans le sens où il est impossible d’y résister, mais ils ne bénéficient pas du bonus de dégâts élémentaires, et progresse grâce à sa propre statistique (voir %Saignement)
+@Épines
+Cette statistique de dégâts spéciale inflige des dégâts aux ennemis lorsqu’ils vous frappent. Les dégâts d’Épines peuvent infliger des coups critiques, mais sont considérés comme des dégâts indirects et n’ont pas besoin de Surpuissance pour percer les résistances ennemies.
+@Santé par Seconde
+Combien de points de Santé vous régénérez par seconde.
+@Mana par Seconde
+Combien de points de Mana vous régénérez par seconde.
+@Santé à l’impact
+Combien de points de Santé vous régénérez à l’impact au minimum. Plus vous infligez de dégâts avec un coup, plus vous régénérerez de Santé. Veuillez noter que la Santé à l’impact a un délai de récupération de 0.1 seconde.
+@Mana à l’impact
+Combien de points de Mana vous régénérez à l’impact au minimum. Plus vous infligez de dégâts avec un coup, plus vous régénérerez de Mana. Veuillez noter que le Mana à l’impact a un délai de récupération de 0.1 seconde.
+@Efficacité des Potions
+Détermine l’efficacité des effets des potions de Soins et de Mana. Améliorez ce nombre et vous recevrez plus de soins !
+@Chances de Repousser
+Détermine vos chances de repousser les ennemis avec un coup.
+@Résistances (Physique, Feu, Gel, etc.)
+Ces statistiques indiquent quelle quantité de dégâts vous réduisez de toutes les sources de l’élément concerné. Veuillez noter que les résistances ont un seuil maximum de 80%.
+@Réduction des Délais de Récupération
+Combien de temps se trouve soustrait des délais de récupération de vos compétences. A un seuil maximum de 90%. Progresse par multiplicateur plutôt qu’addition.
+@Réduction des Coûts en Mana
+La quantité du coût en Mana réduite lors de l’utilisation d’une compétence. Progresse par multiplicateur plutôt qu’addition.
+@Durée des Effets
+Combien de temps les bonus (effets positifs) et sorts dureront. Aucun seuil maximum, mais progresse par multiplicateur plutôt qu’addition.
+@Efficacité de Récupération
+Cette statistique affecte combien de Santé et de Mana les récupérations vous rendront.
+@Rayon de Récupération
+Cette statistique affecte la distance à laquelle les Cristaux de Mana et de Santé peuvent être ramassés automatiquement. Vos compagnons utilisent également cette statistique lorsqu’ils récupèrent des cristaux !
+Cette statistique améliore également la portée de la Récupération de Butin (touche par défaut : « Q »).
+@Cristaux Trouvés
+Cette statistique augmente la quantité de Cristaux que vous gagnez de toutes les sources, à l’exception des vendeurs.
+@Trouvaille Magique
+Cette statistique augmente les chances de trouver des objets de rareté supérieure et des objets correspondant à votre classe. A un seuil maximal de 999%.
+@Rayon de la Lumière
+Cette statistique affecte la lumière autour de votre personnage.
+@Gain d’Expérience
+Cette statistique affecte la quantité d’Expérience gagnée de toutes les sources. Affecte à la fois les niveaux classiques et les niveaux de Maîtrise.
+@Santé du Compagnon
+Cette statistique améliore directement la statistique de Santé de tous les compagnons.
+@Dégâts des Compagnons
+Cette statistique améliore directement les Dégâts de tous les compagnons.
+@Compétences Passives et Effets des Compagnons
+Cette statistique améliore les effets de tous les bonus passifs accordés par les compagnons, comme les auras. Elle améliore également l’effet « Utiliser » de toutes les compétences des compagnons. Par exemple, un compagnon ayant un sort ayant listé l’effet « Utiliser » infligera des dégâts supplémentaires avec ce sort de façon proportionnelle à cette statistique.
+@Dégâts de Brûlure
+Cette statistique est une statistique spéciale pour les objets causant des effets de Brûlure aux ennemis. Elle est considérée comme des dégâts de Feu et se voit améliorée par la statistique de dégâts de Feu. NOTE : cette statistique n’affecte pas les compétences causant des dégâts de Brûlure.
+@Dégâts de Saignement
+Cette statistique est une statistique spéciale pour les objets causant des effets de Saignement aux ennemis. Elle est considérée comme des dégâts Éthérés mais ne se voit PAS améliorée par la statistique de dégâts élémentaires. NOTE : cette statistique n’affecte pas les compétences causant des dégâts de Saignement.
+@Augmentation des %Saignements / effet amélioré des effets de Saignement
+Il s’agit d’une compétence de progression spéciale affectant tous les types d’effets de Saignement en améliorant la valeur de leurs dégâts de base d’un certain pourcentage.
+@Dégâts de Gel
+Cette statistique est une statistique spéciale pour les objets causant des effets de Gel aux ennemis. Elle est également augmentée par la statistique de dégâts de Gel. NOTE : cette statistique n’affecte pas les compétences causant des effets de Gel.
+@Dégâts sur le Temps de Poison
+Cette statistique est une statistique spéciale pour les objets causant des effets de Poison aux ennemis. Elle est considérée comme des dégâts de Poison et se voit améliorée par la statistique de dégâts de Poison. NOTE : cette statistique n’affecte pas les compétences causant des effets de Poison.
+@Dégâts d’Éclairs en Chaîne
+Cette statistique est une statistique spéciale pour les objets causant des dégâts d’Électricité supplémentaires aux ennemis de façon instantanée. Elle est également augmentée par la statistique de dégâts d’Électricité.
+@Châtiment
+Cette statistique est une statistique spéciale pour les objets causant des dégâts Sacrés supplémentaires aux ennemis de façon instantanée. Elle est également augmentée par la statistique de dégâts Sacrés.
+@Fléau
+Cette statistique est une statistique spéciale pour les objets causant des dégâts d’Ombre supplémentaires aux ennemis. Elle est également augmentée par la statistique de dégâts d’Ombre.
+@Dégâts Satellites
+Augmente les dégâts de tous les enchantements de type Satellite.
+@Efficacité de Gemme
+Améliore la puissance de toutes les gemmes serties dans votre équipement.
+@Volonté
+Réduit la durée des effets négatifs sur le joueur comme les malus infligeant des dégâts.
+@Résistance aux Effets de Terrain
+Réduit les dégâts subis des effets de terrain, comme un sol enflammé, une mare de poison, etc.
+@Résistance aux Dégâts Indirects
+Réduit les dégâts subis par tous les dégâts indirects, comme les saignements, les brûlures, le poison, et autres malus. Affecte également les dégâts subis par les Épines, vu que les Épines sont des dégâts indirects !

@@ -1,0 +1,21 @@
+Las Maldiciones y las Bendiciones son una mecánica añadida a los objetos con el DLC «Maldición Cósmica».
+@¿Qué son las Maldiciones?
+Los objetos de rareza Única o superior pueden aparecer en ocasiones como «malditos». Estas Maldiciones tienen efectos negativos, pero también potencian las estadísticas básicas (Maná, Salud y Daño) del objeto.
+La Maldición aparecerá cerca de la parte superior de la descripción del objeto. Las Maldiciones se pueden eliminar realizando una Acción especial y mediante la Transmutación.
+@¿Qué son las Acciones?
+Cada Maldición tiene una acción vinculada que debes realizar un cierto número de veces para aprender más sobre la maldición y, finalmente, eliminarla con Polvo Iridiscente.
+La acción es siempre la misma para cada Maldición, pero permanece oculta hasta que la hayas realizado las veces suficientes. Ejemplos de dichas Acciones son: Lograr cierta cantidad de asesinatos, asestar golpes críticos, recoger botín e incluso dar una cantidad específica de pasos.
+@¿Cómo sé qué acción debo realizar?
+No lo sabrás. Al menos no al principio. Dado que las Acciones son cosas comunes que probablemente ya haces con frecuencia, puedes volver a revisar el objeto un poco más tarde y ver si se ha revelado más información. Cuanto más realices la Acción, más información se revelará. Cuando estés a mitad de camino, la Acción y un Contador aparecerán en el objeto.
+Una Maldición específica siempre tiene la misma acción, y por lo general tiene sentido lo que implica. Por ejemplo, la maldición «Oscuridad» requiere que enciendas fuentes de luz. NOTA: ¡Debes tener el objeto maldito equipado para que las Acciones cuenten!
+@¿Cómo elimino una Maldición?
+Luego de realizar la Acción (ver arriba), puedes transmutar el objeto con Polvo Iridiscente para purificarlo. Si tienes Perlas de Pureza, podrás usarlas para saltar la Acción por completo y purificar el objeto al instante, eliminando la Maldición.
+Purificar un objeto también lo bendice, otorgándole una Bendición aleatoria para esa ranura de objeto.
+@¿Qué son las Bendiciones?
+Las Bendiciones son lo opuesto a las Maldiciones. Añaden poderosos efectos adicionales a tus objetos y también aumentan un poco más las estadísticas básicas. Purificar un objeto (eliminar la Maldición) siempre da como resultado una Bendición. Las Bendiciones se eligen al azar para cada ranura de objeto, y hay algunas específicas para cada personaje. No hay Bendiciones compartidas entre ranuras de objetos, así que si obtienes algo en un casco, sabes que esto *solo* puede aparecer en cascos.
+Las Bendiciones están diseñadas para ser poderosas y muy competitivas en sus ranuras. Puede ser difícil decidir qué conservar... .
+Ten en cuenta también que los efectos de las Bendiciones son siempre fijos, por lo que no se necesitan rangos de tirada, aumentos, etc. Vienen tal como son, y cuando obtienes la Bendición que buscabas, tienes la mejor y única versión de esa Bendición. La rareza y el nivel del objeto no afectan a la Bendición.
+@¿Y si quiero una Bendición diferente?
+Entonces puedes volver a maldecir tu objeto. Esto también se hace mediante la transmutación, utilizando un material raro que acabarás encontrando. Una vez que lo hayas vuelto a maldecir, tendrás que purificarlo de nuevo, ya sea mediante el Polvo Iridiscente y la Acción correspondiente, o mediante la Perla de la Pureza.
+Al principio, probablemente tendrás que considerar cuidadosamente si vale la pena volver a maldecirlo o intentar conseguir un nuevo objeto maldito. Cuanto más avances en el juego, más fácil será conseguir todos los materiales necesarios.
+No te preocupes demasiado por esto si aún estás en las primeras etapas (antes de los Niveles Infinitos): ¡todo lo que necesitas aparecerá naturalmente a medida que avances!

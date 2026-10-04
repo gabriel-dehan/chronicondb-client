@@ -1,3 +1,4 @@
+import { CharacterClass } from './Character.types';
 import { ItemRarity, ItemCategory, ItemType } from './Item.types';
 
 export interface Enchant {
@@ -11,6 +12,14 @@ export interface Enchant {
   items: number[];
   itemTypes: ItemType[];
   skills?: number[];
+  rune?: RuneRestrictions;
+}
+
+// Where a dropped rune can roll. Not in the game's data export, so it comes
+// from src/engine/data/injected/droppedRunes.json, taken from Chronomancer.
+export interface RuneRestrictions {
+  characterClass?: CharacterClass;
+  categories: ItemCategory[];
 }
 
 export interface EnchantRanges {

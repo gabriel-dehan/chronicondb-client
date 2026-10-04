@@ -1,10 +1,20 @@
 import { compact, capitalize, uniq } from 'lodash';
 
 import { allEnumValues } from '../../helpers/typeUtils';
-import { Enchant, EnchantRanges, EnchantRangeBoundary, EnchantType, EnchantCategory } from '../../types/Enchant.types';
-import { Item, ItemRarity, ItemType } from '../../types/Item.types';
+import { CharacterClass } from '../../types/Character.types';
+import { Enchant, EnchantRanges, EnchantRangeBoundary, EnchantType, EnchantCategory, RuneRestrictions } from '../../types/Enchant.types';
+import { Item, ItemCategory, ItemRarity, ItemType } from '../../types/Item.types';
 import { readSourceFile, readInjectedSourceFile, readExtractFile, writeFile } from '../utils/fileUtils';
 import { getLocaleSection, parseLocaleData, LocaleData } from './parseLocale';
+
+// The game's data export doesn't list where runes can roll, so this comes from
+// Chronomancer's droppedRunes.json (https://github.com/iconmaster5326/Chronomancer)
+interface DroppedRune {
+  uuid: number;
+  class: CharacterClass | null;
+  categories: ItemCategory[];
+}
+
 interface EnchantsLocaleData {
   powerLocales: LocaleData;
   enchantLocales: LocaleData;
@@ -24,6 +34,7 @@ export function parseEnchants(version: string, verbose = false): Enchant[] {
   const rawItemsEnchants = compact(readSourceFile(version, 'enchantlist.txt').split(/\n|\r/));
   const rawGemEnchants = compact(readInjectedSourceFile(version, 'gemenchantlist.txt').split(/\n|\r/));
   const rawEnchants = [...rawGemEnchants, ...rawItemsEnchants];
+  const droppedRunes: DroppedRune[] = JSON.parse(readInjectedSourceFile(version, 'droppedRunes.json'));
 
   const locales = parseLocale(version);
   const localesByCategory = {
@@ -45,6 +56,7 @@ export function parseEnchants(version: string, verbose = false): Enchant[] {
     const items = findItems(uuid, itemsData);
     const itemTypes = findItemTypes(uuid, type, category, version);
     const skills = findSkills(description);
+    const rune = category === EnchantCategory.Rune ? findRuneRestrictions(uuid, droppedRunes) : undefined;
 
     const enchant = {
       uuid,
@@ -57,6 +69,7 @@ export function parseEnchants(version: string, verbose = false): Enchant[] {
       items,
       itemTypes,
       skills,
+      rune,
     };
 
     if (verbose) {
@@ -64,7 +77,9 @@ export function parseEnchants(version: string, verbose = false): Enchant[] {
     }
 
     return enchant;
-  });
+  })
+    // runes that aren't in any drop pool can't be obtained
+    .filter(enchant => enchant.category !== EnchantCategory.Rune || enchant.rune);
   // enchants = enchants.filter(({ name }) => name.includes('GEM'));
   writeFile(enchants, version, 'enchants');
 
@@ -88,9 +103,11 @@ function findCategory(uuid: number, locales: EnchantsLocaleData): EnchantCategor
 
 function parseRanges(ranges: string, category: EnchantCategory): EnchantRanges {
   // Gives us the order in which rarities are defined in `minimumByRarity`, `maximumByRarity`, etc...
+  // The game exports item enchants for item qualities 0-4 (Ordinary to Legendary). True Legendary
+  // items are Legendary quality and roll the same ranges.
   const rarities = category === EnchantCategory.Gem ?
     [ItemRarity.Ordinary, ItemRarity.Enchanted, ItemRarity.Rare] :
-    [ItemRarity.Enchanted, ItemRarity.Rare, ItemRarity.Unique, ItemRarity.Legendary, ItemRarity.TrueLegendary];
+    [ItemRarity.Ordinary, ItemRarity.Enchanted, ItemRarity.Rare, ItemRarity.Unique, ItemRarity.Legendary];
 
   const [
     minimumByRarity,
@@ -127,14 +144,18 @@ function parseRanges(ranges: string, category: EnchantCategory): EnchantRanges {
       [ItemRarity.Mythical]: boundariesForRarity(ItemRarity.Rare),
     };
   } else {
+    const legendary = boundariesForRarity(ItemRarity.Legendary);
+
     return {
-      [ItemRarity.Ordinary]: boundariesForRarity(ItemRarity.Enchanted),
+      [ItemRarity.Ordinary]: boundariesForRarity(ItemRarity.Ordinary),
       [ItemRarity.Enchanted]: boundariesForRarity(ItemRarity.Enchanted),
       [ItemRarity.Rare]: boundariesForRarity(ItemRarity.Rare),
       [ItemRarity.Unique]: boundariesForRarity(ItemRarity.Unique),
-      [ItemRarity.Legendary]: boundariesForRarity(ItemRarity.Legendary),
-      [ItemRarity.TrueLegendary]: boundariesForRarity(ItemRarity.TrueLegendary),
-      [ItemRarity.Mythical]: boundariesForRarity(ItemRarity.TrueLegendary),
+      [ItemRarity.Legendary]: legendary,
+      [ItemRarity.TrueLegendary]: legendary,
+      // The export's last number is the Mythical cap, which is also the Greater Augmentation cap.
+      // Mythical roll ranges aren't exported, so those are left at the Legendary ones.
+      [ItemRarity.Mythical]: { ...legendary, cap: legendary.greaterCap },
     };
   }
 }
@@ -178,6 +199,18 @@ function findItemTypes(uuid: number, type: EnchantType, category: EnchantCategor
   }
 
   return itemTypes;
+}
+
+function findRuneRestrictions(uuid: number, droppedRunes: DroppedRune[]): RuneRestrictions | undefined {
+  const droppedRune = droppedRunes.find(rune => rune.uuid === uuid);
+  if (!droppedRune) {
+    return undefined;
+  }
+
+  return {
+    characterClass: droppedRune.class ?? undefined,
+    categories: droppedRune.categories,
+  };
 }
 
 function findSkills(description: string): number[] | undefined {

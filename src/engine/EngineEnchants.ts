@@ -4,6 +4,7 @@ import Minisearch from 'minisearch';
 import { ENCHANT_SLOTS_BY_RARITY } from 'engine/data/dataMappings';
 import { sortObject } from 'helpers/objectUtils';
 import { allEnumValues } from 'helpers/typeUtils';
+import { CharacterClass } from 'types/Character.types';
 import {
   ItemEnchantSlots,
   SimpleEnchant,
@@ -14,7 +15,7 @@ import {
   EnchantPoolType,
 } from 'types/Enchant.types';
 import { EnchantsFilters } from 'types/Filters.types';
-import { ItemRarity, Item, ItemType } from 'types/Item.types';
+import { ItemRarity, Item, ItemCategory, ItemType } from 'types/Item.types';
 
 import Engine, { DataInterface } from './Engine';
 
@@ -58,8 +59,14 @@ export default class EngineEnchants {
 
     enchants = this.filterBySearch(enchants, filters);
     enchants = this.filterByTypeAndCategory(enchants, filters);
+    enchants = this.filterRunes(enchants, filters);
 
     return enchants;
+  }
+
+  // Only versions whose data was parsed with dropped rune data know where runes can roll
+  public get hasRuneRestrictions(): boolean {
+    return this.enchants.some(enchant => enchant.rune);
   }
   public getTypeEnchantsPool(type: ItemType): HydratedPoolType | null {
     return this.enchantsPool[type] || null;
@@ -72,7 +79,7 @@ export default class EngineEnchants {
   }
 
   public getItemEnchantsSlots(item: Item): ItemEnchantSlots | null {
-    if (this.engine.loaded && ![ItemRarity.Mythical].includes(item.rarity)) {
+    if (this.engine.loaded) {
       const enchantSlots = ENCHANT_SLOTS_BY_RARITY[item.rarity];
       const fixedEnchants = this.enchantsToRawEnchants(
         item.rarity,
@@ -196,6 +203,26 @@ export default class EngineEnchants {
         (enchant) => enchant.type === type && enchant.category === category
       );
     }
+  }
+
+  // the slot and class filters are only shown while browsing runes
+  private filterRunes(enchants: Enchant[], filters: EnchantsFilters) {
+    if ((filters.category ?? this.defaultCategory) !== EnchantCategory.Rune || !this.hasRuneRestrictions) {
+      return enchants;
+    }
+
+    if (filters.slot && filters.slot !== 'All') {
+      enchants = enchants.filter(({ rune }) => rune?.categories.includes(filters.slot as ItemCategory));
+    }
+
+    if (filters.characterClass && filters.characterClass !== CharacterClass.All) {
+      // runes without a class can roll for every class
+      enchants = enchants.filter(({ rune }) =>
+        rune && (!rune.characterClass || rune.characterClass === filters.characterClass)
+      );
+    }
+
+    return enchants;
   }
 
   /* Private utils */

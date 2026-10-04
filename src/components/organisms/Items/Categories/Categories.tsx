@@ -5,6 +5,7 @@ import Drawer from 'rc-drawer';
 
 import GameIcon, { GameIconType } from 'components/atoms/GameIcon/GameIcon';
 import Icon, { IconName } from 'components/atoms/Icon/Icon';
+import { ALL_ITEMS_CATEGORY } from 'engine/EngineItems';
 import useEngine from 'hooks/useEngine';
 import useFilters from 'hooks/useFilters';
 import useResponsive from 'hooks/useResponsive';
@@ -13,6 +14,9 @@ import { ItemCategory, ItemType } from 'types/Item.types';
 
 import './Categories.scss';
 
+type SelectableCategory = ItemCategory | typeof ALL_ITEMS_CATEGORY;
+type SelectableType = ItemType | typeof ALL_ITEMS_CATEGORY;
+
 // TODO: Refacto in a sidebar component that can be used for skills, enchants and items
 const Categories: FunctionComponent = () => {
   const { isUpToTablet } = useResponsive();
@@ -20,11 +24,11 @@ const Categories: FunctionComponent = () => {
   const [filters, setFilters] = useFilters<ItemsFilters>(FiltersType.Items);
 
   const { Items: { typesByCategories, defaultCategory, defaultType } } = Engine;
-  const baseCategory = (filters.category ?? defaultCategory) as ItemCategory;
-  const baseType = (filters.type ?? defaultType) as ItemType;
+  const baseCategory = (filters.category ?? defaultCategory) as SelectableCategory;
+  const baseType = (filters.type ?? defaultType) as SelectableType;
 
-  const [selectedCategory, setSelectedCategory] = useState<ItemCategory>(baseCategory);
-  const [selectedType, setSelectedType] = useState<ItemType>(baseType);
+  const [selectedCategory, setSelectedCategory] = useState<SelectableCategory>(baseCategory);
+  const [selectedType, setSelectedType] = useState<SelectableType>(baseType);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   if (isUpToTablet) {
@@ -65,8 +69,27 @@ const Categories: FunctionComponent = () => {
   }
 
   function renderCategoryMenu() {
+    const isAllSelected = selectedCategory === ALL_ITEMS_CATEGORY;
+
     return (
       <ul className="o-itemCategories">
+        <li
+          key="item-category-all"
+          className={`o-itemCategories__category ${isAllSelected ? 'selected' : ''}`}
+        >
+          <span
+            className="o-itemCategories__categoryName"
+            onClick={onAllSelect}
+          >
+            <Icon
+              className="o-itemCategories__categoryName-arrow"
+              width={6}
+              height={12}
+              name={IconName.ArrowRightBlue}
+            />
+            All
+          </span>
+        </li>
         {map(typesByCategories, ((itemTypes, category: ItemCategory) => {
           const isSelected = selectedCategory === category;
           return (
@@ -98,6 +121,13 @@ const Categories: FunctionComponent = () => {
         }))}
       </ul>
     );
+  }
+
+  function onAllSelect() {
+    setSelectedCategory(ALL_ITEMS_CATEGORY);
+    setSelectedType(ALL_ITEMS_CATEGORY);
+    setFilters({ category: ALL_ITEMS_CATEGORY, type: ALL_ITEMS_CATEGORY });
+    setIsMobileMenuOpen(false);
   }
 
   function onCategorySelect(category: ItemCategory) {

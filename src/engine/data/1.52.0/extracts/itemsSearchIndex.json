@@ -9023,7 +9023,7 @@
     "uuid": 897,
     "name": "Axe",
     "type": "Axe",
-    "category": "Misc",
+    "category": "Weapon",
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "",
@@ -9034,7 +9034,7 @@
     "uuid": 898,
     "name": "Chopper",
     "type": "Axe",
-    "category": "Misc",
+    "category": "Weapon",
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "",
@@ -9045,7 +9045,7 @@
     "uuid": 899,
     "name": "Hack",
     "type": "Axe",
-    "category": "Misc",
+    "category": "Weapon",
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "",
@@ -9115,8 +9115,8 @@
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "Physical Damage",
-    "setName": "",
-    "setBonuses": ""
+    "setName": "Saw Master's Toolkit",
+    "setBonuses": "Puncture stacks infinitely. Axe, Gun, and Saw Blade skills deal 30% increased damage.\nLoose Blades are guaranteed to trigger, spawn in pairs, and deal 50% increased damage. When a foe affected by Puncture dies, a Loose Blade is spawned from it, dealing the total remaining damage of Puncture.\nThe Mechanist gains 3% Damage Reduction for each nearby foe. Bosses count as 15 foes."
   },
   {
     "uuid": 906,
@@ -9126,19 +9126,19 @@
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "Physical Damage\nSatellite: A spiked orb circles the player, hitting nearby foes, dealing  Physical damage two times per second",
-    "setName": "",
-    "setBonuses": ""
+    "setName": "Saw Master's Toolkit",
+    "setBonuses": "Puncture stacks infinitely. Axe, Gun, and Saw Blade skills deal 30% increased damage.\nLoose Blades are guaranteed to trigger, spawn in pairs, and deal 50% increased damage. When a foe affected by Puncture dies, a Loose Blade is spawned from it, dealing the total remaining damage of Puncture.\nThe Mechanist gains 3% Damage Reduction for each nearby foe. Bosses count as 15 foes."
   },
   {
     "uuid": 907,
     "name": "Saw Master's Axe",
     "type": "Axe",
-    "category": "Misc",
+    "category": "Weapon",
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "Physical Damage\n Bleed Damage",
-    "setName": "",
-    "setBonuses": ""
+    "setName": "Saw Master's Toolkit",
+    "setBonuses": "Puncture stacks infinitely. Axe, Gun, and Saw Blade skills deal 30% increased damage.\nLoose Blades are guaranteed to trigger, spawn in pairs, and deal 50% increased damage. When a foe affected by Puncture dies, a Loose Blade is spawned from it, dealing the total remaining damage of Puncture.\nThe Mechanist gains 3% Damage Reduction for each nearby foe. Bosses count as 15 foes."
   },
   {
     "uuid": 908,
@@ -9148,8 +9148,8 @@
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "Physical Damage\n Bleed Damage",
-    "setName": "",
-    "setBonuses": ""
+    "setName": "Saw Master's Toolkit",
+    "setBonuses": "Puncture stacks infinitely. Axe, Gun, and Saw Blade skills deal 30% increased damage.\nLoose Blades are guaranteed to trigger, spawn in pairs, and deal 50% increased damage. When a foe affected by Puncture dies, a Loose Blade is spawned from it, dealing the total remaining damage of Puncture.\nThe Mechanist gains 3% Damage Reduction for each nearby foe. Bosses count as 15 foes."
   },
   {
     "uuid": 909,
@@ -9159,8 +9159,8 @@
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "Physical Damage",
-    "setName": "",
-    "setBonuses": ""
+    "setName": "Drone Pilot's Gear",
+    "setBonuses": "Mega Drones (Ultimate) is always active, and Turret skills gain the Drone tag, benefitting from this Ultimate. Automated Targeting (passive) can now stack the targeting marks infinitely.\nWhen reaching Maximum Ammo, all Ammo is consumed, increasing the damage of Turrets and Drones by 100% for each Ammo consumed, for 7 seconds.\nThe Mechanist gains 5% Damage Reduction for each Drone."
   },
   {
     "uuid": 910,
@@ -9170,19 +9170,19 @@
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "Physical Damage\nSatellite: A spiked orb circles the player, hitting nearby foes, dealing  Physical damage two times per second",
-    "setName": "",
-    "setBonuses": ""
+    "setName": "Drone Pilot's Gear",
+    "setBonuses": "Mega Drones (Ultimate) is always active, and Turret skills gain the Drone tag, benefitting from this Ultimate. Automated Targeting (passive) can now stack the targeting marks infinitely.\nWhen reaching Maximum Ammo, all Ammo is consumed, increasing the damage of Turrets and Drones by 100% for each Ammo consumed, for 7 seconds.\nThe Mechanist gains 5% Damage Reduction for each Drone."
   },
   {
     "uuid": 911,
     "name": "Drone Pilot's Hack",
     "type": "Axe",
-    "category": "Misc",
+    "category": "Weapon",
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "Physical Damage\n increased damage of all Satellite enchants",
-    "setName": "",
-    "setBonuses": ""
+    "setName": "Drone Pilot's Gear",
+    "setBonuses": "Mega Drones (Ultimate) is always active, and Turret skills gain the Drone tag, benefitting from this Ultimate. Automated Targeting (passive) can now stack the targeting marks infinitely.\nWhen reaching Maximum Ammo, all Ammo is consumed, increasing the damage of Turrets and Drones by 100% for each Ammo consumed, for 7 seconds.\nThe Mechanist gains 5% Damage Reduction for each Drone."
   },
   {
     "uuid": 912,
@@ -9192,14 +9192,14 @@
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "Physical Damage\n Attack Speed",
-    "setName": "",
-    "setBonuses": ""
+    "setName": "Drone Pilot's Gear",
+    "setBonuses": "Mega Drones (Ultimate) is always active, and Turret skills gain the Drone tag, benefitting from this Ultimate. Automated Targeting (passive) can now stack the targeting marks infinitely.\nWhen reaching Maximum Ammo, all Ammo is consumed, increasing the damage of Turrets and Drones by 100% for each Ammo consumed, for 7 seconds.\nThe Mechanist gains 5% Damage Reduction for each Drone."
   },
   {
     "uuid": 913,
     "name": "Ripblade",
     "type": "Axe",
-    "category": "Misc",
+    "category": "Weapon",
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "Saw Blade skill damage.\n Bleed Damage",
@@ -9210,7 +9210,7 @@
     "uuid": 914,
     "name": "Edge of Desperation",
     "type": "Axe",
-    "category": "Misc",
+    "category": "Weapon",
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "Desperate Measures now considers any held Staggered Damage as lost Health. Desperate Measures is also  stronger.\n of damage taken is staggered and dealt over 3 seconds, at a 30% damage reduction",
@@ -9302,8 +9302,8 @@
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "Fire Damage",
-    "setName": "",
-    "setBonuses": ""
+    "setName": "Rocketeer's Plan",
+    "setBonuses": "Rocketeer Rockets weaken foes hit, increasing the damage they take from Rocketeer Rockets by 100%, stacking infinitely.\nRocketeer Rockets fire 3 at a time.\nThe Mechanist gains 40% Damage Reduction."
   },
   {
     "uuid": 923,
@@ -9313,19 +9313,19 @@
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "Fire Damage\n Movement Speed",
-    "setName": "",
-    "setBonuses": ""
+    "setName": "Rocketeer's Plan",
+    "setBonuses": "Rocketeer Rockets weaken foes hit, increasing the damage they take from Rocketeer Rockets by 100%, stacking infinitely.\nRocketeer Rockets fire 3 at a time.\nThe Mechanist gains 40% Damage Reduction."
   },
   {
     "uuid": 924,
     "name": "Rocketeer's Chopper",
     "type": "Axe",
-    "category": "Misc",
+    "category": "Weapon",
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "Fire Damage\n Attack Speed",
-    "setName": "",
-    "setBonuses": ""
+    "setName": "Rocketeer's Plan",
+    "setBonuses": "Rocketeer Rockets weaken foes hit, increasing the damage they take from Rocketeer Rockets by 100%, stacking infinitely.\nRocketeer Rockets fire 3 at a time.\nThe Mechanist gains 40% Damage Reduction."
   },
   {
     "uuid": 925,
@@ -9335,8 +9335,8 @@
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "Fire Damage\n Damage",
-    "setName": "",
-    "setBonuses": ""
+    "setName": "Rocketeer's Plan",
+    "setBonuses": "Rocketeer Rockets weaken foes hit, increasing the damage they take from Rocketeer Rockets by 100%, stacking infinitely.\nRocketeer Rockets fire 3 at a time.\nThe Mechanist gains 40% Damage Reduction."
   },
   {
     "uuid": 926,
@@ -9346,8 +9346,8 @@
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "Fire Damage",
-    "setName": "",
-    "setBonuses": ""
+    "setName": "Pyromaniac's Wish",
+    "setBonuses": "Incendiary Technology now stacks infinitely. Foes affected by Panic suffer double damage from Incendiary Technology.\nIncendiary Technology is guaranteed to trigger. For each stack of Incendiary Technology, foes are weakened, increasing the damage they take from all direct damage by 10%.\nThe Mechanist gains 40% Damage Reduction."
   },
   {
     "uuid": 927,
@@ -9357,19 +9357,19 @@
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "Fire Damage\n Reach",
-    "setName": "",
-    "setBonuses": ""
+    "setName": "Pyromaniac's Wish",
+    "setBonuses": "Incendiary Technology now stacks infinitely. Foes affected by Panic suffer double damage from Incendiary Technology.\nIncendiary Technology is guaranteed to trigger. For each stack of Incendiary Technology, foes are weakened, increasing the damage they take from all direct damage by 10%.\nThe Mechanist gains 40% Damage Reduction."
   },
   {
     "uuid": 928,
     "name": "Pyromaniac's Hack",
     "type": "Axe",
-    "category": "Misc",
+    "category": "Weapon",
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "Fire Damage\n Effect Duration",
-    "setName": "",
-    "setBonuses": ""
+    "setName": "Pyromaniac's Wish",
+    "setBonuses": "Incendiary Technology now stacks infinitely. Foes affected by Panic suffer double damage from Incendiary Technology.\nIncendiary Technology is guaranteed to trigger. For each stack of Incendiary Technology, foes are weakened, increasing the damage they take from all direct damage by 10%.\nThe Mechanist gains 40% Damage Reduction."
   },
   {
     "uuid": 929,
@@ -9379,14 +9379,14 @@
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "Fire Damage\n Attack Speed",
-    "setName": "",
-    "setBonuses": ""
+    "setName": "Pyromaniac's Wish",
+    "setBonuses": "Incendiary Technology now stacks infinitely. Foes affected by Panic suffer double damage from Incendiary Technology.\nIncendiary Technology is guaranteed to trigger. For each stack of Incendiary Technology, foes are weakened, increasing the damage they take from all direct damage by 10%.\nThe Mechanist gains 40% Damage Reduction."
   },
   {
     "uuid": 930,
     "name": "Daredevil",
     "type": "Axe",
-    "category": "Misc",
+    "category": "Weapon",
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "Danger Close is  stronger.\n Reach",
@@ -9397,7 +9397,7 @@
     "uuid": 931,
     "name": "Tenderizer",
     "type": "Axe",
-    "category": "Misc",
+    "category": "Weapon",
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "of Damage is added to Thorns. This effect is multiplied by Max Ammo.\n Max Ammo",
@@ -9522,8 +9522,8 @@
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "Poison Damage",
-    "setName": "",
-    "setBonuses": ""
+    "setName": "Death Trooper Armor",
+    "setBonuses": "Foes suffer 100% increased damage from Poison Gas each time they are struck by it, stacking infinitely.\nThorns is now added to the base damage of Poison Gas, and Thorns is now Poison element. Poison Gas gains 1 meter increased base radius.\nPoison Gas also grants 30% Parry while active."
   },
   {
     "uuid": 943,
@@ -9533,19 +9533,19 @@
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "Poison Damage\n Poison Resistance",
-    "setName": "",
-    "setBonuses": ""
+    "setName": "Death Trooper Armor",
+    "setBonuses": "Foes suffer 100% increased damage from Poison Gas each time they are struck by it, stacking infinitely.\nThorns is now added to the base damage of Poison Gas, and Thorns is now Poison element. Poison Gas gains 1 meter increased base radius.\nPoison Gas also grants 30% Parry while active."
   },
   {
     "uuid": 944,
     "name": "Death Trooper Hacker",
     "type": "Axe",
-    "category": "Misc",
+    "category": "Weapon",
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "Poison Damage\n Reach",
-    "setName": "",
-    "setBonuses": ""
+    "setName": "Death Trooper Armor",
+    "setBonuses": "Foes suffer 100% increased damage from Poison Gas each time they are struck by it, stacking infinitely.\nThorns is now added to the base damage of Poison Gas, and Thorns is now Poison element. Poison Gas gains 1 meter increased base radius.\nPoison Gas also grants 30% Parry while active."
   },
   {
     "uuid": 945,
@@ -9555,8 +9555,8 @@
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "Poison Damage\n Thorns",
-    "setName": "",
-    "setBonuses": ""
+    "setName": "Death Trooper Armor",
+    "setBonuses": "Foes suffer 100% increased damage from Poison Gas each time they are struck by it, stacking infinitely.\nThorns is now added to the base damage of Poison Gas, and Thorns is now Poison element. Poison Gas gains 1 meter increased base radius.\nPoison Gas also grants 30% Parry while active."
   },
   {
     "uuid": 946,
@@ -9566,8 +9566,8 @@
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "Poison Damage",
-    "setName": "",
-    "setBonuses": ""
+    "setName": "Master Chemist's Work",
+    "setBonuses": "Engineered Poisons now stacks infinitely.\nPoison Drones and Gas Drones now also increase Poison Damage by 30% for each active Drone.\nThe Mechanist gains 40% Damage Reduction."
   },
   {
     "uuid": 947,
@@ -9577,19 +9577,19 @@
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "Poison Damage\n increased damage of all Satellite enchants",
-    "setName": "",
-    "setBonuses": ""
+    "setName": "Master Chemist's Work",
+    "setBonuses": "Engineered Poisons now stacks infinitely.\nPoison Drones and Gas Drones now also increase Poison Damage by 30% for each active Drone.\nThe Mechanist gains 40% Damage Reduction."
   },
   {
     "uuid": 948,
     "name": "Master Chemist's Axe",
     "type": "Axe",
-    "category": "Misc",
+    "category": "Weapon",
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "Poison Damage\n Effect Duration",
-    "setName": "",
-    "setBonuses": ""
+    "setName": "Master Chemist's Work",
+    "setBonuses": "Engineered Poisons now stacks infinitely.\nPoison Drones and Gas Drones now also increase Poison Damage by 30% for each active Drone.\nThe Mechanist gains 40% Damage Reduction."
   },
   {
     "uuid": 949,
@@ -9599,14 +9599,14 @@
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "Poison Damage\n Attack Speed",
-    "setName": "",
-    "setBonuses": ""
+    "setName": "Master Chemist's Work",
+    "setBonuses": "Engineered Poisons now stacks infinitely.\nPoison Drones and Gas Drones now also increase Poison Damage by 30% for each active Drone.\nThe Mechanist gains 40% Damage Reduction."
   },
   {
     "uuid": 950,
     "name": "Bio Hack",
     "type": "Axe",
-    "category": "Misc",
+    "category": "Weapon",
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "Chemical Fuel reduces cooldowns by  more.\n Attack Speed",
@@ -9628,7 +9628,7 @@
     "uuid": 952,
     "name": "Hackjob",
     "type": "Axe",
-    "category": "Misc",
+    "category": "Weapon",
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "Physical Damage\n Bleed Damage",
@@ -9639,7 +9639,7 @@
     "uuid": 953,
     "name": "Singe Hew",
     "type": "Axe",
-    "category": "Misc",
+    "category": "Weapon",
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "Fire Damage",
@@ -9650,7 +9650,7 @@
     "uuid": 954,
     "name": "Chopspew",
     "type": "Axe",
-    "category": "Misc",
+    "category": "Weapon",
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "Poison Damage",
@@ -9661,7 +9661,7 @@
     "uuid": 955,
     "name": "Holy Divider",
     "type": "Axe",
-    "category": "Misc",
+    "category": "Weapon",
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "Holy Damage",
@@ -9709,8 +9709,8 @@
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "Holy Damage",
-    "setName": "",
-    "setBonuses": ""
+    "setName": "Mechalord's Legacy",
+    "setBonuses": "Killbot (Ultimate) no longer has any cooldown. Casting Killbot while one is active will immediately detonate it.\nWhenever the Killbot is healed by a M3D1C companion, its damage stat is doubled, but its max Health is reduced by 10%. This effect stacks up to 20 times.\n50% of damage taken is shared with the Killbot."
   },
   {
     "uuid": 960,
@@ -9720,19 +9720,19 @@
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "Holy Damage\n Cooldown Reduction",
-    "setName": "",
-    "setBonuses": ""
+    "setName": "Mechalord's Legacy",
+    "setBonuses": "Killbot (Ultimate) no longer has any cooldown. Casting Killbot while one is active will immediately detonate it.\nWhenever the Killbot is healed by a M3D1C companion, its damage stat is doubled, but its max Health is reduced by 10%. This effect stacks up to 20 times.\n50% of damage taken is shared with the Killbot."
   },
   {
     "uuid": 961,
     "name": "Mechalord's Axe",
     "type": "Axe",
-    "category": "Misc",
+    "category": "Weapon",
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "Holy Damage\n Reach",
-    "setName": "",
-    "setBonuses": ""
+    "setName": "Mechalord's Legacy",
+    "setBonuses": "Killbot (Ultimate) no longer has any cooldown. Casting Killbot while one is active will immediately detonate it.\nWhenever the Killbot is healed by a M3D1C companion, its damage stat is doubled, but its max Health is reduced by 10%. This effect stacks up to 20 times.\n50% of damage taken is shared with the Killbot."
   },
   {
     "uuid": 962,
@@ -9742,8 +9742,8 @@
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "Holy Damage\n Companion Damage",
-    "setName": "",
-    "setBonuses": ""
+    "setName": "Mechalord's Legacy",
+    "setBonuses": "Killbot (Ultimate) no longer has any cooldown. Casting Killbot while one is active will immediately detonate it.\nWhenever the Killbot is healed by a M3D1C companion, its damage stat is doubled, but its max Health is reduced by 10%. This effect stacks up to 20 times.\n50% of damage taken is shared with the Killbot."
   },
   {
     "uuid": 963,
@@ -9753,8 +9753,8 @@
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "Holy Damage",
-    "setName": "",
-    "setBonuses": ""
+    "setName": "Destructive Protocol",
+    "setBonuses": "Thorns is now added to the base damage of Light Lance.\nOffensive Protocols now also releases 5 Light Lances when triggered, and Light Lance may doublecast from Feedback Loops.\nDefensive Protocols is 100% stronger and can refresh every 3 seconds regardless of existing barriers."
   },
   {
     "uuid": 964,
@@ -9764,19 +9764,19 @@
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "Holy Damage\n Reach",
-    "setName": "",
-    "setBonuses": ""
+    "setName": "Destructive Protocol",
+    "setBonuses": "Thorns is now added to the base damage of Light Lance.\nOffensive Protocols now also releases 5 Light Lances when triggered, and Light Lance may doublecast from Feedback Loops.\nDefensive Protocols is 100% stronger and can refresh every 3 seconds regardless of existing barriers."
   },
   {
     "uuid": 965,
     "name": "Destructive Chopper",
     "type": "Axe",
-    "category": "Misc",
+    "category": "Weapon",
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "Holy Damage\n Attack Speed",
-    "setName": "",
-    "setBonuses": ""
+    "setName": "Destructive Protocol",
+    "setBonuses": "Thorns is now added to the base damage of Light Lance.\nOffensive Protocols now also releases 5 Light Lances when triggered, and Light Lance may doublecast from Feedback Loops.\nDefensive Protocols is 100% stronger and can refresh every 3 seconds regardless of existing barriers."
   },
   {
     "uuid": 966,
@@ -9786,14 +9786,14 @@
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "Holy Damage\n Thorns",
-    "setName": "",
-    "setBonuses": ""
+    "setName": "Destructive Protocol",
+    "setBonuses": "Thorns is now added to the base damage of Light Lance.\nOffensive Protocols now also releases 5 Light Lances when triggered, and Light Lance may doublecast from Feedback Loops.\nDefensive Protocols is 100% stronger and can refresh every 3 seconds regardless of existing barriers."
   },
   {
     "uuid": 967,
     "name": "Goblin Motivator",
     "type": "Axe",
-    "category": "Misc",
+    "category": "Weapon",
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "Production is  more likely to trigger, and when triggered is more likely to produce the larger value listed.\n Holy Damage",
@@ -9804,7 +9804,7 @@
     "uuid": 968,
     "name": "Cog",
     "type": "Axe",
-    "category": "Misc",
+    "category": "Weapon",
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "Brass Cog and Area Clear deal  increased damage.\n Holy Damage",
@@ -9848,7 +9848,7 @@
     "uuid": 972,
     "name": "Machine March",
     "type": "Axe",
-    "category": "Misc",
+    "category": "Weapon",
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "to Machinery Skill Damage for each active companion, and half as much for each active Drone.\n Damage",
@@ -9859,7 +9859,7 @@
     "uuid": 973,
     "name": "Meat Grinder",
     "type": "Axe",
-    "category": "Misc",
+    "category": "Weapon",
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "All Axe Skills deal  increased damage, have  increased range, and have a 25% chance to doublecast.\n Critical Hit Chance",
@@ -9870,7 +9870,7 @@
     "uuid": 974,
     "name": "Combatant",
     "type": "Axe",
-    "category": "Misc",
+    "category": "Weapon",
     "description": "",
     "classRestriction": "Mechanist",
     "enchants": "to Combat Skill Damage for each nearby foe. Bosses count as 15 foes.\n Health",

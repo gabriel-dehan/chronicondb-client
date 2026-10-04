@@ -81,7 +81,7 @@ const Artifact: FunctionComponent<Props> = ({
           offset={0}
           size="small"
         >
-          {[CharacterClass.Templar, CharacterClass.Berserker, CharacterClass.Warlock, CharacterClass.Warden].map(charClass => (
+          {[CharacterClass.Templar, CharacterClass.Berserker, CharacterClass.Warlock, CharacterClass.Warden, CharacterClass.Mechanist].map(charClass => (
             <GameIcon
               key={`item-${artifact.uuid}-req-class-${charClass.toLowerCase()}`}
               type={GameIconType.ClassProfile}

@@ -508,7 +508,7 @@
     "name": "Health",
     "category": "Enchant",
     "description": " Health",
-    "itemTypes": "Helm, Armor, Bow, Sword, Staff, Fists, Boots, Accessory, Ring, Amulet, Shield",
+    "itemTypes": "Helm, Armor, Bow, Sword, Staff, Fists, Boots, Accessory, Ring, Amulet, Shield, Axe",
     "itemCategories": "Helmet, Armor, Weapon, Boots, Accessory, Ring, Amulet, Offhand"
   },
   {
@@ -516,7 +516,7 @@
     "name": "Mana",
     "category": "Enchant",
     "description": " Mana",
-    "itemTypes": "Helm, Armor, Bow, Sword, Staff, Fists, Boots, Accessory, Ring, Amulet, Spellbook, Shield, Tome",
+    "itemTypes": "Helm, Armor, Bow, Sword, Staff, Fists, Boots, Accessory, Ring, Amulet, Spellbook, Shield, Tome, Axe, Gun",
     "itemCategories": "Helmet, Armor, Weapon, Boots, Accessory, Ring, Amulet, Offhand"
   },
   {
@@ -524,7 +524,7 @@
     "name": "Damage",
     "category": "Enchant",
     "description": " Damage",
-    "itemTypes": "Bow, Sword, Staff, Fists, Ring, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemTypes": "Bow, Sword, Staff, Fists, Ring, Claw, Arrow, Spellbook, Shield, Tome, Axe, Gun",
     "itemCategories": "Weapon, Ring, Offhand"
   },
   {
@@ -532,7 +532,7 @@
     "name": "Movement Speed",
     "category": "Enchant",
     "description": " Movement Speed",
-    "itemTypes": "Boots, Accessory, Ring, Amulet, Claw, Arrow",
+    "itemTypes": "Boots, Accessory, Ring, Amulet, Claw, Arrow, Gun",
     "itemCategories": "Boots, Accessory, Ring, Amulet, Offhand"
   },
   {
@@ -540,7 +540,7 @@
     "name": "Attack Speed",
     "category": "Enchant",
     "description": " Attack Speed",
-    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Ring, Amulet, Claw, Arrow, Spellbook, Tome",
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Ring, Amulet, Claw, Arrow, Spellbook, Tome, Axe, Gun",
     "itemCategories": "Weapon, Accessory, Ring, Amulet, Offhand"
   },
   {
@@ -548,7 +548,7 @@
     "name": "Health Regeneration",
     "category": "Enchant",
     "description": " Health Regeneration",
-    "itemTypes": "Helm, Armor, Boots, Accessory, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemTypes": "Helm, Armor, Boots, Accessory, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome, Gun",
     "itemCategories": "Helmet, Armor, Boots, Accessory, Ring, Amulet, Offhand"
   },
   {
@@ -556,7 +556,7 @@
     "name": "Mana Regeneration",
     "category": "Enchant",
     "description": " Mana Regeneration",
-    "itemTypes": "Helm, Armor, Boots, Accessory, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemTypes": "Helm, Armor, Boots, Accessory, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome, Gun",
     "itemCategories": "Helmet, Armor, Boots, Accessory, Ring, Amulet, Offhand"
   },
   {
@@ -564,7 +564,7 @@
     "name": "Thorns",
     "category": "Enchant",
     "description": " Thorns",
-    "itemTypes": "Helm, Armor, Bow, Sword, Staff, Fists, Boots, Accessory, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemTypes": "Helm, Armor, Bow, Sword, Staff, Fists, Boots, Accessory, Claw, Arrow, Spellbook, Shield, Tome, Axe, Gun",
     "itemCategories": "Helmet, Armor, Weapon, Boots, Accessory, Offhand"
   },
   {
@@ -572,7 +572,7 @@
     "name": "Vampire",
     "category": "Enchant",
     "description": " Health On Hit",
-    "itemTypes": "Bow, Sword, Staff, Fists, Boots, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemTypes": "Bow, Sword, Staff, Fists, Boots, Amulet, Claw, Arrow, Spellbook, Shield, Tome, Axe, Gun",
     "itemCategories": "Weapon, Boots, Amulet, Offhand"
   },
   {
@@ -580,7 +580,7 @@
     "name": "Leech",
     "category": "Enchant",
     "description": " Mana On Hit",
-    "itemTypes": "Helm, Bow, Sword, Staff, Fists, Ring, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemTypes": "Helm, Bow, Sword, Staff, Fists, Ring, Claw, Arrow, Spellbook, Shield, Tome, Axe, Gun",
     "itemCategories": "Helmet, Weapon, Ring, Offhand"
   },
   {
@@ -588,7 +588,7 @@
     "name": "Magic Find",
     "category": "Enchant",
     "description": " Magic find",
-    "itemTypes": "Helm, Bow, Sword, Staff, Fists, Boots, Accessory, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemTypes": "Helm, Bow, Sword, Staff, Fists, Boots, Accessory, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome, Axe, Gun",
     "itemCategories": "Helmet, Weapon, Boots, Accessory, Ring, Amulet, Offhand"
   },
   {
@@ -596,7 +596,7 @@
     "name": "Critical Hit Chance",
     "category": "Enchant",
     "description": " Critical Hit Chance",
-    "itemTypes": "Helm, Bow, Sword, Staff, Fists, Accessory, Ring, Amulet, Claw, Arrow, Spellbook, Tome",
+    "itemTypes": "Helm, Bow, Sword, Staff, Fists, Accessory, Ring, Amulet, Claw, Arrow, Spellbook, Tome, Axe, Gun",
     "itemCategories": "Helmet, Weapon, Accessory, Ring, Amulet, Offhand"
   },
   {
@@ -604,7 +604,7 @@
     "name": "Knockback",
     "category": "Enchant",
     "description": " Knockback Chance",
-    "itemTypes": "Bow, Staff, Boots, Accessory, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemTypes": "Bow, Staff, Boots, Accessory, Claw, Arrow, Spellbook, Shield, Tome, Gun",
     "itemCategories": "Weapon, Boots, Accessory, Offhand"
   },
   {
@@ -612,7 +612,7 @@
     "name": "Effect Duration",
     "category": "Enchant",
     "description": " Effect Duration",
-    "itemTypes": "Helm, Bow, Sword, Staff, Fists, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemTypes": "Helm, Bow, Sword, Staff, Fists, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome, Axe, Gun",
     "itemCategories": "Helmet, Weapon, Ring, Amulet, Offhand"
   },
   {
@@ -620,7 +620,7 @@
     "name": "Pickup Strength",
     "category": "Enchant",
     "description": " Pickup Strength",
-    "itemTypes": "Armor, Boots, Accessory, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemTypes": "Armor, Boots, Accessory, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome, Gun",
     "itemCategories": "Armor, Boots, Accessory, Ring, Amulet, Offhand"
   },
   {
@@ -636,7 +636,7 @@
     "name": "Experience",
     "category": "Enchant",
     "description": " Bonus Experience",
-    "itemTypes": "Helm, Bow, Sword, Staff, Fists, Accessory, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemTypes": "Helm, Bow, Sword, Staff, Fists, Accessory, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome, Axe, Gun",
     "itemCategories": "Helmet, Weapon, Accessory, Ring, Amulet, Offhand"
   },
   {
@@ -652,7 +652,7 @@
     "name": "Pickup Radius",
     "category": "Enchant",
     "description": " Pickup Radius",
-    "itemTypes": "Armor, Bow, Sword, Staff, Fists, Boots, Accessory",
+    "itemTypes": "Armor, Bow, Sword, Staff, Fists, Boots, Accessory, Axe",
     "itemCategories": "Armor, Weapon, Boots, Accessory"
   },
   {
@@ -716,7 +716,7 @@
     "name": "Fire Resistance",
     "category": "Enchant",
     "description": " Fire Resistance",
-    "itemTypes": "Helm, Armor, Boots, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemTypes": "Helm, Armor, Boots, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome, Gun",
     "itemCategories": "Helmet, Armor, Boots, Ring, Amulet, Offhand"
   },
   {
@@ -724,7 +724,7 @@
     "name": "Frost Resistance",
     "category": "Enchant",
     "description": " Frost Resistance",
-    "itemTypes": "Helm, Armor, Boots, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemTypes": "Helm, Armor, Boots, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome, Gun",
     "itemCategories": "Helmet, Armor, Boots, Ring, Amulet, Offhand"
   },
   {
@@ -732,7 +732,7 @@
     "name": "Poison Resistance",
     "category": "Enchant",
     "description": " Poison Resistance",
-    "itemTypes": "Helm, Armor, Boots, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemTypes": "Helm, Armor, Boots, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome, Gun",
     "itemCategories": "Helmet, Armor, Boots, Ring, Amulet, Offhand"
   },
   {
@@ -740,7 +740,7 @@
     "name": "Lightning Resistance",
     "category": "Enchant",
     "description": " Lightning Resistance",
-    "itemTypes": "Helm, Armor, Boots, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemTypes": "Helm, Armor, Boots, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome, Gun",
     "itemCategories": "Helmet, Armor, Boots, Ring, Amulet, Offhand"
   },
   {
@@ -748,7 +748,7 @@
     "name": "Holy Resistance",
     "category": "Enchant",
     "description": " Holy Resistance",
-    "itemTypes": "Helm, Armor, Boots, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemTypes": "Helm, Armor, Boots, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome, Gun",
     "itemCategories": "Helmet, Armor, Boots, Ring, Amulet, Offhand"
   },
   {
@@ -756,7 +756,7 @@
     "name": "Fire Damage",
     "category": "Enchant",
     "description": " Fire Damage",
-    "itemTypes": "Helm, Sword, Staff, Fists, Accessory, Ring, Amulet, Claw, Spellbook, Shield, Tome",
+    "itemTypes": "Helm, Sword, Staff, Fists, Accessory, Ring, Amulet, Claw, Spellbook, Shield, Tome, Axe, Gun",
     "itemCategories": "Helmet, Weapon, Accessory, Ring, Amulet, Offhand"
   },
   {
@@ -772,7 +772,7 @@
     "name": "Poison Damage",
     "category": "Enchant",
     "description": " Poison Damage",
-    "itemTypes": "Helm, Bow, Staff, Accessory, Ring, Amulet, Arrow, Spellbook",
+    "itemTypes": "Helm, Bow, Staff, Accessory, Ring, Amulet, Arrow, Spellbook, Axe, Gun",
     "itemCategories": "Helmet, Weapon, Accessory, Ring, Amulet, Offhand"
   },
   {
@@ -788,7 +788,7 @@
     "name": "Holy Damage",
     "category": "Enchant",
     "description": " Holy Damage",
-    "itemTypes": "Helm, Sword, Accessory, Ring, Amulet, Shield, Tome",
+    "itemTypes": "Helm, Sword, Accessory, Ring, Amulet, Shield, Tome, Axe, Gun",
     "itemCategories": "Helmet, Weapon, Accessory, Ring, Amulet, Offhand"
   },
   {
@@ -796,7 +796,7 @@
     "name": "Physical Damage",
     "category": "Enchant",
     "description": " Physical Damage",
-    "itemTypes": "Helm, Bow, Sword, Fists, Accessory, Ring, Amulet, Claw, Arrow, Shield, Tome",
+    "itemTypes": "Helm, Bow, Sword, Fists, Accessory, Ring, Amulet, Claw, Arrow, Shield, Tome, Axe, Gun",
     "itemCategories": "Helmet, Weapon, Accessory, Ring, Amulet, Offhand"
   },
   {
@@ -804,7 +804,7 @@
     "name": "Companion Health",
     "category": "Enchant",
     "description": " Companion Health",
-    "itemTypes": "Armor, Accessory, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemTypes": "Armor, Accessory, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome, Gun",
     "itemCategories": "Armor, Accessory, Ring, Amulet, Offhand"
   },
   {
@@ -812,7 +812,7 @@
     "name": "Companion Damage",
     "category": "Enchant",
     "description": " Companion Damage",
-    "itemTypes": "Helm, Bow, Sword, Staff, Fists, Boots, Accessory, Ring, Amulet",
+    "itemTypes": "Helm, Bow, Sword, Staff, Fists, Boots, Accessory, Ring, Amulet, Axe",
     "itemCategories": "Helmet, Weapon, Boots, Accessory, Ring, Amulet"
   },
   {
@@ -828,7 +828,7 @@
     "name": "Power All",
     "category": "Enchant",
     "description": " to all Elements",
-    "itemTypes": "Armor, Bow, Sword, Staff, Fists, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemTypes": "Armor, Bow, Sword, Staff, Fists, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome, Axe, Gun",
     "itemCategories": "Armor, Weapon, Ring, Amulet, Offhand"
   },
   {
@@ -836,7 +836,7 @@
     "name": "Mana Cost Reduction",
     "category": "Enchant",
     "description": " Mana Cost Reduction",
-    "itemTypes": "Armor, Bow, Sword, Staff, Fists, Accessory, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemTypes": "Armor, Bow, Sword, Staff, Fists, Accessory, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome, Axe, Gun",
     "itemCategories": "Armor, Weapon, Accessory, Ring, Amulet, Offhand"
   },
   {
@@ -844,7 +844,7 @@
     "name": "Cooldown Reduction",
     "category": "Enchant",
     "description": " Cooldown Reduction",
-    "itemTypes": "Helm, Bow, Sword, Staff, Fists, Accessory, Ring, Amulet",
+    "itemTypes": "Helm, Bow, Sword, Staff, Fists, Accessory, Ring, Amulet, Axe",
     "itemCategories": "Helmet, Weapon, Accessory, Ring, Amulet"
   },
   {
@@ -852,7 +852,7 @@
     "name": "Critical Hit Damage",
     "category": "Enchant",
     "description": " Critical Hit Damage",
-    "itemTypes": "Helm, Bow, Sword, Staff, Fists, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemTypes": "Helm, Bow, Sword, Staff, Fists, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome, Axe, Gun",
     "itemCategories": "Helmet, Weapon, Ring, Amulet, Offhand"
   },
   {
@@ -860,7 +860,7 @@
     "name": "Shadow Resistance",
     "category": "Enchant",
     "description": " Shadow Resistance",
-    "itemTypes": "Helm, Armor, Boots, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemTypes": "Helm, Armor, Boots, Ring, Amulet, Claw, Arrow, Spellbook, Shield, Tome, Gun",
     "itemCategories": "Helmet, Armor, Boots, Ring, Amulet, Offhand"
   },
   {
@@ -908,7 +908,7 @@
     "name": "Grip",
     "category": "Enchant",
     "description": " chance on hit to pull all enemies within 3 meters of the foe closer to it",
-    "itemTypes": "Bow, Sword, Staff, Fists",
+    "itemTypes": "Bow, Sword, Staff, Fists, Axe",
     "itemCategories": "Weapon"
   },
   {
@@ -916,7 +916,7 @@
     "name": "Twister",
     "category": "Enchant",
     "description": "15% Chance on critical hit to summon a Twister that seeks out nearby foes, dealing  Ethereal damage per second as direct damage but may not crit.",
-    "itemTypes": "Bow, Sword, Staff, Fists",
+    "itemTypes": "Bow, Sword, Staff, Fists, Axe",
     "itemCategories": "Weapon"
   },
   {
@@ -924,7 +924,7 @@
     "name": "Hellfire",
     "category": "Enchant",
     "description": "15% Chance on critical hit to summon Hellfire over your foe, dealing up to  Ethereal damage per strike. Deals direct damage but may not crit.",
-    "itemTypes": "Bow, Sword, Staff, Fists",
+    "itemTypes": "Bow, Sword, Staff, Fists, Axe",
     "itemCategories": "Weapon"
   },
   {
@@ -940,7 +940,7 @@
     "name": "Enrage",
     "category": "Enchant",
     "description": "5% chance on critical hits to increase the base Attack Speed of all skills by  for 5 seconds",
-    "itemTypes": "Bow, Sword, Staff, Fists",
+    "itemTypes": "Bow, Sword, Staff, Fists, Axe",
     "itemCategories": "Weapon"
   },
   {
@@ -948,7 +948,7 @@
     "name": "Burst",
     "category": "Enchant",
     "description": "35% chance on critical hits to cause an explosion dealing  Ethereal damage",
-    "itemTypes": "Bow, Sword, Staff, Fists",
+    "itemTypes": "Bow, Sword, Staff, Fists, Axe",
     "itemCategories": "Weapon"
   },
   {
@@ -1020,7 +1020,7 @@
     "name": "Gib Regeneration",
     "category": "Enchant",
     "description": " Health- and Mana Regeneration for 5 seconds after gibbing a foe",
-    "itemTypes": "Bow, Sword, Staff, Fists",
+    "itemTypes": "Bow, Sword, Staff, Fists, Axe",
     "itemCategories": "Weapon"
   },
   {
@@ -1028,7 +1028,7 @@
     "name": "Gib Damage",
     "category": "Enchant",
     "description": " Damage for 5 seconds after gibbing a foe",
-    "itemTypes": "Bow, Sword, Staff, Fists",
+    "itemTypes": "Bow, Sword, Staff, Fists, Axe",
     "itemCategories": "Weapon"
   },
   {
@@ -1036,7 +1036,7 @@
     "name": "Gib Heal",
     "category": "Enchant",
     "description": "5% chance to heal for  of Maximum Health after gibbing a foe",
-    "itemTypes": "Bow, Sword, Staff, Fists",
+    "itemTypes": "Bow, Sword, Staff, Fists, Axe",
     "itemCategories": "Weapon"
   },
   {
@@ -1212,7 +1212,7 @@
     "name": "Reach",
     "category": "Enchant",
     "description": " Reach",
-    "itemTypes": "Helm, Bow, Sword, Staff, Fists, Accessory, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemTypes": "Helm, Bow, Sword, Staff, Fists, Accessory, Amulet, Claw, Arrow, Spellbook, Shield, Tome, Axe, Gun",
     "itemCategories": "Helmet, Weapon, Accessory, Amulet, Offhand"
   },
   {
@@ -1220,7 +1220,7 @@
     "name": "Overpower",
     "category": "Enchant",
     "description": " Overpower",
-    "itemTypes": "Fists, Accessory, Ring, Amulet, Claw, Arrow, Spellbook, Tome",
+    "itemTypes": "Fists, Accessory, Ring, Amulet, Claw, Arrow, Spellbook, Tome, Gun",
     "itemCategories": "Weapon, Accessory, Ring, Amulet, Offhand"
   },
   {
@@ -1228,7 +1228,7 @@
     "name": "Bleed Damage",
     "category": "Enchant",
     "description": " Bleed Damage",
-    "itemTypes": "Bow, Sword, Staff, Fists, Ring, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemTypes": "Bow, Sword, Staff, Fists, Ring, Claw, Arrow, Spellbook, Shield, Tome, Axe, Gun",
     "itemCategories": "Weapon, Ring, Offhand"
   },
   {
@@ -1260,7 +1260,7 @@
     "name": "Burn",
     "category": "Enchant",
     "description": "On hit: Deal  Fire damage instantly and per second, for 3 seconds",
-    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Ring, Claw, Arrow, Spellbook, Tome",
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Ring, Claw, Arrow, Spellbook, Tome, Axe, Gun",
     "itemCategories": "Weapon, Accessory, Ring, Offhand"
   },
   {
@@ -1268,7 +1268,7 @@
     "name": "Poison",
     "category": "Enchant",
     "description": "On hit: Deal  Poison damage instantly and per second, for 5 seconds",
-    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Ring, Claw, Arrow, Spellbook, Tome",
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Ring, Claw, Arrow, Spellbook, Tome, Axe, Gun",
     "itemCategories": "Weapon, Accessory, Ring, Offhand"
   },
   {
@@ -1276,7 +1276,7 @@
     "name": "Chill",
     "category": "Enchant",
     "description": "On hit: Deal  Frost damage instantly",
-    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Ring, Claw, Arrow, Spellbook, Tome",
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Ring, Claw, Arrow, Spellbook, Tome, Axe, Gun",
     "itemCategories": "Weapon, Accessory, Ring, Offhand"
   },
   {
@@ -1284,7 +1284,7 @@
     "name": "Chain Lightning",
     "category": "Enchant",
     "description": "On hit: 25% chance to cause Chain Lightning for  Lightning damage",
-    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Ring, Claw, Arrow, Spellbook, Tome",
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Ring, Claw, Arrow, Spellbook, Tome, Axe, Gun",
     "itemCategories": "Weapon, Accessory, Ring, Offhand"
   },
   {
@@ -1292,7 +1292,7 @@
     "name": "Bleed",
     "category": "Enchant",
     "description": "On hit: Deal  Bleed damage instantly and per second, for 3 seconds",
-    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Ring, Claw, Arrow, Spellbook, Tome",
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Ring, Claw, Arrow, Spellbook, Tome, Axe, Gun",
     "itemCategories": "Weapon, Accessory, Ring, Offhand"
   },
   {
@@ -1300,7 +1300,7 @@
     "name": "Holy Smite",
     "category": "Enchant",
     "description": "On hit: Deal  Holy damage instantly",
-    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Ring, Claw, Arrow, Spellbook, Tome",
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Ring, Claw, Arrow, Spellbook, Tome, Axe, Gun",
     "itemCategories": "Weapon, Accessory, Ring, Offhand"
   },
   {
@@ -1308,7 +1308,7 @@
     "name": "Blight",
     "category": "Enchant",
     "description": "On hit: Deal  Shadow damage instantly and per second, for 5 seconds",
-    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Ring, Claw, Arrow, Spellbook, Tome",
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Ring, Claw, Arrow, Spellbook, Tome, Axe, Gun",
     "itemCategories": "Weapon, Accessory, Ring, Offhand"
   },
   {
@@ -1316,7 +1316,7 @@
     "name": "Undead Slaying",
     "category": "Enchant",
     "description": " damage vs. Undead",
-    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Amulet, Claw, Arrow, Spellbook, Shield, Tome, Axe, Gun",
     "itemCategories": "Weapon, Accessory, Amulet, Offhand"
   },
   {
@@ -1324,7 +1324,7 @@
     "name": "Spectral Slaying",
     "category": "Enchant",
     "description": " damage vs. Spectral",
-    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Amulet, Claw, Arrow, Spellbook, Shield, Tome, Axe, Gun",
     "itemCategories": "Weapon, Accessory, Amulet, Offhand"
   },
   {
@@ -1332,7 +1332,7 @@
     "name": "Arachnid Slaying",
     "category": "Enchant",
     "description": " damage vs. Arachnids",
-    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Amulet, Claw, Arrow, Spellbook, Shield, Tome, Axe, Gun",
     "itemCategories": "Weapon, Accessory, Amulet, Offhand"
   },
   {
@@ -1340,7 +1340,7 @@
     "name": "Demon Slaying",
     "category": "Enchant",
     "description": " damage vs. Demons",
-    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Amulet, Claw, Arrow, Spellbook, Shield, Tome, Axe, Gun",
     "itemCategories": "Weapon, Accessory, Amulet, Offhand"
   },
   {
@@ -1348,7 +1348,7 @@
     "name": "Beast Slaying",
     "category": "Enchant",
     "description": " damage vs. Beasts",
-    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Amulet, Claw, Arrow, Spellbook, Shield, Tome, Axe, Gun",
     "itemCategories": "Weapon, Accessory, Amulet, Offhand"
   },
   {
@@ -1356,7 +1356,7 @@
     "name": "Fae Slaying",
     "category": "Enchant",
     "description": " damage vs. Fae",
-    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Amulet, Claw, Arrow, Spellbook, Shield, Tome, Axe, Gun",
     "itemCategories": "Weapon, Accessory, Amulet, Offhand"
   },
   {
@@ -1364,7 +1364,7 @@
     "name": "Crown Slaying",
     "category": "Enchant",
     "description": " damage vs. Crowned foes",
-    "itemTypes": "Bow, Sword, Staff, Fists, Amulet",
+    "itemTypes": "Bow, Sword, Staff, Fists, Amulet, Axe",
     "itemCategories": "Weapon, Amulet"
   },
   {
@@ -1412,7 +1412,7 @@
     "name": "Satellite Strength",
     "category": "Enchant",
     "description": " increased damage of all Satellite enchants",
-    "itemTypes": "Helm, Bow, Sword, Staff, Fists, Accessory, Ring",
+    "itemTypes": "Helm, Bow, Sword, Staff, Fists, Accessory, Ring, Axe",
     "itemCategories": "Helmet, Weapon, Accessory, Ring"
   },
   {
@@ -1420,7 +1420,7 @@
     "name": "Damage Stagger",
     "category": "Enchant",
     "description": " of damage taken is staggered and dealt over 3 seconds, at a 30% damage reduction",
-    "itemTypes": "Helm, Armor, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemTypes": "Helm, Armor, Claw, Arrow, Spellbook, Shield, Tome, Gun",
     "itemCategories": "Helmet, Armor, Offhand"
   },
   {
@@ -1436,7 +1436,7 @@
     "name": "Interrupt",
     "category": "Enchant",
     "description": " chance to interrupt attacks of foes hit",
-    "itemTypes": "Bow, Sword, Staff, Fists, Boots",
+    "itemTypes": "Bow, Sword, Staff, Fists, Boots, Axe",
     "itemCategories": "Weapon, Boots"
   },
   {
@@ -1444,7 +1444,7 @@
     "name": "Elemental Slaying",
     "category": "Enchant",
     "description": " damage vs. Elementals",
-    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Amulet, Claw, Arrow, Spellbook, Shield, Tome, Axe, Gun",
     "itemCategories": "Weapon, Accessory, Amulet, Offhand"
   },
   {
@@ -1452,7 +1452,7 @@
     "name": "Humanoid Slaying",
     "category": "Enchant",
     "description": " damage vs. Humanoids",
-    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Amulet, Claw, Arrow, Spellbook, Shield, Tome, Axe, Gun",
     "itemCategories": "Weapon, Accessory, Amulet, Offhand"
   },
   {
@@ -1460,7 +1460,7 @@
     "name": "Mechanical Slaying",
     "category": "Enchant",
     "description": " damage vs. Mechanicals",
-    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Amulet, Claw, Arrow, Spellbook, Shield, Tome",
+    "itemTypes": "Bow, Sword, Staff, Fists, Accessory, Amulet, Claw, Arrow, Spellbook, Shield, Tome, Axe, Gun",
     "itemCategories": "Weapon, Accessory, Amulet, Offhand"
   },
   {
@@ -1492,16 +1492,16 @@
     "name": "Max Ammo",
     "category": "Enchant",
     "description": " Max Ammo",
-    "itemTypes": "Armor",
-    "itemCategories": "Armor"
+    "itemTypes": "Armor, Gun",
+    "itemCategories": "Armor, Offhand"
   },
   {
     "uuid": 136,
     "name": "Ammo Find",
     "category": "Enchant",
     "description": " increased chance to find Ammo",
-    "itemTypes": "Helm, Armor, Accessory",
-    "itemCategories": "Helmet, Armor, Accessory"
+    "itemTypes": "Helm, Armor, Accessory, Gun",
+    "itemCategories": "Helmet, Armor, Accessory, Offhand"
   },
   {
     "uuid": 500,
