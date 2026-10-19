@@ -1,0 +1,21 @@
+Los jugadores no pueden perder el control de su personaje más que ser empujados/jalados, o ralentizados/inmovilizados.
+Los enemigos pueden ser aturdidos, asustados, congelados e interrumpidos además de los efectos anteriores.
+Los enemigos fuertes y los jefes generalmente resisten estos efectos.
+@Empuje:
+Golpea a los enemigos, mientras son golpeados, no intentan atacar, a menos que ya estén animando un ataque.
+@Tirar:
+Al revés de Empuje, se aplican las mismas reglas.
+@Ralentizar/Inmovilizar:
+Ralentiza el movimiento en un porcentaje, la inmovilización es un efecto lento del 100%.
+@Frío/Congelar:
+Técnicamente igual que ralentizar e inmovilizar, solo que generalmente tiene algunas mecánicas adicionales basadas en Escarcha.
+@Aturdir:
+Evita que se realicen acciones y detiene todos los temporizadores de tiempo de reutilización durante el aturdimiento. ¡Los aturdimientos repetidos tienen rendimientos decrecientes!
+@Interrumpir:
+Interrumpe una animación de ataque y vuelve a poner la habilidad interrumpida en enfriamiento máximo.
+@Asustar:
+Hace que el enemigo corra erráticamente, pero el daño directo puede cancelar el efecto.
+@Sangrado:
+Además de infligir daño, los efectos de sangrado también evitan la regeneración de la salud de los enemigos.
+@Quemadura:
+Además de infligir daño, la Quemadura de todo tipo de efectos se extenderá entre enemigos, compañeros y jugadores en modo cooperativo. Se propagan una vez por cada marca de daño a un objetivo aleatorio en un radio de 1,8 metros. La quema de propagación solo tiene un 80% de eficiencia y solo afecta a los objetivos que no se queman, por lo que no se actualiza ni se propaga infinitamente.

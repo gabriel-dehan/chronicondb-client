@@ -1,0 +1,21 @@
+Les Malédictions et les Bénédictions sont une mécanique ajoutée aux objets avec le DLC Cosmic Curse.
+@Que sont les Malédictions ?
+Les objets de rareté Unique ou plus peuvent parfois apparaître comme "maudits". Ces Malédictions viennent avec des effets négatifs, mais augmentent également les stats de base (Mana, Santé et Dégâts) de l'objet en question.
+La Malédiction est affichée près du haut de la description de l'objet. Les Malédictions peuvent être retirées en réalisant une Action spéciale et via la Transmutation.
+@Que sont les Actions ?
+Chaque Malédiction a une Action qui lui est liée que vous devrez réaliser un certain nombre de fois pour pouvoir en apprendre plus sur la Malédiction et la lever avec de la Poudre iridescente.
+L'Action est toujours la même pour une Malédiction donnée, mais elle vous est cachée jusqu'à ce que vous l'ayez réalisée un nombre suffisant de fois. Les Actions sont des choses communes, comme tuer des ennemis, effectuer des coups critiques, collecter du butin ou même marcher un certain nombre de pas.
+@Comment savoir quelle Action réaliser ?
+Vous ne le savez pas. Pas au début, du moins. Étant donné que les Actions sont des choses communes que vous faites déjà beaucoup sans vous en rendre compte, vous pouvez revenir un peu plus tard sur l'objet pour vérifier si des informations ont été révélées. Plus de fois vous réaliserez l'Action, plus d'informations seront révélées. Quand vous serez à peu près à mi-chemin, l'Action, ainsi qu'un compteur, sera affiché sur l'objet.
+Une Malédiction spécifique a toujours la même Action, et elle a généralement un sens compréhensible. Par exemple, la Malédiction "Ténèbres" vous demande d'allumer des sources de lumière. NOTE : L'objet maudit doit être équipé pour que les Actions comptent !
+@Comment puis-je retirer une Malédiction ?
+Après avoir réalisé l'Action (voir ci-dessus), vous pourrez le transmuter à l'aide de Poudre iridescente pour le purifier. Si vous avez des Perles de pureté, elles peuvent également vous permettre de sauter entièrement l'Action et de purifier l'objet instantanément, en retirant la Malédiction.
+Purifier un objet le bénit également, lui octroyant une Bénédiction aléatoire provenant d'une liste liée à l'emplacement d'objet.
+@Que sont les Bénédictions ?
+Les Bénédictions sont l'opposé des Malédictions. Elles ajoutent de puissants effets à vos objets et améliorent encore un peu plus leurs stats de base. Purifier un objet (en en retirant sa Malédiction) applique toujours une Bénédiction. Les Bénédictions sont choisies aléatoirement parmi une liste liée à l'emplacement de l'objet, et certaines sont spécifiques à certains personnages. Il n'y a aucune Bénédiction partagée entre différents emplacements d'objets, alors si vous avez un certain effet sur un casque, vous savez qu'il ne pourra apparaître *que* sur des casques.
+Les Bénédictions sont conçues pour être très puissantes et très compétitives pour leur emplacement. Il pourrait vous être difficile de décider quoi garder...
+Veuillez également noter que les Bénédictions sont toujours statiques dans leurs effets : il n'y a pas de fourchette de valeurs aléatoires, etc. Elles sont fixes, et une fois que vous avez une Bénédiction qui vous convient, vous en avez l'unique et meilleure version qui soit. La rareté et le niveau d'un objet n'ont aucune incidence sur sa Bénédiction.
+@Et si je veux une autre Bénédiction ?
+Dans ce cas, vous pouvez maudire l'objet à nouveau. C'est également faisable via la Transmutation en utilisant un matériau rare que vous trouverez tôt ou tard. Une fois maudit à nouveau, l'objet devra être purifié soit via l'Action et la Poudre iridescente, soit les Perles de pureté.
+Au début, vous devrez sans doute réfléchir longuement à s'il vaut vraiment la peine de maudire un objet à nouveau ou de carrément chercher un autre objet déjà maudit. Plus vous progresserez, plus il vous sera facile de rassembler tous les matériaux nécessaires.
+Ne vous inquiétez pas trop si vous n'êtes encore que dans les premières étapes (avant les Paliers Infinis) : tout ce dont vous avez besoin viendra naturellement au fil de votre progression !

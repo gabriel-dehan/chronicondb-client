@@ -1,0 +1,21 @@
+Curses and Blessings are a mechanic added to items with the Cosmic Curse DLC.
+@What are Curses?
+Items of Unique rarity and above may sometimes appear as Cursed. These Curses do negative effects, but also boost the base stats (Mana, Health, and Damage) of the item.
+The Curse will be listed near the top of the item description. Curses can be removed by performing a special Action and through Transmutation.
+@What are the Actions?
+Each Curse has a linked Action that you must do a certain number of times in order to learn more about the Curse and to eventually remove it with Iridescent Powder.
+The Action is always the same for each Curse, but it is hidden from you until you have done it enough times. The Actions are common things such as getting kills, landing crits, collecting loot, and even taking a specified amount of steps.
+@How do I know which Action to do?
+You don't. Not initially, anyway. Since the Actions are common things that you're probably doing a lot of anyway, you can check back on the item a little later and see if more info has been revealed. The more you perform the Action, the more info is revealed. When you are about halfway, the Action and a counter will be displayed on the item.
+A specific Curse always has the same Action, and it mostly makes sense what it is. For instance, the Curse "Darkness" requires you to light lightsources. NOTE: You must have the Cursed item equipped for the Actions to count!
+@How do I remove the Curse?
+After performing the Action (see above), you can transmute the item with Iridescent Powder to purify it. If you have any Pearls of Purity, these allow you to skip the Action entirely and instantly purify the item, removing the curse.
+Purifying an item also Blesses it, granting a random Blessing from a pool for that item slot.
+@What are Blessings?
+Blessings are the opposite of Curses. They add powerful extra effects to your items, and also boosts the base stats a little further. Purifying an item (removing the Curse) always results in a Blessing. The Blessings are randomly picked from a pool for each item slot, and there are some character specific ones. There are no shared Blessings across item slots, so if you roll something on a helmet, you know this can *only* appear on helmets.
+Blessings are designed to be powerful, and very competitive in their slots. It may be tough to decide what to keep...
+Also note that Blessings are always static in their effects, so there are no roll ranges or Augmentation etc. needed. They come as they are, and when you got the Blessing you were looking for, you have the best and only version of that Blessing. Item rarity and level has no effect on the Blessing.
+@What if I want a different Blessing?
+Then you can Curse your item again. This is also done with Transmutation, using a rare material that you will find eventually. Once it has been re-cursed, you have to purify it again either via the Iridescent Powder and Action, or via the Pearl of Purity.
+At first, you will likely have to carefully consider if it's worth re-cursing or trying for a new Cursed item altogether. The further you are into the Endgame, the easier it will be to get all the materials needed.
+Do not worry about this too much if you are still in the early stages (before Endless Tiers) - everything you need will come along naturally as you make progress!

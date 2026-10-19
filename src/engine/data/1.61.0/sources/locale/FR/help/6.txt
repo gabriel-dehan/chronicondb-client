@@ -1,0 +1,19 @@
+@Comment jouer en multijoueurs ?
+Cliquez simplement sur l’option Multijoueurs dans le menu principal pour que vos amis puissent appuyer sur le bouton « A » de leur manette.
+Cela fonctionne également via Steam Remote Play Together !
+@Est-il possible de jouer en ligne ou en LAN ?
+Seulement via le Steam Remote Play Together.
+@Combien de manettes sont nécessaires pour jouer en multijoueurs ?
+Une par joueur supplémentaire, en prenant en compte que le joueur 1 peut utiliser le clavier et la souris. Le joueur 1 peut également passer à la manette dans le menu Paramètres, ou en s’en servant pour naviguer dans le menu principal.
+@Avec combien d’amis est-il possible de jouer en multijoueurs ?
+Jusqu’à 3, pour un total de 4 joueurs.
+@Est-il possible d’utiliser le personnage de partie solo dans des parties en multijoueurs ?
+Oui, même s’il est recommandé d’utiliser un personnage spécifique pour le multijoueur et un autre pour le solo, afin de rester au même niveau que vos amis. Mais vous avez la liberté de faire comme vous l’entendez.
+@Plusieurs personnes peuvent-elles jouer le même personnage ?
+Non : cela causerait des problèmes de sauvegarde car chaque joueur aurait un équipement différent, des compétences différentes, etc.
+@Si une quête est complétée en solo, est-il possible de la compléter en multijoueurs, et inversement ?
+Non : une quête complétée restera complétée dans les deux modes. Gardez cela en tête lorsque vous jouez avec des personnages aux progressions diverses, car vous pourriez perdre le fil de l’histoire principale.
+@Que se passe-t-il si deux personnages ont un grand écart de niveau ?
+Vous ne passerez pas un bon moment. Les ennemis et le butin se retrouveront désynchronisés, alors essayez au maximum de jouer des personnages ayant un écart de 1 ou 2 niveaux au plus.
+@Les points d’expérience sont-ils partagés en multijoueurs ?
+Tout le monde reçoit la même quantité de points d’expérience et personne ne reçoit de malus, peu importe la quantité de joueurs. Cela s’applique à la fois aux quêtes et aux monstres tués. Veuillez noter que le joueur doit néanmoins être en vie pour gagner ses points d’expérience. La seule chose pouvant affecter le gain de points d’expérience est la différence de niveaux entre les joueurs et les monstres, et les potentiels « bonus d’expérience » et autres modificateurs de statistiques dus aux équipements. 

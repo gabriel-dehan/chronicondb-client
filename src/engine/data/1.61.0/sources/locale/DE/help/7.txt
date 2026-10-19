@@ -1,0 +1,10 @@
+@Was sind Quests?
+Quests sind Aufgaben, die du erfüllen kannst. Sie geben dir ein Ziel vor und Anweisungen, wie du es erreichen kannst. Wenn du erfolgreich bist, erhälst du die Belohnung, die in deinem Logbuch aufgelistet ist. Optionale Quests belohnen dich oft mit einzigartiger Ausrüstung und Erfolgen.
+@Wie prüfe ich mein Logbuch?
+Öffne dein Inventar (Standard "I" auf der Tastatur oder "zurück" auf dem Gamepad) und navigiere zum roten Ausrufezeichen auf der oberen rechten Seite deines Inventars.
+@Wo finde ich Quests?
+Die Quest der Hauptgeschichte erhält man von Korem im Chronicon. Andere Quests findet man oft in der Nähe von Eingängen zu unterschiedlichen Bereichen. Wenn ein Charakter eine Quest für dich hat, hat er ein orangenes "!" über seinem Kopf. Wenn du die Quest schon erhalten hast, ist es ein graues "?" und sobald die Quest abgeschlossen werden kann, ist das "?" orange.
+@Wie beende ich eine Quest?
+Einige Quests werden automatisch abgeschlossen, sobald das Ziel erfüllt wurde. Andere werden aktualisiert und erfordern es, Jemanden zu suchen - dies ist gewöhnlich die Person, die dir die Quest erteilt hat. Wenn eine Quest aktualisiert wird, erhälst du eine Textnachricht auf dem Bildschirm und dein Logbuch wird mit zusätzlichen Informationen dazu gefüttert.
+@Wie verfolge ich eine Quest?
+Neu erhaltene Quests werden automatisch verfolgt und du kannst manuell über das Logbuch einstellen, welche Quest verfolgt werden soll. Du kannst 5 Quests gleichzeitig verfolgen.

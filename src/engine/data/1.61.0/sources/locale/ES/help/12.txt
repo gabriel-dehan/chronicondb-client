@@ -1,0 +1,209 @@
+Los enemigos vienen con una variedad de efectos, llamados Afijos. Estos pueden verse debajo de sus nombres al apuntarles. Elites y Campeones pueden tener Afijos extra. Aquí hay una lista completa de todos los Afijos en el juego.
+@Aferrador
+Serás severamente ralentizado si te golpea un Aferrador.
+@Evasivo
+Posee Evasión adicional.
+@Golpeador
+Posee probabilidad de empujarte al atacarte.
+@Sanguijuela de Maná
+Comsume tu maná al atacarte.
+@Vampírico
+Comsume tu salud (y se cura) al atacarte.
+@Regeneradores
+Lentamente recupera su salud.
+@Curadores
+Gana varios hechizos de curación y los utiliza regularmente en sí mismo y en aliados cercanos.
+@Aura Curadora
+Regularmente cura a los aliados cercanos.
+@Blindado
+Regularemente activa una Barrera protectora.
+@Invisible
+Puede volverse invisible, lo que hará que tú y tus compañeros no puedan marcarlo como objetivo. Dañar un enemigo invisible lo hará visible.
+@Explosivo
+Explota al morir, infligiendo gran daño.
+@Piel de Piedra
+Resistente al daño Físico.
+@Resistante al Fuego
+Resistente al daño por Fuego.
+@Resistante a la Escarcha
+Resistente al daño por Escarcha.
+@Resistante a la Electricidad
+Resistente al daño Eléctrico
+@Resistante al Veneno
+Resistente al daño por Veneno.
+@Resistante a la Santidad
+Resistente al daño Sagrado.
+@Resistante a las Sombras
+Resistente al daño de Sombras.
+@Robusto
+No puede ser derribado ni arrastrado.
+@Espinas
+Inflige daño de "Espinas" indirectamente al ser golpeado.
+@Viscoso
+Invoca pequeñas Babitas al ser golpeado y al morir.
+@Electrizante
+Tiene la probabilidad de liberar esferas eléctricas al ser golpeado, que infligen daño eléctrico.
+@Infernal
+Reemplaza sus ataques base por otros de fuego, y gana la probabilidad de quemar objetivos, infligiendo daño por fuego continuamente.
+@Congelado
+Reemplaza sus ataques base por otros de escarcha, y gana la probabilidad de congelar objetivos, reduciendo su velocidad de movimiento y de ataque.
+@Envenenado
+Reemplaza sus ataques base por otros de veneno, y gana la probabilidad de envenenar objetivos, infligiendo daño por veneno continuamente.
+@Infestado
+Reemplaza sus ataques base por otros de Sombras, y al morir liberará una nube tóxica infligiendo daño extra por veneno.
+@Sangrante
+Agrega un efecto de sangrado a sus ataques.
+@Arrastrador
+Te arrastra hacia él.
+@Transportador
+Se teletransporta más lejos si ataca a distancia, o más cerca si ataca cuerpo a cuerpo.
+@Ventisca
+Invoca una o más esferas de escarcha que giran y disparan lanzas congeladas, infligiendo daño por escarcha.
+@Calaveras Chillantes
+Dispara calaveras que giran a su alrededor, infligiendo daño de Sombras.
+@Meteoro
+Lanza un poderoso hechizo de Meteoro que inflige daño por fuego.
+@Estruendoso 
+Lanza un poderoso hechizo de Trueno que inflige daño eléctrico.
+@Impacto Cruz
+Lanza un ataque de área con varias explosiones en forma de cruz, infligiendo daño por fuego.
+@Disparo Ardiente
+Ocasionalmente dispara una flecha de fuego, infligiendo daño en un área pequeña.
+@Hechicero
+Gana hechizos de fuego y de escharcha, y los utiliza frecuentemente.
+@Enfurecido
+Entre menos salud tenga este enemigo, más rápido se moverá y atacará.
+@Extra Daño
+Daño aumentado.
+@Súper Daño
+Daño aumentado aún más.
+@Extra Salud
+Salud aumentada.
+@Súper Salud
+Salud aumentada aún más.
+@Gigante
+Es más grande, con más salud y daño.
+@Veloz
+Se mueve más rápido.
+@Apresurado
+Se mueve y ataca más rápido.
+@Fortalecedor
+Fortalece a aliados cercanos.
+@Cobarde
+Escapará por cualquier razón.
+@Clon de Sombra
+Crea clones débiles que pelearán por él.
+@Misterioso
+Gana varios ataques especiales y habilidades misteriosas.
+@Crítico
+Posee una probabilidad adicional de infligir golpes críticos.
+@Trampero
+Tiende trampas que infligen daño físico y relentizan a los enemigos afectados.
+@Bombardero
+Lanza una nova de Bombas Incendiarias, las cuales rebotan e infligen daño por fuego . 
+@Nova
+Lanza novas de Fuego y Escarcha constantemente y al morir.
+@Parca
+Lanza Guadañas oscuras que infligen daño de Sombras en un área pequeña por unos segundos.
+@Sobrevoltaje
+Lanza esferas eléctricas que se mueven al azar e infligen daño Eléctrico a cualquier cosa que toquen.
+@Bomba Venenosa
+Lanza bombas venenosas que se mueven lentamente, infligiendo daño por Veneno en un área pequeña.
+@Terremoto
+Lanza un temblor a su objetivo, infligiendo daño Físico extra en un área pequeña.
+@Bombardeo Gélido
+Lanza un hechizo de Bombardeo Gélido, lo que hará que Espinas de Hielo salgan de la tierra a su alrededor, infligiendo daño por Escarcha.
+@Nova de Sangre
+Lanza un hechizo de Nova de Sangre, infligiendo daño de Sombras.
+@Erupción 
+Dispara bolas de fuego al azar, que rebotan e infligen daño por Fuego.
+@Mejorado
+Mejora todos sus ataques, a veces incluso es capaz de obtener Poderes Legendarios a los que solo el jugador tiene acceso.
+@Tornado
+Invoca Tornados que se mueven en búsqueda de objetivos a los que infligir daño físico.
+@Enredador
+Tiene una probabilidad de inmobilizar al jugador, atándolo a la tierra.
+@Saltador
+Puede saltar hacia su objetivo, infligiendo daño extra.
+@Esquivador
+Puede saltar para alejarse de los ataques del jugador.
+@Nube Venenosa
+Libera una nube de Veneno a su alrededor constantemente, infligiendo daño por veneno.
+@Embestidor
+Se lanza hacia su objetivo con un ataque explosivo, infligiendo daño por fuego.
+@Secuaz
+Un enemigo débil que por lo general aparece un grupos numerosos.
+@Bruto
+Posee la mitad de la velocidad normal, pero el doble de daño base.
+@Zombi
+Posee una pequeña resistencia al daño por Escarcha y Sombras.
+Posee una pequeña debilidad al daño Sagrado y por Fuego.
+Inflige más daño por Veneno y Sombras.
+@Espectral
+Posee una pequeña resistencia al daño por Escarcha, Sombras y Físico.
+Posee una pequeña debilidad a daño Sagrado y Eléctrico.
+Inflige más daño de Sombras.
+Gana más Evasión.
+@Arácnido
+Posee una pequeña resistencia al daño por Veneno.
+Posee una pequeña debilidad al daño por Escarcha y Fuego.
+Inflige más daño por Veneno.
+@Demonio
+Posee una pequeña resistencia al daño por Fuego y Sombras.
+Posee una pequeña debilidad al daño Sagrado y por Escarcha.
+Inflige más daño por Fuego y Sombras.
+@Hada
+Posee una pequeña resistencia al daño Sagrado y Eléctrico.
+Posee una pequeña debilidad al daño por Veneno y Sombras.
+Inflige más daño Sagrado y Eléctrico.
+@Mechánico
+Posee una pequeña resistencia al daño por Sombras, Veneno, Físico y Sagrado.
+Posee una pequeña debilidad al daño por Escarcha y Eléctrico.
+Inflige más daño Físico y Eléctrico.
+@Bestia
+No tiene resistencias.
+Posee una pequeña debilidad al daño por Veneno, Sombras y Físico.
+Inflige más daño Físico y por Veneno.
+@Humanoide
+No tiene resistencias, debilidades, ni inflije daño extra.
+@Elemental
+Posee una pequeña resistencia a todos los elementos menos daño Físico.
+Posee una pequeña debilidad al daño Físico.
+@Invocador
+Invoca enemigos para ayudarlo en combate. Puede invocar varias criaturas dependiendo qué tipo de Invocador es.
+@Azotador
+Se detiene al azar para atacar rápidamente en todas direcciones por unos segundos.
+@Repelente
+Ocasionalmente derriba a todos los objetivos a su alrededor.
+@Rastro Venenoso
+Deja un rastro de veneno en el suelo cuando se mueve.
+@Excavador
+Se entierra y puede emerger en diferentes lugares al azar. No puede ser golpeado al estar bajo tierra.
+@Controla Ciervos
+Le ordena a Ciervos cercanos que ataquen su objetivo.
+@Controla Hienas
+Le ordena a Hienas cercanas que ataquen su objetivo.
+@Controla Súbditos
+Le ordena a enemigos más débiles cercanos que ataquen su objetivo.
+@Tesorero
+Al morir da recompensas extra.
+@Acaparador de Cristales
+Al morir da Cristales extra.
+@Coleccionista
+Al morir da Materiales de Elaboración extra.
+@Acaparador de Gemas
+Al morir da Gemas extra.
+@Desafiante
+Al morir da un Pergamino de Desafío.
+@Amo de Runas
+Al morir da Runas Anómalas al azar (que solo pueden obtenerse en la Mazmorra de Anomalías).
+@Secreto
+Esconde todos los Afijos.
+@Géiser
+Invoca Géiseres que infligen daño y te empujan hacia atrás.
+@Tentáculos
+Invoca Tentáculos que infligen daño y te atraen hacia ellos. Se pueden destruir.
+@Nova de agua
+Ocasionalmente lanza una Nova de Agua que inflige daño físico y te empuja hacia atrás.
+@Satélite
+Genera uno o más Satélites que orbitan a su alrededor, infligiendo daño en un radio pequeño. El satélite cambia de elemento dependiendo de los otros Afijos que haya obtenido el enemigo. Por defecto es físico.
