@@ -1,0 +1,14 @@
+@How do I interact with objects, items, or characters?
+Simply stand close to them and hit the interact button (default "A" on gamepad) or if you're using mouse and keyboard, you need to hover the item with your mouse and click it (default left mouse button, can be changed to a keyboard key or other mouse button, if changed to a keyboard key you don't need to hover the item and will interact with the closest one).
+@How do I aim my spells?
+By mousing over an enemy you'll set it as a target for your next spell or attack, most spells and attacks also support free targeting, meaning they'll go to where your cursor is. If you use a gamepad you change your aiming direction with the right stick, and you'll automatically target the closest enemy.
+@How do I move?
+By default you move your character with the WASD keys or the left stick on the gamepad. You can rebind the keyboard keys from the options menu but not the gamepad. There is also an click-to-move option.
+@What is click-to-move?
+This allows you to move without using the keyboard, by either clicking a location and your character will find a way there, or by holding the left mouse button and your character will continuously run towards the cursor and ignore any walls in their way. 
+@How do I attack and interact with click-to-move?
+Simply click that which you want to attack or interact with. Your skills are used as normal with your skill hotkeys. You can hold the SHIFT key to force attacks while using click to move, in case you find yourself often taking a few unintentional steps during a fight. You can also hold or tap SPACE to force movement towards your cursor, without interacting or attacking what you are hovering.
+@Can I turn off the rumble/vibration?
+Yes, go to the Options menu, then Controls, and Player Gamepad Settings for each player's settings.
+@Can I change the sensitivity of the analogue sticks on my gamepad? 
+Yes, same as above.

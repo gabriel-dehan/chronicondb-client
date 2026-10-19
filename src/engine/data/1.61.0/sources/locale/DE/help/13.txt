@@ -1,0 +1,22 @@
+Flüche und Segnungen sind eine Mechanik, die mit dem DLC „Kosmischer Fluch“ zu Gegenständen hinzugefügt wurde.
+@Was sind Flüche?
+Gegenstände der Seltenheit „Einzigartig“ oder höher können manchmal als verflucht erscheinen. Diese Flüche verursachen negative Effekte, erhöhen jedoch gleichzeitig die Grundwerte des Gegenstands (Mana, Gesundheit und Schaden).
+Der Fluch wird im oberen Bereich der Gegenstandsbeschreibung angezeigt. Flüche können durch spezielle Aktionen sowie durch Transmutation entfernt werden.
+@Was sind die Aktionen?
+Jeder Fluch ist mit einer bestimmten Aktion verknüpft, die du eine gewisse Anzahl an Malen ausführen musst, um mehr über den Fluch zu erfahren und ihn schließlich mit schillerndem Pulver zu entfernen.
+Die jeweilige Aktion ist für jeden Fluch festgelegt, bleibt dir jedoch zunächst verborgen. Sie besteht aus alltäglichen Spielaktivitäten wie Tötungen erzielen, kritische Treffer landen, Beute sammeln oder eine bestimmte Anzahl an Schritten gehen.
+@Wie erkenne ich die richtige Aktion?
+Das weißt du zunächst nicht. Da es sich um häufige Aktionen handelt, die du ohnehin regelmäßig ausführst, kannst du später erneut auf den Gegenstand schauen, um neue Hinweise zu erhalten. Je öfter du die Aktion ausführst, desto mehr Informationen werden freigeschaltet. Etwa zur Hälfte wird die Aktion samt Zähler auf dem Gegenstand angezeigt.
+Jeder Fluch hat immer dieselbe Aktion, die meist logisch nachvollziehbar ist. Beispielsweise erfordert der Fluch „Dunkelheit“, dass du Lichtquellen entzündest. Wichtig: Der verfluchte Gegenstand muss ausgerüstet sein, damit die Aktionen zählen!
+@Wie entferne ich den Fluch?
+Nachdem du die Aktion ausgeführt hast (siehe oben), kannst du den Gegenstand mit schillerndem Pulver umwandeln, um ihn zu reinigen. Wenn du „Perlen der Reinheit“ besitzt, kannst du die Aktion komplett überspringen und den Gegenstand sofort reinigen, wodurch der Fluch aufgehoben wird.
+Durch die Reinigung wird der Gegenstand zudem gesegnet, wodurch er einen zufälligen Segen aus einem poolabhängigen Sortiment für diesen Ausrüstungsplatz erhält.
+@Was sind Segnungen?
+Segnungen sind das Gegenteil von Flüchen. Sie verleihen deinen Gegenständen mächtige Zusatzeffekte und erhöhen ebenfalls die Grundwerte leicht. Das Reinigen eines Gegenstands (Entfernen des Fluchs) führt immer zu einer Segnung. Diese wird zufällig aus einem Pool für den jeweiligen Ausrüstungsplatz gewählt. Es gibt auch charakterspezifische Segnungen. Segnungen sind nicht zwischen Ausrüstungsplätzen geteilt – ein Helm-Segen kann also nur auf Helmen erscheinen.
+Segen sind bewusst stark gestaltet und konkurrieren stark mit anderen Optionen im jeweiligen Slot. Die Wahl kann entsprechend schwierig sein.
+Segnungen haben außerdem keine Zufallswerte oder Verbesserungsstufen – sie sind immer fix in ihrer Stärke. Es gibt keine besseren oder schlechteren Versionen derselben Segnung.
+@Was, wenn ich eine andere Segnung möchte?
+Dann kannst du den Gegenstand erneut verfluchen. Das geschieht ebenfalls durch Transmutation, jedoch mit einem seltenen Material, das du im Verlauf des Spiels finden wirst.
+Sobald er erneut verflucht wurde, musst du ihn entweder mithilfe des schillernden Pulvers und der entsprechenden Aktion oder mithilfe der Perle der Reinheit erneut reinigen.
+Zu Beginn wirst du sorgfältig abwägen müssen, ob sich das erneute Verfluchen lohnt oder ob ein neuer verfluchter Gegenstand besser wäre. Im späteren Endgame wird es deutlich einfacher, die benötigten Materialien zu erhalten.
+Mach dir darüber in frühen Spielphasen (vor den Endlosstufen) keine großen Sorgen – alles Wichtige erhältst du im normalen Fortschritt.

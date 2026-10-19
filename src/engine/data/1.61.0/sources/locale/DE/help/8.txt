@@ -1,0 +1,12 @@
+@Was sind Fähigkeiten?
+Fähigkeiten beinhalten Angriffe, Heilungen, Stärkungen, Begleiter, Auren und positive Effekte, von denen dein Charakter profitiert.
+@Der Bildschirm zeigt mir an, dass ich einen Fähigkeitspunkt zur Verfügung habe. Was muss ich tun?
+Öffne dein Inventar (Standard "I" auf der Tastatur oder "zurück/auswählen" auf dem Gamepad) und gehe dann zu deiner Fähigkeitsseite. Es ist das Symbol auf der oberen linken Seite deines Inventars mit dem blinkenden "+" Zeichen darauf. Gib den Punkt für irgendeine Fähigkeit aus, die dir gefällt! Denk daran, dass du frei Punkte über alle verfügbaren Fähigkeitsbäume ausgeben kannst. Mix and match!
+@Wie benutze ich eine Fähigkeit, nachdem ich Punkte darin investiert habe?
+Passive (runde) Fähigkeiten werden automatisch genutzt. Aber alle anderen Fähigkeiten müssen an einen Platz/Taste gebunden werden. Um dies zu tun, klicke rechts auf das Fähigkeitssymbol auf der Fähigkeitenseite (oder navigiere dorthin durch Drücken von "Y" auf dem Gamepad) und dann wähle einen Platz/Taste im Kontextmenü aus, um es daran zu binden. Schließe nun die Fähigkeitenseite und du siehst die Fähigkeit in deiner Anzeige. Drücke einfach die Taste, an die du sie gebunden hast, um sie zu benutzen.
+@Ich kann eine Fähigkeit nicht binden.
+Stelle sicher, dass du Punkte in die Fähigkeit investiert hast und das es keine passive Fähigkeit ist. Passive Fähigkeiten sind immer aktiv und müssen nicht gebunden werden.
+@Kann ich die Tasten ändern, welche für die Fähigkeiten benutzt werden?
+Ja, gehe einfach ins Optionsmneü, dann zum Menü für Kontrollen und schließlich ins Menü für die Tastaturbelegung.
+@Kann ich eine ausgewählte aktive Fähigkeit tauschen?
+Ja, öffne einfach das Bindungsmenü (rechts-klick oder drücke (Y) auf dem Gamepad) und wähle Wechseln aus dem Menü. Du kannst nun die Fähigkeit mit jeder verfügbaren Option tauschen und die ausgegebenen Punkte werden auf die neue Fähigkeit transferriert.

@@ -1,0 +1,12 @@
+@Es ist verdammt nochmal zu dunkel!
+Erhöhe die "Extra Ambient Licht" Regelung in den Video Einstellungen im Options Menü!
+@Ich mag dieses ganze Blut nicht, kann ich es weglassen?
+Natürlich, du findest eine Option zum Ausschalten von "Blut und Gedärme" in den Spieleinstellungen im Options Menü!
+@Diese Bildschirmwackler nerven, kann ich sie reduzieren oder ausschalten?
+Yupp, du findest eine "Bildschirm Intensität" Einstellung in den Spieleinstellungen im Options Menü!
+@Kann ich den Text vergrößern?
+Ja, gehe zum Options Menü, dann zum Interface. Du findest dort viele Optionen, um verschiedene Textgrößen einzustellen.
+@Kann ich die Minimap verschieben?
+Ja, gehe zum Options Menü, dann zum Interface, um dir die Alternativen anzuschauen.
+@Hilfe! Da sind zu viele Zahlen auf dem Bildschirm!
+Dies kann im Options Menü auf viele Arten ein- und ausgeschaltet werden. Begib dich zum Interface Menü, um es anzupassen.

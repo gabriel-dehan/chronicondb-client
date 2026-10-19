@@ -1,0 +1,12 @@
+@C’est bien trop sombre !
+Vous pouvez augmenter le paramètre « Lumière Ambiante Supplémentaire » dans le menu Paramètres vidéo des Paramètres !
+@Il y a trop de sang : est-il possible de le retirer ?
+Bien sûr : pour cela, il suffit de trouver l’option « Sang et Explosions de corps » dans les Paramètres de jouabilité du menu Paramètres et de la désactiver !
+@Ces tremblements d’écran sont ennuyeux : est-il possible de les réduire ou de les désactiver ?
+Oui : vous trouverez une option « Intensité des Tremblements d’Écran » dans les Paramètres de jouabilité du menu Paramètres !
+@Est-il possible de rendre le texte plus large ?
+Oui : dans le menu Paramètres, puis Interface. Vous pourrez alors trouver plusieurs options pour changer la taille et l’apparence du texte.
+@Est-il possible de déplacer la mini-carte ?
+Oui : dans le menu Interface des Paramètres, il est possible de trouver des alternatives.
+@À l’aide ! Il y a trop de nombres à l’écran !
+Ceux-ci peuvent être retirés ou ajoutés dans de nombreuses configurations dans le menu Interface des Paramètres.

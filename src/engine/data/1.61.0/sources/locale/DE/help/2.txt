@@ -1,0 +1,14 @@
+@Wie interagiere ich mit Objekten, Gegenständen oder Charakteren?
+Stell dich einfach neben das Zielobjekt und drücke die Interaktionstaste (Standard "A" auf dem Gamepad) oder, sofern du Maus und Tastatur benutzt, bewege den Mauszeiger über das Ziel und klicke darauf (Standard: linke Maustaste - kann auf eine Taste oder andere Maustaste gelegt werden). Sofern die Funktion auf eine Taste gelegt wurde, brauchst du nicht mehr über das Objekt fahren, sondern es interagiert mit dem am nächsten liegenden Ziel.
+@Wie ziele ich mit meinen Zaubern?
+Du markierst einen Feind als Ziel für deinen nächsten Angriff oder Zauber, wenn du mit dem Cursor über ihn fährst. Die meisten Zauber und Angriffe unterstützen freies Zielen, d.h. sie gehen dorthin, wo der Cursor ist. Wenn du ein Gamepad nutzt, änderst du deine Zielrichtung mit dem rechten Stick und du visierst automatisch den nächsten Feind an.
+@Wie bewege ich mich?
+Standardmäßig bewegst du deinen Charakter mittels der WASD Tasten oder mit dem linken Stick auf dem Gamepad. Du kannst die Tasten im Optionsmenü neu definieren, aber nicht die Bewegung mittels Gamepad. Es gibt zudem eine Klick-Bewegungs-Option.
+@Was bedeutet Klick-Bewegung?
+Dies erlaubt dir, dich zu bewegen, ohne die Tastatur zu benutzen. Entweder durch das Klicken auf eine Stelle, wohin sich der Charakter dann bewegt, oder durch gedrückt Halten der linken Maustaste, wobei dein Charakter sich dann fortwährend in Richtung des Cursors bewegt und auch Wände in seinem Weg ignoriert. 
+@Wie attackiere und interagiere ich mit der Klick-Bewegung?
+Klicke einfach auf Das, womit du interagieren oder was du angreifen möchtest. Deine Fähigkeiten werden wie gewöhnlich mittels der Hotkeys ausgelöst. Für den Fall, dass du öfter unbeabsichtigte Schritte während eines Kampfes machst, kannst du die SHIFT Taste gedrückt halten, um Angriffe zu erzwingen. Du kannst ausserdem die LEERTASTE drücken oder gedrückt halten, um die Bewegung zu deinem Cursor zu erzwingen, ohne mit irgendetwas zu interagieren oder anzugreifen, über das du den Cursor bewegst.
+@Kann ich die Vibrations-Funktion deaktivieren?
+Ja, begib dich zum Optionsmenü, dann zu den Kontrollen und Spieler Gamepad Einstellungen. Dort ist es für jeden Spieler separat einstellbar.
+@Kann ich die Empfindlichkeit für den Analogstick auf meinem Gamepad ändern? 
+Ja, das Gleiche wie oben beschrieben.

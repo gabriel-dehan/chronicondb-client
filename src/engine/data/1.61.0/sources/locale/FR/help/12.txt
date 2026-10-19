@@ -1,0 +1,209 @@
+Les ennemis ont un certain nombre d’effets sur eux appelés des Affixes. Ceux-ci sont listés sous leurs noms lorsqu’ils sont pris pour cible. Les Élites et les Champions ont des Affixes supplémentaires. Ci-dessous est un index sur tous les Affixes du jeu.
+@Grappin
+Vous subirez un gros ralentissement lorsque vous vous ferez toucher par un Grappin.
+@Esquiveur
+A une statistique d’Esquive supérieure.
+@Repousseur
+A une chance de vous repousser lorsque vous subissez une attaque.
+@Sangsue de Mana
+Draine votre mana à l’attaque.
+@Vampire
+Vous draine la santé (et se soigne) lors des attaques.
+@Régénération
+Restaure lentement sa propre Santé.
+@Soigneur
+Gagne plusieurs sorts de soins utilisés périodiquement à la fois sur soi et sur les alliés à portée.
+@Aura de Soins
+Soigne périodiquement et automatiquement les alliés à portée.
+@Protection
+Conjure périodiquement une Barrière protectrice.
+@Invisible
+Deviendra invisible, vous faisant perdre à vous et vos compagnons la capacité de prendre l’utilisateur pour cible. Infliger des dégâts à un ennemi invisible le révélera.
+@Explosif
+Explose à la mort en infligeant de lourds dégâts.
+@Peau de Pierre
+Résistance aux dégâts Physiques.
+@Résistant au Feu
+Résistant aux dégâts de Feu.
+@Résistant au Gel
+Résistant aux dégâts de Gel.
+@Résistant à l’Électricité
+Résistant aux dégâts d’Électricité.
+@Résistant au Poison
+Résistant aux dégâts de Poison.
+@Résistant au Sacré
+Résistant aux dégâts Sacrés.
+@Résistant à l’Ombre
+Résistant aux dégâts d’Ombre.
+@Solide
+Ne peut être ni poussé ni attiré.
+@Épines
+Inflige des dégâts d’"Épines" directs aux attaquants lorsqu’il subit des dégâts.
+@Visqueux
+Fait apparaître de petits Gluants lorsqu’il subit des dégâts et lorsqu’il meurt.
+@Choc
+Chances de libérer des orbes électriques lorsqu’il subit des dégâts infligeant des dégâts d’électricité.
+@Infernal
+Remplace la plupart des attaques de base avec une variété de feu et a des chances de brûler les cibles pour infliger des dégâts sur le temps.
+@Engelure
+Remplace la plupart des attaques de base avec une variété de gel et a des chances de geler les cibles réduisant la vitesse de déplacement et d’attaque.
+@Empoisonnement
+Remplace la plupart des attaques de base avec une variété de poison et a des chances d’empoisonnement, infligeant des dégâts de poison sur le temps.
+@Pestiféré
+Attaque avec des attaques d’Ombre, a une chance d’empoisonner les cibles et libérera un nuage de peste infligeant des dégâts de poison supplémentaires lors de la mort.
+@Sanguinaire
+Ajoute un effet de saignement aux attaques.
+@Hisseur
+Vous attire à lui.
+@Téléportation
+Se téléporte au loin si à distance, se téléporte plus près si au corps-à-corps.
+@Blizzard
+Invoque un orbe de gel partant en spirale et tirant des lances de gel infligeant des dégâts de gel.
+@Crânes Hurlants
+Tire fréquemment des crânes en spirale vers l’extérieur infligeant des dégâts d’Ombre.
+@Météore
+Lance un puissant sort de Météore infligeant des dégâts de feu.
+@Foudre
+Lance un puissant sort de Foudre infligeant des dégâts d’Électricité.
+@Frappe en Croix
+Lance une attaque de zone avec plusieurs explosions en croix infligeant des dégâts de feu.
+@Tir de Braise
+Tire occasionnellement une flèche de feu infligeant des dégâts dans une petite zone.
+@Sorcier
+Gagne des sorts de feu et de gel et les utilisera fréquemment.
+@Rage
+Plus basse est la santé de cet ennemi, plus vite il se déplacera et attaquera.
+@Dégâts Supplémentaires
+Dégâts augmentés.
+@Super dégâts
+Dégâts encore plus augmentés.
+@Santé Supplémentaire
+Santé augmentée.
+@Super Santé
+Santé encore plus augmentée.
+@Géant
+Plus gros et avec une Santé et des Dégâts augmentés.
+@Rapide
+Vitesse de déplacement augmentée.
+@Hâte
+Vitesse de déplacement et d’attaque encore plus augmentées.
+@Défenseur
+Renforce les alliés à portée.
+@Pleutre
+Fuira pour presque n’importe quelle raison.
+@Clone d’Ombre
+Crée des clones plus faibles de lui-même qui se battront contre vous.
+@Mystérieux
+Bénéficie de plusieurs attaques et capacités spéciales mystérieuses.
+@Critique
+A plus de chances d’infliger des coups critiques.
+@Piégeur
+Dépose des pièges infligeant des dégâts physiques et ralentissant les cibles touchées.
+@Sapeur
+Libère une nova de Bombes de Feu rebondissant et infligeant des dégâts de feu.
+@Nova
+Libère des novas de Feu et de Gel périodiquement lors de la mort.
+@Moissonneur
+Lance des Faux d’ombre infligeant des dégâts d’Ombre dans une petite zone pendant une courte durée.
+@Surtension
+Lance aléatoirement des orbes électriques infligeant des dégâts d’Électricité à tout ce qu’ils touchent.
+@Bombe de Poison
+Lance des bombes de poison se déplaçant lentement et infligeant des dégâts de Poison dans une zone réduite.
+@Séisme
+Lance un séisme sous sa cible infligeant des dégâts Physiques supplémentaires dans une petite zone.
+@Blitz de Gel
+Lance un sort de Blitz de Gel, lançant des Tessons de Glace depuis le sol dans toutes les directions en infligeant des dégâts de Gel.
+@Nova de Sang
+Lance un sort de Nova de Sang infligeant des dégâts d’Ombre.
+@Éruption
+Lance aléatoirement des boules de feu rebondissantes et infligeant des dégâts de Feu.
+@Amélioration
+Amélioration de toutes les attaques, et gagne parfois des Pouvoirs Légendaires normalement disponibles uniquement pour le joueur.
+@Tornade
+Invoque des Tornades se déplaçant et cherchant des cibles pour infliger des dégâts physiques.
+@Enchevêtrement
+A une chance d’enraciner le joueur pour l’immobiliser.
+@Bond
+Peut bondir vers sa cible pour infliger des dégâts supplémentaires.
+@Esquiveur
+Peut bondir pour esquiver les attaques ou les joueurs.
+@Nuage de Poison
+Libère continuellement un nuage de Poison autour de lui infligeant des dégâts de poison.
+@Chargeur
+Charge sa cible avec une attaque explosive infligeant des dégâts de feu.
+@Sbire
+Un ennemi plus faible apparaissant généralement en groupes plus larges.
+@Brute
+Moitié de vitesse, mais double de dégâts de base.
+@Mort-Vivant
+Légère résistance aux dégâts de Gel et d’Ombre.
+Légère faiblesse aux dégâts de Feu et Sacrés.
+Inflige des dégâts d’Ombre et de Poison supplémentaires.
+@Spectral
+Légère résistance aux dégâts Physique, de Feu et d’Ombre.
+Légère faiblesse aux dégâts Sacrés et d’Électricité.
+Inflige des dégâts d’Ombre supplémentaires.
+Gagne un bonus d’Esquive.
+@Arachnide
+Légère résistance aux dégâts de Poison.
+Légère faiblesse aux dégâts de Gel et de Feu.
+Inflige des dégâts de Poison supplémentaires.
+@Démon
+Légère résistance aux dégâts de Feu et d’Ombre.
+Légère faiblesse aux dégâts de Gel et Sacrés.
+Inflige des dégâts de de Feu et d’Ombre.
+@Fae
+Légère résistance aux dégâts Sacrés et d’Électricité.
+Légère faiblesse aux dégâts d’Ombre et de Poison.
+Inflige des dégâts Sacrés et d’Electricité supplémentaires.
+@Mécanique
+Légère résistance aux dégâts Physiques, Sacrés, d’Ombre et de Poison.
+Légère faiblesse aux dégâts de Gel et d’Électricité.
+Inflige des dégâts Physiques et d’Électricité supplémentaires.
+@Bête
+Pas de bonus de résistance.
+Légère faiblesse aux dégâts Physiques, de Poison et d’Ombre.
+Inflige des dégâts Physiques et de Poison supplémentaires.
+@Humanoïde
+Aucun bonus de résistance, de faiblesse ou de bonus de dégâts.
+@Élémentaire
+Légère résistance à tous les éléments sauf Physique.
+Légère faiblesse aux dégâts Physiques.
+@Invocateur
+Invoque des ennemis pour être aidé au combat. Les créatures invoquées varient selon le genre de l’invocateur lui-même.
+@Fléau
+S’arrête aléatoirement pour attaquer rapidement dans toutes les directions pendant un court moment.
+@Rejet
+Repousse occasionnellement toutes les cibles alentour.
+@Traînée de Poison
+Laisse une traînée de poison au sol lors des déplacements.
+@Fouisseur
+S’enfouit dans le sol, apparaissant à des endroits aléatoires. Ne peut pas être touché lorsqu’enfoui.
+@Commande aux Cerfs
+Ordonne aux Cerfs proches de se concentrer sur sa cible.
+@Commande aux Hyènes
+Ordonne aux Hyènes proches de se concentrer sur sa cible.
+@Commande aux Faibles
+Ordonne aux ennemis plus faibles de se concentrer sur sa cible.
+@Trésorier
+Transporte du butin supplémentaire lâché lors de la mort.
+@Accumulateur de Cristaux
+Transporte des Cristaux supplémentaires lâchés lors de la mort.
+@Collectionneur
+Transporte des Matériaux de Fabrication supplémentaires lâchés lors de la mort.
+@Accumulateur de Gemmes
+Transporte des Gemmes supplémentaires lâchées lors de la mort.
+@Rival
+Transporte un Parchemin de Défi lâché lors de la mort.
+@Seigneur des Runes
+Transporte des Runes Anormales aléatoires (obtenables normalement uniquement via les Anomalies de Donjon) lâchées lors de la mort.
+@Secret
+Cache tous les Affixes.
+@Geyser
+Fait apparaître des geysers qui infligent des dégâts et vous repoussent.
+@Tentacules
+Fait apparaître des tentacules qui vous infligent des dégâts et vous attirent. Peuvent être éliminés.
+@Nova aquatique
+Lance périodiquement une Nova aquatique, infligeant des dégâts Physiques et vous repoussant.
+@Satellite
+Fait apparaître un ou plusieurs Satellites infligeant des dégâts dans une petite zone. Le Satellite change d'élément selon les Affixes détenus par les ennemis. Les dégâts par défaut sont Physiques.

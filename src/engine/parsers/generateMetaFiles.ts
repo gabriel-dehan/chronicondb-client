@@ -25,11 +25,10 @@ function updatePatches(version: string): string[] {
 
 function generateVersionIndex(version: string) {
   const hasDlc = compare(version, '1.40.1', '>=');
-  const TEMPLATE = `
-<%if (hasDlc) { %>
+  const TEMPLATE = `<%_ if (hasDlc) { -%>
 import artifacts from './artifacts.json';
 import artifactsSearchIndex from './artifactsSearchIndex.json';
-<% } %>
+<%_ } -%>
 import enchants from './enchants.json';
 import enchantsPool from './enchantsPool.json';
 import enchantsSearchIndex from './enchantsSearchIndex.json';
@@ -41,10 +40,10 @@ import skillsByClass from './skillsByClass.json';
 import skillsSearchIndex from './skillsSearchIndex.json';
 
 export default {
-  <%if (hasDlc) { %>
+  <%_ if (hasDlc) { -%>
   artifacts,
   artifactsSearchIndex,
-  <% } %>
+  <%_ } -%>
   items,
   enchants,
   enchantsPool,
@@ -54,7 +53,8 @@ export default {
   itemsSearchIndex,
   enchantsSearchIndex,
   skillsSearchIndex,
-};`;
+};
+`;
 
   const indexFilePath = path.resolve(__dirname, `../data/${version}/extracts/index.ts`);
   const indexFile = ejs.render(TEMPLATE, { hasDlc });

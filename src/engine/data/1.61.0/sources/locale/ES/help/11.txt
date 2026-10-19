@@ -1,0 +1,17 @@
+La Maquinista ofrece nuevas formas de construir tu personaje, así que habrá más cosas a las que prestarle atención, como interacciones mecánicas y nuevas estadísticas.
+@Encontrar Munición
+La Maquinista puede encontrar Munición, un recurso único que te da acceso a varias habilidades. Esta estadística aumenta la probabilidad de que aparezca Munición.
+@+ Munición Máxima
+Aumenta la cantidad máxima de Munición que La Maquinista puede cargar.
+@Parry
+Esta es una estadísica exclusiva de La Maquinista. Funciona como Evasión - dándote la posibilidad de evitar el daño completamente.
+Parry se calcula antes que Evasión, así que puedes utilizar ambas y aún depender de pasivas u otros efectos que se activen con Parry.
+@Drones
+Los Drones son una mecánica nueva, que tranforma los Satélites existentes (obtenidos por medio de habilidades pasivas, poderes, o encantamientos) en Drones más poderosos y temáticamente apropiados.
+Los Drones no son compañeros, y no heredan ni copian las estadísticas de La Maquinista - funcionan como Satélites comunes + cualquier habilidad relacionada que diga su descripción.
+Tanto las estadísticas de "Efecto de Dron" como "Efecto de Tecnología" aumentarán la fuerza de los Drones - esto se verá directamente reflejado en sus descripciones.
+Además, "Fuerza de Satélite" también afecta los Drones (con la excepción de los Poderobots y los Robombas), ya que los Drones calculan su daño basado en los Satélites que eran originalmente.
+Los Drones infligen daño indirecto por defecto.
+@Torretas
+Las Torretas son una habilidad como cualquier otra, y no interactúan con nada en particular - no son compañeros, no heredan estadísticas, y la velocidad de ataque no las hace disparar más rápido.
+En general funcionan como cualquier habilidad de Centinela (habilidad estacionaria que ataca/golpea repetidamente).
